@@ -1,0 +1,416 @@
+{
+ "schema": "kct/1",
+ "client": "Duke Energy",
+ "deal": "Duke Energy 2025",
+ "source_file": "Duke Energy 2025 TS.pdf",
+ "sha1": "37b921b7955746a4d49fbb06cdba459d58b7c6b7",
+ "source": "audited",
+ "audit": {
+  "on": "2026-11-12",
+  "method": "Read from the full term sheet by one AI reviewer, then checked against it twice by independent AI reviewers: first every line of the record against the document, then the document section by section against the record. Not signed off by a person. Every quote is looked up in the PDF text each time the tool runs.",
+  "first_audit_changes": 3,
+  "first_audit_substantive": 2,
+  "final_review_changes": 11,
+  "final_review_substantive": 3,
+  "open_points": "The final record is at C:\\Users\\AFarid\\Documents\\Hackathon\\key_credit_terms\\data\\audited\\duke_energy_2025.json; the checker reports structure OK and 23 quotes exact, none loose, missing or on another page. No figure, party, date or status was wrong, and no term sat in the wrong row.\n\nWhat the document cannot resolve:\n1. The printed changed / unchanged flags (facility lines 2 and 3, accordion, leverage covenant line 2) rest on bold type that only the page image shows. I confirmed each on enlarged crops, but the checker can verify only the legend quote. In the Facility row the legend is not quoted at all, because the row is at the three-quote limit.\n2. The summary gives no existing values for the changing terms other than facility size and maturity. The previous borrower sublimits and DUK's previous covenant level are unknown, so the lines say only \"marked as new or changing\".\n3. The summary does not say which entities the 65% level applies to (read as the Borrowers other than DUK and Piedmont) and does not define \"Operative\" or \"Maximum\" sublimits or \"(refresh)\".\n4. Interest Cover and Other stay \"none\" with status stated, derived from the Financial Covenants row. The separately posted Summary of Terms, which was not available, could add covenants.\n5. The 20 silent rows stay not_stated. The summary is an extension and upsize of the existing facility, so its other terms probably continue, but the document does not say so.\n6. \"Sustainability-Linked Option: Removed\" (a bolded changing term), pricing and upfront fees have no template row and reach the docx only through doc.notes and field notes.\n7. Mapping the pricing grid's Borrower letters to the A to H labels of the sublimit table is read from layout; it is consistent in the image and affects only doc.notes.\n8. The document carries no date; \"2025\" comes only from the file name, so doc.date is left empty."
+ },
+ "doc": {
+  "kind": "summary",
+  "title": "Executive Summary",
+  "date": "",
+  "notes": "One-page 'Executive Summary' slide (numbered 14; a 'Transaction Summary' paragraph above a terms table) for a one-year extension and $1.0bn upsize of Duke Energy Corporation's existing $9.0bn Senior Unsecured Master Credit Facility; all terms are on PDF page 1. It is an amendment, but only the proposed terms are shown (no existing / proposed columns): bolding (visible only in the page image) marks the new or changing terms, which are the facility size, the borrower sublimits, the maturity date, the extension options, the removal of the Sustainability-Linked Option, the 70% covenant level for DUK and the upfront fees. The list of Borrowers, the accordion, the LC and swingline sublimits, the reference rate, the CSA, the pricing grid, the 65% covenant level and Piedmont's 70% level are not bolded. It gives headline terms only and says 'Please refer to the Summary of Terms posted separately to the deal site for additional details', so guarantees, covenants other than the financial covenant, events of default, prepayment, transfer and reporting terms are not in it; those rows are 'not stated' rather than 'by reference' because the summary does not address them and does not say that terms it leaves out follow the existing facility (it says only that the Facility 'will also include amendments to certain terms as outlined below'). Pricing (1, 3 or 6-month SOFR + 10.0 bps CSA; a grid by unsecured ratings of facility fee 4.0 to 27.5 bps and all-in drawn pricing of SOFR + CSA + 62.5 to 175.0 bps, with each Borrower's current tier highlighted by its letter in the sublimit table: Duke Energy Progress at A/A2/A; Carolinas, Florida, Indiana and Piedmont at A-/A3/A-; Ohio and Kentucky at BBB+/Baa1/BBB+; Duke Energy Corporation at BBB/Baa2/BBB, i.e. 22.5 bps facility fee and SOFR + CSA + 150.0 bps all-in drawn), upfront fees (old money 6.0 bps, new money 17.5 bps) and the removal of the Sustainability-Linked Option are shown but have no row in the template."
+ },
+ "fields": {
+  "facility": {
+   "lines": [
+    "$10.0bn senior unsecured RCF (existing $9.0bn Senior Unsecured Master Credit Facility upsized by $1.0bn)",
+    "Sub-limits: letters of credit $800m; swingline $350m (neither marked as a new or changing term)",
+    "Borrower sublimits (operative / maximum; all figures marked as new or changing, existing sublimits not stated): see Borrower(s)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Facility $10.0 billion senior unsecured revolving credit facility",
+     "page": 1
+    },
+    {
+     "quote": "$1,000,000,000 upsize of the Company’s existing $9,000,000,000 Senior Unsecured Master Credit Facility (the “Facility”)",
+     "page": 1
+    },
+    {
+     "quote": "LC Sublimit $800 million Swingline Sublimit $350 million",
+     "page": 1
+    }
+   ],
+   "note": "The facility line is in bold in the summary (bolding denotes new or changing terms), as are all sixteen borrower sublimit figures; the LC and swingline sublimits are not bolded, i.e. not shown as changing. Bold type is visible only in the page image; the legend 'Bolding denotes new or changing terms.' is quoted under Accordion and the leverage covenant, because this row is at the three-quote limit."
+  },
+  "borrowers": {
+   "lines": [
+    "Duke Energy Corporation (\"DUK\") - sublimit $2.525bn operative / $5.575bn maximum",
+    "Duke Energy Carolinas, LLC (\"DEC\") - sublimit $1.3bn operative / $2.225bn maximum",
+    "Duke Energy Ohio, Inc. (\"DEO\") - sublimit $825m operative / $950m maximum",
+    "Duke Energy Indiana, LLC (\"DEI\") - sublimit $950m operative / $1.225bn maximum",
+    "Duke Energy Kentucky, Inc. (\"DEK\") - sublimit $250m operative / $400m maximum",
+    "Duke Energy Progress, LLC (\"DEP\") - sublimit $1.675bn operative / $1.775bn maximum",
+    "Duke Energy Florida, LLC (\"DEF\") - sublimit $1.425bn operative / $1.65bn maximum",
+    "Piedmont Natural Gas Company, Inc. (\"Piedmont\") - sublimit $1.05bn operative / $1.2bn maximum"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Duke Energy Corporation (\"DUK\"); Duke Energy Carolinas, LLC (\"DEC\"); Duke Energy Ohio, Inc. (\"DEO\"); Duke Energy Indiana, LLC Borrowers (\"DEI\"); Duke Energy Kentucky, Inc. (\"DEK\"); Duke Energy Progress, LLC (\"DEP\"); Duke Energy Florida, LLC (\"DEF\"); and Piedmont Natural Gas Company, Inc.",
+     "page": 1
+    },
+    {
+     "quote": "Borrower Operative Maximum A) Duke Energy Corporation $2,525 MM $5,575 MM B) Duke Energy Carolinas 1,300 MM 2,225 MM C) Duke Energy Progress 1,675 MM 1,775 MM",
+     "page": 1
+    },
+    {
+     "quote": "Borrower Sublimits D) Duke Energy Florida 1,425 MM 1,650 MM E) Duke Energy Indiana 950 MM 1,225 MM F) Piedmont Natural Gas 1,050 MM 1,200 MM G) Duke Energy Ohio 825 MM 950 MM H) Duke Energy Kentucky 250 MM 400 MM",
+     "page": 1
+    }
+   ],
+   "note": "Legal names are from the Borrowers row; the sublimits are from the Borrower Sublimits table, which uses short names (A to H) and the undefined column headings 'Operative' and 'Maximum'. All sublimit figures are in bold (new or changing terms; this is said in the Facility row because this row is at the eight-line limit); the list of Borrowers itself is not bolded. Operative sublimits add up to $10.0bn (the facility size) and maximum sublimits to $15.0bn. Jurisdictions are not given and no right to add borrowers is mentioned. The first quote runs across the label column of the page text, so the row label 'Borrowers' sits inside it."
+  },
+  "lender_commitments": {
+   "lines": [
+    "Barclays = not stated in term sheet",
+    "No lender commitments stated. Active Arrangers: Wells Fargo Securities, LLC, BofA Securities, Inc., JPMorgan Chase Bank, N.A. and Mizuho Bank, Ltd.; administrative agent not named"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "has engaged Wells Fargo Securities, LLC, BofA Securities, Inc., JPMorgan Chase Bank, N.A., and Mizuho Bank, Ltd. (together, the “Active Arrangers”)",
+     "page": 1
+    }
+   ],
+   "note": "Barclays is not named anywhere in the document. Upfront fees are shown (Old Money 6.0 bps, New Money 17.5 bps) but no commitment amounts."
+  },
+  "purpose": {
+   "lines": [
+    "General corporate purposes (unchanged: the Facility will continue to be used for general corporate purposes)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The proposed $10,000,000,000 Facility will also include amendments to certain terms as outlined below and continue to be used for general corporate purposes.",
+     "page": 1
+    }
+   ],
+   "note": ""
+  },
+  "maturity": {
+   "lines": [
+    "March 16, 2030 (one-year extension; the existing facility is currently scheduled to mature on March 16, 2029)",
+    "+ 1 + 1: two 1-year extension options (refresh); conditions of exercise not detailed in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Maturity Date March 16, 2030 Extension Options Two 1-year extension options (refresh)",
+     "page": 1
+    },
+    {
+     "quote": "a one-year extension and $1,000,000,000 upsize of the Company’s existing $9,000,000,000 Senior Unsecured Master Credit Facility (the “Facility”) that’s currently scheduled to mature on March 16, 2029",
+     "page": 1
+    }
+   ],
+   "note": "'(refresh)' is as printed and is not explained; it reads as the two extension options being reset on the extended facility. Maturity date and extension options are both in bold (new or changing terms). No tenor in years and no closing date are given."
+  },
+  "repayment": {
+   "lines": [
+    "Bullet (revolving; repayable at maturity) (not stated expressly; the facility is a revolving credit facility with a single Maturity Date and no amortisation is shown)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "$10.0 billion senior unsecured revolving credit facility",
+     "page": 1
+    },
+    {
+     "quote": "Maturity Date March 16, 2030",
+     "page": 1
+    }
+   ],
+   "note": "Derived: the summary has no repayment row."
+  },
+  "accordion": {
+   "lines": [
+    "Yes = $2.0bn (not marked as a new or changing term; conditions not detailed in term sheet)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Accordion $2.0 billion",
+     "page": 1
+    },
+    {
+     "quote": "Bolding denotes new or changing terms.",
+     "page": 1
+    }
+   ],
+   "note": "'$2.0 billion' is not bolded in the page image, and bolding denotes new or changing terms; bold type does not survive in the page text, which carries only the legend quoted. The summary does not say whether the accordion is uncommitted, how it is exercised or whether it is in addition to the $10.0bn."
+  },
+  "guarantors": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No guarantee is mentioned. Each of the eight entities is a Borrower with its own sublimit; the summary does not say whether Duke Energy Corporation supports the subsidiary Borrowers' obligations."
+  },
+  "guarantor_coverage": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "security": {
+   "lines": [
+    "Unsecured (senior unsecured revolving credit facility)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "$10.0 billion senior unsecured revolving credit facility",
+     "page": 1
+    },
+    {
+     "quote": "existing $9,000,000,000 Senior Unsecured Master Credit Facility",
+     "page": 1
+    }
+   ],
+   "note": ""
+  },
+  "ranking": {
+   "lines": [
+    "Senior Unsecured (stated: senior unsecured revolving credit facility)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "$10.0 billion senior unsecured revolving credit facility",
+     "page": 1
+    },
+    {
+     "quote": "existing $9,000,000,000 Senior Unsecured Master Credit Facility",
+     "page": 1
+    }
+   ],
+   "note": ""
+  },
+  "fc_leverage": {
+   "lines": [
+    "Consolidated Debt / Capitalization <= 65%; <= 70% for Duke Energy Corporation (DUK) and Piedmont only",
+    "Only 'DUK' is in bold in this row (bolding denotes new or changing terms): the 70% level for DUK is marked as new or changing, the 65% level and Piedmont's 70% level are not; DUK's existing level is not stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial Covenants Max. Consolidated Debt / Capitalization: 65.0% | Max. Consolidated Debt / Capitalization: 70.0% (DUK & Piedmont only)",
+     "page": 1
+    },
+    {
+     "quote": "Bolding denotes new or changing terms.",
+     "page": 1
+    }
+   ],
+   "note": "The debt-to-capitalisation test is the leverage test; there is no Net Debt/EBITDA test. The summary does not define the ratio or say to which entities the 65% level applies (read as the Borrowers other than DUK and Piedmont). The second line rests on the page image: only 'DUK' is in bold in this row ('Piedmont', both percentages and the rest of the row are not), and bold type does not survive in the page text, which carries only the legend quoted. The summary does not say what level applied to DUK before."
+  },
+  "fc_interest_cover": {
+   "lines": [
+    "Interest Cover: none (not stated expressly; the Financial Covenants row of the summary lists only the Consolidated Debt / Capitalization test)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial Covenants Max. Consolidated Debt / Capitalization: 65.0% | Max. Consolidated Debt / Capitalization: 70.0% (DUK & Piedmont only)",
+     "page": 1
+    }
+   ],
+   "note": "Derived from the Financial Covenants row, which gives only the Debt / Capitalization test. The summary refers to a separately posted Summary of Terms for additional details; that document was not available."
+  },
+  "fc_other": {
+   "lines": [
+    "Other: none (not stated expressly; the Financial Covenants row of the summary lists only the Consolidated Debt / Capitalization test)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial Covenants Max. Consolidated Debt / Capitalization: 65.0% | Max. Consolidated Debt / Capitalization: 70.0% (DUK & Piedmont only)",
+     "page": 1
+    }
+   ],
+   "note": "Derived from the Financial Covenants row, which gives only the Debt / Capitalization test. The summary refers to a separately posted Summary of Terms for additional details; that document was not available."
+  },
+  "fc_testing": {
+   "lines": [
+    "Testing frequency and period - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "select_definitions": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "Consolidated Debt and Capitalization are not defined in the summary; no cures, synergies or EBITDA adjustments are mentioned."
+  },
+  "negative_pledge": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The one-page summary has no covenant section (this applies to every Non-Financial Covenants row). It refers to the Summary of Terms posted separately to the deal site for additional details, and does not say that terms it leaves out follow the existing facility."
+  },
+  "permitted_acquisitions": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "permitted_disposals": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "permitted_distributions": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "permitted_indebtedness": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "permitted_loans": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "permitted_guarantees": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "permitted_payments": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "other_covenants": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No negative or affirmative covenants are listed. The summary does show 'Sustainability-Linked Option: Removed' (in bold, i.e. a changing term); it is not an undertaking, so it is recorded in the document notes rather than in this row."
+  },
+  "events_of_default": {
+   "lines": [
+    "Cross default: not stated in term sheet",
+    "Insolvency / creditors' process: not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The summary has no events of default row and does not say that terms it leaves out follow the existing facility (although the transaction is an extension and upsize of that facility)."
+  },
+  "conditions_subsequent": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "mandatory_prepayment": {
+   "lines": [
+    "Change of Control: not stated in term sheet",
+    "Other mandatory prepayment events: not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "Neither change of control nor any prepayment event is mentioned in the summary."
+  },
+  "jurisdiction_topco": {
+   "lines": [
+    "Not stated in term sheet (the Company is Duke Energy Corporation; no jurisdiction of incorporation or governing law is given)"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "Duke Energy Corporation (the “Company”)",
+     "page": 1
+    }
+   ],
+   "note": ""
+  },
+  "transferability": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No assignment or participation terms are given."
+  },
+  "info_annual_consolidated": {
+   "lines": [
+    "Annual audited consolidated accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_annual_obligor": {
+   "lines": [
+    "Annual obligor accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_quarterly": {
+   "lines": [
+    "Quarterly accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_budget": {
+   "lines": [
+    "Annual budget - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  }
+ }
+}

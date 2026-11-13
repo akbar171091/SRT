@@ -1,0 +1,524 @@
+{
+ "schema": "kct/1",
+ "client": "Seadrill",
+ "deal": "Seadrill 2026",
+ "source_file": "Seadrill 2026 TS.pdf",
+ "sha1": "12a0342ff743f5770d4eb79538fe268c45646b17",
+ "source": "audited",
+ "audit": {
+  "on": "2026-11-12",
+  "method": "Read from the full term sheet by one AI reviewer, then checked against it twice by independent AI reviewers: first every line of the record against the document, then the document section by section against the record. Not signed off by a person. Every quote is looked up in the PDF text each time the tool runs.",
+  "first_audit_changes": 8,
+  "first_audit_substantive": 2,
+  "final_review_changes": 10,
+  "final_review_substantive": 4,
+  "open_points": "Final record: C:\\Users\\AFarid\\Documents\\Hackathon\\key_credit_terms\\data\\audited\\seadrill_2026.json. Checker: structure OK; 45 quotes exact, 0 loose, 0 on another page, 0 missing. Every row of the two summary-terms slides (pp35-36, read from the page images as well as the dump) maps to a record row, and every figure in the record matches the Proposed column, with existing values correctly labelled. No wrong, transposed or misplaced figure was found. Searches of the dump for purpose, transfers, information undertakings, events of default, change of control, prepayment, governing law and extension options found nothing, so those rows stay not_stated. Only the Seadrill term sheet was used for content; the other audited records were read only to compare house style.\n\nFirst auditor's doubts:\n1. mandatory_prepayment: changed to not_stated (see changes).\n2. fc_testing: by_reference kept.\n3. fc_other 'Other: none': kept as stated. The 'Financial covenants' row has two bullets and nothing else is labelled a financial covenant. This file cannot exclude a further covenant in the separate term sheet or draft Amendment posted to SyndTrak.\n4. Liens versus debt: kept. Lien-carrying baskets (Secured, Specified bilateral obligation, 2nd Lien Notes, Junior) are under Negative Pledge; Unsecured and General are under Permitted Financial Indebtedness, with pointers both ways. The slide heads all of these rows 'Permitted liens & indebtedness', so the split is a presentation choice. A reader who wants the $500m second lien and $250m junior caps in the debt row would have to move them, not copy them.\n5. DACA quote: kept. It is verbatim from the dump and carries the 2.50x figure, but has 12 words of the Existing column in the middle. The note, which prints in the Word comment, explains this.\n7. Ranking and Repayment: kept as derived points with the basis in brackets (p23 'First Lien RCF', p30 'RCF capacity', commitment fee, Scheduled Commitment Termination Date).\n8. lender_commitments: three lines kept. The commitment deadline matches how the other lender-presentation records handle it. The JLA Fee is the only statement in the document tying a fee to a commitment size, and the template has no fee row.\n9. Pricing and fees: left in notes, which reach the reader through the Word comments.\n\nWhat the document cannot resolve:\n- How the $250mm anti cash hoarding provision operates.\n- What 'Specified bilateral obligation' ($100mm, existing $25mm) caps.\n- What 'JLA' stands for, and whether the 'Seadrill Ltd 8.375% senior notes' are the $575mm Second Lien notes on p23.\n- The stated maturity date of the Second Lien Notes, on which the springing maturity depends.\n- Whether the $100mm accordion sits on top of the upsized $275mm.\n- The meaning of the DACA bullet ('subject to Net Leverage of > 2.50x').\n- 'Junior: Greater of (i) $250mm and (ii) Net Leverage <= 2.00x', which compares a dollar amount with a ratio.\n- p23 shows $575mm of Second Lien notes against a $500mm permitted basket on p36.\n- 'Any unsecured notes to mature 91 days after the Scheduled Commitment Termination Date' does not say 'no earlier than'.\n- Seadrill Limited is identified as the top company only from the disclaimer and the financial statement headings; no jurisdiction is given.\nAll of these are recorded as worded."
+ },
+ "doc": {
+  "kind": "lender_presentation",
+  "title": "Lender Presentation",
+  "date": "May 2026",
+  "notes": "Seadrill lender presentation (38 slides) for a proposed amendment, upsize and extension of the existing first lien RCF of Seadrill Finance Limited. The terms are on the two 'Summary terms and conditions' slides (PDF pages 35-36), which show Existing and Proposed columns side by side; page 37 has the timeline and pages 23, 30 and 33 mention the RCF in passing. It is a summary only: many rows say 'Same as existing', and there is nothing on purpose, events of default, change of control, mandatory prepayment, transfers, information undertakings or conditions. A separate term sheet and a draft Amendment are to be posted on SyndTrak (page 37)."
+ },
+ "fields": {
+  "facility": {
+   "lines": [
+    "Up to $275m first lien RCF (existing: $225m)",
+    "L/C sublimit: $100m (same as existing)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Facility $225mm Up to $275mm",
+     "page": 35
+    },
+    {
+     "quote": "L/C sublimit • $100mm Same as existing",
+     "page": 35
+    },
+    {
+     "quote": "Undrawn $178 First Lien RCF1",
+     "page": 23
+    }
+   ],
+   "note": "The Facility row gives the amount only; the facility type ('First Lien RCF') comes from the liquidity chart on p23 and the RCF footnotes on pp23, 30 and 33. 'Up to' is as printed. Pricing is not a template row (p35): SOFR margin by ratings - >= BB / Ba2 2.500%; BB- / Ba3 2.750%; B+ / B1 3.000%; B / B2 3.250%; <= B- / B3 3.500% (same grid as existing, where the column is headed 'Adj. SOFR margin'); the 10.0 bps Credit Spread Adjustment is removed; commitment fee 0.50% flat (existing: 0.50% for Years 1-3, 0.75% for Year 4, 1.00% thereafter). Fees are in the Lender Commitments note."
+  },
+  "borrowers": {
+   "lines": [
+    "Seadrill Finance Limited (unchanged from existing)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Borrower Seadrill Finance Limited (“Borrower”) Seadrill Finance Limited (“Borrower”)",
+     "page": 35
+    }
+   ],
+   "note": "Entity type and jurisdiction of the Borrower are not given; no right to add further borrowers is mentioned."
+  },
+  "lender_commitments": {
+   "lines": [
+    "Barclays = not stated in term sheet",
+    "Admin agent: JPMorgan Chase Bank, NA (existing: J.P. Morgan SE); arrangers / bookrunners not named; lender commitments not listed",
+    "Commitments due from lenders by 5 June 2026; JLA Fee of $150k for lender commitments >= $75m, payable only if the outstanding Seadrill Ltd 8.375% senior notes are not refinanced or redeemed by 31 December 2026"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "Admin agent J.P. Morgan SE JPMorgan Chase Bank, NA",
+     "page": 35
+    },
+    {
+     "quote": "Commitments due from lenders no later than 12:00 PM CT on Friday, June 5",
+     "page": 37
+    },
+    {
+     "quote": "JLA Fee: $150k paid for lender commitments ≥ $75 million, payable only in the event that the outstanding Seadrill Ltd 8.375% senior notes are not refinanced or redeemed by December 31, 2026",
+     "page": 36
+    }
+   ],
+   "note": "Barclays is not named anywhere in the presentation. No arranger or bookrunner titles are given; p38 lists J.P. Morgan contacts only. 'JLA' is not expanded in the presentation and the 8.375% senior notes are not otherwise described. The commitment deadline is 12:00 PM CT on Friday, June 5 (calendar headed June 2026). Upfront fee (p36): old money 45.0 bps, new money 75.0 bps, paid on final allocations (15.0 bps per annum)."
+  },
+  "purpose": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The summary terms have no purpose / use of proceeds row. The slides only show that the RCF is undrawn apart from ~$47m of letters of credit (p23)."
+  },
+  "maturity": {
+   "lines": [
+    "Earlier of (i) 5 years from closing and (ii) the 91st day prior to the stated maturity date of the Second Lien Notes (springing maturity). Existing: earlier of July 2028 and the same springing date",
+    "Any unsecured notes to mature 91 days after the Scheduled Commitment Termination Date (unchanged)",
+    "Closing and effectiveness expected shortly after signature pages are due on 10 June 2026 (indicative timeline); no extension options stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Earlier of (i) July 2028 and (ii) the 91st day prior to the stated maturity date of the Second • Earlier of (i) 5 years from closing and (ii) the 91st day prior to the stated maturity date of",
+     "page": 35
+    },
+    {
+     "quote": "Any unsecured notes to mature 91 days after the Scheduled Commitment Termination Date",
+     "page": 35
+    },
+    {
+     "quote": "Signature pages due from lenders no later than 12:00 PM CT on Wednesday, June 10th ‒ Closing and effectiveness to occur shortly thereafter",
+     "page": 37
+    }
+   ],
+   "note": "The first quote is one line of the dump and carries the existing column followed by the proposed column; the proposed sentence ends 'the Second Lien Notes' on the next line. The stated maturity date of the Second Lien Notes is not given in the presentation."
+  },
+  "repayment": {
+   "lines": [
+    "Bullet (revolving; repayable at maturity) (not stated expressly; the facility is an RCF with a commitment fee and a Scheduled Commitment Termination Date, and no amortisation is shown)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "assumes RCF capacity of $225mm less $47mm letter of credit",
+     "page": 30
+    },
+    {
+     "quote": "Commitment fee 0.50% for Years 1-3; 0.75% for Year 4; 1.00% thereafter 0.50%",
+     "page": 35
+    },
+    {
+     "quote": "Any unsecured notes to mature 91 days after the Scheduled Commitment Termination Date",
+     "page": 35
+    }
+   ],
+   "note": "Derived: the summary terms have no repayment row. The quotes give the basis (revolving facility, commitment fee, commitment termination date)."
+  },
+  "accordion": {
+   "lines": [
+    "Yes = $100m (same as existing; conditions not detailed)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Accordion • $100mm Same as existing",
+     "page": 35
+    }
+   ],
+   "note": "The presentation does not say whether the $100m accordion sits on top of the upsized $275m facility, or give its conditions (uncommitted, ratio test, lender consent)."
+  },
+  "guarantors": {
+   "lines": [
+    "Same as existing: substantially all restricted subsidiaries (other than Excluded Subsidiaries and Harsh Environment Subsidiaries)",
+    "All direct and indirect equity owners of Collateral Rig Owners, and any Restricted Subsidiary that directly or indirectly owns equity in a Collateral Rig Owner"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Substantially all restricted subsidiaries, (other than Excluded Subsidiaries and Harsh",
+     "page": 35
+    },
+    {
+     "quote": "Environment Subsidiaries), all direct and indirect equity owners of Collateral Rig Owners, and Same as existing",
+     "page": 35
+    },
+    {
+     "quote": "any Restricted Subsidiary that directly or indirectly owns equity in a Collateral Rig Owner",
+     "page": 35
+    }
+   ],
+   "note": "The detail is in the Existing column; the Proposed column says 'Same as existing'. No guarantors are named and the parent (Seadrill Limited) is not expressly listed. No guarantee release provision is stated; the Collateral row refers to 'Required Guarantors' and to a Harsh Environment Subsidiary Release Condition without describing them."
+  },
+  "guarantor_coverage": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No coverage test and no material-subsidiary threshold; the guarantor group is described as substantially all restricted subsidiaries (see Guarantor(s))."
+  },
+  "security": {
+   "lines": [
+    "Secured (description same as existing): Collateral Rigs, 100% equity in Required Guarantors, and all other property of any Credit Party (including cash and cash equivalents and proceeds) over which a Lien is granted under any Collateral Document",
+    "Release: Harsh Environment Rigs are collateral only prior to the Harsh Environment Subsidiary Release Condition (condition not described)",
+    "Proposed: West Phoenix, West Aquarius and West Eclipse to be designated Non-Core Rigs and the collateral over those rigs released",
+    "Proposed: no requirement for new DACAs outside the United States, subject to Net Leverage of > 2.50x"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Collateral Rigs (including Harsh Environment Rigs prior to the occurrence of the Harsh Environment Subsidiary Release Condition), 100% equity in Required Guarantors, all other",
+     "page": 35
+    },
+    {
+     "quote": "West Phoenix, West Aquarius and West Eclipse rigs to be designated as Non -Core Rigs and the collateral over such rigs will be released",
+     "page": 35
+    },
+    {
+     "quote": "No requirement for new DACAs outside of the United States, subject to Net Leverage purported to be granted under any Collateral Document to secure the Obligations of > 2.50x",
+     "page": 35
+    }
+   ],
+   "note": "The first bullet of the Collateral row is identical in the Existing and Proposed columns; the two 'Proposed' lines are new bullets in the Proposed column only. The DACA bullet wraps over two lines of the dump; the third quote is those two lines as extracted, so the middle words ('purported to be granted ... the Obligations') are the Existing column sitting between 'Net Leverage' and 'of > 2.50x' (on the slide the bullet reads 'No requirement for new DACAs outside of the United States, subject to Net Leverage of > 2.50x'). The bullet is recorded as worded: it reads as no new DACAs outside the US unless Net Leverage is above 2.50x, but the slide does not spell that out. The lien priority is not in this row (see Ranking)."
+  },
+  "ranking": {
+   "lines": [
+    "Senior Secured (first lien; ahead of the Senior Secured Second Lien Notes; not stated expressly in the summary terms - the facility is described as 'First Lien RCF' and is secured on the Collateral Rigs)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Undrawn $178 First Lien RCF1",
+     "page": 23
+    },
+    {
+     "quote": "$575mm Senior Secured Second Lien Term Notes",
+     "page": 23
+    },
+    {
+     "quote": "Collateral Rigs (including Harsh Environment Rigs prior to the occurrence of the Harsh",
+     "page": 35
+    }
+   ],
+   "note": "Derived from the capital structure slide (p23) and the Collateral row; there is no ranking row and no intercreditor description. p23 shows $575m of Second Lien notes outstanding, while the permitted 2nd Lien Notes basket on p36 is $500m in the aggregate."
+  },
+  "fc_leverage": {
+   "lines": [
+    "Net Leverage <= 3.00x (same as existing; no step-downs or step-ups shown)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial covenants • Net Leverage ≤ 3.00x Same as existing",
+     "page": 35
+    }
+   ],
+   "note": "Net Leverage is not defined in the summary terms beyond the cash netting rule (see Other Select Definitions). The leverage figures on the company slides (0.85x on p6, defined there as Net Debt / LTM adjusted EBITDA with net debt excluding restricted cash) are the Company's reporting metric and are not said to be the covenant calculation."
+  },
+  "fc_interest_cover": {
+   "lines": [
+    "Interest Coverage >= 2.50x (same as existing; definition not given)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial covenants • Net Leverage ≤ 3.00x Same as existing • Interest Coverage ≥ 2.50x",
+     "page": 35
+    }
+   ],
+   "note": "'Same as existing' is printed once for the Financial covenants row and applies to both bullets."
+  },
+  "fc_other": {
+   "lines": [
+    "Other: none (the Financial covenants row lists only Net Leverage and Interest Coverage; Liquidity >= $350m and Collateral Coverage appear only as conditions to baskets - see Permitted Distributions, Permitted Disposals and Negative Pledge)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial covenants • Net Leverage ≤ 3.00x Same as existing • Interest Coverage ≥ 2.50x L/C sublimit",
+     "page": 35
+    }
+   ],
+   "note": "The quote runs into the next row label to show that the Financial covenants row has two bullets only. Anti cash hoarding ($250m) has its own row on the slide and is recorded under [Other], not as a financial covenant."
+  },
+  "fc_testing": {
+   "lines": [
+    "Testing frequency, testing period and first test date not given; the Proposed column says only 'Same as existing' for the financial covenants, i.e. it points to the existing facility terms"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Financial covenants • Net Leverage ≤ 3.00x Same as existing",
+     "page": 35
+    }
+   ],
+   "note": "The presentation says nothing about test dates, the testing period or any springing condition; the Existing column gives the two covenant levels only. Kept as by_reference because the Financial covenants row is addressed and the Proposed column defers to the existing terms for it, without the testing detail this row needs. The row prints highlighted either way."
+  },
+  "select_definitions": {
+   "lines": [
+    "Adjusted EBITDA: cash netting for the leverage calculation (same as existing) - if any Loans are outstanding or L/C Obligations > $100m, the lesser of (i) Specified Group Cash and (ii) $100m; otherwise unlimited. EBITDA add-backs not detailed"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "If any Loans are outstanding or if L/C Obligations > $100mm, then the lesser of (i) Specified Same as existing",
+     "page": 35
+    },
+    {
+     "quote": "leverage calculation Group Cash or (ii) $100mm; otherwise, unlimited",
+     "page": 35
+    }
+   ],
+   "note": "Equity cures, deemed cures and synergies are not addressed. Each quote is one line of the dump: 'Same as existing' is the Proposed column and 'leverage calculation' is the second line of the row label 'Cash netting for leverage calculation'. Specified Group Cash, Net Leverage, Liquidity, Free Cash Flow and Collateral Coverage are used in the summary terms but not defined there. The financial slides give the Company's own reporting definitions (leverage as Net Debt / LTM adjusted EBITDA, p6; Liquidity as unrestricted cash plus available RCF capacity, pp30 and 33; free cash flow as cash flows from operating activities minus capital expenditures, pp22 and 27), but the summary terms do not say that the covenant terms follow them, so they are not used in this row."
+  },
+  "negative_pledge": {
+   "lines": [
+    "Liens and indebtedness share the same baskets ('Permitted liens & indebtedness' rows)",
+    "Secured (same as existing): Additional Liens $25m; CapEx / Equipment $25m; Cash & Equivalents $25m; Acquired Property subject to Additional Rig Test, Collateral Coverage >= 3.50x and Net Leverage <= 2.00x",
+    "Specified bilateral obligation: $100m (existing $25m)",
+    "2nd Lien Notes: $500m in the aggregate (unchanged)",
+    "Junior: greater of (i) $250m (existing $200m) and (ii) Net Leverage <= 2.00x",
+    "Unsecured and General baskets: see Permitted Financial Indebtedness"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Additional Liens: $25mm Permitted liens & • CapEx / Equipment: $25mm indebtedness (Secured) • Cash & Equivalents: $25mm Same as existing • Acquired Property: Additional Rig Test, Collateral Coverage ≥ 3.50x, and Net Leverage ≤ 2.00x",
+     "page": 36
+    },
+    {
+     "quote": "Specified bilateral • $25mm • $100mm",
+     "page": 36
+    },
+    {
+     "quote": "2nd Lien Notes: $500mm, in the aggregate (2nd Lien Notes / • Junior: Greater of (i) $200mm and (ii) Net Leverage ≤ 2.00x • Junior: Greater of (i) $250mm and (ii) Net Leverage ≤ 2.00x",
+     "page": 36
+    }
+   ],
+   "note": "The term sheet does not separate liens from debt: the same rows are headed 'Permitted liens & indebtedness'. The secured, bilateral and 2nd lien / junior rows are set out here and the unsecured row under Permitted Financial Indebtedness. The 'Specified bilateral obligation' row sits between the secured and 2nd lien rows but is not itself headed liens or indebtedness, and what it caps is not described. The quotes are dump lines and include fragments of the row labels. 'Junior: Greater of (i) $250mm and (ii) Net Leverage <= 2.00x' is as worded (a dollar amount compared with a ratio test)."
+  },
+  "permitted_acquisitions": {
+   "lines": [
+    "Not stated in term sheet (no acquisitions row in the summary terms; related items are the Permitted investments basket - see Permitted Loans - and the Acquired Property liens / indebtedness test - see Negative Pledge)"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The presentation does not say whether acquisitions fall under 'Permitted investments' ($100m), so the basket is not attributed to this row."
+  },
+  "permitted_disposals": {
+   "lines": [
+    "Limitation on asset sales: Collateral Coverage >= 2.00x (unchanged)",
+    "Non-Cash Consideration <= $25m (unchanged)",
+    "Not less than 75% of the consideration received to be cash or cash equivalents (existing: 80%)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Limitation on asset • Collateral Coverage ≥ 2.00x • Collateral Coverage ≥ 2.00x",
+     "page": 36
+    },
+    {
+     "quote": "sales • Non-Cash Consideration ≤ $25mm • Non-Cash Consideration ≤ $25mm",
+     "page": 36
+    },
+    {
+     "quote": "Not less than 80% of the consideration received is cash or cash equivalents • Not less than 75% of the consideration received is cash or cash equivalents",
+     "page": 36
+    }
+   ],
+   "note": "Each quote is one dump line showing the Existing bullet followed by the Proposed bullet. Related points recorded elsewhere: Non-Core Rigs collateral release (Collateral/Security) and distribution of Specified Asset Sale Proceeds (Permitted Distributions)."
+  },
+  "permitted_distributions": {
+   "lines": [
+    "Unlimited, subject to (i) no Default or EoD, (ii) Net Leverage < 1.75x (existing < 1.00x) and (iii) Liquidity >= $350m",
+    "From Free Cash Flow, subject to (i) no Default or EoD, (ii) Net Leverage < 2.50x (existing < 2.00x) and (iii) Liquidity >= $350m",
+    "General basket: not to exceed $75m in the aggregate (existing $50m), subject to no Default or EoD and Liquidity >= $350m",
+    "Specified Asset Sale Proceeds: up to 100% of net cash proceeds (unchanged)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Unlimited subject to compliance with (i) No Default or EoD, (ii) Net Leverage < 1.75x, (iii)",
+     "page": 36
+    },
+    {
+     "quote": "Permitted from Free Cash Flow subject to compliance with (i) No Default or EoD, (ii) Net Restricted payments Leverage < 2.00x, (iii) Liquidity ≥ $350mm Leverage < 2.50x, (iii) Liquidity ≥ $350mm",
+     "page": 36
+    },
+    {
+     "quote": "Not to exceed $75mm in the aggregate, subject to no Default or EoD and Liquidity ≥ $350mm $350mm • Specified Asset Sale Proceeds: up to 100% of net cash proceeds",
+     "page": 36
+    }
+   ],
+   "note": "The second quote is the Proposed Free Cash Flow bullet followed by the next dump line, which carries the row label ('Restricted payments'), the Existing figure (2.00x) and the Proposed figure (2.50x). The doubled '$350mm $350mm' in the third quote is the Existing and Proposed columns on one dump line. 'General basket' is this record's label for the third bullet, which the slide gives without a heading."
+  },
+  "permitted_indebtedness": {
+   "lines": [
+    "Unsecured: permitted subject to no Default or EoD and pro forma compliance with financial covenants (unchanged); maturity condition for unsecured notes - see Maturity Date",
+    "General: $25m (unchanged)",
+    "Secured, Specified bilateral obligation, 2nd Lien Notes and Junior baskets: the term sheet deals with liens and indebtedness together ('Permitted liens & indebtedness' rows) - see Negative Pledge"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Unsecured: No Default or EoD, pro forma compliance with financial covenants indebtedness • General: $25mm • General: $25mm (Unsecured)",
+     "page": 36
+    },
+    {
+     "quote": "Permitted Liens & Indebtedness • 2nd Lien Notes: $500mm, in the aggregate",
+     "page": 36
+    }
+   ],
+   "note": "The row for unsecured debt is itself headed 'Permitted liens & indebtedness (Unsecured)'. The secured, bilateral, 2nd lien and junior baskets are debt baskets as well as lien baskets; their amounts and the existing figures are under Negative Pledge and are not repeated here (house rule on repetition across rows). The second quote shows the combined row heading."
+  },
+  "permitted_loans": {
+   "lines": [
+    "Permitted investments: $100m (same as existing)",
+    "LCE investments: lesser of $25m and the aggregate amount of accounts receivable owed by third parties to all such Ineligible LCEs (same as existing)",
+    "Loans and advances are not addressed separately in the summary terms"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Permitted investments $100mm Same as existing",
+     "page": 36
+    },
+    {
+     "quote": "LCE investments Lesser of $25mm and the aggregate amount of accounts receivable owed by third parties to all Same as existing such Ineligible LCEs",
+     "page": 36
+    }
+   ],
+   "note": "'LCE' and 'Ineligible LCEs' are not defined in the presentation. In the second quote 'Same as existing' is the Proposed column sitting between two lines of the Existing column."
+  },
+  "permitted_guarantees": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No guarantees row; the presentation does not say whether guarantees count as indebtedness or investments."
+  },
+  "permitted_payments": {
+   "lines": [
+    "Not stated in term sheet (the Restricted payments row - see Permitted Distributions - does not say whether it covers prepayment or redemption of junior or unsecured debt)"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No row on payments of junior, subordinated or other restricted debt. The only related condition is that any unsecured notes are to mature 91 days after the Scheduled Commitment Termination Date (see Maturity Date)."
+  },
+  "other_covenants": {
+   "lines": [
+    "Anti cash hoarding: $250m (same as existing; mechanics not described)",
+    "No undertakings beyond those in the rows above (e.g. mergers, affiliate transactions, change of business, sanctions) are listed in the summary terms"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Anti cash hoarding • $250mm Same as existing",
+     "page": 35
+    }
+   ],
+   "note": "The summary is not presented as a closed list of covenants; the remaining undertakings would be in the existing credit agreement and the draft Amendment, which are not part of this document. Anti cash hoarding is recorded in this row only: the slide gives the label and $250mm and does not say how the provision operates, so it is not treated as a mandatory prepayment event (that row is left not stated, with a pointer here)."
+  },
+  "events_of_default": {
+   "lines": [
+    "Cross default: not stated in term sheet",
+    "Insolvency / creditors' process: not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No events of default row. 'Default or EoD' appears only as a condition to the restricted payments and unsecured debt baskets."
+  },
+  "conditions_subsequent": {
+   "lines": [
+    "None stated in term sheet (no conditions precedent or subsequent are listed; the DACA point is in the Collateral row - see Collateral/Security)"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The only perfection-type point is the Proposed DACA bullet in the Collateral row. It is worded as the absence of a requirement, is not described as a post-closing obligation and has no deadline, so it is recorded under Collateral/Security and only pointed to here."
+  },
+  "mandatory_prepayment": {
+   "lines": [
+    "Change of Control: not stated in term sheet",
+    "Other mandatory prepayment events: not stated in term sheet (the anti cash hoarding item is listed with an amount only; whether it requires prepayment is not described - see Other)"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The presentation has no mandatory prepayment row and no change of control provision; the words 'prepay' and 'change of control' do not appear in it, and no disposal, insurance, debt issuance or excess cashflow sweep is mentioned. The only related item is the 'Anti cash hoarding' row on p35 ($250mm, 'Same as existing'), which gives a label and an amount and does not say whether it requires prepayment, restricts drawing or operates in some other way. It is recorded once, under [Other], and this row is left not stated so that it is highlighted for completion from the credit agreement."
+  },
+  "jurisdiction_topco": {
+   "lines": [
+    "Not stated in term sheet (top company is named as Seadrill Limited, NYSE: SDRL; country of incorporation and governing law not given)"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "those regarding Seadrill Limited’s (the “Company”) outlook and guidance",
+     "page": 2
+    },
+    {
+     "quote": "Seadrill at a glance (NYSE: SDRL)",
+     "page": 6
+    }
+   ],
+   "note": "The quotes only identify the top company; the presentation gives no place of incorporation for Seadrill Limited or for the Borrower."
+  },
+  "transferability": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_annual_consolidated": {
+   "lines": [
+    "Annual audited consolidated accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_annual_obligor": {
+   "lines": [
+    "Annual obligor accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_quarterly": {
+   "lines": [
+    "Quarterly accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_budget": {
+   "lines": [
+    "Annual budget - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  }
+ }
+}

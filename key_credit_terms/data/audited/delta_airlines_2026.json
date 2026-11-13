@@ -1,0 +1,642 @@
+{
+ "schema": "kct/1",
+ "client": "Delta Airlines",
+ "deal": "Delta Airlines 2026",
+ "source_file": "Delta Airlines 2026 TS .pdf",
+ "sha1": "d6c342b4e6587fb7de50ed6a58d13410d0adb6cd",
+ "source": "audited",
+ "audit": {
+  "on": "2026-11-12",
+  "method": "Read from the full term sheet by one AI reviewer, then checked against it twice by independent AI reviewers: first every line of the record against the document, then the document section by section against the record. Not signed off by a person. Every quote is looked up in the PDF text each time the tool runs.",
+  "first_audit_changes": 8,
+  "first_audit_substantive": 6,
+  "final_review_changes": 5,
+  "final_review_substantive": 2,
+  "open_points": "Final record: C:\\Users\\AFarid\\Documents\\Hackathon\\key_credit_terms\\data\\audited\\delta_airlines_2026.json. Checker: structure OK; 66 exact, 1 loose, 0 on another page, 0 missing (of 67). The loose quote is the mandatory prepayment sentence on p6, which wraps past the two-line label 'Mandatory Prepayments and / Commitment Reductions:'.\n\nThe document-to-record walk of all 12 pages (dump, plus page images 1, 2, 3, 6, 8, 9, 10 and 12) found no term missing from a row, no term in the wrong row and no wrong figure. Every amount, ratio, period and date in the record matches the page and the tranche or covenant it is attributed to. Pricing, fees, default interest, conditions precedent and representations (pp. 3-7, 12) have no row in the template and are deliberately not recorded.\n\nDoubts the term sheet itself cannot resolve:\n1. Mandatory prepayment (p6): the sentence has no conjunction between 'exceed the amount of the commitments under the Revolving Facility' and 'to the extent necessary to comply with the Asset Coverage Ratio'. It is recorded as two triggers; the second is independently supported on p9. The ambiguity is in the note.\n2. Event of default 5 (p10): whether 'in each case in connection with defaults resulting from changes in the appraised value of Pool Assets' also limits the affirmative-covenant cure periods is unclear; it is reproduced as written.\n3. 'Initial Revolving Credit Agreement' (p9, used for EBITDAR, Interest Expense and appraised value) is never defined. The record does not assert that it is the Existing Credit Agreement.\n4. 'Double negative pledge' (p8) is named but not described, so the printed lines only carve it out and point to the Negative Pledge row.\n5. The LC Tranche is printed as $0 on p1 and p2 (confirmed on the page images; 'LC Tranche: None' for upfront fees on p4 is consistent). It is recorded as printed; whether $0 is a placeholder cannot be told.\n6. The jurisdiction of Delta Air Lines, Inc. is not stated; the row stays not_stated with New York governing law on the second line. A search of the dump found only the 'domiciled in the United States' insurance wording and the 'Delaware Divisions' heading.\n\nJudgement calls confirmed and left unchanged:\n- guarantor_coverage stays stated as a derived 'None': it follows directly from 'Guarantors: None.' on p1.\n- maturity stays stated: the tenors are express; only the Extension Option is by reference, and the line says so.\n- conditions_subsequent stays not_stated: there is no post-closing obligation in the term sheet.\n- Refinancing Revolving Facilities stay in the accordion row; the $1.0bn accordion figure is derived ($3.65bn cap less $2.65bn) and labelled as such.\n- The 60-day Asset Coverage remedy appears in fc_other, mandatory_prepayment and events_of_default, and the annual appraisal in fc_testing and info_budget. I left the repetition because each row needs the point.\n- Four lines exceed the ~250-character style target, all within the 420 limit: events_of_default line 2 (277), other_covenants line 4 (269), fc_other line 1 and mandatory_prepayment line 3 (251 each)."
+ },
+ "doc": {
+  "kind": "term_sheet",
+  "title": "DELTA AIR LINES, INC. REVOLVING CREDIT FACILITY - Summary of Principal Terms and Conditions",
+  "date": "",
+  "notes": "Posting-version summary of principal terms for a new $2.65bn senior unsecured revolving credit facility for Delta Air Lines, Inc. (JPMorgan Chase Bank, N.A. as Agent and Lead Arranger); the term sheet itself is undated and refers to a Commitment Letter dated May 6, 2026. The terms are on pages 1-11 in a two-column label / value layout under sections A to E; Schedule I on page 12 is the ratings-based pricing grid. It is not an amendment with existing and proposed columns, but the facility refinances the Existing Credit Agreement (Amended and Restated Credit Agreement dated November 6, 2023) and several points are given only by reference to it: 'Same as set forth in the Existing Credit Agreement' (extension option, refinancing facilities, assignments and participations), conditions precedent 'substantially consistent with' it, and the 'Documentation Principles' (terms no less favourable to the Borrower than the Existing Credit Agreement, modified for the Collateral Release Date). It is indicative only, says it does not describe all terms of the Credit Documentation, and gives no lender commitments."
+ },
+ "fields": {
+  "facility": {
+   "lines": [
+    "$2.65bn senior unsecured RCF, comprising a $1.325bn 3-Year Tranche + a $1.325bn 5-Year Tranche + a separate $0 LC Tranche (standby letters of credit only)",
+    "Sub-limits: letters of credit $250m within each of the 3-Year Tranche and the 5-Year Tranche, in dollars or certain foreign currencies consistent with the Existing Credit Agreement; no swingline stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "A senior unsecured revolving credit facility of $2,650,000,000.00",
+     "page": 2
+    },
+    {
+     "quote": "in an aggregate amount of $1,325,000,000, including a letter of credit sub-facility which shall provide for Letters of Credit denominated in dollars or certain foreign currencies consistent with the Existing Credit Agreement of $250,000,000",
+     "page": 2
+    },
+    {
+     "quote": "A separate tranche under the Revolving Facility in the amount of $0 shall be available solely for the issuance of standby letters of credit (the “LC Tranche”)",
+     "page": 1
+    }
+   ],
+   "note": "The LC Tranche is stated as $0 in both the Issuing Banks and the Amounts paragraphs; it is recorded as printed. The two $250m letter of credit sub-facilities sit inside the two tranches and do not add to the $2.65bn total."
+  },
+  "borrowers": {
+   "lines": [
+    "Delta Air Lines, Inc. (the 'Borrower'); entity type and jurisdiction not given in term sheet",
+    "No right to add subsidiary or designated borrowers is stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Delta Air Lines, Inc. (the “Borrower”).",
+     "page": 1
+    }
+   ],
+   "note": ""
+  },
+  "lender_commitments": {
+   "lines": [
+    "Barclays = not stated in term sheet",
+    "No commitments stated. Administrative Agent: JPMorgan Chase Bank, N.A. (JPMCB). Lead Arrangers: JPMCB and any other joint lead arrangers appointed under the Commitment Letter dated May 6, 2026. Lenders: a syndicate of banks and other institutions"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "JPMorgan Chase Bank, N.A. (“JPMCB”) (in such capacity, together with any other joint lead arrangers appointed pursuant to that certain Commitment Letter, dated as of May 6, 2026, between the Borrower and JPMCB, the “Lead Arrangers”).",
+     "page": 1
+    },
+    {
+     "quote": "JPMCB will act as administrative agent",
+     "page": 1
+    },
+    {
+     "quote": "A syndicate of banks, financial institutions and other entities",
+     "page": 1
+    }
+   ],
+   "note": "Barclays is not named anywhere in the term sheet. The Upfront Fees paragraph (page 4) refers to each Lender's 'allocated commitment' without giving amounts."
+  },
+  "purpose": {
+   "lines": [
+    "General corporate purposes; working capital",
+    "Refinancing of the Existing Credit Agreement (Amended and Restated Credit Agreement dated November 6, 2023, JPMCB as administrative agent)",
+    "Payment of transaction costs, fees and expenses"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The proceeds of the Revolving Loans and Letters of Credit shall be used (i) to refinance the Existing Credit Agreement, (ii) pay transaction costs, fees and expenses, (iii) to finance working capital and (iv) for other general corporate purposes.",
+     "page": 3
+    },
+    {
+     "quote": "the “Existing Credit Agreement” shall mean the Amended and Restated Credit Agreement, dated as of November 6, 2023",
+     "page": 2
+    }
+   ],
+   "note": ""
+  },
+  "maturity": {
+   "lines": [
+    "3-Year Tranche ($1.325bn): 3 years after the Closing Date",
+    "5-Year Tranche ($1.325bn): 5 years after the Closing Date",
+    "LC Tranche ($0): 3 years after the Closing Date",
+    "Extension Option: each maturity date is subject to an Extension Option that is 'Same as set forth in the Existing Credit Agreement'; number and length of extensions and consent terms not detailed in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "ending on the date that is three years after the Closing Date (the “3-Year Tranche Maturity Date”), subject to the Extension Option described below.",
+     "page": 2
+    },
+    {
+     "quote": "ending on the date that is five years after the Closing Date (the “5-Year Tranche Maturity Date”), subject to the Extension Option described below.",
+     "page": 2
+    },
+    {
+     "quote": "Extension Option: Same as set forth in the Existing Credit Agreement.",
+     "page": 3
+    }
+   ],
+   "note": "Tenors are stated; the extension option is given only by reference to the Existing Credit Agreement, so the '+ 1 + 1' part of the template cannot be completed from the term sheet. The Closing Date is not a calendar date in the term sheet. LC Tranche maturity is on page 2 ('LC Tranche Maturity Date')."
+  },
+  "repayment": {
+   "lines": [
+    "Bullet (revolving; repayable at maturity) for each tranche (not stated expressly; loans are available on a revolving basis until the relevant tranche Maturity Date and the term sheet has no scheduled amortisation)",
+    "Voluntary prepayment and permanent commitment reduction permitted in a minimum amount of $5m without premium or penalty (other than breakage costs); loans may be repaid without reducing commitments"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "3-Year Loans shall be available on a revolving basis during the period commencing on the Closing Date and ending on the date that is three years after the Closing Date",
+     "page": 2
+    },
+    {
+     "quote": "Revolving Facility may be permanently reduced by the Borrower in a minimum amount of $5,000,000 without premium or penalty",
+     "page": 5
+    },
+    {
+     "quote": "from time to time repay Revolving Loans without a permanent reduction of the commitments under the Revolving Facility.",
+     "page": 6
+    }
+   ],
+   "note": "Derived: the term sheet has no repayment clause as such; the bullet profile follows from the revolving availability periods ending on each Maturity Date."
+  },
+  "accordion": {
+   "lines": [
+    "Yes = up to $1.0bn (derived: aggregate Revolving Facility commitments may not be increased above $3.65bn, against $2.65bn at closing), by Incremental Revolving Increases under any tranche; increases will be unsecured",
+    "Conditions: no default or event of default continuing; representations and warranties (other than Material Adverse Change and litigation) true and correct in all material respects (in all respects where already qualified by materiality)",
+    "Not stated: whether uncommitted, lender consent and minimum increments; no ratio test among the conditions",
+    "Refinancing Revolving Facilities: 'Same as set forth in the Existing Credit Agreement' (no detail in term sheet)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "increase commitments under any tranche under the Revolving Facility (any such increase, an “Incremental Revolving Increase”) that will be unsecured, subject to the following conditions: (i) no default or event of default shall have occurred and be continuing,",
+     "page": 3
+    },
+    {
+     "quote": "(iii) the aggregate commitments under the Revolving Facility shall not be increased to an amount greater than $3,650,000,000.",
+     "page": 3
+    },
+    {
+     "quote": "Refinancing Revolving Facilities: Same as set forth in the Existing Credit Agreement.",
+     "page": 3
+    }
+   ],
+   "note": "The term sheet gives the cap on total commitments ($3,650,000,000), not an increase amount; $1.0bn is $3.65bn less the initial $2.65bn. Refinancing Revolving Facilities are recorded here because the template has no row of their own; they are by reference only."
+  },
+  "guarantors": {
+   "lines": [
+    "None"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Guarantors: None.",
+     "page": 1
+    }
+   ],
+   "note": ""
+  },
+  "guarantor_coverage": {
+   "lines": [
+    "None (not stated expressly; the facility is unguaranteed - Guarantors: 'None' - so no guarantor coverage test applies)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Guarantors: None.",
+     "page": 1
+    }
+   ],
+   "note": "Derived from the express 'Guarantors: None'. The alternative reading is 'None stated in term sheet' (not_stated); no material-subsidiary threshold is given anywhere in the term sheet."
+  },
+  "security": {
+   "lines": [
+    "Unsecured (Collateral: None; described as a senior unsecured revolving credit facility); Incremental Revolving Increases will also be unsecured",
+    "Credit Documentation to reflect the occurrence of the Collateral Release Date (as defined in the Existing Credit Agreement)",
+    "No security over the Pool Assets (as defined in the Existing Credit Agreement): they support a minimum Asset Coverage Ratio of 1.25x and are covered by a lien limitation and double negative pledge (see Financial Covenants and Negative Pledge)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Collateral: None.",
+     "page": 3
+    },
+    {
+     "quote": "subject to modifications to reflect the occurrence of the Collateral Release Date (as defined in the Existing Credit Agreement)",
+     "page": 3
+    },
+    {
+     "quote": "Limitation on liens on the Pool Assets (with exceptions that are consistent with the Existing Credit Agreement and a double negative pledge with respect to Pool Assets",
+     "page": 8
+    }
+   ],
+   "note": "The term sheet does not say what the Pool Assets are (defined in the Existing Credit Agreement). 'Senior unsecured' wording is in the Amounts paragraph on page 2; 'will be unsecured' for increases is on page 3."
+  },
+  "ranking": {
+   "lines": [
+    "Senior Unsecured (term sheet describes 'a senior unsecured revolving credit facility'; no guarantors and no collateral)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "A senior unsecured revolving credit facility of $2,650,000,000.00",
+     "page": 2
+    },
+    {
+     "quote": "Collateral: None.",
+     "page": 3
+    }
+   ],
+   "note": ""
+  },
+  "fc_leverage": {
+   "lines": [
+    "Net Debt/EBITDA: none (Financial Covenants are 'limited to' a minimum Asset Coverage Ratio and a minimum Fixed Charge Coverage Ratio - see below)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial covenants (the “Financial Covenants”) will be limited to the following:",
+     "page": 9
+    }
+   ],
+   "note": "Closed list of two financial covenants; neither is a leverage or debt-to-capitalisation test."
+  },
+  "fc_interest_cover": {
+   "lines": [
+    "Interest Cover: none (no stand-alone interest cover test; Interest Expense is covered within the Minimum Fixed Charge Coverage Ratio - see below)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial covenants (the “Financial Covenants”) will be limited to the following:",
+     "page": 9
+    },
+    {
+     "quote": "Minimum Fixed Charge Coverage Ratio: The Borrower shall not permit the ratio of EBITDAR",
+     "page": 9
+    }
+   ],
+   "note": "The fixed charge test (EBITDAR over interest plus cash aircraft rent) is the nearest thing to interest cover; it is recorded in the next row as a fixed charge cover covenant."
+  },
+  "fc_other": {
+   "lines": [
+    "Minimum Asset Coverage Ratio >= 1.25x at any time: appraised value of Pool Assets / Obligations (exposure under the Revolving Facility incl. Incremental Revolving Increases and any Refinancing Revolving Facility, excl. cash-collateralised LC exposure)",
+    "Asset Coverage shortfall shown by an appraisal: within 60 days of the date of the appraisal the Borrower must deliver Additional Pool Assets or prepay Revolving Loans in an amount sufficient to comply",
+    "Minimum Fixed Charge Coverage Ratio >= 1.25x: EBITDAR / (Interest Expense + aggregate cash aircraft rental expense of the Borrower and its subsidiaries on aircraft leases other than capitalised leases), consolidated, per GAAP"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "(the “Asset Coverage Ratio”) at any time to be less than 1.25:1.00",
+     "page": 9
+    },
+    {
+     "quote": "the Borrower shall, within sixty days of the date of such appraisal, (i) deliver to the Agent Additional Pool Assets or (ii) prepay the Revolving Loans",
+     "page": 9
+    },
+    {
+     "quote": "all as determined in accordance with GAAP to be less than 1.25:1.00, to be tested at the end of each fiscal quarter.",
+     "page": 9
+    }
+   ],
+   "note": "Both covenants are drafted as 'shall not permit the ratio ... to be less than 1.25:1.00', i.e. minimum levels. No step-ups or step-downs are given."
+  },
+  "fc_testing": {
+   "lines": [
+    "Fixed Charge Coverage Ratio: tested at the end of each fiscal quarter (rolling measurement period not specified in term sheet)",
+    "Asset Coverage Ratio: must be met at any time; appraised value from an updated appraisal of all Pool Assets conducted annually (other than in the year of the latest termination date)",
+    "First test date: not stated in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "to be less than 1.25:1.00, to be tested at the end of each fiscal quarter.",
+     "page": 9
+    },
+    {
+     "quote": "(the “Asset Coverage Ratio”) at any time to be less than 1.25:1.00",
+     "page": 9
+    },
+    {
+     "quote": "to be conducted on an annual basis (other than such date falling in the year of the latest termination date)",
+     "page": 8
+    }
+   ],
+   "note": "The fixed charge covenant refers to rental expense 'for such period' but the term sheet does not define the period (four quarters or otherwise)."
+  },
+  "select_definitions": {
+   "lines": [
+    "Adjusted EBITDA: covenant uses EBITDAR, 'to be defined as set forth [in] the Initial Revolving Credit Agreement' (a term the term sheet does not define); Interest Expense likewise; no add-backs, caps or pro forma adjustments detailed",
+    "Asset Coverage Ratio inputs: appraised value 'to be determined as set forth in the Initial Revolving Credit Agreement'; Pool Assets and Additional Pool Assets as defined in the Existing Credit Agreement",
+    "Appraiser: reasonably satisfactory to the Agent and the Borrower (Morten Beyer & Agnew Aviation, BK Associates, Inc. or ICF International, Inc. deemed satisfactory to the Agent)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "shall not permit the ratio of EBITDAR (to be defined as set forth the Initial Revolving Credit Agreement) to the sum of (i) Interest Expense (to be defined as set forth in the Initial Revolving Credit Agreement)",
+     "page": 9
+    },
+    {
+     "quote": "the ratio of the appraised value (to be determined as set forth in the Initial Revolving Credit Agreement) of the Pool Assets",
+     "page": 9
+    },
+    {
+     "quote": "Morten Beyer & Agnew Aviation, BK Associates, Inc. or ICF International, Inc. shall be deemed to be reasonably satisfactory to the Agent",
+     "page": 8
+    }
+   ],
+   "note": "'Initial Revolving Credit Agreement' is used three times on page 9 but never defined; it presumably means the Existing Credit Agreement or a predecessor. Equity cures, deemed cures and synergies are not addressed (the only cure is the 60-day Asset Coverage remedy in the financial covenants row)."
+  },
+  "negative_pledge": {
+   "lines": [
+    "Limitation on liens on the Pool Assets only (no general negative pledge listed), with exceptions consistent with the Existing Credit Agreement",
+    "Double negative pledge with respect to the Pool Assets (the 'Negative Pledge')",
+    "Baskets and carve-out amounts not detailed in term sheet: exceptions, baskets and carve-outs to be consistent with the Documentation Principles (no less favourable to the Borrower than the Existing Credit Agreement)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Limitation on liens on the Pool Assets (with exceptions that are consistent with the Existing Credit Agreement and a double negative pledge with respect to Pool Assets (such double negative pledge, the “Negative Pledge”)).",
+     "page": 8
+    },
+    {
+     "quote": "The negative covenants will consist exclusively of limitations on (in each case subject to those exceptions, baskets and carveouts consistent with the Documentation Principles):",
+     "page": 8
+    }
+   ],
+   "note": "The scope of the covenant is stated (Pool Assets only); the permitted liens are given only by reference to the Existing Credit Agreement, hence by_reference. The term sheet names the 'double negative pledge' but does not say what it covers."
+  },
+  "permitted_acquisitions": {
+   "lines": [
+    "None: not among the negative covenants listed in the term sheet (which 'consist exclusively of' limitations on liens on the Pool Assets, mergers and dissolutions, and dispositions of the Pool Assets); for mergers see the 'Other' row"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The negative covenants will consist exclusively of limitations on",
+     "page": 8
+    }
+   ],
+   "note": "Closed list: no acquisitions or investments covenant."
+  },
+  "permitted_disposals": {
+   "lines": [
+    "Limitation on dispositions of the Pool Assets only (no general asset sale covenant listed); exceptions, baskets and carve-outs consistent with the Documentation Principles, amounts not detailed",
+    "Permitted while no event of default exists or would result: (i) replacement of a Pool Asset with Additional Pool Assets (as defined in the Existing Credit Agreement) of the Borrower or a subsidiary on at least a dollar-for-dollar basis",
+    "(ii) removal of an asset from the Pool Assets if, after giving effect to the removal, the Borrower is in compliance with the Asset Coverage Ratio (>= 1.25x)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Limitation on dispositions of the Pool Assets; provided that, so long as no event of default exists or would result therefrom, the Borrower shall be permitted to (i) replace a Pool Asset with any Additional Pool Assets (as defined in the Existing Credit Agreement)",
+     "page": 8
+    },
+    {
+     "quote": "so long as such replacement is made on at least a dollar-for-dollar basis and (ii) remove an asset from the Pool Assets, so long as, after giving effect to such removal, the Borrower is in compliance with the Asset Coverage Ratio.",
+     "page": 9
+    }
+   ],
+   "note": "The covenant item runs from the foot of page 8 to the top of page 9. A sale of all or substantially all assets is not addressed separately (only 'mergers and dissolutions')."
+  },
+  "permitted_distributions": {
+   "lines": [
+    "None: not among the negative covenants listed in the term sheet (limited to liens on the Pool Assets, mergers and dissolutions, and dispositions of the Pool Assets) - no restricted payments covenant"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The negative covenants will consist exclusively of limitations on",
+     "page": 8
+    }
+   ],
+   "note": ""
+  },
+  "permitted_indebtedness": {
+   "lines": [
+    "None: not among the negative covenants listed in the term sheet (limited to liens on the Pool Assets, mergers and dissolutions, and dispositions of the Pool Assets) - no debt covenant"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The negative covenants will consist exclusively of limitations on",
+     "page": 8
+    }
+   ],
+   "note": "Incremental Revolving Increases and Refinancing Revolving Facilities are dealt with in the Accordion row."
+  },
+  "permitted_loans": {
+   "lines": [
+    "None: not among the negative covenants listed in the term sheet (limited to liens on the Pool Assets, mergers and dissolutions, and dispositions of the Pool Assets) - no loans or investments covenant"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The negative covenants will consist exclusively of limitations on",
+     "page": 8
+    }
+   ],
+   "note": ""
+  },
+  "permitted_guarantees": {
+   "lines": [
+    "None: not among the negative covenants listed in the term sheet (limited to liens on the Pool Assets, mergers and dissolutions, and dispositions of the Pool Assets) - no indebtedness or investments covenant under which guarantees would be restricted"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The negative covenants will consist exclusively of limitations on",
+     "page": 8
+    }
+   ],
+   "note": ""
+  },
+  "permitted_payments": {
+   "lines": [
+    "None: not among the negative covenants listed in the term sheet (limited to liens on the Pool Assets, mergers and dissolutions, and dispositions of the Pool Assets) - no restriction on payments of junior or other debt"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The negative covenants will consist exclusively of limitations on",
+     "page": 8
+    }
+   ],
+   "note": ""
+  },
+  "other_covenants": {
+   "lines": [
+    "Negative covenants consist exclusively of limitations on (1) liens on the Pool Assets, (2) mergers and dissolutions and (3) dispositions of the Pool Assets, subject to exceptions, baskets and carve-outs consistent with the Documentation Principles",
+    "Mergers / fundamental changes: limitation on mergers and dissolutions (no detail in term sheet)",
+    "Documentation Principles: documentation to contain only the conditions precedent, representations, covenants and events of default described in the term sheet, no less favourable to the Borrower than the Existing Credit Agreement",
+    "Affirmative covenants limited to: insurance (customary for major US-domiciled air carriers or the Borrower's ordinary course); compliance with laws; payment of material taxes; reporting; continuation of business and existence; maintenance of property, books and records",
+    "Also: maintenance of air carrier status, citizenship and related rights (Borrower only); compliance with laws and preservation of rights relating to the Pool Assets; annual Pool Asset appraisal (see Information Requirements)",
+    "Agent may visit the Borrower's premises, review its books and records and examine, appraise and monitor the Pool Assets: at the Agent's expense and not more than once per year, unless an event of default is continuing",
+    "Not among the negative covenants: transactions with affiliates, change of business, sale and leaseback, anti-cash-hoarding, MFN, or restrictive agreements beyond the double negative pledge over the Pool Assets (see Negative Pledge)",
+    "Sanctions and anti-corruption: representations only (consistent with the Existing Credit Agreement); no separate covenant listed"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The negative covenants will consist exclusively of limitations on (in each case subject to those exceptions, baskets and carveouts consistent with the Documentation Principles):",
+     "page": 8
+    },
+    {
+     "quote": "contain only the conditions precedent, representations and warranties, covenants and events of default described below, that are no less favorable to the Borrower than those contained in the Existing Credit Agreement",
+     "page": 3
+    },
+    {
+     "quote": "Affirmative Covenants: Substantially consistent with the Documentation Principles and limited to:",
+     "page": 7
+    }
+   ],
+   "note": "The mergers item ('2. Limitation on mergers and dissolutions.') is on page 8 directly under the quoted list heading; the sanctions / anti-corruption representation is item 11 on page 7; inspection rights are affirmative covenant 6 on page 8 (visits to the Borrower's premises and review of its books and records, plus examination, appraisal and monitoring of the Pool Assets). The 'Not among the negative covenants' line carves the 'double negative pledge' over the Pool Assets (negative covenant 1, page 8, quoted in the Negative Pledge row) out of the items said not to be among the negative covenants: the term sheet does not describe it, and it may operate as a restriction on agreements affecting the Pool Assets. 'Continuation of business' is an affirmative covenant (item 4, page 8); there is no negative covenant on change of business."
+  },
+  "events_of_default": {
+   "lines": [
+    "Cross default: cross-payment default or cross-acceleration to other indebtedness in a principal amount in excess of $250m",
+    "Insolvency / creditors' process: bankruptcy, insolvency, liquidation, reorganisation, receivership or similar proceedings involving the Borrower or its significant subsidiaries; unsatisfied uninsured judgments or orders in excess of $250m in aggregate (no grace periods stated)",
+    "Payment: principal and letter of credit drawings when due (no grace); interest within 5 business days; fees and other amounts within 10 business days",
+    "Misrepresentation: materially incorrect when made, with a 30-day cure period where capable of cure",
+    "Covenant breach: customary notice and cure periods for certain affirmative covenants and a 60-day cure period for the minimum Asset Coverage Ratio, in each case in connection with defaults resulting from changes in the appraised value of Pool Assets",
+    "No cure period stated for the Minimum Fixed Charge Coverage Ratio or the negative covenants",
+    "Other: certain ERISA events. The list is closed ('limited to') and has no change of control event of default"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Cross-payment default or cross-acceleration to other indebtedness in a principal amount in excess of $250,000,000.",
+     "page": 10
+    },
+    {
+     "quote": "Unsatisfied judgments or orders not covered by insurance (regardless of any deductible and whether or not the insurer has been notified of such judgment or order) in excess of $250,000,000 in the aggregate.",
+     "page": 10
+    },
+    {
+     "quote": "(with customary notice and cure periods for certain affirmative covenants and with a 60-day cure period for the minimum Asset Coverage Ratio, in each case in connection with defaults resulting from changes in the appraised value of Pool Assets)",
+     "page": 10
+    }
+   ],
+   "note": "Events 1 and 2 (principal, interest, fees) are at the foot of page 9, events 3 to 9 on page 10; the list heading 'Substantially consistent with the Documentation Principles and limited to:' is on page 9 (quoted in the Mandatory Prepayment row). The bankruptcy event (item 8) carries no threshold or grace period in the term sheet. The wording 'in each case in connection with defaults resulting from changes in the appraised value of Pool Assets' is reproduced as written; its reach over the affirmative covenant cure periods is unclear. Event 5 names cure periods only for certain affirmative covenants and the Asset Coverage Ratio, hence the line on the Fixed Charge Coverage Ratio and negative covenants; the Existing Credit Agreement may still supply cure periods through the Documentation Principles."
+  },
+  "conditions_subsequent": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "Section D covers conditions precedent only (substantially consistent with the Existing Credit Agreement). The annual Pool Asset appraisal is an ongoing covenant, not a condition subsequent."
+  },
+  "mandatory_prepayment": {
+   "lines": [
+    "Change of Control: not stated in term sheet - no change of control prepayment event, and change of control is not among the events of default (which are 'limited to' those listed)",
+    "Other: Revolving Loans to be prepaid to the extent extensions of credit exceed the commitments under the Revolving Facility",
+    "Other: prepayment to the extent necessary to comply with the Asset Coverage Ratio (>= 1.25x); on a shortfall shown by an appraisal the Borrower must, within 60 days of the date of the appraisal, deliver Additional Pool Assets or prepay Revolving Loans",
+    "No disposal proceeds, insurance proceeds, debt issuance proceeds or excess cashflow prepayment events stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The Revolving Loans shall be prepaid to the extent such extensions of credit exceed the amount of the commitments under the Revolving Facility, to the extent necessary to comply with the Asset Coverage Ratio.",
+     "page": 6
+    },
+    {
+     "quote": "the Borrower shall, within sixty days of the date of such appraisal, (i) deliver to the Agent Additional Pool Assets or (ii) prepay the Revolving Loans, in each case in an amount sufficient to enable the Borrower to comply with the Asset Coverage Ratio covenant.",
+     "page": 9
+    },
+    {
+     "quote": "Events of Default: Substantially consistent with the Documentation Principles and limited to:",
+     "page": 9
+    }
+   ],
+   "note": "The mandatory prepayment sentence on page 6 runs the two triggers together without a conjunction ('exceed the amount of the commitments under the Revolving Facility, to the extent necessary to comply with the Asset Coverage Ratio'); it is read as two triggers (over-advance and Asset Coverage Ratio). The first quote wraps past the two-line label 'Mandatory Prepayments and / Commitment Reductions:' in the layout text."
+  },
+  "jurisdiction_topco": {
+   "lines": [
+    "Not stated in term sheet (the top company named is the Borrower, Delta Air Lines, Inc.; its jurisdiction of incorporation is not given)",
+    "Governing law of the facility: New York (submission to the US District Court for the Southern District of New York, or the New York State Supreme Court, sitting in the Borough of Manhattan)"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "Delta Air Lines, Inc. (the “Borrower”).",
+     "page": 1
+    },
+    {
+     "quote": "Governing Law: New York.",
+     "page": 11
+    }
+   ],
+   "note": "The term sheet nowhere states where Delta Air Lines, Inc. is incorporated. Indirect hints only: insurance 'customary for major air carriers domiciled in the United States', air carrier status and citizenship covenants, a 'Delaware Divisions' boilerplate heading. These are not a statement of jurisdiction, so the row is not_stated."
+  },
+  "transferability": {
+   "lines": [
+    "Borrower consent / consultation: not specified in term sheet - assignments and participations are 'Same as set forth in the Existing Credit Agreement' (Amended and Restated Credit Agreement dated November 6, 2023)",
+    "Transferee restrictions, minimum amounts, other consents and participation terms: not detailed in term sheet (as per the Existing Credit Agreement)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Assignments and Participations: Same as set forth in the Existing Credit Agreement.",
+     "page": 10
+    }
+   ],
+   "note": "The term sheet does not say whether transfers need Borrower consent, consultation or neither; the first line keeps the template's opening words but does not assert a consent regime."
+  },
+  "info_annual_consolidated": {
+   "lines": [
+    "Annual audited financial statements - required; number of days not stated in term sheet (deadline 'as set forth in the Credit Agreement'; reporting consistent with the Documentation Principles, i.e. by reference to the Existing Credit Agreement)",
+    "Any prohibition on audit qualifications is limited to 'material' qualifications"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Reporting requirements (including quarterly unaudited financial statements, audited annual financial statements,",
+     "page": 7
+    },
+    {
+     "quote": "any prohibition on qualifications in the Borrower’s audited financial statements shall be limited to “material” qualifications",
+     "page": 7
+    },
+    {
+     "quote": "than the deadline for delivery of such financial statements as set forth in the Credit Agreement",
+     "page": 8
+    }
+   ],
+   "note": "The term sheet does not use the word 'consolidated' for the financial statements and gives no delivery period."
+  },
+  "info_annual_obligor": {
+   "lines": [
+    "Annual obligor accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The Borrower is the only obligor (no guarantors); no standalone obligor accounts are required by the term sheet. The reporting list on page 7 is open ('including') and follows the Documentation Principles, so the Existing Credit Agreement could in theory add to it; the row keeps the not_stated wording that the field guidance prescribes for term sheets with no obligor accounts requirement, because the term sheet does not point to another document for this item specifically."
+  },
+  "info_quarterly": {
+   "lines": [
+    "Quarterly unaudited financial statements - required; number of days not stated in term sheet (deadline 'as set forth in the Credit Agreement'; reporting consistent with the Documentation Principles, i.e. by reference to the Existing Credit Agreement)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Reporting requirements (including quarterly unaudited financial statements, audited annual financial statements,",
+     "page": 7
+    },
+    {
+     "quote": "than the deadline for delivery of such financial statements as set forth in the Credit Agreement",
+     "page": 8
+    }
+   ],
+   "note": ""
+  },
+  "info_budget": {
+   "lines": [
+    "Annual budget - not stated in term sheet: not among the reporting items named, but the list is open ('including') and reporting is to be consistent with the Documentation Principles (by reference to the Existing Credit Agreement)",
+    "Other: officers' and compliance certificates (compliance certificate due no later than the deadline for the related financial statements); notices of defaults under the Credit Documentation; notices of material litigation and other material events",
+    "Other: updated appraisal of all Pool Assets annually (other than in the year of the latest termination date)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "(including quarterly unaudited financial statements, audited annual financial statements, officers’ and compliance certificates, notices of defaults under the Credit Documentation and notices of material litigation and other material events consistent with the Documentation Principles)",
+     "page": 7
+    },
+    {
+     "quote": "any requirement to deliver a compliance certificate in connection with the Borrower’s financial statements shall be required to be delivered no later",
+     "page": 7
+    },
+    {
+     "quote": "Deliver an updated appraisal of all Pool Assets (as defined in the Existing Credit Agreement)",
+     "page": 8
+    }
+   ],
+   "note": "No annual budget or projections requirement is named in the term sheet. The reporting list is introduced by 'including' (open, not closed) and is to be consistent with the Documentation Principles, so under the open-list rule the row is by_reference: whether a budget is required depends on the Existing Credit Agreement. The 'Other' reporting items are stated in the term sheet."
+  }
+ }
+}

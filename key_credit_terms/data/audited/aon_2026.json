@@ -1,0 +1,711 @@
+{
+ "schema": "kct/1",
+ "client": "AON",
+ "deal": "AON 2026",
+ "source_file": "AON 2026 TS.pdf",
+ "sha1": "a9b77406a71107a686e9ce01079c60d321a77f2a",
+ "source": "audited",
+ "audit": {
+  "on": "2026-11-12",
+  "method": "Read from the full term sheet by one AI reviewer, then checked against it twice by independent AI reviewers: first every line of the record against the document, then the document section by section against the record. Not signed off by a person. Every quote is looked up in the PDF text each time the tool runs.",
+  "first_audit_changes": 22,
+  "first_audit_substantive": 4,
+  "final_review_changes": 16,
+  "final_review_substantive": 2,
+  "open_points": "Final record: C:\\Users\\AFarid\\Documents\\Hackathon\\key_credit_terms\\data\\audited\\aon_2026.json (checker: structure OK, 85 quotes exact, none loose, missing or on another page). All 11 pages were read in the dump and on the page images. Every amount, ratio, period, date and party in the record matches the term sheet, and nothing in the term sheet that belongs in a template row is missing. Pricing (page 11 grid), Required Lenders, yield protection and indemnity have no template row and are not recorded.\n\nResolved from the document:\n- Closed lists (doubt 5): the Documentation Principles themselves say the agreement 'shall contain only the representations, warranties, covenants and events of default set forth below' (page 6), so the six 'None' rows stand.\n- Security / ranking (doubt 3): stated as derived points; this is the style guide's own worked example.\n- Step levels (doubt 9): 4.50x, 4.25x, 4.00x and 3.75x confirmed on the page 7 image; they cannot all be quoted within three quotes.\n- Not_stated rows re-tested by search: no Barclays, commitment amounts, coverage test, post-closing obligation, budget, or jurisdiction of Aon plc anywhere in the term sheet.\n\nThe term sheet itself cannot settle these:\n1. Facility: the $1.0bn sub-limit is for 'the UK Borrower' (singular) while three UK Borrowers are defined; aggregate or per-borrower is not stated. The line flags it.\n2. Accordion: $1.8bn as the cap on the increase is the only reading consistent with a $3.0bn Facility Amount, but the term sheet does not say so. The line now says it is a reading.\n3. Interest cover start date: it runs from the 'Closing Date', defined only in the separate Term Loan Facility Term Sheet, so the date cannot be fixed from this document. The leverage proviso also refers to 'any Term Lender' and a 'Consolidated Leverage Ratio', wording that appears carried over from the term loan.\n4. Permitted guarantees: 'None' under the closed-list rule; whether the indebtedness covenant catches guarantees is only in the Existing Revolving Credit Agreements.\n5. Transferability: the Borrower consent standard is only in the Existing Revolving Credit Agreements; the line keeps the required prefix as 'Borrower consent: not stated in term sheet'.\n6. Mandatory prepayment: the term sheet is silent rather than saying there are none; the row is stated only because change of control is addressed, as an event of default with no ownership trigger.\n7. Condition precedent (f) refers to 'Existing Credit Agreements', an undefined term, read as the Existing Revolving Credit Agreements.\n8. The whole term sheet is 'not final and subject to change'.\n\nFormat points left as they are: 11 lines run 244-333 characters (guide about 250, hard limit 420), the longest being the cash-netting line in Other Select Definitions, which uses a 'Net debt / cash netting:' prefix that is not one of the four template prefixes."
+ },
+ "doc": {
+  "kind": "term_sheet",
+  "title": "Aon North America, Inc., Aon Corporation, Aon Global Holdings plc, Aon Global Limited and Aon UK Limited - Summary of the Revolving Facility",
+  "date": "",
+  "notes": "Stand-alone term sheet (marked 'Posting Version', undated) summarising a new $3.0bn five-year revolving facility for the Aon group, which replaces the two Existing Revolving Credit Agreements (2021 and 2023) and sits alongside a separate $4.0bn term loan facility (own term sheet) for the acquisition of USI Advantage Corp. The terms are on pages 1-10 in a label / value layout; page 11 is the ratings-based pricing grid (Schedule I). It is a new facility, not an amendment, so there are no existing / proposed columns. Representations, the non-financial covenants and events of default are given as lists with little detail and are to be 'substantially similar to' the Existing Revolving Credit Agreements as in effect on August 30, 2026; definitions, assignments, yield protection and indemnity defer to those agreements, and the terms are stated to be not final and subject to change."
+ },
+ "fields": {
+  "facility": {
+   "lines": [
+    "$3.0bn five-year multicurrency RCF (available in US Dollars, Sterling and Euros)",
+    "Sub-limit: aggregate Revolving Commitments available to 'the UK Borrower' (singular as printed; three UK Borrowers are defined) not to exceed $1.0bn"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "the Borrower seeks the $3,000,000,000 five-year revolving loan facility",
+     "page": 1
+    },
+    {
+     "quote": "aggregate Revolving Commitments available to the UK Borrower shall not exceed $1,000,000,000",
+     "page": 2
+    },
+    {
+     "quote": "The Revolving Facility will be available for borrowings in US Dollars, Sterling and Euros.",
+     "page": 2
+    }
+   ],
+   "note": "The sub-limit refers to 'the UK Borrower' (singular) although three UK Borrowers are defined; read as their aggregate sub-limit. The $3,000,000,000 is repeated in the Facility Amount row on page 2. No letter of credit or swingline facility is mentioned."
+  },
+  "borrowers": {
+   "lines": [
+    "US Borrowers: Aon North America, Inc. and Aon Corporation",
+    "UK Borrowers: Aon Global Holdings plc, Aon Global Limited and Aon UK Limited",
+    "Subsidiary Borrowers: any other subsidiaries of the Parent (Aon plc) designated by the Parent from time to time, other than a subsidiary organised in a Member State of the European Union"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Aon North America, Inc. and Aon Corporation (the “US Borrowers”)",
+     "page": 2
+    },
+    {
+     "quote": "Aon Global Holdings plc, Aon Global Limited and Aon UK Limited (collectively, the “UK Borrowers”) and any other subsidiaries (other than a subsidiary which is organized in a Member State of the European Union) of the Parent designated by the Parent from time to time",
+     "page": 2
+    }
+   ],
+   "note": "Jurisdictions of incorporation are not given. The Transaction Description (page 1) separately defines Aon North America, Inc. alone as 'the Borrower' / 'the Company' for the acquisition and the term loan."
+  },
+  "lender_commitments": {
+   "lines": [
+    "Barclays = not stated in term sheet",
+    "No commitments stated. Administrative Agent: Citi; Joint Lead Arrangers and Joint Bookrunners: Citibank, N.A., BofA Securities, Inc. and any Additional Arranger as may be appointed; Syndication Agent: BofA Securities, Inc.",
+    "Revolving Lenders: Citi, Bank of America and/or other financial institutions"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "Citibank, N.A., BofA Securities, Inc. and any Additional Arranger as may be appointed will act as joint lead arranger and joint bookrunner for the Revolving Facility",
+     "page": 2
+    },
+    {
+     "quote": "Citi will act as administrative agent for the Revolving Facility",
+     "page": 2
+    },
+    {
+     "quote": "Citi, Bank of America and/or other financial institutions (each, a “Revolving Lender”",
+     "page": 2
+    }
+   ],
+   "note": "Barclays is not named anywhere in the term sheet; no lender commitment amounts are given. The third line reports the term sheet's own 'Revolving Lenders' row, which names lenders without amounts and has no other home in the template."
+  },
+  "purpose": {
+   "lines": [
+    "General corporate purposes",
+    "Replace and refinance all revolving commitments and amounts outstanding under the Existing Revolving Credit Agreements (2021 Credit Agreement dated 28 September 2021 and 2023 Credit Agreement dated 19 October 2023; Citibank, N.A. as administrative agent)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The proceeds of the Revolving Facility will be used for general corporate purposes.",
+     "page": 2
+    },
+    {
+     "quote": "described herein to be used for general corporate purposes to replace and refinance, respectively, all revolving commitments and amounts outstanding under (x) the Credit Agreement dated as of September 28, 2021",
+     "page": 1
+    },
+    {
+     "quote": "(f) repayment of amounts owing, and termination of commitments under the Existing Credit Agreements",
+     "page": 9
+    }
+   ],
+   "note": "The Purpose/Use of Proceeds row says only general corporate purposes; the refinancing is in the Transaction Description (page 1) and is a condition precedent on page 9, which says 'Existing Credit Agreements' (undefined; read as the Existing Revolving Credit Agreements). The Transaction Description presents the separate $4.0bn senior unsecured term loan facility, not this RCF, as the financing for the acquisition of USI Advantage Corp."
+  },
+  "maturity": {
+   "lines": [
+    "5 years from the Revolving Effective Date (Commitment Termination Date)",
+    "+ 1-year extensions: Parent may request, 60 to 30 days before an anniversary of the Revolving Effective Date, that each Lender's commitment be extended for additional one-year periods (number of requests not capped in term sheet)",
+    "Each Lender decides in its individual and sole discretion (response due 20 days before the anniversary); extension takes effect only if more than 50% of the Facility Amount is extended or otherwise committed by Extending Lenders and new Lenders",
+    "Declining Lenders' commitments terminate on the then existing Commitment Termination Date; Parent may replace them with third party institutions reasonably acceptable to the Administrative Agent",
+    "Extension conditions: representations true and correct and no Default or Event of Default"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The Revolving Commitments will terminate, and all amounts outstanding thereunder shall be payable in full, on the date that is five years after the Revolving Effective Date",
+     "page": 2
+    },
+    {
+     "quote": "The Parent may request that the commitments of each Revolving Lender be extended for additional one year periods by providing notice of such request to the Administrative Agent no earlier than 60 days",
+     "page": 3
+    },
+    {
+     "quote": "provided that more than 50% of the Facility Amount is extended or otherwise committed to by one or more Extending Lenders and any new Revolving Lenders",
+     "page": 4
+    }
+   ],
+   "note": "The term sheet does not limit the number of extension requests (one may be made before each anniversary). The 60 / 30 / 20-day periods may each be varied with the Administrative Agent's agreement. The extension conditions are in 'Conditions Precedent to Advances, Commitment Increases and Commitment Extensions' on page 9."
+  },
+  "repayment": {
+   "lines": [
+    "Bullet (revolving; all amounts outstanding payable in full on the Commitment Termination Date; Borrowers may borrow, repay and reborrow until then)",
+    "Voluntary prepayment without premium or penalty (minimum $5m / GBP 5m / EUR 5m, increments of $1m / GBP 1m / EUR 1m), with break costs on Term Rate Advances prepaid before the end of an Interest Period"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "all amounts outstanding thereunder shall be payable in full, on the date that is five years after the Revolving Effective Date",
+     "page": 2
+    },
+    {
+     "quote": "the Borrowers may, subject to the terms of the Revolving Facility, borrow, repay and reborrow Advances",
+     "page": 3
+    },
+    {
+     "quote": "Advances may be prepaid without premium or penalty",
+     "page": 4
+    }
+   ],
+   "note": ""
+  },
+  "accordion": {
+   "lines": [
+    "Yes = $1.8bn (Parent may increase the Facility Amount after the Revolving Effective Date, no more than once a year, in minimum increments of $10m, 'up to a maximum amount of' $1.8bn; read as the cap on the increase, since the Facility Amount is already $3.0bn)",
+    "Conditions: Parent's representations and warranties true and correct and no Default or Event of Default continuing, at the time of and after giving effect to the increase",
+    "Uncommitted: may be offered to existing Lenders (right but no obligation to commit; allocations by the Parent and the Administrative Agent) or to third party institutions reasonably acceptable to the Administrative Agent, each committing >= $5m"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The Parent will have the right after the Revolving Effective Date, no more than once a year, to increase the Facility Amount, in minimum increments of $10,000,000, up to a maximum amount of $1,800,000,000",
+     "page": 3
+    },
+    {
+     "quote": "each existing Revolving Lender will have the right, but no obligation, to commit to all or a portion of the proposed increase",
+     "page": 3
+    },
+    {
+     "quote": "the commitment of each such new third party institution equals or exceeds $5,000,000",
+     "page": 3
+    }
+   ],
+   "note": "'up to a maximum amount of $1,800,000,000' is read as the cap on the aggregate increase, which would take the facility to $4.8bn: it cannot be a cap on the Facility Amount itself, which is already $3,000,000,000 (page 2, quoted under Facility). The term sheet does not spell this out, so the printed line gives the reading and its basis (derived-points rule). The no-default condition refers to Default / Event of Default 'as defined in the Existing Revolving Credit Agreements'."
+  },
+  "guarantors": {
+   "lines": [
+    "Aon plc (Parent) and any subsidiary or intermediate holding company that has executed and delivered a guaranty supplement to the Administrative Agent; each Borrower is also a Guarantor",
+    "Additional guarantors: listed as an affirmative covenant, detail not given in term sheet",
+    "Release: no fall-away provision stated; release of all or substantially all of the Guarantors requires the consent of each Lender directly and adversely affected"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Parent and any subsidiary or intermediate holding company that shall have executed and delivered a guaranty supplement to the Administrative Agent.",
+     "page": 2
+    },
+    {
+     "quote": "provided that each Borrower shall be a Guarantor",
+     "page": 2
+    },
+    {
+     "quote": "(g) the release of all or substantially all of the Guarantors",
+     "page": 10
+    }
+   ],
+   "note": "Subsidiary guarantors are not named. The 'additional guarantors' covenant is in the affirmative covenant list on page 8 (quoted under guarantor_coverage)."
+  },
+  "guarantor_coverage": {
+   "lines": [
+    "None stated in term sheet",
+    "No material-subsidiary threshold given: 'additional guarantors' is listed as an affirmative covenant without detail (covenants to be substantially similar to the Existing Revolving Credit Agreements)"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "inspection; ERISA; and additional guarantors.",
+     "page": 8
+    }
+   ],
+   "note": ""
+  },
+  "security": {
+   "lines": [
+    "Unsecured (not stated expressly; no security or collateral provision, credit support is by guarantee only, and pricing is based on the Parent's long-term senior unsecured debt ratings)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "based on the Parent’s long-term senior unsecured non-credit-enhanced debt ratings",
+     "page": 5
+    },
+    {
+     "quote": "Parent and any subsidiary or intermediate holding company that shall have executed and delivered a guaranty supplement to the Administrative Agent.",
+     "page": 2
+    }
+   ],
+   "note": "Derived point, for the reviewer to confirm: the term sheet never calls the revolver itself unsecured. It has no security section, limits the covenants to a list that includes a liens covenant, and prices the facility off the Parent's senior unsecured debt ratings (page 5). The companion $4.0bn term loan facility is described as senior unsecured (page 1), but that is a different facility and is not used as evidence here."
+  },
+  "ranking": {
+   "lines": [
+    "Senior Unsecured (not stated expressly; derived from the security position: guaranteed facility with no security or collateral provision, and pricing based on the Parent's long-term senior unsecured debt ratings)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "based on the Parent’s long-term senior unsecured non-credit-enhanced debt ratings",
+     "page": 5
+    },
+    {
+     "quote": "Parent and any subsidiary or intermediate holding company that shall have executed and delivered a guaranty supplement to the Administrative Agent.",
+     "page": 2
+    }
+   ],
+   "note": "Derived from the security position; ranking of the revolver is not stated expressly and nothing is said about ranking against the term loan or other debt. The companion $4.0bn term loan facility is described as 'senior unsecured' (page 1), but that describes a different facility, so it is not used as a basis or as evidence here (same treatment as the Collateral/Security row)."
+  },
+  "fc_leverage": {
+   "lines": [
+    "Consolidated Net Leverage Ratio (Consolidated Funded Debt / Consolidated Adjusted EBITDA) <= 3.50x prior to the Acquisition Closing Date",
+    "Acquisition step-up: <= 4.75x for the fiscal quarter in which the Acquisition closes; 4.50x for the 1st and 2nd full fiscal quarters after; 4.25x for the 3rd; 4.00x for the 4th and 5th; 3.75x for the 6th and 7th; 3.50x from the 8th full fiscal quarter onwards",
+    "Covenant Reset (only when the level is otherwise 3.50x): on Parent's notice, where acquisitions (other than the Acquisition) in the prior 12 months have aggregate consideration >= $500m, level rises to 4.00x for four fiscal quarters, then 3.75x for two more",
+    "Covenant Reset Period starts with the fiscal quarter in which one of the notified acquisitions closes; a further reset needs a Compliance Certificate showing leverage <= 3.50x for a full fiscal quarter after the period ends"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "a ratio of Consolidated Funded Debt to Consolidated Adjusted EBITDA of not more than (i) prior to the date of consummation of the Acquisition (the “Acquisition Closing Date”), 3.50 to 1.00, (ii) on the last day of the fiscal quarter during which the Acquisition Closing Date occurs, 4.75 to 1.00",
+     "page": 7
+    },
+    {
+     "quote": "(vii) on the last day of the eighth full consecutive fiscal quarter ending after the Acquisition Closing Date and the last day of each fiscal quarter ending thereafter, 3.50 to 1.00",
+     "page": 7
+    },
+    {
+     "quote": "the maximum Consolidated Net Leverage Ratio shall be automatically increased from 3.50 to 1.00 to 4.00 to 1.00 for a period of four fiscal quarters after such acquisition and 3.75 to 1.00 for two more fiscal quarters thereafter",
+     "page": 7
+    }
+   ],
+   "note": "The heading is 'Consolidated Net Leverage Ratio' (page 6); the test itself (page 7) is Consolidated Funded Debt, which nets permitted cash (see Other Select Definitions), to Consolidated Adjusted EBITDA. The Covenant Reset proviso refers to 'any Term Lender' and to a 'Consolidated Leverage Ratio', apparently carried over from the term loan term sheet. The intermediate step levels (4.50x, 4.25x, 4.00x, 3.75x) are in clauses (iii)-(vi) on page 7; they were checked against the page but do not fit in the three quotes allowed."
+  },
+  "fc_interest_cover": {
+   "lines": [
+    "Consolidated Adjusted EBITDA to Consolidated Interest Expense >= 4.00x (definitions identical to those in the Existing Revolving Credit Agreements)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "a ratio of Consolidated Adjusted EBITDA to Consolidated Interest Expense of not less than 4.00 to 1.00",
+     "page": 6
+    },
+    {
+     "quote": "Related Definitions: Identical to those set forth in the Existing Revolving Credit Agreements.",
+     "page": 6
+    }
+   ],
+   "note": ""
+  },
+  "fc_other": {
+   "lines": [
+    "Other: none (not among the financial covenants listed in the term sheet, which are limited to the interest cover and net leverage tests above)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "the Revolving Credit Agreement will include only the following financial, affirmative and negative covenants with respect to Parent, the Borrowers and their respective subsidiaries",
+     "page": 6
+    },
+    {
+     "quote": "and shall contain only the representations, warranties, covenants and events of default set forth below",
+     "page": 6
+    }
+   ],
+   "note": "Closed list: follows from the 'only the following' wording and the two covenants listed under Financial Covenants. That wording is subject to the Documentation Principles, but those repeat the closure (second quote) and only allow modifications no less favourable to the Parent group, so they do not add a covenant."
+  },
+  "fc_testing": {
+   "lines": [
+    "Tested quarterly, as of the last day of each fiscal quarter of Parent",
+    "First test (interest cover): first full fiscal quarter end after the Closing Date - defined only in the separate Term Loan Facility Term Sheet (the date on which the term loans are to be borrowed)",
+    "First test (leverage): first fiscal quarter end after the Revolving Effective Date",
+    "Measurement period (rolling 12 months or otherwise) not spelled out in term sheet: definitions identical to those in the Existing Revolving Credit Agreements; 'Measurement Period' is used but not defined (see Other Select Definitions)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Parent will maintain as of the last day of each fiscal quarter of Parent, commencing with the first full fiscal quarter end date occurring after the Closing Date",
+     "page": 6
+    },
+    {
+     "quote": "Parent will maintain as of the last day of each fiscal quarter of Parent, commencing with the first fiscal quarter end date occurring after the Revolving Effective Date",
+     "page": 7
+    },
+    {
+     "quote": "the Borrower intends to borrow term loans on the Closing Date (as defined in the Term Loan Facility Term Sheet)",
+     "page": 1
+    }
+   ],
+   "note": "'Closing Date' appears twice in the term sheet: in the interest cover covenant (page 6) and on page 1, where it is defined only by reference to the separate Term Loan Facility Term Sheet. The leverage test runs from the Revolving Effective Date, so the two covenants may start on different dates. 'Measurement Period' is used in the cash-netting proviso on page 7 (quoted under Other Select Definitions) but is not defined in the term sheet."
+  },
+  "select_definitions": {
+   "lines": [
+    "Adjusted EBITDA: Consolidated Adjusted EBITDA, Consolidated Interest Expense and related definitions identical to those in the Existing Revolving Credit Agreements (subject to the Documentation Principles); add-backs and caps not set out in term sheet",
+    "Net debt / cash netting: Consolidated Funded Debt is net of up to (x) 65% of unrestricted cash and cash equivalents of the Parent and the Subsidiaries at each Measurement Period end plus (y) proceeds of Securities issued for the Acquisition and the other Transactions (or to redeem those Securities if the Acquisition does not close)",
+    "Acquisition consideration for the Covenant Reset ($500m test) is calculated consistent with past practice"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Related Definitions: Identical to those set forth in the Existing Revolving Credit Agreements.",
+     "page": 6
+    },
+    {
+     "quote": "“Consolidated Funded Debt” shall be defined to permit the netting of an amount not to exceed the sum of (x) 65% of all unrestricted cash and cash equivalents of the Parent and the Subsidiaries as of the last day of each Measurement Period",
+     "page": 7
+    },
+    {
+     "quote": "(y) the aggregate amount of proceeds received by Parent and its subsidiaries from the issuance of Securities to the extent such proceeds are intended to be used in connection with the Acquisition and the other Transactions",
+     "page": 7
+    }
+   ],
+   "note": "Equity cures, deemed cures and synergies are not addressed. The EBITDA and interest definitions are by reference to the Existing Revolving Credit Agreements; only the cash-netting change to Consolidated Funded Debt is spelled out. 'Securities' is not defined in the term sheet."
+  },
+  "negative_pledge": {
+   "lines": [
+    "Limitation on liens (listed as a negative covenant); baskets not detailed in term sheet",
+    "By reference: to be substantially similar to the liens covenant in the Existing Revolving Credit Agreements as in effect on 30 August 2026, with increases to baskets and thresholds to be agreed (Documentation Principles: see Other)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Use of proceeds; merger; liens; affiliates; change in fiscal year; and indebtedness.",
+     "page": 8
+    },
+    {
+     "quote": "The Revolving Credit Agreement shall contain representations, warranties covenants and events of default based on and substantially similar to those in the Existing Revolving Credit Agreements as in effect on August 30, 2026",
+     "page": 6
+    },
+    {
+     "quote": "(b) to include additional exceptions, qualifications, increases to baskets, thresholds and time periods, and other modifications to be agreed by the Borrowers and the Arrangers",
+     "page": 6
+    }
+   ],
+   "note": ""
+  },
+  "permitted_acquisitions": {
+   "lines": [
+    "None: not among the covenants listed in the term sheet (negative covenants limited to use of proceeds; merger; liens; affiliates; change in fiscal year; indebtedness) - no acquisitions or investments covenant",
+    "Merger covenant is listed without detail (to be substantially similar to the Existing Revolving Credit Agreements)",
+    "Acquisitions are otherwise addressed in the leverage covenant (step-up for the Acquisition and Covenant Reset for other acquisitions: see Financial Covenants)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "the Revolving Credit Agreement will include only the following financial, affirmative and negative covenants with respect to Parent, the Borrowers and their respective subsidiaries",
+     "page": 6
+    },
+    {
+     "quote": "Use of proceeds; merger; liens; affiliates; change in fiscal year; and indebtedness.",
+     "page": 8
+    },
+    {
+     "quote": "have made acquisitions (other than the Acquisition) whose aggregate consideration equals or exceeds $500,000,000",
+     "page": 7
+    }
+   ],
+   "note": "Closed list: 'None' rests on the term sheet's statement that only the listed covenants will be included. That statement is subject to the Documentation Principles (substantially similar to the Existing Revolving Credit Agreements), but those repeat the closure on page 6 (quoted under Permitted Disposals) and only allow modifications no less favourable to the Parent group, so they do not add a covenant."
+  },
+  "permitted_disposals": {
+   "lines": [
+    "None: not among the covenants listed in the term sheet (negative covenants limited to use of proceeds; merger; liens; affiliates; change in fiscal year; indebtedness) - no asset sale / disposal covenant",
+    "Merger covenant is listed without detail; term sheet does not say whether it covers a sale of all or substantially all assets"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "the Revolving Credit Agreement will include only the following financial, affirmative and negative covenants with respect to Parent, the Borrowers and their respective subsidiaries",
+     "page": 6
+    },
+    {
+     "quote": "Use of proceeds; merger; liens; affiliates; change in fiscal year; and indebtedness.",
+     "page": 8
+    },
+    {
+     "quote": "and shall contain only the representations, warranties, covenants and events of default set forth below",
+     "page": 6
+    }
+   ],
+   "note": "Closed list: 'None' rests on the term sheet's statement that only the listed covenants will be included. That statement is subject to the Documentation Principles, but those repeat the closure (third quote) and only allow modifications no less favourable to the Parent group, so they do not add a covenant."
+  },
+  "permitted_distributions": {
+   "lines": [
+    "None: not among the covenants listed in the term sheet (negative covenants limited to use of proceeds; merger; liens; affiliates; change in fiscal year; indebtedness) - no restricted payments covenant (dividends, share buybacks)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "the Revolving Credit Agreement will include only the following financial, affirmative and negative covenants with respect to Parent, the Borrowers and their respective subsidiaries",
+     "page": 6
+    },
+    {
+     "quote": "Use of proceeds; merger; liens; affiliates; change in fiscal year; and indebtedness.",
+     "page": 8
+    },
+    {
+     "quote": "and shall contain only the representations, warranties, covenants and events of default set forth below",
+     "page": 6
+    }
+   ],
+   "note": "Closed list: 'None' rests on the term sheet's statement that only the listed covenants will be included. That statement is subject to the Documentation Principles, but those repeat the closure (third quote) and only allow modifications no less favourable to the Parent group, so they do not add a covenant."
+  },
+  "permitted_indebtedness": {
+   "lines": [
+    "Limitation on indebtedness (listed as a negative covenant); baskets not detailed in term sheet",
+    "By reference: to be substantially similar to the indebtedness covenant in the Existing Revolving Credit Agreements as in effect on 30 August 2026, with increases to baskets and thresholds to be agreed (Documentation Principles: see Other)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Use of proceeds; merger; liens; affiliates; change in fiscal year; and indebtedness.",
+     "page": 8
+    },
+    {
+     "quote": "The Revolving Credit Agreement shall contain representations, warranties covenants and events of default based on and substantially similar to those in the Existing Revolving Credit Agreements as in effect on August 30, 2026",
+     "page": 6
+    },
+    {
+     "quote": "(b) to include additional exceptions, qualifications, increases to baskets, thresholds and time periods, and other modifications to be agreed by the Borrowers and the Arrangers",
+     "page": 6
+    }
+   ],
+   "note": ""
+  },
+  "permitted_loans": {
+   "lines": [
+    "None: not among the covenants listed in the term sheet (negative covenants limited to use of proceeds; merger; liens; affiliates; change in fiscal year; indebtedness) - no covenant on loans, advances or investments"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "the Revolving Credit Agreement will include only the following financial, affirmative and negative covenants with respect to Parent, the Borrowers and their respective subsidiaries",
+     "page": 6
+    },
+    {
+     "quote": "Use of proceeds; merger; liens; affiliates; change in fiscal year; and indebtedness.",
+     "page": 8
+    },
+    {
+     "quote": "and shall contain only the representations, warranties, covenants and events of default set forth below",
+     "page": 6
+    }
+   ],
+   "note": "Closed list: 'None' rests on the term sheet's statement that only the listed covenants will be included. That statement is subject to the Documentation Principles, but those repeat the closure (third quote) and only allow modifications no less favourable to the Parent group, so they do not add a covenant. The 'affiliates' covenant is listed without detail and might touch loans to affiliates."
+  },
+  "permitted_guarantees": {
+   "lines": [
+    "None: not among the covenants listed in the term sheet (negative covenants limited to use of proceeds; merger; liens; affiliates; change in fiscal year; indebtedness) - no separate covenant on guarantees",
+    "Term sheet does not say whether guarantees count as indebtedness under the indebtedness covenant, which is listed without detail (see Permitted Financial Indebtedness)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "the Revolving Credit Agreement will include only the following financial, affirmative and negative covenants with respect to Parent, the Borrowers and their respective subsidiaries",
+     "page": 6
+    },
+    {
+     "quote": "Use of proceeds; merger; liens; affiliates; change in fiscal year; and indebtedness.",
+     "page": 8
+    },
+    {
+     "quote": "and shall contain only the representations, warranties, covenants and events of default set forth below",
+     "page": 6
+    }
+   ],
+   "note": "Closed list, so the row is stated as 'None' like the other covenants that are not on the list; the Documentation Principles repeat the closure (third quote). Any limit on guarantees could only come through the indebtedness covenant, whose terms are in the Existing Revolving Credit Agreements, not in the term sheet; the term sheet does not say that guarantees are treated as indebtedness."
+  },
+  "permitted_payments": {
+   "lines": [
+    "None: not among the covenants listed in the term sheet (negative covenants limited to use of proceeds; merger; liens; affiliates; change in fiscal year; indebtedness) - no covenant on payments, prepayments or redemptions of junior or subordinated debt"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "the Revolving Credit Agreement will include only the following financial, affirmative and negative covenants with respect to Parent, the Borrowers and their respective subsidiaries",
+     "page": 6
+    },
+    {
+     "quote": "Use of proceeds; merger; liens; affiliates; change in fiscal year; and indebtedness.",
+     "page": 8
+    },
+    {
+     "quote": "and shall contain only the representations, warranties, covenants and events of default set forth below",
+     "page": 6
+    }
+   ],
+   "note": "Closed list: 'None' rests on the term sheet's statement that only the listed covenants will be included. That statement is subject to the Documentation Principles, but those repeat the closure (third quote) and only allow modifications no less favourable to the Parent group, so they do not add a covenant."
+  },
+  "other_covenants": {
+   "lines": [
+    "Negative covenants (exhaustive list, no detail given): use of proceeds; merger; liens; affiliates; change in fiscal year; indebtedness",
+    "Affirmative covenants (list only): financial reporting; notice of default; conduct of business; taxes; insurance; compliance with laws; maintenance of properties; inspection; ERISA; additional guarantors",
+    "Documentation Principles: covenants substantially similar to, and no less favourable to the Parent group than, those in the Existing Revolving Credit Agreements as in effect on 30 August 2026, with additional exceptions and increases to baskets, thresholds and time periods to be agreed",
+    "Sanctions / anti-corruption: a representation on anti-corruption laws and sanctions is listed; no separate covenant listed"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial reporting; notice of default; conduct of business; taxes; insurance; compliance with laws; maintenance of properties; inspection; ERISA; and additional guarantors. - Negative Covenants : Use of proceeds; merger; liens; affiliates; change in fiscal year; and indebtedness.",
+     "page": 8
+    },
+    {
+     "quote": "shall mean substantially similar to, and no less favorable to the Parent and its subsidiaries than, those in the Existing Revolving Credit Agreements with modifications (a) as are necessary to reflect the terms specifically set forth herein",
+     "page": 6
+    },
+    {
+     "quote": "licenses; disclosure; and anti-corruption laws and sanctions.",
+     "page": 6
+    }
+   ],
+   "note": "The covenants are headings only; their content is by reference to the Existing Revolving Credit Agreements. 'Affiliates' is printed without further description (presumably transactions with affiliates). The first quote runs across the '- Negative Covenants :' label, as printed. The 'as in effect on August 30, 2026' and 'increases to baskets' wording of the Documentation Principles is quoted under negative_pledge. The list is closed twice on page 6: by the Covenants paragraph ('will include only the following') and by the Documentation Principles themselves ('shall contain only the representations, warranties, covenants and events of default set forth below'); both are quoted under the Permitted rows that read 'None'."
+  },
+  "events_of_default": {
+   "lines": [
+    "Cross default: cross-default to other indebtedness with a materiality threshold of $200m",
+    "Insolvency / creditors' process: insolvency and involuntary insolvency listed as events of default (no thresholds or grace periods given); judgments with a materiality threshold of $200m; condemnation",
+    "Payment: non-payment of principal when due; non-payment of interest or other amounts within 5 business days after due",
+    "Other: material inaccuracy of representations and warranties; breach of covenants (specific covenants to have a 30-day grace period); change of control; ERISA; invalidity of guaranty",
+    "Closed list (only the events of default listed), to be substantially similar to those in the Existing Revolving Credit Agreements (Documentation Principles)",
+    "Default interest: Applicable Margin on overdue amounts increases by 200bps during a payment Event of Default, on notice from the Administrative Agent or the Required Lenders"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "cross-default to other indebtedness with a materiality threshold of $200,000,000; insolvency; involuntary insolvency; condemnation; judgments with a materiality threshold of $200,000,000; change of control; ERISA; and invalidity of guaranty.",
+     "page": 8
+    },
+    {
+     "quote": "material inaccuracy of any representations and warranties; non-payment of principal when due; non-payment of interest or other amounts within five business days after due; breach of covenants (with specific covenants to have 30-day grace period)",
+     "page": 8
+    },
+    {
+     "quote": "Upon notice from the Administrative Agent or the Required Lenders following the occurrence and during the continuance of any payment Event of Default, the Applicable Margin on overdue amounts will increase by 200 basis points per annum",
+     "page": 5
+    }
+   ],
+   "note": "The first two quotes together are the whole list of events of default, which the term sheet introduces with 'will include only the following events of default (and, as appropriate, grace periods)' (page 8). The term sheet does not say which covenants carry the 30-day grace period, and gives no grace period for involuntary insolvency or judgments. Default interest (page 5, Interest Rate section) is kept in this row as the consequence of a payment Event of Default; the template has no pricing row, and the margin and facility fee grid on page 11 is not recorded anywhere."
+  },
+  "conditions_subsequent": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "Only conditions precedent are listed (to the Revolving Effective Date, pages 8-9, and to Advances, Commitment Increases and Commitment Extensions, page 9)."
+  },
+  "mandatory_prepayment": {
+   "lines": [
+    "Change of Control: event of default (listed among the events of default without detail); ownership trigger not stated in term sheet - events of default to be substantially similar to the Existing Revolving Credit Agreements",
+    "Mandatory prepayments: none stated in term sheet (no disposal, insurance or debt issuance proceeds, excess cashflow or currency fluctuation prepayment); only optional prepayment and voluntary commitment reduction are provided for"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "judgments with a materiality threshold of $200,000,000; change of control; ERISA; and invalidity of guaranty.",
+     "page": 8
+    },
+    {
+     "quote": "Advances may be prepaid without premium or penalty",
+     "page": 4
+    },
+    {
+     "quote": "terminate or cancel, in whole or in part, the unused portion of the Facility Amount in excess of the aggregate outstanding Advances",
+     "page": 4
+    }
+   ],
+   "note": "The status is stated because the term sheet does say how change of control is treated (an event of default). It is silent on mandatory prepayments; it does not say expressly that there are none, and the second line is worded that way."
+  },
+  "jurisdiction_topco": {
+   "lines": [
+    "Not stated in term sheet (Parent is Aon plc; its jurisdiction of incorporation is not given)",
+    "Governing law of the facility: State of New York (exclusive jurisdiction of the state courts in New York County / US District Court of the Southern District of New York)"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "Parent: Aon plc.",
+     "page": 2
+    },
+    {
+     "quote": "will be governed by and construed in accordance with the laws of the State of New York without regard to principles of conflicts of laws",
+     "page": 10
+    }
+   ],
+   "note": "The term sheet names Aon plc as Parent but does not state where it is incorporated; nothing has been added from outside the term sheet."
+  },
+  "transferability": {
+   "lines": [
+    "Borrower consent: not stated in term sheet - assignments and participations to be substantially consistent with the Existing Revolving Credit Agreements (subject to the Documentation Principles)",
+    "Transferee restrictions and participations: not detailed. Administrative Agent consent applies to some assignments (new lenders on a Commitment Increase or extension must be reasonably acceptable to it where an assignment to them would require its consent)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Assignments and Participations: Subject to the Documentation Principles, substantially consistent with the Existing Revolving Credit Agreements.",
+     "page": 9
+    },
+    {
+     "quote": "third party financial institutions reasonably acceptable to the Administrative Agent (to the extent an assignment of Revolving Commitments to such third party financial institution would require the consent of the Administrative Agent)",
+     "page": 3
+    }
+   ],
+   "note": "The first line keeps the 'Borrower consent' prefix required by the house style, but the term sheet does not say whether Borrower consent, consultation or neither applies; the answer is in the Existing Revolving Credit Agreements."
+  },
+  "info_annual_consolidated": {
+   "lines": [
+    "Annual audited consolidated accounts - deadline not stated in term sheet; 'financial reporting' is listed as an affirmative covenant without detail (to be substantially similar to the Existing Revolving Credit Agreements)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Financial reporting; notice of default; conduct of business; taxes;",
+     "page": 8
+    },
+    {
+     "quote": "The Revolving Credit Agreement shall contain representations, warranties covenants and events of default based on and substantially similar to those in the Existing Revolving Credit Agreements as in effect on August 30, 2026",
+     "page": 6
+    }
+   ],
+   "note": "The term sheet does not say that annual audited accounts are required or when; only the 'financial reporting' heading is given."
+  },
+  "info_annual_obligor": {
+   "lines": [
+    "Annual obligor accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_quarterly": {
+   "lines": [
+    "Quarterly accounts - deadline not stated in term sheet; 'financial reporting' is listed as an affirmative covenant without detail (to be substantially similar to the Existing Revolving Credit Agreements)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Financial reporting; notice of default; conduct of business; taxes;",
+     "page": 8
+    },
+    {
+     "quote": "The Revolving Credit Agreement shall contain representations, warranties covenants and events of default based on and substantially similar to those in the Existing Revolving Credit Agreements as in effect on August 30, 2026",
+     "page": 6
+    }
+   ],
+   "note": "The financial covenants are tested at each fiscal quarter end, but the term sheet gives no quarterly reporting deadline."
+  },
+  "info_budget": {
+   "lines": [
+    "Annual budget - not stated in term sheet; 'financial reporting' is listed as an affirmative covenant without detail (to be substantially similar to the Existing Revolving Credit Agreements)",
+    "Other: notice of default (affirmative covenant, list only); Compliance Certificate after each Covenant Reset Period evidencing leverage <= 3.50x for a full fiscal quarter; Covenant Reset Notice listing the acquisitions made"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Financial reporting; notice of default; conduct of business; taxes;",
+     "page": 8
+    },
+    {
+     "quote": "the Parent shall deliver to the Administrative Agent an executed Compliance Certificate that shall evidence the Parent’s compliance with a Consolidated Leverage Ratio of 3.50 to 1.00",
+     "page": 7
+    },
+    {
+     "quote": "such notice, which shall include a listing of the acquisitions so made, a “Covenant Reset Notice”",
+     "page": 7
+    }
+   ],
+   "note": "No budget requirement is mentioned. Marked by_reference because the reporting covenants are headings only, with their content in the Existing Revolving Credit Agreements; the Compliance Certificate and Covenant Reset Notice in the second line are stated in the leverage covenant (page 7)."
+  }
+ }
+}

@@ -1,0 +1,508 @@
+{
+ "schema": "kct/1",
+ "client": "APi Group",
+ "deal": "APi Group 2026",
+ "source_file": "APi Group 2026 TS.pdf",
+ "sha1": "a70ca13d2ddb0b4ad5792c7534cee69c849024ea",
+ "source": "audited",
+ "audit": {
+  "on": "2026-11-12",
+  "method": "Read from the full term sheet by one AI reviewer, then checked against it twice by independent AI reviewers: first every line of the record against the document, then the document section by section against the record. Not signed off by a person. Every quote is looked up in the PDF text each time the tool runs.",
+  "first_audit_changes": 7,
+  "first_audit_substantive": 3,
+  "final_review_changes": 2,
+  "final_review_substantive": 0,
+  "open_points": "Final record written to C:\\Users\\AFarid\\Documents\\Hackathon\\key_credit_terms\\data\\audited\\api_group_2026.json; checker reports structure OK, 42 of 42 quotes exact. Walking the deck page by page (dump in full; images of pages 1, 2, 3, 10, 11, 12, 13, 16, 17) found no term missing from the record, none in the wrong row, and no figure taken from the wrong facility, period or column. All 34 rows keep their status; searches for accordion, transfer, default, prepayment, change of control, reporting, agent, letter of credit and governing-law wording found nothing beyond the disclaimers.\n\nThe first auditor's open calls were resolved as follows: guarantor_coverage stays stated; interest cover / other covenants stay 'none' derived from the single-covenant Financial Covenant row; the 281-character page 12 quote stays because it is the only way to carry due 2030, due 2029, $2,157m and the 7-year tenor within three quotes; the repeated one-clause pointer in the negative-covenant rows stays so each by_reference row names what it points to; select_definitions line 1 stays at 254 characters (within 'about 250').\n\nPoints the document itself cannot resolve:\n1. Whether the '(same as existing Revolving Credit Facility)' tag in the Financial Covenant row covers the 30% springing test or only the acquisition step-up sentence it follows.\n2. The step-back after a qualified acquisition is printed as 4.00x, not 3.75x (confirmed on the page image); the deck does not say when or whether the level returns to 3.75x, and 'qualified acquisition' is undefined.\n3. Which Term Loan B maturity the 91-day springing maturity runs off: the existing 2029 date or the proposed new 7-year tenor.\n4. Whether '>80% of revenue, EBITDA, and assets' is a tested minimum, and whether it describes the guarantors or the listed jurisdictions.\n5. Whether the $75m swingline sits inside or on top of the $1,000m.\n6. Events of default, mandatory prepayment, transferability, accordion, conditions subsequent and the four reporting rows are silent in the deck. The transaction is an amendment of the existing RCF, so those terms presumably continue, but the deck never says so; they remain not_stated rather than by_reference.\n7. Pricing grid, undrawn fee, SOFR floor and upfront fees have no template row and are recorded only in the reviewer notes of facility and lender_commitments, which are not printed.\n8. The commitment deadline prints as 'Thursday, May 7th' without a year, as the deck does; the year (2026) comes only from the page 13 calendar heading and is in the note."
+ },
+ "doc": {
+  "kind": "lender_presentation",
+  "title": "Revolving Lender Presentation",
+  "date": "April 2026",
+  "notes": "Lender presentation (slide deck) furnished by Citibank, N.A. as arranger for the amendment, extension and upsize of APi Group's Revolving Credit Facility from $750m to $1.0bn; the cover is dated April 2026 and the company authorization letter April 30, 2026. The terms are a one-page 'Summary of Indicative Terms' on page 11, with context on page 10 (Executive Summary), page 12 (Sources & Uses / Pro Forma Capitalization) and page 13 (Transaction Timeline); pages 1-9 are notices and disclaimers and pages 14-35 are a 1Q'26 update, non-GAAP reconciliations and a contact list. It is an amendment but shows only the proposed terms in a single column (no existing / proposed comparison), marking several as 'same as existing Revolving Credit Facility' and describing negative covenants only as 'similar to existing Revolving Credit Facility'. It gives no detail on covenant baskets, events of default, mandatory prepayments, assignments, conditions or reporting, and does not say that unlisted terms follow the existing facility."
+ },
+ "fields": {
+  "facility": {
+   "lines": [
+    "$1.0bn senior secured RCF (existing $750m RCF amended, extended and upsized)",
+    "Swingline: $75m Swingline Facility (term sheet does not say whether it is a sub-limit of, or in addition to, the $1.0bn)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "$1,000 million Senior Secured Revolving Credit Facility and $75 million Swingline Facility",
+     "page": 11
+    },
+    {
+     "quote": "The RCF will also be upsized from $750 million to $1,000 million",
+     "page": 10
+    }
+   ],
+   "note": "The Facility row reads '$1,000 million Senior Secured Revolving Credit Facility and $75 million Swingline Facility'; whether the swingline sits inside the $1,000m is not stated. No letter of credit or alternative currency sub-limits are mentioned. Pricing (not a template row): S+125 to S+200 bps on a Net First Lien Leverage grid (>=3.50x S+200; <3.50x & >=2.50x S+175; <2.50x & >=1.50x S+150; <1.50x S+125), undrawn fee 37.5 bps with a 12.5 bps stepdown at First Lien Net Leverage <= 2.75x, SOFR floor 0.00%."
+  },
+  "borrowers": {
+   "lines": [
+    "APi Group DE, Inc. (jurisdiction of incorporation not stated; no additional or designated borrowers mentioned)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Borrower: APi Group DE, Inc.",
+     "page": 11
+    }
+   ],
+   "note": "The Executive Summary (p10) and the Company Authorization Letter (p2) describe the RCF as that of APi Group Corporation (the 'Company'), while the Notice to Recipients (p3) defines the 'Company' as APi Group DE, Inc. The Summary of Indicative Terms names only APi Group DE, Inc. as Borrower. 'DE' in the name is not treated as a statement of jurisdiction; the only indication of entity type is the 'Inc.' in the name."
+  },
+  "lender_commitments": {
+   "lines": [
+    "Barclays = not stated in term sheet",
+    "No lender commitments stated. Citibank, N.A. is named as Lead Arranger / Arranger; administrative agent and other arrangers / bookrunners not named. RCF commitments requested by 5:00 PM ET on Thursday, May 7th"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "Citibank N.A. (the “Lead Arranger”)",
+     "page": 2
+    },
+    {
+     "quote": "furnished by Citibank, N.A. (the \"Arranger\")",
+     "page": 3
+    },
+    {
+     "quote": "RCF commitments are requested by 5:00 PM ET on Thursday, May 7th",
+     "page": 10
+    }
+   ],
+   "note": "Barclays is not named anywhere in the document. Upfront fees: 4 bps for extension of existing commitments; 20 bps for new commitments (p11). The contact list (p33) gives Citigroup Global Markets Inc. for Leveraged Finance Origination and Loan Syndication. The commitment deadline falls in May 2026 (timeline, p13)."
+  },
+  "purpose": {
+   "lines": [
+    "Amend, extend and upsize the existing $750m RCF (Sources & Uses: 'Refinance Existing Revolving Credit Facility', nil amount) to better reflect the Company's scale and further bolster its liquidity profile",
+    "Use of RCF drawings not otherwise stated; 'general corporate purposes, including bolt-on acquisitions' is given only for the concurrent $500m new Senior Unsecured Debt issuance"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "is seeking to amend, extend and upsize its Revolving Credit Facility (the “RCF”) to better reflect the Company’s scale and further bolster its liquidity profile",
+     "page": 10
+    },
+    {
+     "quote": "Refinance Existing Revolving Credit Facility",
+     "page": 12
+    },
+    {
+     "quote": "new Senior Unsecured Debt issuance for general corporate purposes, including bolt-on acquisitions",
+     "page": 10
+    }
+   ],
+   "note": "The term sheet does not say 'general corporate purposes' for the RCF itself. In the Sources & Uses both the new RCF (source) and the refinancing of the existing RCF (use) are shown as '--' (undrawn); the $470m 'Cash to Balance Sheet for General Corporate Purposes' is funded by the new unsecured debt."
+  },
+  "maturity": {
+   "lines": [
+    "5 years from closing date (May 2031); existing RCF is due 2030",
+    "Springing maturity: 91 days ahead of the maturity of the Term Loan B (existing $2.157bn Term Loan B due 2029, to be amended and extended to a new 7-year tenor; term sheet does not say which of the two maturities is meant)",
+    "Extension options: none stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "5 years from closing date, subject to a 91-day springing maturity ahead of the maturity of the Term Loan B",
+     "page": 11
+    },
+    {
+     "quote": "Maturity of the RCF will be extended to May 2031 (5 years from closing)",
+     "page": 10
+    },
+    {
+     "quote": "Existing Revolving Credit Facility due 2030 ($750mm) -- -- New Revolving Credit Facility (upsized to $1,000mm) -- New Revolving Credit Facility due 2031 ($1,000mm) -- -- USD Term Loan B due 2029 2,157 (2,157) -- Amend & Extend Existing Term Loan B $2,157 New 7-year USD Term Loan B",
+     "page": 12
+    }
+   ],
+   "note": "The Term Loan B extension is a separate transaction launching the week of May 4th; the term sheet does not say which Term Loan B maturity the springing test refers to if that extension does not complete. Existing RCF 'due 2030' and Term Loan B 'due 2029' are from the pro forma capitalisation on p12; the third quote runs across the Sources & Uses and Pro Forma Capitalization columns of that page as the page text interleaves them. The Executive Summary (p10) also says 'amend and extend its existing $2,157 million Term Loan B to a new 7-year tenor'."
+  },
+  "repayment": {
+   "lines": [
+    "Bullet (revolving; no amortisation; repayable at maturity) - same as existing RCF",
+    "Voluntary prepayment: freely prepayable at par (same as existing RCF)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Amortization: None (same as existing Revolving Credit Facility)",
+     "page": 11
+    },
+    {
+     "quote": "Call Protection: Freely prepayable at par (same as existing Revolving Credit Facility)",
+     "page": 11
+    }
+   ],
+   "note": ""
+  },
+  "accordion": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The transaction itself upsizes the RCF from $750m to $1,000m; no incremental / accordion provision is described. The reference on p17 to funding announced acquisitions with 'incremental debt' is a statement of funding intent, not a facility term."
+  },
+  "guarantors": {
+   "lines": [
+    "Limited to parties formed in North America, the United Kingdom, Hong Kong and the Netherlands, constituting >80% of revenue, EBITDA and assets, 'with certain other modifications' (not specified)",
+    "Guarantors not named individually; release / fall-away provisions for guarantees not stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Guarantors: Limited to parties formed in North America, the United Kingdom, Hong Kong, and the Netherlands, constituting >80% of revenue, EBITDA, and assets with certain other modifications",
+     "page": 11
+    }
+   ],
+   "note": "Unlike several other rows, the Guarantors row is not marked 'same as existing Revolving Credit Facility'; 'certain other modifications' suggests a change from the existing package but the term sheet does not say what changes."
+  },
+  "guarantor_coverage": {
+   "lines": [
+    ">80% of revenue, EBITDA and assets: guarantors are limited to parties formed in the listed jurisdictions 'constituting >80% of revenue, EBITDA, and assets' (see Guarantor(s))",
+    "Not expressed as a minimum coverage test: term sheet does not say whether >80% is an ongoing requirement or a description of the guarantor group / listed jurisdictions; no material-subsidiary threshold stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Limited to parties formed in North America, the United Kingdom, Hong Kong, and the Netherlands, constituting >80% of revenue, EBITDA, and assets",
+     "page": 11
+    }
+   ],
+   "note": "Judgement call: the only coverage figure is the '>80% of revenue, EBITDA, and assets' wording in the Guarantors row. It is recorded here as stated, with the caveat that the term sheet does not present it as a tested minimum. The same phrase follows 'collateral located in North America, the United Kingdom, Hong Kong, and the Netherlands' in the Security row, so it can also be read as describing the share of the group in those jurisdictions rather than the guarantors themselves; the term sheet does not say whose revenue, EBITDA and assets are the denominator. The alternative treatment is not_stated ('None stated in term sheet'). Final review: kept as stated, because the Guarantors row does address the subject of this template row, using the same three measures (revenue, EBITDA, assets) the template asks for."
+  },
+  "security": {
+   "lines": [
+    "Secured (facility described as Senior Secured): limited to collateral located in North America, the United Kingdom, Hong Kong and the Netherlands, constituting >80% of revenue, EBITDA and assets, 'with certain other modifications' (not specified)",
+    "Asset classes, exclusions and release triggers not stated (the IG-rating fall-away is described for negative covenants only)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Security: Limited to collateral located in North America, the United Kingdom, Hong Kong, and the Netherlands, constituting >80% of revenue, EBITDA, and assets with certain other modifications",
+     "page": 11
+    },
+    {
+     "quote": "$1,000 million Senior Secured Revolving Credit Facility",
+     "page": 11
+    }
+   ],
+   "note": "The term sheet does not say whether the collateral falls away on an investment-grade rating; the fall-away mechanics are mentioned only in the Negative Covenants row."
+  },
+  "ranking": {
+   "lines": [
+    "Senior Secured (first lien per the pro forma capitalisation: RCF listed with the Term Loan B within Total First Lien Debt; senior unsecured notes and new senior unsecured debt shown separately below)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "$1,000 million Senior Secured Revolving Credit Facility",
+     "page": 11
+    },
+    {
+     "quote": "New Revolving Credit Facility due 2031 ($1,000mm)",
+     "page": 12
+    },
+    {
+     "quote": "Total First Lien Debt",
+     "page": 12
+    }
+   ],
+   "note": "'Senior Secured' is the term sheet's own description. First-lien status is taken from the position of the RCF lines above the 'Total First Lien Debt' subtotal on p12 and from the Net First Lien Leverage covenant; pari passu ranking with the Term Loan B is not stated expressly."
+  },
+  "fc_leverage": {
+   "lines": [
+    "Net First Lien Leverage Ratio <= 3.75x (following a qualified acquisition, steps up to 4.50x and then steps back down to 4.00x 1 year after the quarter in which the acquisition was made); marked same as existing RCF",
+    "Level is printed as 'of 3.75x' (read as a maximum); the return from 4.00x to 3.75x is not stated and 'qualified acquisition' is not defined in the term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Net First Lien Leverage Ratio of 3.75x, only to be tested quarterly when 30% of facility is drawn.",
+     "page": 11
+    },
+    {
+     "quote": "Following a qualified acquisition, steps up to 4.50x and then steps back down to 4.00x 1 year after the quarter in which the acquisition was made (same as existing Revolving Credit Facility)",
+     "page": 11
+    }
+   ],
+   "note": "The term sheet says 'Net First Lien Leverage Ratio of 3.75x'; read as a maximum. The step-down level is printed as 4.00x (not 3.75x) and the term sheet does not say when the level returns to 3.75x. 'Qualified acquisition' is not defined. The '(same as existing Revolving Credit Facility)' marker follows the step-up sentence at the end of the row and is read as applying to the whole row. The springing 30% drawn condition is recorded under testing. Pro forma Net First Lien Debt / Adjusted EBITDA is shown as 1.0x (p12)."
+  },
+  "fc_interest_cover": {
+   "lines": [
+    "Interest Cover: none (not stated expressly; the Financial Covenant row lists only the Net First Lien Leverage Ratio)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial Covenant: Net First Lien Leverage Ratio of 3.75x, only to be tested quarterly when 30% of facility is drawn.",
+     "page": 11
+    }
+   ],
+   "note": "Derived: the 'Financial Covenant' row (singular) of the Summary of Indicative Terms lists only the Net First Lien Leverage Ratio; there is no express statement that there is no interest cover test."
+  },
+  "fc_other": {
+   "lines": [
+    "Other: none (not stated expressly; the Financial Covenant row lists only the Net First Lien Leverage Ratio)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial Covenant: Net First Lien Leverage Ratio of 3.75x, only to be tested quarterly when 30% of facility is drawn.",
+     "page": 11
+    }
+   ],
+   "note": "Derived: the 'Financial Covenant' row (singular) lists only the Net First Lien Leverage Ratio."
+  },
+  "fc_testing": {
+   "lines": [
+    "Tested quarterly, only when 30% of the facility is drawn (springing test); Financial Covenant row marked same as existing RCF",
+    "Test period (e.g. rolling four quarters) and first test date not stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "only to be tested quarterly when 30% of facility is drawn",
+     "page": 11
+    },
+    {
+     "quote": "after the quarter in which the acquisition was made (same as existing Revolving Credit Facility)",
+     "page": 11
+    }
+   ],
+   "note": "The term sheet says 'when 30% of facility is drawn'; it does not say whether the trigger is at or above 30%, or which utilisations count (loans, swingline, letters of credit). The '(same as existing Revolving Credit Facility)' marker sits at the end of the Financial Covenant row, after the acquisition step-up sentence; it is read as applying to the whole row, including the testing condition. Because the marker does not sit next to the testing condition, the printed line says the row is 'marked' same as existing (as the leverage row does) rather than asserting it for the testing condition on its own."
+  },
+  "select_definitions": {
+   "lines": [
+    "Adjusted EBITDA: covenant EBITDA calculated under the debt agreements, with adjustments not in reported Adjusted EBITDA; not defined here (refers to SEC filings). Pro forma Total Net Leverage approx. 1.8x on that basis vs 2.0x on reported Adjusted EBITDA",
+    "Synergies: covenant EBITDA includes pro forma financial adjustments for acquisitions and cost savings; amounts and caps not stated"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "The Company calculates its net leverage ratio in accordance with its debt agreements, which include different adjustments to EBITDA, including pro forma financial adjustments for acquisitions and cost savings",
+     "page": 8
+    },
+    {
+     "quote": "A description of the covenant EBITDA calculation is included in the Company’s filings with the Securities and Exchange Commission.",
+     "page": 8
+    },
+    {
+     "quote": "Approximately 1.8x Total Net Leverage as calculated pursuant to the terms of the existing debt agreements.",
+     "page": 10
+    }
+   ],
+   "note": "Equity cures and deemed cures are not addressed. The only statement on covenant definitions is in the Non-GAAP Financial Measures disclaimer (p8), which points to the existing debt agreements and SEC filings. 'Net First Lien Leverage Ratio' and 'qualified acquisition' are not defined. The 2.0x Total Net Leverage is the figure 'Pro Forma for the transactions' based on LTM Adjusted EBITDA of $1,083 million (period ending 03/31/2026) in the Executive Summary (p10), to which the 1.8x footnote is attached; p17 also gives approximately 1.8x under the existing debt agreements as of the end of the first quarter. The reported (non-covenant) Adjusted EBITDA definition is on p7."
+  },
+  "negative_pledge": {
+   "lines": [
+    "Limitation on liens not itemised; permitted-security baskets not detailed in term sheet",
+    "Negative covenants are 'similar to existing Revolving Credit Facility', with embedded fall-away mechanics if an IG rating is obtained and with certain other modifications (not specified)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Negative Covenants: Similar to existing Revolving Credit Facility, with embedded fall away mechanics if IG rating is obtained and with certain other modifications",
+     "page": 11
+    }
+   ],
+   "note": "The single 'Negative Covenants' row is the only source for all the non-financial covenant rows; it does not list the individual covenants."
+  },
+  "permitted_acquisitions": {
+   "lines": [
+    "Not itemised in term sheet; no acquisition conditions or baskets given. Negative covenants are 'similar to existing Revolving Credit Facility', with IG-rating fall-away and certain other modifications (see Negative Pledge)",
+    "Financial covenant steps up to 4.50x following a 'qualified acquisition' (not defined; see Financial Covenants)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Negative Covenants: Similar to existing Revolving Credit Facility, with embedded fall away mechanics if IG rating is obtained and with certain other modifications",
+     "page": 11
+    },
+    {
+     "quote": "Following a qualified acquisition, steps up to 4.50x",
+     "page": 11
+    }
+   ],
+   "note": ""
+  },
+  "permitted_disposals": {
+   "lines": [
+    "Not itemised in term sheet; no disposal baskets or conditions given. Negative covenants are 'similar to existing Revolving Credit Facility', with IG-rating fall-away and certain other modifications (see Negative Pledge)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Negative Covenants: Similar to existing Revolving Credit Facility, with embedded fall away mechanics if IG rating is obtained and with certain other modifications",
+     "page": 11
+    }
+   ],
+   "note": ""
+  },
+  "permitted_distributions": {
+   "lines": [
+    "Not itemised in term sheet; no restricted payment baskets given. Negative covenants are 'similar to existing Revolving Credit Facility', with IG-rating fall-away and certain other modifications (see Negative Pledge)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Negative Covenants: Similar to existing Revolving Credit Facility, with embedded fall away mechanics if IG rating is obtained and with certain other modifications",
+     "page": 11
+    }
+   ],
+   "note": ""
+  },
+  "permitted_indebtedness": {
+   "lines": [
+    "Not itemised in term sheet; no debt baskets given. Negative covenants are 'similar to existing Revolving Credit Facility', with IG-rating fall-away and certain other modifications (see Negative Pledge)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Negative Covenants: Similar to existing Revolving Credit Facility, with embedded fall away mechanics if IG rating is obtained and with certain other modifications",
+     "page": 11
+    }
+   ],
+   "note": "Other debt shown in the pro forma capitalisation (p12), not presented as covenant baskets: $2.157bn Term Loan B (to be amended and extended to a new 7-year tenor), $14m Other Debt (within Total First Lien Debt), senior unsecured notes due 2029 of $337m and $277m, and $500m new 8-year senior unsecured debt."
+  },
+  "permitted_loans": {
+   "lines": [
+    "Not itemised in term sheet; no loan or investment baskets given. Negative covenants are 'similar to existing Revolving Credit Facility', with IG-rating fall-away and certain other modifications (see Negative Pledge)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Negative Covenants: Similar to existing Revolving Credit Facility, with embedded fall away mechanics if IG rating is obtained and with certain other modifications",
+     "page": 11
+    }
+   ],
+   "note": ""
+  },
+  "permitted_guarantees": {
+   "lines": [
+    "Not itemised in term sheet; guarantees not addressed separately and no baskets given. Negative covenants are 'similar to existing Revolving Credit Facility', with IG-rating fall-away and certain other modifications (see Negative Pledge)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Negative Covenants: Similar to existing Revolving Credit Facility, with embedded fall away mechanics if IG rating is obtained and with certain other modifications",
+     "page": 11
+    }
+   ],
+   "note": "The term sheet does not say whether guarantees are treated as indebtedness or investments."
+  },
+  "permitted_payments": {
+   "lines": [
+    "Not itemised in term sheet; no restrictions on junior or subordinated debt payments described. Negative covenants are 'similar to existing Revolving Credit Facility', with IG-rating fall-away and certain other modifications (see Negative Pledge)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Negative Covenants: Similar to existing Revolving Credit Facility, with embedded fall away mechanics if IG rating is obtained and with certain other modifications",
+     "page": 11
+    }
+   ],
+   "note": ""
+  },
+  "other_covenants": {
+   "lines": [
+    "Negative covenants: similar to existing Revolving Credit Facility, with embedded fall-away mechanics if an IG rating is obtained and with certain other modifications; individual covenants not listed",
+    "Affirmative covenants, sanctions / anti-corruption and other undertakings: not stated"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Negative Covenants: Similar to existing Revolving Credit Facility, with embedded fall away mechanics if IG rating is obtained and with certain other modifications",
+     "page": 11
+    }
+   ],
+   "note": "The fall-away trigger is given only as 'if IG rating is obtained'; which covenants fall away, which agencies and whether they reinstate are not stated."
+  },
+  "events_of_default": {
+   "lines": [
+    "Cross default: not stated in term sheet",
+    "Insolvency / creditors' process: not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The Summary of Indicative Terms has no events of default row and does not say that unlisted terms follow the existing Revolving Credit Facility (although the transaction is described as an amendment of that facility)."
+  },
+  "conditions_subsequent": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No conditions precedent or subsequent are given; the timeline (p13) shows only 'Closing and Effectiveness' after commitments are due on May 7th."
+  },
+  "mandatory_prepayment": {
+   "lines": [
+    "Change of Control: not stated in term sheet",
+    "Other mandatory prepayment events: not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "Only voluntary prepayment is addressed ('Call Protection: Freely prepayable at par', recorded under Repayment). The 91-day springing maturity is recorded under Maturity Date."
+  },
+  "jurisdiction_topco": {
+   "lines": [
+    "Not stated in term sheet (APi Group Corporation is named as the 'Company'; its jurisdiction of incorporation is not given)",
+    "Governing law of the facility: not stated (only the Notice and Undertaking to recipients is stated to be governed by New York law)"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "APi Group Corporation (“APi” or the “Company”) is seeking to amend, extend and upsize its Revolving Credit",
+     "page": 10
+    },
+    {
+     "quote": "This Notice and Undertaking and the Special Notice shall be governed by and construed in accordance with the law of the State of New York",
+     "page": 4
+    }
+   ],
+   "note": "The relationship between APi Group Corporation and the Borrower, APi Group DE, Inc., is not spelled out; APi Group Corporation is treated as the top company because the presentation and the authorization letter are given in its name. 'DE' in the Borrower's name is not treated as a statement of jurisdiction."
+  },
+  "transferability": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No assignments / participations terms are given."
+  },
+  "info_annual_consolidated": {
+   "lines": [
+    "Annual audited consolidated accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_annual_obligor": {
+   "lines": [
+    "Annual obligor accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_quarterly": {
+   "lines": [
+    "Quarterly accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_budget": {
+   "lines": [
+    "Annual budget - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No reporting covenants are described; the presentation only notes that the Company files periodic reports with the SEC."
+  }
+ }
+}

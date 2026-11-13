@@ -1,0 +1,609 @@
+{
+ "schema": "kct/1",
+ "client": "Honeywell 5yr",
+ "deal": "Honeywell 5yr",
+ "source_file": "Honeywell 5yr TS.pdf",
+ "sha1": "7458b363794a97030fee01a9b516abaaa1bc2dc8",
+ "source": "audited",
+ "audit": {
+  "on": "2026-11-12",
+  "method": "Read from the full term sheet by one AI reviewer, then checked against it twice by independent AI reviewers: first every line of the record against the document, then the document section by section against the record. Not signed off by a person. Every quote is looked up in the PDF text each time the tool runs.",
+  "first_audit_changes": 11,
+  "first_audit_substantive": 9,
+  "final_review_changes": 2,
+  "final_review_substantive": 1,
+  "open_points": "Final record: C:\\Users\\AFarid\\Documents\\Hackathon\\key_credit_terms\\data\\audited\\honeywell_5yr.json. Checker: structure OK; 61 quotes exact, 0 loose, 0 on another page, 0 missing. A diff against the first-audit record shows only the two mandatory_prepayment changes; the other 33 fields and the doc block are identical.\n\nWalking the 12 pages (text dump, plus page images 1, 2, 3, 5, 8, 9, 10 and 12) found no term missing from a row that fits it, no content in the wrong row, and no figure taken from the wrong place. The layout is label / value throughout, with no existing / proposed columns. Every amount, percentage and period in the record matches the page it cites.\n\nFirst auditor's doubts, resolved:\n1. doc.date stays empty. No date is printed; the footer \"2026 Honeywell Term Sheet\" is a label, and kct\\llm.py asks for the date \"as printed, \\\"\\\" if not printed\".\n2. The four financial covenant rows stay by_reference. The covenant list is open (\"including, but not limited to\") and defers to the Existing 5-Year Agreement, which is the style guide's open-list case. A search of the dump for ratio, leverage, EBITDA, coverage and net worth finds nothing.\n3. info_annual_obligor stays not_stated. The term sheet never mentions obligor accounts, and the field guidance prescribes this wording and status. The open-list rule would also allow by_reference; that is a conflict inside the brief, not something the document can settle.\n4. \"Lender put\" stays, with the printed caveat. Page 2 gives each Lender only a right to terminate its commitment.\n5. other_covenants stays by_reference: every listed covenant is \"certain ...\" with its detail left to the Existing 5-Year Agreement.\n6-8. The format departures, the ten lines of 254-362 characters (limit 420) and the three-quote evidence limits are left as they are. Merging or trimming would drop content or exceed the hard limit.\n10. Voluntary commitment cancellation, Majority Lenders, the 100 basis point default margin and the page 12 pricing grid have no template row and are not recorded.\n\nWhat the document itself cannot resolve:\n- \"Spin Off\" is never defined, so the trigger for the $3.0bn reduction and the $3.5bn cap is unknown.\n- The Change of Control clause is silent on repayment of a terminating Lender's Advances.\n- The board-change exception reads \"individuals replaced ... are elected\"; the record reads this as the replacement directors.\n- Whether the final documents carry a financial covenant, the reporting deadlines, and all covenant baskets depend on the Existing 5-Year Agreement, which was not consulted."
+ },
+ "doc": {
+  "kind": "term_sheet",
+  "title": "Honeywell International Inc. - Summary of Terms and Conditions - $4,000,000,000 5-Year Multi-Currency Revolving Credit Facility",
+  "date": "",
+  "notes": "Indicative, undated summary of terms (footer '2026 Honeywell Term Sheet') for a new $4.0bn 5-year unsecured multi-currency revolving credit facility for Honeywell International Inc., delivered to prospective lenders. Terms are on pages 1-11 in a label / value layout; page 12 is the ratings-based 5-Year Pricing Grid. It is not an amendment showing existing and proposed terms: it is a new facility, and payment of accrued amounts and termination of commitments under the Existing 5-Year Agreement dated as of 18 March 2024 is a condition precedent to closing. Representations, covenants and events of default are open lists ('including, but not limited to') to be similar to, and no less favourable to the Company than, that agreement, so most covenant detail is by reference; 'Spin Off' and 'Designated Subsidiaries' are used without definition, 'Eligible Assignees' and 'Rating Condition' are defined only by reference to that agreement, and a 364-Day Facility is mentioned but not described."
+ },
+ "fields": {
+  "facility": {
+   "lines": [
+    "$4.0bn 5-year unsecured multi-currency RCF",
+    "Sub-limits: $700m multi-currency letters of credit (including performance and financial); $500m swing line advances (US dollars or euros). Advances available in US dollars, euros, sterling, Japanese yen and Canadian dollars",
+    "Commitments reduce automatically and permanently to $3.0bn (pro rata across Lenders) on consummation of the Spin Off (term not defined in term sheet)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "$4,000,000,000, with a sublimit of $700,000,000 for the issuance of multi -currency letters of credit, including performance and financial letters of credit and a sublimit of $500,000,000 for swing line advances in U.S Dollars or E uros.",
+     "page": 1
+    },
+    {
+     "quote": "5- year unsecured multi -currency revolving credit facility",
+     "page": 1
+    },
+    {
+     "quote": "Upon the consummation of the Spin Off, the aggregate commitments under the 5- Year Facility shall be automatically and permanently reduced to $3,000,000,000",
+     "page": 2
+    }
+   ],
+   "note": "The Spin Off reduction is recorded here because it changes the total facility amount; the related repayment of excess Advances is under Mandatory Prepayment Events. The pricing grid heading on page 12 calls the facility a '$4,000,000,000 5-Year Revolving Credit Facility'."
+  },
+  "borrowers": {
+   "lines": [
+    "Honeywell International Inc. (the \"Company\"); entity type and jurisdiction not given in term sheet",
+    "Any Designated Subsidiaries (not named or defined in term sheet), fully and unconditionally guaranteed by the Company",
+    "Initial Advance to a Designated Subsidiary is subject to conditions precedent including a designation letter, board resolutions, incumbency certificate, legal opinion and a representation by the Company that the subsidiary has received all governmental authorisations, consents, approvals and licences to execute, deliver and perform the credit agreement"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Honeywell International Inc. (the “Company”) and any Designated Subsidiaries (together with the Company, the “Borrowers”)",
+     "page": 1
+    },
+    {
+     "quote": "Representations by the Company that such Borrower has received all governmental authorizations, consents, approvals and licenses under applicable laws and regulations for such Borrower to execute and deliver the credit agreement and to perform its obligations thereunder.",
+     "page": 6
+    },
+    {
+     "quote": "Designation letter.",
+     "page": 6
+    }
+   ],
+   "note": "Page 12 (pricing grid) prints the name as 'Honeywell International Incorporated'. The designated-subsidiary conditions are 'similar to the Existing 5-Year Agreement, including, but not limited to' the listed items."
+  },
+  "lender_commitments": {
+   "lines": [
+    "Barclays = not stated in term sheet (Barclays is not named)",
+    "No commitments stated. Administrative Agent: Bank of America, N.A.; Syndication Agents: Goldman Sachs Bank USA (GS) and Morgan Stanley Senior Funding, Inc. and/or its affiliates (MS); Joint Lead Arrangers and Joint Bookrunners: BofA Securities, Inc., GS, MS and other financial institutions",
+    "Lenders: Bank of America, GS, MS and other financial institutions; Swing Line Lender and initial Letter of Credit Issuer: Bank of America"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "Bank of America, N.A. (“Bank of America” and, in such capacity, the “Agent ”).",
+     "page": 1
+    },
+    {
+     "quote": "BofA Securities, Inc., GS, MS and other financial institutions (together, the “Joint Lead Arrangers”).",
+     "page": 1
+    },
+    {
+     "quote": "Goldman Sachs Bank USA (“ GS”) and Morgan Stanley Senior Funding, Inc. (and/or its affiliates, “ MS”).",
+     "page": 1
+    }
+   ],
+   "note": "No lender commitment amounts anywhere in the term sheet; the only commitment figure is the $25m minimum for a new institution joining through a Commitment Increase. GS and MS are the term sheet's own abbreviations, defined in its Syndication Agents entry; the arranger and lender entries are given as the term sheet lists them."
+  },
+  "purpose": {
+   "lines": [
+    "General corporate purposes",
+    "Condition precedent to closing: payment of accrued amounts and termination of commitments under the Existing 5-Year Agreement (Amended and Restated Five Year Credit Agreement dated as of 18 March 2024); not expressed as a use of proceeds"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Purpose: General corporate purposes.",
+     "page": 1
+    },
+    {
+     "quote": "Payment of accrued amounts and termination of commitments under the Existing 5- Year Agreement.",
+     "page": 6
+    },
+    {
+     "quote": "existing Amended and Restated Five Year Credit Agreement dated as of March 18 , 2024(the “ Existing 5- Year Agreement ”)",
+     "page": 5
+    }
+   ],
+   "note": "The only stated purpose is general corporate purposes; the second line records the closing condition under which the existing facility's commitments are terminated. The term sheet does not use the words 'refinance' or 'replace'."
+  },
+  "maturity": {
+   "lines": [
+    "5 years: 5-Year Commitment Termination Date is the fifth anniversary of the Closing Date (the date of effectiveness of the Loan Documentation)",
+    "+ 1 (repeatable; number of extensions not capped in term sheet): Company may request 1-year extensions by notice 30 to 60 days before any anniversary of the Closing Date; each Lender decides in its sole discretion, no later than 15 days before the anniversary",
+    "Extension takes effect, for Extending Lenders only, if more than 50% of the Facility Amount is extended or otherwise committed by Extending Lenders and new Lenders",
+    "Declining Lenders' commitments terminate on the then existing Termination Date; the Company may replace them with Extending Lenders or third-party institutions acceptable to the Agent, each L/C issuing bank and the swing line lender"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Fifth anniversary of the date of effectiveness of the Loan Documentation (the “Closing Date”), subject to the Extension of Commitments Section below.",
+     "page": 1
+    },
+    {
+     "quote": "be extended for additional 1 year periods by providing notice of such request to the Agent no earlier than 60 days but no later than 30 days prior to any anniversary of the Closing Date",
+     "page": 2
+    },
+    {
+     "quote": "more than 50% of the Facility Amount under the 5- Year Facility is extended or otherwise committed to by Extending Lenders and any new Lenders",
+     "page": 2
+    }
+   ],
+   "note": "The term sheet speaks of 'additional 1 year periods' requested before 'any anniversary' and sets no limit on the number of extensions. The Change of Control commitment termination right is under Mandatory Prepayment Events."
+  },
+  "repayment": {
+   "lines": [
+    "Bullet (revolving; each Advance repayable no later than the 5-Year Commitment Termination Date; Borrowers may borrow, repay and reborrow until then)",
+    "Voluntary prepayment without penalty, in minimum amounts of $10m and increments of $1m (Borrowers bear the costs of prepaying a non-Base Rate Advance before the last day of its interest period or other than on an interest payment date)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The Borrowers shall repay each Advance under the 5- Year Facility no later than on the 5- Year Commitment Termination Date",
+     "page": 5
+    },
+    {
+     "quote": "borrow, repay and reborrow",
+     "page": 5
+    },
+    {
+     "quote": "Advances under the 5- Year Facility may be prepaid without penalty",
+     "page": 5
+    }
+   ],
+   "note": ""
+  },
+  "accordion": {
+   "lines": [
+    "Yes = $500m (derived: Facility Amount may be increased from $4.0bn up to a maximum of $4.5bn; following the Spin Off, from the reduced $3.0bn up to a maximum of $3.5bn)",
+    "Conditions: no more than once a year; minimum increments of $25m; no default or event of default continuing",
+    "Uncommitted: existing Lenders have the right but no obligation to participate (allocations as agreed among the Company, the Agent, each L/C issuing bank and the swing line lender)",
+    "May also be offered to third-party financial institutions reasonably acceptable to the Agent, each L/C issuing bank and the swing line lender, each with a minimum commitment of $25m"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "no more than once a year, to increase the Facility Amount of the 5- Year Facility, in minimum increments of $25,000,000, up to a maximum Facility Amount of $4,500,000,000(or following the consummation of the Spin Off,$3,500,000,000) provided that no default or e vent of default has",
+     "page": 1
+    },
+    {
+     "quote": "each existing Lender will have the right, but no obligation, to commit to all or a portion of the proposed increase",
+     "page": 2
+    },
+    {
+     "quote": "third party financial institutions reasonably acceptable to the Agent, each letter of credit issuing bank and the swing line lender, provided that the minimum commitment of each such institution equals or exceeds $25,000,000",
+     "page": 2
+    }
+   ],
+   "note": "The term sheet gives the maximum Facility Amount ($4.5bn, or $3.5bn after the Spin Off), not the size of the increase; $500m is the difference from the $4.0bn (or post-Spin Off $3.0bn) commitments, which are quoted under Facility. The first quote stops at the page break; the sentence ends on page 2 with 'occurred and is continuing'."
+  },
+  "guarantors": {
+   "lines": [
+    "Honeywell International Inc. (the Company): fully and unconditionally guarantees the borrowings of any Designated Subsidiaries",
+    "No other guarantor, and no release or fall-away provision, is stated in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "(together with the Company, the “Borrowers”), fully and unconditionally guaranteed by the Company.",
+     "page": 1
+    }
+   ],
+   "note": "The guarantee is a parent guarantee of subsidiary borrowers; nothing in the term sheet guarantees the Company's own borrowings."
+  },
+  "guarantor_coverage": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No guarantor coverage test and no material-subsidiary threshold; the only guarantor is the Company itself."
+  },
+  "security": {
+   "lines": [
+    "Unsecured"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "5- year unsecured multi -currency revolving credit facility",
+     "page": 1
+    }
+   ],
+   "note": "Stated expressly under Type of Facility. No collateral, release or fall-away provisions."
+  },
+  "ranking": {
+   "lines": [
+    "Senior Unsecured (not stated expressly; facility is unsecured and pricing is based on the Company's long-term senior unsecured non-credit-enhanced debt ratings)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "5- year unsecured multi -currency revolving credit facility",
+     "page": 1
+    },
+    {
+     "quote": "based on the Company’s long- term senior unsecured non- credit-enhanced debt ratings",
+     "page": 3
+    }
+   ],
+   "note": "Derived: the term sheet has no ranking or pari passu provision."
+  },
+  "fc_leverage": {
+   "lines": [
+    "None listed - no financial maintenance covenants among the covenants in the term sheet; the list is open ('including, but not limited to') and covenants are to be similar to, and no less favourable to the Company than, the Existing 5-Year Agreement"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    }
+   ],
+   "note": "The twelve listed covenants (pages 7-8) contain no financial covenant, but the list is open and defers to the Existing 5-Year Agreement, so the absence of a financial covenant cannot be confirmed from the term sheet alone."
+  },
+  "fc_interest_cover": {
+   "lines": [
+    "Interest Cover: none listed in term sheet (open covenant list, by reference to the Existing 5-Year Agreement)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    }
+   ],
+   "note": ""
+  },
+  "fc_other": {
+   "lines": [
+    "Other: none listed in term sheet (open covenant list, by reference to the Existing 5-Year Agreement)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    }
+   ],
+   "note": ""
+  },
+  "fc_testing": {
+   "lines": [
+    "n/a - no financial covenant listed in term sheet (open covenant list, by reference to the Existing 5-Year Agreement)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    }
+   ],
+   "note": ""
+  },
+  "select_definitions": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No equity cure, deemed cure, synergies or Adjusted EBITDA provisions. The only definition the term sheet sets out is 'Debt' (pages 8-9), used for the cross default; it is summarised under Events of Default."
+  },
+  "negative_pledge": {
+   "lines": [
+    "Negative pledge and limitations on liens and on secured debt for borrowed money, with certain exceptions consistent with the Existing 5-Year Agreement; baskets and amounts not detailed in term sheet"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Negative pledge and limitations on liens and secured debt for borrowed money with certain exceptions consistent with the Existing 5- Year Agreement",
+     "page": 7
+    }
+   ],
+   "note": ""
+  },
+  "permitted_acquisitions": {
+   "lines": [
+    "Not among the covenants listed in the term sheet (no acquisitions or investments covenant). List is open ('including, but not limited to'); covenants to be similar to, and no less favourable to the Company than, the Existing 5-Year Agreement",
+    "Closest listed covenant: certain restrictions on consolidations, mergers, sale of assets (see Other)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    },
+    {
+     "quote": "Certain restrictions on consolidations, mergers, sale of assets;",
+     "page": 8
+    }
+   ],
+   "note": ""
+  },
+  "permitted_disposals": {
+   "lines": [
+    "Certain restrictions on sale of assets (listed together with consolidations and mergers), similar to the Existing 5-Year Agreement; baskets and conditions not detailed in term sheet"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Certain restrictions on consolidations, mergers, sale of assets;",
+     "page": 8
+    },
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    }
+   ],
+   "note": ""
+  },
+  "permitted_distributions": {
+   "lines": [
+    "Not among the covenants listed in the term sheet (no restricted payments covenant). List is open ('including, but not limited to'); covenants to be similar to, and no less favourable to the Company than, the Existing 5-Year Agreement"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    }
+   ],
+   "note": ""
+  },
+  "permitted_indebtedness": {
+   "lines": [
+    "Limitation on secured debt for borrowed money only (within the negative pledge covenant - see Negative Pledge), with certain exceptions consistent with the Existing 5-Year Agreement; no baskets given",
+    "No general limitation on indebtedness among the covenants listed (open list, by reference to the Existing 5-Year Agreement)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Negative pledge and limitations on liens and secured debt for borrowed money with certain exceptions consistent with the Existing 5- Year Agreement",
+     "page": 7
+    },
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    }
+   ],
+   "note": ""
+  },
+  "permitted_loans": {
+   "lines": [
+    "Not among the covenants listed in the term sheet (no loans, advances or investments covenant). List is open ('including, but not limited to'); covenants to be similar to, and no less favourable to the Company than, the Existing 5-Year Agreement"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    }
+   ],
+   "note": ""
+  },
+  "permitted_guarantees": {
+   "lines": [
+    "Not among the covenants listed in the term sheet (no guarantees covenant). List is open ('including, but not limited to'); covenants to be similar to, and no less favourable to the Company than, the Existing 5-Year Agreement",
+    "Guarantees of Debt are themselves 'Debt' as defined, which is relevant to the cross default (see Events of Default)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    },
+    {
+     "quote": "(vi) all guarantees of such Person in respect to the Debt of the kind referred to in clauses (i) through (v) above",
+     "page": 9
+    }
+   ],
+   "note": "The Company's own guarantee of Designated Subsidiary borrowings is under Guarantor(s)."
+  },
+  "permitted_payments": {
+   "lines": [
+    "Not among the covenants listed in the term sheet (no restriction on payments of junior or subordinated debt). List is open ('including, but not limited to'); covenants to be similar to, and no less favourable to the Company than, the Existing 5-Year Agreement"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    }
+   ],
+   "note": ""
+  },
+  "other_covenants": {
+   "lines": [
+    "Covenants to be similar to (and no less favourable to the Company than) the Existing 5-Year Agreement, with similar grace periods, thresholds and materiality qualifiers; twelve are listed without detail, in an open list ('including, but not limited to'):",
+    "Mergers / fundamental changes: certain restrictions on consolidations, mergers, sale of assets",
+    "Negative pledge and limitations on liens and secured debt for borrowed money (see Negative Pledge)",
+    "Sanctions / anti-corruption: certain covenants related to anti-corruption laws and sanctions",
+    "Affirmative: preservation of corporate existence; material compliance with laws (including ERISA and applicable environmental laws); payment of taxes; visitation rights; maintenance of books and records, of properties and of insurance",
+    "Reporting and notices: certain reporting requirements, including financial and ERISA; notice of change of control and of consummation of the Spin Off (see Information Requirements)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    },
+    {
+     "quote": "Certain restrictions on consolidations, mergers, sale of assets;",
+     "page": 8
+    },
+    {
+     "quote": "Certain covenants related to anti-corruption laws and sanctions.",
+     "page": 8
+    }
+   ],
+   "note": "All twelve listed covenants are covered here or in the rows referred to. No transactions-with-affiliates, change-of-business, sale-and-leaseback, restrictive-agreements or most-favoured-nation covenant is listed."
+  },
+  "events_of_default": {
+   "lines": [
+    "Cross default: payment default on principal Debt aggregating $500m, or a default whose effect is to accelerate or permit acceleration of such Debt; excludes Debt owed to an institution where the Company or a Subsidiary holds deposits sufficient to repay it",
+    "Insolvency / creditors' process: bankruptcy / insolvency (no threshold or grace period given); unsatisfied judgment or order in excess of $500m individually or in the aggregate (no period given; carve-out similar to the cross default country carve-out on the next line)",
+    "Cross default carve-out: Debt of subsidiaries / affiliates located in China, India, the Commonwealth of Independent States or Turkey, if not guaranteed or supported by a Borrower or a group entity outside those countries and the default is due to action of a government entity or agency of those countries; such subsidiaries' assets <= $500m each and <= $650m together",
+    "Payment: principal when due; interest or Commitment Fee within 3 business days of when due; any other amounts within 30 days of when due",
+    "Other: representations or warranties materially incorrect when made; failure to comply with covenants (notice and cure periods as applicable, not specified); ERISA events with a liability in excess of $500m",
+    "'Debt' = recourse borrowed money; purchase price deferred 90 days or more (excl. ordinary-course trade payables); others' debt secured on the person's property; drawn unreimbursed letters of credit (excl. performance L/Cs), acceptances and drafts; capital leases; guarantees of these",
+    "Change of Control is not a listed event of default (Lender commitment termination right instead - see Mandatory Prepayment Events). List is open; events of default otherwise similar to, and no less favourable to the Company than, the Existing 5-Year Agreement"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Cross-default to payment defaults on principal Debt (as defined below) aggregating $500,000,000",
+     "page": 8
+    },
+    {
+     "quote": "Unsatisfied judgment or order in excess of $500,000,000 individually or in the aggregate. A carve-out will be provided similar to that contained in the second sentence of item (4) immediately above; (6) Bankruptcy/insolvency; (7) ERISA events with a liability in excess of $500,000,000",
+     "page": 8
+    },
+    {
+     "quote": "failure to pay interest or Commitment Fee within three business days of when due; and failure to pay any other amounts within 30 days of when due",
+     "page": 8
+    }
+   ],
+   "note": "The first line keeps the term sheet's words 'payment defaults on principal Debt'; it does not say whether only defaults in paying principal count. Thresholds and grace periods are stated for payment, cross default, judgments and ERISA; everything else (including bankruptcy grace periods and covenant cure periods) is left to documentation 'similar to' the Existing 5-Year Agreement. The 'Debt' definition runs over pages 8-9 and is compressed into one line. The second quote runs across items (5) to (7) of the list, which are consecutive on page 8; the carve-out asset caps ($500m / $650m, measured as of the most recent calendar quarter end) are in item (4) on the same page and are not separately quoted."
+  },
+  "conditions_subsequent": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "Only conditions precedent are listed (to closing, to all Advances and letters of credit, and to the initial Advance to a Designated Subsidiary)."
+  },
+  "mandatory_prepayment": {
+   "lines": [
+    "Change of Control: lender put - each Lender may, on at least 10 days' notice, terminate its commitment on the date 60 days after a Change of Control (repayment of its Advances not spelled out): any person (other than the Company, its subsidiaries or their employee benefit plans) acquiring 50% or more of the Company's Voting Stock, or a board change (next line)",
+    "Board trigger: change in the majority of board members during any 12-month period, except where the replacements are elected by a majority of the remaining board members, or nominated or approved by such a majority and then elected by shareholders",
+    "Other: currency fluctuation - if the dollar equivalent value of all Advances exceeds 103% of the Facility Amount, the Borrowers must promptly prepay to reduce it to 100% of the Facility Amount",
+    "Other: Spin Off - on the automatic reduction of commitments to $3.0bn at consummation of the Spin Off, outstanding Advances in excess of the reduced commitments must be repaid",
+    "Disposal proceeds / insurance proceeds / debt issuance proceeds / excess cashflow: none stated in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "in excess of the aggregate commitments under the 5-Year Facility (after giving effect to the foregoing commitment reduction) shall be repaid. If a Change of Control occurs each Lender may upon at least 10 days notice terminate its commitment on the date that is 60 days after such Change of Control",
+     "page": 2
+    },
+    {
+     "quote": "beneficial ownership of 50% or more of the Voting Stock of the Companyor (ii) during any 12 month period, there is a change in the majority of board members",
+     "page": 3
+    },
+    {
+     "quote": "If at any time the dollar equivalent value of all Advances exceeds 103% of the Facility Amount, the Borrowers shall promptly make a mandatory prepayment",
+     "page": 5
+    }
+   ],
+   "note": "The Change of Control provision sits under 'Commitment Reduction' and speaks only of each Lender terminating its commitment: it is not an automatic prepayment or cancellation, and repayment of that Lender's Advances is not spelled out (the printed line says so). The board-change exception has two limbs on page 3: replacements elected by a majority of the remaining board members, or nominated or approved by such a majority and subsequently elected by shareholders; the term sheet says 'individuals replaced during such 12 month period are elected', which is read as the replacement directors. The first quote runs across the end of the Spin Off paragraph and the Change of Control sentence, which are consecutive on page 2."
+  },
+  "jurisdiction_topco": {
+   "lines": [
+    "Not stated in term sheet (top company named is Honeywell International Inc., the Company; its jurisdiction of incorporation is not given)",
+    "Governing law of the facility: State of New York"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "Governing Law: State of New York.",
+     "page": 11
+    }
+   ],
+   "note": ""
+  },
+  "transferability": {
+   "lines": [
+    "Borrower consent: Company consent required, not to be unreasonably withheld and deemed given absent objection within 10 business days of notice; not required while a default or event of default continues, for assignments to a Lender's affiliates (on notice) or as security",
+    "Transferees must be Eligible Assignees (as defined in the Existing 5-Year Agreement); customary disqualified Lenders provisions (not detailed). Participations permitted, subject to customary restrictions on participants' voting rights; Company notified within 30 days of sale",
+    "Other consents: Agent, each L/C issuing bank and the swing line lender (not to be unreasonably withheld; Agent consent not needed for affiliate or security assignments). Minimum assignment $10m, increments of $1m; $3,500 fee to the Agent",
+    "Company may replace any Lender (no Rating Condition continuing; no more than 3 non-defaulting Lenders per calendar year), and any Lender that claims yield protection / tax amounts or is a Defaulting Lender (subject to conditions)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "with the consent, not to be unreasonably withheld, of the Agent, each letter of credit issuing bank and the swing line lender and, so long as no default or e vent of default is continuing, the Company",
+     "page": 10
+    },
+    {
+     "quote": "shall be deemed to have consented to an assignment unless they shall have objected within 10business days after having notice thereof. Minimum aggregate assignment level of $10,000,000 and increments of $1,000,000 in excess thereof.",
+     "page": 10
+    },
+    {
+     "quote": "The loan documents will contain customary disqualified Lenders provisions.",
+     "page": 10
+    }
+   ],
+   "note": "'Eligible Assignees' and 'Rating Condition' are defined only by reference to the Existing 5-Year Agreement. Other consents and minimum amounts are on a third line to keep the first line readable. The Lender replacement rights are on pages 9 and 10 ('Other' item (4) and the paragraph after 'Yield Protection, Taxes, and Other Deductions')."
+  },
+  "info_annual_consolidated": {
+   "lines": [
+    "Annual audited consolidated accounts - not specified in term sheet (no deadline given): covenant list has only 'certain reporting requirements, including financial and ERISA', similar to the Existing 5-Year Agreement"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Certain reporting requirements, including financial and ERISA;",
+     "page": 8
+    },
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    }
+   ],
+   "note": "The term sheet does not say which financial statements are to be delivered or when; it only lists 'certain reporting requirements, including financial' and defers to the Existing 5-Year Agreement."
+  },
+  "info_annual_obligor": {
+   "lines": [
+    "Annual obligor accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No standalone obligor accounts requirement; reporting is covered only by 'certain reporting requirements, including financial and ERISA' (page 8), by reference to the Existing 5-Year Agreement."
+  },
+  "info_quarterly": {
+   "lines": [
+    "Quarterly accounts - not specified in term sheet (no deadline given): covenant list has only 'certain reporting requirements, including financial and ERISA', similar to the Existing 5-Year Agreement"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Certain reporting requirements, including financial and ERISA;",
+     "page": 8
+    },
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    }
+   ],
+   "note": ""
+  },
+  "info_budget": {
+   "lines": [
+    "Annual budget - none listed in term sheet (open list of reporting requirements, by reference to the Existing 5-Year Agreement)",
+    "Other: notice of change of control and of consummation of the Spin Off; ERISA reporting; other reporting requirements similar to the Existing 5-Year Agreement (not detailed)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Notice of change of control and consummation of the Spin Off",
+     "page": 8
+    },
+    {
+     "quote": "Certain reporting requirements, including financial and ERISA;",
+     "page": 8
+    },
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 5- Year Agreement and subject to grace periods, thresholds and materiality qualifiers similar to (and no less favorable to the Company than) the Existing 5- Year Agreement, including, but not limited to:",
+     "page": 7
+    }
+   ],
+   "note": "No budget or projections requirement is listed; the row is by reference because the reporting package defers to the Existing 5-Year Agreement."
+  }
+ }
+}

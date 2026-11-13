@@ -1,0 +1,597 @@
+{
+ "schema": "kct/1",
+ "client": "Honeywell 364day",
+ "deal": "Honeywell 364day 2026",
+ "source_file": "Honeywell 364day 2026 TS.pdf",
+ "sha1": "760384fdebd377f4547928842ce5f3ce62b71aef",
+ "source": "audited",
+ "audit": {
+  "on": "2026-11-12",
+  "method": "Read from the full term sheet by one AI reviewer, then checked against it twice by independent AI reviewers: first every line of the record against the document, then the document section by section against the record. Not signed off by a person. Every quote is looked up in the PDF text each time the tool runs.",
+  "first_audit_changes": 8,
+  "first_audit_substantive": 4,
+  "final_review_changes": 2,
+  "final_review_substantive": 1,
+  "open_points": "Final record: C:\\Users\\AFarid\\Documents\\Hackathon\\key_credit_terms\\data\\audited\\honeywell_364day_2026.json. Checker: structure OK, 61 quotes exact, none loose, missing or on another page. A programmatic diff against the first-audit record shows only the two changes listed; no printed line, status or evidence quote changed.\n\nReverse pass (document to record): every section on pages 1-10 was mapped to a template row or confirmed to have none. No term was found missing from a row, in the wrong row, or carrying a figure from the wrong place; the document has a single facility and no existing / proposed columns. Every number in the record was confirmed against the dump, and pages 1, 2, 4, 6, 7, 8 and 10 against the page images. Searches of the dump for accordion, guarantee, Barclays, jurisdiction, reporting periods, budget, conditions subsequent, letters of credit / swingline, financial ratios and ranking found nothing that would upgrade a not_stated or by_reference row.\n\nWhat the term sheet itself cannot resolve:\n1. Financial covenants: none is among the twelve covenants listed, but the list is 'including, but not limited to' and defers to the Existing 364-Day Agreement. Under the open-list rule the four fc_* rows and the unlisted permitted_* rows stay by_reference; whether the facility has a financial covenant has to come from the credit agreement.\n2. Guarantors: no guarantee provision and the Company is the only obligor named, but the term sheet never says the facility is unguaranteed, so the row stays not_stated rather than 'None'.\n3. Change of Control: each Lender may terminate its commitment (10 days' notice, effective 60 days after); the term sheet is silent on repayment of that Lender's Advances. The printed line says so.\n4. 'Spin Off' and 'Voting Stock' are used as defined terms but not defined. The Spin Off is cross-referenced in the Permitted Disposals row as 'contemplated' only; the term sheet does not say what it is or that any covenant permits it.\n5. Three-quote limit: bankruptcy/insolvency, the $500m ERISA threshold and the 'Debt' definition (page 7), participations and 'to any of its affiliates' (page 8), and 'increments of $1,000,000' in the prepayment sentence are stated in the lines and verified against the dump but not quoted. I tested re-cuts: covering the page 7 items would mean dropping the quote for the payment grace periods, so no arrangement of three quotes covers everything.\n6. Six lines exceed the 250-character soft target (longest 407, hard limit 420); shortening them would drop conditions.\n7. Barclays is not named; it may be among the 'other financial institutions'. No lender commitments are stated.\n8. No date is printed on the document (footer '2026 Honeywell Term Sheet' only), so doc.date is empty.\n9. Default interest, Majority Lenders, the Company's lender replacement rights, borrowing mechanics and pricing have no template row and are in notes only."
+ },
+ "doc": {
+  "kind": "term_sheet",
+  "title": "Honeywell International Inc. - Summary of Terms and Conditions - $3,000,000,000 364-Day Multi-Currency Revolving Credit Facility",
+  "date": "",
+  "notes": "Indicative Summary of Terms and Conditions sent to prospective lenders for a new $3.0bn 364-day unsecured multi-currency revolving credit facility for Honeywell International Inc.; no date is printed (the footer reads '2026 Honeywell Term Sheet'). The terms are on pages 1-9 in a label / value layout and page 10 is the 364-Day Pricing Grid (ratings-based commitment fee and margin). It is not an amendment and has no existing / proposed columns: it is a new facility, with termination of commitments under the Existing 364-Day Credit Agreement dated as of March 17, 2025 as a condition precedent to closing. Conditions precedent, representations, covenants and events of default are given as open lists ('including, but not limited to') that otherwise defer to the Existing 364-Day Agreement, so no financial covenants, baskets or reporting periods are set out; a companion 5-Year Facility is mentioned but not described. Pricing is shown but has no row in the template: across the six ratings levels of the grid (page 10) the Commitment Fee is 0.02% to 0.09% and the Applicable Margin for Term SOFR and EURIBOR Advances is 0.50% to 1.125% (Base Rate Advances 100 basis points lower, but not less than 0.00%; page 3)."
+ },
+ "fields": {
+  "facility": {
+   "lines": [
+    "$3.0bn 364-day unsecured multi-currency RCF (with Term Loan Conversion Option - see Maturity Date)",
+    "Currencies: Advances may be made in U.S. Dollars and Euros; no letter of credit or swingline sub-limit stated",
+    "Commitments reduce automatically and permanently to $2.0bn on consummation of the Spin Off (pro rata across Lenders)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Facility Amount: $3,000,000,000. Type of Facility: 364-day unsecured multi-currency revolving credit facility",
+     "page": 1
+    },
+    {
+     "quote": "Advances under the 364-Day Facility may be made in U.S. Dollars and Euros.",
+     "page": 1
+    },
+    {
+     "quote": "the aggregate commitments under the 364-Day Facility shall be automatically and permanently reduced to $2,000,000,000",
+     "page": 2
+    }
+   ],
+   "note": "'Spin Off' is used as a defined term but is not defined in the term sheet. The Term Loan Conversion Option (term-out) is set out under 'Type of Facility' on page 1; its terms and the supporting quote are recorded under Maturity Date. The conditions precedent to all Advances speak of 'Borrowing or issuance', but no letter of credit facility is described anywhere."
+  },
+  "borrowers": {
+   "lines": [
+    "Honeywell International Inc. (the \"Company\") - the only Borrower named; entity type and jurisdiction not given in term sheet; no right to add subsidiary or designated borrowers stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Borrower: Honeywell International Inc. (the “Company”).",
+     "page": 1
+    }
+   ],
+   "note": "The cross-default carve-out (page 6) refers to 'any Borrower' and the pricing grid (page 10) is headed 'Honeywell International Incorporated', but only the Company is named as Borrower and no designated-borrower mechanism is described."
+  },
+  "lender_commitments": {
+   "lines": [
+    "Barclays = not stated in term sheet (Barclays is not named in the term sheet)",
+    "No commitments stated. Administrative Agent: Bank of America, N.A.; Syndication Agents: Goldman Sachs Bank USA (GS) and Morgan Stanley Senior Funding, Inc. and/or its affiliates (MS); Joint Lead Arrangers and Joint Bookrunners: BofA Securities, Inc., GS, MS and other financial institutions; Lenders: Bank of America, GS, MS and other financial institutions"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "Agent: Bank of America, N.A. (“Bank of America” and, in such capacity, the “Agent”).",
+     "page": 1
+    },
+    {
+     "quote": "Syndication Agents: Goldman Sachs Bank USA (“GS”) and Morgan Stanley Senior Funding, Inc. (and/or its affiliates, “MS”). Joint Lead Arrangers and Joint Bookrunners: BofA Securities, Inc., GS, MS and other financial institutions",
+     "page": 1
+    },
+    {
+     "quote": "Lenders: Bank of America, GS, MS and other financial institutions.",
+     "page": 1
+    }
+   ],
+   "note": "No commitment amounts or allocations appear anywhere in the term sheet. Each Lender is severally obligated to make its pro rata share of any Advance."
+  },
+  "purpose": {
+   "lines": [
+    "General corporate purposes",
+    "Closing is conditional on payment of accrued amounts and termination of commitments under the Existing 364-Day Credit Agreement dated as of March 17, 2025 (refinancing is not stated as a use of proceeds)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Purpose: General corporate purposes.",
+     "page": 1
+    },
+    {
+     "quote": "existing 364-Day Credit Agreement dated as of March 17, 2025",
+     "page": 4
+    },
+    {
+     "quote": "Payment of accrued amounts and termination of commitments under the Existing 364-Day Agreement.",
+     "page": 4
+    }
+   ],
+   "note": "The only stated purpose is general corporate purposes; the second line comes from the conditions precedent to closing, not from the Purpose section."
+  },
+  "maturity": {
+   "lines": [
+    "364 days after the Closing Date (the date of effectiveness of the Loan Documentation) - the 364-Day Commitment Termination Date, which is also the Final Maturity Date unless the term-out is elected",
+    "Term-out: Term Loan Conversion Option - if there is no default or event of default, the Company may on the 364-Day Commitment Termination Date, with notice to the Lenders, convert outstanding Advances into a term loan maturing on a date it selects, no later than the first anniversary of that date; upfront fee of 75bps on the Advances converted",
+    "Extension options: none stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "364 days after the date of effectiveness of the Loan Documentation",
+     "page": 1
+    },
+    {
+     "quote": "convert outstanding Advances under the 364-Day Facility into a term loan maturing no later than the first anniversary of the 364-Day Commitment Termination Date, upon payment of an upfront fee of 75 basis points on any Advances so converted",
+     "page": 1
+    },
+    {
+     "quote": "the final maturity date of the 364-Day Facility will be a date selected by the Company but not later than the first anniversary of the 364-Day Commitment Termination Date.",
+     "page": 1
+    }
+   ],
+   "note": "No calendar date is given; the Closing Date is the date of effectiveness of the Loan Documentation. Extension of maturity requires the consent of each affected Lender (page 7, Other (3))."
+  },
+  "repayment": {
+   "lines": [
+    "Bullet (revolving; each Advance repayable no later than the 364-Day Commitment Termination Date, or no later than the Final Maturity Date if the Term Loan Conversion Option is exercised); no amortisation stated",
+    "Voluntary prepayment without penalty: notice by 11:00 A.M. the same day (Base Rate Advances) or two business days before (Term SOFR / EURIBOR Advances), minimum $10m and increments of $1m; the Company bears the costs of prepaying a Term SOFR or EURIBOR Advance before the last day of its interest period",
+    "Voluntary cancellation of unused commitments on at least three business days' notice, minimum $10m or any whole multiple of $1m in excess; a terminated commitment may not be reinstated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "the Company shall repay each Advance under the 364-Day Facility no later than on the 364-Day Commitment Termination Date.",
+     "page": 3
+    },
+    {
+     "quote": "may be prepaid without penalty upon notice no later than (i) 11:00 A.M. on the same day of such prepayment for Base Rate Advances and (ii) 11:00 A.M. two business days prior to such prepayment for Term SOFR Advances or EURIBOR Advances, in each case, in minimum amounts of $10,000,000",
+     "page": 4
+    },
+    {
+     "quote": "terminate or cancel, in whole or in part, the unused portion of the commitments under the 364-Day Facility, provided that each partial reduction shall be in a minimum amount of $10,000,000 or any whole multiple of $1,000,000 in excess thereof.",
+     "page": 2
+    }
+   ],
+   "note": "Availability (page 3): from the Closing Date until the 364-Day Commitment Termination Date the Company may borrow, repay and reborrow. No repayment profile is given for the term loan after conversion other than repayment by the Final Maturity Date. Mandatory repayments are under Mandatory Prepayment Events. The prepayment quote stops before 'and increments of $1,000,000 in excess thereof', which follows immediately (the full sentence exceeds the quote limit)."
+  },
+  "accordion": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No increase or accordion option is described. The only mention of an increase is in Other (3) on page 7: the consent of each affected Lender is required to increase the size of the 364-Day Facility (an amendment provision, not an accordion)."
+  },
+  "guarantors": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The term sheet has no guarantor or guarantee provision and names the Company as the only obligor; it does not say expressly that the facility is unguaranteed, so this is not recorded as 'None'. Documentation is to be substantially similar to the Existing 364-Day Agreement."
+  },
+  "guarantor_coverage": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No guarantors, guarantor coverage test or material-subsidiary threshold appears in the term sheet."
+  },
+  "security": {
+   "lines": [
+    "Unsecured (the facility is described as a \"364-day unsecured multi-currency revolving credit facility\"); no collateral, release or fall-away provisions"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Type of Facility: 364-day unsecured multi-currency revolving credit facility",
+     "page": 1
+    }
+   ],
+   "note": ""
+  },
+  "ranking": {
+   "lines": [
+    "Senior Unsecured (not stated expressly; the facility is unsecured and pricing is based on the Company's long-term senior unsecured non-credit-enhanced debt ratings)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "364-day unsecured multi-currency revolving credit facility",
+     "page": 1
+    },
+    {
+     "quote": "based on the Company’s long-term senior unsecured non-credit-enhanced debt ratings",
+     "page": 2
+    }
+   ],
+   "note": "Derived: the term sheet has no ranking or pari passu statement."
+  },
+  "fc_leverage": {
+   "lines": [
+    "None listed - no financial maintenance covenant is among the covenants listed in the term sheet; the list is open ('including, but not limited to') and covenants are to be similar to (and no less favorable to the Company than) the Existing 364-Day Agreement"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 364-Day Agreement",
+     "page": 5
+    },
+    {
+     "quote": "Agreement, including, but not limited to: (1) Preservation of corporate existence;",
+     "page": 5
+    }
+   ],
+   "note": "The twelve covenants listed (pages 5-6) include no leverage, interest cover or other financial test, and no financial definitions are given. Because the list is open and defers to the Existing 364-Day Agreement, the term sheet alone does not establish that there are no financial covenants."
+  },
+  "fc_interest_cover": {
+   "lines": [
+    "Interest Cover: none listed in term sheet (covenants by reference to the Existing 364-Day Agreement; see above)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 364-Day Agreement",
+     "page": 5
+    },
+    {
+     "quote": "Agreement, including, but not limited to: (1) Preservation of corporate existence;",
+     "page": 5
+    }
+   ],
+   "note": ""
+  },
+  "fc_other": {
+   "lines": [
+    "Other: none listed in term sheet (covenants by reference to the Existing 364-Day Agreement; see above)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 364-Day Agreement",
+     "page": 5
+    },
+    {
+     "quote": "Agreement, including, but not limited to: (1) Preservation of corporate existence;",
+     "page": 5
+    }
+   ],
+   "note": ""
+  },
+  "fc_testing": {
+   "lines": [
+    "n/a - no financial covenant listed in term sheet (covenants by reference to the Existing 364-Day Agreement; see above)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 364-Day Agreement",
+     "page": 5
+    },
+    {
+     "quote": "Agreement, including, but not limited to: (1) Preservation of corporate existence;",
+     "page": 5
+    }
+   ],
+   "note": ""
+  },
+  "select_definitions": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No equity cure, deemed cure, synergies, Adjusted EBITDA or leverage definitions (no financial covenant is listed). The definitions the term sheet does give are 'Debt' (page 7, used in the cross default - see Events of Default), 'Change of Control' (page 2 - see Mandatory Prepayment Events) and 'Majority Lenders' (more than 50% of outstanding Advances or, if none, Commitments; page 7)."
+  },
+  "negative_pledge": {
+   "lines": [
+    "Negative pledge and limitations on liens and secured debt for borrowed money, with certain exceptions consistent with the Existing 364-Day Agreement; baskets not detailed in term sheet"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Negative pledge and limitations on liens and secured debt for borrowed money with certain exceptions consistent with the Existing 364-Day Agreement;",
+     "page": 6
+    }
+   ],
+   "note": "Covenant (8). No basket amounts or carve-outs are given."
+  },
+  "permitted_acquisitions": {
+   "lines": [
+    "Not among the covenants listed in the term sheet; the list is open ('including, but not limited to') and covenants are to be similar to (and no less favorable to the Company than) the Existing 364-Day Agreement. Consolidations and mergers: see Other"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 364-Day Agreement",
+     "page": 5
+    },
+    {
+     "quote": "Agreement, including, but not limited to: (1) Preservation of corporate existence;",
+     "page": 5
+    }
+   ],
+   "note": "No acquisitions or investments covenant is listed."
+  },
+  "permitted_disposals": {
+   "lines": [
+    "Certain restrictions on consolidations, mergers, sale of assets; baskets and conditions not detailed in term sheet (to be similar to, and no less favorable to the Company than, the Existing 364-Day Agreement)",
+    "Spin Off (not defined in the term sheet) is contemplated: notice of its consummation is a covenant and commitments then reduce to $2.0bn - see Mandatory Prepayment Events"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Certain restrictions on consolidations, mergers, sale of assets;",
+     "page": 6
+    },
+    {
+     "quote": "Notice of change of control and consummation of the Spin Off; and",
+     "page": 6
+    }
+   ],
+   "note": "Covenant (9). The term sheet does not say what the Spin Off is or that it is expressly permitted; it only provides for its consequences."
+  },
+  "permitted_distributions": {
+   "lines": [
+    "Not among the covenants listed in the term sheet; the list is open ('including, but not limited to') and covenants are to be similar to (and no less favorable to the Company than) the Existing 364-Day Agreement"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 364-Day Agreement",
+     "page": 5
+    },
+    {
+     "quote": "Agreement, including, but not limited to: (1) Preservation of corporate existence;",
+     "page": 5
+    }
+   ],
+   "note": "No restricted payments, dividend or share buyback covenant is listed."
+  },
+  "permitted_indebtedness": {
+   "lines": [
+    "No general debt covenant among the covenants listed; secured debt for borrowed money is limited together with liens, with certain exceptions consistent with the Existing 364-Day Agreement (see Negative Pledge); baskets not detailed in term sheet"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Negative pledge and limitations on liens and secured debt for borrowed money with certain exceptions consistent with the Existing 364-Day Agreement;",
+     "page": 6
+    },
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 364-Day Agreement",
+     "page": 5
+    }
+   ],
+   "note": "The defined term 'Debt' (page 7) is used for the cross default, not for a debt covenant."
+  },
+  "permitted_loans": {
+   "lines": [
+    "Not among the covenants listed in the term sheet; the list is open ('including, but not limited to') and covenants are to be similar to (and no less favorable to the Company than) the Existing 364-Day Agreement"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 364-Day Agreement",
+     "page": 5
+    },
+    {
+     "quote": "Agreement, including, but not limited to: (1) Preservation of corporate existence;",
+     "page": 5
+    }
+   ],
+   "note": "No loans, advances or investments covenant is listed."
+  },
+  "permitted_guarantees": {
+   "lines": [
+    "Not among the covenants listed in the term sheet (open list; covenants by reference to the Existing 364-Day Agreement). The only treatment of guarantees is that guarantees of Debt are themselves \"Debt\" (clause (vi) of the definition used in the cross default - see Events of Default)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "(vi) all guarantees of such Person in respect to the Debt of the kind referred to in clauses (i) through (v) above.",
+     "page": 7
+    },
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 364-Day Agreement",
+     "page": 5
+    }
+   ],
+   "note": ""
+  },
+  "permitted_payments": {
+   "lines": [
+    "Not among the covenants listed in the term sheet; the list is open ('including, but not limited to') and covenants are to be similar to (and no less favorable to the Company than) the Existing 364-Day Agreement"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 364-Day Agreement",
+     "page": 5
+    },
+    {
+     "quote": "Agreement, including, but not limited to: (1) Preservation of corporate existence;",
+     "page": 5
+    }
+   ],
+   "note": "No restriction on payments of junior or subordinated debt is listed."
+  },
+  "other_covenants": {
+   "lines": [
+    "Covenants are listed without detail ('including, but not limited to') and are to be similar to (and no less favorable to the Company than) the Existing 364-Day Agreement, with similar grace periods, thresholds and materiality qualifiers:",
+    "Mergers / fundamental changes: certain restrictions on consolidations, mergers, sale of assets",
+    "Liens: negative pledge and limitations on liens and secured debt for borrowed money (see Negative Pledge)",
+    "Sanctions / anti-corruption: certain covenants related to anti-corruption laws and sanctions",
+    "Reporting and notices: certain reporting requirements, including financial and ERISA; notice of change of control and of consummation of the Spin Off",
+    "Affirmative: preservation of corporate existence; material compliance with laws (including ERISA and applicable environmental laws); payment of taxes; visitation rights; maintenance of books and records, properties and insurance"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 364-Day Agreement",
+     "page": 5
+    },
+    {
+     "quote": "(9) Certain restrictions on consolidations, mergers, sale of assets; (10) Certain reporting requirements, including financial and ERISA; (11) Notice of change of control and consummation of the Spin Off; and (12) Certain covenants related to anti-corruption laws and sanctions.",
+     "page": 6
+    },
+    {
+     "quote": "(1) Preservation of corporate existence; (2) Material compliance with laws (including ERISA and applicable environmental laws); (3) Payment of taxes; (4) Visitation rights;",
+     "page": 5
+    }
+   ],
+   "note": "All twelve listed covenants are covered (items (5)-(7), maintenance of books and records, properties and insurance, are on page 6). Status is stated because the term sheet gives the list; the content of each covenant is by reference to the Existing 364-Day Agreement. No affiliate transactions, change of business, sale and leaseback, restrictive agreements or MFN covenant is listed."
+  },
+  "events_of_default": {
+   "lines": [
+    "Cross default: payment defaults on principal Debt aggregating $500m (excluding Debt owed to an institution with which the Company or a Subsidiary holds deposits sufficient to repay it), or any default or event of default whose effect is to accelerate or permit acceleration of such Debt",
+    "Insolvency / creditors' process: bankruptcy / insolvency (no threshold or grace period given); unsatisfied judgment or order in excess of $500m individually or in the aggregate (no period given; carve-out similar to the cross-default country carve-out)",
+    "Cross-default carve-out: Debt of subsidiaries / affiliates located in China, India, the Commonwealth of Independent States or Turkey, if not guaranteed or supported by any Borrower or by a subsidiary / affiliate outside those countries, the default is due to government action there, and each such subsidiary has assets of no more than $500m individually and $650m collectively (latest calendar quarter end)",
+    "Payment: failure to pay principal when due; interest or Commitment Fee within three business days; any other amounts within 30 days",
+    "Other: representations or warranties materially incorrect when made; failure to comply with covenants (with notice and cure periods as applicable); ERISA events with a liability in excess of $500m. Change of Control is not listed as an event of default (see Mandatory Prepayment Events)",
+    "\"Debt\" (for the cross default): recourse indebtedness for borrowed money; deferred (90 days or more) purchase price of property or services (excluding ordinary-course trade payables); debt of others secured on the Person's property; drawn and unreimbursed letters of credit (other than performance letters of credit), acceptances and drafts; capital leases under GAAP; guarantees of the foregoing",
+    "Otherwise similar to (and no less favorable to the Company than) the Existing 364-Day Agreement, with similar grace periods, thresholds and materiality qualifiers (list is 'including, but not limited to')"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Cross-default to payment defaults on principal Debt (as defined below) aggregating $500,000,000",
+     "page": 6
+    },
+    {
+     "quote": "shall not have assets of more than $500,000,000 individually nor collectively $650,000,000 measured as of the most recent calendar quarter end; (5) Unsatisfied judgment or order in excess of $500,000,000 individually or in the aggregate.",
+     "page": 6
+    },
+    {
+     "quote": "Failure to pay principal when due; failure to pay interest or Commitment Fee within three business days of when due; and failure to pay any other amounts within 30 days of when due;",
+     "page": 6
+    }
+   ],
+   "note": "Bankruptcy/insolvency (item (6)), the ERISA threshold (item (7): 'ERISA events with a liability in excess of $500,000,000') and the 'Debt' definition are on page 7; the three quotes allowed are all taken from page 6, so those lines are summarised from page 7 without a quote. Default interest: on a payment event of default the Applicable Margin on unpaid principal increases by 100 basis points (page 3)."
+  },
+  "conditions_subsequent": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "Only conditions precedent to closing and to all Advances are listed (pages 4-5)."
+  },
+  "mandatory_prepayment": {
+   "lines": [
+    "Change of Control: each Lender may, on at least 10 days' notice, terminate its commitment on the date 60 days after the Change of Control (lender-by-lender cancellation right; repayment of its Advances not expressly stated). Trigger: any person (other than the Company, its subsidiaries or their employee benefit plans) acquiring beneficial ownership of 50% or more of the Voting Stock of the Company",
+    "Change of Control also occurs on a change in the majority of board members during any 12-month period, except where the replacements are elected by a majority of the remaining board members, or nominated or approved by such a majority and subsequently elected by shareholders",
+    "Other: Spin Off - on consummation, commitments reduce automatically and permanently to $2.0bn and any Advances in excess of the reduced commitments must be repaid",
+    "Other: currency fluctuation - if the dollar equivalent value of all Advances exceeds 103% of the Facility Amount, the Company must promptly prepay to reduce it to 100% of the Facility Amount",
+    "Disposal proceeds / insurance proceeds / debt issuance proceeds / excess cashflow: none stated in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "excess of the aggregate commitments under the 364-Day Facility (after giving effect to the foregoing commitment reduction) shall be repaid. If a Change of Control occurs each Lender may upon at least 10 days notice terminate its commitment on the date that is 60 days after such Change of Control.",
+     "page": 2
+    },
+    {
+     "quote": "thereafter acquires beneficial ownership of 50% or more of the Voting Stock of the Company or (ii) during any 12 month period, there is a change in the majority of board members",
+     "page": 2
+    },
+    {
+     "quote": "If at any time the dollar equivalent value of all Advances exceeds 103% of the Facility Amount, the Company shall promptly make a mandatory prepayment to reduce the dollar equivalent value of all Advances to 100% of the Facility Amount.",
+     "page": 4
+    }
+   ],
+   "note": "The Change of Control provision sits under 'Commitment Reduction' (page 2), not under a mandatory prepayment or events of default heading, and speaks only of the Lender terminating its commitment; it does not say that the Lender's outstanding Advances are then repaid, and it does not provide for automatic cancellation or prepayment. 'Voting Stock' and 'Spin Off' are not defined in the term sheet. The quote for the $2.0bn reduction is under Facility."
+  },
+  "jurisdiction_topco": {
+   "lines": [
+    "Not stated in term sheet (the top company named is Honeywell International Inc., the Company; no jurisdiction of incorporation is given)",
+    "Governing law of the facility: State of New York"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "Governing Law: State of New York.",
+     "page": 9
+    }
+   ],
+   "note": ""
+  },
+  "transferability": {
+   "lines": [
+    "Borrower consent: not to be unreasonably withheld; not required while a default or event of default is continuing; deemed given unless the Company objects within 10 business days after notice. Agent consent also required (not to be unreasonably withheld). No Company or Agent consent for assignments to a Lender's affiliates (on notice to both) or as security (including to any Federal Reserve Bank)",
+    "Restrictions on transferees: Eligible Assignees only (as defined in the Existing 364-Day Agreement); customary disqualified Lenders provisions (not detailed). Participations permitted, subject to customary restrictions on participants' voting rights; the selling Lender must notify the Company within 30 days",
+    "Minimum assignment $10m and increments of $1m; $3,500 administrative fee to the Agent per assignment, payable by the parties other than the Company"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "with the consent, not to be unreasonably withheld, of the Agent and, so long as no default or event of default is continuing, the Company, provided that the Company shall be deemed to have consented to an assignment unless they shall have objected within 10 business days",
+     "page": 8
+    },
+    {
+     "quote": "Minimum aggregate assignment level of $10,000,000 and increments of $1,000,000 in excess thereof. The parties to the assignment (other than the Company) shall pay to the Agent an administrative fee of $3,500 per assignment. The loan documents will contain customary disqualified Lenders provisions.",
+     "page": 8
+    },
+    {
+     "quote": "Each Lender will also have the right, without the consent of the Company or the Agent, to assign (i) as security, all or part of its rights under the loan documents, including to any Federal Reserve Bank and (ii) with notice to the Company and the Agent",
+     "page": 8
+    }
+   ],
+   "note": "The third quote stops before the words 'all or part of its rights or obligations under the loan documents to any of its affiliates', which follow immediately (the sentence from 'without the consent' to 'affiliates' is 308 characters, over the quote limit). Participations are in the third paragraph of 'Assignments and Participations' (page 8) and are not quoted (three-quote limit). Separately, the Company may replace Lenders: any Lender if no Rating Condition is continuing (no more than 3 non-defaulting Lenders per calendar year; page 7, Other (4)), and any Lender claiming yield protection or tax amounts or that is a Defaulting Lender (page 9)."
+  },
+  "info_annual_consolidated": {
+   "lines": [
+    "Annual audited consolidated accounts - not specified: the term sheet lists only 'certain reporting requirements, including financial and ERISA', to be similar to the Existing 364-Day Agreement; no statements or delivery periods are given"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Certain reporting requirements, including financial and ERISA;",
+     "page": 6
+    },
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 364-Day Agreement",
+     "page": 5
+    }
+   ],
+   "note": "Covenant (10). The term sheet does not say which financial statements are required or when."
+  },
+  "info_annual_obligor": {
+   "lines": [
+    "Annual obligor accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The Company is the only obligor named (no guarantors are stated) and the term sheet mentions no standalone obligor accounts. Covenant (10) ('Certain reporting requirements, including financial and ERISA', page 6) is an open pointer to the Existing 364-Day Agreement and is recorded under the annual consolidated and quarterly rows; this row keeps the not_stated wording the field guidance prescribes, because the term sheet does not point to another document for this item specifically."
+  },
+  "info_quarterly": {
+   "lines": [
+    "Quarterly accounts - not specified: the term sheet lists only 'certain reporting requirements, including financial and ERISA', to be similar to the Existing 364-Day Agreement; no statements or delivery periods are given"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Certain reporting requirements, including financial and ERISA;",
+     "page": 6
+    },
+    {
+     "quote": "Covenants: Similar to (and no less favorable to the Company than) the Existing 364-Day Agreement",
+     "page": 5
+    }
+   ],
+   "note": "Covenant (10). Quarterly reporting is not mentioned specifically."
+  },
+  "info_budget": {
+   "lines": [
+    "Annual budget - not listed in term sheet (reporting requirements are by reference to the Existing 364-Day Agreement)",
+    "Other: ERISA reporting; notice of change of control and of consummation of the Spin Off (no detail or periods given)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Certain reporting requirements, including financial and ERISA;",
+     "page": 6
+    },
+    {
+     "quote": "Notice of change of control and consummation of the Spin Off; and",
+     "page": 6
+    }
+   ],
+   "note": "No budget or projections requirement is mentioned; by_reference because the reporting package is an open list that defers to the Existing 364-Day Agreement. The notice items in the second line are stated (covenants (10) and (11))."
+  }
+ }
+}

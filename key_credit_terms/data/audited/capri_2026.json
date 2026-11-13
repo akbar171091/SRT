@@ -1,0 +1,702 @@
+{
+ "schema": "kct/1",
+ "client": "Capri",
+ "deal": "Capri 2026",
+ "source_file": "Capri 2026 TS.pdf",
+ "sha1": "4875fbcb8e03633da342205b9003995cb6a40f6c",
+ "source": "audited",
+ "audit": {
+  "on": "2026-11-12",
+  "method": "Read from the full term sheet by one AI reviewer, then checked against it twice by independent AI reviewers: first every line of the record against the document, then the document section by section against the record. Not signed off by a person. Every quote is looked up in the PDF text each time the tool runs.",
+  "first_audit_changes": 17,
+  "first_audit_substantive": 8,
+  "final_review_changes": 4,
+  "final_review_substantive": 3,
+  "open_points": "Final record: C:\\Users\\AFarid\\Documents\\Hackathon\\key_credit_terms\\data\\audited\\capri_2026.json. Checker: structure OK, 80 quotes exact, 0 loose, 0 on another page, 0 missing. A field-by-field diff against .cache\\audit1\\capri_2026.json shows only the four changes listed. All 14 page images were read against the dump; the layout is a plain two-column term sheet with proposed terms only (no existing / proposed columns), and the dump matches the images.\n\nReverse walk result: no wrong or transposed figure and no term sitting under the wrong facility, covenant or period. Every number in the record was traced to its clause, including the two uses of 4.00x (maintenance covenant on page 7; incurrence test for unsecured Permitted Equivalent Indebtedness on page 4), 3.00x (Secured Net Leverage incurrence test only), 4.50x step-up, $400m / 100% of EBITDA, $200m cash netting, 15% cap, 18 / 12 months, 105%, 5 and 10 business days, $5m. No not_stated or by_reference field was upgraded: searches for Barclays, budget, projections, 'days after', annual, audited, post-closing, disqualified, competitor, sub-limit, cure, hoarding and most-favoured-nation found nothing beyond what the record already reports.\n\nFirst auditor's doubts, as resolved:\n1. Ranking line 2 (from Voting) kept, reworded. It is still a judgement call the document cannot settle: the template has no voting row, and the other audited records keep Ranking to a single line. Deleting the line loses nothing elsewhere except this lender protection.\n2. select_definitions kept in the four-prefix form (the brief puts cash netting and the leverage definition under 'Adjusted EBITDA: '); that line is 386 characters.\n3. transferability line 1 left at 416 characters (hard limit 420); the brief puts all consent terms and minimum amounts on the first line.\n4. info_annual_obligor left not_stated, following the field guidance; this is also how the row is treated in the other audited records where the reporting covenant points to an existing agreement. Under the style guide's open-list rule it could equally be by_reference, since the 'financial statements and other information' covenant is 'substantially the same as the Existing Credit Agreement'.\n5. events_of_default and permitted_indebtedness left by_reference: the thresholds and general baskets those rows ask for are only in the Existing Credit Agreement, although the 5 business day grace period and the incremental-equivalent debt capacity are stated.\n6. mandatory_prepayment keeps the line reporting silence on disposal / insurance / debt issuance / excess cashflow prepayments, because the template prompt names those heads.\n\nNot resolvable from the term sheet:\n- Date: 'Posting Version 6/5/2026' is kept as printed; the document does not fix the day / month order (5 June or 6 May 2026).\n- The opening paragraph says that, unless otherwise set forth, the facility has the same terms as the Existing Credit Agreement. Rows reported as not stated (conditions subsequent, guarantor coverage test, obligor accounts) and the prepayment heads the term sheet is silent on may therefore be governed by that agreement.\n- Defined only in the Existing Credit Agreement: Material Acquisition, Secured Net Leverage Ratio, the change of control trigger, material-subsidiary thresholds, letter of credit and swing line sub-limits, the base Consolidated EBITDAR definition, 'eligible assignees'. The jurisdiction of Capri Holdings Limited is not given.\n- Blanks in the term sheet: second Joint Lead Arranger, Syndication Agent, the annual asset sale basket amount and the EBITDA grower percentage. Barclays is not named.\n- 24 lines exceed the 250-character soft guide (longest 416, under the 420 limit)."
+ },
+ "doc": {
+  "kind": "term_sheet",
+  "title": "$1,000 MILLION REVOLVING CREDIT FACILITY - Summary of Terms and Conditions",
+  "date": "Posting Version 6/5/2026",
+  "notes": "Summary of Terms and Conditions (posting version) for a $1,000 million senior secured revolving credit facility for Michael Kors (USA), Inc., Capri Holdings Limited and other group borrowers, with JPMorgan Chase Bank, N.A. as Administrative Agent and Joint Lead Arranger. The main terms are on pages 1-10; Annex I (interest and certain fees) is on pages 11-13 and Annex I-A (pricing grid) on page 14. The facility is to be documented as an amendment to the Existing Credit Agreement (Amended and Restated Credit Agreement dated February 4, 2025); the term sheet shows the proposed terms only (no existing / proposed columns) and says that, unless otherwise set forth, the terms are the same as the Existing Credit Agreement, so covenant baskets, default thresholds and reporting deadlines are given by reference only. The second Joint Lead Arranger and the Syndication Agent are left blank and no lender commitments are shown. Terms shown that have no row in the template: pricing (Applicable Rate initially 1.25% for Term Benchmark Loans and 0.25% for ABR Loans and commitment fee initially 0.15%, then by the Annex I-A grid on the Net Leverage Ratio: 112.5-150.0 bps, 12.5-50.0 bps and 10.0-20.0 bps respectively; Term SOFR floor 0%), the default rate (2% above the otherwise applicable rate), voting (Required Lenders: more than 50%), and the replacement-of-lender and defaulting-lender provisions (both by reference to the Existing Credit Agreement)."
+ },
+ "fields": {
+  "facility": {
+   "lines": [
+    "$1.0bn senior secured multicurrency RCF",
+    "Currencies: U.S. Dollars, Euro, Canadian Dollars, Pounds Sterling, Japanese Yen, Swiss Francs and any other readily available, freely transferable and convertible currency reasonably acceptable to the Administrative Agent and each of the Lenders (no currency sub-limit stated)",
+    "Letters of credit and swing line loans: same as under the Existing Credit Agreement (sub-limits not stated in term sheet)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "A senior secured revolving credit facility (the “Revolving Credit Facility”) in an amount up to $1,000,000,000",
+     "page": 3
+    },
+    {
+     "quote": "Revolving Lenders in U.S. Dollars, Euro, Canadian Dollars, Pounds Sterling, Japanese Yen, Swiss Francs and any other currency",
+     "page": 3
+    },
+    {
+     "quote": "Letters of Credit: Same as under the Existing Credit Agreement. Swing Line Loans: Same as under the Existing Credit Agreement.",
+     "page": 3
+    }
+   ],
+   "note": "Amount is 'up to' $1,000,000,000. Letter of credit and swing line sub-limits are not given; both are 'Same as under the Existing Credit Agreement'."
+  },
+  "borrowers": {
+   "lines": [
+    "Michael Kors (USA), Inc. ('MK'); Capri Holdings Limited ('Capri'); Michael Kors (Europe) B.V.; Michael Kors (Canada) Holdings Ltd.; Michael Kors (Switzerland) GmbH ('MK Switzerland')",
+    "Additional borrowers: other foreign subsidiaries of Capri requested by MK that are (a) organised under the laws of the British Virgin Islands, Canada, the Netherlands or Switzerland, or (b) otherwise approved by the Administrative Agent and the Revolving Lenders in their reasonable discretion"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Michael Kors (USA), Inc. (“MK”), Capri Holdings Limited (“Capri”), Michael Kors (Europe) B.V., Michael Kors (Canada) Holdings Ltd., Michael Kors (Switzerland) GmbH (“MK Switzerland”)",
+     "page": 1
+    },
+    {
+     "quote": "such other foreign subsidiaries of Capri as are requested by MK (a) which are organized under the laws of the British Virgin Islands, Canada, the Netherlands or Switzerland",
+     "page": 1
+    },
+    {
+     "quote": "(b) otherwise, approved by the Administrative Agent and the Revolving Lenders (as defined below) in their reasonable discretion",
+     "page": 1
+    }
+   ],
+   "note": "The term sheet does not give the jurisdiction of incorporation of the named borrowers beyond what their names suggest."
+  },
+  "lender_commitments": {
+   "lines": [
+    "Barclays = not stated in term sheet",
+    "No commitments stated. Administrative Agent: JPMorgan Chase Bank, N.A. (JPMCB). Joint Lead Arrangers: JPMCB and [ ] - second arranger left blank in term sheet. Syndication Agent: [ ] - left blank in term sheet. Co-Documentation Agents and Sr. Managing Agents: to be agreed"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "JPMorgan Chase Bank, N.A. (“JPMCB”) and [ ]",
+     "page": 2
+    },
+    {
+     "quote": "JPMCB (in such capacity, the “Administrative Agent”).",
+     "page": 2
+    },
+    {
+     "quote": "[ ] (in such capacity, the “Syndication Agent”).",
+     "page": 2
+    }
+   ],
+   "note": "Barclays is not named anywhere in the term sheet. Lenders are described only as a syndicate selected by the Lead Arrangers and reasonably acceptable to MK."
+  },
+  "purpose": {
+   "lines": [
+    "General corporate purposes of the Loan Parties and their Subsidiaries",
+    "Repayment in part, on the Closing Date, of revolving loans outstanding under the Existing Credit Agreement (Amended and Restated Credit Agreement dated February 4, 2025)",
+    "Costs and expenses of the amendment of the Existing Credit Agreement, the incurrence of the Revolving Credit Facility and the use of proceeds"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "(iii) for general corporate purposes of the Loan Parties and their Subsidiaries.",
+     "page": 3
+    },
+    {
+     "quote": "Closing Date to re pay, in part, revolving loans outstanding under the Existing Credit Agreement",
+     "page": 3
+    },
+    {
+     "quote": "to pay costs and expenses in connection with the amendment of the Existing Credit Agreement",
+     "page": 3
+    }
+   ],
+   "note": ""
+  },
+  "maturity": {
+   "lines": [
+    "5 years from the Closing Date (Revolving Credit Termination Date = fifth anniversary of the Closing Date)",
+    "No + 1 + 1 options stated. 'Amend and extend' feature consistent with the Existing Credit Agreement: individual Lenders may agree to extend their commitments at MK's request, subject to customary conditions and without consent of other Lenders (no Lender obliged to extend; each Revolving Lender to be offered the extension on the same terms)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "during the period commencing on the Closing Date and ending on the fifth anniversary thereof (the “Revolving Credit Termination Date”).",
+     "page": 3
+    },
+    {
+     "quote": "pursuant to which individual Lenders may agree to extend, as applicable, the maturity date of their outstanding commitments in respect of the Revolving Credit Facility",
+     "page": 4
+    },
+    {
+     "quote": "upon request of MK and without the consent of any other Lender",
+     "page": 4
+    }
+   ],
+   "note": "The Closing Date is the date the conditions precedent are satisfied; no calendar date is given. No term-out or springing maturity is stated. Annex I refers once to a 'Revolving Credit Maturity Date' (swing line interest dates, page 13); the defined term elsewhere is Revolving Credit Termination Date."
+  },
+  "repayment": {
+   "lines": [
+    "Bullet (revolving; repayable at maturity - not stated expressly; the facility is available on a revolving basis until the fifth anniversary of the Closing Date and no amortisation is provided for)",
+    "Voluntary prepayment of loans permitted without premium or penalty (subject to customary breakage provisions as set forth in the Existing Credit Agreement); MK may reduce commitments in minimum amounts as set forth in the Existing Credit Agreement"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The Revolving Credit Facility shall be available on a revolving basis during the period commencing on the Closing Date and ending on the fifth anniversary thereof",
+     "page": 3
+    },
+    {
+     "quote": "Loans may be prepaid without premium or penalty (but subject to",
+     "page": 5
+    },
+    {
+     "quote": "commitments may be reduced by MK in minimum amounts as set forth in the Existing Credit Agreement.",
+     "page": 5
+    }
+   ],
+   "note": "Derived: the term sheet has no repayment clause; bullet follows from the revolving availability period and the absence of any amortisation provision. The second quote stops at 'subject to' because the label column ('Commitment Reductions:') interrupts the sentence in the page text."
+  },
+  "accordion": {
+   "lines": [
+    "Yes = greater of $400m and 100% of Consolidated EBITDA (most recent four fiscal quarters), plus additional amounts subject to pro forma Secured Net Leverage Ratio <= 3.00x",
+    "Cap is shared between increases of the RCF, incremental term loan tranches (each secured pari passu on the Collateral) and Permitted Equivalent Indebtedness incurred after the Closing Date",
+    "Uncommitted: MK may seek commitments from existing Lenders (free to decline) or Additional Lenders (Administrative Agent consent, not to be unreasonably withheld or delayed); customary conditions; no consent of non-participating Lenders; minimum increments not stated",
+    "Permitted Equivalent Indebtedness: incremental capacity may be used for unsecured debt or debt secured only on the Collateral, pari passu or junior (subject to intercreditor agreement); unsecured debt tested at Net Leverage Ratio <= 4.00x in lieu of the Secured Net Leverage Ratio",
+    "Terms substantially consistent with the Existing Credit Agreement; incremental term loans may carry covenants not materially more onerous than market terms; increments for a permitted acquisition may have 'SunGuard' / 'certain funds' limited conditions"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "does not exceed the sum of (x) an amount equal to the greater of (i) $400,000,000 and (ii) 100% of Consolidated EBITDA",
+     "page": 3
+    },
+    {
+     "quote": "the Secured Net Leverage Ratio (to be defined as set forth in the Existing Credit Agreement) is less than or equal to 3.00 to 1.00.",
+     "page": 4
+    },
+    {
+     "quote": "unsecured indebtedness may be incurred subject to the Net Leverage Ratio (as defined below) being less than or equal to 4.00 to 1.00",
+     "page": 4
+    }
+   ],
+   "note": "Section is headed 'Expansion Feature'. The ratio-based amount is calculated without giving effect to amounts incurred simultaneously under the fixed ($400m / 100% of EBITDA) basket. Secured Net Leverage Ratio is to be defined as in the Existing Credit Agreement."
+  },
+  "guarantors": {
+   "lines": [
+    "The Borrowers; the guarantors under the Existing Credit Agreement; future material subsidiaries of Capri organised in Eligible Jurisdictions (the jurisdictions of organisation of existing Guarantors); and other subsidiaries Capri elects to make guarantors",
+    "Exceptions to be agreed, including subsidiaries prohibited by law (incl. corporate benefit / financial assistance) or needing governmental consent, and non-wholly owned subsidiaries prohibited by their organisational documents or needing equity holder consent",
+    "Also excluded: non-Eligible Contract Participants (swap obligations only) and subsidiaries where the Administrative Agent determines the cost of a guarantee is excessive relative to its value",
+    "CFCs and CFC Holding Companies (other than IP Subsidiaries) are not required to guarantee the obligations of any domestic subsidiary",
+    "Guarantee covers the Revolving Credit Facility, hedging owed to Lenders / affiliates, Supply Chain Financings (other than Excluded Supply Chain Financings), Bilateral Letters of Credit and existing Working Capital Facilities",
+    "Release of Capri, MK or all or substantially all of the other Guarantors requires consent of 100% of Lenders; no guarantee fall-away stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The Borrowers, the guarantors under the Existing Credit Agreement and other future subsidiaries of Capri organized in Eligible Jurisdictions (as defined below) that are material subsidiaries",
+     "page": 1
+    },
+    {
+     "quote": "other than an IP Subsidiary (as defined below), shall be required to guarantee (x) the obligations of any domestic subsidiary",
+     "page": 2
+    },
+    {
+     "quote": "releasing Capri, MK, or all or substantially all of the other Guarantors from their obligations",
+     "page": 9
+    }
+   ],
+   "note": "Existing guarantors are not named; they are identified by reference to the Existing Credit Agreement. The CFC carve-out also covers guarantees of another Loan Party's guarantee of a domestic subsidiary's obligations."
+  },
+  "guarantor_coverage": {
+   "lines": [
+    "None stated in term sheet",
+    "Material subsidiary test (decides which future subsidiaries must guarantee): materiality thresholds to be consistent with those in the Existing Credit Agreement; figures not given in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "materiality thresholds to be consistent with those set forth in the Existing Credit Agreement",
+     "page": 1
+    }
+   ],
+   "note": "No guarantor coverage test. The only related point is the material-subsidiary threshold, which is by reference to the Existing Credit Agreement."
+  },
+  "security": {
+   "lines": [
+    "Secured: perfected first-priority security interest in (a) all present and future property of each Loan Party incorporated in the United States and (b) the intellectual property of the IP Subsidiaries registered in the IP Jurisdictions (Italy, Switzerland, the United States, the United Kingdom)",
+    "Exclusions and limitations consistent with the Existing Credit Agreement; security under the Pledge and Security Agreement dated February 4, 2025 and the other Collateral Documents",
+    "Also secures hedging owed to Lenders / affiliates, Supply Chain Financings (other than Excluded Supply Chain Financings) and Bilateral Letters of Credit",
+    "Release: on the Borrower's written notice once (a) Capri has an Investment Grade Rating (corporate rating of Baa3 / BBB- / BBB- or higher) from at least two of Moody's, S&P and Fitch and (b) no debt guaranteed by a Loan Party and secured on the Collateral is outstanding (other than the RCF and Incremental Facilities)",
+    "Reinstatement: security is automatically reinstated if Capri no longer has an Investment Grade Rating from at least two of the three agencies, or any Loan Party guarantees debt secured by a majority of the domestic Loan Parties' Collateral or of the foreign Loan Parties' IP Collateral",
+    "Release of all or substantially all of the Collateral otherwise requires consent of 100% of Lenders"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "shall be secured by (a) a perfected first -priority security interest in any and all property of each Loan Party incorporated in the United States, now existing or hereafter acquired and (b) the intellectual property of the IP Subsidiaries registered in the IP Jurisdictions",
+     "page": 6
+    },
+    {
+     "quote": "from at least two out of three of Moody’s, S&P and Fitch, and (b) no debt guaranteed by any Loan Party and secured by liens on the Collateral is then outstanding",
+     "page": 6
+    },
+    {
+     "quote": "all such security interests under the Credit Documentation shall be automatically reinstated",
+     "page": 7
+    }
+   ],
+   "note": "The release wording refers to 'the Borrower' (singular, undefined). The release may be requested for all or a portion of the Collateral. Specific exclusions are not listed (by reference to the Existing Credit Agreement). The rating is a corporate family / corporate credit rating of Capri and its Subsidiaries on a consolidated basis."
+  },
+  "ranking": {
+   "lines": [
+    "Senior Secured (first-priority security interest in the Collateral; Incremental Facilities secured pari passu on the Collateral - see Accordion)",
+    "Voting protection: subordinating the facility's liens or payment ranking to other borrowed money needs each directly affected Lender's consent, unless each adversely affected Lender is offered a bona fide opportunity to provide that debt on the same terms (exceptions: subordination expressly permitted by the loan documents on the Closing Date, DIP financing, other customary exceptions)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "A senior secured revolving credit facility",
+     "page": 3
+    },
+    {
+     "quote": "a perfected first -priority security interest",
+     "page": 6
+    },
+    {
+     "quote": "(v) subordination of liens securing the obligations under the loan documents to liens securing, or subordination of the obligations under the loan documents in right of payment to, in each case, the",
+     "page": 8
+    }
+   ],
+   "note": "Security falls away on an Investment Grade Rating (see Collateral/Security); while released the facility would be senior unsecured. The second line comes from the Voting section (pages 8-9), which has no template row of its own; the sentence runs over the page break, so the quote ends at the foot of page 8 and the 'unless' and 'except' wording is at the top of page 9. The pari passu wording for Incremental Facilities is on page 3."
+  },
+  "fc_leverage": {
+   "lines": [
+    "Net Leverage Ratio <= 4.00x (step-up to 4.50x for the four quarters following a Material Acquisition, at Capri's election; maximum two such Transition Period Elections, with at least two consecutive full fiscal quarters between Transition Periods)",
+    "Net Leverage Ratio is lease-adjusted net debt to Consolidated EBITDAR (see Other Select Definitions)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "to (ii) Consolidated EBITDAR for such period of four consecutive fiscal quarters of Capri most recently ended on or prior to such date, all calculated for Capri and its Subsidiaries on a consolidated basis, of not more than 4.00 to 1.00.",
+     "page": 7
+    },
+    {
+     "quote": "the Net Leverage Ratio shall not be more than 4.50 to 1.00 for the four quarters following the Material Acquisition",
+     "page": 7
+    },
+    {
+     "quote": "there shall be no more than two Transition Period Elections and there shall be at least two consecutive full fiscal quarters ended after the end of the first Transition Period",
+     "page": 7
+    }
+   ],
+   "note": "'Material Acquisition' is not defined in the term sheet (capitalised terms take their meaning from the Existing Credit Agreement)."
+  },
+  "fc_interest_cover": {
+   "lines": [
+    "Interest Cover: none (the Financial Covenant is limited to the Net Leverage Ratio)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial Covenant: Limited to:",
+     "page": 7
+    },
+    {
+     "quote": "The Loan Parties shall maintain a ratio (“ Net Leverage Ratio”)",
+     "page": 7
+    }
+   ],
+   "note": "Closed list: 'Financial Covenant: Limited to:' followed only by the Net Leverage Ratio."
+  },
+  "fc_other": {
+   "lines": [
+    "Other: none (the Financial Covenant is limited to the Net Leverage Ratio)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial Covenant: Limited to:",
+     "page": 7
+    },
+    {
+     "quote": "The Loan Parties shall maintain a ratio (“ Net Leverage Ratio”)",
+     "page": 7
+    }
+   ],
+   "note": "Secured Net Leverage Ratio <= 3.00x and Net Leverage Ratio <= 4.00x appear only as incurrence tests for the Expansion Feature (see Accordion), not as maintenance covenants."
+  },
+  "fc_testing": {
+   "lines": [
+    "Tested quarterly on a rolling four-quarter basis: as of the last day of each fiscal quarter, for the four consecutive fiscal quarters of Capri most recently ended, for Capri and its Subsidiaries on a consolidated basis",
+    "No springing condition stated; first test date not stated in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Consolidated Total Indebtedness as of the last day of each fiscal quarter",
+     "page": 7
+    },
+    {
+     "quote": "Consolidated EBITDAR for such period of four consecutive fiscal quarters of Capri most recently ended on or prior to such date",
+     "page": 7
+    }
+   ],
+   "note": "Quarterly testing is taken from the definition of the ratio ('as of the last day of each fiscal quarter'); there is no separate testing clause."
+  },
+  "select_definitions": {
+   "lines": [
+    "Synergies: Consolidated EBITDAR adds pro forma run-rate cost savings, operating expense reductions, other operating improvements and cost synergies from company initiatives; 18-month look-forward (12 months for cost synergies); capped at 15% of EBITDAR per test period (after giving effect to the adjustments)",
+    "Adjusted EBITDA: Consolidated EBITDAR as defined in the Existing Credit Agreement, plus add-back for extraordinary, non-recurring, unusual or exceptional losses, charges and expenses (less such gains; no cap stated). Leverage = Consolidated Total Indebtedness plus capitalised Operating Lease Obligations, less unrestricted cash and Cash Equivalents up to $200m, to Consolidated EBITDAR"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "subject to an 18- month look forward period (or, in the case of cost synergies, a 12- month look forward period) subject, in the case of this clause (ii), to a cap for any test period equal to 15 % of EBITDAR for such test period",
+     "page": 8
+    },
+    {
+     "quote": "an add-back for any extraordinary, non- recurring, unusual or exceptional losses, charges and expenses (and a corresponding deduct for any such gains)",
+     "page": 8
+    },
+    {
+     "quote": "minus unrestricted cash and Cash Equivalents at such date not to exceed $200,000,000",
+     "page": 7
+    }
+   ],
+   "note": "Equity cures and deemed cures are not addressed. The base definition of Consolidated EBITDAR is by reference to the Existing Credit Agreement; only the two changes are set out. The 15% cap is expressed by reference to 'EBITDAR' and applies only to the run-rate / synergies clause. The cash-netting cap and the leverage definition sit in the 'Adjusted EBITDA: ' line because the guidance names only four prefixes for this row."
+  },
+  "negative_pledge": {
+   "lines": [
+    "Limitation on liens: substantially the same as the Existing Credit Agreement; baskets not detailed in term sheet",
+    "EBITDA 'grower' component to be added to each dollar basket (a percentage of Consolidated EBITDA for the most recent four fiscal quarters; percentage not specified), subject to certain exceptions",
+    "Liens on the Collateral securing Incremental Facilities (pari passu) and Permitted Equivalent Indebtedness (pari passu or junior, subject to intercreditor agreement) are contemplated - see Accordion"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Existing Credit Agreement and to include: indebtedness; liens; fundamental changes and asset sales;",
+     "page": 8
+    },
+    {
+     "quote": "an EBITDA “grower” component will be added to each dollar basket based on a percentage of Consolidated EBITDA",
+     "page": 8
+    },
+    {
+     "quote": "indebtedness that is secured by liens on the Collateral that are pari passu with or junior to the liens thereon securing the Revolving Credit Facility",
+     "page": 4
+    }
+   ],
+   "note": "Points to the liens covenant of the Existing Credit Agreement; no basket amounts in the term sheet."
+  },
+  "permitted_acquisitions": {
+   "lines": [
+    "Within the covenant on 'investments, loans, advances, guarantees and acquisitions': substantially the same as the Existing Credit Agreement; conditions and baskets not detailed in term sheet",
+    "EBITDA 'grower' component to be added to each dollar basket (see Negative Pledge)",
+    "A Material Acquisition allows the Net Leverage Ratio step-up to 4.50x (see Financial Covenants); Incremental Facilities for a permitted acquisition may have 'SunGuard' / 'certain funds' limited conditions"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Existing Credit Agreement and to include: indebtedness; liens; fundamental changes and asset sales; investments, loans, advances, guarantees and acquisitions;",
+     "page": 8
+    },
+    {
+     "quote": "incurred in connection with a permitted acquisition or other similar investment may be subject to “SunGuard” or “certain funds” limited conditions",
+     "page": 4
+    },
+    {
+     "quote": "the Net Leverage Ratio shall not be more than 4.50 to 1.00 for the four quarters following the Material Acquisition",
+     "page": 7
+    }
+   ],
+   "note": "Points to the Existing Credit Agreement. 'SunGuard' is spelt as in the term sheet."
+  },
+  "permitted_disposals": {
+   "lines": [
+    "Within the covenant on 'fundamental changes and asset sales': substantially the same as the Existing Credit Agreement; existing baskets and conditions not detailed in term sheet",
+    "New general asset sale basket per fiscal year - amount to be agreed (left open in term sheet); unused amount may be carried forward to the immediately following fiscal year",
+    "EBITDA 'grower' component to be added to each dollar basket (see Negative Pledge)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Existing Credit Agreement and to include: indebtedness; liens; fundamental changes and asset sales;",
+     "page": 8
+    },
+    {
+     "quote": "general basket to be agreed per fiscal year will be added to the asset sale covenant, with any unused amount in respect of a fiscal year permitted to be carried forward to the immediately subsequent fiscal year",
+     "page": 8
+    }
+   ],
+   "note": "Points to the Existing Credit Agreement; the one new basket has no amount ('to be agreed')."
+  },
+  "permitted_distributions": {
+   "lines": [
+    "Restricted payments covenant: substantially the same as the Existing Credit Agreement; baskets not detailed in term sheet",
+    "EBITDA 'grower' component to be added to each dollar basket (see Negative Pledge)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Existing Credit Agreement and to include: indebtedness;",
+     "page": 8
+    },
+    {
+     "quote": "transactions with affiliates; restricted payments; and Outbound Investment Rule related restrictions",
+     "page": 8
+    },
+    {
+     "quote": "an EBITDA “grower” component will be added to each dollar basket based on a percentage of Consolidated EBITDA",
+     "page": 8
+    }
+   ],
+   "note": "Points to the Existing Credit Agreement; no basket amounts or leverage-based permission in the term sheet."
+  },
+  "permitted_indebtedness": {
+   "lines": [
+    "Indebtedness covenant: substantially the same as the Existing Credit Agreement; general baskets not detailed in term sheet",
+    "Incremental Facilities and Permitted Equivalent Indebtedness: greater of $400m and 100% of Consolidated EBITDA, plus amounts subject to Secured Net Leverage Ratio <= 3.00x (unsecured debt: Net Leverage Ratio <= 4.00x) - see Accordion",
+    "Refinancing Revolving Facilities: Capri may refinance the RCF in whole or part with new revolving facilities, with the consent of Capri, the Administrative Agent and the providing institutions, subject to customary exceptions and limitations as in the Existing Credit Agreement",
+    "EBITDA 'grower' component to be added to each dollar basket (see Negative Pledge)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Existing Credit Agreement and to include: indebtedness; liens;",
+     "page": 8
+    },
+    {
+     "quote": "to utilize availability under the Incremental Facilities to issue unsecured indebtedness or indebtedness that is secured by liens on the Collateral",
+     "page": 4
+    },
+    {
+     "quote": "Documentation will permit Capri to refinance the Revolving Credit Facility from time to time, in whole or part, with one or more new",
+     "page": 4
+    }
+   ],
+   "note": "The general debt baskets are by reference to the Existing Credit Agreement; the incremental / equivalent debt capacity and the refinancing facility are the only debt permissions the term sheet spells out. 'Swap agreements' is a separate item in the negative covenant list and is given in the Other row."
+  },
+  "permitted_loans": {
+   "lines": [
+    "Dealt with in the covenant on 'investments, loans, advances, guarantees and acquisitions': substantially the same as the Existing Credit Agreement; baskets not detailed in term sheet (see Permitted Acquisitions)",
+    "Outbound Investment Rule related restrictions also apply (not detailed)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Existing Credit Agreement and to include: indebtedness; liens; fundamental changes and asset sales; investments, loans, advances, guarantees and acquisitions;",
+     "page": 8
+    },
+    {
+     "quote": "Outbound Investment Rule related restrictions",
+     "page": 8
+    }
+   ],
+   "note": "Points to the Existing Credit Agreement."
+  },
+  "permitted_guarantees": {
+   "lines": [
+    "Dealt with in the covenant on 'investments, loans, advances, guarantees and acquisitions': substantially the same as the Existing Credit Agreement; baskets not detailed in term sheet (see Permitted Acquisitions and Permitted Financial Indebtedness)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Existing Credit Agreement and to include: indebtedness; liens; fundamental changes and asset sales; investments, loans, advances, guarantees and acquisitions;",
+     "page": 8
+    }
+   ],
+   "note": "The term sheet lists guarantees with investments, loans, advances and acquisitions; it does not say whether guarantees also count as indebtedness."
+  },
+  "permitted_payments": {
+   "lines": [
+    "No separate restriction on payments of junior or subordinated debt is listed; negative covenants are substantially the same as the Existing Credit Agreement (the list includes restricted payments - see Permitted Distributions)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Existing Credit Agreement and to include: indebtedness; liens; fundamental changes and asset sales;",
+     "page": 8
+    },
+    {
+     "quote": "transactions with affiliates; restricted payments; and Outbound Investment Rule related restrictions",
+     "page": 8
+    }
+   ],
+   "note": "The negative covenant list is open ('and to include'), so whether junior debt payments are restricted depends on the Existing Credit Agreement."
+  },
+  "other_covenants": {
+   "lines": [
+    "Negative covenants - substantially the same as the Existing Credit Agreement and to include: indebtedness; liens; fundamental changes and asset sales; investments, loans, advances, guarantees and acquisitions; swap agreements; transactions with affiliates; restricted payments; Outbound Investment Rule related restrictions",
+    "Changes to the existing package: annual general asset sale basket to be agreed (see Permitted Disposals); EBITDA 'grower' component added to each dollar basket, subject to certain exceptions",
+    "Affirmative covenants - substantially the same as the Existing Credit Agreement and to include: financial statements and other information; notices of material events; existence; conduct of business; payment of obligations; maintenance of properties and insurance; books and records; inspection rights",
+    "Also: compliance with laws and material contractual obligations; use of proceeds and letters of credit; guarantors; collateral; centre of main interests and establishment; compliance with the Swiss Twenty Non-Bank Rule; beneficial ownership regulation; Dutch fiscal unity",
+    "Sanctions / anti-corruption: a representation on anti-corruption laws and sanctions is listed (representations substantially the same as the Existing Credit Agreement); no sanctions or anti-corruption covenant is named in the covenant lists"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Existing Credit Agreement and to include: indebtedness; liens; fundamental changes and asset sales; investments, loans, advances, guarantees and acquisitions;",
+     "page": 8
+    },
+    {
+     "quote": "Substantially the same as the Existing Credit Agreement, and to include the following: financial statements and other information; notices of material events; existence; conduct of business;",
+     "page": 7
+    },
+    {
+     "quote": "Federal Reserve regulations; no default; anti-corruption laws and sanctions; compliance with the Swiss Twenty Non-Bank Rule",
+     "page": 7
+    }
+   ],
+   "note": "Covenants are listed without detail and by reference to the Existing Credit Agreement. The Voting section (pages 8-9) is not an undertaking: Required Lenders > 50% has no template row; the lien / payment subordination consent is recorded under Ranking and the 100% Lender release thresholds under Guarantors and Collateral/Security."
+  },
+  "events_of_default": {
+   "lines": [
+    "Cross default: included ('cross-default'); threshold not stated in term sheet - substantially the same as the Existing Credit Agreement",
+    "Insolvency / creditors' process: 'bankruptcy events' and 'material judgments' are events of default; thresholds and grace periods not stated in term sheet - substantially the same as the Existing Credit Agreement",
+    "Payment: non-payment of principal when due (no grace period stated); non-payment of interest, fees or other amounts after a grace period of 5 business days",
+    "Covenants / representations: violation of covenants (certain affirmative covenants subject to certain grace periods, not specified); material inaccuracy of representations and warranties",
+    "Change of control (as defined in the Existing Credit Agreement) is an event of default",
+    "Other: certain ERISA events; Credit Documentation ceasing to be in full force and effect; material provisions of any Credit Documentation ceasing to be valid, binding and enforceable; certain events of default relating to foreign law matters"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Existing Credit Agreement and to include: nonpayment of principal when due; nonpayment of interest, fees or other amounts after a grace period of five business days;",
+     "page": 8
+    },
+    {
+     "quote": "cross- default; bankruptcy events; material judgments; certain ERISA events; a change of control (as defined in the Existing Credit Agreement)",
+     "page": 8
+    },
+    {
+     "quote": "violation of covenants (subject, in the case of certain affirmative covenants, to certain grace periods)",
+     "page": 8
+    }
+   ],
+   "note": "The list of events is stated but the only figure given is the 5 business day payment grace period; cross-default, judgment and bankruptcy thresholds are by reference to the Existing Credit Agreement."
+  },
+  "conditions_subsequent": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "Only 'customary conditions precedent' to closing are mentioned (Initial Conditions, page 5). If security is released on an Investment Grade Rating and later reinstated, the Loan Parties must take all actions to re-grant it (page 7); that is an ongoing undertaking, not a post-closing condition."
+  },
+  "mandatory_prepayment": {
+   "lines": [
+    "Change of Control: event of default (change of control as defined in the Existing Credit Agreement); ownership trigger not stated in term sheet; no mandatory prepayment on a change of control stated",
+    "Other: Revolving Credit Loans must be prepaid if aggregate revolving credit exposure exceeds aggregate commitments (consistent with the Existing Credit Agreement); where the excess is caused by exchange rate movements, no prepayment unless exposure is more than 105% of commitments",
+    "Other: the currency excess is calculated on the last business day of each calendar quarter, on the date of each borrowing / interest election / letter of credit request and, during an event of default, on any other business day at the Administrative Agent's sole discretion",
+    "Disposal proceeds / insurance proceeds / debt issuance proceeds / excess cashflow: none stated in term sheet (the Mandatory Prepayments section covers only the excess-exposure prepayment above)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "a change of control (as defined in the Existing Credit Agreement)",
+     "page": 8
+    },
+    {
+     "quote": "Consistent with the Existing Credit Agreement, Revolving Credit Loans will be required to be prepaid if the aggregate revolving credit exposure under the Revolving Credit Facility exceeds the aggregate commitments thereunder",
+     "page": 5
+    },
+    {
+     "quote": "no such prepayment will be required to the extent the aggregate revolving credit exposure under the Revolving Credit Facility is not more than 105% of the aggregate commitments thereunder",
+     "page": 5
+    }
+   ],
+   "note": "The Mandatory Prepayments section contains only the over-advance / currency prepayment; it does not say in terms that there are no others. The change of control definition and its ownership trigger are by reference to the Existing Credit Agreement."
+  },
+  "jurisdiction_topco": {
+   "lines": [
+    "Not stated in term sheet (the top company named is Capri Holdings Limited; its jurisdiction of incorporation is not given)",
+    "Governing law of the facility: State of New York"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "Governing Law: State of New York.",
+     "page": 10
+    },
+    {
+     "quote": "all calculated for Capri and its Subsidiaries on a consolidated basis",
+     "page": 7
+    }
+   ],
+   "note": "The term sheet names British Virgin Islands, Canada, the Netherlands and Switzerland only as permitted jurisdictions for additional foreign subsidiary borrowers; it does not say where Capri Holdings Limited is incorporated."
+  },
+  "transferability": {
+   "lines": [
+    "Borrower consent (MK), not unreasonably withheld; deemed given if no objection in 10 business days; not needed for assignments to Lenders, their affiliates or approved funds, or during a payment or bankruptcy event of default; Administrative Agent, Issuing Bank and Swingline Lender consent also required; minimum partial assignment $5m (except to Lenders / affiliates / approved funds, or as MK and the Agent agree)",
+    "Assignments only to 'certain eligible assignees' (not defined; no disqualified lender or competitor list in term sheet). Participations as provided in the Existing Credit Agreement, with participant voting limited to matters requiring the selling Lender's affirmative vote under the Voting provisions; pledges of loans permitted without restriction"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "with the consent, not to be unreasonably withheld, of (a) MK (provided that MK shall be deemed to have consented to any such assignment unless it shall object thereto by written notice to the Administrative Agent within 10 business days after having received notice thereof)",
+     "page": 9
+    },
+    {
+     "quote": "unless (i) the assignee is a Lender, an affiliate of a Lender or an approved fund or (ii) a payment or bankruptcy event of default has occurred and is continuing, (b) the Administrative Agent and (c) each Issuing Bank and the Swingline Lender.",
+     "page": 9
+    },
+    {
+     "quote": "In the case of partial assignments (other than to another Lender, to an affiliate of a Lender or an approved fund), the minimum assignment amount shall be $5,000,000, unless otherwise agreed by MK and the Administrative Agent.",
+     "page": 9
+    }
+   ],
+   "note": "The 'not to be unreasonably withheld' standard applies to the consent of MK, the Administrative Agent, each Issuing Bank and the Swingline Lender alike. 'Eligible assignees' is not defined in the term sheet."
+  },
+  "info_annual_consolidated": {
+   "lines": [
+    "Annual consolidated accounts - period not stated in term sheet; 'financial statements and other information' covenant substantially the same as the Existing Credit Agreement"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Existing Credit Agreement, and to include the following: financial statements and other information;",
+     "page": 7
+    }
+   ],
+   "note": "No delivery period, and no statement that the accounts are audited, in the term sheet."
+  },
+  "info_annual_obligor": {
+   "lines": [
+    "Annual obligor accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "Standalone obligor accounts are not mentioned; the reporting covenant as a whole is by reference to the Existing Credit Agreement."
+  },
+  "info_quarterly": {
+   "lines": [
+    "Quarterly accounts - period not stated in term sheet; 'financial statements and other information' covenant substantially the same as the Existing Credit Agreement"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Existing Credit Agreement, and to include the following: financial statements and other information;",
+     "page": 7
+    }
+   ],
+   "note": "No delivery period in the term sheet. Quarterly reporting is implied by the quarterly covenant test and the quarterly compliance certificate referred to in Annex I."
+  },
+  "info_budget": {
+   "lines": [
+    "Annual budget - not stated in term sheet",
+    "Other: notices of material events; compliance certificates (grid pricing applies from delivery of the compliance certificate for the first full fiscal quarter ending after the Closing Date); other reporting substantially the same as the Existing Credit Agreement"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Existing Credit Agreement, and to include the following: financial statements and other information; notices of material events;",
+     "page": 7
+    },
+    {
+     "quote": "from and after the delivery of the compliance certificate for the first full fiscal quarter ending after the Closing Date",
+     "page": 11
+    }
+   ],
+   "note": "A budget is not mentioned. Status is by_reference because the reporting package as a whole points to the Existing Credit Agreement; the compliance certificate is mentioned only in the pricing provisions (pages 11 and 13)."
+  }
+ }
+}

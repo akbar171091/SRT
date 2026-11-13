@@ -1,0 +1,534 @@
+{
+ "schema": "kct/1",
+ "client": "Fluence",
+ "deal": "Fluence 2026",
+ "source_file": "Fluence 2026 TS.pdf",
+ "sha1": "55c53c72c95e8afa91ef819431a9a45866253eb5",
+ "source": "audited",
+ "audit": {
+  "on": "2026-11-12",
+  "method": "Read from the full term sheet by one AI reviewer, then checked against it twice by independent AI reviewers: first every line of the record against the document, then the document section by section against the record. Not signed off by a person. Every quote is looked up in the PDF text each time the tool runs.",
+  "first_audit_changes": 10,
+  "first_audit_substantive": 4,
+  "final_review_changes": 6,
+  "final_review_substantive": 2,
+  "open_points": "Final record written to C:\\Users\\AFarid\\Documents\\Hackathon\\key_credit_terms\\data\\audited\\fluence_2026.json. Checker: structure OK, 45 quotes exact, none loose, missing or on another page. Every row of both slides maps to a template row or to doc.notes (pricing, SOFR floor, consent fee have no template row). Every figure, date and section number was confirmed against the dump and the page images, including existing versus proposed column; no wrong figure, party or column was found. Searches of the dump for transfer, default, prepayment, change of control, reporting, governing law, purpose, extension and cure wording found nothing, so the 15 not_stated rows stand.\n\nWhat the document cannot resolve:\n1. 'Trigger Date' is not defined, and the term sheet does not say what applies from that date. The existing column also describes the Section 6.05(a)(ix)(A) and 6.05(b)(iv) baskets as available only 'prior to the Trigger Date'; recorded as printed.\n2. fc_interest_cover 'none' (stated) reads the Financial Covenant row as the complete covenant package. The row has no closing words, and the slides are an amendment summary, so an unamended interest cover test in the existing Credit Agreement cannot be excluded from this document alone.\n3. conditions_subsequent stays by_reference on one 'Additional Amendments' bullet about bank account security acknowledgments ('TBD'). The term sheet does not call it a condition subsequent or give a deadline; the printed line says so. A stricter reader would mark it not_stated.\n4. The Parent is not named and no jurisdiction or governing law is given. 'Fluence Energy, Inc.' appears only in the footer copyright on the page images (garbled in the dump, so it cannot be quoted) and was not used as the Parent's name.\n5. The term sheet does not say what the $50m cash collateral secures, or what its release conditions are ('to be mutually agreed').\n6. The proposed designated non-cash consideration basket is 'greater of $25 million and the corresponding percentage of Total Assets'; the percentage is not given and was not calculated.\n7. purpose stays not_stated. The LC Sublimit row says how the facility may be used (LCs up to the full amount, cash draws up to $150m), not what utilisations are for; a looser reader could treat letters of credit as a stated purpose.\n8. doc.kind is left as lender_presentation (two numbered slides with existing/proposed columns), which is also how kct/rules classes side-by-side pages. The first auditor reports that a benchmark record says 'summary'; I did not open it.\n9. The accordion quote reads 'incremental' where the dump has 'increm ental' (a split word in the PDF text); the checker ignores whitespace and grades it exact."
+ },
+ "doc": {
+  "kind": "lender_presentation",
+  "title": "Proposed Terms for Secured Revolving Credit Facility",
+  "date": "",
+  "notes": "Two slides (numbered 7 and 8) from a Fluence presentation setting out a proposed amendment to the existing $500m senior secured revolving credit facility, as a table with 'Existing Terms' and 'Proposed Terms' columns; both pages hold terms. It covers only the points being amended or confirmed 'Same as existing' and cites sections of the existing Credit Agreement without reproducing them, so most covenant, default, transfer and reporting terms are not in it. Many proposed changes apply 'prior to the Trigger Date', which is not defined. Pricing is shown as 'Same as existing' (drawn S + 300 bps, undrawn 50 bps, LC 3.00%, SOFR floor 0.00%) and a 10 bps consent fee is shown; neither has a row in the template. The slide titles and footers are garbled in the extracted text and were read from the page images."
+ },
+ "fields": {
+  "facility": {
+   "lines": [
+    "$500m senior secured RCF (existing facility; amount unchanged by the proposed amendment)",
+    "Proposed: Borrower must post $50m cash collateral (terms satisfactory to the Administrative Agent; release conditions to be mutually agreed) as a condition to any Revolving Loan or Letter of Credit taking Total Revolving Credit Exposure above $450m",
+    "Sub-limits (same as existing): full amount of the Facility available for LCs; cash draw sublimit of $150m; available in US Dollars and such other currencies as the Borrower and the lenders may agree"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Facility: $500 million Senior Secured Revolving Credit Facility Same, except that Borrower will be required to post cash collateral in an amount equal to $50 million",
+     "page": 1
+    },
+    {
+     "quote": "results in the Total Revolving Credit Exposure under the Credit Agreement exceeding $450 million LC Sublimit: Full amount of the Facility shall be available for the issuance of LCs • Cash draw sublimit of $150 million",
+     "page": 1
+    },
+    {
+     "quote": "Currencies: US Dollars and such other currencies as the Borrower and the lenders may agree",
+     "page": 1
+    }
+   ],
+   "note": "Existing and proposed columns: the facility amount is unchanged; the $50m cash collateral requirement is new. The second quote runs across the end of the Facility row and the LC Sublimit row, which are consecutive in the page text."
+  },
+  "borrowers": {
+   "lines": [
+    "Fluence Energy, LLC",
+    "Fluence Energy Global Production Operation, LLC",
+    "Same as existing - no change proposed; no right to add further borrowers is stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Borrower: Fluence Energy, LLC Fluence Energy Global Production Operation, LLC Same as existing",
+     "page": 1
+    }
+   ],
+   "note": "The row label is singular ('Borrower') but two entities are listed. No jurisdiction of organisation is given for either."
+  },
+  "lender_commitments": {
+   "lines": [
+    "Barclays = not stated in term sheet",
+    "No lender commitments, arrangers or bookrunners are listed; an Administrative Agent is referred to but not named"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "terms and conditions satisfactory to Administrative Agent",
+     "page": 1
+    }
+   ],
+   "note": "Barclays is not mentioned anywhere in the term sheet."
+  },
+  "purpose": {
+   "lines": [
+    "Not stated in term sheet (no use-of-proceeds provision; how the facility may be utilised - LCs up to the full amount, cash draws up to $150m - is in Facility)"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "No use-of-proceeds row. The LC Sublimit row only says how the facility may be utilised (full amount available for LC issuance, cash draws capped at $150m), not what utilisations are for, so it is not treated as a statement of purpose."
+  },
+  "maturity": {
+   "lines": [
+    "November 22, 2027 (same as existing - no change proposed); no extension options stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Maturity: November 22, 2027 Same as existing",
+     "page": 1
+    }
+   ],
+   "note": ""
+  },
+  "repayment": {
+   "lines": [
+    "Bullet (revolving; repayable at maturity) (not stated expressly; the facility is a revolving credit facility maturing November 22, 2027 and no amortisation is stated)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "$500 million Senior Secured Revolving Credit Facility",
+     "page": 1
+    },
+    {
+     "quote": "Maturity: November 22, 2027",
+     "page": 1
+    }
+   ],
+   "note": "Derived: the term sheet has no repayment row."
+  },
+  "accordion": {
+   "lines": [
+    "Yes = $100m incremental capacity prior to the Trigger Date (proposed; reduced from up to $150m of incremental debt under the existing terms)",
+    "Conditions (uncommitted, ratio test, lender consent) and the capacity after the Trigger Date are not stated; 'Trigger Date' is not defined in the term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Incremental: Permits up to $150 million in incremental debt",
+     "page": 1
+    },
+    {
+     "quote": "Reduce incremental capacity to $100 million prior to the Trigger Date",
+     "page": 1
+    }
+   ],
+   "note": "The proposed wording implies the $150m capacity returns after the Trigger Date, but the term sheet does not say so. The page text splits the word 'incremental' in the proposed column ('increm ental'); the second quote differs from the page text only in that space."
+  },
+  "guarantors": {
+   "lines": [
+    "The Parent (not named)",
+    "Each of the Borrower's existing and future, direct and indirect, material, wholly-owned domestic subsidiaries",
+    "Any foreign subsidiaries of the Parent to the extent there are no material adverse tax consequences",
+    "In each case subject to customary exceptions; same as existing - no change proposed; no release provisions are stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Each of the Borrower’s existing and future, direct and indirect, material, wholly-owned, domestic subsidiaries, any foreign subsidiaries of the Parent to the extent there are no material adverse tax consequences",
+     "page": 1
+    },
+    {
+     "quote": "and the Parent (in each case subject to customary exceptions) Same as existing",
+     "page": 1
+    }
+   ],
+   "note": ""
+  },
+  "guarantor_coverage": {
+   "lines": [
+    "None stated in term sheet",
+    "Guarantors include the Borrower's 'material' wholly-owned domestic subsidiaries, but no materiality threshold is given"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "material, wholly-owned, domestic",
+     "page": 1
+    }
+   ],
+   "note": ""
+  },
+  "security": {
+   "lines": [
+    "Borrower and U.S. Guarantors: perfected first-priority lien on substantially all tangible and intangible assets (subject to customary exceptions)",
+    "Non-U.S. Guarantors (if any): perfected first-priority security interest in certain assets to be agreed (subject to customary exceptions)",
+    "Upon acceleration or the exercise of remedies, payments and proceeds of collateral are applied first to the Facility",
+    "Proposed: same as existing. Separately, the Facility row requires $50m cash collateral to be posted as a condition to any utilisation taking Total Revolving Credit Exposure above $450m (the term sheet does not say what it secures) - see Facility",
+    "Bank account security acknowledgments for non-US bank accounts: see Conditions Subsequent"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "In the case of the Borrower and U.S. Guarantors, a perfected first-priority lien on substantially all tangible and intangible assets, and in the case of non-U.S. Guarantors (if any), a perfected first-priority security interest in certain assets to be agreed",
+     "page": 1
+    },
+    {
+     "quote": "upon acceleration or the exercise of remedies, payments and proceeds of collateral shall be applied first to the Facility Same as existing",
+     "page": 1
+    },
+    {
+     "quote": "Borrower will be required to post cash collateral in an amount equal to $50 million",
+     "page": 1
+    }
+   ],
+   "note": "The Security row itself reads 'Same as existing' in the proposed column, so the collateral package it describes is unchanged. The $50m cash collateral comes from the Facility row; the term sheet does not say what it secures or that it forms part of the package described in the Security row, so it is shown here as a separate point with a pointer. No release or fall-away trigger for the main collateral package is stated; only the release conditions for the new $50m cash collateral are mentioned (to be agreed)."
+  },
+  "ranking": {
+   "lines": [
+    "Senior Secured (first-priority lien; upon acceleration or the exercise of remedies, payments and proceeds of collateral are applied first to the Facility)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "$500 million Senior Secured Revolving Credit Facility",
+     "page": 1
+    },
+    {
+     "quote": "payments and proceeds of collateral shall be applied first to the Facility",
+     "page": 1
+    }
+   ],
+   "note": "The term sheet calls the facility 'Senior Secured'. The 'applied first to the Facility' wording gives it first call on enforcement proceeds, but the term sheet does not describe it as super senior or name any debt it ranks ahead of."
+  },
+  "fc_leverage": {
+   "lines": [
+    "Consolidated Leverage Ratio <= 3.50x, applying after December 31, 2026 (proposed; existing terms: after December 31, 2025)",
+    "No leverage test from the Closing Date until December 31, 2026 (Minimum Liquidity only - see below)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "From Closing Date until December 31, 2026: • Minimum Liquidity(1) of $150 million Post-December 31, 2026: • Minimum Liquidity(1) of $100 million and • Maximum Consolidated Leverage Ratio of 3.5x",
+     "page": 2
+    },
+    {
+     "quote": "Post-December 31, 2025: • Minimum Liquidity(1) of $100 million and • Maximum Consolidated Leverage Ratio of 3.5x",
+     "page": 2
+    }
+   ],
+   "note": "Printed as '3.5x'. The level is unchanged; the proposal moves the start of the leverage test back by one year. 'Consolidated Leverage Ratio' is not defined in the term sheet. The first quote is the whole proposed column of the Financial Covenant row; the second is from the existing column."
+  },
+  "fc_interest_cover": {
+   "lines": [
+    "Interest Cover: none (not among the financial covenants listed in the term sheet, which are Minimum Liquidity and Maximum Consolidated Leverage Ratio only)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial Covenant: From Closing Date until December 31, 2025: • Minimum Liquidity(1) of $150 million Post-December 31, 2025: • Minimum Liquidity(1) of $100 million and • Maximum Consolidated Leverage Ratio of 3.5x",
+     "page": 2
+    },
+    {
+     "quote": "From Closing Date until December 31, 2026: • Minimum Liquidity(1) of $150 million Post-December 31, 2026: • Minimum Liquidity(1) of $100 million and • Maximum Consolidated Leverage Ratio of 3.5x",
+     "page": 2
+    }
+   ],
+   "note": "Judgement call, kept after the second review: the 'Financial Covenant' row sets out, period by period and in both columns, which tests apply (Minimum Liquidity alone, then Minimum Liquidity 'and' Maximum Consolidated Leverage Ratio), and it restates the unchanged levels as well as the changed dates, so it is read as the complete financial covenant package rather than a list of changes. The term sheet does not say in terms that there is no interest cover test. The quotes are the whole existing column (with the row label) and the whole proposed column."
+  },
+  "fc_other": {
+   "lines": [
+    "Minimum Liquidity >= $150m from the Closing Date until December 31, 2026 (proposed; existing terms: until December 31, 2025)",
+    "Minimum Liquidity >= $100m after December 31, 2026, together with the leverage test (proposed; existing terms: after December 31, 2025)",
+    "Liquidity: see Other Select Definitions"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "From Closing Date until December 31, 2026: • Minimum Liquidity(1) of $150 million",
+     "page": 2
+    },
+    {
+     "quote": "Post-December 31, 2026: • Minimum Liquidity(1) of $100 million and",
+     "page": 2
+    },
+    {
+     "quote": "From Closing Date until December 31, 2025: • Minimum Liquidity(1) of $150 million",
+     "page": 2
+    }
+   ],
+   "note": "Levels are unchanged; the proposal extends the $150m period by one year. 'Closing Date' is not defined in the term sheet."
+  },
+  "fc_testing": {
+   "lines": [
+    "Not stated in term sheet (testing frequency and calculation period are not given; the covenant periods are in the rows above and Liquidity is defined 'at any time' - see Other Select Definitions)"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The only timing information is the switch at December 31, 2026 (existing: December 31, 2025) shown in the covenant rows, and the footnote defining Liquidity 'at any time' (quoted in Other Select Definitions). The footnote defines the measure; it does not say how often the covenant is tested."
+  },
+  "select_definitions": {
+   "lines": [
+    "Liquidity: at any time, the sum of all unrestricted cash and cash equivalents and the unutilised portion of the commitments then available to be drawn under the Facility",
+    "Trigger Date: not defined in the term sheet. The proposed changes to the incremental, RP / RDP, general debt, designated non-cash consideration and Investments baskets apply only prior to it; what applies from that date is not stated",
+    "Consolidated Leverage Ratio, PF Total Liquidity, Total Assets and Available Equity Amount are used but not defined in the term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Liquidity defined as, at any time, the sum of all unrestricted cash and cash equivalents and the unutilized portion of the commitments which are then available to be drawn under the Facility.",
+     "page": 2
+    },
+    {
+     "quote": "Unlimited RP capacity prior to the Trigger Date subject to no EOD and $150 million PF Total Liquidity",
+     "page": 2
+    },
+    {
+     "quote": "Eliminate use of Available Equity Amount to make RPs and RDPs (other than RDP capacity to prepay/refi Parent Convertible Notes) prior to the Trigger Date",
+     "page": 2
+    }
+   ],
+   "note": "Equity cures, deemed cures, synergies and Adjusted EBITDA are not addressed in the term sheet and are left out as the brief requires. The Liquidity definition (the footnote to the Financial Covenant row) is the only definition in the term sheet and is kept because it defines the financial covenant measure; 'PF Total Liquidity' in the RP / RDP baskets is a different, undefined term. The Trigger Date line is kept because every proposed basket change is limited to the period before that date and the term sheet neither defines it nor says what applies from it; the existing-terms column uses the same phrase for the Section 6.05(a)(ix)(A) and 6.05(b)(iv) baskets (second quote), the proposed column for each basket change (third quote)."
+  },
+  "negative_pledge": {
+   "lines": [
+    "Proposed: new $5m basket in Section 6.02 for cash collateral securing ordinary course bank product indebtedness permitted under Section 6.01(i) (to be similar to the basket for cash collateral securing stand-alone LCs)",
+    "Proposed: debt under the general debt basket (Section 6.01(e)) to be unsecured prior to the Trigger Date - see Permitted Financial Indebtedness",
+    "Section 6.02 is treated as the limitation on liens (not named as such; the new basket permits cash collateral security); other permitted lien baskets, including the size of the stand-alone LC basket, are not detailed in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Add $5 million basket to Section 6.02 to permit cash collateral to secure ordinary course bank product indebtedness permitted under Section 6.01(i) (to be similar to the basket for cash collateral securing stand-alone LCs)",
+     "page": 2
+    },
+    {
+     "quote": "Debt under general debt basket to be unsecured prior to the Trigger Date",
+     "page": 2
+    }
+   ],
+   "note": "The term sheet does not say what Section 6.02 is; it is treated as the lien covenant because the new basket permits cash collateral to secure indebtedness, which is a permitted-security carve-out whatever the section is called. The new basket is listed under 'Additional Amendments' (existing column: N/A)."
+  },
+  "permitted_acquisitions": {
+   "lines": [
+    "Not stated in term sheet (acquisitions are not addressed separately; the Investments baskets under Section 6.04 are in Permitted Loans)"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The term sheet does not say whether acquisitions are made under the Investments baskets."
+  },
+  "permitted_disposals": {
+   "lines": [
+    "Designated non-cash consideration basket for asset dispositions (Section 6.09(k)): proposed cut to the greater of $25m and 'the corresponding percentage' of Total Assets prior to the Trigger Date (existing: greater of $40m and 3% of Total Assets)",
+    "The corresponding percentage is not specified; other disposal baskets and conditions are not detailed in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Basket for designated non-cash consideration for asset dispositions greater of $40 million and 3% of Total Assets (Section 6.09(k))",
+     "page": 2
+    },
+    {
+     "quote": "Reduce basket for designated non-cash consideration for asset dispositions in Section 6.09(k) to greater of $25 million and the corresponding percentage of Total Assets prior to the Trigger Date",
+     "page": 2
+    }
+   ],
+   "note": "The proposed percentage of Total Assets is left as 'the corresponding percentage'; it has not been calculated here."
+  },
+  "permitted_distributions": {
+   "lines": [
+    "Proposed: no access to the RP basket in Section 6.05(a)(ix)(A) prior to the Trigger Date (existing: unlimited RP capacity prior to the Trigger Date subject to no EOD and $150m PF Total Liquidity)",
+    "Proposed: no use of the Available Equity Amount to make RPs prior to the Trigger Date (existing: unlimited RPs and RDPs using the Available Equity Amount subject to no EOD - Sections 6.05(a)(viii), 6.05(a)(xi) and 6.05(b)(ix))",
+    "Other RP baskets are not detailed in term sheet; restricted debt payments (RDPs) - see Permitted Payments"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Unlimited RP capacity prior to the Trigger Date subject to no EOD and $150 million PF Total Liquidity (Section 6.05(a)(ix)(A))",
+     "page": 2
+    },
+    {
+     "quote": "Eliminate access to RP basket in Section 6.05(a)(ix)(A) prior to the Trigger Date",
+     "page": 2
+    },
+    {
+     "quote": "Eliminate use of Available Equity Amount to make RPs and RDPs (other than RDP capacity to prepay/refi Parent Convertible Notes) prior to the Trigger Date",
+     "page": 2
+    }
+   ],
+   "note": "RP = restricted payment, RDP = restricted debt payment (abbreviations taken from the row label 'Restricted Payment / Restricted Debt Payment Capacity'). The existing column also describes the Section 6.05(a)(ix)(A) basket as applying 'prior to the Trigger Date'; recorded as printed."
+  },
+  "permitted_indebtedness": {
+   "lines": [
+    "General debt basket (Section 6.01(e)): greater of $195m and 11.25% of Total Assets (existing; no change to the amount is proposed); proposed: debt under this basket to be unsecured prior to the Trigger Date",
+    "Ordinary course bank product indebtedness is permitted under Section 6.01(i) (amount not stated); proposed $5m cash collateral basket for it - see Negative Pledge",
+    "Incremental debt - see Accordion; other debt baskets are not detailed in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "General Debt Basket: Greater of $195 million and 11.25% of Total Assets (Section 6.01(e)) Debt under general debt basket to be unsecured prior to the Trigger Date",
+     "page": 2
+    },
+    {
+     "quote": "ordinary course bank product indebtedness permitted under Section 6.01(i)",
+     "page": 2
+    }
+   ],
+   "note": "The amount of the general debt basket appears only in the existing column; the proposed column adds the requirement that debt under it be unsecured prior to the Trigger Date and proposes no change to the amount."
+  },
+  "permitted_loans": {
+   "lines": [
+    "Investments by Loan Parties in Excluded Subsidiaries (Section 6.04(d)): greater of $85m and 5% of Total Assets",
+    "Investments other than in Excluded Subsidiaries or JVs (Section 6.04(e)): greater of $45m and 2.5% of Total Assets",
+    "Investments in JVs made after the Amendment No. 3 Effective Date (Section 6.04(j)): greater of $75m and 4% of Total Assets",
+    "Proposed: the three baskets are retained (currently totalling $205m) with an additional shared cap of $150m in aggregate prior to the Trigger Date",
+    "Loans and advances are not addressed separately in the term sheet; only these Investments baskets are given"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Basket for Investments by Loan Parties in Excluded Subsidiaries - greater of $85 million and 5% of Total Assets (Section 6.04(d))",
+     "page": 2
+    },
+    {
+     "quote": "Basket for Investments (other than in Excluded Subsidiaries or JVs) - greater of $45 million and 2.5% of Total Assets (Section 6.04(e)) • Basket for Investments in JVs (made after the Amendment No. 3 Effective Date) – greater of $75 million and 4% of Total Assets (Section 6.04(j))",
+     "page": 2
+    },
+    {
+     "quote": "Retain existing baskets for Investments under Sections 6.04(d), 6.04(e) and 6.04(j) (currently totaling $205 million) and implement an additional shared cap of $150 million in the aggregate prior to the Trigger Date",
+     "page": 2
+    }
+   ],
+   "note": "The Investments baskets are placed here because this row covers loans, advances and other investments; the term sheet does not mention loans as such."
+  },
+  "permitted_guarantees": {
+   "lines": [
+    "Not stated in term sheet (guarantees are not addressed separately; the debt baskets are in Permitted Financial Indebtedness and the Investments baskets in Permitted Loans)"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The term sheet does not say how guarantees are treated."
+  },
+  "permitted_payments": {
+   "lines": [
+    "Proposed: no access to the RDP (restricted debt payment) basket in Section 6.05(b)(iv) prior to the Trigger Date (existing: unlimited junior debt repayments prior to the Trigger Date subject to no EOD and $150m PF Total Liquidity)",
+    "Proposed: no use of the Available Equity Amount to make RDPs prior to the Trigger Date, other than RDP capacity to prepay / refinance the Parent Convertible Notes (existing: unlimited RDPs using the Available Equity Amount subject to no EOD)",
+    "Other RDP baskets are not detailed in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Unlimited junior debt repayments prior to the Trigger Date subject to no EOD and $150 million PF Total Liquidity (Section 6.05(b)(iv))",
+     "page": 2
+    },
+    {
+     "quote": "Eliminate access to RDP basket in Section 6.05(b)(iv) prior to the Trigger Date",
+     "page": 2
+    },
+    {
+     "quote": "Eliminate use of Available Equity Amount to make RPs and RDPs (other than RDP capacity to prepay/refi Parent Convertible Notes) prior to the Trigger Date",
+     "page": 2
+    }
+   ],
+   "note": "The existing Available Equity Amount baskets are cited together as Sections 6.05(a)(viii), 6.05(a)(xi) and 6.05(b)(ix); the term sheet does not say which of them is the RDP basket. 'prepay/refi' is printed in that abbreviated form and is written out here as 'prepay / refinance'."
+  },
+  "other_covenants": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The covenant terms shown are limited to debt, liens, Investments, restricted payments / restricted debt payments and asset dispositions (rows above). Mergers, affiliate transactions and other undertakings are not mentioned, and the term sheet does not say that unlisted terms stay as in the existing Credit Agreement."
+  },
+  "events_of_default": {
+   "lines": [
+    "Cross default: not stated in term sheet",
+    "Insolvency / creditors' process: not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "'No EOD' appears only as a condition to the existing RP / RDP baskets; no events of default are listed."
+  },
+  "conditions_subsequent": {
+   "lines": [
+    "Security perfection: proposed amendments relating to requirements for receipt of bank account security acknowledgments for non-US bank accounts in Taiwan and other jurisdictions TBD",
+    "Listed under 'Additional Amendments' and not described as a condition subsequent; the requirements themselves, the content of the amendments and any post-closing deadlines are not set out in the term sheet"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Amendments relating to requirements for receipt of bank account security acknowledgments for non-US bank accounts in Taiwan and other jurisdictions TBD",
+     "page": 2
+    }
+   ],
+   "note": "Judgement call, kept after the second review: the term sheet does not call this a condition subsequent and gives no deadline. It is listed under 'Additional Amendments' (existing column: N/A) and is placed here because it concerns requirements for receipt of security perfection documents (bank account acknowledgments) under a facility that is already in place, which is the kind of item this row is for; the terms are 'TBD', hence by_reference. The stricter alternative is 'None stated in term sheet' (not_stated) with the point shown only in Collateral/Security. 'TBD' may qualify the amendments or only the 'other jurisdictions'; the printed wording is kept. The $50m cash collateral requirement is a condition to utilisation above $450m, not a condition subsequent (see Facility)."
+  },
+  "mandatory_prepayment": {
+   "lines": [
+    "Change of Control: not stated in term sheet",
+    "Other: no mandatory prepayment events are stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The proposed $50m cash collateral requirement is a condition to borrowings / LC issuance taking exposure above $450m, not a prepayment event (see Facility)."
+  },
+  "jurisdiction_topco": {
+   "lines": [
+    "Not stated in term sheet (the Parent is referred to but not named; no jurisdiction of incorporation or governing law is given)"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "and the Parent (in each case subject to customary exceptions)",
+     "page": 1
+    }
+   ],
+   "note": "The slide footer carries a copyright notice in the name of Fluence Energy, Inc. (legible only on the page image; garbled in the extracted text), but the term sheet does not identify the Parent or say where any group company is organised."
+  },
+  "transferability": {
+   "lines": [
+    "Not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_annual_consolidated": {
+   "lines": [
+    "Annual audited consolidated accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_annual_obligor": {
+   "lines": [
+    "Annual obligor accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_quarterly": {
+   "lines": [
+    "Quarterly accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_budget": {
+   "lines": [
+    "Annual budget - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  }
+ }
+}

@@ -1,0 +1,701 @@
+{
+ "schema": "kct/1",
+ "client": "Encompass Health",
+ "deal": "Encompass Health 2026",
+ "source_file": "Encompass Health 2026 TS.pdf",
+ "sha1": "28340ee6a2c92cd6d750e74e8fd0a3bf2868f54e",
+ "source": "audited",
+ "audit": {
+  "on": "2026-11-12",
+  "method": "Read from the full term sheet by one AI reviewer, then checked against it twice by independent AI reviewers: first every line of the record against the document, then the document section by section against the record. Not signed off by a person. Every quote is looked up in the PDF text each time the tool runs.",
+  "first_audit_changes": 15,
+  "first_audit_substantive": 10,
+  "final_review_changes": 6,
+  "final_review_substantive": 4,
+  "open_points": "Final record: C:\\Users\\AFarid\\Documents\\Hackathon\\key_credit_terms\\data\\audited\\encompass_health_2026.json. The checker reports structure OK and 80 of 80 quotes exact. Every figure, section reference, period and party name in the record matches the dump and the page images (pages 1 to 10 viewed; 11 to 13 are pricing definitions and fees, read in the dump only). No figure or status was changed.\n\nFirst auditor's doubts, as resolved:\n1. Stated on partial figures (accordion, negative_pledge, permitted_distributions, permitted_indebtedness, permitted_loans): kept stated. The brief reserves by_reference for a row the term sheet addresses \"only\" by pointing elsewhere, and each of these gives a figure the row asks for. The lines say the rest is in the Precedent Credit Agreement, but the rows will not be highlighted yellow.\n2. fc_other \"Other: none\": kept stated. \"The following financial covenants (the 'Financial Covenants')\" matches the style guide's own example of closing words. The outer covenant list is still \"including, without limitation\", so a third covenant in the Precedent Credit Agreement cannot be excluded from this document alone.\n3. conditions_subsequent: kept by_reference. The term sheet does address post-closing delivery (insurance endorsements; perfection \"subject to post-closing relief as mutually agreed\"), but with no deadlines.\n4. select_definitions: kept stated (net leverage formula and pro forma rule are set out; the EBITDA definition itself is by reference).\n5. other_covenants: kept by_reference (names only, open list, terms by reference). A reader who treats the list of names as all the row asks for could mark it stated.\n6. Not-a-commitment statement and the guarantee of hedging / bank product obligations: both now printed (see changes). The ranking point (consent to subordinate the liens) stays in the note.\n\nWhat the document cannot resolve:\n- The 15% aggregate limb of the immaterial-subsidiary definition: alternative test or additional cap. The term is \"to be defined\".\n- How guarantees and junior-debt payments are restricted; the term sheet is silent and the cross-references are pointers only.\n- Which transactions are Limited Condition Transactions (undefined); the rule sits in Permitted Acquisitions only because no template row covers conditions to credit extensions.\n- \"Limited liability transactions\" on page 9 is recorded as printed; \"liability management\" is an inference.\n- The growing component of every grower cap, all other baskets, all event-of-default thresholds and cure periods, the change in control trigger, reporting deadlines and the Borrower's jurisdiction of incorporation are not in the term sheet.\n- The term sheet is undated, and the Addendum I pricing grid is headed \"Consolidated Total Leverage Ratio\" while the text says \"Consolidated Total Net Leverage Ratio\".\n\nNot recorded because the template has no row for it: pricing and fees (margin grid 1.00% to 2.00% for SOFR loans, commitment fee 0.20% to 0.25%, 0.125% fronting fee, 2.00% default interest), the Required Lenders threshold (more than 50%) and the conditions precedent."
+ },
+ "doc": {
+  "kind": "term_sheet",
+  "title": "Marketing Term Sheet for $1,000,000,000 Senior Secured Revolving Credit Facility",
+  "date": "",
+  "notes": "Truist Securities marketing term sheet (for discussion purposes only; expressly not a commitment) for a new $1.0bn senior secured revolving credit facility for Encompass Health Corporation; no date is printed and no lender commitments are given. The terms are on pages 1-9 in a label / value layout and Addendum I (pages 10-13) holds pricing and fees. It is not an amendment with existing and proposed columns, but the facility refinances, and is to be documented on the basis of, the Precedent Credit Agreement (Sixth Amended and Restated Credit Agreement dated October 7, 2022). Guarantor exclusions, collateral, covenants, events of default and the incremental facility are to be consistent with or 'substantially the same' as that agreement, and the term sheet shows only the changes, mostly increases to the fixed dollar component of grower baskets (new amount and the amount it replaces)."
+ },
+ "fields": {
+  "facility": {
+   "lines": [
+    "$1.0bn senior secured RCF (US dollars only)",
+    "Sub-limits: $260m standby letters of credit; $40m swingline loans"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "A $1,000,000,000 senior secured revolving credit facility",
+     "page": 2
+    },
+    {
+     "quote": "including a $260,000,000 sublimit for the issuance of standby letters of credit (each a “Letter of Credit”), and a $40,000,000 sublimit for swingline loans (each a “Swingline Loan”)",
+     "page": 2
+    },
+    {
+     "quote": "Loans and extensions of credit will be made in U.S. dollars.",
+     "page": 2
+    }
+   ],
+   "note": "The label 'Senior Secured Revolving Credit Facility:' is split across the foot of page 1 and the top of page 2."
+  },
+  "borrowers": {
+   "lines": [
+    "Encompass Health Corporation (the Borrower)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Encompass Health Corporation (the “Borrower”)",
+     "page": 1
+    }
+   ],
+   "note": "Entity type and jurisdiction are not given. No right to add subsidiary or designated borrowers is stated."
+  },
+  "lender_commitments": {
+   "lines": [
+    "Barclays = not stated in term sheet (Barclays has no named role on the new facility; Barclays Bank PLC is named only as a party to the Precedent Credit Agreement)",
+    "No commitments stated. Administrative Agent and Collateral Agent: Truist Bank. Joint Lead Arrangers and Joint Bookrunners: Truist Securities, Inc. (Left Lead Arranger) and certain other entities to be determined. Lenders: a syndicate including Truist Bank",
+    "Marketing term sheet for discussion purposes only; it states that it is not a commitment by Truist Bank or Truist Securities, Inc. to provide all or any part of the facility"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "Truist Securities, Inc. (the “Left Lead Arranger”) and certain other entities to be determined will act as joint lead arrangers and joint bookrunners",
+     "page": 1
+    },
+    {
+     "quote": "by and among the Borrower, Barclays Bank, PLC, and the other parties from time to time party thereto",
+     "page": 9
+    },
+    {
+     "quote": "THIS MARKETING TERM SHEET IS FOR DISCUSSION PURPOSES ONLY. THIS MARKETING TERM SHEET DOES NOT CONSTITUTE A COMMITMENT ON BEHALF OF TRUIST BANK OR TRUIST SECURITIES, INC. TO PROVIDE ALL OR ANY PART OF THE SENIOR SECURED REVOLVING CREDIT FACILITY.",
+     "page": 9
+    }
+   ],
+   "note": "Truist Bank is named as Administrative Agent and Collateral Agent on page 1 ('Truist Bank (in such capacities, the \"Agent\")') and as a member of the syndicate under 'Lenders' on the same page; those passages are not quoted because of the three-quote limit."
+  },
+  "purpose": {
+   "lines": [
+    "General corporate purposes and working capital",
+    "Refinancing of certain existing indebtedness (evidence of payment of existing indebtedness, including the Precedent Credit Agreement, is a condition to closing)",
+    "Fees and expenses of closing the facility"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Proceeds of the Revolving Loans shall be used to refinance certain existing indebtedness, to pay fees and expenses incurred in connection with the closing of the Senior Secured Revolving Credit Facility and to provide working capital and for other general corporate purposes.",
+     "page": 2
+    },
+    {
+     "quote": "Evidence of payment of existing indebtedness (including, for the avoidance of doubt, the Precedent Credit Agreement)",
+     "page": 3
+    }
+   ],
+   "note": ""
+  },
+  "maturity": {
+   "lines": [
+    "5 years after the Closing Date (no extension options stated in term sheet)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "all amounts outstanding thereunder shall be due and payable in full on the date that is five (5) years after the Closing Date",
+     "page": 2
+    }
+   ],
+   "note": "No extension, term-out or springing maturity provision appears in the term sheet."
+  },
+  "repayment": {
+   "lines": [
+    "Bullet (revolving; all amounts due and payable in full at maturity)",
+    "Voluntary prepayment in whole or in part without premium or penalty (subject to breakage and redeployment costs on SOFR borrowings); unutilised commitments may be irrevocably reduced or terminated at any time without penalty"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The Revolving Loans shall terminate, and all amounts outstanding thereunder shall be due and payable in full on the date that is five (5) years after the Closing Date.",
+     "page": 2
+    },
+    {
+     "quote": "Prepayments may be made, in whole or in part, without premium or penalty, subject to reimbursement of the Lenders’ breakage and redeployment costs in the case of prepayment of SOFR borrowings.",
+     "page": 2
+    },
+    {
+     "quote": "may be irrevocably reduced or terminated by the Borrower at any time without penalty",
+     "page": 2
+    }
+   ],
+   "note": "No scheduled amortisation is stated; 'Bullet' follows from the revolving nature of the facility and the single maturity date."
+  },
+  "accordion": {
+   "lines": [
+    "Yes = $1.4bn fixed dollar component of the grower cap in the 'Permitted Incremental Amount' (increased from $1.0bn in the Precedent Credit Agreement)",
+    "Otherwise substantially the same as the Precedent Credit Agreement; the growing (non-fixed) component of the cap and the conditions to an increase are not detailed in term sheet (it refers to conditions under an 'Incremental Facilities' heading but sets none out)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Precedent Credit Agreement; provided that the fixed dollar-based component of the grower cap in the definition of “Permitted Incremental Amount” as set forth in the Precedent Credit Agreement shall be increased to $1,400,000,000 (from $1,000,000,000).",
+     "page": 3
+    },
+    {
+     "quote": "excluding any Incremental Facility, which shall be subject to the conditions set forth above under the heading “Incremental Facilities”",
+     "page": 4
+    }
+   ],
+   "note": "Only the fixed dollar component is given; everything else is by reference to the Precedent Credit Agreement. 'Conditions to All Credit Extensions' (page 4) refers to conditions 'set forth above under the heading Incremental Facilities', but the section is headed 'Incremental Facility' and sets out no conditions. The term sheet does not say whether the incremental facility is uncommitted."
+  },
+  "guarantors": {
+   "lines": [
+    "All existing and future direct and indirect wholly owned domestic subsidiaries of the Borrower, subject to exclusions consistent with the Precedent Credit Agreement and to be mutually agreed",
+    "Excluded (non-exhaustive): Encompass Health Altoona Holdings, LLC; immaterial subsidiaries (see Guarantee Net Maintenance); designated non-wholly owned subsidiaries; unrestricted subsidiaries",
+    "Also excluded: designated subsidiaries owning or operating surgery, diagnostic or other healthcare facilities whose stock the Borrower intends to sell to participating physicians, hospitals and other healthcare providers",
+    "Also excluded: Intermediate JV Holdcos (subsidiaries whose sole asset is the capital stock of a non-wholly owned subsidiary or joint venture); their own stock is pledged (see Collateral/Security)",
+    "Release of all or substantially all Guarantors requires consent of all Lenders / all affected Lenders; no other release or fall-away provision stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "All existing and future direct and indirect wholly owned domestic subsidiaries of the Borrower (collectively, the “Guarantors”, and together with the Borrower, the “Loan Parties”) subject to certain exclusions consistent with the Precedent Credit Agreement and to be mutually agreed",
+     "page": 1
+    },
+    {
+     "quote": "including, but not limited to (a) Encompass Health Altoona Holdings, LLC; (b) any subsidiary that owns or operates surgery, diagnostic or other healthcare-related facilities or operations designated by the Borrower in writing to the Agent",
+     "page": 1
+    },
+    {
+     "quote": "(iii) release all or substantially all the Guarantors from guaranty obligations, (iv) release all or substantially all of the Collateral",
+     "page": 8
+    }
+   ],
+   "note": "Exclusions (c) to (f) follow in the same paragraph on page 1. The Guarantors also guarantee hedging and bank product obligations owed to Lenders and their affiliates (page 3, last sentence of the Collateral section); that point is printed in the Collateral/Security row, where the term sheet puts it."
+  },
+  "guarantor_coverage": {
+   "lines": [
+    "None stated in term sheet",
+    "Immaterial subsidiary (excluded from guaranteeing; to be defined): a designated subsidiary accounting for not more than $10m of Adjusted Consolidated EBITDA or $10m of consolidated total assets individually",
+    "Wholly owned immaterial subsidiaries: 'or' 15% of Adjusted Consolidated EBITDA / 15% of consolidated total assets in the aggregate with all other wholly owned immaterial subsidiaries (as printed; unclear whether an additional aggregate cap or an alternative test)"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "(to be defined as any designated subsidiary that does not account for more than (i) $10,000,000 in Adjusted Consolidated EBITDA (as defined below) individually (or, in the case of wholly owned immaterial subsidiaries, 15% of Adjusted Consolidated EBITDA in the aggregate",
+     "page": 1
+    },
+    {
+     "quote": "(ii) $10,000,000 in consolidated total assets individually (or, in the case of wholly owned immaterial subsidiaries, 15% of consolidated total assets in the aggregate together with all other wholly owned immaterial subsidiaries)",
+     "page": 1
+    }
+   ],
+   "note": "There is no guarantor coverage test. The immaterial-subsidiary definition is 'to be defined' and joins its EBITDA and total assets limbs with 'or', as printed. The 15% aggregate limbs are introduced by 'or, in the case of wholly owned immaterial subsidiaries'; read literally they are an alternative to the $10m individual limbs for wholly owned subsidiaries, although an additional aggregate cap may be what is meant. The line reports the wording without choosing between the two readings; confirm against the Financing Documentation."
+  },
+  "security": {
+   "lines": [
+    "First-priority security interest in and lien on all personal property of the Borrower and the Guarantors (including accounts, inventory, equipment, general intangibles, trademarks, patents, copyrights, intercompany obligations, stock, securities and notes)",
+    "Share pledges: 100% of the capital stock of the Borrower's wholly owned domestic subsidiaries (including each Intermediate JV Holdco) and 65% of the voting capital stock of any foreign subsidiaries",
+    "Granted on substantially the same basis as the Collateral under the Precedent Credit Agreement, subject to customary exclusions and exceptions to be mutually agreed; no real estate (freehold / leasehold) security is mentioned",
+    "Also secures hedging and bank product obligations of the Borrower and the Guarantors with the Lenders and their affiliates; the Guarantors also guarantee those obligations",
+    "No release or fall-away trigger stated (release of all or substantially all of the Collateral requires consent of all Lenders / all affected Lenders - see Guarantor(s))"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "together with all hedging obligations and bank product obligations of the Borrower and the Guarantors with the Lenders and their affiliates, shall be secured on substantially the same basis as the Collateral as set forth in the Precedent Credit Agreement",
+     "page": 2
+    },
+    {
+     "quote": "by a first priority security interest in and lien (subject to customary exclusions and exceptions to be mutually agreed) on all personal property of the",
+     "page": 2
+    },
+    {
+     "quote": "a pledge of 100% of the capital stock of the Borrower’s wholly owned domestic subsidiaries (including, for the avoidance of doubt, the pledge of the capital stock of each Intermediate JV Holdco) and 65% of the voting capital stock of any foreign subsidiaries",
+     "page": 3
+    }
+   ],
+   "note": "The collateral description is introduced by 'which shall include, without limitation', so the personal-property list is not exhaustive; the exclusions are left to the Precedent Credit Agreement and to agreement. The consent requirement for releasing the Collateral is quoted under Guarantor(s) (page 8). The guarantee of the hedging and bank product obligations is the last sentence of the Collateral section (page 3: 'shall also be guaranteed by the Guarantors'); it is not quoted because of the three-quote limit."
+  },
+  "ranking": {
+   "lines": [
+    "Senior Secured (first-priority security interest in the Collateral; the term sheet contemplates secured 'pari passu debt' with intercreditor agreements)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "$1,000,000,000 SENIOR SECURED REVOLVING CREDIT FACILITY",
+     "page": 1
+    },
+    {
+     "quote": "by a first priority security interest in and lien",
+     "page": 2
+    },
+    {
+     "quote": "invalidity of intercreditor agreements (so long as any secured “pari passu debt” is outstanding)",
+     "page": 8
+    }
+   ],
+   "note": "Subordinating the Agent's liens or the facility obligations requires the consent of all Lenders / all affected Lenders (page 8)."
+  },
+  "fc_leverage": {
+   "lines": [
+    "Consolidated Total Net Leverage Ratio <= 4.50x ('covenant holiday' step-up to 5.00x for the four fiscal quarters following a Significant Acquisition: an acquisition, or a series of related acquisitions in any 12-month period, with aggregate consideration > $100m)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Maximum Quarterly Consolidated Total Net Leverage Ratio (to be defined in the Financing Documentation as (i) total indebtedness minus (ii) cash and cash equivalents (other than restricted cash and cash equivalents) divided by Adjusted Consolidated EBITDA) of 4.50:1.00",
+     "page": 7
+    },
+    {
+     "quote": "with a “covenant holiday” step-up to 5.00:1.00 for the four fiscal quarters following a Significant Acquisition",
+     "page": 7
+    },
+    {
+     "quote": "(x) any acquisition for which the aggregate consideration exceeds $100,000,000 or (y) a series of related acquisitions in any 12 month period for which the aggregate consideration exceeds $100,000,000",
+     "page": 7
+    }
+   ],
+   "note": "The pricing grid on page 10 is headed 'Consolidated Total Leverage Ratio' although the Applicable Margin is said to be based on the Consolidated Total Net Leverage Ratio; its top level applies above 4.50x, i.e. only during a covenant holiday."
+  },
+  "fc_interest_cover": {
+   "lines": [
+    "Interest Coverage Ratio >= 3.00x (Adjusted Consolidated EBITDA for the trailing four fiscal quarters / total interest expense plus dividend requirements on disqualified stock and preferred stock paid, accrued or accumulated in the period)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Minimum Quarterly Interest Coverage Ratio (to be defined in the Financing Documentation as (i) Adjusted Consolidated EBITDA for the trailing four fiscal quarter period divided by (ii) the sum of (x) total interest expense plus (y) dividend requirements",
+     "page": 7
+    },
+    {
+     "quote": "with respect to disqualified stock and preferred stock paid, accrued or accumulated during such period) to be no less than 3.00:1.000",
+     "page": 7
+    }
+   ],
+   "note": "The level is printed as '3.00:1.000'."
+  },
+  "fc_other": {
+   "lines": [
+    "Other: none (the Financial Covenants are the two listed: Consolidated Total Net Leverage Ratio and Interest Coverage Ratio)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Maintenance of the following financial covenants (the “Financial Covenants”):",
+     "page": 7
+    }
+   ],
+   "note": "The covenant package as a whole is introduced with 'including, without limitation', but paragraph (d) defines the Financial Covenants as 'the following' two, which is read here as a closed list."
+  },
+  "fc_testing": {
+   "lines": [
+    "Tested quarterly (the covenants are 'Maximum Quarterly' / 'Minimum Quarterly' ratios; quarterly compliance certificates); Interest Coverage Ratio on a trailing four fiscal quarter basis",
+    "First test date not stated; no springing condition stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Maximum Quarterly Consolidated Total Net Leverage Ratio",
+     "page": 7
+    },
+    {
+     "quote": "Minimum Quarterly Interest Coverage Ratio (to be defined in the Financing Documentation as (i) Adjusted Consolidated EBITDA for the trailing four fiscal quarter period",
+     "page": 7
+    },
+    {
+     "quote": "quarterly unaudited financial statements; quarterly compliance certificates",
+     "page": 5
+    }
+   ],
+   "note": "The trailing four-quarter period is stated only in the Interest Coverage Ratio definition; the measurement period for the leverage ratio's EBITDA is not spelt out."
+  },
+  "select_definitions": {
+   "lines": [
+    "Adjusted EBITDA: 'Adjusted Consolidated EBITDA' and the other component definitions to be substantially consistent with the Precedent Credit Agreement, except as otherwise mutually agreed (add-backs and caps not detailed in term sheet)",
+    "Adjusted EBITDA: pro forma effect given to certain acquisitions, investments, dispositions, repayment of indebtedness and other specified pro forma transactions when calculating the Financial Covenants and any other financial ratios",
+    "Adjusted EBITDA: leverage is net of cash - Consolidated Total Net Leverage Ratio = (total indebtedness minus cash and cash equivalents, other than restricted cash and cash equivalents) / Adjusted Consolidated EBITDA; no cap on cash netting stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The component definitions (including, without limitation, “Adjusted Consolidated EBITDA”) used in the Financial Covenants shall be substantially consistent with the Precedent Credit Agreement, except as may be otherwise mutually agreed.",
+     "page": 7
+    },
+    {
+     "quote": "pro forma effect will be given to certain acquisitions, investments, dispositions, repayment of indebtedness and other specified pro forma transactions",
+     "page": 7
+    },
+    {
+     "quote": "(i) total indebtedness minus (ii) cash and cash equivalents (other than restricted cash and cash equivalents) divided by Adjusted Consolidated EBITDA",
+     "page": 7
+    }
+   ],
+   "note": "Equity cures, deemed cures and synergies are not addressed. The Adjusted Consolidated EBITDA definition itself is by reference to the Precedent Credit Agreement; the leverage formula and the pro forma rule are stated, which is why the row is marked stated. All three lines carry the 'Adjusted EBITDA: ' prefix because the brief places pro forma adjustments, cash netting and the leverage definition under that item. Limited Condition Transaction rules are also by reference (see Permitted Acquisitions)."
+  },
+  "negative_pledge": {
+   "lines": [
+    "Limitation on liens, substantially the same as the Precedent Credit Agreement, with one change: 'general liens' exception (Section 6.06(e) of the Precedent Credit Agreement) - fixed dollar component of the grower cap increased to $420m (from $300m)",
+    "Other permitted-lien baskets and the growing (non-fixed) component of the cap are not detailed in term sheet; secured 'pari passu debt' with intercreditor agreements is contemplated (debt basket: see Permitted Financial Indebtedness)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "liens; provided that the fixed dollar-based component of grower cap in the “general liens” exception in Section 6.06(e) of the Precedent Credit Agreement shall be increased to $420,000,000 (from $300,000,000)",
+     "page": 6
+    },
+    {
+     "quote": "Substantially the same as the Precedent Credit Agreement (subject to qualifications and exceptions substantially consistent with the Precedent Credit Agreement other than as specifically described below",
+     "page": 5
+    },
+    {
+     "quote": "invalidity of intercreditor agreements (so long as any secured “pari passu debt” is outstanding)",
+     "page": 8
+    }
+   ],
+   "note": "Only the general liens basket is quantified; the rest of the liens covenant is by reference to the Precedent Credit Agreement. The term sheet does not say which liens baskets correspond to the indebtedness baskets (capital lease / purchase money, pari passu debt); only the events of default show that 'pari passu debt' may be secured."
+  },
+  "permitted_acquisitions": {
+   "lines": [
+    "Restriction on acquisitions is listed among the negative covenants; terms substantially the same as the Precedent Credit Agreement - conditions and baskets not detailed in term sheet",
+    "Limited Condition Transactions (to be defined in the Financing Documentation; the term sheet does not say which transactions qualify): customary rules consistent with the Precedent Credit Agreement apply to the representations and no-default conditions to credit extensions",
+    "Investments are a separately listed covenant (see Permitted Loans); for the leverage covenant step-up after a Significant Acquisition see Financial Covenants"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "(vii) acquisitions;",
+     "page": 6
+    },
+    {
+     "quote": "Substantially the same as the Precedent Credit Agreement (subject to qualifications and exceptions substantially consistent with the Precedent Credit Agreement other than as specifically described below",
+     "page": 5
+    },
+    {
+     "quote": "Limited Condition Transactions consistent with the Precedent Credit Agreement (to be defined in the Financing Documentation, the “Limited Condition Transactions”)",
+     "page": 5
+    }
+   ],
+   "note": "The term sheet names the covenant only; the detail is in the Precedent Credit Agreement. Limited Condition Transactions are not defined in the term sheet and it does not link them to acquisitions; the rule is recorded here because no template row covers conditions to credit extensions and this is the nearest subject. The sentence starts on page 4 ('clauses (b) and (c) above shall be subject to customary rules with respect to') and runs on to page 5. Investments (i) and acquisitions (vii) are separate items in the list of negative covenants."
+  },
+  "permitted_disposals": {
+   "lines": [
+    "Restriction on disposition of assets is listed among the negative covenants; terms substantially the same as the Precedent Credit Agreement - baskets and conditions not detailed in term sheet"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "(iii) disposition of assets;",
+     "page": 6
+    },
+    {
+     "quote": "Substantially the same as the Precedent Credit Agreement (subject to qualifications and exceptions substantially consistent with the Precedent Credit Agreement other than as specifically described below",
+     "page": 5
+    }
+   ],
+   "note": "The term sheet names the covenant only. No mandatory prepayment from disposal proceeds is stated."
+  },
+  "permitted_distributions": {
+   "lines": [
+    "Restriction on restricted payments, substantially the same as the Precedent Credit Agreement, with the changes below",
+    "'General restricted payments' exception (Section 6.09(d) of the Precedent Credit Agreement): fixed dollar component of the grower cap increased to $280m (from $200m)",
+    "'Available Amount' (builder) concept consistent with the Precedent Credit Agreement, with the starter component increased to $1.0bn (from $900m); the term sheet does not say which covenants draw on it",
+    "Other baskets, the growing (non-fixed) component of the caps and any ratio-based conditions are not detailed in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "restricted payments; provided that the fixed dollar-based component of grower cap in the “general restricted payments” exception in Section 6.09(d) of the Precedent Credit Agreement shall be increased to $280,000,000 (from $200,000,000)",
+     "page": 6
+    },
+    {
+     "quote": "The “Available Amount” concept shall be consistent with the Precedent Credit Agreement, except that the starter component shall be increased to $1,000,000,000 (from $900,000,000).",
+     "page": 7
+    }
+   ],
+   "note": "The Available Amount paragraph follows the list of negative covenants and is not tied to a particular covenant; it is recorded here because the brief places the builder / available amount basket in this row."
+  },
+  "permitted_indebtedness": {
+   "lines": [
+    "Restriction on indebtedness and subsidiary preferred stock, substantially the same as the Precedent Credit Agreement, with increases to the fixed dollar component of these grower caps (Section 6.03(b) of the Precedent Credit Agreement):",
+    "Capital lease and purchase money indebtedness $560m (from $400m); permitted unsecured indebtedness $280m (from $200m); non-loan party indebtedness $210m (from $150m); pari passu debt $1.4bn (from $1.0bn)",
+    "New 'bridge' exception permitting traditional high yield indebtedness and/or customary 364-day bridge financing, on terms and conditions to be mutually agreed",
+    "Other baskets and the growing (non-fixed) component of the caps are not detailed in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "“capital lease and purchase money indebtedness” exception in Section 6.03(b)(v) of the Precedent Credit Agreement shall be increased to $560,000,000 (from $400,000,000); (B) the fixed dollar-based component of grower cap in the “permitted unsecured indebtedness” exception",
+     "page": 6
+    },
+    {
+     "quote": "shall be increased to $280,000,000 (from $200,000,000); (C) the fixed dollar-based component of grower cap in the “non-loan party” exception in Section 6.03(b)(ix) of the Precedent Credit Agreement shall be increased to $210,000,000 (from $150,000,000)",
+     "page": 6
+    },
+    {
+     "quote": "“pari passu debt” exception in Section 6.03(b)(xi) of the Precedent Credit Agreement shall be increased to $1,400,000,000 (from $1,000,000,000); and (E) the Financing Documentation shall include a new “bridge” exception permitting the incurrence of traditional high yield indebtedness",
+     "page": 6
+    }
+   ],
+   "note": "Each figure is the fixed dollar-based component of a grower cap; the growing component is not given. The three quotes run consecutively through provisos (A) to (E) on page 6; (E) continues 'and/or customary 364-day bridge financing on terms and conditions to be mutually agreed'."
+  },
+  "permitted_loans": {
+   "lines": [
+    "Restriction on investments (no separate restriction on loans or advances is listed), substantially the same as the Precedent Credit Agreement, with increases to the fixed dollar component of these grower caps:",
+    "'Other investments' exception (Section 6.02(v) of the Precedent Credit Agreement): $140m (from $50m)",
+    "'General investments' exception (Section 6.02(w) of the Precedent Credit Agreement): $280m (from $200m)",
+    "Intercompany and other investment baskets and the growing (non-fixed) component of the caps are not detailed in term sheet; for the 'Available Amount' see Permitted Distributions"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "investments; provided that (A) the fixed dollar-based component of grower cap in the “other investments” exception in Section 6.02(v) of the Precedent Credit Agreement shall be increased to $140,000,000",
+     "page": 5
+    },
+    {
+     "quote": "$50,000,000); and (B) the fixed dollar-based component of grower cap in the “general investments” exception in Section 6.02(w) of the Precedent Credit Agreement shall be increased to $280,000,000 (from $200,000,000)",
+     "page": 6
+    }
+   ],
+   "note": "The 'other investments' proviso runs across the page break: '(from' ends page 5 and '$50,000,000)' starts page 6. The term sheet does not itself say that loans and advances fall within the investments covenant; the investments covenant is recorded in this row because the brief asks for loans, advances and other investments here."
+  },
+  "permitted_guarantees": {
+   "lines": [
+    "No separate restriction on guarantees is listed; covenants are substantially the same as the Precedent Credit Agreement (the list is 'including, without limitation'), and the term sheet gives no detail on guarantees",
+    "Term sheet does not say whether guarantees are treated as indebtedness or investments; both covenants are listed - see Permitted Financial Indebtedness and Permitted Loans"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Precedent Credit Agreement (subject to qualifications and exceptions substantially consistent with the Precedent Credit Agreement other than as specifically described below and otherwise as may be mutually agreed), including, without limitation, the following:",
+     "page": 5
+    },
+    {
+     "quote": "Negative Covenants- Restrictions on : (i) investments;",
+     "page": 5
+    },
+    {
+     "quote": "(ii) indebtedness and subsidiary preferred stock;",
+     "page": 6
+    }
+   ],
+   "note": "The term sheet does not say how guarantees are treated; the cross-references point to the two listed covenants that usually deal with them and should be confirmed against the Precedent Credit Agreement."
+  },
+  "permitted_payments": {
+   "lines": [
+    "No separate restriction on payments of junior or subordinated debt is listed; covenants are substantially the same as the Precedent Credit Agreement (the list is 'including, without limitation'), and the term sheet gives no detail on this point",
+    "Term sheet does not say whether such payments fall within the restricted payments covenant, which is listed - see Permitted Distributions"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Precedent Credit Agreement (subject to qualifications and exceptions substantially consistent with the Precedent Credit Agreement other than as specifically described below and otherwise as may be mutually agreed), including, without limitation, the following:",
+     "page": 5
+    },
+    {
+     "quote": "(viii) restricted payments; provided that the fixed dollar-based component of grower cap in the “general restricted payments” exception",
+     "page": 6
+    }
+   ],
+   "note": "The term sheet does not say whether junior debt payments fall within the restricted payments covenant. 'Amendment of material agreements' is also a listed negative covenant (page 7; see [Other]), but the term sheet does not say that it covers junior debt documents."
+  },
+  "other_covenants": {
+   "lines": [
+    "Other negative covenants listed without detail (substantially the same as the Precedent Credit Agreement): fundamental changes; restrictive agreements; changes in fiscal year; winding up, dissolution and liquidation; transactions with affiliates",
+    "Also: sale and leaseback transactions; swap agreements; use of proceeds; amendment of material agreements; change in nature of business; anti-corruption laws; sanctions",
+    "Lender protections: the Financing Documentation is to contain protections against 'limited liability transactions' (as printed; apparently liability management transactions), including the risks posed to lenders by 'J. Crew', 'Chewy', 'Serta', etc.",
+    "Affirmative covenants include maintenance of ratings, designation of subsidiaries, further assurances and after-acquired collateral"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "(ix) changes in fiscal year; (x) winding up; dissolution and liquidation; (xi) transactions with affiliates;",
+     "page": 6
+    },
+    {
+     "quote": "(xii) sale and leaseback transactions; (xiii) swap agreements; (xiv) use of proceeds; (xv) amendment of material agreements; (xvi) change in nature of business; (xvii) anti-corruption laws; and (xviii) sanctions.",
+     "page": 7
+    },
+    {
+     "quote": "The Financing Documentation will also contain protections against “limited liability transactions” (including the risks posed to lenders by “J. Crew”, “Chewy”, “Serta”, etc.).",
+     "page": 9
+    }
+   ],
+   "note": "Marked by_reference: the covenants are named only, the list is open ('including, without limitation') and their terms are 'substantially the same as the Precedent Credit Agreement'; the liability management protections are promised without detail. Fundamental changes (iv) and restrictive agreements (vi) are on page 6 and the affirmative covenants are in paragraph (b) on page 5; they are not quoted because of the three-quote limit."
+  },
+  "events_of_default": {
+   "lines": [
+    "Cross default: cross-default to material indebtedness; threshold not stated (customary thresholds to be agreed; substantially the same as the Precedent Credit Agreement)",
+    "Insolvency / creditors' process: bankruptcy; insolvency; material judgments - thresholds and grace periods not stated (to be agreed)",
+    "Other: payment default; breach of representations in any material respect; breach of covenants; ERISA; change in control; defaults under other loan documents",
+    "Other (credit support): termination or invalidity of guaranty, security documents or liens; invalidity of intercreditor agreements (so long as any secured 'pari passu debt' is outstanding)",
+    "Notice and cure periods to be agreed; the list is non-exhaustive ('including, without limitation')"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Substantially the same as the Events of Default set forth in the Precedent Credit Agreement (with customary thresholds, notice and cure periods and other qualifications to be agreed)",
+     "page": 8
+    },
+    {
+     "quote": "cross- default to material indebtedness; bankruptcy; insolvency; material judgments; ERISA; change in control;",
+     "page": 8
+    },
+    {
+     "quote": "termination or invalidity of guaranty, security documents or liens; defaults under other loan documents; invalidity of intercreditor agreements",
+     "page": 8
+    }
+   ],
+   "note": "The events are named but no threshold, grace period or cure period is given; they are to follow the Precedent Credit Agreement. Default interest (page 12): 2.00% per annum above the applicable rate, automatically on a bankruptcy event of default or at the Required Lenders' election on a payment event of default."
+  },
+  "conditions_subsequent": {
+   "lines": [
+    "No specific conditions subsequent or deadlines stated; post-closing relief is left to be mutually agreed",
+    "Insurance endorsements (Agent as additional insured / lender's loss payee) may be delivered post-closing",
+    "Collateral perfection documents are a closing condition, subject to customary post-closing relief to be mutually agreed"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "(which, in the case of the endorsements, if applicable, may be delivered post-closing)",
+     "page": 4
+    },
+    {
+     "quote": "subject to post-closing relief as mutually agreed",
+     "page": 4
+    },
+    {
+     "quote": "(subject to any customary post-closing relief)",
+     "page": 4
+    }
+   ],
+   "note": "Marked by_reference because the post-closing items are 'to be agreed' and no period is given; the affirmative covenants also include further assurances and after-acquired collateral (page 5)."
+  },
+  "mandatory_prepayment": {
+   "lines": [
+    "Change of Control: event of default ('change in control' is listed among the Events of Default); ownership trigger not stated; no change of control prepayment stated",
+    "Other: if aggregate Revolver exposure exceeds aggregate Revolver commitments, immediate repayment of Swingline Loans and Revolving Loans to the extent needed to eliminate the excess",
+    "Disposal proceeds / insurance proceeds / debt issuance proceeds / excess cashflow: none stated in term sheet (the excess-exposure repayment is the only mandatory prepayment set out)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "If at any time the aggregate Revolver exposure exceeds the aggregate Revolver commitments, then the Borrower shall immediately repay the Swingline Loans and the Revolving Loans to the extent necessary to eliminate such excess.",
+     "page": 2
+    },
+    {
+     "quote": "material judgments; ERISA; change in control;",
+     "page": 8
+    }
+   ],
+   "note": "The change in control definition and trigger are left to the Precedent Credit Agreement."
+  },
+  "jurisdiction_topco": {
+   "lines": [
+    "Not stated in term sheet (the top company named is the Borrower, Encompass Health Corporation; its jurisdiction of incorporation is not given)",
+    "Governing law of the facility: State of New York (exclusive jurisdiction in New York)"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "Governing Law: State of New York",
+     "page": 9
+    },
+    {
+     "quote": "submit to exclusive jurisdiction in New York",
+     "page": 9
+    }
+   ],
+   "note": "The only other jurisdictional reference is to changes to Delaware law on divisions of limited liability companies (page 9), which says nothing about where the Borrower is incorporated."
+  },
+  "transferability": {
+   "lines": [
+    "Borrower consent (and Agent consent) in writing, not to be unreasonably withheld or delayed; Borrower deemed to approve if it does not respond within 10 business days of notice; no Borrower consent while a payment or bankruptcy event of default is continuing",
+    "No Borrower or Agent consent for assignments to another Lender, an affiliate of a Lender or a fund managed by a Lender or its affiliate; minimum $5m (not applicable where a Lender assigns its entire commitment); $3,500 fee payable by the assigning Lender to the Agent",
+    "Transferees: other banks, financial institutions and funds; no disqualified lender or competitor restriction stated; participations to other banks and financial institutions permitted without consent (selling Lender not released from its obligations)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "with the written approval of the Borrower and the Agent (such approval not to be unreasonably withheld or delayed (with the Borrower deemed to have approved of an assignment if it fails to approve or disapprove of such assignment within 10 business days after receiving notice thereof)",
+     "page": 8
+    },
+    {
+     "quote": "such approval not required by the Borrower if a payment event of default or bankruptcy event of default has occurred and is continuing) in minimum amounts of $5,000,000; provided that (i) no such consent of the Borrower or the Agent shall be required to any assignment by a Lender to another Lender",
+     "page": 8
+    },
+    {
+     "quote": "Participations to other banks and financial institutions will be permitted without consent but will not release the selling Lender from its obligations",
+     "page": 8
+    }
+   ],
+   "note": "No issuing bank or swingline lender consent is mentioned. Separately, the syndicate Lenders are to be acceptable to the Borrower and the Agent (page 1). The terms of assignment run over the first two lines because they do not fit in one; the third line has the transferee restrictions and participations."
+  },
+  "info_annual_consolidated": {
+   "lines": [
+    "Annual audited consolidated accounts - required; delivery period not stated in term sheet (reporting covenants substantially the same as the Precedent Credit Agreement)",
+    "Audit opinion to be unqualified: no 'going concern' or scope qualification, other than as to historical costs of fixed assets, a debt maturity falling within one year, or a potential future breach of a financial maintenance covenant"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Delivery of annual audited consolidated financial statements, which shall be unqualified (i.e., without a “going concern” or like qualification or exception",
+     "page": 5
+    },
+    {
+     "quote": "Substantially the same as the Precedent Credit Agreement (subject to qualifications and exceptions substantially consistent with the Precedent Credit Agreement other than as specifically described below",
+     "page": 5
+    }
+   ],
+   "note": "The requirement is stated but the number of days is not; it is to follow the Precedent Credit Agreement."
+  },
+  "info_annual_obligor": {
+   "lines": [
+    "Annual obligor accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_quarterly": {
+   "lines": [
+    "Quarterly unaudited financial statements - required; delivery period not stated in term sheet (reporting covenants substantially the same as the Precedent Credit Agreement)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "annual budgets and forecasts; quarterly unaudited financial statements; quarterly compliance certificates",
+     "page": 5
+    },
+    {
+     "quote": "Substantially the same as the Precedent Credit Agreement (subject to qualifications and exceptions substantially consistent with the Precedent Credit Agreement other than as specifically described below",
+     "page": 5
+    }
+   ],
+   "note": "The requirement is stated but the number of days and the quarters covered are not."
+  },
+  "info_budget": {
+   "lines": [
+    "Annual budgets and forecasts - required; delivery period not stated in term sheet (reporting covenants substantially the same as the Precedent Credit Agreement)",
+    "Other: quarterly compliance certificates; customary notifications including notice of any default",
+    "Other (listed among the affirmative covenants): right of inspection; notice of material events; suits or other proceedings; notice of discharge of hazardous material or environmental complaint; information regarding collateral; lenders' meetings"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "annual budgets and forecasts; quarterly unaudited financial statements; quarterly compliance certificates; and customary notifications, including, without limitation, notice of any default.",
+     "page": 5
+    },
+    {
+     "quote": "right of inspection; observe all laws; governmental licenses; notice of material events; suits or other proceedings; notice of discharge of hazardous material or environmental complaint; information regarding collateral; further assurances and after-acquired collateral; lenders’ meetings",
+     "page": 5
+    }
+   ],
+   "note": "The requirement is stated but the timing is not. The third line gives the information-related items of paragraph (b) 'Other Affirmative Covenants' as they are printed; 'suits or other proceedings' appears as an item of its own, without the words 'notice of'."
+  }
+ }
+}

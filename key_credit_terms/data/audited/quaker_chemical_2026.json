@@ -1,0 +1,782 @@
+{
+ "schema": "kct/1",
+ "client": "Quaker Chemical",
+ "deal": "Quaker Chemical 2026",
+ "source_file": "Quaker Chemical 2026 TS.pdf",
+ "sha1": "71c9f05bbb067eb91ccc6306c109846d4e0ea562",
+ "source": "audited",
+ "audit": {
+  "on": "2026-11-12",
+  "method": "Read from the full term sheet by one AI reviewer, then checked against it twice by independent AI reviewers: first every line of the record against the document, then the document section by section against the record. Not signed off by a person. Every quote is looked up in the PDF text each time the tool runs.",
+  "first_audit_changes": 13,
+  "first_audit_substantive": 10,
+  "final_review_changes": 6,
+  "final_review_substantive": 1,
+  "open_points": "Final record written to C:\\Users\\AFarid\\Documents\\Hackathon\\key_credit_terms\\data\\audited\\quaker_chemical_2026.json. Checker: structure OK, 89 of 89 quotes exact. A field-by-field diff against the first-audit record shows only the changes listed.\n\nThe document-to-record pass found no wrong, transposed or misattributed figure. Every amount, ratio, percentage and period in the record matches the dump, and the page images I opened (pp. 3, 5, 7, 13, 14, 16, 17, 19-22, 24, 29) show clean text with no strike-through and no existing/proposed columns. Barclays, equity cures, MFN, excess cash flow and reporting deadlines do not appear anywhere in the dump, so the not_stated and by_reference statuses stand.\n\nFirst auditor's doubts resolved from the document:\n- Doubt 1 (conditions_subsequent): by_reference kept; covenant (xii) on p.18 addresses post-closing deliverables and defers their terms.\n- Doubt 2 (fc_other): the 3.50x secured test stays in the leverage row; it is limb (2) of the leverage bullet on p.22.\n- Doubt 4 (guarantor_coverage): 'stated' kept; the 85% test is a real coverage test and the line says it is domestic-only.\n\nWhat the document cannot resolve:\n1. Whether the 0.50x acquisition step-up applies to the 3.50x secured test after a Financial Covenant Adjustment. The term sheet gives it for the Consolidated Net Leverage Ratio only; 4.75x is computed, not printed.\n2. Whether Material Domestic Subsidiaries guarantee the Dutch Borrower's Euro Term Loan and RCF borrowings. It follows only indirectly, from the Company's joint and several liability (p.1) and 'guaranty of the Borrowers' obligations made by the Guarantors' (p.24).\n3. Apparent drafting errors, recorded as printed: the decline right cites 'clause (a) or (c)' with no clause (c), so 'Excess cashflow: none listed' rests on the list as printed; two overlapping purchase money / capital lease baskets ($165m / 50% and $115m / 35%); and the reinstatement test 'as of the last of the two most recently ended fiscal quarters'.\n4. Terms left to the Existing Credit Agreement, which was not consulted: Consolidated Funded Indebtedness, Consolidated Interest Coverage Ratio, Significant Subsidiaries, Permitted Post-Closing Reorganization, the change of control trigger and event of default grace periods.\n5. Negative statements (no + 1 + 1, not springing, no cap on share repurchases or acquisitions, no MFN, no fall-away of guarantees) are absences in the document, not express terms.\n\nStyle points left as they were:\n- About 39 printed lines exceed the 250-character house target (longest 348, all under the 420 limit); I did not rewrite lines for length alone.\n- select_definitions has three 'Adjusted EBITDA: ' lines.\n- The 0.50x / $75m step-up and the $25m sweep threshold appear a second time as short cross-references in Permitted Acquisitions and Permitted Disposals.\n- doc.notes runs to five sentences because it carries the pricing grid; the brief for that field asks for two to four.\n- The repayment instalment dates (p.12) are now supported by a page pointer in the note, not a quote, because of the three-quote limit."
+ },
+ "doc": {
+  "kind": "term_sheet",
+  "title": "SUMMARY OF PRINCIPAL TERMS AND CONDITIONS - QUAKER CHEMICAL CORPORATION - $[1.55][1.6] BILLION SENIOR SECURED CREDIT FACILITIES",
+  "date": "Posting Version 3/25/26",
+  "notes": "Posting-version term sheet for new senior secured credit facilities of Quaker Chemical Corporation (US Dollar Term Loan, Euro Term Loan, multicurrency RCF) that amend or amend and restate, and refinance, the Existing Credit Agreement dated 1 August 2019. Terms are on pages 1-27 in a label / value layout; Addendum I (pages 28-29) has pricing, fees and the pricing grid. It gives the new terms only (no existing-versus-proposed columns); the RCF size and total are bracketed alternatives ($[750][800]m; $[1.55][1.6]bn) and the opening margins and commitment fee are blank. It is qualified by the Facilities Documentation (covenant exceptions and baskets beyond those listed are to be agreed there) and takes undefined capitalised terms and event of default grace periods / materiality thresholds from the Existing Credit Agreement. Pricing has no template row: after the opening period (blank), a five-tier grid on the Consolidated Net Leverage Ratio (> 3.50x down to <= 1.25x) sets the Term SOFR / Alternative Currency margin and letter of credit fee at 1.750% to 1.000%, the Base Rate margin at 0.750% to 0.000% and the commitment fee at 0.275% to 0.125% (p.29); Term SOFR and the Alternative Currency rates are floored at 0% (p.28)."
+ },
+ "fields": {
+  "facility": {
+   "lines": [
+    "$550m US Dollar Term Loan + $250m-equivalent Euro Term Loan + $[750][800]m multicurrency RCF (total $[1.55][1.6]bn senior secured credit facilities; RCF size and total left as bracketed alternatives in term sheet)",
+    "RCF sub-limits: $50m letters of credit (USD only); $80m swingline (USD up to $60m, EUR up to $20m); whole RCF available in Alternative Currencies (EUR, GBP, JPY, CAD, MXN, AUD) and to Designated Borrowers"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "a $550 million five -year U.S. Term Loan Facility (the “New U.S. Dollar Term Loan Facility”), all of which will be drawn by the Company in U.S. dollars on the Effective Date. Euro Term Loan Facility: a $250 million equivalent five-year Euro Term Loan Facility",
+     "page": 3
+    },
+    {
+     "quote": "a $[750][800] million five-year Revolving Credit Facility (the “New Revolving Credit Facility”",
+     "page": 3
+    },
+    {
+     "quote": "(b) a $80 million sublimit for swingline loans to be made in U.S. dollars and Euros",
+     "page": 4
+    }
+   ],
+   "note": "The aggregate '$[1.55][1.6] billion' is printed in the title (p.1) and under 'Senior Credit Facilities' (p.3): two bracketed alternatives, matching an RCF of $750m or $800m. The $50m letter of credit sub-limit straddles the p.3/p.4 page break. The Euro Term Loan is sized as a US dollar equivalent and drawn in Euros."
+  },
+  "borrowers": {
+   "lines": [
+    "Quaker Chemical Corporation, a Pennsylvania corporation (the Company): borrower of the US Dollar Term Loan and the RCF",
+    "Quaker Houghton B.V., a corporation organized under the laws of the Netherlands, wholly owned (indirectly) by the Company (the Dutch Borrower): borrower of the Euro Term Loan and RCF co-borrower (Foreign Designated Borrower) from the Effective Date",
+    "Designated Borrowers (RCF only, after the Effective Date): wholly-owned domestic restricted subsidiaries (Administrative Agent consent); further wholly-owned foreign restricted subsidiaries (consent of the Administrative Agent and, unless Dutch, each RCF Lender)",
+    "Company and Domestic Designated Borrowers jointly and severally liable for all obligations of all Borrowers; Foreign Designated Borrowers liable only for obligations of the Foreign Designated Borrowers"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Quaker Chemical Corporation, a Pennsylvania corporation (the “Company”).",
+     "page": 1
+    },
+    {
+     "quote": "With respect to the New Euro Term Loan Facility , Quaker Houghton B.V., a corporation organized under the laws of the Netherlands and wholly owned (indirectly) by the Company (the “Dutch Borrower”).",
+     "page": 1
+    },
+    {
+     "quote": "With respect to the New Revolving Credit Facility, the Company, the Foreign Designated Borrowers (defined below) (including the Dutch Borrower) and the Domestic Designated Borrowers (defined below) (collectively, the “Borrowers”).",
+     "page": 1
+    }
+   ],
+   "note": "There are no Domestic Designated Borrowers on the Effective Date; the Dutch Borrower is the only Designated Borrower then (p.2). The joint and several liability wording is on p.1, directly after the third quote."
+  },
+  "lender_commitments": {
+   "lines": [
+    "Barclays = not stated in term sheet",
+    "No lender commitments stated. Sole Administrative Agent and Collateral Agent: Bank of America, N.A.; Joint Lead Arrangers and Joint Bookrunners: BofA Securities, Inc. and certain other financial institutions to be agreed or appointed by the Company"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "Bank of America, N.A. (“Bank of America ”) will act as sole administrative agent and collateral agent for the New Senior Credit Facilities",
+     "page": 3
+    },
+    {
+     "quote": "BofA Securities, Inc. (or any of its designated affiliates) (“BofA Securities”) and certain other financial institutions to be agreed or appointed by the Company",
+     "page": 3
+    }
+   ],
+   "note": "Barclays is not named anywhere in the term sheet. Lenders are described only as Bank of America and other institutions acceptable to the Lead Arrangers and the Administrative Agent."
+  },
+  "purpose": {
+   "lines": [
+    "General corporate purposes and ongoing working capital of the Company and its subsidiaries (RCF, after the Effective Date), including permitted acquisitions and restricted payments",
+    "Refinancing: Term Loans, and RCF drawings on the Effective Date, to finance in part the Transactions - refinancing of all Loans and Commitments under the Existing Credit Agreement dated 1 August 2019 and payment of related fees and expenses",
+    "Letters of Credit: RCF may be used to issue Letters of Credit"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "(iii) the New Revolving Credit Facility shall be used after the Effective Date to provide ongoing working capital and for other general corporate purposes of the Company and its subsidiaries including, without limitation, permitted acquisitions and restricted payments.",
+     "page": 12
+    },
+    {
+     "quote": "The proceeds of (i) the New Term Loan Facilities shall be used on the Effective Date to finance in part the Transactions",
+     "page": 12
+    },
+    {
+     "quote": "refinance all Loans outstanding under the Existing Credit Agreement and refinance all existing Commitments thereunder",
+     "page": 1
+    }
+   ],
+   "note": "RCF usage on the Effective Date is subject to a limit that the term sheet refers to but does not quantify (p.12, Scheduled Amortization/Availability)."
+  },
+  "maturity": {
+   "lines": [
+    "Term Loans (USD and Euro): 5 years after the Effective Date, subject to customary amend and extend provisions",
+    "RCF: 5 years after the Effective Date (available until the fifth anniversary of the Effective Date)",
+    "No + 1 + 1 extension options, term-out or springing maturity stated; the Facilities Documentation is to contain customary 'amend and extend' provisions"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "being due five years after the Effective Date, subject to customary amend and extend provisions.",
+     "page": 12
+    },
+    {
+     "quote": "The New Revolving Credit Facility shall terminate and all amounts outstanding thereunder shall be due and payable in full five years after the Effective Date.",
+     "page": 12
+    },
+    {
+     "quote": "Facilities Documentation shall contain customary “amend and extend” and “amend and restate” provisions.",
+     "page": 25
+    }
+   ],
+   "note": "The Effective Date is the date the conditions precedent to initial funding are satisfied; no calendar maturity date is printed."
+  },
+  "repayment": {
+   "lines": [
+    "Amortising (each Term Loan): quarterly, 0.625% of the initial principal amount on each of the first eight fiscal quarter payment dates after the Effective Date, then 1.25% on each payment date thereafter; balance at maturity",
+    "Bullet (RCF): revolving; repayable at maturity; each Swingline Loan repayable within 10 business days",
+    "Term Loan instalments fall on the third business day after the end of each March, June, September and December, starting after the first full fiscal quarter following the quarter of the Effective Date; adjusted for prepayments and Incremental Facilities",
+    "Voluntary prepayment: in whole or in part at any time without premium or penalty (subject to breakage and redeployment costs on Term SOFR / Alternative Currency borrowings); unutilised commitments may be reduced or terminated at any time without penalty"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "First eight fiscal quarter payment dates after the Effective Date 0.625% Each fiscal quarter payment 1.25% date thereafter Maturity Date All remaining principal amounts",
+     "page": 13
+    },
+    {
+     "quote": "The New Revolving Credit Facility shall terminate and all amounts outstanding thereunder shall be due and payable in full five years after the Effective Date.",
+     "page": 12
+    },
+    {
+     "quote": "The New Senior Credit Facilities may be prepaid in whole or in part at any time without premium or penalty",
+     "page": 14
+    }
+   ],
+   "note": "Percentages are of the initial principal amount of each Term Loan advanced on the Effective Date (2.5% a year for two years, then 5% a year). The instalment dates and the start of amortisation are in Scheduled Amortization/Availability on p.12 (not quoted because of the three-quote limit). Swingline repayment period is on p.4. Optional Prepayments and Commitment Reductions is on p.14: voluntary Term Loan prepayments are applied to the Term Loan and instalments the Company directs."
+  },
+  "accordion": {
+   "lines": [
+    "Yes = sum of (A) greater of $331m and 100% of Consolidated EBITDA, (B) voluntary prepayments, open market purchases and commitment reductions of pari passu secured facilities / Incremental Equivalent Debt (not funded with long-term debt) and (C) an unlimited amount subject to pro forma ratio tests",
+    "Ratio tests under (C), assuming the increment is fully drawn: Consolidated First Lien Net Leverage Ratio <= 3.50x (pari passu secured); Consolidated Secured Net Leverage Ratio <= 4.00x (junior lien); compliance with the leverage-based Financial Covenant (unsecured)",
+    "Uncommitted: no Lender obliged to participate; may be new incremental term loan facilities, increases of either Term Loan or RCF increases; Additional Lenders need Administrative Agent consent where an assignment to them would",
+    "Conditions: no default or event of default; pro forma compliance with the Financial Covenants; representations true and correct in all material respects (testing at the LCT Test Date allowed for a Limited Condition Transaction, but no payment or bankruptcy event of default)",
+    "Incremental term loans: maturity no earlier than the Term Loans, except Permitted Earlier Maturity Debt (greater of $83m and 25% of Consolidated EBITDA) and Qualifying Bridge Facilities; weighted average life no shorter, except Permitted Earlier Maturity Debt; margins and amortisation set by the Company and the incremental lenders",
+    "All increments: same guarantees; secured only by the Collateral on an equal or junior priority basis; RCF increases on the same terms and documentation as the RCF (other than upfront fees)",
+    "Incremental Equivalent Debt (notes, loans or bridge financing of the Company; unsecured, secured pari passu (notes or bridge financing only) or secured on a junior basis) may be incurred in lieu, within the Incremental Available Amount"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "the aggregate principal amount for all Incremental Facilities shall not exceed the sum of (A) the greater of (x) $331.0 million and (y) 100% of Consolidated EBITDA",
+     "page": 5
+    },
+    {
+     "quote": "the Consolidated First Lien Net Leverage Ratio shall not exceed 3.50:1.00, (2) in the case of indebtedness that is secured on a junior lien basis with the New Senior Credit Facilities, the Consolidated Secured Net Leverage Ratio shall not exceed 4.00:1.00",
+     "page": 5
+    },
+    {
+     "quote": "no Lender will be required or otherwise obligated to provide any portion of such Incremental Facility;",
+     "page": 6
+    }
+   ],
+   "note": "No minimum increment and no most-favoured-nation pricing protection for the existing Term Loans are stated. Capacity under clause (C) may be used first and amounts incurred under (A)/(B) reclassified to (C) (p.6). The Qualifying Bridge Facility exception applies to the maturity limb only; the weighted average life limb excepts only Permitted Earlier Maturity Debt (p.7). Incremental Equivalent Debt security options are on p.10."
+  },
+  "guarantors": {
+   "lines": [
+    "Domestic Guarantors: the Company, each Domestic Designated Borrower and each existing and future direct and indirect Material Domestic Subsidiary (excluding foreign subsidiary holding companies and domestic subsidiaries of foreign subsidiaries)",
+    "Guaranteed: obligations of the Company and the Domestic Designated Borrowers under the facilities, plus treasury management and hedging obligations with Lenders / affiliates designated as secured obligations; guarantees of payment, not of collection",
+    "Foreign Guarantors: None; the Company may elect to designate foreign restricted subsidiaries as unsecured guarantors of the debt of the Foreign Designated Borrowers only (subject to KYC)",
+    "No foreign subsidiary, or domestic subsidiary whose assets are substantially all equity of foreign subsidiaries, is required to guarantee obligations of the Company or its domestic subsidiaries",
+    "Company is jointly and severally liable for all obligations of all Borrowers (and is referred to as guarantor of the obligations of the Designated Borrowers)",
+    "Release: no fall-away stated; release of all or substantially all of the value of the guaranty, or of the Company as guarantor of the Designated Borrowers, requires the consent of each Lender"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "will each be guaranteed by (a) the Company and each Domestic Designated Borrower, and (b) each existing and future direct and indirect Material Domestic Subsidiary (defined below) of the Company",
+     "page": 2
+    },
+    {
+     "quote": "None; provided that the Company may in its discretion, from time to time, elect to designate certain foreign restricted subsidiaries",
+     "page": 3
+    },
+    {
+     "quote": "(iv) the release of all or substantially all of the value of the guaranty of the Borrowers’ obligations made by the Guarantors and (v) the release of the Company as guarantor of the obligations of the Designated Borrowers",
+     "page": 24
+    }
+   ],
+   "note": "The 'Domestic Guarantors' paragraph speaks only of the obligations of the Company and the Domestic Designated Borrowers; whether the Material Domestic Subsidiaries also guarantee the Dutch Borrower's obligations (Euro Term Loan, RCF) is not spelled out. The Company's liability for them follows from the joint and several liability wording (p.1) and the amendments clause (p.24)."
+  },
+  "guarantor_coverage": {
+   "lines": [
+    "Company, Domestic Designated Borrowers and Material Domestic Subsidiaries together must represent >= 85% of consolidated total assets and >= 85% of Consolidated EBITDA of the Company and its domestic subsidiaries (as of the most recent fiscal year end)",
+    "If either 85% test is not met, the Company must identify additional wholly-owned domestic subsidiaries as Material Domestic Subsidiaries until both are satisfied",
+    "Material Domestic Subsidiary: wholly-owned domestic subsidiary (other than foreign subsidiary holding companies) representing >= 5% of consolidated total assets or >= 5% of Consolidated EBITDA of the Company and its domestic subsidiaries",
+    "Determined on the Effective Date and thereafter annually with delivery of the audited financial statements, or on consummation of a material acquisition; the test covers the domestic group only (no test against total group assets / EBITDA / turnover)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "do not represent at least 85% of the consolidated total assets of the Company and its Domestic Subsidiaries as of the end of the most recently ended fiscal year and Consolidated EBITDA of the Company and its domestic subsidiaries",
+     "page": 2
+    },
+    {
+     "quote": "that individually represents greater than or equal to either (a) 5% of the consolidated total assets of the Company and its domestic subsidiaries or (b) 5% of the Consolidated EBITDA",
+     "page": 2
+    },
+    {
+     "quote": "such that both of the foregoing 85% tests are satisfied.",
+     "page": 2
+    }
+   ],
+   "note": "Treated as the guarantor coverage test: it is an 85% test of domestic assets and domestic EBITDA inside the Material Domestic Subsidiary definition, not a group-wide coverage covenant."
+  },
+  "security": {
+   "lines": [
+    "Secured: valid and perfected first priority liens (subject to exceptions) from each domestic Loan Party (Grantor) over its subsidiaries' capital stock (65% only for controlled foreign corporations), intercompany debt owed to it, all present and future personal property and assets, and proceeds",
+    "Excluded Assets include: fee-owned and leasehold real property; titled assets not perfected by UCC filing; assets whose pledge is prohibited by law or contract; equity in non-wholly-owned subsidiaries / joint ventures where prohibited; public company equity and margin stock",
+    "Also excluded: assets where security has material adverse tax (incl. Section 956) or regulatory consequences; payroll, tax, escrow and trust accounts; third-party cash collateral; assets where the cost of security is excessive relative to the benefit",
+    "Perfection limits: control agreements only on commercially reasonable efforts at the Agent's request (none for deposit accounts with average daily balance below $5m); US-law security documents only; no landlord / bailee waivers; no notices to account debtors other than during an event of default",
+    "Collateral Release (Company's request; no default; no Financial Covenant Adjustment made): Consolidated Net Leverage Ratio < 2.00x at the last two fiscal quarter ends and pro forma at the request date, or a Ratings Release Trigger Event (two of Moody's Baa3 / S&P BBB- / Fitch BBB- or better, stable outlook or better)",
+    "Collateral Reinstatement Event (after a Collateral Release): Consolidated Net Leverage Ratio >= 2.50x as of the last of the two most recent fiscal quarters, or >= 3.00x on a pro forma compliance certificate, and two of the three ratings at Ba1 / BB+ / BB+ or below (or not provided)",
+    "Collateral also secures designated treasury management and hedging obligations with Lenders or affiliates; all Collateral released on payment in full and termination of commitments; otherwise release of all or substantially all of the Collateral needs the consent of each Lender"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "shall grant the Administrative Agent and the Lenders valid and perfected first priority (subject to certain exceptions to be set forth in the Facilities Documentation) liens and security interests in all of the following",
+     "page": 14
+    },
+    {
+     "quote": "the Collateral shall exclude the following: (i) any fee-owned real property; (ii) any leasehold interests in real property;",
+     "page": 15
+    },
+    {
+     "quote": "are each less than 2.00 to 1.00 or (ii) a Ratings Release Trigger Event (defined below) shall have occurred",
+     "page": 16
+    }
+   ],
+   "note": "No real estate is secured (fee-owned and leasehold real property are Excluded Assets). The reinstatement leverage limb reads 'as of the last of the two most recently ended fiscal quarters' (p.17), which is unclear as drafted. Reinstatement definition and rating thresholds are on p.17; the list of Excluded Assets runs p.15-16. Each-Lender consent for a release of all or substantially all of the Collateral, other than a Collateral Release, is in Waivers and Amendments (p.24)."
+  },
+  "ranking": {
+   "lines": [
+    "Senior Secured (first priority liens on the Collateral, subject to exceptions; facilities titled 'Senior Secured Credit Facilities'; affirmative covenant on designation as senior debt)",
+    "Liens may be released on a Collateral Release (see Collateral/Security); Incremental Facilities and Incremental Equivalent Debt may be secured on a pari passu or junior basis"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "$[1.55][ 1.6] BILLION SENIOR SECURED CREDIT FACILITIES",
+     "page": 1
+    },
+    {
+     "quote": "valid and perfected first priority (subject to certain exceptions to be set forth in the Facilities Documentation) liens and security interests",
+     "page": 14
+    },
+    {
+     "quote": "(xviii) designation as senior debt.",
+     "page": 18
+    }
+   ],
+   "note": "Security is granted by domestic Loan Parties only; any Foreign Guarantors would guarantee on an unsecured basis. Amendments that subordinate the liens or the obligations need the consent of each Lender affected, subject to exceptions to be set forth in the Facilities Documentation (p.25)."
+  },
+  "fc_leverage": {
+   "lines": [
+    "Consolidated Net Leverage Ratio <= 4.25x (step-up of 0.50x, to 4.75x as computed from the stated increase, at the Company's option for the first four fiscal quarters ending after an Acquisition with aggregate consideration exceeding $75m, beginning with the quarter in which the Acquisition is consummated)",
+    "Financial Covenant Adjustment (Company's option; only if a qualified unsecured notes offering has been consummated, no Collateral Release has occurred and is continuing and the facilities are secured by the Collateral): Consolidated Secured Net Leverage Ratio <= 3.50x applies instead"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "(1) Consolidated Net Leverage Ratio not to be greater than 4.25 to 1.00 or (2) at the Company’s option",
+     "page": 22
+    },
+    {
+     "quote": "Consolidated Secured Net Leverage Ratio not to be greater than 3.50 to 1.00 (this clause (2), the “Financial Covenant Adjustment”)",
+     "page": 22
+    },
+    {
+     "quote": "may be increased at the Company’s option by 0.50:1.00 solely for the first four fiscal quarters ending after an Acquisition by the Company with aggregate consideration (including the amount of any earnout or other post-closing payment reasonably estimated to be paid) exceeding $75 million",
+     "page": 22
+    }
+   ],
+   "note": "The term sheet prints the 0.50x increase, not the resulting level: 4.75x is computed (4.25x + 0.50x). The step-up is expressed for the Consolidated Net Leverage Ratio only; the term sheet does not say it applies to the 3.50x secured test. No scheduled step-downs. After a Financial Covenant Adjustment, a Collateral Release is not available (p.16) and unsecured debt incurrence is capped at Consolidated Net Leverage Ratio 5.00x (p.19)."
+  },
+  "fc_interest_cover": {
+   "lines": [
+    "Consolidated Interest Coverage Ratio >= 2.75x (definition not given in the term sheet; undefined capitalised terms take their meaning from the Existing Credit Agreement)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Consolidated Interest Coverage Ratio not to be less than 2.75 to 1.00.",
+     "page": 22
+    },
+    {
+     "quote": "Capitalized terms used herein and not otherwise defined shall have the meanings assigned to such terms in the Existing Credit Agreement (defined below).",
+     "page": 1
+    }
+   ],
+   "note": ""
+  },
+  "fc_other": {
+   "lines": [
+    "Other: none (the Financial Covenants are the two listed, interest coverage and leverage; the Consolidated Secured Net Leverage Ratio <= 3.50x test applies only in place of the net leverage test after a Financial Covenant Adjustment - see the leverage covenant)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Financial Covenants - The following (the “Financial Covenants”):",
+     "page": 22
+    },
+    {
+     "quote": "(1) Consolidated Net Leverage Ratio not to be greater than 4.25 to 1.00 or (2) at the Company’s option",
+     "page": 22
+    }
+   ],
+   "note": "The secured leverage test is recorded in the leverage row because it is an alternative to, not an addition to, the net leverage covenant: the term sheet sets it out as limb (2) of the single leverage bullet, joined to the 4.25x test by 'or' (p.22)."
+  },
+  "fc_testing": {
+   "lines": [
+    "Tested quarterly: each ratio calculated as of the last day of each fiscal quarter of the Company, on a consolidated basis, for each period of four consecutive fiscal quarters (rolling four-quarter basis)",
+    "Not springing (no utilisation condition stated); first test date not stated in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Each of the ratios referred to above will be calculated as of the last day of each fiscal quarter of the Company on a consolidated basis for each consecutive four fiscal quarter period.",
+     "page": 23
+    }
+   ],
+   "note": "Amendments and waivers of the Financial Covenants need Lenders holding more than 50% of commitments and loans (p.25)."
+  },
+  "select_definitions": {
+   "lines": [
+    "Synergies: pro forma 'run rate' cost savings, operating expense reductions and synergies are added back to Consolidated EBITDA if reasonably identifiable, factually supportable and from actions taken or expected to be taken within 18 months; capped, together with integration / start-up costs, at 30% of Consolidated EBITDA (after the add-backs)",
+    "Adjusted EBITDA: Consolidated EBITDA (Company and restricted subsidiaries; otherwise to be defined in the Facilities Documentation) also adds back non-cash charges, non-controlling interest items, senior management hiring / severance costs and integration / start-up costs; no cap other than the 30% cap above",
+    "Adjusted EBITDA: Consolidated Net Income excludes, among others, extraordinary / non-recurring / unusual items, income or loss of Primex Ltd., purchase accounting, impairments and amortization charges, non-cash compensation, transaction fees and expenses, and net income of unrestricted subsidiaries",
+    "Adjusted EBITDA: leverage is net of cash - Consolidated Net Leverage Ratio = Consolidated Funded Indebtedness less 100% of unrestricted cash of the Company and its restricted subsidiaries (no cap stated) to Consolidated EBITDA; the Secured and First Lien ratios count only secured / pari passu secured debt"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "pro forma adjustments, including pro forma “run rate” cost savings, operating expense reductions and synergies related to mergers and other business combinations",
+     "page": 8
+    },
+    {
+     "quote": "shall be subject to an aggregate combined cap of 30% of Consolidated EBITDA in such period (calculated after giving effect to such addbacks).",
+     "page": 9
+    },
+    {
+     "quote": "Consolidated Funded Indebtedness less 100.0% of unrestricted cash held by the Company and its restricted subsidiaries that are Domestic Subsidiaries and Foreign Subsidiaries to (b) Consolidated EBITDA.",
+     "page": 10
+    }
+   ],
+   "note": "Equity cures and deemed cures are not addressed in the term sheet, so no line is given for them. Consolidated Funded Indebtedness and Consolidated Interest Coverage Ratio are not defined in the term sheet. Limited Condition Transaction testing (p.10-12) is not one of this row's items; it is recorded in the rows it affects (Accordion, Permitted Acquisitions, Permitted Distributions, Permitted Payments)."
+  },
+  "negative_pledge": {
+   "lines": [
+    "Limitation on liens (Company and restricted subsidiaries), with customary exceptions and baskets to be set forth in the Facilities Documentation; the term sheet states that permitted liens include:",
+    "General lien basket: greater of $165m and 50% of Consolidated EBITDA",
+    "Liens on assets of Foreign Subsidiaries that are not Loan Parties securing indebtedness up to $150m",
+    "Acquired indebtedness may be secured only on the assets of the acquired restricted subsidiary or on the acquired assets",
+    "Incremental Facilities and Incremental Equivalent Debt may share the Collateral on a pari passu or junior basis (see Accordion); purchase money / capital lease baskets are in Permitted Financial Indebtedness"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "liens in an aggregate amount not to exceed the greater of $165 million and 50% of Consolidated EBITDA and (ii) liens on assets of Foreign Subsidiaries that are not Loan Parties securing indebtedness in an aggregate principal amount not exceeding $150 million",
+     "page": 20
+    },
+    {
+     "quote": "with customary exceptions, qualifications, materiality standards and baskets to be set forth in the Facilities Documentation",
+     "page": 18
+    }
+   ],
+   "note": "The two lien baskets are given 'among other things'; the list is open."
+  },
+  "permitted_acquisitions": {
+   "lines": [
+    "Within the Investments covenant (investments, including loans, advances, guarantees, acquisitions and other investments): permitted acquisitions allowed subject to customary limitations, including no payment or bankruptcy Event of Default and pro forma compliance with the Financial Covenants",
+    "No monetary cap on acquisitions, or on non-guarantor targets, stated in term sheet; the other investment baskets are in Permitted Loans",
+    "Limited Condition Transaction: conditions may be tested at the LCT Test Date (e.g. signing of the acquisition agreement) at the Company's election",
+    "Related: acquisition debt baskets are in Permitted Financial Indebtedness; the leverage covenant may step up by 0.50x after an Acquisition exceeding $75m (see Financial Covenants)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "(iv) permitted acquisitions, subject to customary limitations, including no payment or bankruptcy Event of Default and pro forma compliance with the Financial Covenants",
+     "page": 20
+    },
+    {
+     "quote": "Investments, including loans, advances, guarantees, acquisitions and other investments",
+     "page": 20
+    },
+    {
+     "quote": "as of the date the definitive agreements for such acquisition or other similar investment are entered into",
+     "page": 11
+    }
+   ],
+   "note": "The 'customary limitations' on permitted acquisitions are otherwise left to the Facilities Documentation."
+  },
+  "permitted_disposals": {
+   "lines": [
+    "Restriction on the sale, transfer, lease or other disposition of assets (customary exceptions to be set forth in the Facilities Documentation); the term sheet states that permitted dispositions include:",
+    "Unlimited dispositions if (x) no default or event of default, (y) made for fair market value and (z) where fair market value exceeds $25m, at least 75% of consideration is cash or cash equivalents (designated non-cash consideration counts up to the greater of $83m and 25% of Consolidated EBITDA)",
+    "Sale and leaseback dispositions: book value of all property so disposed not to exceed $50m after the Effective Date",
+    "Dispositions of property acquired in a permitted acquisition: not in excess of $50m in aggregate for any such permitted acquisition",
+    "Net cash proceeds above $25m per fiscal year are swept, subject to reinvestment rights (see Mandatory Prepayment Events); Material Intellectual Property may not be disposed of to unrestricted subsidiaries; fundamental changes are a separate listed covenant"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "(z) if the fair market value of the disposition exceeds $25 million, at least 75% of the consideration therefor shall be in the form of cash or cash equivalents",
+     "page": 21
+    },
+    {
+     "quote": "taking into account designated non-cash consideration in an amount not to exceed the greater of $83 million and 25% of Consolidated EBITDA",
+     "page": 21
+    },
+    {
+     "quote": "(provided that the book value of all property so disposed shall not exceed $50 million after the Effective Date) and (iii) dispositions of property acquired in a permitted acquisition not in excess of $50 million in the aggregate for any such permitted acquisition",
+     "page": 21
+    }
+   ],
+   "note": ""
+  },
+  "permitted_distributions": {
+   "lines": [
+    "Restricted payments covenant (customary exceptions to be set forth in the Facilities Documentation). General basket: greater of $100m and 30% of Consolidated EBITDA",
+    "Unlimited: subject to pro forma Consolidated Net Leverage Ratio <= 3.00x and no default",
+    "Annual basket: greater of $33m and 10% of Consolidated EBITDA in any fiscal year, subject to no default (unused amounts carried over to the next fiscal year)",
+    "Regularly scheduled dividends: greater of $30m per fiscal year (unused amounts carried over to the next fiscal year) and 5% of market capitalization of the Company per annum",
+    "Share repurchase programs approved by the board of directors from time to time (no cap stated)",
+    "Available Amount Basket: usable for restricted payments subject to no payment or bankruptcy Event of Default and pro forma compliance with the Financial Covenants",
+    "Available Amount Basket build-up: greater of $165m and 50% of Consolidated EBITDA, plus 50% of cumulative Consolidated Net Income from the quarter of the Effective Date, plus equity proceeds and contributions, retained asset sale proceeds, Declined Amounts and other items, less usage",
+    "Restricted payments to the Company and/or restricted subsidiaries under a Permitted Post-Closing Reorganization (no Event of Default); no restricted payment of Material Intellectual Property to unrestricted subsidiaries; irrevocable restricted payments may be tested as a Limited Condition Transaction at the LCT Test Date"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "(ii) a general basket not to exceed the greater of $100 million and 30% of Consolidated EBITDA; (iii) unlimited restricted payments subject to pro forma Consolidated Net Leverage Ratio not exceeding 3.00:1.00 and no default",
+     "page": 20
+    },
+    {
+     "quote": "(vii) regularly scheduled dividends in an amount not to exceed the greater of $30 million per fiscal year (with unused amounts permitted to be carried over to the immediately succeeding fiscal year) and 5% of market capitalization of the Company per annum",
+     "page": 21
+    },
+    {
+     "quote": "shall mean a cumulative amount equal to (a) the greater of $165 million and 50% of Consolidated EBITDA, plus (b) 50% of cumulative Consolidated Net Income",
+     "page": 21
+    }
+   ],
+   "note": "The $33m / 10% annual basket is clause (vi) on p.20. 'Permitted Post-Closing Reorganization' is not defined in the term sheet. Cumulative Consolidated Net Income counts a quarterly deficit as $0 (p.22). The full Available Amount Basket build-up (clauses (a)-(k)) is on p.21-22. Limited Condition Transaction testing of irrevocable restricted payments (LCT Test Date at declaration, debt commitment / incurrence or payment, at the Company's option) is on p.11."
+  },
+  "permitted_indebtedness": {
+   "lines": [
+    "Restriction on indebtedness (including guarantees and other contingent obligations) and the issuance of certain equity securities, with customary exceptions; permitted debt includes the facilities, Incremental Facilities and Incremental Equivalent Debt (see Accordion)",
+    "General basket: greater of $165m and 50% of Consolidated EBITDA",
+    "Non-Loan Party restricted subsidiaries: greater of $115m and 35% of Consolidated EBITDA; Foreign Subsidiaries: $150m",
+    "Unsecured debt of the Company or any restricted subsidiary: subject to customary maturity / weighted average life limits (up to $75m may mature earlier), pro forma compliance with the Financial Covenants and, after a Financial Covenant Adjustment, Consolidated Net Leverage Ratio <= 5.00x",
+    "Acquisitions: acquired indebtedness (not incurred in anticipation; only the acquired restricted subsidiaries are obligors; unsecured or secured only on the acquired assets); debt incurred in connection with acquisitions or investments up to the greater of $115m and 35% of Consolidated EBITDA",
+    "Purchase money debt and capital lease obligations: greater of $165m and 50% of Consolidated EBITDA; Capitalized Leases, Synthetic Lease Obligations (including sale and leasebacks) and purchase money obligations for fixed or capital assets: greater of $115m and 35% of Consolidated EBITDA",
+    "Intercompany: debt owing by a Domestic Obligor to a Foreign Obligor and by a non-Loan Party to a Loan Party not to exceed the greater of $250m and 75% of Consolidated EBITDA; unsecured intercompany debt under the Permitted Post-Closing Reorganization",
+    "Other: debt up to 100% of the net cash proceeds of Capital Stock (other than disqualified stock) issued by the Company after the Effective Date; guarantees of joint venture indebtedness have their own basket (see Permitted Guarantees)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "(ii) indebtedness in an aggregate amount not to exceed the greater of $165 million and 50% of Consolidated EBITDA; (iii) indebtedness incurred by non-Loan Party restricted subsidiaries in an aggregate amount not to exceed the greater of $115 million and 35% of Consolidated EBITDA",
+     "page": 19
+    },
+    {
+     "quote": "(ix) indebtedness of Foreign Subsidiaries in an aggregate principal amount not to exceed $150 million; (x) purchase money debt and capital lease obligations in an aggregate amount not to exceed the greater of $165 million and 50% of Consolidated EBITDA",
+     "page": 19
+    },
+    {
+     "quote": "(B) pro forma compliance with the Financial Covenants and (C) after a Financial Covenant Adjustment, the Consolidated Net Leverage Ratio not exceeding 5.00:1.00)",
+     "page": 19
+    }
+   ],
+   "note": "The term sheet has two overlapping purchase money / capital lease baskets with different caps: clause (x) ($165m / 50%) and clause (xiii) ($115m / 35%, p.19-20). Both are recorded as printed. The list is given 'among other things' and is open. The joint venture guarantee basket (clause (iv) of the debt covenant, p.19) is given once, in Permitted Guarantees."
+  },
+  "permitted_loans": {
+   "lines": [
+    "Loans and advances fall within the Investments covenant (investments, including loans, advances, guarantees, acquisitions and other investments), with customary exceptions to be set forth in the Facilities Documentation; stated baskets:",
+    "General basket: greater of $250m and 75% of Consolidated EBITDA",
+    "Joint ventures and unrestricted subsidiaries: greater of $115m and 35% of Consolidated EBITDA",
+    "Unlimited: subject to no Event of Default and pro forma Consolidated Net Leverage Ratio <= 3.50x",
+    "Intercompany: investments by a Loan Party in a non-Loan Party restricted subsidiary not to exceed the greater of $250m and 75% of Consolidated EBITDA (intercompany loans are also capped under the debt covenant - see Permitted Financial Indebtedness)",
+    "Advances to officers, directors and employees: $10m (travel, entertainment, relocation and analogous ordinary business purposes)",
+    "Available Amount Basket (see Permitted Distributions): subject to no payment or bankruptcy Event of Default and pro forma compliance with the Financial Covenants",
+    "Also: investments under the Permitted Post-Closing Reorganization; permitted acquisitions (see Permitted Acquisitions); no investment of Material Intellectual Property in unrestricted subsidiaries"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "(i) a general basket not to exceed the greater of $250 million and 75% of Consolidated EBITDA; (ii) investments in joint ventures and unrestricted subsidiaries in an aggregate amount not to exceed the greater of $115 million and 35% of Consolidated EBITDA",
+     "page": 20
+    },
+    {
+     "quote": "(iii) unlimited investments subject to no Event of Default and the pro forma Consolidated Net Leverage Ratio not exceeding 3.50:1.00",
+     "page": 20
+    },
+    {
+     "quote": "the aggregate amount of investments by a Loan Party in a non- Loan Party restricted subsidiary shall not exceed the greater of $250 million and 75% of Consolidated EBITDA",
+     "page": 20
+    }
+   ],
+   "note": ""
+  },
+  "permitted_guarantees": {
+   "lines": [
+    "No separate guarantee covenant: guarantees are treated as indebtedness ('Indebtedness (including guarantees and other contingent obligations)') and as investments ('Investments, including loans, advances, guarantees ...') - see Permitted Financial Indebtedness and Permitted Loans",
+    "Specific basket: guarantees of indebtedness of joint ventures up to the greater of $115m and 35% of Consolidated EBITDA",
+    "Incremental Equivalent Debt may not be guaranteed by any entity that is not a Guarantor"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Indebtedness (including guarantees and other contingent obligations)",
+     "page": 19
+    },
+    {
+     "quote": "Investments, including loans, advances, guarantees, acquisitions and other investments",
+     "page": 20
+    },
+    {
+     "quote": "guarantees of indebtedness of joint ventures in an aggregate amount not to exceed the greater of $115 million and 35% of Consolidated EBITDA",
+     "page": 19
+    }
+   ],
+   "note": ""
+  },
+  "permitted_payments": {
+   "lines": [
+    "Restriction on prepayments of subordinated indebtedness is listed among the negative covenants; baskets and conditions not detailed in term sheet (customary exceptions and baskets to be set forth in the Facilities Documentation)",
+    "Irrevocable redemptions / repayments of indebtedness may be tested as a Limited Condition Transaction at the LCT Test Date"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "(vi) Prepayments of subordinated indebtedness;",
+     "page": 21
+    },
+    {
+     "quote": "Negative Covenants – Restrictions on (in each case, in addition to the exceptions set forth below, with customary exceptions, qualifications, materiality standards and baskets to be set forth in the Facilities Documentation):",
+     "page": 18
+    }
+   ],
+   "note": "Unlike the debt, liens, investments, restricted payments and disposals covenants, this covenant is listed with no baskets; the detail is left to the Facilities Documentation."
+  },
+  "other_covenants": {
+   "lines": [
+    "Negative covenants listed without detail: fundamental changes; sale and leaseback transactions; changes in the nature of business; transactions with affiliates; burdensome agreements; use of proceeds; amendments of organizational documents; changes in fiscal year or in accounting policies or reporting practices",
+    "Sanctions / anti-corruption: negative covenants on OFAC and other sanctions, FCPA and other anti-corruption laws and outbound investment rules; affirmative covenants on anticorruption laws and the Beneficial Ownership Regulation",
+    "Unrestricted subsidiaries: designation permitted if the Company and its restricted subsidiaries still represent >= 90% of consolidated total assets and >= 90% of Consolidated EBITDA; Material Intellectual Property, and its owners / exclusive licensees, must stay within the restricted group",
+    "Affirmative covenants include: covenant to guarantee and give security (including on a Collateral Reinstatement Event), designation as senior debt, maintenance of insurance, inspection rights, compliance with laws and material contracts, further assurances",
+    "All covenants apply to the Company and its restricted subsidiaries, subject to exceptions, qualifications and baskets to be agreed in the Facilities Documentation"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "(v) Fundamental changes; (vi) Prepayments of subordinated indebtedness; (vii) Sale and leaseback transactions; (viii) OFAC and other sanctions; (ix) FCPA and other anti-corruption laws; (x) Outbound investment rules;",
+     "page": 21
+    },
+    {
+     "quote": "(xi) Changes in the nature of business; (xii) Transactions with affiliates; (xiii) Burdensome agreements; (xiv) Use of proceeds; (xv) Amendments of organizational documents; (xvi) Changes in fiscal year or in accounting policies or reporting practices;",
+     "page": 21
+    },
+    {
+     "quote": "at least 90% of the consolidated total assets and at least 90% of the Consolidated EBITDA of the Company and its subsidiaries",
+     "page": 5
+    }
+   ],
+   "note": "No most-favoured-nation or anti-cash-hoarding provision appears in the term sheet. Sale and leaseback dispositions and synthetic lease debt have baskets in the disposals and indebtedness rows."
+  },
+  "events_of_default": {
+   "lines": [
+    "Cross default: cross-default to other indebtedness in an amount exceeding $75m",
+    "Insolvency / creditors' process: bankruptcy and insolvency defaults (grace period for involuntary proceedings, length not stated); inability to pay debts; monetary judgments exceeding $75m and material non-monetary judgments (grace periods to be consistent with the Existing Credit Agreement)",
+    "Other: non-payment of principal, interest, fees or other amounts in the required currency; covenant breach (after a specified period where customary and appropriate); material misrepresentation; ERISA events in excess of $75m",
+    "Other: actual or asserted invalidity or impairment of the Facilities Documentation; security over a material portion of the Collateral ceasing to be enforceable or of the purported priority",
+    "Change of control of the Company is an Event of Default (trigger not defined in term sheet)",
+    "Events of default are 'usual and customary', apply in certain cases only to the Company and its Significant Subsidiaries, with grace periods and materiality thresholds to be consistent with the Existing Credit Agreement; default interest +2% per annum on the Applicable Margin"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "(iv) cross-default to other indebtedness in an amount exceeding $75 million; (v) bankruptcy and insolvency defaults (with grace period for involuntary proceedings); (vi) inability to pay debts; (vii) monetary judgment defaults in an amount exceeding $75 million",
+     "page": 23
+    },
+    {
+     "quote": "with such grace periods and materiality thresholds to be consistent with the Existing Credit Agreement",
+     "page": 23
+    },
+    {
+     "quote": "(xi) change of control of the Company.",
+     "page": 23
+    }
+   ],
+   "note": "Thresholds ($75m cross-default, judgments, ERISA) are stated; grace periods are not, and are deferred to the Existing Credit Agreement. The list is introduced by 'including, without limitation'. Default interest is in Addendum I (p.28): it applies during any default and, other than for a principal payment default, at the request of the Required Lenders."
+  },
+  "conditions_subsequent": {
+   "lines": [
+    "No conditions subsequent section and no post-closing deadlines in the term sheet",
+    "Affirmative covenant to guarantee obligations and give security extends to Guarantors and Collateral not provided on the Effective Date, and to items not provided then (including officer's certificates and opinions); what is deferred and the delivery periods are left to the Facilities Documentation",
+    "Control agreements (commercially reasonable efforts, at the Administrative Agent's request) and re-grant of security promptly after a Collateral Reinstatement Event: see Collateral/Security"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "give security (including in connection with a Collateral Reinstatement Event and with respect to Guarantors and Collateral not provided, or with respect to which certain items are not provided (including officer’s certificates and opinions) on the Effective Date)",
+     "page": 18
+    },
+    {
+     "quote": "subject, in certain cases, to exceptions, qualifications and baskets to be agreed in the Facilities Documentation",
+     "page": 18
+    },
+    {
+     "quote": "Grantors shall only be required to use commercially reasonable efforts (in each case, upon the request of the Administrative Agent) to obtain control agreements or control or similar arrangements",
+     "page": 16
+    }
+   ],
+   "note": "Judgement call: the term sheet has no 'conditions subsequent' section and no deadlines. It is not silent, though: affirmative covenant (xii) on p.18 expressly contemplates Guarantors, Collateral, officer's certificates and opinions not provided on the Effective Date, with the terms to be agreed in the Facilities Documentation, so the row is by_reference rather than stated or not_stated. Conditions precedent to closing are only 'those customary for facilities of this type' (p.17)."
+  },
+  "mandatory_prepayment": {
+   "lines": [
+    "Change of Control: Event of Default ('change of control of the Company'), not a mandatory prepayment event; ownership trigger not stated in term sheet",
+    "Disposal proceeds: 100% of net cash proceeds of asset sales and other asset dispositions above $25m in aggregate per fiscal year (de minimis $10m per transaction), excluding ordinary course inventory sales; reinvestment right within 365 days (545 days if committed within 365 days)",
+    "Insurance proceeds: insurance and condemnation recoveries are within the same sweep, thresholds and reinvestment rights",
+    "Debt issuance proceeds: 100% of net cash proceeds of debt not permitted by the Facilities Documentation",
+    "Excess cashflow: none listed (only clauses (a) and (b) are set out; the Declined Amount wording refers to a clause (c) that does not appear in the term sheet)",
+    "Other: applied to the USD Term Loan, the Euro Term Loan or both, as the Company determines - to the next four amortisation payments in direct order, then pro rata to the remaining payments (including the payment at maturity)",
+    "Other: any Lender may decline a prepayment under clause (a) (asset sale / insurance proceeds; no decline right is given for debt issuance proceeds); Declined Amounts are retained by the Company and added to the Available Amount Basket",
+    "Other: no prepayment required where repatriating or upstreaming cash would have material adverse tax consequences; due date may be deferred up to 30 days to avoid breakage costs"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "100% of the net cash proceeds, in each case, in excess of $25 million in the aggregate in any fiscal year (and subject to a de minimis per transaction threshold of $10 million), of all asset sales, insurance and condemnation recoveries and other asset dispositions",
+     "page": 13
+    },
+    {
+     "quote": "100% of the net cash proceeds of the issuance or incurrence of debt (other than any debt permitted to be issued or incurred pursuant to the terms of the Facilities Documentation)",
+     "page": 13
+    },
+    {
+     "quote": "(xi) change of control of the Company.",
+     "page": 23
+    }
+   ],
+   "note": "'Any Lender may decline any mandatory prepayment under clause (a) or (c) above' (p.13) cross-refers to a clause (c) that is not in the document; a third sweep may have been deleted. The decline right therefore covers clause (a) only as printed, not the debt issuance sweep in clause (b). No RCF over-advance or currency fluctuation prepayment is stated. Reinvestment 'baskets to be mutually agreed upon'. Voluntary prepayments are recorded under Repayment."
+  },
+  "jurisdiction_topco": {
+   "lines": [
+    "United States - Pennsylvania (Quaker Chemical Corporation)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Quaker Chemical Corporation, a Pennsylvania corporation (the “Company”).",
+     "page": 1
+    }
+   ],
+   "note": "Governing law of the facilities is the State of New York (p.26)."
+  },
+  "transferability": {
+   "lines": [
+    "Borrower consent required (not to be unreasonably withheld or delayed; deemed given if the Company has not objected within 7 business days of notice); not required while a payment or bankruptcy Event of Default is continuing or for assignments to a Lender, an affiliate of a Lender or an Approved Fund",
+    "Restrictions: no assignments or participations to Disqualified Lenders (actual competitors of the Company identified in writing by legal name, excluding bona fide debt funds) without the Company's consent, provided the DQ Lender List is disclosed to all Lenders; participations otherwise permitted, with voting rights limited to significant matters",
+    "Other consents (not to be unreasonably withheld): Administrative Agent for assignments to an entity that is not a Lender, an affiliate of a Lender or an Approved Fund; Fronting Bank and Swingline Lenders for any RCF assignment",
+    "Minimum amounts: $5m (RCF), $1m (Term Loans); assignments are to 'other financial institutions'; $3,500 assignment fee; security assignments to any Federal Reserve Bank need no consent",
+    "Borrower buy-backs of Term Loans permitted on customary terms up to an amount to be determined (loans cancelled on assignment, not funded from the RCF, 'no MNPI' representation, no Event of Default)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The consent of the Company (which consent shall be deemed to have been provided in the event the Company shall not have objected within seven business days of receiving notice of such proposed assignment) will be required unless (i) a payment or bankruptcy Event of Default",
+     "page": 23
+    },
+    {
+     "quote": "assignments and participations to Disqualified Lenders shall not be permitted without the consent of the Company",
+     "page": 24
+    },
+    {
+     "quote": "The consent of the Fronting Bank (not to be unreasonably withheld) and the Swingline Lenders (not to be unreasonably withheld) will be required for any assignment under the New Revolving Credit Facility.",
+     "page": 24
+    }
+   ],
+   "note": "Disqualified Lenders are named by the Company from time to time after the Effective Date on two business days' notice (p.24). Natural persons, the Borrower's affiliates and defaulting lenders are not addressed as transferees."
+  },
+  "info_annual_consolidated": {
+   "lines": [
+    "Annual audited consolidated accounts - delivery of financial statements is a listed affirmative covenant and audited annual financial statements are referred to; deadline not stated in term sheet (left to the Facilities Documentation)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Affirmative Covenants - (i) delivery of financial statements, budgets and forecasts;",
+     "page": 18
+    },
+    {
+     "quote": "only on an annual basis in connection with the delivery of the audited financial statements",
+     "page": 2
+    },
+    {
+     "quote": "subject, in certain cases, to exceptions, qualifications and baskets to be agreed in the Facilities Documentation",
+     "page": 18
+    }
+   ],
+   "note": "No number of days is given anywhere in the term sheet."
+  },
+  "info_annual_obligor": {
+   "lines": [
+    "Annual obligor accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_quarterly": {
+   "lines": [
+    "Quarterly accounts - delivery of financial statements is a listed affirmative covenant; quarterly financial statements and compliance certificates are referred to for the pricing grid and collateral release tests; deadline not stated in term sheet (left to the Facilities Documentation)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "(i) delivery of financial statements, budgets and forecasts;",
+     "page": 18
+    },
+    {
+     "quote": "as of the last day of the two most recently ended fiscal quarters for which a compliance certificate and financial statements have been delivered",
+     "page": 16
+    },
+    {
+     "quote": "subject, in certain cases, to exceptions, qualifications and baskets to be agreed in the Facilities Documentation",
+     "page": 18
+    }
+   ],
+   "note": "No number of days is given anywhere in the term sheet."
+  },
+  "info_budget": {
+   "lines": [
+    "Annual budget - delivery of budgets and forecasts is a listed affirmative covenant; timing not stated in term sheet (left to the Facilities Documentation)",
+    "Other: delivery of certificates and other information (compliance certificates); notices of any default, material adverse condition, litigation or ERISA event; inspection rights"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "(i) delivery of financial statements, budgets and forecasts; (ii) delivery of certificates and other information; (iii) delivery of notices (including of any default, material adverse condition, litigation or ERISA event);",
+     "page": 18
+    },
+    {
+     "quote": "subject, in certain cases, to exceptions, qualifications and baskets to be agreed in the Facilities Documentation",
+     "page": 18
+    }
+   ],
+   "note": ""
+  }
+ }
+}

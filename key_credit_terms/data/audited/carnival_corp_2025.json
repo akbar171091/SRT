@@ -1,0 +1,668 @@
+{
+ "schema": "kct/1",
+ "client": "Carnival Corp",
+ "deal": "Carnival Corp 2025",
+ "source_file": "Carnival Corp 2025 TS.pdf",
+ "sha1": "192b49af76f34710a139c7661660cebc7c0d3aa3",
+ "source": "audited",
+ "audit": {
+  "on": "2026-11-12",
+  "method": "Read from the full term sheet by one AI reviewer, then checked against it twice by independent AI reviewers: first every line of the record against the document, then the document section by section against the record. Not signed off by a person. Every quote is looked up in the PDF text each time the tool runs.",
+  "first_audit_changes": 9,
+  "first_audit_substantive": 4,
+  "final_review_changes": 2,
+  "final_review_substantive": 1,
+  "open_points": "Final record written to C:\\Users\\AFarid\\Documents\\Hackathon\\key_credit_terms\\data\\audited\\carnival_corp_2025.json. Checker: structure OK, 75 of 75 quotes exact. A field-by-field comparison with the first-audit record shows only the two note changes above; no line, status, figure or quote was altered.\n\nDocument-to-record pass: every section of pages 1-8 was mapped to a row, and the dump was compared with page images 1-8, 12 and 13. Nothing was found missing from a row, sitting in the wrong row, or taken from the wrong facility (the Existing Revolving Facility and the two term loan agreements are kept apart from the new Facility). Every amount, ratio, date and period in the record agrees with the document. Searches for Barclays, change of control, mandatory prepayment, budget, projections, compliance certificate, EBITDA, cures, extension options, post-closing obligations and disqualified lenders all came back empty, so the five not_stated rows stand.\n\nFirst auditor's doubts resolved from the document or the brief:\n- info_budget stays by_reference: the affirmative covenants are 'Consistent with the Documentation Principles' and include 'other information', whereas the representations on the same page are 'limited to the following'. info_annual_obligor stays not_stated under its own field guidance.\n- fc_other 'Other: none' stays stated: the Financial Covenants section is a complete numbered pair ('1. ...; and 2. ...'), not introduced by 'including' as the negative covenants are.\n- Jurisdiction of Topco keeps 'United Kingdom - England and Wales': this follows the brief's own country-then-sub-jurisdiction example ('United States - Delaware'). Both Borrowers are shown because they are jointly defined as the 'Company'.\n- select_definitions keeps its 'Adjusted EBITDA:' line: the brief puts 'how leverage is defined' under that prefix.\n- Pricing (Annex I / I-B) has no template row, confirmed against the field list.\n\nDoubts the document cannot resolve:\n1. '75/120 days' is read as quarterly 75 / annual 120 from period end. The term sheet spells out neither, and ties the SEC later-date extension to 'delivery of quarterlies' only. Both rows say so.\n2. First covenant test: 'fiscal quarter ending August 31, 2025' and 'first full fiscal quarter after the Closing Date' may not coincide. The term sheet is undated and gives no Closing Date. Both are recorded.\n3. Covenant Fall-Away Event: the operative text says '(A) ... or (B)' but then refers to 'clauses (A) and (B) collectively'. The record reads it as either limb; the inconsistency is in the reviewer note only, not the printed line.\n4. Survival of the financial, liens, mergers and business covenants after a Covenant Fall-Away Event is derived from their absence from the Terminated Covenants list, and is marked as derived in every row. The Negative Covenants section itself only speaks of the position 'Prior to the Covenant Fall-Away Event'.\n5. Transferability: Carnival Corporation's consent right is inferred from the carve-out for payment or bankruptcy events of default; it is marked as derived.\n6. Guarantors: the named list is introduced by 'including' and may not be exhaustive. The 'at least two of the Ratings Agencies' trigger was verified on page 1 but cannot be quoted within the three-quote cap.\n7. Three lines exceed the ~250-character guideline (guarantors line 3 at 266, other_covenants line 6 at 286, transferability line 1 at 259). All are under the 420 hard limit and were left, because shortening would drop list items or the derived-point marker."
+ },
+ "doc": {
+  "kind": "term_sheet",
+  "title": "Carnival Corporation and Carnival plc Revolving Credit Facility Summary of Principal Terms and Conditions",
+  "date": "",
+  "notes": "Undated 'Posting Version' summary of principal indicative terms for a new $4 billion senior unsecured revolving credit facility for Carnival Corporation and Carnival plc (14 pages). The terms are on pages 1-8 (sections I-IX, label column and value column); Annex I (pages 9-12) covers interest and fees and Annex I-B (pages 13-14) the ratings-based pricing grid. It is a new facility, not an amendment, so there are no existing / proposed columns; termination of the Existing Revolving Facility (February 28, 2023) is a condition precedent. Covenant, event of default and assignment detail is deferred to the 'Documentation Principles' (the Existing Revolving Facility, the 2020 and 2023 Term Loan Agreements and a February 28, 2025 indenture): no basket amounts or default thresholds are given, and no lender commitments are stated."
+ },
+ "fields": {
+  "facility": {
+   "lines": [
+    "$4.0bn senior unsecured multicurrency RCF (US dollars, euros, pounds sterling and any additional currencies agreed after the Closing Date)",
+    "Sub-limits: swingline up to $1.0bn (in euros, same-day notice; reduces availability dollar-for-dollar); letters of credit up to $500m"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "aggregate principal amount of $4 billion, denominated in U.S. dollars, euros, pounds sterling and any additional currencies",
+     "page": 2
+    },
+    {
+     "quote": "which the Borrowers may make short-term borrowings of up to $1.0 billion in euros on same -day notice",
+     "page": 3
+    },
+    {
+     "quote": "Up to $500.0 million of the Facility will be available in the form of letters of credit",
+     "page": 3
+    }
+   ],
+   "note": "Amount printed as '$4 billion'. Each Swingline Lender and Issuing Bank has its own sub-commitment (amounts not given)."
+  },
+  "borrowers": {
+   "lines": [
+    "Carnival Corporation - a Panamanian corporation",
+    "Carnival plc - a company incorporated and registered under the laws of England and Wales",
+    "Together the 'Borrowers' or the 'Company'; no right to add subsidiary or designated borrowers is stated"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "(i) Carnival Corporation, a Panamanian corporation",
+     "page": 1
+    },
+    {
+     "quote": "(ii) Carnival plc , a company incorporated and registered under the laws of England and Wales",
+     "page": 1
+    },
+    {
+     "quote": "(together with Carnival Corporation, the “ Borrowers” or the “Company”)",
+     "page": 1
+    }
+   ],
+   "note": "The borrower under the Existing Revolving Facility is a different entity (Carnival Holdings (Bermuda) II Limited); it is not a borrower here."
+  },
+  "lender_commitments": {
+   "lines": [
+    "Barclays = not stated in term sheet",
+    "No commitments stated. Administrative Agent: JPMorgan Chase Bank, N.A.; Lead Arrangers and Bookrunners: JPMorgan Chase Bank, N.A. and certain other financial institutions (not named); Lenders: a syndicate including JPMorgan"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "JPMorgan Chase Bank, N.A. (“JPMorgan”) and certain other",
+     "page": 1
+    },
+    {
+     "quote": "JPMorgan (in such capacity, the “Administrative Agent”)",
+     "page": 2
+    },
+    {
+     "quote": "A syndicate of banks, financial institutions and other entities, including JPMorgan, arranged by the Lead Arrangers",
+     "page": 2
+    }
+   ],
+   "note": "Barclays is not named anywhere in the term sheet, so no title can be given. JPMorgan is also named as a Swingline Lender and an Issuing Bank."
+  },
+  "purpose": {
+   "lines": [
+    "General corporate purposes and working capital, and any other use not prohibited by the Credit Documentation",
+    "Termination of the Existing Revolving Facility (Facilities Agreement for Multicurrency Revolving Facilities dated February 28, 2023, as amended) is a condition precedent to closing; refinancing it is not itself listed as a use of proceeds"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "used for working capital and general corporate purposes and any other use not prohibited by Credit Documentation",
+     "page": 2
+    },
+    {
+     "quote": "Consistent with conditions precedent customary for transactions of this type of facility, and including the termination of the Existing Revolving Facility",
+     "page": 5
+    }
+   ],
+   "note": "Second line is context from the Conditions Precedent section, not from the Purpose section. Up to $500m of the Facility may be used as letters of credit (see Facility)."
+  },
+  "maturity": {
+   "lines": [
+    "5 years after the Closing Date (the 'Termination Date')",
+    "No extension options stated in term sheet"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "is five (5) years after the Closing Date (the “Termination Date ”)",
+     "page": 2
+    }
+   ],
+   "note": "The Closing Date is the date the conditions precedent are satisfied or waived; no calendar date is printed. Any Incremental Facility must mature no earlier than the existing Revolving Loans (see Accordion)."
+  },
+  "repayment": {
+   "lines": [
+    "Bullet (revolving; no amortisation, all amounts outstanding due and payable on the Termination Date; amounts repaid may be reborrowed)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "Termination Date with no amortization and with all amounts outstanding thereunder due and payable on the Termination Date",
+     "page": 2
+    },
+    {
+     "quote": "Amounts repaid may be reborrowed.",
+     "page": 2
+    }
+   ],
+   "note": ""
+  },
+  "accordion": {
+   "lines": [
+    "Yes = up to $1.0bn of incremental revolving commitments (each an 'Incremental Facility'; treated as additional Initial Revolving Commitments under the Facility)",
+    "Uncommitted: no existing Lender is required to participate without its consent",
+    "Conditions: representations and warranties of the Guarantors true and correct in all material respects; no default or event of default existing or resulting; no ratio test or minimum increment stated",
+    "Terms: consistent with, or (taken as a whole) not materially more favourable to the incremental lenders than, the existing Revolving Loans, or otherwise reasonably satisfactory to the Administrative Agent (including as to guarantees and collateral)",
+    "Final maturity no earlier than the maturity date of the then existing Revolving Loans"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "“Incremental Facility”) in an aggregate principal amount of up to $1.0 billion ; provided that (i) no existing Lender will be required to participate in any such Incremental Facility without its consent",
+     "page": 3
+    },
+    {
+     "quote": "no default or event of default under the Facility exists or would exist after giving effect thereto",
+     "page": 3
+    },
+    {
+     "quote": "will have a final maturity date no earlier than the maturity date of the then existing Revolving Loans",
+     "page": 3
+    }
+   ],
+   "note": "The bring-down of representations refers to those 'of the Guarantors' only, as printed."
+  },
+  "guarantors": {
+   "lines": [
+    "Customary guarantees from each Borrower (other than for its own obligations) and each subsidiary of any Borrower that guarantees the Closing Date Term Loan Credit Agreements (2020 and 2023 Term Loan Agreements), subject to the Guarantee Fall-Away Event",
+    "Consistent with the Existing Revolving Facility, including: Carnival Corporation, Carnival plc, HAL Antillen N.V., Holland America Line N.V., Cruiseport Curacao C.V., Princess Cruise Lines, Ltd., Seabourn Cruise Line Limited, Costa Crociere S.p.A. and GXI, LLC",
+    "Release (Guarantee Fall-Away Event): once Carnival Corporation (or, if it is not rated, Carnival plc) has Investment Grade corporate / issuer ratings (Baa3 / BBB- or better) from at least two of Moody's, S&P and Fitch and no default or event of default is continuing",
+    "The release is permanent: it applies regardless of whether those conditions continue to be satisfied"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "including Carnival Corporation, Carnival plc, HAL Antillen N.V., Holland America Line N.V., Cruiseport Curacao C.V., Princess Cruise Lines, Ltd., Seabourn Cruise Line Limited, Costa Crociere S.p.A., and GXI, LLC.",
+     "page": 1
+    },
+    {
+     "quote": "shall be provided by each Borrower (other than with respect to its own obligations) and each subsidiary of any Borrower who guarantees the Closing Date Term Loan Credit Agreements",
+     "page": 4
+    },
+    {
+     "quote": "“Guarantee Fall-Away Event”) the guarantees shall be released, regardless of whether the conditions set forth in the foregoing clauses (i) and (ii) continue to be satisfied. “Investment Grade Rating” means “Baa3” by Moody’s or “BBB-” by S&P or Fitch",
+     "page": 1
+    }
+   ],
+   "note": "The named list is introduced by 'including', so it may not be exhaustive: the full guarantor group is whoever guarantees the two term loan agreements. The 'at least two of the Ratings Agencies' condition is on page 1 (not quoted because of the three-quote limit)."
+  },
+  "guarantor_coverage": {
+   "lines": [
+    "None stated in term sheet",
+    "Guarantors are set by reference to the subsidiaries that guarantee the Closing Date Term Loan Credit Agreements; no asset / EBITDA / turnover threshold or material-subsidiary test is given"
+   ],
+   "status": "not_stated",
+   "evidence": [
+    {
+     "quote": "each subsidiary of any Borrower who guarantees the Closing Date Term Loan Credit Agreements",
+     "page": 4
+    }
+   ],
+   "note": ""
+  },
+  "security": {
+   "lines": [
+    "Unsecured",
+    "No collateral; a double negative pledge keeps three subject vessels unencumbered until a Covenant Fall-Away Event (see Negative Pledge)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The Facility will be unsecured.",
+     "page": 4
+    },
+    {
+     "quote": "double negative pledge with respect to subject vessels (consisting of Carnival Celebration, P&O Arvia and Venezia), which vessels will remain unencumbered",
+     "page": 7
+    }
+   ],
+   "note": "An Incremental Facility may have 'such other terms (including as to guarantees and collateral)' as are reasonably satisfactory to the Administrative Agent (page 3). The only other mention of collateral for this Facility is cash collateral or another backstop for a letter of credit renewed beyond the fifth business day before final maturity (page 4)."
+  },
+  "ranking": {
+   "lines": [
+    "Senior Unsecured (described as 'a senior unsecured revolving credit facility'); guaranteed by the subsidiaries that guarantee the Closing Date Term Loan Credit Agreements, until the Guarantee Fall-Away Event",
+    "The Closing Date Term Loan Credit Agreements are secured: each has a security agent and the term sheet refers to 'all collateral in connection therewith' (derived; the term sheet does not say how the Facility ranks against those term loans)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "A senior unsecured revolving credit facility (the “Facility”) in an",
+     "page": 2
+    },
+    {
+     "quote": "refinanced in full with any unsecured debt (whether in the form of loans or notes) and all collateral in connection therewith has been released",
+     "page": 7
+    },
+    {
+     "quote": "National Association (as successor to U.S. Bank National Association), as security agent, and the lenders and other parties",
+     "page": 4
+    }
+   ],
+   "note": "First line is express. Second line gives only what the term sheet shows about the term loans: a 'security agent' is named for each term loan agreement and the Covenant Fall-Away Event refers to 'all collateral in connection therewith'; that the term loans are secured is derived from those two references. The term sheet does not describe that collateral or make any statement on how the Facility ranks against the term loans."
+  },
+  "fc_leverage": {
+   "lines": [
+    "Debt to Capitalization Ratio <= 65.0% as of each Testing Date (ratio to be defined in a manner consistent with the Existing Revolving Facility; no step-downs or step-ups stated)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "the Debt to Capitalization Ratio (to be defined in the Credit Documentation in a manner consistent with the Existing Revolving Facility) to exceed 65.0%",
+     "page": 6
+    }
+   ],
+   "note": "The only leverage-type test is debt to capitalisation; there is no Net Debt / EBITDA covenant."
+  },
+  "fc_interest_cover": {
+   "lines": [
+    "Interest Coverage Ratio >= 2.50x for any Testing Date on or prior to November 30, 2025, then >= 3.00x for any Testing Date from February 28, 2026 onward (to be defined in a manner consistent with the Existing Revolving Facility; components not given)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "to be less than, (i) 2.50 to 1.00, for any Testing Date on or prior to November 30, 2025, and (ii) 3.00 to 1.00, for any Testing Date from February 28, 2026 onward",
+     "page": 6
+    },
+    {
+     "quote": "the Interest Coverage Ratio (to be defined in the Credit Documentation in a manner consistent with the Existing Revolving Facility)",
+     "page": 6
+    }
+   ],
+   "note": ""
+  },
+  "fc_other": {
+   "lines": [
+    "Other: none (the Financial Covenants section contains only the Debt to Capitalization Ratio and Interest Coverage Ratio tests)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "The Borrowers shall not permit:",
+     "page": 6
+    },
+    {
+     "quote": "the Debt to Capitalization Ratio (to be defined in the Credit Documentation in a manner consistent with the Existing Revolving Facility) to exceed 65.0% ; and",
+     "page": 6
+    },
+    {
+     "quote": "2. as of any Testing Date, commencing with the Testing Date for the fiscal quarter ending August 31, 2025, the Interest Coverage Ratio",
+     "page": 6
+    }
+   ],
+   "note": "Read as a closed list of two numbered covenants ('1. ... ; and 2. ...'); there is no express statement that there are no others."
+  },
+  "fc_testing": {
+   "lines": [
+    "Tested quarterly, as of the last day of each fiscal quarter of the Borrowers (each a 'Testing Date'); measurement period (e.g. rolling 12 months) not stated - left to ratio definitions consistent with the Existing Revolving Facility",
+    "First test: Testing Date for the fiscal quarter ending August 31, 2025; the term sheet also says the Financial Covenants commence with the first full fiscal quarter after the Closing Date",
+    "No springing condition. The financial covenants are not among the Terminated Covenants, so they continue after a Covenant Fall-Away Event (derived from the list of Terminated Covenants)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "as of the last day of any fiscal quarter of the Borrowers (each such date, a “Testing Date”) , commencing with the Testing Date for the fiscal quarter ending August 31, 2025",
+     "page": 6
+    },
+    {
+     "quote": "The Financial Covenants will commence with the first full fiscal quarter after the Closing Date.",
+     "page": 6
+    },
+    {
+     "quote": "payment restrictions affecting restricted subsidiaries shall be of no further force and effect (collectively, the “Terminated Covenants”)",
+     "page": 7
+    }
+   ],
+   "note": "Two statements on the first test date (quarter ending August 31, 2025; first full fiscal quarter after the Closing Date) may not coincide, depending on when closing occurs. 'Quarterly' follows from 'the last day of any fiscal quarter'."
+  },
+  "select_definitions": {
+   "lines": [
+    "Adjusted EBITDA: no EBITDA definition, add-backs or pro forma adjustments given; the Debt to Capitalization Ratio and Interest Coverage Ratio are 'to be defined in the Credit Documentation in a manner consistent with the Existing Revolving Facility'"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "the Debt to Capitalization Ratio (to be defined in the Credit Documentation in a manner consistent with the Existing",
+     "page": 6
+    },
+    {
+     "quote": "Coverage Ratio (to be defined in the Credit Documentation in a manner consistent with the Existing Revolving Facility)",
+     "page": 6
+    }
+   ],
+   "note": "Equity cures, deemed cures and synergies are not addressed anywhere in the term sheet, so no lines are given for them. Points to the Existing Revolving Facility (Facilities Agreement dated February 28, 2023, as amended March 28, 2024)."
+  },
+  "negative_pledge": {
+   "lines": [
+    "Limitation on liens, to be consistent with / substantially the same as the Carnival Indenture Precedent (indenture dated February 28, 2025); permitted-lien baskets not detailed in term sheet",
+    "Double negative pledge on the subject vessels (Carnival Celebration, P&O Arvia and Venezia): they must remain unencumbered and not subject to a negative pledge under any other instrument or agreement, until a Covenant Fall-Away Event",
+    "On a Covenant Fall-Away Event the double negative pledge terminates (it is a Terminated Covenant); the liens covenant is not among the Terminated Covenants, so it continues (derived from that list - see Other)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "liens, to be consistent with the Carnival Indenture Precedent;",
+     "page": 7
+    },
+    {
+     "quote": "which vessels will remain unencumbered and not subject to a negative pledge under any other instrument or agreement, in each case until the occurrence of a Covenant Fall-Away Event",
+     "page": 7
+    },
+    {
+     "quote": "except for the negative covenants relating to liens, mergers and consolidations and business of the loan parties and subsidiaries, which shall be substantially the same as the Carnival Indenture Precedent",
+     "page": 5
+    }
+   ],
+   "note": "by_reference because the permitted-security baskets sit in the Carnival Indenture Precedent; the double negative pledge on the three vessels is the one point the term sheet states in full. No value or other description of the vessels is given. That the liens covenant survives a Covenant Fall-Away Event is derived from its absence from the Terminated Covenants (list quoted under Other and Financial Covenants testing)."
+  },
+  "permitted_acquisitions": {
+   "lines": [
+    "No acquisitions or investments covenant is listed; prior to the Covenant Fall-Away Event the negative covenant package is by reference to the Closing Date Term Loan Credit Agreements (open list - 'including'), with no baskets detailed in term sheet",
+    "Mergers and consolidations follow the Carnival Indenture Precedent (see Other)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Prior to the Covenant Fall-Away Event, substantially the same as the Closing Date Term Loan Credit Agreements, except as noted below, including:",
+     "page": 6
+    },
+    {
+     "quote": "mergers and consolidations, consistent with the Carnival Indenture Precedent;",
+     "page": 7
+    }
+   ],
+   "note": "Whether acquisitions are restricted at all depends on the term loan agreements; the term sheet's own list does not mention acquisitions or investments."
+  },
+  "permitted_disposals": {
+   "lines": [
+    "'Sale of assets' negative covenant, substantially the same as the Closing Date Term Loan Credit Agreements; baskets and conditions not detailed in term sheet",
+    "A Terminated Covenant: of no further force and effect from a Covenant Fall-Away Event (see Other)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Prior to the Covenant Fall-Away Event, substantially the same as the Closing Date Term Loan Credit Agreements, except as noted below, including:",
+     "page": 6
+    },
+    {
+     "quote": "sale of assets;",
+     "page": 7
+    },
+    {
+     "quote": "vessels, payment of restricted payments, sales of assets, limitation on issuance of guarantee of indebtedness and dividend and other",
+     "page": 7
+    }
+   ],
+   "note": ""
+  },
+  "permitted_distributions": {
+   "lines": [
+    "'Payment of restricted payments' negative covenant, substantially the same as the Closing Date Term Loan Credit Agreements; baskets not detailed in term sheet",
+    "A Terminated Covenant: of no further force and effect from a Covenant Fall-Away Event (see Other)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Prior to the Covenant Fall-Away Event, substantially the same as the Closing Date Term Loan Credit Agreements, except as noted below, including:",
+     "page": 6
+    },
+    {
+     "quote": "payment of restricted payments;",
+     "page": 7
+    },
+    {
+     "quote": "preferred stock, double negative pledge with respect to subject vessels, payment of restricted payments, sales of assets, limitation",
+     "page": 7
+    }
+   ],
+   "note": "A separate listed covenant on 'dividend and other payment restrictions affecting restricted subsidiaries' concerns restrictions on subsidiaries' ability to pay up; it is recorded under Other."
+  },
+  "permitted_indebtedness": {
+   "lines": [
+    "'Incurrence of indebtedness and issuance of preferred stock' negative covenant, substantially the same as the Closing Date Term Loan Credit Agreements; baskets not detailed in term sheet",
+    "A Terminated Covenant: of no further force and effect from a Covenant Fall-Away Event (see Other)",
+    "Guarantees of indebtedness are a separately listed covenant (see Permitted Guarantees)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Prior to the Covenant Fall-Away Event, substantially the same as the Closing Date Term Loan Credit Agreements, except as noted below, including:",
+     "page": 6
+    },
+    {
+     "quote": "incurrence of indebtedness and issuance of preferred stock;",
+     "page": 7
+    },
+    {
+     "quote": "covenants related to incurrence of indebtedness and issuance of preferred stock, double negative pledge with respect to subject",
+     "page": 7
+    }
+   ],
+   "note": ""
+  },
+  "permitted_loans": {
+   "lines": [
+    "No loans or investments covenant is listed in the term sheet; prior to the Covenant Fall-Away Event the negative covenant package is by reference to the Closing Date Term Loan Credit Agreements (open list - 'including'), with no baskets detailed"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Prior to the Covenant Fall-Away Event, substantially the same as the Closing Date Term Loan Credit Agreements, except as noted below, including:",
+     "page": 6
+    },
+    {
+     "quote": "the Covenant Fall-Away Event (as defined below), be substantially the same as the Closing Date Term Loan Credit Agreements",
+     "page": 5
+    }
+   ],
+   "note": "The term sheet does not say whether loans and investments are dealt with inside the restricted payments covenant of the term loan agreements."
+  },
+  "permitted_guarantees": {
+   "lines": [
+    "'Limitation on issuance of guarantee of indebtedness' - a separately listed negative covenant, substantially the same as the Closing Date Term Loan Credit Agreements; baskets not detailed in term sheet",
+    "A Terminated Covenant: of no further force and effect from a Covenant Fall-Away Event (see Other)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Prior to the Covenant Fall-Away Event, substantially the same as the Closing Date Term Loan Credit Agreements, except as noted below, including:",
+     "page": 6
+    },
+    {
+     "quote": "limitation on issuance of guarantee of indebtedness; and",
+     "page": 7
+    },
+    {
+     "quote": "on issuance of guarantee of indebtedness and dividend and other payment restrictions affecting restricted subsidiaries shall be of no further force and effect",
+     "page": 7
+    }
+   ],
+   "note": ""
+  },
+  "permitted_payments": {
+   "lines": [
+    "No covenant on payments of junior or subordinated debt is listed separately in the term sheet",
+    "Prior to the Covenant Fall-Away Event the negative covenant package, including 'payment of restricted payments' (see Permitted Distributions), follows the Closing Date Term Loan Credit Agreements - no detail in term sheet"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Prior to the Covenant Fall-Away Event, substantially the same as the Closing Date Term Loan Credit Agreements, except as noted below, including:",
+     "page": 6
+    },
+    {
+     "quote": "payment of restricted payments;",
+     "page": 7
+    }
+   ],
+   "note": "The term sheet does not say whether the restricted payments covenant extends to prepayments of junior debt."
+  },
+  "other_covenants": {
+   "lines": [
+    "Negative covenants apply to the Company and its restricted subsidiaries; prior to the Covenant Fall-Away Event they are substantially the same as the Closing Date Term Loan Credit Agreements (open list - 'including'; no baskets given)",
+    "Mergers and consolidations, and business of the loan parties and subsidiaries: each consistent with the Carnival Indenture Precedent (indenture dated February 28, 2025)",
+    "Dividend and other payment restrictions affecting restricted subsidiaries: per the Closing Date Term Loan Credit Agreements; a Terminated Covenant",
+    "Transactions with affiliates: an affirmative covenant, applying only prior to the Covenant Fall-Away Event",
+    "Covenant Fall-Away Event: (A) both Closing Date Term Loan Credit Agreements refinanced in full with unsecured debt, all their collateral released and no default or event of default continuing, or (B) the Guarantee Fall-Away Event; permanent once it occurs",
+    "Terminated Covenants: transactions with affiliates, indebtedness / preferred stock, double negative pledge, restricted payments, sales of assets, guarantees of indebtedness and subsidiary payment restrictions (liens, mergers and business covenants are not listed, so continue - derived)",
+    "Restricted / unrestricted subsidiaries: designation covenant; Unrestricted Subsidiaries 'Consistent with the Closing Date Term Loan Credit Agreements'",
+    "Other affirmative covenants listed: approvals and other consents, compliance with laws, notices of litigation and other events, payment of taxes, insurance, books and records, use of proceeds, corporate existence and maintenance of properties"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "except for the negative covenants relating to liens, mergers and consolidations and business of the loan parties and subsidiaries, which shall be substantially the same as the Carnival Indenture Precedent",
+     "page": 5
+    },
+    {
+     "quote": "(A)(i) both of the Closing Date Term Loan Credit Agreements are refinanced in full with any unsecured debt (whether in the form of loans or notes) and all collateral in connection therewith has been released",
+     "page": 7
+    },
+    {
+     "quote": "transaction with affiliates affirmative covenant and the negative covenants related to incurrence of indebtedness and issuance of preferred stock, double negative pledge with respect to subject vessels, payment of restricted payments, sales of assets",
+     "page": 7
+    }
+   ],
+   "note": "The list of covenants and the Covenant Fall-Away Event are stated in full; the content of each covenant is by reference to the term loan agreements or the indenture. The definition says '(A) ... or (B)' but then refers to 'clauses (A) and (B) collectively'; read here as either. That the liens, mergers and business covenants survive the event is derived from their absence from the Terminated Covenants. No sanctions / anti-corruption, sale and leaseback or most-favoured-nation undertaking is listed. Affirmative covenant list is on page 6 and 'Unrestricted Subsidiaries' on page 7 (not quoted: three-quote limit)."
+  },
+  "events_of_default": {
+   "lines": [
+    "Cross default: threshold not given - Events of Default are 'Consistent with the Documentation Principles' (due regard to the Existing Revolving Facility, the Closing Date Term Loan Credit Agreements and the Carnival Indenture Precedent)",
+    "Insolvency / creditors' process: thresholds and grace periods not given - by reference to the Documentation Principles, as above",
+    "Events of default apply to the Company and applicable subsidiaries; to be customary for financings of this type, with exceptions, qualifications and materiality thresholds to be mutually agreed"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Events of Default: Consistent with the Documentation Principles.",
+     "page": 7
+    },
+    {
+     "quote": "(iii) events of default that will be applicable to the Company and applicable subsidiaries, in each case customary for financings of this type and subject to exceptions, qualifications and materiality thresholds, as appropriate, to be mutually agreed upon",
+     "page": 5
+    },
+    {
+     "quote": "shall give due regard to the Existing Revolving Facility, the Closing Date Term Loan Credit Agreements and that certain indenture, dated as of February 28, 2025",
+     "page": 5
+    }
+   ],
+   "note": "No individual event of default is described. The only other references are to 'a payment or bankruptcy event of default' (Assignments and Participations) and to defaults blocking the fall-away events; Annex I sets default interest at 2% per annum on overdue amounts."
+  },
+  "conditions_subsequent": {
+   "lines": [
+    "None stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "Only conditions precedent (customary, including termination of the Existing Revolving Facility) and ongoing conditions to each credit extension are addressed (page 5)."
+  },
+  "mandatory_prepayment": {
+   "lines": [
+    "Change of Control: not stated in term sheet",
+    "Other: no mandatory prepayment events stated in term sheet (it provides only for voluntary prepayments and voluntary commitment reductions)"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": "The term sheet has no mandatory prepayment section and never mentions change of control; it does not say expressly that there are none. Voluntary prepayments / reductions are on page 2. Events of default are by reference to the Documentation Principles, so a change of control default cannot be ruled in or out from this document."
+  },
+  "jurisdiction_topco": {
+   "lines": [
+    "Panama (Carnival Corporation) and United Kingdom - England and Wales (Carnival plc); the two Borrowers are together defined as the 'Company' and no single parent above them is named"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "(i) Carnival Corporation, a Panamanian corporation",
+     "page": 1
+    },
+    {
+     "quote": "(ii) Carnival plc , a company incorporated and registered under the laws of England and Wales",
+     "page": 1
+    }
+   ],
+   "note": "Two top companies are given because the term sheet treats both Borrowers together as the Company. Governing law of the Facility is the State of New York (page 8)."
+  },
+  "transferability": {
+   "lines": [
+    "Borrower consent (of Carnival Corporation; derived from the carve-out): not required for any assignment or participation while a payment or bankruptcy event of default is continuing; all other terms 'Consistent with the Documentation Principles', not detailed",
+    "Transferee restrictions (disqualified lenders, competitors, etc.), minimum amounts, other consents and participations: not detailed in term sheet (by reference to the Documentation Principles)"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Consistent with the Documentation Principles, provided that no",
+     "page": 7
+    },
+    {
+     "quote": "consent of Carnival Corporation shall be required with respect to",
+     "page": 7
+    },
+    {
+     "quote": "any assignment or participation if a payment or bankruptcy event of default has occurred and is continuing.",
+     "page": 8
+    }
+   ],
+   "note": "The sentence runs from page 7 to page 8 and is interrupted on page 7 by the second label line ('Participations:'), hence three short quotes. The term sheet never says in terms that Carnival Corporation's consent is required; that is inferred from the exception. Points to the Documentation Principles (Existing Revolving Facility, term loan agreements, indenture)."
+  },
+  "info_annual_consolidated": {
+   "lines": [
+    "Annual audited accounts - within 120 days of financial year end (term sheet: 'within 75/120 days' for quarterly / annual statements; reference date not spelled out; unclear whether the SEC later-date extension, printed for quarterlies, also applies)",
+    "Requirement regarding absence of going concern qualifications, with carve-outs for (x) prospective financial covenant defaults and (y) debt maturities within one year"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "quarterly unaudited and annual audited financial statements, and other information (within 75/ 120 days or such later date as otherwise permitted by the SEC, if applicable, for delivery of quarterlies",
+     "page": 6
+    },
+    {
+     "quote": "requirement shall include carveouts for (x) prospective financial covenant defaults and (y) upcoming debt maturities within one year",
+     "page": 6
+    }
+   ],
+   "note": "'75/120 days' is read in the order of the sentence (quarterly 75, annual 120) and as running from the period end; neither is spelled out. The word 'consolidated' is not used. As printed, the 'such later date as otherwise permitted by the SEC' extension refers to delivery of quarterlies."
+  },
+  "info_annual_obligor": {
+   "lines": [
+    "Annual obligor accounts - not stated in term sheet"
+   ],
+   "status": "not_stated",
+   "evidence": [],
+   "note": ""
+  },
+  "info_quarterly": {
+   "lines": [
+    "Quarterly unaudited accounts - within 75 days of quarter end, or such later date as permitted by the SEC, if applicable (term sheet: 'within 75/120 days' for quarterly / annual statements; which quarters and the reference date are not spelled out)"
+   ],
+   "status": "stated",
+   "evidence": [
+    {
+     "quote": "quarterly unaudited and annual audited financial statements, and other information (within 75/ 120 days or such later date as otherwise permitted by the SEC, if applicable, for delivery of quarterlies",
+     "page": 6
+    }
+   ],
+   "note": "'75/120 days' is read in the order of the sentence (quarterly 75, annual 120)."
+  },
+  "info_budget": {
+   "lines": [
+    "Annual budget - not listed in term sheet; information covenants are 'Consistent with the Documentation Principles' and include unspecified 'other information'",
+    "Other: notices of litigation and other events; no compliance certificate or projections requirement is listed; Annex I-B refers to notice of Corporate Rating changes furnished by Carnival Corporation to the Administrative Agent and the Lenders"
+   ],
+   "status": "by_reference",
+   "evidence": [
+    {
+     "quote": "Consistent with the Documentation Principles, delivery of quarterly unaudited and annual audited financial statements, and other information",
+     "page": 6
+    },
+    {
+     "quote": "notices of litigation and other events; payment of taxes; insurance; books and records",
+     "page": 6
+    },
+    {
+     "quote": "when notice of such change shall have been furnished by Carnival Corporation to the Administrative Agent and the Lenders pursuant to the Credit Documentation or otherwise",
+     "page": 13
+    }
+   ],
+   "note": "No budget requirement appears. Marked by_reference rather than not_stated because the affirmative covenants are an unclosed list 'Consistent with the Documentation Principles' that includes 'other information'; a stricter reading is not_stated. The ratings notice is only implied by the pricing grid wording."
+  }
+ }
+}
