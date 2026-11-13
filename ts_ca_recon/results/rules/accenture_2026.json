@@ -1,0 +1,646 @@
+{
+ "rows": [
+  {
+   "id": "R01",
+   "attribute": "Facility amount / commitments",
+   "ts_value": "$2bn",
+   "ts_quote": "F TERMS AND CONDITIONS ACCENTURE CAPITAL INC., ACCENTURE GLOBAL CAPITAL DESIGNATED ACTIVITY COMPANY AND ACCENTURE FINANCE LIMITED $2,000,000,000 364-DAY REVOLVING CREDIT FACILITY Capitalized terms not otherwise defined herein have the same meanings as specifie",
+   "ts_location": "p. 1 (keyword \"facility\")",
+   "ca_value": "$2.175bn",
+   "ca_quote": "“Aggregate Commitments” means, at any time, the aggregate amount of the Commitments of all the Lenders at such time. As of the Closing Date, the Aggregate Commitments are US$2,175,000,000. ",
+   "ca_location": "p. 11 (definition \"Aggregate Commitments\")",
+   "status": "differs",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "NOT found anywhere in CA: $2bn.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    11
+   ]
+  },
+  {
+   "id": "R02",
+   "attribute": "Maturity date",
+   "ts_value": "1 yr",
+   "ts_quote": "The 364-Day Facility shall terminate, and all amounts outstanding thereunder shall be due and payable in full, 364 days from the Closing Date (the “Initial Maturity Date”), subject to the exercise of the Term-Out Option (as defined below).",
+   "ts_location": "p. 2 (label \"MATURITY\")",
+   "ca_value": "2027-04-21 (364 days after 2026-04-22)",
+   "ca_quote": "“Maturity Date” means the Termination Date; provided that if the Maturity Date shall have been extended pursuant to Section 2.04(b), the Maturity Date shall be the Extended Maturity Date; provided, further, that if such date is not a Business Day, the Maturity Date shall be the next preceding Busine",
+   "ca_location": "p. 31, 38, 48 (definition \"Maturity Date\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS tenor 1 yr = CA maturity 2027-04-21 measured from 2026-04-22 (agreement date).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    38
+   ]
+  },
+  {
+   "id": "R03",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "stated in words (no figures)",
+   "ts_quote": "Substantially similar to the Existing Credit Agreement, subject to the Documentation Principles, including: (i) all representations and warranties (other than, after the Closing Date, those relating to absence of material adverse effect or litigation) are true and correct in all material respects (o",
+   "ts_location": "p. 3, 4, 5 (label \"CONDITIONSPRECEDENTTO ALL CREDIT EXTENSIONS\")",
+   "ca_value": "not located in CA",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet addresses this in words only; compare the quoted text manually.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R04",
+   "attribute": "Swingline sublimit",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "not located in CA",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_applicable",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Neither document provides for this.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R05",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "$2bn",
+   "ts_quote": "ct of the Five -Year Facility increased pursuant to the section entitled “Increase Option” in Exhibit A to the Commitment Letter, $2,000,000,000, in the case of such increase after the Closing Date, on the terms and conditions substantially similar to those se",
+   "ts_location": "p. 2 (label \"INCREASEOPTION\")",
+   "ca_value": "$9.5bn, $100m",
+   "ca_quote": "2.14 Increase in Commitments. (a) Request for Increase. Provided there exists no Default, upon notice to the Administrative Agent (which shall promptly notify the Lenders), the Borrowing Agent may from time to time, request an increase in the Aggregate Commitments to an amount (for all such requests",
+   "ca_location": "p. 64 (section \"2.14 Increase in Commitments.\")",
+   "status": "differs",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "NOT found anywhere in CA: $2bn.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    64
+   ]
+  },
+  {
+   "id": "R06",
+   "attribute": "Extension option / term-out",
+   "ts_value": "The Borrowers may, by written notice to the Administrative Agent, request that the aggregate principal amount of loans under the 364-Day Facility outstanding on the Initial Maturity Date be converted on such date into te",
+   "ts_quote": "The Borrowers may, by written notice to the Administrative Agent, request that the aggregate principal amount of loans under the 364-Day Facility outstanding on the Initial Maturity Date be converted on such date into term loans that will mature on the date that is one year after the Initial Maturit",
+   "ts_location": "p. 2 (label \"TERM-OUTOPTION\")",
+   "ca_value": "“Term-Out Option” has the meaning specified in Section 2.04(b). ",
+   "ca_quote": "“Term-Out Option” has the meaning specified in Section 2.04(b). ",
+   "ca_location": "p. 31, 47, 84 (definition \"Term-Out Option\")",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Both documents contain a provision; compare the mechanics (number, notice, consent, fee) in the quotes.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    47
+   ]
+  },
+  {
+   "id": "R07",
+   "attribute": "Applicable margin / pricing grid",
+   "ts_value": "29.547 bps, 32.138 bps, 50 bps, 100 bps, 0 bps, 2.5 bps, 3.5 bps, 60 bps, 5 bps, 71.5 bps, 82.5 bps",
+   "ts_quote": "A+ / A1 0.025% Loans | A / A2 or 0.035% 0.600% 0.600% 0.0% | lower 0.050% 0.715% | 0.825% 0.715% 0.715% 0.0% | 0.825% 0.825% 0.0%",
+   "ts_location": "p. 10 (pricing table)",
+   "ca_value": "2.5 bps, 60 bps, 0 bps, 3.5 bps, 71.5 bps, 5 bps, 82.5 bps",
+   "ca_quote": "erm Rate Loans Applicable Rate for Alternative Currency Daily Rate Loans Applicable Rate for Base Rate Loans 1 AA- /Aa3 or better 0.025% 0.600% 0.600% 0.600% 0.600% 0.0% 2 A+/A1 0.035% 0.715% 0.715% 0.715% 0.715% 0.0% 3 A/A2 or lower 0.050% 0.825% 0.825% 0.825",
+   "ca_location": "p. 13 (definition \"Applicable Rate\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 2.5 bps, 3.5 bps, 60 bps, 5 bps, 71.5 bps, 82.5 bps, 29.547 bps, 100 bps. Found elsewhere in CA (check context): 32.138 bps (p. 10); 50 bps (p. 58).",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    13
+   ]
+  },
+  {
+   "id": "R08",
+   "attribute": "Commitment / facility fee",
+   "ts_value": "32.138 bps, 0 bps, 100 bps, 2.5 bps, 3.5 bps, 60 bps, 5 bps, 71.5 bps, 82.5 bps",
+   "ts_quote": "A+ / A1 0.025% Loans | A / A2 or 0.035% 0.600% 0.600% 0.0% | lower 0.050% 0.715% | 0.825% 0.715% 0.715% 0.0% | 0.825% 0.825% 0.0%",
+   "ts_location": "p. 10 (pricing table)",
+   "ca_value": "2.5 bps, 60 bps, 0 bps, 3.5 bps, 71.5 bps, 5 bps, 82.5 bps",
+   "ca_quote": "m Rate Loans Applicable Rate for Alternative Currency Daily Rate Loans Applicable Rate for Base Rate | Loans 1 AA- /Aa3 or better 0.025% 0.600% 0.600% 0.600% 0.600% 0.0% 2 A+/A1 0.035% 0.715% 0.715% 0.715% | 0.715% 0.0% 3 A/A2 or lower 0.050% 0.825% 0.825% 0.8",
+   "ca_location": "p. 13 (pricing table)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 2.5 bps, 3.5 bps, 60 bps, 5 bps, 71.5 bps, 82.5 bps. Found elsewhere in CA (check context): 32.138 bps (p. 10); 100 bps (p. 16, 21, 27, 32).",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R09",
+   "attribute": "Financial covenants",
+   "ts_value": "3.00x",
+   "ts_quote": "Limited to the maintenance, for any period of four consecutive fiscal quarters for which financial statements have been, or are required to be, delivered, of a minimum consolidated interest coverage ratio of 3.00 to 1.00.",
+   "ts_location": "p. 5 (label \"FINANCIALCOVENANT\")",
+   "ca_value": "3.00x",
+   "ca_quote": "r which the financial statements have been, or are required to be, delivered pursuant to Section 6.01(a) or 6.01(b), be less than 3.00 to 1.00.",
+   "ca_location": "p. 96 (section \"7.04 Financial Covenant.\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 3.00x.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    5
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    96
+   ]
+  },
+  {
+   "id": "R10",
+   "attribute": "Administrative agent",
+   "ts_value": "Bank of America , N.A. (“ Bank of America ”) will act as sole and exclusive administrative agent (the “Administrative Agent”).",
+   "ts_quote": "Bank of America , N.A. (“ Bank of America ”) will act as sole and exclusive administrative agent (the “Administrative Agent”).",
+   "ts_location": "p. 1 (label \"ADMINISTRATIVE AGENT\")",
+   "ca_value": "BANK OF AMERICA, N.A.",
+   "ca_quote": "BANK OF AMERICA, N.A.",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names BANK OF AMERICA, N.A.; each appears in the TS entry.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R11",
+   "attribute": "Borrower(s)",
+   "ts_value": "Accenture Capital Inc., a Delaware corporation (“Accenture Capital”), Accenture Global Capital Designated Activity Company, a designated activity company limited by shares incorporated under the laws of Ireland with comp",
+   "ts_quote": "Accenture Capital Inc., a Delaware corporation (“Accenture Capital”), Accenture Global Capital Designated Activity Company, a designated activity company limited by shares incorporated under the laws of Ireland with company number 669128, and Accenture Finance Limited, a private company limited by s",
+   "ts_location": "p. 1 (label \"BORROWERS\")",
+   "ca_value": "ACCENTURE GLOBAL CAPITAL DESIGNATED ACTIVITY COMPANY; ACCENTURE FINANCE LIMITED",
+   "ca_quote": "ACCENTURE GLOBAL CAPITAL DESIGNATED ACTIVITY COMPANY; ACCENTURE FINANCE LIMITED",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names ACCENTURE GLOBAL CAPITAL DESIGNATED ACTIVITY COMPANY; ACCENTURE FINANCE LIMITED; each appears in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R12",
+   "attribute": "Governing law",
+   "ts_value": "New York",
+   "ts_quote": "State of New York.",
+   "ts_location": "p. 7 (label \"GOVERNINGLAW\")",
+   "ca_value": "New York",
+   "ca_quote": "SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK. (b) SUBMISSION TO JURISDICTION. EACH OF THE PARTIES HERETO IRREVOCABLY AND UNCONDITIONALLY AGREES THAT IT WILL NOT COMMENCE ANY ACTION, LITIGATION OR PROCEEDING OF ANY KI",
+   "ca_location": "p. 124, 129 (governing-law clause)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Same governing law.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    7
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    124
+   ]
+  },
+  {
+   "id": "R13",
+   "attribute": "Security (secured vs unsecured)",
+   "ts_value": "unsecured",
+   "ts_quote": "",
+   "ts_location": "whole document",
+   "ca_value": "unsecured (no security documents defined)",
+   "ca_quote": "",
+   "ca_location": "definitions searched",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS: unsecured; CA: unsecured.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R14",
+   "attribute": "Benchmark rates",
+   "ts_value": "Term SOFR, SONIA, EURIBOR, CORRA, TIBOR, BBSY, SORA",
+   "ts_quote": "redeployment costs in the case of prepayment REDUCTIONS: of Term SOFR or Alternative Currency Term Rate borrowings on a DOCUMENTATION: day other than the last day of an interest period. CONDITIONS PRECEDENT The 364-Day Facility will be documented pursuant to a",
+   "ts_location": "p. 3",
+   "ca_value": "Term SOFR, Daily Simple SOFR, SONIA, EURIBOR, CORRA, TIBOR, BBSY, SORA",
+   "ca_quote": "evel Ratings S&P/Mo ody’s Facility Fee Applicab le Rate for Term SOFR Loans Applicable Rate for Daily Simple SOFR Loans Applicable Rate for Alternative Currency Term Rate Loans Applicable Rate for Alternative Currency Daily Rate Loans Applicable Rate for Base",
+   "ca_location": "p. 13",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Every item named in the TS appears in the CA. CA also has: Daily Simple SOFR.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    13
+   ]
+  },
+  {
+   "id": "R15",
+   "attribute": "Currencies",
+   "ts_value": "EUR",
+   "ts_quote": "tralia, Canada, Japan, Singapore and the United Kingdom, in Euro and in certain other readily available and freely PURPOSE: transferrable and convertible currencies requested by the Borrowers CLOSING DATE: and with respect to which certain conditions substanti",
+   "ts_location": "p. 2",
+   "ca_value": "EUR, GBP, JPY, CAD, AUD, SGD",
+   "ca_quote": "nformation for credit applications and credit agreements of €500 and above to the Central Credit Register. This information will be held on the Central Credit Register and may be used by other lenders when making decisions on your credit applications and credi",
+   "ca_location": "p. 9",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Every item named in the TS appears in the CA. CA also has: GBP, JPY, CAD, AUD, SGD.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    9
+   ]
+  }
+ ],
+ "trace": [
+  {
+   "type": "Date",
+   "ts_text": "03/26/2026",
+   "normalised": "2026-03-26",
+   "ts_page": 1,
+   "context": "[CS&M Draft—03/26/2026] EXHIBIT B SUMMARY OF TERMS AND CONDITIONS ACCENTURE CAPITAL INC., ACCENTURE GLOBAL CAPITAL DESIGNA",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$2,000,000,000",
+   "normalised": "$2bn",
+   "ts_page": 1,
+   "context": "INC., ACCENTURE GLOBAL CAPITAL DESIGNATED ACTIVITY COMPANY AND ACCENTURE FINANCE LIMITED $2,000,000,000 364-DAY REVOLVING CREDIT FACILITY Capitalized terms not otherwise defined herein have the same",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$2,000,000,000",
+   "normalised": "$2bn",
+   "ts_page": 1,
+   "context": "ons shall be acceptable to the Borrowers (collectively, the “Lenders”). 364-DAY FACILITY: $2,000,000,000 364-day senior revolving credit facility (the “364-Day Facility”), as such amount may be increa",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$2,000,000,000",
+   "normalised": "$2bn",
+   "ts_page": 2,
+   "context": "pursuant to the section entitled “Increase Option” in Exhibit A to the Commitment Letter, $2,000,000,000, in the case of such increase after the Closing Date, on the terms and conditions substantially",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50 basis points",
+   "normalised": "50 bps",
+   "ts_page": 2,
+   "context": "e, to the Administrative Agent, for the ratable account of the Lenders, a term-out fee of 50 basis points of the aggregate principal amount of the loans under the 364-Day Facility outstanding on the I",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "58"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.00 to 1.00",
+   "normalised": "3.00x",
+   "ts_page": 5,
+   "context": "n, or are required to be, delivered, of a minimum consolidated interest coverage ratio of 3.00 to 1.00. Substantially similar to the Existing Credit Agreement, subject to the Documentation Principles,",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "96"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$250,000,000",
+   "normalised": "$250m",
+   "ts_page": 5,
+   "context": "on defaults of other indebtedness of such persons, in each case in an amount in excess of $250,000,000; (v) bankruptcy and insolvency defaults (of any Borrower or the Guarantor or any significant subs",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$250,000,000",
+   "normalised": "$250m",
+   "ts_page": 5,
+   "context": "nvoluntary proceedings); (vi) monetary judgment defaults in an aggregate amount exceeding $250,000,000; (vii) invalidity of any loan documentation; (viii) change of control; and (ix) customary ERISA d",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$5,000,000",
+   "normalised": "$5m",
+   "ts_page": 5,
+   "context": "tion Principles, each Lender will be permitted to make assignments in a minimum amount of $5,000,000 to other financial institutions approved by the Administrative Agent and the Borrowers, which appro",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "20, 56, 116"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 6,
+   "context": "pproval of Lenders holding credit exposures and unused commitments representing more than 50% of the aggregate amount of credit exposures and unused commitments under the 364-Day Facility; provided th",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "14, 43"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.29547%",
+   "normalised": "29.547 bps",
+   "ts_page": 9,
+   "context": "r interest at a rate equal to (i) Term SOFR, Term CORRA (plus credit spread adjustment of 0.29547% per annum in the case of a one month interest period and 0.32138% per annum in the case of a three mo",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.32138%",
+   "normalised": "32.138 bps",
+   "ts_page": 9,
+   "context": "it spread adjustment of 0.29547% per annum in the case of a one month interest period and 0.32138% per annum in the case of a three month interest period), BBSY, SORA, SONIA, EURIBOR or TIBOR, as appl",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.50%",
+   "normalised": "50 bps",
+   "ts_page": 9,
+   "context": ", (b) the NYFRB Rate (to be defined in accordance with the Documentation Principles) plus 0.50% and (c) the one-month Term SOFR plus 1.00%) plus the Applicable Margin, as determined in accordance with",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "58"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.00%",
+   "normalised": "100 bps",
+   "ts_page": 9,
+   "context": "rdance with the Documentation Principles) plus 0.50% and (c) the one-month Term SOFR plus 1.00%) plus the Applicable Margin, as determined in accordance with the Performance Pricing grid set forth bel",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "16, 21, 27, 32"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0%",
+   "normalised": "0 bps",
+   "ts_page": 9,
+   "context": "m CORRA, BBSY, SORA, SONIA, EURIBOR and TIBOR shall in each case be subject to a floor of 0%, and the Alternate Base Rate shall be subject to a floor of 1.0%. The Borrowers may select interest periods",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "13, 32"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.0%",
+   "normalised": "100 bps",
+   "ts_page": 9,
+   "context": "e be subject to a floor of 0%, and the Alternate Base Rate shall be subject to a floor of 1.0%. The Borrowers may select interest periods of 1, 3 or 6 (other than in the case of Term CORRA) months. In",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "16, 21, 27, 32"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1%",
+   "normalised": "100 bps",
+   "ts_page": 9,
+   "context": "all obligations in the event of default under the 364-Day Facility at a rate per annum of 1% above the applicable interest rate. The 364-Day Facility Fee and the Applicable Margin for Term SOFR, Alter",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "16, 21, 27, 32"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.025%",
+   "normalised": "2.5 bps",
+   "ts_page": 10,
+   "context": "te AA- / Aa3 or Fee Currency Currency Base Rate better Loans Term Rate Daily Rate A+ / A1 0.025% Loans 0.600% Loans Loans A / A2 or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "13"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.600%",
+   "normalised": "60 bps",
+   "ts_page": 10,
+   "context": "or Fee Currency Currency Base Rate better Loans Term Rate Daily Rate A+ / A1 0.025% Loans 0.600% Loans Loans A / A2 or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0.0% 0.825% 0.",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "13"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.035%",
+   "normalised": "3.5 bps",
+   "ts_page": 10,
+   "context": "Rate better Loans Term Rate Daily Rate A+ / A1 0.025% Loans 0.600% Loans Loans A / A2 or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0.0% 0.825% 0.825% 0.0% CALCULATION OF Othe",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "13"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.600%",
+   "normalised": "60 bps",
+   "ts_page": 10,
+   "context": "etter Loans Term Rate Daily Rate A+ / A1 0.025% Loans 0.600% Loans Loans A / A2 or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0.0% 0.825% 0.825% 0.0% CALCULATION OF Other than",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "13"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.600%",
+   "normalised": "60 bps",
+   "ts_page": 10,
+   "context": "oans Term Rate Daily Rate A+ / A1 0.025% Loans 0.600% Loans Loans A / A2 or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0.0% 0.825% 0.825% 0.0% CALCULATION OF Other than calcula",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "13"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.0%",
+   "normalised": "0 bps",
+   "ts_page": 10,
+   "context": "rm Rate Daily Rate A+ / A1 0.025% Loans 0.600% Loans Loans A / A2 or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0.0% 0.825% 0.825% 0.0% CALCULATION OF Other than calculations i",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "13, 32"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.050%",
+   "normalised": "5 bps",
+   "ts_page": 10,
+   "context": "ly Rate A+ / A1 0.025% Loans 0.600% Loans Loans A / A2 or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0.0% 0.825% 0.825% 0.0% CALCULATION OF Other than calculations in respect o",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "13"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.715%",
+   "normalised": "71.5 bps",
+   "ts_page": 10,
+   "context": "A+ / A1 0.025% Loans 0.600% Loans Loans A / A2 or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0.0% 0.825% 0.825% 0.0% CALCULATION OF Other than calculations in respect of inter",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "13"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.825%",
+   "normalised": "82.5 bps",
+   "ts_page": 10,
+   "context": "1 0.025% Loans 0.600% Loans Loans A / A2 or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0.0% 0.825% 0.825% 0.0% CALCULATION OF Other than calculations in respect of interest at",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "13"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.715%",
+   "normalised": "71.5 bps",
+   "ts_page": 10,
+   "context": "% Loans 0.600% Loans Loans A / A2 or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0.0% 0.825% 0.825% 0.0% CALCULATION OF Other than calculations in respect of interest at the Alt",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "13"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.715%",
+   "normalised": "71.5 bps",
+   "ts_page": 10,
+   "context": "0.600% Loans Loans A / A2 or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0.0% 0.825% 0.825% 0.0% CALCULATION OF Other than calculations in respect of interest at the Alternate",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "13"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.0%",
+   "normalised": "0 bps",
+   "ts_page": 10,
+   "context": "Loans Loans A / A2 or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0.0% 0.825% 0.825% 0.0% CALCULATION OF Other than calculations in respect of interest at the Alternate Base Ra",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "13, 32"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.825%",
+   "normalised": "82.5 bps",
+   "ts_page": 10,
+   "context": "s Loans A / A2 or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0.0% 0.825% 0.825% 0.0% CALCULATION OF Other than calculations in respect of interest at the Alternate Base Rate IN",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "13"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.825%",
+   "normalised": "82.5 bps",
+   "ts_page": 10,
+   "context": "A / A2 or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0.0% 0.825% 0.825% 0.0% CALCULATION OF Other than calculations in respect of interest at the Alternate Base Rate INTEREST",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "13"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.0%",
+   "normalised": "0 bps",
+   "ts_page": 10,
+   "context": "or 0.035% 0.600% 0.600% 0.0% lower 0.050% 0.715% 0.825% 0.715% 0.715% 0.0% 0.825% 0.825% 0.0% CALCULATION OF Other than calculations in respect of interest at the Alternate Base Rate INTEREST AND FEE",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "13, 32"
+  }
+ ],
+ "document_notes": "",
+ "quote_check": {
+  "ts_checked": 13,
+  "ca_checked": 12,
+  "ts_found": 9,
+  "ca_found": 10
+ },
+ "generated_at": "2026-11-12T14:40:01+00:00",
+ "engine": "rules",
+ "deal": "Accenture 2026",
+ "ts_file": "Accenture  2026 TS.pdf",
+ "ca_file": "Accenture  2026 CA.pdf"
+}

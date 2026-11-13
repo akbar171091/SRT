@@ -1,0 +1,996 @@
+{
+ "rows": [
+  {
+   "id": "R01",
+   "attribute": "Facility amount / commitments",
+   "ts_value": "$1bn",
+   "ts_quote": "A $ 1,000,000,000 senior secured revolving credit facility (the“Revolver” or the “Senior Secured Revolving Credit Facility”), includ",
+   "ts_location": "p. 1 (label \"Senior Secured Revolving Credit Facility\")",
+   "ca_value": "$1bn",
+   "ca_quote": "The aggregate amount of the Lenders’ Revolving Commitments as of the Closing Date is $1,000,000,000.",
+   "ca_location": "p. 41 (definition \"Revolving Commitments\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $1bn. Other figures in the TS entry (not compared): $260m, $40m.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    42
+   ]
+  },
+  {
+   "id": "R02",
+   "attribute": "Maturity date",
+   "ts_value": "5 yr",
+   "ts_quote": "The Revolving Loans shall terminate, and all amounts outstanding thereunder shall be due and payable in full on the d ate that is five (5) years after the Closing Date.",
+   "ts_location": "p. 2 (label \"Maturity Date\")",
+   "ca_value": "2031-03-09 (1826 days after 2026-03-09)",
+   "ca_quote": "“Maturity Date” means (a) with respect to the Revolving Loans, March 9, 2031, and (b) with respect to Incremental Term Loans of any Class, the date specified as the scheduled final maturity date of the Incremental Term Loans of such Class in the applicable Incremental Term Loan Amendment. ",
+   "ca_location": "p. 34 (definition \"Maturity Date\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS tenor 5 yr = CA maturity 2031-03-09 measured from 2026-03-09 (agreement date).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    34
+   ]
+  },
+  {
+   "id": "R03",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "$1bn, $260m, $40m",
+   "ts_quote": "0,000,000 senior secured revolving credit facility (the“Revolver” or the “Senior Secured Revolving Credit Facility”), including a $260,000,000 sublimit for the issuance of standby letters of credit (each a “Letter of Credit ”), and a $40,000,000 sublimit for s",
+   "ts_location": "p. 1 (clause in \"Senior Secured Revolving Credit Facility\")",
+   "ca_value": "$260m, $50m",
+   "ca_quote": "“LC Commitment” means $260,000,000.",
+   "ca_location": "p. 32 (definition \"LC Commitment\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $260m, $1bn. Found elsewhere in CA (check context): $40m (p. 54).",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    32
+   ]
+  },
+  {
+   "id": "R04",
+   "attribute": "Swingline sublimit",
+   "ts_value": "$1bn, $260m, $40m",
+   "ts_quote": "t Facility”), including a $260,000,000 sublimit for the issuance of standby letters of credit (each a “Letter of Credit ”), and a $40,000,000 sublimit for swingline loans (each a “ Swingline Loan ”).",
+   "ts_location": "p. 1 (clause in \"Senior Secured Revolving Credit Facility\")",
+   "ca_value": "$40m",
+   "ca_quote": "(i) the aggregate principal amount of outstanding Swingline Loans exceeding $40,000,000 or",
+   "ca_location": "p. 54 (section \"Section 2.04 Swingline Loans.\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $40m, $1bn. Found elsewhere in CA (check context): $260m (p. 32).",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    54
+   ]
+  },
+  {
+   "id": "R05",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "$1.4bn, $1bn",
+   "ts_quote": "provided that the fixed dollar -based component of the grower cap in the definition of“Permitted Incremental Amount” as set forth in the Precedent Credit Agreement shall be increased to $1,400,000,000 (from $1,000,000,000).",
+   "ts_location": "p. 3 (label \"Incremental Facility\")",
+   "ca_value": "$1.4bn",
+   "ca_quote": "(x) $1,400,000,000 and",
+   "ca_location": "p. 37 (definition \"Permitted Incremental Amount\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $1.4bn. Found elsewhere in CA (check context): $1bn (p. 6, 12, 42).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    37
+   ]
+  },
+  {
+   "id": "R06",
+   "attribute": "Extension option / term-out",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "“Extending Lenders” has the meaning assigned to such term in Section 2.23. ",
+   "ca_quote": "“Extending Lenders” has the meaning assigned to such term in Section 2.23. ",
+   "ca_location": "p. 27 (definition \"Extending Lenders\")",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Not stated in the term sheet.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    27
+   ]
+  },
+  {
+   "id": "R07",
+   "attribute": "Applicable margin / pricing grid",
+   "ts_value": "100 bps, 25 bps, 75 bps, 175 bps, 150 bps, 50 bps, 20 bps, 125 bps, 0 bps",
+   "ts_quote": "(iii) the Base Rate plus the Applicable Margin. | “Applicable Margin” means a percentage per annum to be determined in | II Ratio 1.00% 0.25% | III Loans 0.75% 0.25% | IV > 4.50:1.00 | ≤ 4.50:1.00 but > | 3.50:1.00 1.75% | ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% |",
+   "ts_location": "p. 10 (pricing table)",
+   "ca_value": "903 bps, 25 bps, 20 bps, 218 bps, 100 bps, 200 bps, 75 bps, 175 bps, 50 bps, 150 bps, 125 bps, 501 bps",
+   "ca_quote": "rth below under the caption “Base Rate Spread”, or “SOFR Spread”, as the | Leverage Ratio: Base Rate Spread (%) SOFR Spread (%) | 1.00 2.00 | Category 1 0.75 1.75 | > 4.50 to 1.00 0.50 1.50 | 0.25 1.25 | Category 2 0.00 1.00 | > 3.50 to 1.00 but ≤ 4.50 to 1.00",
+   "ca_location": "p. 9 (pricing table)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 100 bps, 25 bps, 75 bps, 175 bps, 150 bps, 50 bps, 20 bps, 125 bps.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R08",
+   "attribute": "Commitment / facility fee",
+   "ts_value": "100 bps, 25 bps, 75 bps, 175 bps, 150 bps, 50 bps, 20 bps, 125 bps, 0 bps",
+   "ts_quote": "(iii) the Base Rate plus the Applicable Margin. | “Applicable Margin” means a percentage per annum to be determined in | II Ratio 1.00% 0.25% | III Loans 0.75% 0.25% | IV > 4.50:1.00 | ≤ 4.50:1.00 but > | 3.50:1.00 1.75% | ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% |",
+   "ts_location": "p. 10 (pricing table)",
+   "ca_value": "903 bps, 25 bps, 20 bps, 218 bps, 100 bps, 200 bps, 75 bps, 175 bps, 50 bps, 150 bps, 125 bps, 501 bps",
+   "ca_quote": "rth below under the caption “Base Rate Spread”, or “SOFR Spread”, as the | Leverage Ratio: Base Rate Spread (%) SOFR Spread (%) | 1.00 2.00 | Category 1 0.75 1.75 | > 4.50 to 1.00 0.50 1.50 | 0.25 1.25 | Category 2 0.00 1.00 | > 3.50 to 1.00 but ≤ 4.50 to 1.00",
+   "ca_location": "p. 9 (pricing table)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 100 bps, 25 bps, 75 bps, 175 bps, 150 bps, 50 bps, 20 bps, 125 bps.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R09",
+   "attribute": "Financial covenants",
+   "ts_value": "stated in words (no figures)",
+   "ts_quote": "(d) Financial Covenants - Maintenance of the following financial covenants (the “Financial Covenants”): • Maximum Quarterly Consolidated Total Net Leverage Ratio (to be defined in the Financing Documentation as",
+   "ts_location": "p. 7 (keyword \"financial covenant\")",
+   "ca_value": "3.00x, 4.50x, 0.50x",
+   "ca_quote": "Section 6.01 Financial Covenants. (a) Interest Coverage Ratio. The Borrower will not permit the Interest Coverage Ratio, calculated as of the end of each fiscal quarter on a pro forma basis, for any period of 4 consecutive fiscal quarters ending, to be less than 3.00:1.00. (b) Leverage Ratio. On the",
+   "ca_location": "p. 96 (section \"Section 6.01 Financial Covenants.\")",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet addresses this in words only; compare the quoted text manually.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    7
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    96
+   ]
+  },
+  {
+   "id": "R10",
+   "attribute": "Administrative agent",
+   "ts_value": "Truist Bank (in such capacities, the “Agent”).",
+   "ts_quote": "Truist Bank (in such capacities, the “Agent”).",
+   "ts_location": "p. 1 (label \"Administrative Agent and Collateral Agent\")",
+   "ca_value": "TRUIST BANK",
+   "ca_quote": "TRUIST BANK",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names TRUIST BANK; each appears in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R11",
+   "attribute": "Borrower(s)",
+   "ts_value": "CONFIDENTIAL MARKETING TERM SHEET FOR $1,000,000,000 SENIOR SECURED REVOLVING CREDIT FACILITY Borrower: Encompass Health Corporation (the “Borrower”).",
+   "ts_quote": "CONFIDENTIAL MARKETING TERM SHEET FOR $1,000,000,000 SENIOR SECURED REVOLVING CREDIT FACILITY Borrower: Encompass Health Corporation (the “Borrower”).",
+   "ts_location": "p. 1 (keyword \"borrower\")",
+   "ca_value": "not read from cover page",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Could not read this role from the CA cover page; check manually.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R12",
+   "attribute": "Governing law",
+   "ts_value": "New York",
+   "ts_quote": "State of New York.",
+   "ts_location": "p. 9 (label \"Governing Law\")",
+   "ca_value": "New York",
+   "ca_quote": "governed by the law of the State of New York. (b) The Borrower hereby irrevocably and unconditionally submits, for itself and its property, to the exclusive jurisdiction of the Supreme Court of the State of New York sitting in New York County and of the United",
+   "ca_location": "p. 130, 136 (governing-law clause)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Same governing law.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    9
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    130
+   ]
+  },
+  {
+   "id": "R13",
+   "attribute": "Security (secured vs unsecured)",
+   "ts_value": "secured",
+   "ts_quote": "The Senior Secured Revolving Credit Facility , together with all hedging obligations and bank product obligations of the Borrower and the Guarantors with the Lenders and their affiliates, shall be secured on substantially the same basis as the Collateral as set forth in the Precedent Credit Agreemen",
+   "ts_location": "p. 2 (label \"Collateral\")",
+   "ca_value": "secured (definition \"Security Documents\")",
+   "ca_quote": "“Security Documents” means the Collateral and Guarantee Agreement, the IP Security Agreements and each other security agreement or other instrument or document executed and delivered pursuant to the Collateral and Guarantee Agreement or pursuant to Section 5.14 to secure any of the Obligations. ",
+   "ca_location": "p. 17, 43 (definition \"Security Documents\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS: secured; CA: secured.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    43
+   ]
+  },
+  {
+   "id": "R14",
+   "attribute": "Benchmark rates",
+   "ts_value": "Term SOFR",
+   "ts_quote": "wingline Loans) will be, at the option of the Borrower, (i) Term SOFR for interest periods of one, three or six months (in each case, subject to the availability thereof) plus the Applicable Margin (as defined below), (ii) the Index Rate plus the Applicable Ma",
+   "ts_location": "p. 10",
+   "ca_value": "Term SOFR, Daily Simple SOFR",
+   "ca_quote": "provisions of Article II. “Benchmark” means, initially, the Term SOFR Reference Rate; provided, that, if a Benchmark Transition Event has occurred with respect to the Term SOFR Reference Rate or the then-current Benchmark, then “Benchmark” shall mean the appli",
+   "ca_location": "p. 13",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Every item named in the TS appears in the CA. CA also has: Daily Simple SOFR.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    10
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    13
+   ]
+  },
+  {
+   "id": "R15",
+   "attribute": "Currencies",
+   "ts_value": "none stated",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "none found",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet does not name any.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  }
+ ],
+ "trace": [
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000,000",
+   "normalised": "$1bn",
+   "ts_page": 1,
+   "context": "CONFIDENTIAL MARKETING TERM SHEET FOR $1,000,000,000 SENIOR SECURED REVOLVING CREDIT FACILITY Borrower: Encompass Health Corporation (the “Borrower”",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "6, 12, 42"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$10,000,000",
+   "normalised": "$10m",
+   "ts_page": 1,
+   "context": "diary (to be defined as any designated subsidiary that does not account for more than (i) $10,000,000 in Adjusted Consolidated EBITDA (as defined below) individually (or, in the case of wholly owned i",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "7, 10, 25, 26, 102, 106"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "15%",
+   "normalised": "1500 bps",
+   "ts_page": 1,
+   "context": "(as defined below) individually (or, in the case of wholly owned immaterial subsidiaries, 15% of Adjusted Consolidated EBITDA in the aggregate together with all other wholly owned immaterial subsidiar",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "26, 100"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$10,000,000",
+   "normalised": "$10m",
+   "ts_page": 1,
+   "context": "DA in the aggregate together with all other wholly owned immaterial subsidiaries) or (ii) $10,000,000 in consolidated total assets individually (or, in the case of wholly owned immaterial subsidiaries",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "7, 10, 25, 26, 102, 106"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "15%",
+   "normalised": "1500 bps",
+   "ts_page": 1,
+   "context": "dated total assets individually (or, in the case of wholly owned immaterial subsidiaries, 15% of consolidated total assets in the aggregate together with all other wholly owned immaterial subsidiaries",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "26, 100"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000,000",
+   "normalised": "$1bn",
+   "ts_page": 2,
+   "context": "ng Confidential 1 Truist Securities, Inc. Encompass Health Corporation Credit Facility: A $1,000,000,000 senior secured revolving credit facility (the “Revolver” or the “Senior Secured Revolving Credi",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "6, 12, 42"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$260,000,000",
+   "normalised": "$260m",
+   "ts_page": 2,
+   "context": "(the “Revolver” or the “Senior Secured Revolving Credit Facility”), Purpose: including a $260,000,000 sublimit for the issuance of standby letters of Maturity Date: credit (each a “Letter of Credit”)",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "32"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$40,000,000",
+   "normalised": "$40m",
+   "ts_page": 2,
+   "context": "e issuance of standby letters of Maturity Date: credit (each a “Letter of Credit”), and a $40,000,000 sublimit for Pricing/Fees/Expenses: swingline loans (each a “Swingline Loan”). Loans and extension",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "54"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 3,
+   "context": "s, intercompany obligations, stock, Initial Borrowing: securities, notes, and a pledge of 100% of the capital stock of the Borrower’s wholly owned domestic subsidiaries (including, for the avoidance o",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "37, 47, 87"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "65%",
+   "normalised": "6500 bps",
+   "ts_page": 3,
+   "context": "e avoidance of doubt, the pledge of the capital stock of each Intermediate JV Holdco) and 65% of the voting capital stock of any foreign subsidiaries. All hedging obligations and bank product obligati",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "25"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,400,000,000",
+   "normalised": "$1.4bn",
+   "ts_page": 3,
+   "context": "Incremental Amount” as set forth in the Precedent Credit Agreement shall be increased to $1,400,000,000 (from $1,000,000,000). The closing of the Senior Secured Revolving Credit Facility (and the ini",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "37"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000,000",
+   "normalised": "$1bn",
+   "ts_page": 3,
+   "context": "as set forth in the Precedent Credit Agreement shall be increased to $1,400,000,000 (from $1,000,000,000). The closing of the Senior Secured Revolving Credit Facility (and the initial funding thereund",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "6, 12, 42"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$140,000,000",
+   "normalised": "$140m",
+   "ts_page": 5,
+   "context": "nts” exception in Section 6.02(v) of the Precedent Credit Agreement shall be increased to $140,000,000 (from Confidential 5 Truist Securities, Inc. Encompass Health Corporation $50,000,000); and (B) t",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "98"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$50,000,000",
+   "normalised": "$50m",
+   "ts_page": 6,
+   "context": "to $140,000,000 (from Confidential 5 Truist Securities, Inc. Encompass Health Corporation $50,000,000); and (B) the fixed dollar-based component Confidential of grower cap in the “general investments”",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "26, 56, 79, 104, 105"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$280,000,000",
+   "normalised": "$280m",
+   "ts_page": 6,
+   "context": "nts” exception in Section 6.02(w) of the Precedent Credit Agreement shall be increased to $280,000,000 (from $200,000,000); (ii) indebtedness and subsidiary preferred stock; provided that (A) the fixe",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "98, 100, 105"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$200,000,000",
+   "normalised": "$200m",
+   "ts_page": 6,
+   "context": "ection 6.02(w) of the Precedent Credit Agreement shall be increased to $280,000,000 (from $200,000,000); (ii) indebtedness and subsidiary preferred stock; provided that (A) the fixed dollar-based comp",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$560,000,000",
+   "normalised": "$560m",
+   "ts_page": 6,
+   "context": "” exception in Section 6.03(b)(v) of the Precedent Credit Agreement shall be increased to $560,000,000 (from $400,000,000); (B) the fixed dollar-based component of grower cap in the “permitted unsecur",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "99"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$400,000,000",
+   "normalised": "$400m",
+   "ts_page": 6,
+   "context": "ion 6.03(b)(v) of the Precedent Credit Agreement shall be increased to $560,000,000 (from $400,000,000); (B) the fixed dollar-based component of grower cap in the “permitted unsecured indebtedness” ex",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$280,000,000",
+   "normalised": "$280m",
+   "ts_page": 6,
+   "context": "xception in Section 6.03(b)(viii) of the Precedent Credit Agreement shall be increased to $280,000,000 (from $200,000,000); (C) the fixed dollar-based component of grower cap in the “non-loan party” e",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "98, 100, 105"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$200,000,000",
+   "normalised": "$200m",
+   "ts_page": 6,
+   "context": "6.03(b)(viii) of the Precedent Credit Agreement shall be increased to $280,000,000 (from $200,000,000); (C) the fixed dollar-based component of grower cap in the “non-loan party” exception in Section",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$210,000,000",
+   "normalised": "$210m",
+   "ts_page": 6,
+   "context": "exception in Section 6.03(b)(ix) of the Precedent Credit Agreement shall be increased to $210,000,000 (from $150,000,000); (D) the fixed dollar-based component of grower cap in the “pari passu debt”",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "100"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$150,000,000",
+   "normalised": "$150m",
+   "ts_page": 6,
+   "context": "on 6.03(b)(ix) of the Precedent Credit Agreement shall be increased to $210,000,000 (from $150,000,000); (D) the fixed dollar-based component of grower cap in the “pari passu debt” exception in Sectio",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,400,000,000",
+   "normalised": "$1.4bn",
+   "ts_page": 6,
+   "context": "exception in Section 6.03(b)(xi) of the Precedent Credit Agreement shall be increased to $1,400,000,000 (from $1,000,000,000); and (E) the Financing Documentation shall include a new “bridge” excepti",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "37"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000,000",
+   "normalised": "$1bn",
+   "ts_page": 6,
+   "context": "6.03(b)(xi) of the Precedent Credit Agreement shall be increased to $1,400,000,000 (from $1,000,000,000); and (E) the Financing Documentation shall include a new “bridge” exception permitting the inc",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "6, 12, 42"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$420,000,000",
+   "normalised": "$420m",
+   "ts_page": 6,
+   "context": "ens” exception in Section 6.06(e) of the Precedent Credit Agreement shall be increased to $420,000,000 (from $300,000,000); (vi) restrictive agreements; (vii) acquisitions; (viii) restricted payments;",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "103"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$300,000,000",
+   "normalised": "$300m",
+   "ts_page": 6,
+   "context": "ection 6.06(e) of the Precedent Credit Agreement shall be increased to $420,000,000 (from $300,000,000); (vi) restrictive agreements; (vii) acquisitions; (viii) restricted payments; provided that the",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$280,000,000",
+   "normalised": "$280m",
+   "ts_page": 6,
+   "context": "nts” exception in Section 6.09(d) of the Precedent Credit Agreement shall be increased to $280,000,000 (from $200,000,000); (ix) changes in fiscal year; (x) winding up; dissolution and liquidation; (x",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "98, 100, 105"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$200,000,000",
+   "normalised": "$200m",
+   "ts_page": 6,
+   "context": "ection 6.09(d) of the Precedent Credit Agreement shall be increased to $280,000,000 (from $200,000,000); (ix) changes in fiscal year; (x) winding up; dissolution and liquidation; (xi) transactions wit",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000,000",
+   "normalised": "$1bn",
+   "ts_page": 7,
+   "context": "h the Precedent Credit Agreement, except that the starter component shall be increased to $1,000,000,000 (from $900,000,000). (d) Financial Covenants - Maintenance of the following financial covenants",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "6, 12, 42"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$900,000,000",
+   "normalised": "$900m",
+   "ts_page": 7,
+   "context": "t Agreement, except that the starter component shall be increased to $1,000,000,000 (from $900,000,000). (d) Financial Covenants - Maintenance of the following financial covenants (the “Financial Cove",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.50:1.00",
+   "normalised": "4.50x",
+   "ts_page": 7,
+   "context": "er than restricted cash and cash equivalents) divided by Adjusted Consolidated EBITDA) of 4.50:1.00, with a “covenant holiday” step-up to 5.00:1.00 for the four fiscal quarters following a Significant",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "9, 96, 98, 105"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "5.00:1.00",
+   "normalised": "5.00x",
+   "ts_page": 7,
+   "context": "vided by Adjusted Consolidated EBITDA) of 4.50:1.00, with a “covenant holiday” step-up to 5.00:1.00 for the four fiscal quarters following a Significant Acquisition (to be defined in the Financing Doc",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100,000,000",
+   "normalised": "$100m",
+   "ts_page": 7,
+   "context": "ancing Documentation as (x) any acquisition for which the aggregate consideration exceeds $100,000,000 or (y) a series of related acquisitions in any 12 month period for which the aggregate considerat",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "34, 43, 79, 97, 103, 109"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100,000,000",
+   "normalised": "$100m",
+   "ts_page": 7,
+   "context": "related acquisitions in any 12 month period for which the aggregate consideration exceeds $100,000,000). • Minimum Quarterly Interest Coverage Ratio (to be defined in the Financing Documentation as (i",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "34, 43, 79, 97, 103, 109"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.00:1.000",
+   "normalised": "3.00x",
+   "ts_page": 7,
+   "context": "k and preferred stock paid, accrued or accumulated during such period) to be no less than 3.00:1.000. The component definitions (including, without limitation, “Adjusted Consolidated EBITDA”) used in",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "96, 105"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$5,000,000",
+   "normalised": "$5m",
+   "ts_page": 8,
+   "context": "ault or bankruptcy event of default has occurred and is continuing) in minimum amounts of $5,000,000; provided that (i) no such consent of the Borrower or the Agent shall be required to any assignment",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "52, 62, 63, 98, 124"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 8,
+   "context": "redit Facility. Amendments and waivers will require approval of Lenders holding more than 50% of the loans and commitments under the Senior Secured Revolving Credit Facility (the “Required Lenders”),",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "6, 12, 41, 44, 60"
+  },
+  {
+   "type": "Date",
+   "ts_text": "October 7, 2022",
+   "normalised": "2022-10-07",
+   "ts_page": 9,
+   "context": "on will be based on that certain Sixth Amended and Restated Credit Agreement, dated as of October 7, 2022, by and among the Borrower, Barclays Bank, PLC, and the other parties from time to time party",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "26"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.00%",
+   "normalised": "100 bps",
+   "ts_page": 10,
+   "context": "olidated SOFR Base Rate Commitment Total Leverage Loans & Loans Fee I Index Rate II Ratio 1.00% 0.25% III Loans 0.75% 0.25% IV > 4.50:1.00 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "12, 9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.25%",
+   "normalised": "25 bps",
+   "ts_page": 10,
+   "context": "ed SOFR Base Rate Commitment Total Leverage Loans & Loans Fee I Index Rate II Ratio 1.00% 0.25% III Loans 0.75% 0.25% IV > 4.50:1.00 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "8, 9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.75%",
+   "normalised": "75 bps",
+   "ts_page": 10,
+   "context": "e Commitment Total Leverage Loans & Loans Fee I Index Rate II Ratio 1.00% 0.25% III Loans 0.75% 0.25% IV > 4.50:1.00 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.25%",
+   "normalised": "25 bps",
+   "ts_page": 10,
+   "context": "itment Total Leverage Loans & Loans Fee I Index Rate II Ratio 1.00% 0.25% III Loans 0.75% 0.25% IV > 4.50:1.00 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "8, 9"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.50:1.00",
+   "normalised": "4.50x",
+   "ts_page": 10,
+   "context": "l Leverage Loans & Loans Fee I Index Rate II Ratio 1.00% 0.25% III Loans 0.75% 0.25% IV > 4.50:1.00 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25%",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "9, 96, 98, 105"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "2.00%",
+   "normalised": "200 bps",
+   "ts_page": 10,
+   "context": "oans & Loans Fee I Index Rate II Ratio 1.00% 0.25% III Loans 0.75% 0.25% IV > 4.50:1.00 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "65, 66, 9"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.50:1.00",
+   "normalised": "4.50x",
+   "ts_page": 10,
+   "context": "oans Fee I Index Rate II Ratio 1.00% 0.25% III Loans 0.75% 0.25% IV > 4.50:1.00 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 bu",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "9, 96, 98, 105"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50:1.00",
+   "normalised": "3.50x",
+   "ts_page": 10,
+   "context": "Rate II Ratio 1.00% 0.25% III Loans 0.75% 0.25% IV > 4.50:1.00 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "9, 75, 100"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.75%",
+   "normalised": "175 bps",
+   "ts_page": 10,
+   "context": "atio 1.00% 0.25% III Loans 0.75% 0.25% IV > 4.50:1.00 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00%",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "9"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50:1.00",
+   "normalised": "3.50x",
+   "ts_page": 10,
+   "context": "0% 0.25% III Loans 0.75% 0.25% IV > 4.50:1.00 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00% 0.20% ≤",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "9, 75, 100"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.50%",
+   "normalised": "150 bps",
+   "ts_page": 10,
+   "context": "ns 0.75% 0.25% IV > 4.50:1.00 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00% 0.20% ≤ 1.50:1.00 “Base",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.50%",
+   "normalised": "50 bps",
+   "ts_page": 10,
+   "context": "5% 0.25% IV > 4.50:1.00 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00% 0.20% ≤ 1.50:1.00 “Base Rate”",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "12, 9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.20%",
+   "normalised": "20 bps",
+   "ts_page": 10,
+   "context": "5% IV > 4.50:1.00 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00% 0.20% ≤ 1.50:1.00 “Base Rate” means",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "8"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.50:1.00",
+   "normalised": "2.50x",
+   "ts_page": 10,
+   "context": "> 4.50:1.00 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00% 0.20% ≤ 1.50:1.00 “Base Rate” means the hi",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.25%",
+   "normalised": "125 bps",
+   "ts_page": 10,
+   "context": "0 V 2.00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00% 0.20% ≤ 1.50:1.00 “Base Rate” means the highest of (",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.25%",
+   "normalised": "25 bps",
+   "ts_page": 10,
+   "context": "00% ≤ 4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00% 0.20% ≤ 1.50:1.00 “Base Rate” means the highest of (i) the",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "8, 9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.20%",
+   "normalised": "20 bps",
+   "ts_page": 10,
+   "context": "4.50:1.00 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00% 0.20% ≤ 1.50:1.00 “Base Rate” means the highest of (i) the rate",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "8"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.50:1.00",
+   "normalised": "2.50x",
+   "ts_page": 10,
+   "context": "0 but > 3.50:1.00 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00% 0.20% ≤ 1.50:1.00 “Base Rate” means the highest of (i) the rate at which",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "9"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.50:1.00",
+   "normalised": "1.50x",
+   "ts_page": 10,
+   "context": "0 1.75% ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00% 0.20% ≤ 1.50:1.00 “Base Rate” means the highest of (i) the rate at which Truist Bank ann",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.00%",
+   "normalised": "100 bps",
+   "ts_page": 10,
+   "context": "3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00% 0.20% ≤ 1.50:1.00 “Base Rate” means the highest of (i) the rate at which Truist Bank announces fro",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "12, 9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.00%",
+   "normalised": "0 bps",
+   "ts_page": 10,
+   "context": ".00 but > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00% 0.20% ≤ 1.50:1.00 “Base Rate” means the highest of (i) the rate at which Truist Bank announces from time",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "28"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.20%",
+   "normalised": "20 bps",
+   "ts_page": 10,
+   "context": "t > 1.50% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00% 0.20% ≤ 1.50:1.00 “Base Rate” means the highest of (i) the rate at which Truist Bank announces from time to ti",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "8"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.50:1.00",
+   "normalised": "1.50x",
+   "ts_page": 10,
+   "context": "% 0.50% 0.20% 2.50:1.00 1.25% 0.25% 0.20% ≤ 2.50:1.00 but > 1.50:1.00 1.00% 0.00% 0.20% ≤ 1.50:1.00 “Base Rate” means the highest of (i) the rate at which Truist Bank announces from time to time as it",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1/2%",
+   "normalised": "50 bps",
+   "ts_page": 10,
+   "context": "ii) the Federal Funds rate, as in effect from time to time, plus one-half of one percent (1/2%) per annum, (iii) the Index Rate plus 100 basis points, or (iv) the Floor. The Prime Rate is a reference",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "12, 9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100 basis points",
+   "normalised": "100 bps",
+   "ts_page": 10,
+   "context": "om time to time, plus one-half of one percent (1/2%) per annum, (iii) the Index Rate plus 100 basis points, or (iv) the Floor. The Prime Rate is a reference rate and does not necessarily represent the",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "12, 9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.00%",
+   "normalised": "0 bps",
+   "ts_page": 12,
+   "context": "for the avoidance of doubt, Term SOFR and the Index Rate) shall be subject to a floor of 0.00% per annum (the “Floor”). Automatically upon the occurrence and during the continuance of any bankruptcy",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "28"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "2.00%",
+   "normalised": "200 bps",
+   "ts_page": 12,
+   "context": "amounts due (but unpaid) thereon shall bear interest at the applicable interest rate plus 2.00% per annum (or, in the case of other amounts, 2.00% per annum plus the rate applicable to Base Rate Loans",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "65, 66, 9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "2.00%",
+   "normalised": "200 bps",
+   "ts_page": 12,
+   "context": "t at the applicable interest rate plus 2.00% per annum (or, in the case of other amounts, 2.00% per annum plus the rate applicable to Base Rate Loans), and shall be payable on demand. A commitment fee",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "65, 66, 9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.125%",
+   "normalised": "12.5 bps",
+   "ts_page": 13,
+   "context": "Revolver and shall be payable quarterly in arrears. A fronting fee in an amount equal to 0.125% per annum on the average daily amount of the portion of the Letter of Credit exposure attributable to L",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "65"
+  }
+ ],
+ "document_notes": "",
+ "quote_check": {
+  "ts_checked": 13,
+  "ca_checked": 13,
+  "ts_found": 8,
+  "ca_found": 11
+ },
+ "generated_at": "2026-11-12T14:40:27+00:00",
+ "engine": "rules",
+ "deal": "Encompass Health 2026",
+ "ts_file": "Encompass Health 2026 TS.pdf",
+ "ca_file": "Encompass Health 2026 CA.pdf"
+}

@@ -1,0 +1,2296 @@
+{
+ "rows": [
+  {
+   "id": "R01",
+   "attribute": "Facility amount / commitments",
+   "ts_value": "$275m",
+   "ts_quote": "$225mm Up to $275mm• Collateral Rigs (including Harsh Environment Rigs prior to the occurrence of the Harsh Environment Subsidiary Release Cond",
+   "ts_location": "p. 35 (label \"Facility\")",
+   "ca_value": "$225m, $300m",
+   "ca_quote": "“Revolving Credit Commitment Amount” means the sum of the2026 Revolving Commitments of all of the Lenders(as defined in the Amendment No. 2), which is an amount initially equal to $225,000,000300,000,000 on the Amendment No. 2 Effective Date, as such amount may be reduced or increased from time to t",
+   "ca_location": "p. 100 (definition \"Revolving Credit Commitment Amount\")",
+   "status": "differs",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "NOT found anywhere in CA: $275m. Other figures in the TS entry (not compared): $225m.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    100
+   ]
+  },
+  {
+   "id": "R02",
+   "attribute": "Maturity date",
+   "ts_value": "91 days",
+   "ts_quote": "Lien Notes the Second Lien Notes• Any unsecured notes to mature 91 days after the Scheduled Commitment Termination Date• Any unsecured notes to mature 91 days after the Scheduled Commitment Termination Date Ratings Adj.",
+   "ts_location": "p. 35 (label \"Maturity\")",
+   "ca_value": "2023-09-15, 2023-12-31",
+   "ca_quote": "“Commitment Termination Date” means the earliest to occur of: (a) September 15, 2023 (as may be extended by Required Lenders; provided such extended date is no later than December 31, 2023), if the Effective Date does not occur on or before September 15, 2023 (or such later date as may be extended b",
+   "ca_location": "p. 64, 102 (definition \"Commitment Termination Date\")",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS tenor 91 days did not equal any CA maturity date measured from the agreement/effective dates found (2023-09-15 − 2026-06-16 (agreement date) = -1005 days; 2023-09-15 − 2023-07-11 (agreement date) = 66 days; 2023-09-15 − 2026-04-03 (agreement date) = -931 days; 2023-09-15 − 2026-06-30 (cover/preamble date) = -1019 days). Check whether the CA uses a different anchor date.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    64
+   ]
+  },
+  {
+   "id": "R03",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "$100m",
+   "ts_quote": "• $100mm Same as existing",
+   "ts_location": "p. 35 (label \"L/C sublimit\")",
+   "ca_value": "$100m",
+   "ca_quote": "(iii) immediately after giving effect to such issuance or amendment thereof, the Dollar 81 Equivalent of the outstanding L/C Obligations would exceed $100,000,000 (the “Letter of Credit Sublimit”), or",
+   "ca_location": "p. 120 (section \"Section 2.12. Letters of Credit.\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $100m.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    35
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R04",
+   "attribute": "Swingline sublimit",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "not located in CA",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_applicable",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Neither document provides for this.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R05",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "$100m",
+   "ts_quote": "• $100mm Same as existing",
+   "ts_location": "p. 35 (label \"Accordion\")",
+   "ca_value": "not located in CA",
+   "ca_quote": "(i) in no event shall the aggregate amount of the Incremental Revolving Credit Commitments pursuant to this Section 2.14 exceed $100,000,000,",
+   "ca_location": "p. 128 (operative text)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $100m.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    35
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    128
+   ]
+  },
+  {
+   "id": "R06",
+   "attribute": "Extension option / term-out",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "no extension / term-out provision found",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_applicable",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Neither document has an extension or term-out option.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R07",
+   "attribute": "Applicable margin / pricing grid",
+   "ts_value": "300 bps, 325 bps, 350 bps, 10 bps, 10000 bps, 250 bps, 275 bps, 50 bps, 75 bps, 100 bps",
+   "ts_quote": "Below Below B+ / B1 3.000% B+ / B1 3.000%B / B2 3.250% B / B2 3.250%≤ B-/ B3 3.500% ≤ B-/ B3 3.500%",
+   "ts_location": "p. 35 (label \"Pricing\")",
+   "ca_value": "250 bps, 275 bps, 300 bps, 325 bps, 350 bps, 100 bps, 10000 bps, 7500 bps",
+   "ca_quote": "Level Level II Level III Level IV Level I V BB/Ba2 orBB-/Ba3 B+/B1 B/B2 B-/B3 or Better Lower Term Benchmark Loans 2.50% 2.75% 3.00% 3.25% 3.50% RFR Loans 2.50% 2.75% 3.00% 3.25% 3.50% As used in this definition, “Credit Ratings”, means ratings that are the",
+   "ca_location": "p. 50 (definition \"Applicable Margin\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 300 bps, 325 bps, 350 bps, 250 bps, 275 bps, 100 bps, 10 bps. Found elsewhere in CA (check context): 50 bps (p. 63); 75 bps (p. 63).",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    50
+   ]
+  },
+  {
+   "id": "R08",
+   "attribute": "Commitment / facility fee",
+   "ts_value": "50 bps, 75 bps, 100 bps, 837.5 bps, 10000 bps, 250 bps, 275 bps, 300 bps, 325 bps, 350 bps, 10 bps",
+   "ts_quote": "0.50% for Years 1-3",
+   "ts_location": "p. 35 (label \"Adjustment (“CSA”) Commitment fee\")",
+   "ca_value": "50 bps, 75 bps, 100 bps, 250 bps, 275 bps, 300 bps, 325 bps, 350 bps, 10000 bps, 7500 bps",
+   "ca_quote": "(a) during the period from and including the Effective Date to and including the third (3rd) anniversary of the Effective Date, a rate per annum equal to 0.50%,",
+   "ca_location": "p. 63 (definition \"Commitment Fee Rate\")",
+   "status": "differs",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 50 bps, 75 bps, 100 bps, 250 bps, 275 bps, 300 bps, 325 bps, 350 bps. Found elsewhere in CA (check context): 10 bps (p. 43, 45). NOT found anywhere in CA: 837.5 bps.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    35
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    63
+   ]
+  },
+  {
+   "id": "R09",
+   "attribute": "Financial covenants",
+   "ts_value": "2.90x, 1.60x, 1.20x, 0.90x, 1.00x, 0.80x, 0.50x, 0.10x, 0.40x, 0.70x, 2.50x, $100m",
+   "ts_quote": "Same as existing• Interest Coverage ≥ 2.50x",
+   "ts_location": "p. 35 (label \"Financial covenants\")",
+   "ca_value": "3.00x, 2.50x",
+   "ca_quote": "The Company shall not permit the Interest Coverage Ratio as of the last day of any fiscal quarter of the Company to be less than 2.50 to 1.00.",
+   "ca_location": "p. 175 (section \"Section 7.7. Financial Covenants\")",
+   "status": "differs",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 2.50x, $100m. NOT found anywhere in CA: 2.90x, 1.60x, 1.20x, 0.90x, 1.00x, 0.80x, 0.50x, 0.10x, 0.40x, 0.70x.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    175
+   ]
+  },
+  {
+   "id": "R10",
+   "attribute": "Administrative agent",
+   "ts_value": "J.P. Morgan SE JPMorgan Chase Bank, NA",
+   "ts_quote": "J.P. Morgan SE JPMorgan Chase Bank, NA",
+   "ts_location": "p. 35 (label \"Admin agent\")",
+   "ca_value": "J.P. MORGAN SE, JPMORGAN CHASE BANK, N.A.",
+   "ca_quote": "J.P. MORGAN SE, JPMORGAN CHASE BANK, N.A.",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names J.P. MORGAN SE, JPMORGAN CHASE BANK, N.A.; each appears in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    35
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    34
+   ]
+  },
+  {
+   "id": "R11",
+   "attribute": "Borrower(s)",
+   "ts_value": "Seadrill Finance Limited (“Borrower”) Seadrill Finance Limited (“Borrower”) Substantially all restricted subsidiaries, (other than Excluded Subsidiaries and Harsh",
+   "ts_quote": "Seadrill Finance Limited (“Borrower”) Seadrill Finance Limited (“Borrower”) Substantially all restricted subsidiaries, (other than Excluded Subsidiaries and Harsh",
+   "ts_location": "p. 35 (label \"Borrower\")",
+   "ca_value": "SEADRILL FINANCE LIMITED; SEADRILL LIMITED",
+   "ca_quote": "SEADRILL FINANCE LIMITED; SEADRILL LIMITED",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names SEADRILL FINANCE LIMITED; SEADRILL LIMITED; each appears in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    35
+   ],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R12",
+   "attribute": "Governing law",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "New York",
+   "ca_quote": "GOVERNED BY THE INTERNAL LAWS OF THE STATE OF NEW YORK. Sections 11.15(b) and (d) of the Existing Credit Agreement are hereby incorporated by reference into this Amendment and shall apply to this Amendment, mutatis mutandis. Section 17. Entire Agreement. THIS",
+   "ca_location": "p. 14, 46, 47 (governing-law clause)",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Not stated in the term sheet.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    14
+   ]
+  },
+  {
+   "id": "R13",
+   "attribute": "Security (secured vs unsecured)",
+   "ts_value": "unsecured",
+   "ts_quote": "",
+   "ts_location": "whole document",
+   "ca_value": "secured (definition \"Collateral Documents\")",
+   "ca_quote": "“Collateral Documents” means, collectively, the Guarantee Agreement, the U.S. Collateral Agreement, the Collateral Rig Mortgages, the U.S. Pledge Agreement, the collateral documents described in Schedule 4.1-1 hereto, the Account Control Agreements and any and all other security agreements, vessel m",
+   "ca_location": "p. 63 (definition \"Collateral Documents\")",
+   "status": "differs",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS: unsecured; CA: secured.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    63
+   ]
+  },
+  {
+   "id": "R14",
+   "attribute": "Benchmark rates",
+   "ts_value": "none stated",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "Term SOFR, Daily Simple SOFR",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet does not name any.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R15",
+   "attribute": "Currencies",
+   "ts_value": "none stated",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "EUR, GBP, CAD, MXN, NOK",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet does not name any.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  }
+ ],
+ "trace": [
+  {
+   "type": "Date",
+   "ts_text": "December 31, 2025",
+   "normalised": "2025-12-31",
+   "ts_page": 2,
+   "context": "I, Item 1A, “Risk Factors” in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025, filed with the U.S. Securities and Exchange Commission (the “SEC”) on February 26, 2026, of",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "8, 11"
+  },
+  {
+   "type": "Date",
+   "ts_text": "February 26, 2026",
+   "normalised": "2026-02-26",
+   "ts_page": 2,
+   "context": "December 31, 2025, filed with the U.S. Securities and Exchange Commission (the “SEC”) on February 26, 2026, offshore drilling market conditions, including supply and demand, dayrates, customer drilli",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$3.4bn",
+   "normalised": "$3.4bn",
+   "ts_page": 6,
+   "context": "t a glance (NYSE: SDRL) Market Marketed Rising Average Capitalization1 Fleet of Dayrates3 $3.4bn 14 rigs2 +17% Total Backlog4 FY26 Adjusted Prudently EBITDA Levered6 $3.1bn Guidance5 0.85x $395m Note:",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "17%",
+   "normalised": "1700 bps",
+   "ts_page": 6,
+   "context": "SDRL) Market Marketed Rising Average Capitalization1 Fleet of Dayrates3 $3.4bn 14 rigs2 +17% Total Backlog4 FY26 Adjusted Prudently EBITDA Levered6 $3.1bn Guidance5 0.85x $395m Note: 1 Closing price",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$3.1bn",
+   "normalised": "$3.1bn",
+   "ts_page": 6,
+   "context": "of Dayrates3 $3.4bn 14 rigs2 +17% Total Backlog4 FY26 Adjusted Prudently EBITDA Levered6 $3.1bn Guidance5 0.85x $395m Note: 1 Closing price as of May 19, 2026, multiplied by 62.5m common shares outst",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "0.85x",
+   "normalised": "0.85x",
+   "ts_page": 6,
+   "context": "4bn 14 rigs2 +17% Total Backlog4 FY26 Adjusted Prudently EBITDA Levered6 $3.1bn Guidance5 0.85x $395m Note: 1 Closing price as of May 19, 2026, multiplied by 62.5m common shares outstanding (assuming",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$395m",
+   "normalised": "$395m",
+   "ts_page": 6,
+   "context": "rigs2 +17% Total Backlog4 FY26 Adjusted Prudently EBITDA Levered6 $3.1bn Guidance5 0.85x $395m Note: 1 Closing price as of May 19, 2026, multiplied by 62.5m common shares outstanding (assuming no dil",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "May 19, 2026",
+   "normalised": "2026-05-19",
+   "ts_page": 6,
+   "context": "justed Prudently EBITDA Levered6 $3.1bn Guidance5 0.85x $395m Note: 1 Closing price as of May 19, 2026, multiplied by 62.5m common shares outstanding (assuming no dilution); 2 Includes 2 managed drill",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "May 11, 2026",
+   "normalised": "2026-05-11",
+   "ts_page": 6,
+   "context": "come earned for three drillships managed through Sonadrill joint venture; 4 Backlog as of May 11, 2026, as per latest published fleet status report; 5 Mid-point of FY 2026 Adjusted EBITDA guidance. Du",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 6,
+   "context": "Leverage represents Net Debt (Non-GAAP) / LTM adjusted EBITDA (Non-GAAP). Net debt as of March 31, 2026, and is calculated as total debt, including current maturities less cash and cash equivalents,",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$575mm",
+   "normalised": "$575m",
+   "ts_page": 7,
+   "context": "l 2023 Apr 2023 Sale of Qatar jackup fleet Sale of tender drilling units completed Issued $575mm secured notes Aquadrill all-stock acquisition Monetize non-core assets, Consolidating fleet to focus on",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "102, 168"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1bn",
+   "normalised": "$1bn",
+   "ts_page": 7,
+   "context": "tive opportunities Dec 2024 Dec 2024 Mar 2026 Sale of West Prospero completed Incremental $1bn backlog from Brazil New CEO named Streamline structure to concentrate on core 3-year contract awards with",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "61, 196"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "140 %",
+   "normalised": "14000 bps",
+   "ts_page": 16,
+   "context": "s of offshore deepwater project approvals Reserves USD billion Billion barrels of liquid $140 % proven plus probable reserves $120 5 94 96 96 97 98 100 91 86 $100 4 73 94% of proven plus probable rese",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "94%",
+   "normalised": "9400 bps",
+   "ts_page": 16,
+   "context": "of liquid $140 % proven plus probable reserves $120 5 94 96 96 97 98 100 91 86 $100 4 73 94% of proven plus probable reserves $80 59 have breakeven costs 3 52 under $60bl1 40 $60 2 $40 1 15 $20 $0 20",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 16,
+   "context": "P” indicate the estimated volume of hydrocarbons considered commercially recoverable with 50% or greater probability 16 2 …with expected utilization rising to near-record levels, supporting a strong d",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "53, 62, 100, 101, 102, 106"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "95%",
+   "normalised": "9500 bps",
+   "ts_page": 17,
+   "context": "els, supporting a strong dayrate environment Drillship dayrates1 and utilization2 Dayrate 95% Dayrate Marketed utilization 92% 95% Utilization ($k / day) $260 97% $396 $416 (%) 92% 500 2022 $304 $361",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "92%",
+   "normalised": "9200 bps",
+   "ts_page": 17,
+   "context": "environment Drillship dayrates1 and utilization2 Dayrate 95% Dayrate Marketed utilization 92% 95% Utilization ($k / day) $260 97% $396 $416 (%) 92% 500 2022 $304 $361 2026 100% 450 95% 400 88% 90% 350",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "95%",
+   "normalised": "9500 bps",
+   "ts_page": 17,
+   "context": "ronment Drillship dayrates1 and utilization2 Dayrate 95% Dayrate Marketed utilization 92% 95% Utilization ($k / day) $260 97% $396 $416 (%) 92% 500 2022 $304 $361 2026 100% 450 95% 400 88% 90% 350 85%",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "97%",
+   "normalised": "9700 bps",
+   "ts_page": 17,
+   "context": "utilization2 Dayrate 95% Dayrate Marketed utilization 92% 95% Utilization ($k / day) $260 97% $396 $416 (%) 92% 500 2022 $304 $361 2026 100% 450 95% 400 88% 90% 350 85% 300 80% 250 $270 75% 200 70% 15",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "92%",
+   "normalised": "9200 bps",
+   "ts_page": 17,
+   "context": "te 95% Dayrate Marketed utilization 92% 95% Utilization ($k / day) $260 97% $396 $416 (%) 92% 500 2022 $304 $361 2026 100% 450 95% 400 88% 90% 350 85% 300 80% 250 $270 75% 200 70% 150 65% 100 60% 55%",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 17,
+   "context": "ization 92% 95% Utilization ($k / day) $260 97% $396 $416 (%) 92% 500 2022 $304 $361 2026 100% 450 95% 400 88% 90% 350 85% 300 80% 250 $270 75% 200 70% 150 65% 100 60% 55% 50 50% 0 2021 2023 2024 2025",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "47, 53, 61, 94, 98, 101, 119, 172…"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "95%",
+   "normalised": "9500 bps",
+   "ts_page": 17,
+   "context": "2% 95% Utilization ($k / day) $260 97% $396 $416 (%) 92% 500 2022 $304 $361 2026 100% 450 95% 400 88% 90% 350 85% 300 80% 250 $270 75% 200 70% 150 65% 100 60% 55% 50 50% 0 2021 2023 2024 2025 Source:",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "88%",
+   "normalised": "8800 bps",
+   "ts_page": 17,
+   "context": "tilization ($k / day) $260 97% $396 $416 (%) 92% 500 2022 $304 $361 2026 100% 450 95% 400 88% 90% 350 85% 300 80% 250 $270 75% 200 70% 150 65% 100 60% 55% 50 50% 0 2021 2023 2024 2025 Source: RigLogix",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "90%",
+   "normalised": "9000 bps",
+   "ts_page": 17,
+   "context": "zation ($k / day) $260 97% $396 $416 (%) 92% 500 2022 $304 $361 2026 100% 450 95% 400 88% 90% 350 85% 300 80% 250 $270 75% 200 70% 150 65% 100 60% 55% 50 50% 0 2021 2023 2024 2025 Source: RigLogix Not",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "54"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "85%",
+   "normalised": "8500 bps",
+   "ts_page": 17,
+   "context": "$k / day) $260 97% $396 $416 (%) 92% 500 2022 $304 $361 2026 100% 450 95% 400 88% 90% 350 85% 300 80% 250 $270 75% 200 70% 150 65% 100 60% 55% 50 50% 0 2021 2023 2024 2025 Source: RigLogix Note: 1 Inc",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "80%",
+   "normalised": "8000 bps",
+   "ts_page": 17,
+   "context": ") $260 97% $396 $416 (%) 92% 500 2022 $304 $361 2026 100% 450 95% 400 88% 90% 350 85% 300 80% 250 $270 75% 200 70% 150 65% 100 60% 55% 50 50% 0 2021 2023 2024 2025 Source: RigLogix Note: 1 Includes 6G",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "42"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "75%",
+   "normalised": "7500 bps",
+   "ts_page": 17,
+   "context": "96 $416 (%) 92% 500 2022 $304 $361 2026 100% 450 95% 400 88% 90% 350 85% 300 80% 250 $270 75% 200 70% 150 65% 100 60% 55% 50 50% 0 2021 2023 2024 2025 Source: RigLogix Note: 1 Includes 6G and 7G; 2 Co",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "101"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "70%",
+   "normalised": "7000 bps",
+   "ts_page": 17,
+   "context": "(%) 92% 500 2022 $304 $361 2026 100% 450 95% 400 88% 90% 350 85% 300 80% 250 $270 75% 200 70% 150 65% 100 60% 55% 50 50% 0 2021 2023 2024 2025 Source: RigLogix Note: 1 Includes 6G and 7G; 2 Committed",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "65%",
+   "normalised": "6500 bps",
+   "ts_page": 17,
+   "context": "500 2022 $304 $361 2026 100% 450 95% 400 88% 90% 350 85% 300 80% 250 $270 75% 200 70% 150 65% 100 60% 55% 50 50% 0 2021 2023 2024 2025 Source: RigLogix Note: 1 Includes 6G and 7G; 2 Committed marketed",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "60%",
+   "normalised": "6000 bps",
+   "ts_page": 17,
+   "context": "$304 $361 2026 100% 450 95% 400 88% 90% 350 85% 300 80% 250 $270 75% 200 70% 150 65% 100 60% 55% 50 50% 0 2021 2023 2024 2025 Source: RigLogix Note: 1 Includes 6G and 7G; 2 Committed marketed utiliza",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "55%",
+   "normalised": "5500 bps",
+   "ts_page": 17,
+   "context": "4 $361 2026 100% 450 95% 400 88% 90% 350 85% 300 80% 250 $270 75% 200 70% 150 65% 100 60% 55% 50 50% 0 2021 2023 2024 2025 Source: RigLogix Note: 1 Includes 6G and 7G; 2 Committed marketed utilization",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 17,
+   "context": "2026 100% 450 95% 400 88% 90% 350 85% 300 80% 250 $270 75% 200 70% 150 65% 100 60% 55% 50 50% 0 2021 2023 2024 2025 Source: RigLogix Note: 1 Includes 6G and 7G; 2 Committed marketed utilization 17 3 S",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "53, 62, 100, 101, 102, 106"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$3.1bn",
+   "normalised": "$3.1bn",
+   "ts_page": 18,
+   "context": "o 2026 and growing coverage into 2027 …with solid earnings visibility Current backlog1 of $3.1bn Total order backlog per year ($mm)1 Average dayrates2 and backlog by year Floaters Harsh Environment $m",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "71%",
+   "normalised": "7100 bps",
+   "ts_page": 18,
+   "context": "$270 $0 2024A 2025A 2026E3 2027E 2028E 2029E $0 $0 May - December 2027E 2028E 2029E 2026E 71% 36% 18% Revenue Order Backlog Average dayrates Contracted revenue 99% (%) Note: 1 Backlog as of May 2026,",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "36%",
+   "normalised": "3600 bps",
+   "ts_page": 18,
+   "context": "$0 2024A 2025A 2026E3 2027E 2028E 2029E $0 $0 May - December 2027E 2028E 2029E 2026E 71% 36% 18% Revenue Order Backlog Average dayrates Contracted revenue 99% (%) Note: 1 Backlog as of May 2026, incl",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "18%",
+   "normalised": "1800 bps",
+   "ts_page": 18,
+   "context": "2024A 2025A 2026E3 2027E 2028E 2029E $0 $0 May - December 2027E 2028E 2029E 2026E 71% 36% 18% Revenue Order Backlog Average dayrates Contracted revenue 99% (%) Note: 1 Backlog as of May 2026, inclusiv",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "99%",
+   "normalised": "9900 bps",
+   "ts_page": 18,
+   "context": "E 2028E 2029E 2026E 71% 36% 18% Revenue Order Backlog Average dayrates Contracted revenue 99% (%) Note: 1 Backlog as of May 2026, inclusive of Sonadrill JV management fee backlog; Years 2024 and 2025",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "5%",
+   "normalised": "500 bps",
+   "ts_page": 19,
+   "context": "og by geography Total revenue backlog by customer Malaysia Norway Other customers1 Angola 5% 3% 7% 10% 4% 6% USA 12% $3.1bn 7% Brazil 70% $3.1bn 11% 65% Note: Backlog excludes amortized mobilization r",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "43"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "3%",
+   "normalised": "300 bps",
+   "ts_page": 19,
+   "context": "by geography Total revenue backlog by customer Malaysia Norway Other customers1 Angola 5% 3% 7% 10% 4% 6% USA 12% $3.1bn 7% Brazil 70% $3.1bn 11% 65% Note: Backlog excludes amortized mobilization reve",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "7%",
+   "normalised": "700 bps",
+   "ts_page": 19,
+   "context": "geography Total revenue backlog by customer Malaysia Norway Other customers1 Angola 5% 3% 7% 10% 4% 6% USA 12% $3.1bn 7% Brazil 70% $3.1bn 11% 65% Note: Backlog excludes amortized mobilization revenue",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10%",
+   "normalised": "1000 bps",
+   "ts_page": 19,
+   "context": "graphy Total revenue backlog by customer Malaysia Norway Other customers1 Angola 5% 3% 7% 10% 4% 6% USA 12% $3.1bn 7% Brazil 70% $3.1bn 11% 65% Note: Backlog excludes amortized mobilization revenue, r",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "4%",
+   "normalised": "400 bps",
+   "ts_page": 19,
+   "context": "hy Total revenue backlog by customer Malaysia Norway Other customers1 Angola 5% 3% 7% 10% 4% 6% USA 12% $3.1bn 7% Brazil 70% $3.1bn 11% 65% Note: Backlog excludes amortized mobilization revenue, reimb",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "6%",
+   "normalised": "600 bps",
+   "ts_page": 19,
+   "context": "Total revenue backlog by customer Malaysia Norway Other customers1 Angola 5% 3% 7% 10% 4% 6% USA 12% $3.1bn 7% Brazil 70% $3.1bn 11% 65% Note: Backlog excludes amortized mobilization revenue, reimburs",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "12%",
+   "normalised": "1200 bps",
+   "ts_page": 19,
+   "context": "evenue backlog by customer Malaysia Norway Other customers1 Angola 5% 3% 7% 10% 4% 6% USA 12% $3.1bn 7% Brazil 70% $3.1bn 11% 65% Note: Backlog excludes amortized mobilization revenue, reimbursable re",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$3.1bn",
+   "normalised": "$3.1bn",
+   "ts_page": 19,
+   "context": "ue backlog by customer Malaysia Norway Other customers1 Angola 5% 3% 7% 10% 4% 6% USA 12% $3.1bn 7% Brazil 70% $3.1bn 11% 65% Note: Backlog excludes amortized mobilization revenue, reimbursable revenu",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "7%",
+   "normalised": "700 bps",
+   "ts_page": 19,
+   "context": "log by customer Malaysia Norway Other customers1 Angola 5% 3% 7% 10% 4% 6% USA 12% $3.1bn 7% Brazil 70% $3.1bn 11% 65% Note: Backlog excludes amortized mobilization revenue, reimbursable revenue, and",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "70%",
+   "normalised": "7000 bps",
+   "ts_page": 19,
+   "context": "tomer Malaysia Norway Other customers1 Angola 5% 3% 7% 10% 4% 6% USA 12% $3.1bn 7% Brazil 70% $3.1bn 11% 65% Note: Backlog excludes amortized mobilization revenue, reimbursable revenue, and options on",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$3.1bn",
+   "normalised": "$3.1bn",
+   "ts_page": 19,
+   "context": "r Malaysia Norway Other customers1 Angola 5% 3% 7% 10% 4% 6% USA 12% $3.1bn 7% Brazil 70% $3.1bn 11% 65% Note: Backlog excludes amortized mobilization revenue, reimbursable revenue, and options on dri",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "11%",
+   "normalised": "1100 bps",
+   "ts_page": 19,
+   "context": "sia Norway Other customers1 Angola 5% 3% 7% 10% 4% 6% USA 12% $3.1bn 7% Brazil 70% $3.1bn 11% 65% Note: Backlog excludes amortized mobilization revenue, reimbursable revenue, and options on drilling c",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "65%",
+   "normalised": "6500 bps",
+   "ts_page": 19,
+   "context": "Norway Other customers1 Angola 5% 3% 7% 10% 4% 6% USA 12% $3.1bn 7% Brazil 70% $3.1bn 11% 65% Note: Backlog excludes amortized mobilization revenue, reimbursable revenue, and options on drilling contr",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "99%",
+   "normalised": "9900 bps",
+   "ts_page": 20,
+   "context": "lude ConocoPhillips, ExxonMobil, Talos, Walter Oil & Gas, Azule, Sonangol, Sonadrill 19 3 99% of 2026 revenue guidance mid-point is covered by firm backlog, with significant contract coverage in 2027",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$260mm",
+   "normalised": "$260m",
+   "ts_page": 20,
+   "context": "e / Sevan Louisiana U.S. Gulf Active Rig Count by Location West Vela West Carina Brazil 1 $260mm West Gemini Angola April 2026 Sonangol Libongos1 Angola West Polaris $480mm West Capella Malaysia 3 Jan",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$480mm",
+   "normalised": "$480m",
+   "ts_page": 20,
+   "context": "rina Brazil 1 $260mm West Gemini Angola April 2026 Sonangol Libongos1 Angola West Polaris $480mm West Capella Malaysia 3 January 2026 West Vela U.S. Gulf 3 1 West Saturn Brazil West Saturn 6 $114mm We",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "3 January 2026",
+   "normalised": "2026-01-03",
+   "ts_page": 20,
+   "context": "ini Angola April 2026 Sonangol Libongos1 Angola West Polaris $480mm West Capella Malaysia 3 January 2026 West Vela U.S. Gulf 3 1 West Saturn Brazil West Saturn 6 $114mm West Neptune U.S. Gulf January",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$114mm",
+   "normalised": "$114m",
+   "ts_page": 20,
+   "context": "Capella Malaysia 3 January 2026 West Vela U.S. Gulf 3 1 West Saturn Brazil West Saturn 6 $114mm West Neptune U.S. Gulf January 2026 West Capella / West Auriga Brazil West Elara / West Elara Norway We",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$157mm",
+   "normalised": "$157m",
+   "ts_page": 20,
+   "context": "West Auriga Brazil West Elara / West Elara Norway West Carina Sonangol Quenguela1 Angola $157mm West Jupiter Brazil West Tellus Brazil West Polaris Brazil Source: Company information Note: 1 Owned by",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": ".47%",
+   "normalised": "47 bps",
+   "ts_page": 21,
+   "context": "ntial in a rising market… …that is converted into strong cash flows Illustrative EBITDA +c.47% $1.2bn Illustrative Unlevered FCF/EBITDA Illustrative Unlevered Free Cash Flow (FCF) $0.8bn $0.9bn 80% +c",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1.2bn",
+   "normalised": "$1.2bn",
+   "ts_page": 21,
+   "context": "in a rising market… …that is converted into strong cash flows Illustrative EBITDA +c.47% $1.2bn Illustrative Unlevered FCF/EBITDA Illustrative Unlevered Free Cash Flow (FCF) $0.8bn $0.9bn 80% +c.32%",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$0.8bn",
+   "normalised": "$800m",
+   "ts_page": 21,
+   "context": ".47% $1.2bn Illustrative Unlevered FCF/EBITDA Illustrative Unlevered Free Cash Flow (FCF) $0.8bn $0.9bn 80% +c.32% $0.6bn 73% $0.6bn 68% $0.4bn Illustrative Scenario A B C Scenario A Scenario B Scenar",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$0.9bn",
+   "normalised": "$900m",
+   "ts_page": 21,
+   "context": ".2bn Illustrative Unlevered FCF/EBITDA Illustrative Unlevered Free Cash Flow (FCF) $0.8bn $0.9bn 80% +c.32% $0.6bn 73% $0.6bn 68% $0.4bn Illustrative Scenario A B C Scenario A Scenario B Scenario C Da",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "80%",
+   "normalised": "8000 bps",
+   "ts_page": 21,
+   "context": "lustrative Unlevered FCF/EBITDA Illustrative Unlevered Free Cash Flow (FCF) $0.8bn $0.9bn 80% +c.32% $0.6bn 73% $0.6bn 68% $0.4bn Illustrative Scenario A B C Scenario A Scenario B Scenario C Dayrate $",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "42"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": ".32%",
+   "normalised": "32 bps",
+   "ts_page": 21,
+   "context": "tive Unlevered FCF/EBITDA Illustrative Unlevered Free Cash Flow (FCF) $0.8bn $0.9bn 80% +c.32% $0.6bn 73% $0.6bn 68% $0.4bn Illustrative Scenario A B C Scenario A Scenario B Scenario C Dayrate $400 k/",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$0.6bn",
+   "normalised": "$600m",
+   "ts_page": 21,
+   "context": "Unlevered FCF/EBITDA Illustrative Unlevered Free Cash Flow (FCF) $0.8bn $0.9bn 80% +c.32% $0.6bn 73% $0.6bn 68% $0.4bn Illustrative Scenario A B C Scenario A Scenario B Scenario C Dayrate $400 k/d $45",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "73%",
+   "normalised": "7300 bps",
+   "ts_page": 21,
+   "context": "ed FCF/EBITDA Illustrative Unlevered Free Cash Flow (FCF) $0.8bn $0.9bn 80% +c.32% $0.6bn 73% $0.6bn 68% $0.4bn Illustrative Scenario A B C Scenario A Scenario B Scenario C Dayrate $400 k/d $450 k/d $",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$0.6bn",
+   "normalised": "$600m",
+   "ts_page": 21,
+   "context": "CF/EBITDA Illustrative Unlevered Free Cash Flow (FCF) $0.8bn $0.9bn 80% +c.32% $0.6bn 73% $0.6bn 68% $0.4bn Illustrative Scenario A B C Scenario A Scenario B Scenario C Dayrate $400 k/d $450 k/d $550",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "68%",
+   "normalised": "6800 bps",
+   "ts_page": 21,
+   "context": "DA Illustrative Unlevered Free Cash Flow (FCF) $0.8bn $0.9bn 80% +c.32% $0.6bn 73% $0.6bn 68% $0.4bn Illustrative Scenario A B C Scenario A Scenario B Scenario C Dayrate $400 k/d $450 k/d $550 k/d Fle",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$0.4bn",
+   "normalised": "$400m",
+   "ts_page": 21,
+   "context": "llustrative Unlevered Free Cash Flow (FCF) $0.8bn $0.9bn 80% +c.32% $0.6bn 73% $0.6bn 68% $0.4bn Illustrative Scenario A B C Scenario A Scenario B Scenario C Dayrate $400 k/d $450 k/d $550 k/d Fleet U",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "143"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$400 k",
+   "normalised": "$400,000",
+   "ts_page": 21,
+   "context": "3% $0.6bn 68% $0.4bn Illustrative Scenario A B C Scenario A Scenario B Scenario C Dayrate $400 k/d $450 k/d $550 k/d Fleet Utilization 85% 90% 95% Note: This slide is not intended to reflect guidance,",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$450 k",
+   "normalised": "$450,000",
+   "ts_page": 21,
+   "context": "68% $0.4bn Illustrative Scenario A B C Scenario A Scenario B Scenario C Dayrate $400 k/d $450 k/d $550 k/d Fleet Utilization 85% 90% 95% Note: This slide is not intended to reflect guidance, but rath",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$550 k",
+   "normalised": "$550,000",
+   "ts_page": 21,
+   "context": "bn Illustrative Scenario A B C Scenario A Scenario B Scenario C Dayrate $400 k/d $450 k/d $550 k/d Fleet Utilization 85% 90% 95% Note: This slide is not intended to reflect guidance, but rather illust",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "85%",
+   "normalised": "8500 bps",
+   "ts_page": 21,
+   "context": "B C Scenario A Scenario B Scenario C Dayrate $400 k/d $450 k/d $550 k/d Fleet Utilization 85% 90% 95% Note: This slide is not intended to reflect guidance, but rather illustrative scenarios; Operating",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "90%",
+   "normalised": "9000 bps",
+   "ts_page": 21,
+   "context": "Scenario A Scenario B Scenario C Dayrate $400 k/d $450 k/d $550 k/d Fleet Utilization 85% 90% 95% Note: This slide is not intended to reflect guidance, but rather illustrative scenarios; Operating cos",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "54"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "95%",
+   "normalised": "9500 bps",
+   "ts_page": 21,
+   "context": "ario A Scenario B Scenario C Dayrate $400 k/d $450 k/d $550 k/d Fleet Utilization 85% 90% 95% Note: This slide is not intended to reflect guidance, but rather illustrative scenarios; Operating cost an",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "10x",
+   "normalised": "10.00x",
+   "ts_page": 21,
+   "context": "cost and capex assumptions are in line with current assumptions for the fleet. Rig count: 10x floaters, excludes 1 HE Jackup and 2 Sonangol managed rigs and stacked rigs 21 4 Strong earnings potential",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "36%",
+   "normalised": "3600 bps",
+   "ts_page": 22,
+   "context": "h flow 1 $353 $414 $616 $594 $543 $103 $319 $275 $120 2025A 2026E 2027E 2028E 2029E ($95) 36% 18% % of forecasted 99% 71% 22 revenue under firm contract Source: Management projections Note: Unlevered",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "18%",
+   "normalised": "1800 bps",
+   "ts_page": 22,
+   "context": "ow 1 $353 $414 $616 $594 $543 $103 $319 $275 $120 2025A 2026E 2027E 2028E 2029E ($95) 36% 18% % of forecasted 99% 71% 22 revenue under firm contract Source: Management projections Note: Unlevered free",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "99%",
+   "normalised": "9900 bps",
+   "ts_page": 22,
+   "context": "$594 $543 $103 $319 $275 $120 2025A 2026E 2027E 2028E 2029E ($95) 36% 18% % of forecasted 99% 71% 22 revenue under firm contract Source: Management projections Note: Unlevered free cash flow defined a",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "71%",
+   "normalised": "7100 bps",
+   "ts_page": 22,
+   "context": "$543 $103 $319 $275 $120 2025A 2026E 2027E 2028E 2029E ($95) 36% 18% % of forecasted 99% 71% 22 revenue under firm contract Source: Management projections Note: Unlevered free cash flow defined as ca",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 23,
+   "context": "res 5 Clean balance sheet and ample liquidity… Liquidity ($mm) Build-up to net debt as of March 31, 2026 ($mm) $575mm Senior Secured Second Lien Term Notes $482 $50mm Unsecured Convertible Bond $625 $",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$575mm",
+   "normalised": "$575m",
+   "ts_page": 23,
+   "context": "heet and ample liquidity… Liquidity ($mm) Build-up to net debt as of March 31, 2026 ($mm) $575mm Senior Secured Second Lien Term Notes $482 $50mm Unsecured Convertible Bond $625 $50 $304 $575 $25 $304",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "102, 168"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$50mm",
+   "normalised": "$50m",
+   "ts_page": 23,
+   "context": "to net debt as of March 31, 2026 ($mm) $575mm Senior Secured Second Lien Term Notes $482 $50mm Unsecured Convertible Bond $625 $50 $304 $575 $25 $304 Unrestricted cash $382 $321 $296 $178 Undrawn Liq",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "55, 73, 87, 172, 180"
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 23,
+   "context": "icted Net debt Restricted Adjusted cash cash 2 net debt Source: Company information as of March 31, 2026 23 Note: Excluding exit fees / debt premiums 1 Accounts for ~$47mm of outstanding Letters of Cr",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$47mm",
+   "normalised": "$47m",
+   "ts_page": 23,
+   "context": "rmation as of March 31, 2026 23 Note: Excluding exit fees / debt premiums 1 Accounts for ~$47mm of outstanding Letters of Credit under the RCF; 2 Composed of cash held in escrow ($23mm) and other item",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$23mm",
+   "normalised": "$23m",
+   "ts_page": 23,
+   "context": "~$47mm of outstanding Letters of Credit under the RCF; 2 Composed of cash held in escrow ($23mm) and other items ($2mm) 5 … with a strong leverage profile vs. UDW peers Net leverage2 vs UDW Peers 0.9x",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$2mm",
+   "normalised": "$2m",
+   "ts_page": 23,
+   "context": "tters of Credit under the RCF; 2 Composed of cash held in escrow ($23mm) and other items ($2mm) 5 … with a strong leverage profile vs. UDW peers Net leverage2 vs UDW Peers 0.9x 1.0x 1.2x 1.6x 2.9x Nob",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "172"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "0.9x",
+   "normalised": "0.90x",
+   "ts_page": 24,
+   "context": "items ($2mm) 5 … with a strong leverage profile vs. UDW peers Net leverage2 vs UDW Peers 0.9x 1.0x 1.2x 1.6x 2.9x Noble Odfjell Drilling Transocean Valaris Net debt1 ($bn) vs UDW Peers $0.3 $0.5 $1.2",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.0x",
+   "normalised": "1.00x",
+   "ts_page": 24,
+   "context": "s ($2mm) 5 … with a strong leverage profile vs. UDW peers Net leverage2 vs UDW Peers 0.9x 1.0x 1.2x 1.6x 2.9x Noble Odfjell Drilling Transocean Valaris Net debt1 ($bn) vs UDW Peers $0.3 $0.5 $1.2 $0.9",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.2x",
+   "normalised": "1.20x",
+   "ts_page": 24,
+   "context": "mm) 5 … with a strong leverage profile vs. UDW peers Net leverage2 vs UDW Peers 0.9x 1.0x 1.2x 1.6x 2.9x Noble Odfjell Drilling Transocean Valaris Net debt1 ($bn) vs UDW Peers $0.3 $0.5 $1.2 $0.9 $4.5",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.6x",
+   "normalised": "1.60x",
+   "ts_page": 24,
+   "context": "… with a strong leverage profile vs. UDW peers Net leverage2 vs UDW Peers 0.9x 1.0x 1.2x 1.6x 2.9x Noble Odfjell Drilling Transocean Valaris Net debt1 ($bn) vs UDW Peers $0.3 $0.5 $1.2 $0.9 $4.5 Tran",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.9x",
+   "normalised": "2.90x",
+   "ts_page": 24,
+   "context": "th a strong leverage profile vs. UDW peers Net leverage2 vs UDW Peers 0.9x 1.0x 1.2x 1.6x 2.9x Noble Odfjell Drilling Transocean Valaris Net debt1 ($bn) vs UDW Peers $0.3 $0.5 $1.2 $0.9 $4.5 Transocea",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 24,
+   "context": "No ble Odfjell Drillin g Transocean Valaris Noble Odfjell Drilling Note: 1 Net debt as of March 31, 2026, and is calculated as total debt, including current maturities less cash and cash equivalents,",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "97%",
+   "normalised": "9700 bps",
+   "ts_page": 25,
+   "context": "igh performance and utilization Industry leading business practices 0.23 Total Recordable 97% Technical Utilization • Carbon Disclosure Project “B” rating, reflecting Incident Rate (Trailing 6M) disci",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "96%",
+   "normalised": "9600 bps",
+   "ts_page": 25,
+   "context": "(Trailing 6M) disciplined and transparent environmental (12M rolling average) management 96% Technical Utilization (Since 2015) • Industry-leading MPD capabilities through deployment of innovative ne",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "0.7x",
+   "normalised": "0.70x",
+   "ts_page": 27,
+   "context": "Nreot-fcoarmshabnaelat nccaeshofb$a3la2n9cmemof1$a1n6d3nmemt leavnedralegveeorafg0e.9oxf2(0.7x)1 • Target: Net leverage of <11.0.0xxinincucurrrerennt mt maarkrektect oconndditiotionnssaannddoouutlotlo",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.0x",
+   "normalised": "2.00x",
+   "ts_page": 27,
+   "context": "nancial strength with a through-cycle, conservative leveraglevtearaggeet otaf r<g2e.t0oxf 2.0x • Maintenance of strong liquidity for resilience even in a downturn scenario approach • Capital investmen",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "54, 167, 169, 174, 177"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 27,
+   "context": "fleet with the Seadrill 3 strategy Prudent shareholder returns • Targeted allocation of >50% of FCF23 to shareholder returns # • Targeted allocation of >50% of FCF to shareholder returns in 2024 and",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "53, 62, 100, 101, 102, 106"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 27,
+   "context": "• Targeted allocation of >50% of FCF23 to shareholder returns # • Targeted allocation of >50% of FCF to shareholder returns in 2024 and beyond • Distributions subject to balance sheet and liquidity ta",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "53, 62, 100, 101, 102, 106"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "4%",
+   "normalised": "400 bps",
+   "ts_page": 29,
+   "context": "Source: Management projections 28 Financial model summary Revenue ($mm) EBITDA ($mm) YoY 4% 6% 10% 1% (9%) EBITDA 25% 26% 37% 35% 35% growth margin $594 $543 $1,680 $1,702 $616 $1,437 $1,521 $1,554 $",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "6%",
+   "normalised": "600 bps",
+   "ts_page": 29,
+   "context": "urce: Management projections 28 Financial model summary Revenue ($mm) EBITDA ($mm) YoY 4% 6% 10% 1% (9%) EBITDA 25% 26% 37% 35% 35% growth margin $594 $543 $1,680 $1,702 $616 $1,437 $1,521 $1,554 $353",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10%",
+   "normalised": "1000 bps",
+   "ts_page": 29,
+   "context": "e: Management projections 28 Financial model summary Revenue ($mm) EBITDA ($mm) YoY 4% 6% 10% 1% (9%) EBITDA 25% 26% 37% 35% 35% growth margin $594 $543 $1,680 $1,702 $616 $1,437 $1,521 $1,554 $353 $4",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1%",
+   "normalised": "100 bps",
+   "ts_page": 29,
+   "context": "anagement projections 28 Financial model summary Revenue ($mm) EBITDA ($mm) YoY 4% 6% 10% 1% (9%) EBITDA 25% 26% 37% 35% 35% growth margin $594 $543 $1,680 $1,702 $616 $1,437 $1,521 $1,554 $353 $414 2",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "43, 56, 63"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "9%",
+   "normalised": "900 bps",
+   "ts_page": 29,
+   "context": "ement projections 28 Financial model summary Revenue ($mm) EBITDA ($mm) YoY 4% 6% 10% 1% (9%) EBITDA 25% 26% 37% 35% 35% growth margin $594 $543 $1,680 $1,702 $616 $1,437 $1,521 $1,554 $353 $414 2025A",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "25%",
+   "normalised": "2500 bps",
+   "ts_page": 29,
+   "context": "ctions 28 Financial model summary Revenue ($mm) EBITDA ($mm) YoY 4% 6% 10% 1% (9%) EBITDA 25% 26% 37% 35% 35% growth margin $594 $543 $1,680 $1,702 $616 $1,437 $1,521 $1,554 $353 $414 2025A 2026E 2027",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "26%",
+   "normalised": "2600 bps",
+   "ts_page": 29,
+   "context": "ns 28 Financial model summary Revenue ($mm) EBITDA ($mm) YoY 4% 6% 10% 1% (9%) EBITDA 25% 26% 37% 35% 35% growth margin $594 $543 $1,680 $1,702 $616 $1,437 $1,521 $1,554 $353 $414 2025A 2026E 2027E 20",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "37%",
+   "normalised": "3700 bps",
+   "ts_page": 29,
+   "context": "8 Financial model summary Revenue ($mm) EBITDA ($mm) YoY 4% 6% 10% 1% (9%) EBITDA 25% 26% 37% 35% 35% growth margin $594 $543 $1,680 $1,702 $616 $1,437 $1,521 $1,554 $353 $414 2025A 2026E 2027E 2028E",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "35%",
+   "normalised": "3500 bps",
+   "ts_page": 29,
+   "context": "nancial model summary Revenue ($mm) EBITDA ($mm) YoY 4% 6% 10% 1% (9%) EBITDA 25% 26% 37% 35% 35% growth margin $594 $543 $1,680 $1,702 $616 $1,437 $1,521 $1,554 $353 $414 2025A 2026E 2027E 2028E 2029",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "35%",
+   "normalised": "3500 bps",
+   "ts_page": 29,
+   "context": "ial model summary Revenue ($mm) EBITDA ($mm) YoY 4% 6% 10% 1% (9%) EBITDA 25% 26% 37% 35% 35% growth margin $594 $543 $1,680 $1,702 $616 $1,437 $1,521 $1,554 $353 $414 2025A 2026E 2027E 2028E 2029E 20",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "92%",
+   "normalised": "9200 bps",
+   "ts_page": 29,
+   "context": "414 2025A 2026E 2027E 2028E 2029E 2025A 2026E 2027E 2028E 2029E Operating cash flow ($mm) 92% Unlevered free cash flow ($mm) CCR 52% 64% 77% 90% $500 $533 2029E $319 2027E $476 $275 2028E $263 $103 $1",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "52%",
+   "normalised": "5200 bps",
+   "ts_page": 29,
+   "context": "2026E 2027E 2028E 2029E Operating cash flow ($mm) 92% Unlevered free cash flow ($mm) CCR 52% 64% 77% 90% $500 $533 2029E $319 2027E $476 $275 2028E $263 $103 $120 2026E $185 2029E 2025A 2026E 2027E 2",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "64%",
+   "normalised": "6400 bps",
+   "ts_page": 29,
+   "context": "6E 2027E 2028E 2029E Operating cash flow ($mm) 92% Unlevered free cash flow ($mm) CCR 52% 64% 77% 90% $500 $533 2029E $319 2027E $476 $275 2028E $263 $103 $120 2026E $185 2029E 2025A 2026E 2027E 2028E",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "77%",
+   "normalised": "7700 bps",
+   "ts_page": 29,
+   "context": "027E 2028E 2029E Operating cash flow ($mm) 92% Unlevered free cash flow ($mm) CCR 52% 64% 77% 90% $500 $533 2029E $319 2027E $476 $275 2028E $263 $103 $120 2026E $185 2029E 2025A 2026E 2027E 2028E ($9",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "90%",
+   "normalised": "9000 bps",
+   "ts_page": 29,
+   "context": "2028E 2029E Operating cash flow ($mm) 92% Unlevered free cash flow ($mm) CCR 52% 64% 77% 90% $500 $533 2029E $319 2027E $476 $275 2028E $263 $103 $120 2026E $185 2029E 2025A 2026E 2027E 2028E ($95) 2",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "54"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "0.1x",
+   "normalised": "0.10x",
+   "ts_page": 30,
+   "context": "t2 / (net cash) $625 $1,059 $976 Net debt2 / LTM EBITDA $339 $415 ($65) $1,154 $517 $593 (0.1x) $625 $625 $625 ($256) $575 $286 $210 (0.4x) ($401) 0.8x 0.5x (0.7x) Source: Management projections Note:",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "0.4x",
+   "normalised": "0.40x",
+   "ts_page": 30,
+   "context": "LTM EBITDA $339 $415 ($65) $1,154 $517 $593 (0.1x) $625 $625 $625 ($256) $575 $286 $210 (0.4x) ($401) 0.8x 0.5x (0.7x) Source: Management projections Note: Non-inclusive of illustrative high yield is",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "0.8x",
+   "normalised": "0.80x",
+   "ts_page": 30,
+   "context": "339 $415 ($65) $1,154 $517 $593 (0.1x) $625 $625 $625 ($256) $575 $286 $210 (0.4x) ($401) 0.8x 0.5x (0.7x) Source: Management projections Note: Non-inclusive of illustrative high yield issuance; 1 Def",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "0.5x",
+   "normalised": "0.50x",
+   "ts_page": 30,
+   "context": "415 ($65) $1,154 $517 $593 (0.1x) $625 $625 $625 ($256) $575 $286 $210 (0.4x) ($401) 0.8x 0.5x (0.7x) Source: Management projections Note: Non-inclusive of illustrative high yield issuance; 1 Defined",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "0.7x",
+   "normalised": "0.70x",
+   "ts_page": 30,
+   "context": "65) $1,154 $517 $593 (0.1x) $625 $625 $625 ($256) $575 $286 $210 (0.4x) ($401) 0.8x 0.5x (0.7x) Source: Management projections Note: Non-inclusive of illustrative high yield issuance; 1 Defined as unr",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$225mm",
+   "normalised": "$225m",
+   "ts_page": 30,
+   "context": "ance; 1 Defined as unrestricted cash plus available RCF capacity, assumes RCF capacity of $225mm less $47mm letter of credit; 2 Non-inclusive of restricted cash; 3 Excludes 30 debt issuance cost Incom",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "2, 100"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$47mm",
+   "normalised": "$47m",
+   "ts_page": 30,
+   "context": "ned as unrestricted cash plus available RCF capacity, assumes RCF capacity of $225mm less $47mm letter of credit; 2 Non-inclusive of restricted cash; 3 Excludes 30 debt issuance cost Income statement",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "0.8x",
+   "normalised": "0.80x",
+   "ts_page": 33,
+   "context": "vered basis $365 $980 32 Leverage and liquidity profile $286 Net debt2 / (Net cash) ($mm) 0.8x Net debt2 / EBITDA 2025A $210 6.7x 0.5x 2025A 2026E ($65) ($256) ($401) 2026E (0.1x) (0.4x) (0.7x) $517 2",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "6.7x",
+   "normalised": "6.70x",
+   "ts_page": 33,
+   "context": "nd liquidity profile $286 Net debt2 / (Net cash) ($mm) 0.8x Net debt2 / EBITDA 2025A $210 6.7x 0.5x 2025A 2026E ($65) ($256) ($401) 2026E (0.1x) (0.4x) (0.7x) $517 2027E 2028E 2029E 2027E 2028E 2029E",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "0.5x",
+   "normalised": "0.50x",
+   "ts_page": 33,
+   "context": "quidity profile $286 Net debt2 / (Net cash) ($mm) 0.8x Net debt2 / EBITDA 2025A $210 6.7x 0.5x 2025A 2026E ($65) ($256) ($401) 2026E (0.1x) (0.4x) (0.7x) $517 2027E 2028E 2029E 2027E 2028E 2029E Liqui",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "0.1x",
+   "normalised": "0.10x",
+   "ts_page": 33,
+   "context": "($mm) 0.8x Net debt2 / EBITDA 2025A $210 6.7x 0.5x 2025A 2026E ($65) ($256) ($401) 2026E (0.1x) (0.4x) (0.7x) $517 2027E 2028E 2029E 2027E 2028E 2029E Liquidity1 ($mm) $1,154 LTM EBITDA / Interest exp",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "0.4x",
+   "normalised": "0.40x",
+   "ts_page": 33,
+   "context": ".8x Net debt2 / EBITDA 2025A $210 6.7x 0.5x 2025A 2026E ($65) ($256) ($401) 2026E (0.1x) (0.4x) (0.7x) $517 2027E 2028E 2029E 2027E 2028E 2029E Liquidity1 ($mm) $1,154 LTM EBITDA / Interest expense 11",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "0.7x",
+   "normalised": "0.70x",
+   "ts_page": 33,
+   "context": "debt2 / EBITDA 2025A $210 6.7x 0.5x 2025A 2026E ($65) ($256) ($401) 2026E (0.1x) (0.4x) (0.7x) $517 2027E 2028E 2029E 2027E 2028E 2029E Liquidity1 ($mm) $1,154 LTM EBITDA / Interest expense 11.3x 11.",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "11.3x",
+   "normalised": "11.30x",
+   "ts_page": 33,
+   "context": "2027E 2028E 2029E 2027E 2028E 2029E Liquidity1 ($mm) $1,154 LTM EBITDA / Interest expense 11.3x 11.6x 11.4x $1,059 $868 7.8x $593 2025A 2026E 2027E 2028E 2029E 2025A 2026E 2027E 2028E 2029E Source: Ma",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "11.6x",
+   "normalised": "11.60x",
+   "ts_page": 33,
+   "context": "2028E 2029E 2027E 2028E 2029E Liquidity1 ($mm) $1,154 LTM EBITDA / Interest expense 11.3x 11.6x 11.4x $1,059 $868 7.8x $593 2025A 2026E 2027E 2028E 2029E 2025A 2026E 2027E 2028E 2029E Source: Manageme",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "11.4x",
+   "normalised": "11.40x",
+   "ts_page": 33,
+   "context": "2029E 2027E 2028E 2029E Liquidity1 ($mm) $1,154 LTM EBITDA / Interest expense 11.3x 11.6x 11.4x $1,059 $868 7.8x $593 2025A 2026E 2027E 2028E 2029E 2025A 2026E 2027E 2028E 2029E Source: Management pro",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "7.8x",
+   "normalised": "7.80x",
+   "ts_page": 33,
+   "context": "2029E Liquidity1 ($mm) $1,154 LTM EBITDA / Interest expense 11.3x 11.6x 11.4x $1,059 $868 7.8x $593 2025A 2026E 2027E 2028E 2029E 2025A 2026E 2027E 2028E 2029E Source: Management projections Note: Non",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$225mm",
+   "normalised": "$225m",
+   "ts_page": 35,
+   "context": "ity in a Collateral Rig Owner Admin agent J.P. Morgan SE JPMorgan Chase Bank, NA Facility $225mm Up to $275mm Collateral • Collateral Rigs (including Harsh Environment Rigs prior to the occurrence of",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "2, 100"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$275mm",
+   "normalised": "$275m",
+   "ts_page": 35,
+   "context": "ateral Rig Owner Admin agent J.P. Morgan SE JPMorgan Chase Bank, NA Facility $225mm Up to $275mm Collateral • Collateral Rigs (including Harsh Environment Rigs prior to the occurrence of the Harsh • C",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 35,
+   "context": "ment Rigs prior to the occurrence of the Harsh Environment Subsidiary Release Condition), 100% equity in Required Guarantors, all other Environment Subsidiary Release Condition), 100% equity in Requir",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "47, 53, 61, 94, 98, 101, 119, 172…"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 35,
+   "context": "100% equity in Required Guarantors, all other Environment Subsidiary Release Condition), 100% equity in Required Guarantors, all other property and interests in property, including cash and cash equi",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "47, 53, 61, 94, 98, 101, 119, 172…"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.50x",
+   "normalised": "2.50x",
+   "ts_page": 35,
+   "context": "• No requirement for new DACAs outside of the United States, subject to Net Leverage of > 2.50x • West Phoenix, West Aquarius and West Eclipse rigs to be designated as Non-Core Rigs and the collateral",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "49, 86, 175"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "2.500%",
+   "normalised": "250 bps",
+   "ts_page": 35,
+   "context": ". SOFR margin Commitment fee Ratings SOFR margin Commitment fee Commitment fee ≥ BB / Ba2 2.500% Below ≥ BB / Ba2 2.500% Below Financial covenants BB- / Ba3 2.750% BB- / Ba3 2.750% L/C sublimit 3.000%",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "2.500%",
+   "normalised": "250 bps",
+   "ts_page": 35,
+   "context": "fee Ratings SOFR margin Commitment fee Commitment fee ≥ BB / Ba2 2.500% Below ≥ BB / Ba2 2.500% Below Financial covenants BB- / Ba3 2.750% BB- / Ba3 2.750% L/C sublimit 3.000% 3.000% Accordion B+ / B",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "2.750%",
+   "normalised": "275 bps",
+   "ts_page": 35,
+   "context": "mitment fee ≥ BB / Ba2 2.500% Below ≥ BB / Ba2 2.500% Below Financial covenants BB- / Ba3 2.750% BB- / Ba3 2.750% L/C sublimit 3.000% 3.000% Accordion B+ / B1 3.250% B+ / B1 3.250% Anti cash hoarding",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "2.750%",
+   "normalised": "275 bps",
+   "ts_page": 35,
+   "context": "/ Ba2 2.500% Below ≥ BB / Ba2 2.500% Below Financial covenants BB- / Ba3 2.750% BB- / Ba3 2.750% L/C sublimit 3.000% 3.000% Accordion B+ / B1 3.250% B+ / B1 3.250% Anti cash hoarding B / B2 3.500% B /",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "3.000%",
+   "normalised": "300 bps",
+   "ts_page": 35,
+   "context": "BB / Ba2 2.500% Below Financial covenants BB- / Ba3 2.750% BB- / Ba3 2.750% L/C sublimit 3.000% 3.000% Accordion B+ / B1 3.250% B+ / B1 3.250% Anti cash hoarding B / B2 3.500% B / B2 3.500% Cash nett",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "3.000%",
+   "normalised": "300 bps",
+   "ts_page": 35,
+   "context": "a2 2.500% Below Financial covenants BB- / Ba3 2.750% BB- / Ba3 2.750% L/C sublimit 3.000% 3.000% Accordion B+ / B1 3.250% B+ / B1 3.250% Anti cash hoarding B / B2 3.500% B / B2 3.500% Cash netting for",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "3.250%",
+   "normalised": "325 bps",
+   "ts_page": 35,
+   "context": "covenants BB- / Ba3 2.750% BB- / Ba3 2.750% L/C sublimit 3.000% 3.000% Accordion B+ / B1 3.250% B+ / B1 3.250% Anti cash hoarding B / B2 3.500% B / B2 3.500% Cash netting for ≤ B- / B3 ≤ B- / B3 leve",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "3.250%",
+   "normalised": "325 bps",
+   "ts_page": 35,
+   "context": "/ Ba3 2.750% BB- / Ba3 2.750% L/C sublimit 3.000% 3.000% Accordion B+ / B1 3.250% B+ / B1 3.250% Anti cash hoarding B / B2 3.500% B / B2 3.500% Cash netting for ≤ B- / B3 ≤ B- / B3 leverage calculatio",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "3.500%",
+   "normalised": "350 bps",
+   "ts_page": 35,
+   "context": "sublimit 3.000% 3.000% Accordion B+ / B1 3.250% B+ / B1 3.250% Anti cash hoarding B / B2 3.500% B / B2 3.500% Cash netting for ≤ B- / B3 ≤ B- / B3 leverage calculation 10.0 bps Credit Spread Adjustme",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "3.500%",
+   "normalised": "350 bps",
+   "ts_page": 35,
+   "context": "0% 3.000% Accordion B+ / B1 3.250% B+ / B1 3.250% Anti cash hoarding B / B2 3.500% B / B2 3.500% Cash netting for ≤ B- / B3 ≤ B- / B3 leverage calculation 10.0 bps Credit Spread Adjustment applied to",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10.0 bps",
+   "normalised": "10 bps",
+   "ts_page": 35,
+   "context": "ing B / B2 3.500% B / B2 3.500% Cash netting for ≤ B- / B3 ≤ B- / B3 leverage calculation 10.0 bps Credit Spread Adjustment applied to SOFR borrowing across all tenors Removal of 10.0 bps Credit Sprea",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "43, 45"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10.0 bps",
+   "normalised": "10 bps",
+   "ts_page": 35,
+   "context": "10.0 bps Credit Spread Adjustment applied to SOFR borrowing across all tenors Removal of 10.0 bps Credit Spread Adjustment 0.50% for Years 1-3; 0.75% for Year 4; 1.00% thereafter 0.50% • Net Leverage",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "43, 45"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.50%",
+   "normalised": "50 bps",
+   "ts_page": 35,
+   "context": "applied to SOFR borrowing across all tenors Removal of 10.0 bps Credit Spread Adjustment 0.50% for Years 1-3; 0.75% for Year 4; 1.00% thereafter 0.50% • Net Leverage ≤ 3.00x • Interest Coverage ≥ 2.5",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "63"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.75%",
+   "normalised": "75 bps",
+   "ts_page": 35,
+   "context": "owing across all tenors Removal of 10.0 bps Credit Spread Adjustment 0.50% for Years 1-3; 0.75% for Year 4; 1.00% thereafter 0.50% • Net Leverage ≤ 3.00x • Interest Coverage ≥ 2.50x Same as existing •",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "63"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.00%",
+   "normalised": "100 bps",
+   "ts_page": 35,
+   "context": "enors Removal of 10.0 bps Credit Spread Adjustment 0.50% for Years 1-3; 0.75% for Year 4; 1.00% thereafter 0.50% • Net Leverage ≤ 3.00x • Interest Coverage ≥ 2.50x Same as existing • $100mm • $100mm S",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "43, 56, 63"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.50%",
+   "normalised": "50 bps",
+   "ts_page": 35,
+   "context": "10.0 bps Credit Spread Adjustment 0.50% for Years 1-3; 0.75% for Year 4; 1.00% thereafter 0.50% • Net Leverage ≤ 3.00x • Interest Coverage ≥ 2.50x Same as existing • $100mm • $100mm Same as existing •",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "63"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.00x",
+   "normalised": "3.00x",
+   "ts_page": 35,
+   "context": "Adjustment 0.50% for Years 1-3; 0.75% for Year 4; 1.00% thereafter 0.50% • Net Leverage ≤ 3.00x • Interest Coverage ≥ 2.50x Same as existing • $100mm • $100mm Same as existing • $250mm Same as existin",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "175"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.50x",
+   "normalised": "2.50x",
+   "ts_page": 35,
+   "context": "-3; 0.75% for Year 4; 1.00% thereafter 0.50% • Net Leverage ≤ 3.00x • Interest Coverage ≥ 2.50x Same as existing • $100mm • $100mm Same as existing • $250mm Same as existing If any Loans are outstandi",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "49, 86, 175"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100mm",
+   "normalised": "$100m",
+   "ts_page": 35,
+   "context": "0% thereafter 0.50% • Net Leverage ≤ 3.00x • Interest Coverage ≥ 2.50x Same as existing • $100mm • $100mm Same as existing • $250mm Same as existing If any Loans are outstanding or if L/C Obligations",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "65, 94, 121, 128, 171"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100mm",
+   "normalised": "$100m",
+   "ts_page": 35,
+   "context": "fter 0.50% • Net Leverage ≤ 3.00x • Interest Coverage ≥ 2.50x Same as existing • $100mm • $100mm Same as existing • $250mm Same as existing If any Loans are outstanding or if L/C Obligations > $100mm,",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "65, 94, 121, 128, 171"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$250mm",
+   "normalised": "$250m",
+   "ts_page": 35,
+   "context": "≤ 3.00x • Interest Coverage ≥ 2.50x Same as existing • $100mm • $100mm Same as existing • $250mm Same as existing If any Loans are outstanding or if L/C Obligations > $100mm, then the lesser of (i) Sp",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "118, 144, 157, 169"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100mm",
+   "normalised": "$100m",
+   "ts_page": 35,
+   "context": "s existing • $250mm Same as existing If any Loans are outstanding or if L/C Obligations > $100mm, then the lesser of (i) Specified Same as existing Group Cash or (ii) $100mm; otherwise, unlimited Same",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "65, 94, 121, 128, 171"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100mm",
+   "normalised": "$100m",
+   "ts_page": 35,
+   "context": "bligations > $100mm, then the lesser of (i) Specified Same as existing Group Cash or (ii) $100mm; otherwise, unlimited Same as existing 35 Summary terms and conditions (cont’d) Proposed Existing Restr",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "65, 94, 121, 128, 171"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.00x",
+   "normalised": "1.00x",
+   "ts_page": 36,
+   "context": "ayments • Unlimited subject to compliance with (i) No Default or EoD, (ii) Net Leverage < 1.00x, (iii) • Unlimited subject to compliance with (i) No Default or EoD, (ii) Net Leverage < 1.75x, (iii) Li",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.75x",
+   "normalised": "1.75x",
+   "ts_page": 36,
+   "context": ", (iii) • Unlimited subject to compliance with (i) No Default or EoD, (ii) Net Leverage < 1.75x, (iii) Liquidity ≥ $350mm Liquidity ≥ $350mm Permitted investments LCE investments • Permitted from Free",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$350mm",
+   "normalised": "$350m",
+   "ts_page": 36,
+   "context": "ct to compliance with (i) No Default or EoD, (ii) Net Leverage < 1.75x, (iii) Liquidity ≥ $350mm Liquidity ≥ $350mm Permitted investments LCE investments • Permitted from Free Cash Flow subject to com",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "91, 94, 172, 174"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$350mm",
+   "normalised": "$350m",
+   "ts_page": 36,
+   "context": "th (i) No Default or EoD, (ii) Net Leverage < 1.75x, (iii) Liquidity ≥ $350mm Liquidity ≥ $350mm Permitted investments LCE investments • Permitted from Free Cash Flow subject to compliance with (i) No",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "91, 94, 172, 174"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.00x",
+   "normalised": "2.00x",
+   "ts_page": 36,
+   "context": "from Free Cash Flow subject to compliance with (i) No Default or EoD, (ii) Net Leverage < 2.00x, (iii) Liquidity ≥ $350mm Leverage < 2.50x, (iii) Liquidity ≥ $350mm Permitted liens & indebtedness (Sec",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "54, 167, 169, 174, 177"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.50x",
+   "normalised": "2.50x",
+   "ts_page": 36,
+   "context": "ith (i) No Default or EoD, (ii) Net Leverage < 2.00x, (iii) Liquidity ≥ $350mm Leverage < 2.50x, (iii) Liquidity ≥ $350mm Permitted liens & indebtedness (Secured) • Not to exceed $50mm in the aggregat",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "49, 86, 175"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$350mm",
+   "normalised": "$350m",
+   "ts_page": 36,
+   "context": ", (ii) Net Leverage < 2.00x, (iii) Liquidity ≥ $350mm Leverage < 2.50x, (iii) Liquidity ≥ $350mm Permitted liens & indebtedness (Secured) • Not to exceed $50mm in the aggregate, subject to no Default",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "91, 94, 172, 174"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$50mm",
+   "normalised": "$50m",
+   "ts_page": 36,
+   "context": "2.50x, (iii) Liquidity ≥ $350mm Permitted liens & indebtedness (Secured) • Not to exceed $50mm in the aggregate, subject to no Default or EoD and Liquidity ≥ • Not to exceed $75mm in the aggregate, s",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "55, 73, 87, 172, 180"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$75mm",
+   "normalised": "$75m",
+   "ts_page": 36,
+   "context": "ceed $50mm in the aggregate, subject to no Default or EoD and Liquidity ≥ • Not to exceed $75mm in the aggregate, subject to no Default or EoD and Liquidity ≥ $350mm $350mm Specified bilateral obligat",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "172"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$350mm",
+   "normalised": "$350m",
+   "ts_page": 36,
+   "context": "ty ≥ • Not to exceed $75mm in the aggregate, subject to no Default or EoD and Liquidity ≥ $350mm $350mm Specified bilateral obligation • Specified Asset Sale Proceeds: up to 100% of net cash proceeds",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "91, 94, 172, 174"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$350mm",
+   "normalised": "$350m",
+   "ts_page": 36,
+   "context": "Not to exceed $75mm in the aggregate, subject to no Default or EoD and Liquidity ≥ $350mm $350mm Specified bilateral obligation • Specified Asset Sale Proceeds: up to 100% of net cash proceeds • Speci",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "91, 94, 172, 174"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 36,
+   "context": "ity ≥ $350mm $350mm Specified bilateral obligation • Specified Asset Sale Proceeds: up to 100% of net cash proceeds • Specified Asset Sale Proceeds: up to 100% of net cash proceeds Permitted Liens & S",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "47, 53, 61, 94, 98, 101, 119, 172…"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 36,
+   "context": "set Sale Proceeds: up to 100% of net cash proceeds • Specified Asset Sale Proceeds: up to 100% of net cash proceeds Permitted Liens & Same as existing Indebtedness $100mm Same as existing (2nd Lien No",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "47, 53, 61, 94, 98, 101, 119, 172…"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100mm",
+   "normalised": "$100m",
+   "ts_page": 36,
+   "context": "Proceeds: up to 100% of net cash proceeds Permitted Liens & Same as existing Indebtedness $100mm Same as existing (2nd Lien Notes / Lesser of $25mm and the aggregate amount of accounts receivable owed",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "65, 94, 121, 128, 171"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$25mm",
+   "normalised": "$25m",
+   "ts_page": 36,
+   "context": "Liens & Same as existing Indebtedness $100mm Same as existing (2nd Lien Notes / Lesser of $25mm and the aggregate amount of accounts receivable owed by third parties to all Junior) such Ineligible LCE",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "73, 93, 103, 166, 169, 170, 171, 177"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$25mm",
+   "normalised": "$25m",
+   "ts_page": 36,
+   "context": "such Ineligible LCEs Same as existing Permitted liens & indebtedness • Additional Liens: $25mm • $100mm (Unsecured) • CapEx / Equipment: $25mm Limitation on asset • Cash & Equivalents: $25mm • 2nd Li",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "73, 93, 103, 166, 169, 170, 171, 177"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100mm",
+   "normalised": "$100m",
+   "ts_page": 36,
+   "context": "eligible LCEs Same as existing Permitted liens & indebtedness • Additional Liens: $25mm • $100mm (Unsecured) • CapEx / Equipment: $25mm Limitation on asset • Cash & Equivalents: $25mm • 2nd Lien Notes",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "65, 94, 121, 128, 171"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$25mm",
+   "normalised": "$25m",
+   "ts_page": 36,
+   "context": "liens & indebtedness • Additional Liens: $25mm • $100mm (Unsecured) • CapEx / Equipment: $25mm Limitation on asset • Cash & Equivalents: $25mm • 2nd Lien Notes: $500mm, in the aggregate sales • Acqui",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "73, 93, 103, 166, 169, 170, 171, 177"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$25mm",
+   "normalised": "$25m",
+   "ts_page": 36,
+   "context": "• $100mm (Unsecured) • CapEx / Equipment: $25mm Limitation on asset • Cash & Equivalents: $25mm • 2nd Lien Notes: $500mm, in the aggregate sales • Acquired Property: Additional Rig Test, Collateral Co",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "73, 93, 103, 166, 169, 170, 171, 177"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$500mm",
+   "normalised": "$500m",
+   "ts_page": 36,
+   "context": "apEx / Equipment: $25mm Limitation on asset • Cash & Equivalents: $25mm • 2nd Lien Notes: $500mm, in the aggregate sales • Acquired Property: Additional Rig Test, Collateral Coverage ≥ 3.50x, and Net",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "102, 168"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50x",
+   "normalised": "3.50x",
+   "ts_page": 36,
+   "context": "m, in the aggregate sales • Acquired Property: Additional Rig Test, Collateral Coverage ≥ 3.50x, and Net Leverage ≤ • Junior: Greater of (i) $250mm and (ii) Net Leverage ≤ 2.00x 2.00x • Unsecured: No",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "42, 53, 119, 127, 160, 167, 175"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$250mm",
+   "normalised": "$250m",
+   "ts_page": 36,
+   "context": "tional Rig Test, Collateral Coverage ≥ 3.50x, and Net Leverage ≤ • Junior: Greater of (i) $250mm and (ii) Net Leverage ≤ 2.00x 2.00x • Unsecured: No Default or EoD, pro forma compliance with financial",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "118, 144, 157, 169"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.00x",
+   "normalised": "2.00x",
+   "ts_page": 36,
+   "context": "erage ≥ 3.50x, and Net Leverage ≤ • Junior: Greater of (i) $250mm and (ii) Net Leverage ≤ 2.00x 2.00x • Unsecured: No Default or EoD, pro forma compliance with financial covenants • General: $25mm • $",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "54, 167, 169, 174, 177"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.00x",
+   "normalised": "2.00x",
+   "ts_page": 36,
+   "context": "≥ 3.50x, and Net Leverage ≤ • Junior: Greater of (i) $250mm and (ii) Net Leverage ≤ 2.00x 2.00x • Unsecured: No Default or EoD, pro forma compliance with financial covenants • General: $25mm • $25mm •",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "54, 167, 169, 174, 177"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$25mm",
+   "normalised": "$25m",
+   "ts_page": 36,
+   "context": "• Unsecured: No Default or EoD, pro forma compliance with financial covenants • General: $25mm • $25mm • Collateral Coverage ≥ 2.00x • 2nd Lien Notes: $500mm, in the aggregate • Non-Cash Consideratio",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "73, 93, 103, 166, 169, 170, 171, 177"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$25mm",
+   "normalised": "$25m",
+   "ts_page": 36,
+   "context": "ured: No Default or EoD, pro forma compliance with financial covenants • General: $25mm • $25mm • Collateral Coverage ≥ 2.00x • 2nd Lien Notes: $500mm, in the aggregate • Non-Cash Consideration ≤ $25m",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "73, 93, 103, 166, 169, 170, 171, 177"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.00x",
+   "normalised": "2.00x",
+   "ts_page": 36,
+   "context": "orma compliance with financial covenants • General: $25mm • $25mm • Collateral Coverage ≥ 2.00x • 2nd Lien Notes: $500mm, in the aggregate • Non-Cash Consideration ≤ $25mm • Junior: Greater of (i) $20",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "54, 167, 169, 174, 177"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$500mm",
+   "normalised": "$500m",
+   "ts_page": 36,
+   "context": "ancial covenants • General: $25mm • $25mm • Collateral Coverage ≥ 2.00x • 2nd Lien Notes: $500mm, in the aggregate • Non-Cash Consideration ≤ $25mm • Junior: Greater of (i) $200mm and (ii) Net Leverag",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "102, 168"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$25mm",
+   "normalised": "$25m",
+   "ts_page": 36,
+   "context": "al Coverage ≥ 2.00x • 2nd Lien Notes: $500mm, in the aggregate • Non-Cash Consideration ≤ $25mm • Junior: Greater of (i) $200mm and (ii) Net Leverage ≤ 2.00x • Not less than 75% of the consideration r",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "73, 93, 103, 166, 169, 170, 171, 177"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$200mm",
+   "normalised": "$200m",
+   "ts_page": 36,
+   "context": "Notes: $500mm, in the aggregate • Non-Cash Consideration ≤ $25mm • Junior: Greater of (i) $200mm and (ii) Net Leverage ≤ 2.00x • Not less than 75% of the consideration received is cash or cash equival",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "169"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.00x",
+   "normalised": "2.00x",
+   "ts_page": 36,
+   "context": "• Non-Cash Consideration ≤ $25mm • Junior: Greater of (i) $200mm and (ii) Net Leverage ≤ 2.00x • Not less than 75% of the consideration received is cash or cash equivalents • Upfront Fee: Old Money:",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "54, 167, 169, 174, 177"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "75%",
+   "normalised": "7500 bps",
+   "ts_page": 36,
+   "context": "ion ≤ $25mm • Junior: Greater of (i) $200mm and (ii) Net Leverage ≤ 2.00x • Not less than 75% of the consideration received is cash or cash equivalents • Upfront Fee: Old Money: 45.0 bps, New Money: 7",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "101"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "45.0 bps",
+   "normalised": "45 bps",
+   "ts_page": 36,
+   "context": "n 75% of the consideration received is cash or cash equivalents • Upfront Fee: Old Money: 45.0 bps, New Money: 75.0 bps paid on final allocations (15.0 • Unsecured: No Default or EoD, pro forma compli",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "75.0 bps",
+   "normalised": "75 bps",
+   "ts_page": 36,
+   "context": "ation received is cash or cash equivalents • Upfront Fee: Old Money: 45.0 bps, New Money: 75.0 bps paid on final allocations (15.0 • Unsecured: No Default or EoD, pro forma compliance with financial c",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "63"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$150k",
+   "normalised": "$150,000",
+   "ts_page": 36,
+   "context": "pro forma compliance with financial covenants • General: $25mm bps per annum) • JLA Fee: $150k paid for lender commitments ≥ $75 million, payable only in the event • Collateral Coverage ≥ 2.00x • Non",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$75 million",
+   "normalised": "$75m",
+   "ts_page": 36,
+   "context": "covenants • General: $25mm bps per annum) • JLA Fee: $150k paid for lender commitments ≥ $75 million, payable only in the event • Collateral Coverage ≥ 2.00x • Non-Cash Consideration ≤ $25mm that the",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "172"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.00x",
+   "normalised": "2.00x",
+   "ts_page": 36,
+   "context": "d for lender commitments ≥ $75 million, payable only in the event • Collateral Coverage ≥ 2.00x • Non-Cash Consideration ≤ $25mm that the outstanding Seadrill Ltd 8.375% senior notes are not refinance",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "54, 167, 169, 174, 177"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$25mm",
+   "normalised": "$25m",
+   "ts_page": 36,
+   "context": "llion, payable only in the event • Collateral Coverage ≥ 2.00x • Non-Cash Consideration ≤ $25mm that the outstanding Seadrill Ltd 8.375% senior notes are not refinanced or redeemed • Not less than 80%",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "73, 93, 103, 166, 169, 170, 171, 177"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "8.375%",
+   "normalised": "837.5 bps",
+   "ts_page": 36,
+   "context": "teral Coverage ≥ 2.00x • Non-Cash Consideration ≤ $25mm that the outstanding Seadrill Ltd 8.375% senior notes are not refinanced or redeemed • Not less than 80% of the consideration received is cash o",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "80%",
+   "normalised": "8000 bps",
+   "ts_page": 36,
+   "context": "tstanding Seadrill Ltd 8.375% senior notes are not refinanced or redeemed • Not less than 80% of the consideration received is cash or cash equivalents by December 31, 2026 Fees 36 Indicative transact",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "42"
+  },
+  {
+   "type": "Date",
+   "ts_text": "December 31, 2026",
+   "normalised": "2026-12-31",
+   "ts_page": 36,
+   "context": "redeemed • Not less than 80% of the consideration received is cash or cash equivalents by December 31, 2026 Fees 36 Indicative transaction timeline May 2026 June 2026 M T W T F M T W T F 1 1 2 3 4 5 4",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  }
+ ],
+ "document_notes": "The term sheet file looks like a lender presentation or slides rather than a formal term sheet; expect more 'review' flags.",
+ "quote_check": {
+  "ts_checked": 9,
+  "ca_checked": 11,
+  "ts_found": 5,
+  "ca_found": 10
+ },
+ "generated_at": "2026-11-12T14:40:50+00:00",
+ "engine": "rules",
+ "deal": "Seadrill 2026",
+ "ts_file": "Seadrill 2026 TS.pdf",
+ "ca_file": "Seadrill 2026 CA.pdf"
+}

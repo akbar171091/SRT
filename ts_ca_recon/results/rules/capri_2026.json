@@ -1,0 +1,770 @@
+{
+ "rows": [
+  {
+   "id": "R01",
+   "attribute": "Facility amount / commitments",
+   "ts_value": "$1bn",
+   "ts_quote": "A senior secured revolving credit facility (the “ Revolving Credit Facility”) in an amount up to $1,000,000,000 (the loans thereunder, the “Revolving Credit Loans”",
+   "ts_location": "p. 2 (label \"II.Revolving Credit Facility Revolving Facility\")",
+   "ca_value": "$1.5bn, $1bn",
+   "ca_quote": "As of the Amendment No. 1 Effective Date, the Aggregate Revolving Commitment is $1,500,000,0001,000,000,000.",
+   "ca_location": "p. 33 (definition \"Aggregate Revolving Commitment\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $1bn.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    33
+   ]
+  },
+  {
+   "id": "R02",
+   "attribute": "Maturity date",
+   "ts_value": "5 yr",
+   "ts_quote": "The Revolving Credit Facility shall be available on a revolving basis during the period commencing on the Closing Date and ending on the fifth anniversary thereof (the “ Revolving Credit Termination Date”).",
+   "ts_location": "p. 3, 13 (label \"Availability and Maturity\")",
+   "ca_value": "2031-06-24 (1826 days after 2026-06-24)",
+   "ca_quote": "“Maturity Date” means, (i) with respect to in the case of the Revolving Facility, the Revolving Maturity Date and (ii) with respect to the Initial Term Loan Facilities, the Initial Term Loan Maturity Date. ",
+   "ca_location": "p. 66, 80, 87 (definition \"Maturity Date\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS tenor 5 yr = CA maturity 2031-06-24 measured from 2026-06-24 (agreement date).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    66
+   ]
+  },
+  {
+   "id": "R03",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "stated in words (no figures)",
+   "ts_quote": "Same as under the Existing Credit Agreement.",
+   "ts_location": "p. 2, 3, 6 (label \"Letters of Credit\")",
+   "ca_value": "$100m, $50m, $125m",
+   "ca_quote": "“Letter of Credit Commitment” means, with respect to each Issuing Bank, the commitment of such Issuing Bank to issue Letters of Credit hereunder. The initial amount of each Issuing Bank’s Letter of Credit Commitment is set forth on Schedule 2.02, or if an Issuing Bank has entered into an Assignment ",
+   "ca_location": "p. 28, 39, 64, 66, 101, 102… (definition \"Letter of Credit Commitment\")",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet addresses this in words only; compare the quoted text manually.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    64
+   ]
+  },
+  {
+   "id": "R04",
+   "attribute": "Swingline sublimit",
+   "ts_value": "stated in words (no figures)",
+   "ts_quote": "Same as under the Existing Credit Agreement.",
+   "ts_location": "p. 3, 9, 11 (label \"Swing Line Loans\")",
+   "ca_value": "$100m",
+   "ca_quote": "SECTION 2.05. Swingline Loans. (a) Subject to the terms and conditions set forth herein, the Swingline Lender may, in its sole discretion, make Swingline Loans (x) in Dollars to the 69 Company and (y) in Agreed Currencies (other than Canadian Dollars) to Capri Holdings and MK Switzerland, in each ca",
+   "ca_location": "p. 99, 100 (section \"SECTION 2.05. Swingline Loans.\")",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet addresses this in words only; compare the quoted text manually.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R05",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "stated in words (no figures)",
+   "ts_quote": "or more tranches of term loans and/or increase the aggregate amount of any tranche of term loans then outstanding under the Credit Documentation (as defined below), in each case, that are secured by pari passu liens on the Collateral (as defined below) (the “Incremental Facilities”), without the con",
+   "ts_location": "p. 3, 4, 6 (keyword \"incremental facilit\")",
+   "ca_value": "$750m, $400m",
+   "ca_quote": "“Incremental Amount” means, at the time of the establishment of the commitments in respect of the Indebtedness to be incurred utilizing this defined term pursuant to Section 2.20 or 6.01(u), the sum of: (a) the excess (if any) of (i) $750,000,000 an amount equal to the greater of (x) $400,000,000 an",
+   "ca_location": "p. 59 (definition \"Incremental Amount\")",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet addresses this in words only; compare the quoted text manually.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    59
+   ]
+  },
+  {
+   "id": "R06",
+   "attribute": "Extension option / term-out",
+   "ts_value": "The Credit Documentation shall include “amend and extend”provisions consistent with those in the Existing Credit Agreement pursuant to which individual Lenders may agree to extend, as applicable, the maturity date of the",
+   "ts_quote": "The Credit Documentation shall include “amend and extend”provisions consistent with those in the Existing Credit Agreement pursuant to which individual Lenders may agree to extend, as applicable, the maturity date of their outstanding commitments in respect of the Revolving Credit Facility, subject ",
+   "ts_location": "p. 4 (label \"Amend and Extend Feature\")",
+   "ca_value": "“Extension Date” has the meaning assigned to such term in Section 2.26. ",
+   "ca_quote": "“Extension Date” has the meaning assigned to such term in Section 2.26. ",
+   "ca_location": "p. 27, 56, 136 (definition \"Extension Date\")",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Both documents contain a provision; compare the mechanics (number, notice, consent, fee) in the quotes.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    4
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    56
+   ]
+  },
+  {
+   "id": "R07",
+   "attribute": "Applicable margin / pricing grid",
+   "ts_value": "50 bps, 100 bps, 125 bps, 25 bps, 112.5 bps, 12.5 bps, 10 bps, 15 bps, 137.5 bps, 37.5 bps, 16.25 bps, 150 bps (+1 more)",
+   "ts_quote": "| the Term SOFR Rate plus the Applicable Rate. | the Applicable Rate. | in effect on such day plus 0.5% and",
+   "ts_location": "p. 11 (pricing table)",
+   "ca_value": "87.5 bps, 100 bps, 112.5 bps, 125 bps, 137.5 bps, 0 bps, 43.75 bps, 7.5 bps, 50 bps, 10 bps, 12.5 bps, 56.25 bps (+19 more)",
+   "ca_quote": "dy’s 100.0 bps | / 112.5 bps | Fitch 125.0 bps | 1 A- N/A 137.5 bps 87.5 bps 0 bps 43.75 bps 7.5 bps | 2 BBB+ N/A 100.0 bps 0 bps 50 bps 10.0 bps | 31 BBB≤ 0.751.00:1.00 112.5 bps 12.5 bps 56.25 bps 12.510.00 bps | 42 BBB-> 0.75:1.00 but 125.0 bps 25.0 bps 62.",
+   "ca_location": "p. 201 (pricing table)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 50 bps, 100 bps, 125 bps, 25 bps, 112.5 bps, 12.5 bps, 10 bps, 15 bps, 137.5 bps, 37.5 bps, 16.25 bps, 150 bps (+1 more).",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R08",
+   "attribute": "Commitment / facility fee",
+   "ts_value": "15 bps, 50 bps, 100 bps, 125 bps, 25 bps, 112.5 bps, 12.5 bps, 10 bps, 137.5 bps, 37.5 bps, 16.25 bps, 150 bps (+1 more)",
+   "ts_quote": "provided that the initial commitment fee rate shall be 0.15% per annum and from and after the delivery of the compliance certificate for the first full fiscal quarter ending after the C",
+   "ts_location": "p. 13 (label \"Commitment Fees\")",
+   "ca_value": "87.5 bps, 100 bps, 112.5 bps, 125 bps, 137.5 bps, 0 bps, 43.75 bps, 7.5 bps, 50 bps, 10 bps, 12.5 bps, 56.25 bps (+19 more)",
+   "ca_quote": "10.0 bps | 31 BBB≤ 0.751.00:1.00 112.5 bps 12.5 bps 56.25 bps 12.510.00 bps | 42 BBB-> 0.75:1.00 but 125.0 bps 25.0 bps 62.50 bps 15.015.00 bps | / ≤ 2.50:1.00 | 53 BB+ > 2.50≤ 137.5 bps 37.5 bps 68.75 bps 17.516.25 bps",
+   "ca_location": "p. 201 (pricing table)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 15 bps, 50 bps, 100 bps, 125 bps, 25 bps, 112.5 bps, 12.5 bps, 10 bps, 137.5 bps, 37.5 bps, 16.25 bps, 150 bps (+1 more).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    13
+   ],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R09",
+   "attribute": "Financial covenants",
+   "ts_value": "4.00x, 4.50x, 1500 bps, $200m",
+   "ts_quote": "recently ended on or prior to such date, all calculated for Capri and its Subsidi aries on a consolidated basis, of not more than 4.00 to 1.00.Upon the election of Capri in the event that Capri or any s ubsidiary shall have completed a Material Acquisition (su",
+   "ts_location": "p. 7 (label \"Financial Covenant\")",
+   "ca_value": "4.00x, 4.50x",
+   "ca_quote": "The Loan Parties will not permit the Net Leverage Ratio, determined as of the end of each fiscal quarter of Capri Holdings and its consolidated Subsidiaries ending on and after the Effective Date, to be greater than 4.00 to 1.00",
+   "ca_location": "p. 168 (section \"SECTION 6.08. Financial Covenants.\")",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 4.00x, 4.50x, $200m. Found elsewhere in CA (check context): 1500 bps (p. 46, 157, 164).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    7
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    168
+   ]
+  },
+  {
+   "id": "R10",
+   "attribute": "Administrative agent",
+   "ts_value": "JPMCB (in such capacity, the “Administrative Agent”).",
+   "ts_quote": "JPMCB (in such capacity, the “Administrative Agent”).",
+   "ts_location": "p. 2 (label \"Administrative Agent\")",
+   "ca_value": "JPMorgan Chase Bank, N.A.",
+   "ca_quote": "JPMorgan Chase Bank, N.A.",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names JPMorgan Chase Bank, N.A.; each appears in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R11",
+   "attribute": "Borrower(s)",
+   "ts_value": "ILITY Summary of Terms and Conditions Capitalized terms used but not defined herein are used with the meanings assigned to them in the Amended and Restated Credit Agreement, dated as of February 4, 2025, among MK, Capri,",
+   "ts_quote": "ILITY Summary of Terms and Conditions Capitalized terms used but not defined herein are used with the meanings assigned to them in the Amended and Restated Credit Agreement, dated as of February 4, 2025, among MK, Capri, MK Switzerland, the Foreign Subsidiary Borrowers party thereto, the Guarantors ",
+   "ts_location": "p. 1 (keyword \"borrower\")",
+   "ca_value": "Gianni Versace S.r.l.",
+   "ca_quote": "Gianni Versace S.r.l.",
+   "ca_location": "cover page",
+   "status": "differs",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names Gianni Versace S.r.l., which do not appear in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    33
+   ]
+  },
+  {
+   "id": "R12",
+   "attribute": "Governing law",
+   "ts_value": "New York",
+   "ts_quote": "State of New York.United States District Court for the Southern District of N",
+   "ts_location": "p. 10 (label \"Governing Law\")",
+   "ca_value": "New York",
+   "ca_quote": "SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK. EACH PARTY HERETO HEREBY AGREES TO THE PROVISIONS OF 9.09 AND 9.10 OF THE CREDIT AGREEMENT AS IF SUCH SECTIONS WERE SET FORTH IN FULL HEREIN. SECTION 11. ENTIRE AGREEMENT",
+   "ca_location": "p. 7, 41, 151 (governing-law clause)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Same governing law.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    10
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    7
+   ]
+  },
+  {
+   "id": "R13",
+   "attribute": "Security (secured vs unsecured)",
+   "ts_value": "secured",
+   "ts_quote": "The obligations of the Loan Parties in respect of the Revolving Credit Facility and the Loan Parties and their subsidiaries with respect to interest rate swaps, currency or other hedging obligations owing to any Lender or any affiliate thereof, and Supply Chain Financings(other than any Excluded Sup",
+   "ts_location": "p. 6 (label \"Collateral\")",
+   "ca_value": "secured (definition \"Collateral Documents\")",
+   "ca_quote": "“Collateral Documents” means, collectively, (a) the U.S. Security Agreement and (b) all other agreements, instruments and documents (including any Intellectual Property security agreements) that are intended to create, perfect or evidence Liens on Collateral to secure the Secured Obligations pursuan",
+   "ca_location": "p. 44 (definition \"Collateral Documents\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS: secured; CA: secured.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    6
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    44
+   ]
+  },
+  {
+   "id": "R14",
+   "attribute": "Benchmark rates",
+   "ts_value": "Term SOFR",
+   "ts_quote": "e per annum equal to: the ABR plus the Applicable Rate; the Term SOFR Rate plus the Applicable Rate. Swing Line Loans shall bear interest as described in the Existing Credit Agreement. Loans in foreign currencies shall be available at a rate per annum equal to",
+   "ts_location": "p. 11",
+   "ca_value": "Term SOFR, Daily Simple SOFR, SONIA, EURIBOR, CORRA, TIBOR, €STR, SARON",
+   "ca_quote": "s of this Agreement and the other Loan Documents. “Adjusted Term SOFR Rate” means, with respect to any Term Benchmark Borrowing denominated in Dollars for any Interest Period, an interest rate per annum equal to (a) the Term SOFR Rate for such Interest Period,",
+   "ca_location": "p. 32",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Every item named in the TS appears in the CA. CA also has: Daily Simple SOFR, SONIA, EURIBOR, CORRA, TIBOR, €STR, SARON.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    11
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    32
+   ]
+  },
+  {
+   "id": "R15",
+   "attribute": "Currencies",
+   "ts_value": "EUR, GBP, JPY, CAD, CHF",
+   "ts_quote": "available by all of the Revolving Lenders in U.S. Dollars, Euro, Canadian Dollars, Pounds Sterling, Japanese Yen, Swiss Francs and any other currency that is (x) a lawful currency that is readily available and freely transferable and not restricted and conver",
+   "ts_location": "p. 3",
+   "ca_value": "EUR, GBP, JPY, CAD, CHF",
+   "ca_quote": "Term Loan Commitments[Reserved] Schedule 2.01(b) – Initial Euro Term Loan Commitments[Reserved] Schedule 2.01(c) – Letter of Credit Commitments Schedule 2.02 – Existing Letters of Credit Schedule 2.06 – Subsidiaries Schedule 3.01 – Litigation Schedule 3.06 –",
+   "ca_location": "p. 29",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Every item named in the TS appears in the CA.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    29
+   ]
+  }
+ ],
+ "trace": [
+  {
+   "type": "Date",
+   "ts_text": "6/5/2026",
+   "normalised": "2026-06-05",
+   "ts_page": 1,
+   "context": "Posting Version 6/5/2026 MICHAEL KORS (USA), INC. CAPRI HOLDINGS LIMITED MICHAEL KORS (EUROPE) B.V. MICHAEL KORS (CANADA) HOLD",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000 MILLION",
+   "normalised": "$1bn",
+   "ts_page": 1,
+   "context": "EL KORS (EUROPE) B.V. MICHAEL KORS (CANADA) HOLDINGS LTD. MICHAEL KORS (SWITZERLAND) GMBH $1,000 MILLION REVOLVING CREDIT FACILITY Summary of Terms and Conditions Capitalized terms used but not define",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "33"
+  },
+  {
+   "type": "Date",
+   "ts_text": "February 4, 2025",
+   "normalised": "2025-02-04",
+   "ts_page": 1,
+   "context": "h the meanings assigned to them in the Amended and Restated Credit Agreement, dated as of February 4, 2025, among MK, Capri, MK Switzerland, the Foreign Subsidiary Borrowers party thereto, the Guarant",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "1, 26, 31, 51"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000,000",
+   "normalised": "$1bn",
+   "ts_page": 3,
+   "context": "or secured revolving credit facility (the “Revolving Credit Facility”) in an amount up to $1,000,000,000 (the loans thereunder, the “Revolving Credit Loans”; and the Lenders in respect thereof, the “R",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "33"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$400,000,000",
+   "normalised": "$400m",
+   "ts_page": 3,
+   "context": "er the Closing Date, does not exceed the sum of (x) an amount equal to the greater of (i) $400,000,000 and (ii) 100% of Consolidated EBITDA of Capri and its Subsidiaries for the most recently ended fo",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "59"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 3,
+   "context": "oes not exceed the sum of (x) an amount equal to the greater of (i) $400,000,000 and (ii) 100% of Consolidated EBITDA of Capri and its Subsidiaries for the most recently ended four fiscal quarter peri",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "43, 59, 112, 133, 171"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.00 to 1.00",
+   "normalised": "3.00x",
+   "ts_page": 4,
+   "context": "io (to be defined as set forth in the Existing Credit Agreement) is less than or equal to 3.00 to 1.00. MK may (but is not obligated to) seek commitments in respect of the requested increase(s) or inc",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "75, 202"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.00 to 1.00",
+   "normalised": "4.00x",
+   "ts_page": 4,
+   "context": "incurred subject to the Net Leverage Ratio (as defined below) being less than or equal to 4.00 to 1.00 and (iii) such Permitted Equivalent Indebtedness may be subject to covenants that are not more on",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "69, 75, 157, 166, 167, 168, 202"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "105%",
+   "normalised": "10500 bps",
+   "ts_page": 5,
+   "context": "aggregate revolving credit exposure under the Revolving Credit Facility is not more than 105% of the aggregate commitments thereunder and (ii) such excess will be calculated as of (a) the last busine",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "111"
+  },
+  {
+   "type": "Date",
+   "ts_text": "February 4, 2025",
+   "normalised": "2025-02-04",
+   "ts_page": 6,
+   "context": "reement, in each case pursuant to that certain Pledge and Security Agreement, dated as of February 4, 2025, by MK, Capri, the other domestic subsidiaries in favor of the Administrative Agent and the o",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "1, 26, 31, 51"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$200,000,000",
+   "normalised": "$200m",
+   "ts_page": 7,
+   "context": "rior to such date minus unrestricted cash and Cash Equivalents at such date not to exceed $200,000,000 to (ii) Consolidated EBITDAR for such period of four consecutive fiscal quarters of Capri most re",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "66, 81"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.00 to 1.00",
+   "normalised": "4.00x",
+   "ts_page": 7,
+   "context": ", all calculated for Capri and its Subsidiaries on a consolidated basis, of not more than 4.00 to 1.00. Upon the election of Capri in the event that Capri or any subsidiary shall have completed a Mate",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "69, 75, 157, 166, 167, 168, 202"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.50 to 1.00",
+   "normalised": "4.50x",
+   "ts_page": 7,
+   "context": "election, a “Transition Period Election”), the Net Leverage Ratio shall not be more than 4.50 to 1.00 for the four quarters following the Material Acquisition (such four quarter period, a “Transition",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "69, 168"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "15%",
+   "normalised": "1500 bps",
+   "ts_page": 8,
+   "context": "d period) subject, in the case of this clause (ii), to a cap for any test period equal to 15% of EBITDAR for such test period (after giving effect to all such adjustments). Substantially the same as t",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "46, 157, 164"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 8,
+   "context": "ct to the Credit Documentation shall require the approval of Lenders holding greater than 50% of revolving credit exposures, outstanding principal amount of term loans and unused commitments (the “Req",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "78, 81, 83, 105, 106"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 9,
+   "context": "any debtor-in-possession financing and other customary exceptions, and (b) the consent of 100% of Lenders shall be required with respect to (i) modifying any of the voting percentages, (ii) releasing",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "43, 59, 112, 133, 171"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$5,000,000",
+   "normalised": "$5m",
+   "ts_page": 9,
+   "context": "to an affiliate of a Lender or an approved fund), the minimum assignment amount shall be $5,000,000, unless otherwise agreed by MK and the Administrative Agent. The Lenders shall also be permitted to",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "109, 155, 158, 164, 186"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.5%",
+   "normalised": "50 bps",
+   "ts_page": 11,
+   "context": "rime rate” in the U.S. (the “Prime Rate”), (ii) the NYFRB Rate in effect on such day plus 0.5% and (iii) the Term SOFR Rate for a one month interest period as published two U.S. Government Securities",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "201, 202"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1%",
+   "normalised": "100 bps",
+   "ts_page": 11,
+   "context": "ies Business Day, the immediately preceding U.S. Government Securities Business Day) plus 1%. If the ABR as determined pursuant to the foregoing would be less than 1%, such rate shall be deemed to be",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "33, 34, 201, 202"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1%",
+   "normalised": "100 bps",
+   "ts_page": 11,
+   "context": "iness Day) plus 1%. If the ABR as determined pursuant to the foregoing would be less than 1%, such rate shall be deemed to be 1%. “Applicable Rate” means, initially (i) with respect to Term Benchmark",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "33, 34, 201, 202"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1%",
+   "normalised": "100 bps",
+   "ts_page": 11,
+   "context": "termined pursuant to the foregoing would be less than 1%, such rate shall be deemed to be 1%. “Applicable Rate” means, initially (i) with respect to Term Benchmark Loans, 1.25% and (ii) with respect t",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "33, 34, 201, 202"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.25%",
+   "normalised": "125 bps",
+   "ts_page": 11,
+   "context": "ed to be 1%. “Applicable Rate” means, initially (i) with respect to Term Benchmark Loans, 1.25% and (ii) with respect to ABR Loans, 0.25%; provided that from and after the delivery of the compliance c",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "109, 110, 201"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.25%",
+   "normalised": "25 bps",
+   "ts_page": 11,
+   "context": "ially (i) with respect to Term Benchmark Loans, 1.25% and (ii) with respect to ABR Loans, 0.25%; provided that from and after the delivery of the compliance certificate for the first full fiscal quart",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "201"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0%",
+   "normalised": "0 bps",
+   "ts_page": 12,
+   "context": "m SOFR Rate. For the avoidance of doubt the initial Floor for the Term SOFR Rate shall be 0%. “Interest Period” means, with respect to any Term Benchmark Borrowing, a period of one, (with respect only",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "48, 49, 57, 201"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.15%",
+   "normalised": "15 bps",
+   "ts_page": 13,
+   "context": "as the Existing Credit Agreement; provided that the initial commitment fee rate shall be 0.15% per annum and from and after the delivery of the compliance certificate for the first full fiscal quarte",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "201"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "2%",
+   "normalised": "200 bps",
+   "ts_page": 13,
+   "context": "of principal due under the Revolving Credit Facility, such amount shall bear interest at 2% above the rate otherwise applicable thereto. Overdue interest, fees and other amounts shall bear interest a",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "115, 202"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "2%",
+   "normalised": "200 bps",
+   "ts_page": 13,
+   "context": "rwise applicable thereto. Overdue interest, fees and other amounts shall bear interest at 2% above the rate applicable to ABR Loans. All per annum rates shall be calculated on the basis of a year of 3",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "115, 202"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.00:1.00",
+   "normalised": "1.00x",
+   "ts_page": 14,
+   "context": "pread for Commitment Level Net Leverage Term ABR Loans Fee Rate Ratio Benchmark Loans 1 ≤ 1.00:1.00 112.5 bps 12.5 bps 10.0 bps 2 ≤ 2.50:1.00 125.0 bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 b",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "112.5 bps",
+   "normalised": "112.5 bps",
+   "ts_page": 14,
+   "context": "Commitment Level Net Leverage Term ABR Loans Fee Rate Ratio Benchmark Loans 1 ≤ 1.00:1.00 112.5 bps 12.5 bps 10.0 bps 2 ≤ 2.50:1.00 125.0 bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 b",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "201"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "12.5 bps",
+   "normalised": "12.5 bps",
+   "ts_page": 14,
+   "context": "Level Net Leverage Term ABR Loans Fee Rate Ratio Benchmark Loans 1 ≤ 1.00:1.00 112.5 bps 12.5 bps 10.0 bps 2 ≤ 2.50:1.00 125.0 bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps 4 > 3.5",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "201"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10.0 bps",
+   "normalised": "10 bps",
+   "ts_page": 14,
+   "context": "t Leverage Term ABR Loans Fee Rate Ratio Benchmark Loans 1 ≤ 1.00:1.00 112.5 bps 12.5 bps 10.0 bps 2 ≤ 2.50:1.00 125.0 bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps 4 > 3.50:1.00 15",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "32, 201"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.50:1.00",
+   "normalised": "2.50x",
+   "ts_page": 14,
+   "context": "rm ABR Loans Fee Rate Ratio Benchmark Loans 1 ≤ 1.00:1.00 112.5 bps 12.5 bps 10.0 bps 2 ≤ 2.50:1.00 125.0 bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps 4 > 3.50:1.00 150.0 bps 50.0",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "201"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "125.0 bps",
+   "normalised": "125 bps",
+   "ts_page": 14,
+   "context": "ns Fee Rate Ratio Benchmark Loans 1 ≤ 1.00:1.00 112.5 bps 12.5 bps 10.0 bps 2 ≤ 2.50:1.00 125.0 bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps 4 > 3.50:1.00 150.0 bps 50.0 bps 20.0 b",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "109, 110, 201"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "25.0 bps",
+   "normalised": "25 bps",
+   "ts_page": 14,
+   "context": "e Ratio Benchmark Loans 1 ≤ 1.00:1.00 112.5 bps 12.5 bps 10.0 bps 2 ≤ 2.50:1.00 125.0 bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps 4 > 3.50:1.00 150.0 bps 50.0 bps 20.0 bps",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "201"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "15.0 bps",
+   "normalised": "15 bps",
+   "ts_page": 14,
+   "context": "enchmark Loans 1 ≤ 1.00:1.00 112.5 bps 12.5 bps 10.0 bps 2 ≤ 2.50:1.00 125.0 bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps 4 > 3.50:1.00 150.0 bps 50.0 bps 20.0 bps",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "201"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50:1.00",
+   "normalised": "3.50x",
+   "ts_page": 14,
+   "context": "s 1 ≤ 1.00:1.00 112.5 bps 12.5 bps 10.0 bps 2 ≤ 2.50:1.00 125.0 bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps 4 > 3.50:1.00 150.0 bps 50.0 bps 20.0 bps",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "201, 202"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "137.5 bps",
+   "normalised": "137.5 bps",
+   "ts_page": 14,
+   "context": ":1.00 112.5 bps 12.5 bps 10.0 bps 2 ≤ 2.50:1.00 125.0 bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps 4 > 3.50:1.00 150.0 bps 50.0 bps 20.0 bps",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "201"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "37.5 bps",
+   "normalised": "37.5 bps",
+   "ts_page": 14,
+   "context": "5 bps 12.5 bps 10.0 bps 2 ≤ 2.50:1.00 125.0 bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps 4 > 3.50:1.00 150.0 bps 50.0 bps 20.0 bps",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "201"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "16.25 bps",
+   "normalised": "16.25 bps",
+   "ts_page": 14,
+   "context": "5 bps 10.0 bps 2 ≤ 2.50:1.00 125.0 bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps 4 > 3.50:1.00 150.0 bps 50.0 bps 20.0 bps",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "201"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50:1.00",
+   "normalised": "3.50x",
+   "ts_page": 14,
+   "context": "2 ≤ 2.50:1.00 125.0 bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps 4 > 3.50:1.00 150.0 bps 50.0 bps 20.0 bps",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "201, 202"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "150.0 bps",
+   "normalised": "150 bps",
+   "ts_page": 14,
+   "context": "1.00 125.0 bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps 4 > 3.50:1.00 150.0 bps 50.0 bps 20.0 bps",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "202"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50.0 bps",
+   "normalised": "50 bps",
+   "ts_page": 14,
+   "context": "bps 25.0 bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps 4 > 3.50:1.00 150.0 bps 50.0 bps 20.0 bps",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "201, 202"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "20.0 bps",
+   "normalised": "20 bps",
+   "ts_page": 14,
+   "context": "bps 15.0 bps 3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps 4 > 3.50:1.00 150.0 bps 50.0 bps 20.0 bps",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "202"
+  }
+ ],
+ "document_notes": "",
+ "quote_check": {
+  "ts_checked": 15,
+  "ca_checked": 15,
+  "ts_found": 14,
+  "ca_found": 13
+ },
+ "generated_at": "2026-11-12T14:40:15+00:00",
+ "engine": "rules",
+ "deal": "Capri 2026",
+ "ts_file": "Capri 2026 TS.pdf",
+ "ca_file": "Capri 2026 CA.pdf"
+}

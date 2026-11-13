@@ -1,0 +1,998 @@
+{
+ "rows": [
+  {
+   "id": "R01",
+   "attribute": "Facility amount / commitments",
+   "ts_value": "$3bn",
+   "ts_quote": "An aggregate principal amount (the “ Facility Amount ”) of$3,000,000,000 (the “ Revolving Facility”",
+   "ts_location": "p. 2 (label \"Facility Amount\")",
+   "ca_value": "$3bn",
+   "ca_quote": "The initial Aggregate Commitment is $3,000,000,000.",
+   "ca_location": "p. 8 (definition \"Aggregate Commitment\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $3bn. Other figures in the TS entry (not compared): $1bn.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    8
+   ]
+  },
+  {
+   "id": "R02",
+   "attribute": "Maturity date",
+   "ts_value": "5 yr",
+   "ts_quote": "The Revolving Commitments will terminate, and all amounts outstanding thereunder shall be payable in full, on the date that is five years after the Revolving Effective Date (as defined below), subject to the “Extension of Commitments” section below (the “ C",
+   "ts_location": "p. 2 (label \"Commitment Termination Date\")",
+   "ca_value": "2031-09-18 (1826 days after 2026-09-18)",
+   "ca_quote": "“Facility Termination Date” means (a) September 18, 2031, subject to the extension thereof pursuant to Section 2.22 or (b) any earlier date on which the Aggregate Commitment is reduced to zero or otherwise terminated pursuant to the terms hereof; provided, however, that the Facility Termination Date",
+   "ca_location": "p. 19 (definition \"Facility Termination Date\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS tenor 5 yr = CA maturity 2031-09-18 measured from 2026-09-18 (agreement date).",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    19
+   ]
+  },
+  {
+   "id": "R03",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "not located in CA",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_applicable",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Neither document provides for this.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R04",
+   "attribute": "Swingline sublimit",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "not located in CA",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_applicable",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Neither document provides for this.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R05",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "$10m, $1.8bn, $5m",
+   "ts_quote": "The Parent will have the right after the Revolving Effective Date, no more than once a year, to increase the Facility Amount, in minimum increments of $10,000,000, up to a maximum amount of$1,800,000,000, provided that,",
+   "ts_location": "p. 3 (label \"Commitment Increase\")",
+   "ca_value": "$10m, $4.8bn, $5m",
+   "ca_quote": "ility Termination Date, by notice to the Administrative Agent, request that the Aggregate Commitment be increased by an amount of $10,000,000 or an integral multiple thereof (each a “Commitment Increase”) to be effective as of a date that is at least thirty (3",
+   "ca_location": "p. 43 (section \"2.19. Increase in the Aggregate Commitments.\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $10m, $5m. NOT found anywhere in CA: $1.8bn.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R06",
+   "attribute": "Extension option / term-out",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "2.22. Extension of Facility Termination Date. (a) Requests for Extension. The Borrower Representative may, by notice to the Administrative Agent (who shall promptly notify the Lenders) not earlier than 60 days (or such e",
+   "ca_quote": "2.22. Extension of Facility Termination Date. (a) Requests for Extension. The Borrower Representative may, by notice to the Administrative Agent (who shall promptly notify the Lenders) not earlier than 60 days (or such earlier date as the Administrative Agent may agree) and not later than 30 days (o",
+   "ca_location": "p. 46 (section \"2.22. Extension of Facility Termination Date.\")",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Not stated in the term sheet.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    46
+   ]
+  },
+  {
+   "id": "R07",
+   "attribute": "Applicable margin / pricing grid",
+   "ts_value": "200 bps, 0 bps, 80 bps, 7.5 bps, 90 bps, 10 bps, 100 bps, 12.5 bps, 20 bps, 120 bps, 17.5 bps, 6.5 bps (+1 more)",
+   "ts_quote": "0 bps 90.0 bps 10 bps",
+   "ts_location": "p. 11 (label \"A-/A3 Pricing Level III\")",
+   "ca_value": "17.5 bps, 20 bps, 6.5 bps, 10 bps, 12.5 bps, 90 bps, 100 bps",
+   "ca_quote": "by or Baa2 by 20.0 | Applicable Margin for 6.5 but but less than but less than | Advances (bps) the Debt the Debt | I 10.0 12.5 | 90.0 100.0 | The Applicable Margin and Applicable Facility Fee Rate shall be determined in accordance with the foregoing table",
+   "ca_location": "p. 135 (pricing table)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 90 bps, 10 bps, 100 bps, 12.5 bps, 20 bps, 17.5 bps, 6.5 bps, 200 bps. Found elsewhere in CA (check context): 80 bps (p. 135); 7.5 bps (p. 135); 120 bps (p. 135); 68.5 bps (p. 135).",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R08",
+   "attribute": "Commitment / facility fee",
+   "ts_value": "6.5 bps, 7.5 bps, 10 bps, 0 bps, 68.5 bps, 12.5 bps, 17.5 bps, 80 bps, 90 bps, 100 bps, 20 bps, 120 bps",
+   "ts_quote": "Debt Ratings Applicable Margin Facility Fee | Alternate Base Rate Term Rate Advances/ 6.5 bps | Pricing Level I: Advances SONIA Advances 7.5 bps | ≥ A/A2 10 bps | 0 bps 68.5 bps 12.5 bps | Pricing Level II: 17.5 bps",
+   "ts_location": "p. 11 (pricing table)",
+   "ca_value": "17.5 bps, 20 bps, 6.5 bps, 10 bps, 12.5 bps, 90 bps, 100 bps",
+   "ca_quote": "st A-by at least BBB+ at least BBB by 17.5 | (bps) A2 by Moody’s A3 by Moody’s or Baa1 by or Baa2 by 20.0 | Applicable Margin for 6.5 but but less than but less than | Advances (bps) the Debt the Debt | I 10.0 12.5 | 90.0 100.0 | The Applicable Margin and Appl",
+   "ca_location": "p. 135 (pricing table)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 6.5 bps, 10 bps, 12.5 bps, 17.5 bps, 90 bps, 100 bps, 20 bps. Found elsewhere in CA (check context): 7.5 bps (p. 135); 68.5 bps (p. 135); 80 bps (p. 135); 120 bps (p. 135).",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R09",
+   "attribute": "Financial covenants",
+   "ts_value": "3.50x, 4.75x, 4.50x, 4.25x, 4.00x, 3.75x, $500m",
+   "ts_quote": "(i) prior to the date of consummation of the Acquisition (the “Acquisition Closing Date”), 3.50 to 1.00,",
+   "ts_location": "p. 6 (label \"Consolidated Net Leverage Ratio\")",
+   "ca_value": "4.00x, 3.50x, 4.75x, 4.50x, 4.25x, 3.75x, $500m",
+   "ca_quote": "(i) prior to the Acquisition Closing Date, 3.50 to 1.00,",
+   "ca_location": "p. 75 (section \"6.14. Financial Covenants.\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 3.50x, 4.75x, 4.50x, 4.25x, 4.00x, 3.75x, $500m.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    7
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    75
+   ]
+  },
+  {
+   "id": "R10",
+   "attribute": "Administrative agent",
+   "ts_value": "Citi will act as administrative agent for the Revolving Facility (in such capacity, the “Administrative Agent”).",
+   "ts_quote": "Citi will act as administrative agent for the Revolving Facility (in such capacity, the “Administrative Agent”).",
+   "ts_location": "p. 2 (label \"Administrative Agent\")",
+   "ca_value": "CITIBANK, N.A.",
+   "ca_quote": "CITIBANK, N.A.",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names CITIBANK, N.A.; each appears in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R11",
+   "attribute": "Borrower(s)",
+   "ts_value": "Aon North America, Inc. and Aon Corporation (the “US Borrowers”), Aon Global Holdings plc, Aon Global Limited and Aon UK Limited(collectively, the “ UK Borrowers”) and any other subsidiaries (other than a subsidiary whic",
+   "ts_quote": "Aon North America, Inc. and Aon Corporation (the “US Borrowers”), Aon Global Holdings plc, Aon Global Limited and Aon UK Limited(collectively, the “ UK Borrowers”) and any other subsidiaries (other than a subsidiary which is organized in a Member State of the European Union) of the Parent designated",
+   "ts_location": "p. 2 (label \"Borrowers\")",
+   "ca_value": "AON GLOBAL HOLDINGS PLC, AON UK LIMITED; AON GLOBAL LIMITED",
+   "ca_quote": "AON GLOBAL HOLDINGS PLC, AON UK LIMITED; AON GLOBAL LIMITED",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names AON GLOBAL HOLDINGS PLC, AON UK LIMITED; AON GLOBAL LIMITED; each appears in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R12",
+   "attribute": "Governing law",
+   "ts_value": "New York",
+   "ts_quote": "ts will be governed by and construed in accordance with the laws of the State of New York without regard to principles of conflicts of laws.",
+   "ts_location": "p. 10 (label \"Governing Law and Jurisdiction\")",
+   "ca_value": "New York",
+   "ca_quote": "SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK. 16.2. Consent to Jurisdiction, etc. (a) Jurisdiction. The Parent and each other Loan Party irrevocably and unconditionally agrees that it will not commence any action, li",
+   "ca_location": "p. 108, 150, 152 (governing-law clause)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Same governing law.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    10
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    108
+   ]
+  },
+  {
+   "id": "R13",
+   "attribute": "Security (secured vs unsecured)",
+   "ts_value": "unsecured",
+   "ts_quote": "",
+   "ts_location": "whole document",
+   "ca_value": "unsecured (no security documents defined)",
+   "ca_quote": "",
+   "ca_location": "definitions searched",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS: unsecured; CA: unsecured.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R14",
+   "attribute": "Benchmark rates",
+   "ts_value": "Term SOFR, SONIA, EURIBOR",
+   "ts_quote": "nces and 3 business days’ notice for Term Rate Advances and SONIA Advances. The Parent will have the right after the Revolving Effective Date, no more than once a year, to increase the Facility Amount, in minimum increments of $10,000,000, up to a maximum amou",
+   "ts_location": "p. 3",
+   "ca_value": "Term SOFR, SONIA, EURIBOR",
+   "ca_quote": "t of the several Loans of the same Type and, in the case of Term SOFR Loans or Eurocurrency Loans, for the same Interest Period. “Affected Financial Institution” means (a) any EEA Financial Institution or (b) any UK Financial Institution. “Affected Lender” is",
+   "ca_location": "p. 8",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Every item named in the TS appears in the CA.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    8
+   ]
+  },
+  {
+   "id": "R15",
+   "attribute": "Currencies",
+   "ts_value": "EUR, GBP",
+   "ts_quote": "ng Facility will be available for borrowings in US Dollars, Sterling and Euros. Commitment Termination Date: The Revolving Commitments will terminate, and all amounts outstanding thereunder shall be payable in full, on the date that is five years after the Rev",
+   "ts_location": "p. 2",
+   "ca_value": "EUR, GBP",
+   "ca_quote": "ling, £5,000,000 and, in respect of Advances denominated in Euro, €5,000,000. 4 “Borrowing Multiple” means, in respect of Advances denominated in Dollars, $1,000,000 in respect of Advances denominated in Sterling, £1,000,000 and, in respect of Advances denomin",
+   "ca_location": "p. 10",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Every item named in the TS appears in the CA.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": []
+  }
+ ],
+ "trace": [
+  {
+   "type": "Date",
+   "ts_text": "August 30, 2026",
+   "normalised": "2026-08-30",
+   "ts_page": 1,
+   "context": "and subject to the conditions set forth in the Agreement and Plan of Merger, dated as of August 30, 2026 (as amended, restated, amended and restated, supplemented or otherwise modified from time to t",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "7, 61, 90"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$4,000,000,000",
+   "normalised": "$4bn",
+   "ts_page": 1,
+   "context": "rm Sheet) under a senior unsecured term loan facility in an aggregate principal amount of $4,000,000,000 and the Borrower seeks the $3,000,000,000 five-year revolving loan facility described herein to",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$3,000,000,000",
+   "normalised": "$3bn",
+   "ts_page": 1,
+   "context": "an facility in an aggregate principal amount of $4,000,000,000 and the Borrower seeks the $3,000,000,000 five-year revolving loan facility described herein to be used for general corporate purposes to",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "7, 8"
+  },
+  {
+   "type": "Date",
+   "ts_text": "September 28, 2021",
+   "normalised": "2021-09-28",
+   "ts_page": 1,
+   "context": "revolving commitments and amounts outstanding under (x) the Credit Agreement dated as of September 28, 2021 (as amended by that certain Amendment No. 1 to the Credit Agreement dated as of May 3, 2023",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "19"
+  },
+  {
+   "type": "Date",
+   "ts_text": "May 3, 2023",
+   "normalised": "2023-05-03",
+   "ts_page": 1,
+   "context": "28, 2021 (as amended by that certain Amendment No. 1 to the Credit Agreement dated as of May 3, 2023, that certain Amendment No. 2 to the Credit Agreement dated as of October 19, 2023, that certain A",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "19"
+  },
+  {
+   "type": "Date",
+   "ts_text": "October 19, 2023",
+   "normalised": "2023-10-19",
+   "ts_page": 1,
+   "context": "dated as of May 3, 2023, that certain Amendment No. 2 to the Credit Agreement dated as of October 19, 2023, that certain Amendment No. 3 to the Credit Agreement dated as of February 16, 2024, that cer",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "19"
+  },
+  {
+   "type": "Date",
+   "ts_text": "February 16, 2024",
+   "normalised": "2024-02-16",
+   "ts_page": 1,
+   "context": "as of October 19, 2023, that certain Amendment No. 3 to the Credit Agreement dated as of February 16, 2024, that certain Amendment No. 4 to the Credit Agreement dated as of April 16, 2024 and as furt",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "19"
+  },
+  {
+   "type": "Date",
+   "ts_text": "April 16, 2024",
+   "normalised": "2024-04-16",
+   "ts_page": 1,
+   "context": "as of February 16, 2024, that certain Amendment No. 4 to the Credit Agreement dated as of April 16, 2024 and as further amended through August 30, 2026, the “2021 Credit Agreement”) and (y) the Credit",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "19"
+  },
+  {
+   "type": "Date",
+   "ts_text": "August 30, 2026",
+   "normalised": "2026-08-30",
+   "ts_page": 1,
+   "context": "t No. 4 to the Credit Agreement dated as of April 16, 2024 and as further amended through August 30, 2026, the “2021 Credit Agreement”) and (y) the Credit Agreement dated as of October 19, 2023 (as am",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "7, 61, 90"
+  },
+  {
+   "type": "Date",
+   "ts_text": "October 19, 2023",
+   "normalised": "2023-10-19",
+   "ts_page": 1,
+   "context": "gh August 30, 2026, the “2021 Credit Agreement”) and (y) the Credit Agreement dated as of October 19, 2023 (as amended by that certain Amendment No. 1 to the Credit Agreement dated as of February 16,",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "19"
+  },
+  {
+   "type": "Date",
+   "ts_text": "February 16, 2024",
+   "normalised": "2024-02-16",
+   "ts_page": 1,
+   "context": "19, 2023 (as amended by that certain Amendment No. 1 to the Credit Agreement dated as of February 16, 2024, that certain Amendment No. 2 to the Credit Agreement dated as of February 16, 2024 and as f",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "19"
+  },
+  {
+   "type": "Date",
+   "ts_text": "February 16, 2024",
+   "normalised": "2024-02-16",
+   "ts_page": 1,
+   "context": "as of February 16, 2024, that certain Amendment No. 2 to the Credit Agreement dated as of February 16, 2024 and as further amended through August 30, 2026, the “2023 Credit Agreement” and, together wi",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "19"
+  },
+  {
+   "type": "Date",
+   "ts_text": "August 30, 2026",
+   "normalised": "2026-08-30",
+   "ts_page": 1,
+   "context": "o. 2 to the Credit Agreement dated as of February 16, 2024 and as further amended through August 30, 2026, the “2023 Credit Agreement” and, together with the 2021 Credit Agreement, collectively, the “",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "7, 61, 90"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$3,000,000,000",
+   "normalised": "$3bn",
+   "ts_page": 2,
+   "context": "ving Lenders”). Facility Amount: An aggregate principal amount (the “Facility Amount”) of $3,000,000,000 (the “Revolving Facility”; the commitments thereunder, the “Revolving Commitments”; and the loa",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "7, 8"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000,000",
+   "normalised": "$1bn",
+   "ts_page": 2,
+   "context": "ed that the aggregate Revolving Commitments available to the UK Borrower shall not exceed $1,000,000,000. The Revolving Facility will be available for borrowings in US Dollars, Sterling and Euros. Com",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "9, 75, 77"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$5,000,000",
+   "normalised": "$5m",
+   "ts_page": 3,
+   "context": "ty, borrow, repay and reborrow Advances. Advances will be in minimum principal amounts of $5,000,000 and integral multiples of $1,000,000 in excess thereof. All Advances will be made by the Revolving",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10, 36, 43, 74, 97"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000",
+   "normalised": "$1m",
+   "ts_page": 3,
+   "context": "es. Advances will be in minimum principal amounts of $5,000,000 and integral multiples of $1,000,000 in excess thereof. All Advances will be made by the Revolving Lenders ratably in proportion to thei",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "11, 36"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$10,000,000",
+   "normalised": "$10m",
+   "ts_page": 3,
+   "context": "Date, no more than once a year, to increase the Facility Amount, in minimum increments of $10,000,000, up to a maximum amount of $1,800,000,000, provided that, (i) at the time of and after giving effe",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "43"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,800,000,000",
+   "normalised": "$1.8bn",
+   "ts_page": 3,
+   "context": "ease the Facility Amount, in minimum increments of $10,000,000, up to a maximum amount of $1,800,000,000, provided that, (i) at the time of and after giving effect to the increase, the Parent’s repres",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$5,000,000",
+   "normalised": "$5m",
+   "ts_page": 3,
+   "context": "his clause (b), the commitment of each such new third party institution equals or exceeds $5,000,000. The Parent may request that the commitments of each Revolving Lender be extended for additional on",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10, 36, 43, 74, 97"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 4,
+   "context": "e Optional Prepayment: then existing Commitment Termination Date; provided that more than 50% of the Facility Amount is extended or otherwise committed to by Revolving Effective Date: one or more Exte",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "26, 28, 47, 70"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$5,000,000",
+   "normalised": "$5m",
+   "ts_page": 4,
+   "context": "utstanding Advances; provided that each partial reduction shall be in a minimum amount of $5,000,000, £5,000,000 or €5,000,000, respectively, or any whole multiple of $1,000,000, £1,000,000 or €1,000,",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "10, 36, 43, 74, 97"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "£5,000,000",
+   "normalised": "£5m",
+   "ts_page": 4,
+   "context": "dvances; provided that each partial reduction shall be in a minimum amount of $5,000,000, £5,000,000 or €5,000,000, respectively, or any whole multiple of $1,000,000, £1,000,000 or €1,000,000, respect",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "€5,000,000",
+   "normalised": "€5m",
+   "ts_page": 4,
+   "context": "ded that each partial reduction shall be in a minimum amount of $5,000,000, £5,000,000 or €5,000,000, respectively, or any whole multiple of $1,000,000, £1,000,000 or €1,000,000, respectively, in exce",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000",
+   "normalised": "$1m",
+   "ts_page": 4,
+   "context": "um amount of $5,000,000, £5,000,000 or €5,000,000, respectively, or any whole multiple of $1,000,000, £1,000,000 or €1,000,000, respectively, in excess thereof. Once terminated, a commitment may not b",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "11, 36"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "£1,000,000",
+   "normalised": "£1m",
+   "ts_page": 4,
+   "context": "$5,000,000, £5,000,000 or €5,000,000, respectively, or any whole multiple of $1,000,000, £1,000,000 or €1,000,000, respectively, in excess thereof. Once terminated, a commitment may not be reinstated",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "11"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "€1,000,000",
+   "normalised": "€1m",
+   "ts_page": 4,
+   "context": "5,000,000 or €5,000,000, respectively, or any whole multiple of $1,000,000, £1,000,000 or €1,000,000, respectively, in excess thereof. Once terminated, a commitment may not be reinstated. Advances may",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "11"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$5,000,000",
+   "normalised": "$5m",
+   "ts_page": 4,
+   "context": "Term Rate Advances and 3 business days’ notice for SONIA Advances, in minimum amounts of $5,000,000, £5,000,000 or €5,000,000, respectively, and increments of $1,000,000, £1,000,000 or €1,000,000, re",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10, 36, 43, 74, 97"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "£5,000,000",
+   "normalised": "£5m",
+   "ts_page": 4,
+   "context": "dvances and 3 business days’ notice for SONIA Advances, in minimum amounts of $5,000,000, £5,000,000 or €5,000,000, respectively, and increments of $1,000,000, £1,000,000 or €1,000,000, respectively,",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "€5,000,000",
+   "normalised": "€5m",
+   "ts_page": 4,
+   "context": "business days’ notice for SONIA Advances, in minimum amounts of $5,000,000, £5,000,000 or €5,000,000, respectively, and increments of $1,000,000, £1,000,000 or €1,000,000, respectively, in excess ther",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000",
+   "normalised": "$1m",
+   "ts_page": 4,
+   "context": "minimum amounts of $5,000,000, £5,000,000 or €5,000,000, respectively, and increments of $1,000,000, £1,000,000 or €1,000,000, respectively, in excess thereof. The applicable Borrower will bear all c",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "11, 36"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "£1,000,000",
+   "normalised": "£1m",
+   "ts_page": 4,
+   "context": "unts of $5,000,000, £5,000,000 or €5,000,000, respectively, and increments of $1,000,000, £1,000,000 or €1,000,000, respectively, in excess thereof. The applicable Borrower will bear all costs incurre",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "11"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "€1,000,000",
+   "normalised": "€1m",
+   "ts_page": 4,
+   "context": ",000, £5,000,000 or €5,000,000, respectively, and increments of $1,000,000, £1,000,000 or €1,000,000, respectively, in excess thereof. The applicable Borrower will bear all costs incurred by a Revolvi",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "11"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "200 basis points",
+   "normalised": "200 bps",
+   "ts_page": 5,
+   "context": "f any payment Event of Default, the Applicable Margin on overdue amounts will increase by 200 basis points per annum. Defaults and Events of Default shall be continuing until cured or waived. At the e",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "39"
+  },
+  {
+   "type": "Date",
+   "ts_text": "August 30, 2026",
+   "normalised": "2026-08-30",
+   "ts_page": 6,
+   "context": "similar to those in the Existing Revolving Credit Agreements as in Warranties: effect on August 30, 2026, and shall contain only the representations, Covenants: warranties, covenants and events of de",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "7, 61, 90"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.00 to 1.00",
+   "normalised": "4.00x",
+   "ts_page": 6,
+   "context": "a ratio of Consolidated Adjusted EBITDA to Consolidated Interest Expense of not less than 4.00 to 1.00. Related Definitions: Identical to those set forth in the Existing Revolving Credit Agreements. C",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "75, 76, 143"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50 to 1.00",
+   "normalised": "3.50x",
+   "ts_page": 7,
+   "context": "i) prior to the date of consummation of the Acquisition (the “Acquisition Closing Date”), 3.50 to 1.00, (ii) on the last day of the fiscal quarter during which the Acquisition Closing Date occurs, 4.7",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "75, 76"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.75 to 1.00",
+   "normalised": "4.75x",
+   "ts_page": 7,
+   "context": ") on the last day of the fiscal quarter during which the Acquisition Closing Date occurs, 4.75 to 1.00, (iii) on the last day of each of the first and second full consecutive fiscal quarters ending af",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "75"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.50 to 1.00",
+   "normalised": "4.50x",
+   "ts_page": 7,
+   "context": "st and second full consecutive fiscal quarters ending after the Acquisition Closing Date, 4.50 to 1.00, (iv) on the last day of the third full consecutive fiscal quarter ending after the Acquisition C",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "75"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.25 to 1.00",
+   "normalised": "4.25x",
+   "ts_page": 7,
+   "context": "y of the third full consecutive fiscal quarter ending after the Acquisition Closing Date, 4.25 to 1.00, (v) on the last day of the fourth and fifth full consecutive fiscal quarters ending after the Ac",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "75"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.00 to 1.00",
+   "normalised": "4.00x",
+   "ts_page": 7,
+   "context": "rth and fifth full consecutive fiscal quarters ending after the Acquisition Closing Date, 4.00 to 1.00, (vi) on the last day of the sixth and seventh full consecutive fiscal quarters ending after the",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "75, 76, 143"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.75 to 1.00",
+   "normalised": "3.75x",
+   "ts_page": 7,
+   "context": "h and seventh full consecutive fiscal quarters ending after the Acquisition Closing Date, 3.75 to 1.00 and (vii) on the last day of the eighth full consecutive fiscal quarter ending after the Acquisit",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "75, 76"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50 to 1.00",
+   "normalised": "3.50x",
+   "ts_page": 7,
+   "context": "r the Acquisition Closing Date and the last day of each fiscal quarter ending thereafter, 3.50 to 1.00; provided that, upon the written notice of the Parent (such notice, which shall include a listing",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "75, 76"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50 to 1.00",
+   "normalised": "3.50x",
+   "ts_page": 7,
+   "context": "ade, a “Covenant Reset Notice”) at any time when the required covenant level is otherwise 3.50 to 1.00, but without any action on the part of the Administrative Agent or any Term Lender, at any time w",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "75, 76"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$500,000,000",
+   "normalised": "$500m",
+   "ts_page": 7,
+   "context": "acquisitions (other than the Acquisition) whose aggregate consideration equals or exceeds $500,000,000 (which amount of aggregate consideration is calculated consistent with past practice), the maximu",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "76"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50 to 1.00",
+   "normalised": "3.50x",
+   "ts_page": 7,
+   "context": "ctice), the maximum Consolidated Net Leverage Ratio shall be automatically increased from 3.50 to 1.00 to 4.00 to 1.00 for a period of four fiscal quarters after such acquisition and 3.75 to 1.00 for",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "75, 76"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.00 to 1.00",
+   "normalised": "4.00x",
+   "ts_page": 7,
+   "context": "mum Consolidated Net Leverage Ratio shall be automatically increased from 3.50 to 1.00 to 4.00 to 1.00 for a period of four fiscal quarters after such acquisition and 3.75 to 1.00 for two more fiscal",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "75, 76, 143"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.75 to 1.00",
+   "normalised": "3.75x",
+   "ts_page": 7,
+   "context": "0 to 1.00 to 4.00 to 1.00 for a period of four fiscal quarters after such acquisition and 3.75 to 1.00 for two more fiscal quarters thereafter (a “Covenant Reset Period”), commencing with the fiscal q",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "75, 76"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50 to 1.00",
+   "normalised": "3.50x",
+   "ts_page": 7,
+   "context": "ificate that shall evidence the Parent’s compliance with a Consolidated Leverage Ratio of 3.50 to 1.00 for a full fiscal quarter following the end of such Covenant Reset Period before becoming entitle",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "75, 76"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "65%",
+   "normalised": "6500 bps",
+   "ts_page": 7,
+   "context": "ed Debt” shall be defined to permit the netting of an amount not to exceed the sum of (x) 65% of all unrestricted cash and cash equivalents of the Parent and the Subsidiaries as of the last day of eac",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "14, 144"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$200,000,000",
+   "normalised": "$200m",
+   "ts_page": 8,
+   "context": "0-day grace period); cross- default to other indebtedness with a materiality threshold of $200,000,000; insolvency; involuntary insolvency; condemnation; judgments with a materiality threshold of $200",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "78, 79"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$200,000,000",
+   "normalised": "$200m",
+   "ts_page": 8,
+   "context": "solvency; involuntary insolvency; condemnation; judgments with a materiality threshold of $200,000,000; change of control; ERISA; and invalidity of guaranty. Subject to the Documentation Principles, t",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "78, 79"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 9,
+   "context": ": Amendments and waivers will require the approval of Revolving Lenders holding more than 50% of total Revolving Commitments or Revolving Loans (“Required Lenders”); provided that the consent of each",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "26, 28, 47, 70"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "6.5 bps",
+   "normalised": "6.5 bps",
+   "ts_page": 11,
+   "context": "ngs Applicable Margin Facility Fee (S&P /Moody’s) Alternate Base Rate Term Rate Advances/ 6.5 bps Pricing Level I: Advances SONIA Advances 7.5 bps ≥ A/A2 10 bps 0 bps 68.5 bps 12.5 bps Pricing Level I",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "135"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "7.5 bps",
+   "normalised": "7.5 bps",
+   "ts_page": 11,
+   "context": "Alternate Base Rate Term Rate Advances/ 6.5 bps Pricing Level I: Advances SONIA Advances 7.5 bps ≥ A/A2 10 bps 0 bps 68.5 bps 12.5 bps Pricing Level II: 17.5 bps A-/A3 0 bps 80.0 bps Pricing Level II",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "135"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10 bps",
+   "normalised": "10 bps",
+   "ts_page": 11,
+   "context": "Rate Term Rate Advances/ 6.5 bps Pricing Level I: Advances SONIA Advances 7.5 bps ≥ A/A2 10 bps 0 bps 68.5 bps 12.5 bps Pricing Level II: 17.5 bps A-/A3 0 bps 80.0 bps Pricing Level III: 0 bps 90.0 b",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "135"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0 bps",
+   "normalised": "0 bps",
+   "ts_page": 11,
+   "context": "erm Rate Advances/ 6.5 bps Pricing Level I: Advances SONIA Advances 7.5 bps ≥ A/A2 10 bps 0 bps 68.5 bps 12.5 bps Pricing Level II: 17.5 bps A-/A3 0 bps 80.0 bps Pricing Level III: 0 bps 90.0 bps BBB+",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "20"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "68.5 bps",
+   "normalised": "68.5 bps",
+   "ts_page": 11,
+   "context": "te Advances/ 6.5 bps Pricing Level I: Advances SONIA Advances 7.5 bps ≥ A/A2 10 bps 0 bps 68.5 bps 12.5 bps Pricing Level II: 17.5 bps A-/A3 0 bps 80.0 bps Pricing Level III: 0 bps 90.0 bps BBB+ / Baa",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "135"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "12.5 bps",
+   "normalised": "12.5 bps",
+   "ts_page": 11,
+   "context": "es/ 6.5 bps Pricing Level I: Advances SONIA Advances 7.5 bps ≥ A/A2 10 bps 0 bps 68.5 bps 12.5 bps Pricing Level II: 17.5 bps A-/A3 0 bps 80.0 bps Pricing Level III: 0 bps 90.0 bps BBB+ / Baa1 0 bps 1",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "135"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "17.5 bps",
+   "normalised": "17.5 bps",
+   "ts_page": 11,
+   "context": ": Advances SONIA Advances 7.5 bps ≥ A/A2 10 bps 0 bps 68.5 bps 12.5 bps Pricing Level II: 17.5 bps A-/A3 0 bps 80.0 bps Pricing Level III: 0 bps 90.0 bps BBB+ / Baa1 0 bps 100.0 bps Pricing Level IV:",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "135"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0 bps",
+   "normalised": "0 bps",
+   "ts_page": 11,
+   "context": "A Advances 7.5 bps ≥ A/A2 10 bps 0 bps 68.5 bps 12.5 bps Pricing Level II: 17.5 bps A-/A3 0 bps 80.0 bps Pricing Level III: 0 bps 90.0 bps BBB+ / Baa1 0 bps 100.0 bps Pricing Level IV: BBB/ Baa2 20.0",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "20"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "80.0 bps",
+   "normalised": "80 bps",
+   "ts_page": 11,
+   "context": "nces 7.5 bps ≥ A/A2 10 bps 0 bps 68.5 bps 12.5 bps Pricing Level II: 17.5 bps A-/A3 0 bps 80.0 bps Pricing Level III: 0 bps 90.0 bps BBB+ / Baa1 0 bps 100.0 bps Pricing Level IV: BBB/ Baa2 20.0 bps 12",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "135"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0 bps",
+   "normalised": "0 bps",
+   "ts_page": 11,
+   "context": "bps 68.5 bps 12.5 bps Pricing Level II: 17.5 bps A-/A3 0 bps 80.0 bps Pricing Level III: 0 bps 90.0 bps BBB+ / Baa1 0 bps 100.0 bps Pricing Level IV: BBB/ Baa2 20.0 bps 120.0 bps Pricing Level V: ≤ B",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "20"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "90.0 bps",
+   "normalised": "90 bps",
+   "ts_page": 11,
+   "context": "8.5 bps 12.5 bps Pricing Level II: 17.5 bps A-/A3 0 bps 80.0 bps Pricing Level III: 0 bps 90.0 bps BBB+ / Baa1 0 bps 100.0 bps Pricing Level IV: BBB/ Baa2 20.0 bps 120.0 bps Pricing Level V: ≤ BBB-/ B",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "135"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0 bps",
+   "normalised": "0 bps",
+   "ts_page": 11,
+   "context": "ing Level II: 17.5 bps A-/A3 0 bps 80.0 bps Pricing Level III: 0 bps 90.0 bps BBB+ / Baa1 0 bps 100.0 bps Pricing Level IV: BBB/ Baa2 20.0 bps 120.0 bps Pricing Level V: ≤ BBB-/ Baa3 The Applicable Ma",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "20"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100.0 bps",
+   "normalised": "100 bps",
+   "ts_page": 11,
+   "context": "vel II: 17.5 bps A-/A3 0 bps 80.0 bps Pricing Level III: 0 bps 90.0 bps BBB+ / Baa1 0 bps 100.0 bps Pricing Level IV: BBB/ Baa2 20.0 bps 120.0 bps Pricing Level V: ≤ BBB-/ Baa3 The Applicable Margin a",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "135"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "20.0 bps",
+   "normalised": "20 bps",
+   "ts_page": 11,
+   "context": "Pricing Level III: 0 bps 90.0 bps BBB+ / Baa1 0 bps 100.0 bps Pricing Level IV: BBB/ Baa2 20.0 bps 120.0 bps Pricing Level V: ≤ BBB-/ Baa3 The Applicable Margin and Facility Fee shall be determined in",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "135"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "120.0 bps",
+   "normalised": "120 bps",
+   "ts_page": 11,
+   "context": "evel III: 0 bps 90.0 bps BBB+ / Baa1 0 bps 100.0 bps Pricing Level IV: BBB/ Baa2 20.0 bps 120.0 bps Pricing Level V: ≤ BBB-/ Baa3 The Applicable Margin and Facility Fee shall be determined in accordan",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "135"
+  }
+ ],
+ "document_notes": "",
+ "quote_check": {
+  "ts_checked": 11,
+  "ca_checked": 12,
+  "ts_found": 8,
+  "ca_found": 8
+ },
+ "generated_at": "2026-11-12T14:40:04+00:00",
+ "engine": "rules",
+ "deal": "AON 2026",
+ "ts_file": "AON 2026 TS.pdf",
+ "ca_file": "AON 2026 CA.pdf"
+}

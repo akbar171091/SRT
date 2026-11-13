@@ -1,0 +1,1540 @@
+{
+ "rows": [
+  {
+   "id": "R01",
+   "attribute": "Facility amount / commitments",
+   "ts_value": "$80m",
+   "ts_quote": "(b) a $80 million sublimit for swingline loans to be made in U.S. dollars and Euros (each a“Swingline Loan”)",
+   "ts_location": "p. 3 (label \"Revolving Credit Facility\")",
+   "ca_value": "$250m, $550m, $800m",
+   "ca_quote": "(a) $80,000,000 and",
+   "ca_location": "p. 94 (operative text)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $80m. Other figures in the TS entry (not compared): $50m, $60m, $20m.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    94
+   ]
+  },
+  {
+   "id": "R02",
+   "attribute": "Maturity date",
+   "ts_value": "5 yr",
+   "ts_quote": "ned below), with the final payment of all amounts outstanding under each New Term Loan Facility, plus accrued interest, being due five years after the Effective Date, subject",
+   "ts_location": "p. 7, 12 (label \"Maturity Debt”) and (2) a customary high-yield bridge\")",
+   "ca_value": "2031-04-10 (1826 days after 2026-04-10)",
+   "ca_quote": "“Maturity Date” means (in each case, subject to extension in accordance with Section 10.21) (a) with respect to the Revolving Credit Facility, April 10, 2031, (b) with respect to the U.S. Term Facility, April 10, 2031, and (c) with respect to the Euro Term Facility, April 10, 2031; provided, however",
+   "ca_location": "p. 69, 80 (definition \"Maturity Date\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS tenor 5 yr = CA maturity 2031-04-10 measured from 2026-04-10 (cover/preamble date).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    12
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    80
+   ]
+  },
+  {
+   "id": "R03",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "$50m",
+   "ts_quote": "(a) a $50 million sublimit for the issuance of standby and commercial letters of credit in U.S. dollars only for the account of the Company and/or its restricted subsidiaries (each a “Letter of Credit”) and",
+   "ts_location": "p. 3 (clause in \"Revolving Credit Facility\")",
+   "ca_value": "$50m",
+   "ca_quote": "“Letter of Credit Sublimit” means an amount equal to $50,000,000.",
+   "ca_location": "p. 78 (definition \"Letter of Credit Sublimit\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $50m.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    78
+   ]
+  },
+  {
+   "id": "R04",
+   "attribute": "Swingline sublimit",
+   "ts_value": "$80m, $100,000, $60m, $20m",
+   "ts_quote": "Swingline Loans may be made available in U.S. dollars and Euros only, in an aggregate amount not exceeding $80 million and in minimum amounts of $100,000.",
+   "ts_location": "p. 4 (label \"Swingline Option\")",
+   "ca_value": "$80m, $60m, $20m",
+   "ca_quote": "(a) $80,000,000 and",
+   "ca_location": "p. 94 (definition \"Swing Line Sublimit\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $80m, $60m, $20m, $100,000.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    4
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    94
+   ]
+  },
+  {
+   "id": "R05",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "$165m",
+   "ts_quote": "(i) liens in an aggregate amount not to exceed the greater of$165 million and 50% of Consolidated EBITDA and",
+   "ts_location": "p. 20 (label \"$115 million and 35% of Consolidated EBITDA; and (xiv) Incremental Equivalent Debt); (ii)\")",
+   "ca_value": "not located in CA",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Found elsewhere in CA (check context): $165m (p. 59, 168, 169, 170).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    20
+   ],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R06",
+   "attribute": "Extension option / term-out",
+   "ts_value": "The New Revolving Credit Facility shall terminate and all amounts outstanding thereunder shall be due and payable in full five years after",
+   "ts_quote": "The New Revolving Credit Facility shall terminate and all amounts outstanding thereunder shall be due and payable in full five years after",
+   "ts_location": "p. 12 (label \"to customary amend and extend provisions.\")",
+   "ca_value": "no extension / term-out provision found",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_in_ca",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS mentions an extension / term-out but no matching CA provision was found.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    12
+   ],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R07",
+   "attribute": "Applicable margin / pricing grid",
+   "ts_value": "0 bps, 50 bps, 100 bps, 27.5 bps, 75 bps, 175 bps, 150 bps, 25 bps, 125 bps, 17.5 bps, 12.5 bps, 112.5 bps (+1 more)",
+   "ts_quote": "(i) the Federal Funds Rate plus 1/2 of 1%,(ii) the prime rate of the Administrative Agent and",
+   "ts_location": "p. 28 (label \"Interest Rates\")",
+   "ca_value": "25 bps, 125 bps, 17.5 bps, 75 bps, 27.5 bps, 50 bps, 22.5 bps, 12.5 bps, 15 bps, 0 bps, 175 bps, 150 bps (+2 more)",
+   "ca_quote": "Loans Commitment Fee Ratio Term SOFR Loans / 1 Alternative Currency Daily 0.750% 0.275% 2 > 3.50 to 1.00 Rate Loans / Alternative 0.500% 0.225% 3 ≤ 3.50 to 1.00 but Currency Term Rate Loans 0.250% 0.175% 4 / SOFR Daily Floating Rate 0.125% 0.150% 5 > 2.75 to 1",
+   "ca_location": "p. 40 (definition \"Applicable Rate\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 50 bps, 100 bps, 27.5 bps, 75 bps, 175 bps, 150 bps, 25 bps, 125 bps, 17.5 bps, 12.5 bps, 112.5 bps, 15 bps.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    28
+   ],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R08",
+   "attribute": "Commitment / facility fee",
+   "ts_value": "0 bps, 100 bps, 27.5 bps, 75 bps, 50 bps, 175 bps, 150 bps, 25 bps, 125 bps, 17.5 bps, 12.5 bps, 112.5 bps (+1 more)",
+   "ts_quote": "Pricing Grid: The commitment fee rate, the letter of credit fee rate and the Applicable | > 3.50x 0.275% | ≤ 3.50 to 1.00 but Alternative | > 2.75 to 1.00 0.750% Currency | ≤ 2.75 to 1.00 but 0.500% of Credit Fee | > 2.00 to 1.0",
+   "ts_location": "p. 29 (pricing table)",
+   "ca_value": "25 bps, 125 bps, 75 bps, 27.5 bps, 50 bps, 22.5 bps, 17.5 bps, 12.5 bps, 15 bps, 0 bps, 175 bps",
+   "ca_quote": "): | Pricing Level Consolidated Net Leverage Applicable Rate Base Rate Loans Commitment Fee | 1 Alternative Currency Daily 0.750% 0.275% | 2 > 3.50 to 1.00 Rate Loans / Alternative 0.500% 0.225% | 3 ≤ 3.50 to 1.00 but Currency Term Rate Loans 0.250% 0.175% | 4",
+   "ca_location": "p. 40 (pricing table)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 27.5 bps, 75 bps, 50 bps, 175 bps, 25 bps, 125 bps, 17.5 bps, 12.5 bps, 15 bps. Found elsewhere in CA (check context): 100 bps (p. 40, 42); 150 bps (p. 40); 112.5 bps (p. 40).",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R09",
+   "attribute": "Financial covenants",
+   "ts_value": "1000 bps, $33m, $30m, 4.25x",
+   "ts_quote": "(vii) regularly scheduled dividends in an amount not to exceed the greater of $30 million per fiscal year (with unused",
+   "ts_location": "p. 20 (label \"pro forma compliance with the Financial Covenants; (vi)\")",
+   "ca_value": "not located in CA",
+   "ca_quote": "(i) $30,000,000 (with unused amounts being carried over to the immediately succeeding fiscal year) and",
+   "ca_location": "p. 175 (operative text)",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $30m, 4.25x. Found elsewhere in CA (check context): 1000 bps (p. 174); $33m (p. 174).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    21
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    175
+   ]
+  },
+  {
+   "id": "R10",
+   "attribute": "Administrative agent",
+   "ts_value": "Agreement, dated as of August 1, 2019 (as amended, restated, amended and restated, supplemented or otherwise modified prior to the date hereof, the “Existing Credit Agreement”), among the Company, certain Subsidiaries of",
+   "ts_quote": "Agreement, dated as of August 1, 2019 (as amended, restated, amended and restated, supplemented or otherwise modified prior to the date hereof, the “Existing Credit Agreement”), among the Company, certain Subsidiaries of the Company, Bank of America, N.A., as administrative agent, and the lenders an",
+   "ts_location": "p. 1, 2 (keyword \"administrative agent\")",
+   "ca_value": "BANK OF AMERICA, N.A.",
+   "ca_quote": "BANK OF AMERICA, N.A.",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names BANK OF AMERICA, N.A.; each appears in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R11",
+   "attribute": "Borrower(s)",
+   "ts_value": "Quaker Chemical Corporation, a Pennsylvania corporation (the",
+   "ts_quote": "Quaker Chemical Corporation, a Pennsylvania corporation (the",
+   "ts_location": "p. 1 (label \"Company\")",
+   "ca_value": "CERTAIN SUBSIDIARIES",
+   "ca_quote": "CERTAIN SUBSIDIARIES",
+   "ca_location": "cover page",
+   "status": "differs",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names CERTAIN SUBSIDIARIES, which do not appear in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R12",
+   "attribute": "Governing law",
+   "ts_value": "stated, jurisdiction unclear",
+   "ts_quote": ", agents, trustees, administrators, managers, advisors and other representatives (each, an “Indemnified Party”) from and against (and will reimburse each Indemnified Party as the same are incurred for) any and all claims, damages, losses, liabilities and -25- Governing Law: expenses (including, with",
+   "ts_location": "p. 16, 26 (keyword \"governing law\")",
+   "ca_value": "New York",
+   "ca_quote": "GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAWS OF THE STATE OF NEW YORK, AND SHALL BE FURTHER SUBJECT TO THE PROVISIONS OF SECTION 10.14 AND 10.15 OF THE AMENDED CREDIT AGREEMENT. 7.Enforceability. Should any one or more of the provisions of this Amen",
+   "ca_location": "p. 5, 48 (governing-law clause)",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Could not determine the jurisdiction on both sides.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    5
+   ]
+  },
+  {
+   "id": "R13",
+   "attribute": "Security (secured vs unsecured)",
+   "ts_value": "secured",
+   "ts_quote": "Each domestic Loan Party (each a “Grantor”) shall grant the Administrative Agent and the Lenders valid and perfected first priority(subject to certain exceptions to be set forth in the Facilities Documentation) liens and security interests in all of the following(collectively, the “Collateral”):(a) ",
+   "ts_location": "p. 14 (label \"Security\")",
+   "ca_value": "secured (definition \"Collateral Documents\")",
+   "ca_quote": "“Collateral Documents” means, collectively, the Security and Pledge Agreement, the Intellectual Property Security Agreements, any other collateral assignments, joinders, supplements, security agreements, pledge agreements or other similar agreements delivered to the Administrative Agent pursuant to ",
+   "ca_location": "p. 50 (definition \"Collateral Documents\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS: secured; CA: secured.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    14
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    50
+   ]
+  },
+  {
+   "id": "R14",
+   "attribute": "Benchmark rates",
+   "ts_value": "Term SOFR",
+   "ts_quote": "reakage and redeployment costs in the case of prepayment of Term SOFR, Alternative Currency Daily Rate or Alternative Currency Term Rate (each to be defined in the Facilities Documentation) borrowings. Each such prepayment of the New Term Loan Facilities shall",
+   "ts_location": "p. 14",
+   "ca_value": "Term SOFR, Daily Simple SOFR, SONIA, EURIBOR, CORRA, TIBOR, BBSY, €STR",
+   "ca_quote": "ent No. 4. “Applicable Authority” means (a) with respect to Term SOFR, the CME or any successor administrator of the Term SOFR Screen Rate or a Governing Authority having jurisdiction over the Administrative Agent or such administrator with respect to its publ",
+   "ca_location": "p. 39",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Every item named in the TS appears in the CA. CA also has: Daily Simple SOFR, SONIA, EURIBOR, CORRA, TIBOR, BBSY, €STR.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    14
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    39
+   ]
+  },
+  {
+   "id": "R15",
+   "attribute": "Currencies",
+   "ts_value": "EUR, GBP, JPY, CAD, AUD, MXN",
+   "ts_quote": "ty (defined below), (B) incur a new class of senior secured euro-denominated term loans under the New Euro Term Loan Facility (defined below) and (C) incur a new class of Revolving Credit Loans under the New Revolving Credit Facility (defined below), (ii) use",
+   "ts_location": "p. 1",
+   "ca_value": "EUR, GBP, JPY, CAD, AUD",
+   "ca_quote": "",
+   "ca_location": "whole document searched",
+   "status": "differs",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Named in TS but not found in CA: MXN.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  }
+ ],
+ "trace": [
+  {
+   "type": "Date",
+   "ts_text": "August 1, 2019",
+   "normalised": "2019-08-01",
+   "ts_page": 1,
+   "context": "low) intends to (i) amend or amend and restate that certain Credit Agreement, dated as of August 1, 2019 (as amended, restated, amended and restated, supplemented or otherwise modified prior to the da",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "1, 28, 36, 47, 68"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "5%",
+   "normalised": "500 bps",
+   "ts_page": 2,
+   "context": "diary holding companies) that individually represents greater than or equal to either (a) 5% of the consolidated total assets of the Company and its domestic subsidiaries or (b) 5% of the Consolidated",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "79, 175"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "5%",
+   "normalised": "500 bps",
+   "ts_page": 2,
+   "context": ") 5% of the consolidated total assets of the Company and its domestic subsidiaries or (b) 5% of the Consolidated EBITDA (to be defined in the Facilities Documentation) of the Company and its domestic",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "79, 175"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "85%",
+   "normalised": "8500 bps",
+   "ts_page": 2,
+   "context": "mestic Designated Borrowers and the Company on a combined basis do not represent at least 85% of the consolidated total assets of the Company and its Domestic Subsidiaries as of the end of the most re",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "79"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "85%",
+   "normalised": "8500 bps",
+   "ts_page": 2,
+   "context": "subsidiaries to constitute Material Domestic Subsidiaries such that both of the foregoing 85% tests are satisfied. The determination of which subsidiaries constitute Material Domestic Subsidiaries sha",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "79"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$550 million",
+   "normalised": "$550m",
+   "ts_page": 3,
+   "context": "ion will be available through the following facilities: U.S. Dollar Term Loan Facility: a $550 million five-year U.S. Term Loan Facility (the “New U.S. Dollar Term Loan Facility”), all of which will b",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "1"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$250 million",
+   "normalised": "$250m",
+   "ts_page": 3,
+   "context": "be drawn by the Company in U.S. dollars on the Effective Date. Euro Term Loan Facility: a $250 million equivalent five-year Euro Term Loan Facility (the “New Euro Term Loan Facility” and, together wit",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "1, 169, 171"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$50 million",
+   "normalised": "$50m",
+   "ts_page": 3,
+   "context": "ffective Date until the fifth anniversary of the Effective Date, which will include (a) a $50 million -3- Swingline Option: sublimit for the issuance of standby and commercial letters of credit in U.S",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "78, 168, 173, 210"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$80 million",
+   "normalised": "$80m",
+   "ts_page": 4,
+   "context": "r its restricted Multicurrency Option: subsidiaries (each a “Letter of Credit”) and (b) a $80 million sublimit for swingline loans to be made in U.S. dollars and Euros (each a Designation of Restricte",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "94"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$60 million",
+   "normalised": "$60m",
+   "ts_page": 4,
+   "context": "defined below), the aggregate amount of Swingline Loans in U.S. dollars shall not exceed $60 million and the aggregate amount of Swingline Loans in Euros shall not exceed $20 million. The entire New",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "94"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$20 million",
+   "normalised": "$20m",
+   "ts_page": 4,
+   "context": "exceed $60 million and the aggregate amount of Swingline Loans in Euros shall not exceed $20 million. The entire New Revolving Credit Facility shall be available for loans to Designated Borrowers and",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "94"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$80 million",
+   "normalised": "$80m",
+   "ts_page": 4,
+   "context": "ay be made available in U.S. dollars and Euros only, in an aggregate amount not exceeding $80 million and in minimum amounts of $100,000. Swingline Loans denominated in U.S. dollars will be made avail",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "94"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100,000",
+   "normalised": "$100,000",
+   "ts_page": 4,
+   "context": "nd Euros only, in an aggregate amount not exceeding $80 million and in minimum amounts of $100,000. Swingline Loans denominated in U.S. dollars will be made available by Bank of America on a same day",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "106, 108, 116, 119"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "90%",
+   "normalised": "9000 bps",
+   "ts_page": 5,
+   "context": "d EBITDA of any unrestricted subsidiary or the value of any investment therein), at least 90% of the consolidated total assets and at least 90% of the Consolidated EBITDA of the Company and its subsid",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "130"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "90%",
+   "normalised": "9000 bps",
+   "ts_page": 5,
+   "context": "ue of any investment therein), at least 90% of the consolidated total assets and at least 90% of the Consolidated EBITDA of the Company and its subsidiaries; provided, further, that (i) if any restric",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "130"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$331.0 million",
+   "normalised": "$331m",
+   "ts_page": 5,
+   "context": "amount for all Incremental Facilities shall not exceed the sum of (A) the greater of (x) $331.0 million and (y) 100% of Consolidated EBITDA, (B) all voluntary prepayments, open market purchases (with",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "73"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 5,
+   "context": "ntal Facilities shall not exceed the sum of (A) the greater of (x) $331.0 million and (y) 100% of Consolidated EBITDA, (B) all voluntary prepayments, open market purchases (with credit for any purchas",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "47, 54, 57, 59, 73, 100, 120, 170"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50:1.00",
+   "normalised": "3.50x",
+   "ts_page": 5,
+   "context": "Senior Credit Facilities, the Consolidated First Lien Net Leverage Ratio shall not exceed 3.50:1.00, (2) in the case of indebtedness that is secured on a junior lien basis with the New Senior Credit F",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 74, 84, 171, 176"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.00:1.00",
+   "normalised": "4.00x",
+   "ts_page": 5,
+   "context": "ew Senior Credit Facilities, the Consolidated Secured Net Leverage Ratio shall not exceed 4.00:1.00 and (3) in the case of unsecured indebtedness, the Company would be in -5- compliance with the lever",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "74, 84, 176"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$83.0 million",
+   "normalised": "$83m",
+   "ts_page": 7,
+   "context": "(A) except with respect to (1) an aggregate principal amount not to exceed the greater of $83.0 million and 25% of Consolidated EBITDA in the aggregate for all Incremental Facilities and Incremental E",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "85, 174"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "25%",
+   "normalised": "2500 bps",
+   "ts_page": 7,
+   "context": "spect to (1) an aggregate principal amount not to exceed the greater of $83.0 million and 25% of Consolidated EBITDA in the aggregate for all Incremental Facilities and Incremental Equivalent Debt (as",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "85, 174"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "30%",
+   "normalised": "3000 bps",
+   "ts_page": 9,
+   "context": "to clauses (a) and (e) of this paragraph shall be subject to an aggregate combined cap of 30% of Consolidated EBITDA in such period (calculated after giving effect to such addbacks). “Consolidated Fir",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "52, 53, 175"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100.0%",
+   "normalised": "10000 bps",
+   "ts_page": 9,
+   "context": "sidiaries that ranks pari passu with liens securing the New Senior Credit Facilities less 100.0% of unrestricted cash held by the Company and its restricted subsidiaries to (b) Consolidated EBITDA. “C",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "47, 54, 57, 59, 73, 100, 120, 170"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100.0%",
+   "normalised": "10000 bps",
+   "ts_page": 10,
+   "context": "ted Net Leverage Ratio” shall mean the ratio of (a) Consolidated Funded Indebtedness less 100.0% of unrestricted cash held by the Company and its restricted subsidiaries that are Domestic Subsidiaries",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "47, 54, 57, 59, 73, 100, 120, 170"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100.0%",
+   "normalised": "10000 bps",
+   "ts_page": 10,
+   "context": "red by a lien on any asset or property of the Company or its restricted subsidiaries less 100.0% of unrestricted cash held by the Company and its restricted subsidiaries to (b) Consolidated EBITDA. Th",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "47, 54, 57, 59, 73, 100, 120, 170"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.625%",
+   "normalised": "62.5 bps",
+   "ts_page": 13,
+   "context": "Amortization”): Fiscal Quarter Payment Date Percentage First eight fiscal quarter payment 0.625% dates after the Effective Date 1.25% Each fiscal quarter payment date thereafter All remaining principa",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "123"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.25%",
+   "normalised": "125 bps",
+   "ts_page": 13,
+   "context": "Date Percentage First eight fiscal quarter payment 0.625% dates after the Effective Date 1.25% Each fiscal quarter payment date thereafter All remaining principal amounts Maturity Date Mandatory Prep",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 123"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 13,
+   "context": "Commitment Reductions: applied to the prepayment of the New Senior Credit Facilities: (a) 100% of the net cash proceeds, in each case, in excess of $25 million in the aggregate in any fiscal year (and",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "47, 54, 57, 59, 73, 100, 120, 170"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$25 million",
+   "normalised": "$25m",
+   "ts_page": 13,
+   "context": "w Senior Credit Facilities: (a) 100% of the net cash proceeds, in each case, in excess of $25 million in the aggregate in any fiscal year (and subject to a de minimis per transaction threshold of $10",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "79, 120, 132, 157, 168, 173"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$10 million",
+   "normalised": "$10m",
+   "ts_page": 13,
+   "context": "he aggregate in any fiscal year (and subject to a de minimis per transaction threshold of $10 million), of all asset sales, insurance and condemnation recoveries and other asset dispositions (excludin",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "79, 120, 122, 169, 171"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 13,
+   "context": "365 day period, within 545 days of receipt)) and baskets to be mutually agreed upon. (b) 100% of the net cash proceeds of the issuance or incurrence of debt (other than any debt permitted to be issue",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "47, 54, 57, 59, 73, 100, 120, 170"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "65%",
+   "normalised": "6500 bps",
+   "ts_page": 14,
+   "context": "olled foreign corporation” under Section 957 of the Internal Revenue Code, to a pledge of 65% of the capital stock of each such controlled foreign corporation). (b) All present and future intercompany",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "47, 49"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$5 million",
+   "normalised": "$5m",
+   "ts_page": 16,
+   "context": "respect to (i) deposit accounts (other than accounts with an average daily balance below $5 million, with respect to which no control agreements shall be required) the perfection of which is governed",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "80, 106, 119, 143, 157, 164, 198"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.00 to 1.00",
+   "normalised": "2.00x",
+   "ts_page": 16,
+   "context": "en delivered and (B) as of such date of request, on a pro forma basis, are each less than 2.00 to 1.00 or (ii) a Ratings Release Trigger Event (defined below) shall have occurred, (b) no default or ev",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 51"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.50 to 1.00",
+   "normalised": "2.50x",
+   "ts_page": 17,
+   "context": "ance certificate and financial statements have been delivered is greater than or equal to 2.50 to 1.00 at any time after the occurrence of any Collateral Release or (ii) Consolidated Net Leverage Rati",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.00 to 1.00",
+   "normalised": "3.00x",
+   "ts_page": 17,
+   "context": "proposed incurrence of an Incremental Facility or otherwise) is greater than or equal to 3.00 to 1.00 at any time after the occurrence of any Collateral Release; and (b) the occurrence of two of the",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50, 175"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$165 million",
+   "normalised": "$165m",
+   "ts_page": 19,
+   "context": "emental Facilities, (ii) indebtedness in an aggregate amount not to exceed the greater of $165 million and 50% of Consolidated EBITDA; (iii) indebtedness incurred by non-Loan Party restricted subsidia",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "59, 168, 169, 170"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 19,
+   "context": "s, (ii) indebtedness in an aggregate amount not to exceed the greater of $165 million and 50% of Consolidated EBITDA; (iii) indebtedness incurred by non-Loan Party restricted subsidiaries in an aggreg",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "59, 88, 159, 168, 169, 170"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$115 million",
+   "normalised": "$115m",
+   "ts_page": 19,
+   "context": "on-Loan Party restricted subsidiaries in an aggregate amount not to exceed the greater of $115 million and 35% of Consolidated EBITDA; (iv) guarantees of indebtedness of joint ventures in an aggregate",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "170, 171"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "35%",
+   "normalised": "3500 bps",
+   "ts_page": 19,
+   "context": "tricted subsidiaries in an aggregate amount not to exceed the greater of $115 million and 35% of Consolidated EBITDA; (iv) guarantees of indebtedness of joint ventures in an aggregate amount not to ex",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "46, 170, 171"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$115 million",
+   "normalised": "$115m",
+   "ts_page": 19,
+   "context": "ees of indebtedness of joint ventures in an aggregate amount not to exceed the greater of $115 million and 35% of Consolidated EBITDA; (v) subject to customary terms to be set forth in the Facilities",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "170, 171"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "35%",
+   "normalised": "3500 bps",
+   "ts_page": 19,
+   "context": "ss of joint ventures in an aggregate amount not to exceed the greater of $115 million and 35% of Consolidated EBITDA; (v) subject to customary terms to be set forth in the Facilities Documentation, ac",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "46, 170, 171"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$115 million",
+   "normalised": "$115m",
+   "ts_page": 19,
+   "context": "acquisitions or investments in an aggregate principal amount not to exceed the greater of $115 million and 35% of Consolidated EBITDA; (vii) indebtedness in an aggregate principal amount not to exceed",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "170, 171"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "35%",
+   "normalised": "3500 bps",
+   "ts_page": 19,
+   "context": "nvestments in an aggregate principal amount not to exceed the greater of $115 million and 35% of Consolidated EBITDA; (vii) indebtedness in an aggregate principal amount not to exceed 100% of the net",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "46, 170, 171"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 19,
+   "context": "of Consolidated EBITDA; (vii) indebtedness in an aggregate principal amount not to exceed 100% of the net cash proceeds received by the Company from the issuance or sale (other than to a restricted su",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "47, 54, 57, 59, 73, 100, 120, 170"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$150 million",
+   "normalised": "$150m",
+   "ts_page": 19,
+   "context": "(ix) indebtedness of Foreign Subsidiaries in an aggregate principal amount not to exceed $150 million; (x) purchase money debt and capital lease obligations in an aggregate amount not to exceed the g",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "168, 170"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$165 million",
+   "normalised": "$165m",
+   "ts_page": 19,
+   "context": "ey debt and capital lease obligations in an aggregate amount not to exceed the greater of $165 million and 50% of Consolidated EBITDA; (xi) unsecured indebtedness of the Company or any restricted subs",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "59, 168, 169, 170"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 19,
+   "context": "al lease obligations in an aggregate amount not to exceed the greater of $165 million and 50% of Consolidated EBITDA; (xi) unsecured indebtedness of the Company or any restricted subsidiary (subject t",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "59, 88, 159, 168, 169, 170"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$75 million",
+   "normalised": "$75m",
+   "ts_page": 19,
+   "context": "y maturity and weighted average life to maturity limitations (with an exception for up to $75 million in the aggregate of such indebtedness that may have a maturity date on or prior to the latest matu",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "96, 169, 176"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "5.00:1.00",
+   "normalised": "5.00x",
+   "ts_page": 19,
+   "context": "after a Financial Covenant Adjustment, the Consolidated Net Leverage Ratio not exceeding 5.00:1.00); (xii) subject to customary terms to be set forth in the Facilities Documentation, intercompany ind",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "170"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$250 million",
+   "normalised": "$250m",
+   "ts_page": 19,
+   "context": "a Foreign Obligor and by a non-Loan Party to a Loan Party shall not exceed the greater of $250 million and 75% of Consolidated EBITDA); (xiii) subject to terms to be set forth in the Facilities Docume",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "1, 169, 171"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "75%",
+   "normalised": "7500 bps",
+   "ts_page": 19,
+   "context": "and by a non-Loan Party to a Loan Party shall not exceed the greater of $250 million and 75% of Consolidated EBITDA); (xiii) subject to terms to be set forth in the Facilities Documentation, indebted",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "169, 171, 173"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$115 million",
+   "normalised": "$115m",
+   "ts_page": 20,
+   "context": "ixed or capital assets in an aggregate principal amount not to exceed the greater of -19- $115 million and 35% of Consolidated EBITDA; and (xiv) Incremental Equivalent Debt); (ii) Liens (which shall,",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "170, 171"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "35%",
+   "normalised": "3500 bps",
+   "ts_page": 20,
+   "context": "ssets in an aggregate principal amount not to exceed the greater of -19- $115 million and 35% of Consolidated EBITDA; and (xiv) Incremental Equivalent Debt); (ii) Liens (which shall, among other thing",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "46, 170, 171"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$165 million",
+   "normalised": "$165m",
+   "ts_page": 20,
+   "context": "among other things, permit (i) liens in an aggregate amount not to exceed the greater of $165 million and 50% of Consolidated EBITDA and (ii) liens on assets of Foreign Subsidiaries that are not Loan",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "59, 168, 169, 170"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 20,
+   "context": "gs, permit (i) liens in an aggregate amount not to exceed the greater of $165 million and 50% of Consolidated EBITDA and (ii) liens on assets of Foreign Subsidiaries that are not Loan Parties securing",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "59, 88, 159, 168, 169, 170"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$150 million",
+   "normalised": "$150m",
+   "ts_page": 20,
+   "context": "are not Loan Parties securing indebtedness in an aggregate principal amount not exceeding $150 million); (iii) Investments, including loans, advances, guarantees, acquisitions and other investments (w",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "168, 170"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$250 million",
+   "normalised": "$250m",
+   "ts_page": 20,
+   "context": "which shall, among other things, permit (i) a general basket not to exceed the greater of $250 million and 75% of Consolidated EBITDA; (ii) investments in joint ventures and unrestricted subsidiaries",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "1, 169, 171"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "75%",
+   "normalised": "7500 bps",
+   "ts_page": 20,
+   "context": "g other things, permit (i) a general basket not to exceed the greater of $250 million and 75% of Consolidated EBITDA; (ii) investments in joint ventures and unrestricted subsidiaries in an aggregate a",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "169, 171, 173"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$115 million",
+   "normalised": "$115m",
+   "ts_page": 20,
+   "context": "entures and unrestricted subsidiaries in an aggregate amount not to exceed the greater of $115 million and 35% of Consolidated EBITDA; (iii) unlimited investments subject to no Event of Default and th",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "170, 171"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50:1.00",
+   "normalised": "3.50x",
+   "ts_page": 20,
+   "context": "ct to no Event of Default and the pro forma Consolidated Net Leverage Ratio not exceeding 3.50:1.00; (iv) permitted acquisitions, subject to customary limitations, including no payment or bankruptcy E",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 74, 84, 171, 176"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$250 million",
+   "normalised": "$250m",
+   "ts_page": 20,
+   "context": "by a Loan Party in a non-Loan Party restricted subsidiary shall not exceed the greater of $250 million and 75% of Consolidated EBITDA); (vii) advances to officers, directors and employees of the Compa",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "1, 169, 171"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "75%",
+   "normalised": "7500 bps",
+   "ts_page": 20,
+   "context": "n a non-Loan Party restricted subsidiary shall not exceed the greater of $250 million and 75% of Consolidated EBITDA); (vii) advances to officers, directors and employees of the Company and the restri",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "169, 171, 173"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$10 million",
+   "normalised": "$10m",
+   "ts_page": 20,
+   "context": "ployees of the Company and the restricted subsidiary in an aggregate amount not to exceed $10 million for travel, entertainment, relocation and analogous ordinary business purposes; and (viii) subject",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "79, 120, 122, 169, 171"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100 million",
+   "normalised": "$100m",
+   "ts_page": 20,
+   "context": "Permitted Post-Closing Reorganization; (ii) a general basket not to exceed the greater of $100 million and 30% of Consolidated EBITDA; (iii) unlimited restricted payments subject to pro forma Consolid",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "84, 175"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "30%",
+   "normalised": "3000 bps",
+   "ts_page": 20,
+   "context": "osing Reorganization; (ii) a general basket not to exceed the greater of $100 million and 30% of Consolidated EBITDA; (iii) unlimited restricted payments subject to pro forma Consolidated Net Leverage",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "52, 53, 175"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.00:1.00",
+   "normalised": "3.00x",
+   "ts_page": 20,
+   "context": "ed restricted payments subject to pro forma Consolidated Net Leverage Ratio not exceeding 3.00:1.00 and no default; (iv) restricted payments permitted in accordance with share repurchase programs appr",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50, 175"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$33 million",
+   "normalised": "$33m",
+   "ts_page": 20,
+   "context": "(vi) subject to no default, restricted payments in an amount not to exceed the greater of $33 million and 10% of Consolidated EBITDA in any fiscal year (with unused amounts permitted to be carried ove",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "174"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10%",
+   "normalised": "1000 bps",
+   "ts_page": 20,
+   "context": "no default, restricted payments in an amount not to exceed the greater of $33 million and 10% of Consolidated EBITDA in any fiscal year (with unused amounts permitted to be carried over to the immedia",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "174"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$30 million",
+   "normalised": "$30m",
+   "ts_page": 21,
+   "context": "); -20- and (vii) regularly scheduled dividends in an amount not to exceed the greater of $30 million per fiscal year (with unused amounts permitted to be carried over to the immediately succeeding fi",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "175"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "5%",
+   "normalised": "500 bps",
+   "ts_page": 21,
+   "context": "nused amounts permitted to be carried over to the immediately succeeding fiscal year) and 5% of market capitalization of the Company per annum; (v) Fundamental changes; (vi) Prepayments of subordinate",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "79, 175"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$25 million",
+   "normalised": "$25m",
+   "ts_page": 21,
+   "context": "be made for fair market value and (z) if the fair market value of the disposition exceeds $25 million, at least 75% of the consideration therefor shall be in the form of cash or cash equivalents, taki",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "79, 120, 132, 157, 168, 173"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "75%",
+   "normalised": "7500 bps",
+   "ts_page": 21,
+   "context": "t value and (z) if the fair market value of the disposition exceeds $25 million, at least 75% of the consideration therefor shall be in the form of cash or cash equivalents, taking into account design",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "169, 171, 173"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$83 million",
+   "normalised": "$83m",
+   "ts_page": 21,
+   "context": "into account designated non-cash consideration in an amount not to exceed the greater of $83 million and 25% of Consolidated EBITDA; (ii) dispositions of property pursuant to sale and leaseback trans",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "85, 174"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "25%",
+   "normalised": "2500 bps",
+   "ts_page": 21,
+   "context": "signated non-cash consideration in an amount not to exceed the greater of $83 million and 25% of Consolidated EBITDA; (ii) dispositions of property pursuant to sale and leaseback transactions (provide",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "85, 174"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$50 million",
+   "normalised": "$50m",
+   "ts_page": 21,
+   "context": "k transactions (provided that the book value of all property so disposed shall not exceed $50 million after the Effective Date) and (iii) dispositions of property acquired in a permitted acquisition n",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "78, 168, 173, 210"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$50 million",
+   "normalised": "$50m",
+   "ts_page": 21,
+   "context": ") and (iii) dispositions of property acquired in a permitted acquisition not in excess of $50 million in the aggregate for any such permitted acquisition); The Facilities Documentation will include a",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "78, 168, 173, 210"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$165 million",
+   "normalised": "$165m",
+   "ts_page": 21,
+   "context": "ts and restricted payments and shall mean a cumulative amount equal to (a) the greater of $165 million and 50% of Consolidated EBITDA, plus (b) 50% of cumulative Consolidated Net Income for the period",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "59, 168, 169, 170"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 21,
+   "context": "payments and shall mean a cumulative amount equal to (a) the greater of $165 million and 50% of Consolidated EBITDA, plus (b) 50% of cumulative Consolidated Net Income for the period -21- beginning o",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "59, 88, 159, 168, 169, 170"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 21,
+   "context": "amount equal to (a) the greater of $165 million and 50% of Consolidated EBITDA, plus (b) 50% of cumulative Consolidated Net Income for the period -21- beginning on the first day of the fiscal quarter",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "59, 88, 159, 168, 169, 170"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 22,
+   "context": "assets and not required to be swept pursuant to the asset sale sweep provisions, plus (h) 100% of any dividends or interest payments received by the Company or any of its restricted subsidiaries from",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "47, 54, 57, 59, 73, 100, 120, 170"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.75 to 1.00",
+   "normalised": "2.75x",
+   "ts_page": 22,
+   "context": "g (the “Financial Covenants”): • Consolidated Interest Coverage Ratio not to be less than 2.75 to 1.00. • (1) Consolidated Net Leverage Ratio not to be greater than 4.25 to 1.00 or (2) at the Company’",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 176"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.25 to 1.00",
+   "normalised": "4.25x",
+   "ts_page": 22,
+   "context": "o be less than 2.75 to 1.00. • (1) Consolidated Net Leverage Ratio not to be greater than 4.25 to 1.00 or (2) at the Company’s option, solely to the extent (x) the Company has consummated a qualified",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "74, 84, 176"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50 to 1.00",
+   "normalised": "3.50x",
+   "ts_page": 22,
+   "context": "secured by the Collateral, Consolidated Secured Net Leverage Ratio not to be greater than 3.50 to 1.00 (this clause (2), the “Financial Covenant Adjustment”). The maximum Consolidated Net Leverage Rat",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 74, 84, 171, 176"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "0.50:1.00",
+   "normalised": "0.50x",
+   "ts_page": 22,
+   "context": ". The maximum Consolidated Net Leverage Ratio may be increased at the Company’s option by 0.50:1.00 solely for the first four fiscal quarters ending after an Acquisition by the Company with aggregate",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$75 million",
+   "normalised": "$75m",
+   "ts_page": 22,
+   "context": "t of any earnout or other post-closing payment reasonably estimated to be paid) exceeding $75 million, beginning with the fiscal quarter in which such Acquisition is consummated. -22- Events of Defaul",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "96, 169, 176"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$75 million",
+   "normalised": "$75m",
+   "ts_page": 23,
+   "context": ", when made or confirmed; (iv) cross-default to other indebtedness in an amount exceeding $75 million; (v) bankruptcy and insolvency defaults (with grace period for involuntary proceedings); (vi) inab",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "96, 169, 176"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$75 million",
+   "normalised": "$75m",
+   "ts_page": 23,
+   "context": "gs); (vi) inability to pay debts; (vii) monetary judgment defaults in an amount exceeding $75 million and material nonmonetary judgment defaults; (viii) customary ERISA defaults with respect to certai",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "96, 169, 176"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$75 million",
+   "normalised": "$75m",
+   "ts_page": 23,
+   "context": "ent defaults; (viii) customary ERISA defaults with respect to certain events in excess of $75 million; (ix) actual or asserted invalidity or impairment of any of the Facilities Documentation; (x) any",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "96, 169, 176"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$5 million",
+   "normalised": "$5m",
+   "ts_page": 23,
+   "context": "institutions in respect of the New Revolving Credit Facility in a minimum amount equal to $5 million. Term Loan Facilities Assignments: Subject to the consents described below (which consents will not",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "80, 106, 119, 143, 157, 164, 198"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1 million",
+   "normalised": "$1m",
+   "ts_page": 23,
+   "context": "ancial institutions in respect of any New Term Loan Facility in a minimum amount equal to $1 million. The Facilities Documentation shall contain customary borrower buy back provisions for the New Term",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "106, 108, 119, 122, 143, 172, 198, 210"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 24,
+   "context": "will require the approval of Lenders holding loans and commitments representing more than 50% of the aggregate amount of the loans and commitments under the New Senior Credit Facilities (the “Required",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "59, 88, 159, 168, 169, 170"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 25,
+   "context": "th in the Facilities Documentation); and (c) the consent of the Lenders holding more than 50% of the loans and commitments under the applicable facility or facilities shall be required with respect to",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "59, 88, 159, 168, 169, 170"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 25,
+   "context": "of the Financial Covenants shall only require the approval of Lenders holdings more than 50% of the aggregate amount of the commitments and loans under the Facilities. The Facilities Documentation sh",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "59, 88, 159, 168, 169, 170"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0%",
+   "normalised": "0 bps",
+   "ts_page": 28,
+   "context": "be defined in the Facilities Documentation, and which shall not in any event be less than 0%), as applicable, plus the Applicable Margin (defined below) or (b) for borrowings in U.S. dollars, the Base",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1/2 of 1%",
+   "normalised": "50 bps",
+   "ts_page": 28,
+   "context": ". dollars, the Base Rate (to be defined as the highest of (i) the Federal Funds Rate plus 1/2 of 1%, (ii) the prime rate of the Administrative Agent and (iii) Term SOFR plus 1.00%) plus the Applicable",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 42"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.00%",
+   "normalised": "100 bps",
+   "ts_page": 28,
+   "context": "plus 1/2 of 1%, (ii) the prime rate of the Administrative Agent and (iii) Term SOFR plus 1.00%) plus the Applicable Margin. “Applicable Margin” means: (a) from the Effective Date until the delivery o",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 42"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "2%",
+   "normalised": "200 bps",
+   "ts_page": 28,
+   "context": "the Applicable Margin on obligations owing under the loan documentation shall increase by 2% per annum (subject, in all cases other than a default in the payment of principal when due, to the request",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "61, 91"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50x",
+   "normalised": "3.50x",
+   "ts_page": 29,
+   "context": "Applicable Commitment Leverage Ratio Margin for Margin for Fee Rate Base Rate Term SOFR > 3.50x 0.275% Loans Loans / 0.225% ≤ 3.50 to 1.00 but Alternative > 2.75 to 1.00 0.750% Currency Loans / Letter",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 74, 84, 171, 176"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.275%",
+   "normalised": "27.5 bps",
+   "ts_page": 29,
+   "context": "able Commitment Leverage Ratio Margin for Margin for Fee Rate Base Rate Term SOFR > 3.50x 0.275% Loans Loans / 0.225% ≤ 3.50 to 1.00 but Alternative > 2.75 to 1.00 0.750% Currency Loans / Letter ≤ 2.7",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.225%",
+   "normalised": "22.5 bps",
+   "ts_page": 29,
+   "context": "age Ratio Margin for Margin for Fee Rate Base Rate Term SOFR > 3.50x 0.275% Loans Loans / 0.225% ≤ 3.50 to 1.00 but Alternative > 2.75 to 1.00 0.750% Currency Loans / Letter ≤ 2.75 to 1.00 but 0.500%",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50 to 1.00",
+   "normalised": "3.50x",
+   "ts_page": 29,
+   "context": "Margin for Margin for Fee Rate Base Rate Term SOFR > 3.50x 0.275% Loans Loans / 0.225% ≤ 3.50 to 1.00 but Alternative > 2.75 to 1.00 0.750% Currency Loans / Letter ≤ 2.75 to 1.00 but 0.500% of Credit",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 74, 84, 171, 176"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.75 to 1.00",
+   "normalised": "2.75x",
+   "ts_page": 29,
+   "context": "Base Rate Term SOFR > 3.50x 0.275% Loans Loans / 0.225% ≤ 3.50 to 1.00 but Alternative > 2.75 to 1.00 0.750% Currency Loans / Letter ≤ 2.75 to 1.00 but 0.500% of Credit Fee > 2.00 to 1.00 Rate ≤ 2.00",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 176"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.750%",
+   "normalised": "75 bps",
+   "ts_page": 29,
+   "context": "rm SOFR > 3.50x 0.275% Loans Loans / 0.225% ≤ 3.50 to 1.00 but Alternative > 2.75 to 1.00 0.750% Currency Loans / Letter ≤ 2.75 to 1.00 but 0.500% of Credit Fee > 2.00 to 1.00 Rate ≤ 2.00 to 1.00 but",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.75 to 1.00",
+   "normalised": "2.75x",
+   "ts_page": 29,
+   "context": "s / 0.225% ≤ 3.50 to 1.00 but Alternative > 2.75 to 1.00 0.750% Currency Loans / Letter ≤ 2.75 to 1.00 but 0.500% of Credit Fee > 2.00 to 1.00 Rate ≤ 2.00 to 1.00 but > 1.25 to 1.00 1.750% ≤ 1.25 to 1",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 176"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.500%",
+   "normalised": "50 bps",
+   "ts_page": 29,
+   "context": "to 1.00 but Alternative > 2.75 to 1.00 0.750% Currency Loans / Letter ≤ 2.75 to 1.00 but 0.500% of Credit Fee > 2.00 to 1.00 Rate ≤ 2.00 to 1.00 but > 1.25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250%",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 42"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.00 to 1.00",
+   "normalised": "2.00x",
+   "ts_page": 29,
+   "context": "e > 2.75 to 1.00 0.750% Currency Loans / Letter ≤ 2.75 to 1.00 but 0.500% of Credit Fee > 2.00 to 1.00 Rate ≤ 2.00 to 1.00 but > 1.25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 51"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.00 to 1.00",
+   "normalised": "2.00x",
+   "ts_page": 29,
+   "context": "50% Currency Loans / Letter ≤ 2.75 to 1.00 but 0.500% of Credit Fee > 2.00 to 1.00 Rate ≤ 2.00 to 1.00 but > 1.25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1.125% 0.150% 0.000%",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40, 51"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.25 to 1.00",
+   "normalised": "1.25x",
+   "ts_page": 29,
+   "context": "/ Letter ≤ 2.75 to 1.00 but 0.500% of Credit Fee > 2.00 to 1.00 Rate ≤ 2.00 to 1.00 but > 1.25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1.125% 0.150% 0.000% 1.000% 0.125% Other",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.750%",
+   "normalised": "175 bps",
+   "ts_page": 29,
+   "context": "75 to 1.00 but 0.500% of Credit Fee > 2.00 to 1.00 Rate ≤ 2.00 to 1.00 but > 1.25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1.125% 0.150% 0.000% 1.000% 0.125% Other than calcula",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.25 to 1.00",
+   "normalised": "1.25x",
+   "ts_page": 29,
+   "context": "0 but 0.500% of Credit Fee > 2.00 to 1.00 Rate ≤ 2.00 to 1.00 but > 1.25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1.125% 0.150% 0.000% 1.000% 0.125% Other than calculations in",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.500%",
+   "normalised": "150 bps",
+   "ts_page": 29,
+   "context": "of Credit Fee > 2.00 to 1.00 Rate ≤ 2.00 to 1.00 but > 1.25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1.125% 0.150% 0.000% 1.000% 0.125% Other than calculations in respect of th",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.250%",
+   "normalised": "25 bps",
+   "ts_page": 29,
+   "context": "it Fee > 2.00 to 1.00 Rate ≤ 2.00 to 1.00 but > 1.25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1.125% 0.150% 0.000% 1.000% 0.125% Other than calculations in respect of the Base",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "40"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.250%",
+   "normalised": "125 bps",
+   "ts_page": 29,
+   "context": "> 2.00 to 1.00 Rate ≤ 2.00 to 1.00 but > 1.25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1.125% 0.150% 0.000% 1.000% 0.125% Other than calculations in respect of the Base Rate an",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "40, 123"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.175%",
+   "normalised": "17.5 bps",
+   "ts_page": 29,
+   "context": "to 1.00 Rate ≤ 2.00 to 1.00 but > 1.25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1.125% 0.150% 0.000% 1.000% 0.125% Other than calculations in respect of the Base Rate and certa",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "40"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.125%",
+   "normalised": "12.5 bps",
+   "ts_page": 29,
+   "context": "Rate ≤ 2.00 to 1.00 but > 1.25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1.125% 0.150% 0.000% 1.000% 0.125% Other than calculations in respect of the Base Rate and certain Alte",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "40, 115"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.125%",
+   "normalised": "112.5 bps",
+   "ts_page": 29,
+   "context": "2.00 to 1.00 but > 1.25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1.125% 0.150% 0.000% 1.000% 0.125% Other than calculations in respect of the Base Rate and certain Alternative",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "40"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.150%",
+   "normalised": "15 bps",
+   "ts_page": 29,
+   "context": "o 1.00 but > 1.25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1.125% 0.150% 0.000% 1.000% 0.125% Other than calculations in respect of the Base Rate and certain Alternative Curren",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "40"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.000%",
+   "normalised": "0 bps",
+   "ts_page": 29,
+   "context": "but > 1.25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1.125% 0.150% 0.000% 1.000% 0.125% Other than calculations in respect of the Base Rate and certain Alternative Currency loan",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "40"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.000%",
+   "normalised": "100 bps",
+   "ts_page": 29,
+   "context": ".25 to 1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1.125% 0.150% 0.000% 1.000% 0.125% Other than calculations in respect of the Base Rate and certain Alternative Currency loans (whic",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "40, 42"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.125%",
+   "normalised": "12.5 bps",
+   "ts_page": 29,
+   "context": "1.00 1.750% ≤ 1.25 to 1.00 1.500% 0.250% 1.250% 0.175% 0.125% 1.125% 0.150% 0.000% 1.000% 0.125% Other than calculations in respect of the Base Rate and certain Alternative Currency loans (which shall",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "40, 115"
+  }
+ ],
+ "document_notes": "",
+ "quote_check": {
+  "ts_checked": 15,
+  "ca_checked": 12,
+  "ts_found": 12,
+  "ca_found": 10
+ },
+ "generated_at": "2026-11-12T14:40:46+00:00",
+ "engine": "rules",
+ "deal": "Quaker Chemical 2026",
+ "ts_file": "Quaker Chemical 2026 TS.pdf",
+ "ca_file": "Quaker Chemical 2026 CA.pdf"
+}

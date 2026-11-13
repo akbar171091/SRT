@@ -1,0 +1,1042 @@
+{
+ "rows": [
+  {
+   "id": "R01",
+   "attribute": "Facility amount / commitments",
+   "ts_value": "$1.1bn",
+   "ts_quote": "An aggregate principal amount of up to $1,100,000,000 will be available through the following facilities (collectively, the “ Senior Credit Facility”), subject to the in",
+   "ts_location": "p. 2 (label \"SENIORCREDIT FACILITY\")",
+   "ca_value": "provision located, no figures",
+   "ca_quote": "“Aggregate Commitments” means the Commitments of all the Lenders. ",
+   "ca_location": "p. 4 (definition \"Aggregate Commitments\")",
+   "status": "differs",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "NOT found anywhere in CA: $1.1bn. Other figures in the TS entry (not compared): $75m, $20m, $550m.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    4
+   ]
+  },
+  {
+   "id": "R02",
+   "attribute": "Maturity date",
+   "ts_value": "5 yr",
+   "ts_quote": "The Senior Credit Facility shall terminate and all amounts outstanding thereunder shall be due and payable in full five years after the Closing Date (the “Maturity Date”).",
+   "ts_location": "p. 5 (label \"MATURITY\")",
+   "ca_value": "2030-08-05 (1826 days after 2025-08-05)",
+   "ca_quote": "“Maturity Date” means August 5, 2030; provided, however, that if such date is not a Business Day, the Maturity Date shall be the preceding Business Day. ",
+   "ca_location": "p. 11, 16 (definition \"Maturity Date\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS tenor 5 yr = CA maturity 2030-08-05 measured from 2025-08-05 (agreement date).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    5
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    16
+   ]
+  },
+  {
+   "id": "R03",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "$1.1bn, $75m, $20m, $550m",
+   "ts_quote": "will includea$1 5 0,000,000 sublimit for the issuance of standby letters of credit (both performance and financial, however up to $75,000,000 only can be utilized for the issuance of financial letters of credit) in the currencies as set forth below (each a “ L",
+   "ts_location": "p. 2 (clause in \"SENIORCREDIT FACILITY\")",
+   "ca_value": "$150m",
+   "ca_quote": "“Financial Letter of Credit Sublimit” means an amount equal to $75,000,000.",
+   "ca_location": "p. 11 (operative text)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $75m, $20m. NOT found anywhere in CA: $1.1bn, $550m.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    11
+   ]
+  },
+  {
+   "id": "R04",
+   "attribute": "Swingline sublimit",
+   "ts_value": "$20m, $1m, $1.1bn, $75m, $550m",
+   "ts_quote": "Dollars by Bank of America (in such capacity, the“Swingline Lender”), in its sole discretion, on a same day basis in an aggregate amount not exceeding $20,000,000 and in minimum amounts of$1,000,000.",
+   "ts_location": "p. 2 (label \"SWINGLINEOPTION\")",
+   "ca_value": "$20m",
+   "ca_quote": "(a) $20,000,000 and",
+   "ca_location": "p. 21 (definition \"Swing Line Sublimit\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $20m, $1m. Found elsewhere in CA (check context): $75m (p. 11, 26, 57, 61…). NOT found anywhere in CA: $1.1bn, $550m.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    21
+   ]
+  },
+  {
+   "id": "R05",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "$20m, $5m, $535m",
+   "ts_quote": "(ii) each Incremental Facility shall be in a minimum amount of $20,000,000 and in increments of $5,000,000 in excess ther eof, or such less amount as may be acceptable to the Administrative Age",
+   "ts_location": "p. 3 (label \"INCREMENTALTERMLOAN OPTION/SENIORCREDIT FACILITYINCREASE\")",
+   "ca_value": "not located in CA",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Found elsewhere in CA (check context): $20m (p. 21, 38, 63, 84); $5m (p. 38, 75, 80); $535m (p. 13).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R06",
+   "attribute": "Extension option / term-out",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "no extension / term-out provision found",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_applicable",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Neither document has an extension or term-out option.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R07",
+   "attribute": "Applicable margin / pricing grid",
+   "ts_value": "50 bps, 100 bps, 200 bps, 17.5 bps, 25 bps, 83.3 bps, 30 bps, 125 bps, 35 bps, 150 bps, 105 bps, 162.5 bps (+5 more)",
+   "ts_quote": "(b) the Federal Funds rate plus 0.50% and",
+   "ts_location": "p. 14 (label \"INTERESTRATES\")",
+   "ca_value": "17.5 bps, 125 bps, 83.3 bps, 25 bps, 20 bps, 150 bps, 100 bps, 50 bps, 162.5 bps, 105 bps, 62.5 bps, 30 bps (+23 more)",
+   "ca_quote": "1.50 to 1.00 0.175% 1.250% 0.833% 0.250% 2 Greater than or equal to 1.50 to 1.00 but less than 2.00 to 1.00 0.200% 1.500% 1.000% 0.500% 3 Greater than or equal to 2.00 to 1.00 but less than 2.50 to 1.00 0.250% 1.625% 1.050% 0.625% 4 Greater than or equal to 2",
+   "ca_location": "p. 4 (definition \"Applicable Rate\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 50 bps, 100 bps, 200 bps, 17.5 bps, 25 bps, 83.3 bps, 30 bps, 125 bps, 35 bps, 150 bps, 105 bps, 162.5 bps (+5 more).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    14
+   ],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R08",
+   "attribute": "Commitment / facility fee",
+   "ts_value": "17.5 bps, 25 bps, 83.3 bps, 30 bps, 125 bps, 100 bps, 35 bps, 150 bps, 105 bps, 162.5 bps, 120 bps, 50 bps (+5 more)",
+   "ts_quote": "mitment Applicable Margin Performance Applicable Margin | Level Fee (bps) for Term SOFR Letter of Credit for Base Rate | 1 <1.50x 17.5 Fee (bps) Loans, including | 2 ≥1.50x 25.0 (bps) 83.3 | 30.0 125.0 100.0 (bps) | 3 ≥2.00x 35.0 150.0 105.0 25.0 | 162.5 120.0",
+   "ts_location": "p. 15 (pricing table)",
+   "ca_value": "17.5 bps, 125 bps, 83.3 bps, 25 bps, 20 bps, 150 bps, 100 bps, 50 bps, 162.5 bps, 105 bps, 62.5 bps, 30 bps (+23 more)",
+   "ca_quote": "of Credit Fee Applicable Rate | for Performance Letter of Credit Fee Applicable Rate for Base Rate Loans 1 Less than 1.50 to 1.00 0.175% 1.250% 0.833% | 0.250% 2 Greater than or equal to 1.50 to 1.00 but less than 2.00 to 1.00 0.200% 1.500% 1.000% 0.500% 3 Gre",
+   "ca_location": "p. 4 (pricing table)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 17.5 bps, 25 bps, 83.3 bps, 30 bps, 125 bps, 100 bps, 35 bps, 150 bps, 105 bps, 162.5 bps, 120 bps, 50 bps (+5 more).",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R09",
+   "attribute": "Financial covenants",
+   "ts_value": "3.75x",
+   "ts_quote": "(ii) Consolidated EBITDA (such ratio, the “Leverage Ratio”) to exceed 3.75 to 1.00",
+   "ts_location": "p. 10 (keyword \"leverage ratio\")",
+   "ca_value": "3.00x, 3.75x, 4.25x, $100m",
+   "ca_quote": "Permit the Consolidated Leverage Ratio as of the last day of any fiscal quarter (commencing with the fiscal quarter ended June 30, 2025) to be greater than 3.75 to 1.00",
+   "ca_location": "p. 63 (section \"7.12 Financial Covenants.\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 3.75x.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    10
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    63
+   ]
+  },
+  {
+   "id": "R10",
+   "attribute": "Administrative agent",
+   "ts_value": "(“Bank of America”) will act as sole administrative agent (the “Administrative Agent”) and collateral agent. 1 207388596_2 LEFT LEAD ARRANGER: BofA Securities, Inc.",
+   "ts_quote": "(“Bank of America”) will act as sole administrative agent (the “Administrative Agent”) and collateral agent. 1 207388596_2 LEFT LEAD ARRANGER: BofA Securities, Inc.",
+   "ts_location": "p. 1, 2 (keyword \"administrative agent\")",
+   "ca_value": "BANK OF AMERICA, N.A.",
+   "ca_quote": "BANK OF AMERICA, N.A.",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names BANK OF AMERICA, N.A.; each appears in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R11",
+   "attribute": "Borrower(s)",
+   "ts_value": "Granite Construction Incorporated, a Delaware corporation (the“Company”), and Granite Construction Company, a California corporation, and GILC Incorporated, a California corporation, each a wholly-owned subsidiary of the",
+   "ts_quote": "Granite Construction Incorporated, a Delaware corporation (the“Company”), and Granite Construction Company, a California corporation, and GILC Incorporated, a California corporation, each a wholly-owned subsidiary of the Company (each, a “ Designated Borrower” and together with the Company, collecti",
+   "ts_location": "p. 1 (label \"BOR ROWERS\")",
+   "ca_value": "GRANITE CONSTRUCTION INCORPORATED",
+   "ca_quote": "GRANITE CONSTRUCTION INCORPORATED",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names GRANITE CONSTRUCTION INCORPORATED; each appears in the TS entry.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R12",
+   "attribute": "Governing law",
+   "ts_value": "California",
+   "ts_quote": "State of California.",
+   "ts_location": "p. 12 (label \"GOVERNINGLAW\")",
+   "ca_value": "California",
+   "ca_quote": "shall be governed by, and construed in accordance with, the law of the State of California. (b) SUBMISSION TO JURISDICTION. EACH BORROWER IRREVOCABLY AND UNCONDITIONALLY SUBMITS, FOR ITSELF AND ITS PROPERTY, TO THE NONEXCLUSIVE JURISDICTION OF THE COURTS OF TH",
+   "ca_location": "p. 80, 83 (governing-law clause)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Same governing law.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    12
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    80
+   ]
+  },
+  {
+   "id": "R13",
+   "attribute": "Security (secured vs unsecured)",
+   "ts_value": "secured",
+   "ts_quote": "The Senior Credit Facility and any treasury management, interest protection or other hedging arrangements entered into with a Lender (or any affiliate thereof) (the“Secured Obligations”) will be guaranteed by(a) each existing and future Material Subsidiary (defined below) of the Company (other than ",
+   "ts_location": "p. 1 (label \"GUARANTORS\")",
+   "ca_value": "secured (definition \"Security Agreement\")",
+   "ca_quote": "“Security Agreement” means that certain Third Amended and Restated Security Agreement dated as of the date hereof among the Borrowers, the Guarantors and the Collateral Agent, attached as Exhibit H, as supplemented from time to time by the execution and delivery of Security Joinder Agreements pursua",
+   "ca_location": "p. 7, 20 (definition \"Security Agreement\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS: secured; CA: secured.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    20
+   ]
+  },
+  {
+   "id": "R14",
+   "attribute": "Benchmark rates",
+   "ts_value": "Term SOFR",
+   "ts_quote": "may select interest periods of one, three or six months for Term SOFR loans, subject to availability. Interest on Term SOFR loans shall be payable at the end of the selected interest period, but no less frequently than quarterly, and on the Maturity Date. Duri",
+   "ts_location": "p. 14",
+   "ca_value": "Term SOFR, Daily Simple SOFR",
+   "ca_quote": "solidated Leverage Ratio Commitment Fee Applicable Rate for Term SOFR Loans and Financial Letter of Credit Fee Applicable Rate for Performance Letter of Credit Fee Applicable Rate for Base Rate Loans 1 Less than 1.50 to 1.00 0.175% 1.250% 0.833% 0.250% 2 Great",
+   "ca_location": "p. 4",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Every item named in the TS appears in the CA. CA also has: Daily Simple SOFR.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    14
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    4
+   ]
+  },
+  {
+   "id": "R15",
+   "attribute": "Currencies",
+   "ts_value": "EUR, GBP, JPY, CAD, MXN",
+   "ts_quote": "er readily available currencies to be determined, including Canadian Dollars, Pounds Sterling, Yen, Mexican Pesos and Euros, and will be available on four business days’ notice (or five business days’ notice in the case of certain designated currencies requiri",
+   "ts_location": "p. 2",
+   "ca_value": "EUR, GBP, JPY, CAD, MXN",
+   "ca_quote": "ent. “Alternative Currency” means each of Canadian Dollars, Euro, Mexican Pesos, Sterling, Yen and each other currency (other than Dollars) that is approved in accordance with Section 1.06. “Alternative Currency Equivalent” means, at any time, with respect to",
+   "ca_location": "p. 4",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Every item named in the TS appears in the CA.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    4
+   ]
+  }
+ ],
+ "trace": [
+  {
+   "type": "Amount",
+   "ts_text": "$1,100,000,000",
+   "normalised": "$1.1bn",
+   "ts_page": 1,
+   "context": "SUMMARY OF TERMS AND CONDITIONS GRANITE CONSTRUCTION INCORPORATED UP TO $1,100,000,000 SENIOR SECURED CREDIT FACILITY Capitalized terms not otherwise defined herein have the same mea",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "20%",
+   "normalised": "2000 bps",
+   "ts_page": 1,
+   "context": "rovided, that the total assets or revenues of non-guarantying subsidiaries may not exceed 20% of the consolidated total assets or revenues, respectively, of the Company and its subsidiaries. Additiona",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "58, 59, 60, 61"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10%",
+   "normalised": "1000 bps",
+   "ts_page": 1,
+   "context": "for the period of the immediately preceding four fiscal quarters equal to or greater than 10% of the consolidated total revenues of the Company and its subsidiaries for such period or (ii) has total a",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "16, 22, 44, 57, 61"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10%",
+   "normalised": "1000 bps",
+   "ts_page": 1,
+   "context": "as of the last day of the immediately preceding fiscal quarter, equal to or greater than 10% of the consolidated total assets of the Company and its subsidiaries as of such date, determined in the ca",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "16, 22, 44, 57, 61"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,100,000,000",
+   "normalised": "$1.1bn",
+   "ts_page": 2,
+   "context": "dministrative Agent (collectively, the “Lenders”). An aggregate principal amount of up to $1,100,000,000 will be available through the following facilities (collectively, the “Senior Credit Facility”)",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$550,000,000",
+   "normalised": "$550m",
+   "ts_page": 2,
+   "context": "”), subject to the increase option (described below): Revolving Credit Facility: An up to $550,000,000 five-year revolving credit facility (the “Revolving Credit Facility”), which will include a $150,",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$150,000,000",
+   "normalised": "$150m",
+   "ts_page": 2,
+   "context": "ve-year revolving credit facility (the “Revolving Credit Facility”), which will include a $150,000,000 sublimit for the issuance of standby letters of credit (both performance and financial, however u",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "15, 60, 84"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$75,000,000",
+   "normalised": "$75m",
+   "ts_page": 2,
+   "context": "the issuance of standby letters of credit (both performance and financial, however up to $75,000,000 only can be utilized for the issuance of financial letters of credit) in the currencies as set for",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "11, 26, 57, 61, 84"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$20,000,000",
+   "normalised": "$20m",
+   "ts_page": 2,
+   "context": "etters of credit) in the currencies as set forth below (each a “Letter of Credit”), and a $20,000,000 sublimit for swingline loans (each a “Swingline Loan”). Letters of Credit will be issued by Bank o",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "21, 38, 63, 84"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$550,000,000",
+   "normalised": "$550m",
+   "ts_page": 2,
+   "context": "nal participation in each Letter of Credit and each Swingline Loan. Term Loan Facility: A $550,000,000 term loan facility (the “Term Loan Facility”), all of which will be drawn on the Closing Date. Al",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$20,000,000",
+   "normalised": "$20m",
+   "ts_page": 2,
+   "context": "ender”), in its sole discretion, on a same day basis in an aggregate amount not exceeding $20,000,000 and in minimum amounts of $1,000,000. The Borrowers must repay each Swingline Loan in full no late",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "21, 38, 63, 84"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000",
+   "normalised": "$1m",
+   "ts_page": 2,
+   "context": "same day basis in an aggregate amount not exceeding $20,000,000 and in minimum amounts of $1,000,000. The Borrowers must repay each Swingline Loan in full no later than ten (10) business days after su",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "26, 28, 33, 34, 35"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$150,000,000",
+   "normalised": "$150m",
+   "ts_page": 2,
+   "context": "nal notice), in any event in an aggregate amount not to exceed the U.S. Dollar equivalent $150,000,000. 2 207388596_2 All unreimbursed Letter of Credit draws to be funded by the Lenders will be immedi",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "15, 60, 84"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "105%",
+   "normalised": "10500 bps",
+   "ts_page": 3,
+   "context": "ters of Credit outstanding under the Revolving Credit Facility exceeds an amount equal to 105% of the sublimit of $150,000,000 for Letters of Credit, the Borrowers will cash collateralize Letters of C",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "34"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$150,000,000",
+   "normalised": "$150m",
+   "ts_page": 3,
+   "context": "ng under the Revolving Credit Facility exceeds an amount equal to 105% of the sublimit of $150,000,000 for Letters of Credit, the Borrowers will cash collateralize Letters of Credit in the amount nece",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "15, 60, 84"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$20,000,000",
+   "normalised": "$20m",
+   "ts_page": 3,
+   "context": "he Senior Credit Facility, (ii) each Incremental Facility shall be in a minimum amount of $20,000,000 and in increments of $5,000,000 in excess thereof, or such less amount as may be acceptable to the",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "21, 38, 63, 84"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$5,000,000",
+   "normalised": "$5m",
+   "ts_page": 3,
+   "context": "ach Incremental Facility shall be in a minimum amount of $20,000,000 and in increments of $5,000,000 in excess thereof, or such less amount as may be acceptable to the Administrative Agent and (iii) t",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "38, 75, 80"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.25 to 1.00",
+   "normalised": "1.25x",
+   "ts_page": 3,
+   "context": "(A) consolidated funded secured indebtedness to (B) Consolidated EBITDA shall not exceed 1.25 to 1.00 (collectively with the Fixed Incremental Amount, the “Incremental Cap”); in each case, subject to",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "13"
+  },
+  {
+   "type": "Date",
+   "ts_text": "October 26, 2001",
+   "normalised": "2001-10-26",
+   "ts_page": 3,
+   "context": "gulations, including the USA PATRIOT Act (Title III of Pub. L. 107-56 (signed into law on October 26, 2001)) (the “PATRIOT Act”) and (2) the Beneficial Ownership Regulation (as defined below), if appl",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$535,000,000",
+   "normalised": "$535m",
+   "ts_page": 4,
+   "context": "d Incremental Amount” means, at any date, the sum of (a) the 3 207388596_2 greater of (i) $535,000,000 and (ii) an amount equal to 100% of Consolidated EBITDA, minus (b) the aggregate principal amount",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "13"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 4,
+   "context": "the sum of (a) the 3 207388596_2 greater of (i) $535,000,000 and (ii) an amount equal to 100% of Consolidated EBITDA, minus (b) the aggregate principal amount of Incremental Facilities that were incu",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "13, 18, 23, 34, 56, 62, 79, 84"
+  },
+  {
+   "type": "Date",
+   "ts_text": "June 2, 2022",
+   "normalised": "2022-06-02",
+   "ts_page": 5,
+   "context": "(iii) to refinance that certain Fourth Amended and Restated Credit Agreement dated as of June 2, 2022, among the Borrowers, Bank of America, N.A., as administrative agent, swing line lender and L/C i",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "3"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.000%",
+   "normalised": "0 bps",
+   "ts_page": 5,
+   "context": "the Maturity Date. Quarter % of Stated Principal Amount Each quarter commencing with the 0.000% quarter ending December 31, 2025, to (and including) September 30, 2026 Each quarter commencing with th",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "17, 35"
+  },
+  {
+   "type": "Date",
+   "ts_text": "December 31, 2025",
+   "normalised": "2025-12-31",
+   "ts_page": 5,
+   "context": "arter % of Stated Principal Amount Each quarter commencing with the 0.000% quarter ending December 31, 2025, to (and including) September 30, 2026 Each quarter commencing with the 0.625% quarter endin",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "35"
+  },
+  {
+   "type": "Date",
+   "ts_text": "September 30, 2026",
+   "normalised": "2026-09-30",
+   "ts_page": 5,
+   "context": "h quarter commencing with the 0.000% quarter ending December 31, 2025, to (and including) September 30, 2026 Each quarter commencing with the 0.625% quarter ending December 31, 2026, to (and including",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "35"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.625%",
+   "normalised": "62.5 bps",
+   "ts_page": 5,
+   "context": "December 31, 2025, to (and including) September 30, 2026 Each quarter commencing with the 0.625% quarter ending December 31, 2026, to (and including) September 30, 2027 Each quarter thereafter 1.250%",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "4, 35"
+  },
+  {
+   "type": "Date",
+   "ts_text": "December 31, 2026",
+   "normalised": "2026-12-31",
+   "ts_page": 5,
+   "context": "(and including) September 30, 2026 Each quarter commencing with the 0.625% quarter ending December 31, 2026, to (and including) September 30, 2027 Each quarter thereafter 1.250% Loans under the Revolv",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "35, 62"
+  },
+  {
+   "type": "Date",
+   "ts_text": "September 30, 2027",
+   "normalised": "2027-09-30",
+   "ts_page": 5,
+   "context": "h quarter commencing with the 0.625% quarter ending December 31, 2026, to (and including) September 30, 2027 Each quarter thereafter 1.250% Loans under the Revolving Credit Facility may be made on a r",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "35"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.250%",
+   "normalised": "125 bps",
+   "ts_page": 5,
+   "context": "r ending December 31, 2026, to (and including) September 30, 2027 Each quarter thereafter 1.250% Loans under the Revolving Credit Facility may be made on a revolving basis up to the full amount of the",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4, 35"
+  },
+  {
+   "type": "Date",
+   "ts_text": "June 2, 2022",
+   "normalised": "2022-06-02",
+   "ts_page": 6,
+   "context": "d Amended and Restated Security Agreement (the “Existing Security Agreement”) dated as of June 2, 2022 among the Borrowers, each of the subsidiaries of the Borrowers from time to time party thereto an",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "3"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "65%",
+   "normalised": "6500 bps",
+   "ts_page": 6,
+   "context": "olled foreign corporation” under Section 957 of the Internal Revenue Code, to a pledge of 65% of the voting capital stock and 100% of the other capital stock of each such first-tier foreign subsidiary",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "18"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 6,
+   "context": "tion 957 of the Internal Revenue Code, to a pledge of 65% of the voting capital stock and 100% of the other capital stock of each such first-tier foreign subsidiary); (b) All present and future interc",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "13, 18, 23, 34, 56, 62, 79, 84"
+  },
+  {
+   "type": "Date",
+   "ts_text": "December 31, 2024",
+   "normalised": "2024-12-31",
+   "ts_page": 7,
+   "context": "qualifications and exclusions set forth therein). (v) There shall not have occurred since December 31, 2024 any event or condition that has had or could be reasonably expected, either individually or",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "5"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.00 to 1.00",
+   "normalised": "3.00x",
+   "ts_page": 10,
+   "context": "ctible in determining the consolidated net income or loss, as applicable, to be less than 3.00 to 1.00. Maximum Consolidated Leverage Ratio: The Company shall not permit, as of the last day of any fis",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "63"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.75 to 1.00",
+   "normalised": "3.75x",
+   "ts_page": 10,
+   "context": "ded indebtedness to (ii) Consolidated EBITDA (such ratio, the “Leverage Ratio”) to exceed 3.75 to 1.00; provided, however, for each of the four consecutive fiscal quarters ending after any permitted a",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "63"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100,000,000",
+   "normalised": "$100m",
+   "ts_page": 10,
+   "context": "ve fiscal quarters ending after any permitted acquisition with consideration in excess of $100,000,000 occurs, the Leverage Ratio as of the last day of such fiscal quarter shall not exceed 4.25 to 1.0",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "58, 59, 60, 61, 63"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.25 to 1.00",
+   "normalised": "4.25x",
+   "ts_page": 10,
+   "context": "000 occurs, the Leverage Ratio as of the last day of such fiscal quarter shall not exceed 4.25 to 1.00. In addition to the baskets already present, without limitation, baskets for (A) liens (i) permit",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "63"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100,000,000",
+   "normalised": "$100m",
+   "ts_page": 10,
+   "context": "liens (i) permitting indebtedness in connection with permitted acquisitions not exceeding $100,000,000, (ii) with respect to swap contracts and (iii) with respect to accounts receivable transactions,",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "58, 59, 60, 61, 63"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$20,000,000",
+   "normalised": "$20m",
+   "ts_page": 10,
+   "context": "received from an asset disposition and (C) transactions among affiliates not in excess of $20,000,000 in any fiscal year excluded from arms-length requirement. Substantially similar to the Existing Cr",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "21, 38, 63, 84"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$5,000,000",
+   "normalised": "$5m",
+   "ts_page": 10,
+   "context": "ancial institutions in respect of the Senior Credit Facility in a minimum amount equal to $5,000,000. Consents: The consent of the Borrowers will be required for any assignment to a person or entity e",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "38, 75, 80"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 11,
+   "context": "will require the approval of Lenders holding loans and commitments representing more than 50% of the aggregate amount of the loans and commitments under the Senior Credit Facility; provided that the l",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "19"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 12,
+   "context": "led maturities or times for payment; and (c) the consent of the Lenders holding more than 50% of the loans and commitments under the applicable facilities shall be required with respect to certain oth",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "19"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.50%",
+   "normalised": "50 bps",
+   "ts_page": 14,
+   "context": "ighest of (a) the Bank of 207388596_2 America prime rate, (b) the Federal Funds rate plus 0.50% and (c) the Benchmark Rate plus 1.00%). “Applicable Margin” means a percentage per annum to be determine",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4, 5"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.00%",
+   "normalised": "100 bps",
+   "ts_page": 14,
+   "context": "America prime rate, (b) the Federal Funds rate plus 0.50% and (c) the Benchmark Rate plus 1.00%). “Applicable Margin” means a percentage per annum to be determined in accordance with the pricing grid",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4, 5"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "2%",
+   "normalised": "200 bps",
+   "ts_page": 14,
+   "context": "tions owing under the loan documentation for the Senior Credit Facility shall increase by 2% per annum (subject, in all cases other than a default in the payment of principal when due, to the request",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4, 9"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.50x",
+   "normalised": "1.50x",
+   "ts_page": 15,
+   "context": "Margin Level Fee (bps) for Term SOFR Letter of Credit for Base Rate Loans / Financial 1 <1.50x 17.5 Fee (bps) Loans, including 20.0 Letter of Credit Fee Swingline Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "17.5",
+   "normalised": "17.5 bps",
+   "ts_page": 15,
+   "context": "n Level Fee (bps) for Term SOFR Letter of Credit for Base Rate Loans / Financial 1 <1.50x 17.5 Fee (bps) Loans, including 20.0 Letter of Credit Fee Swingline Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "20.0",
+   "normalised": "20 bps",
+   "ts_page": 15,
+   "context": "Letter of Credit for Base Rate Loans / Financial 1 <1.50x 17.5 Fee (bps) Loans, including 20.0 Letter of Credit Fee Swingline Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.50x",
+   "normalised": "1.50x",
+   "ts_page": 15,
+   "context": "ial 1 <1.50x 17.5 Fee (bps) Loans, including 20.0 Letter of Credit Fee Swingline Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 13",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "25.0",
+   "normalised": "25 bps",
+   "ts_page": 15,
+   "context": "<1.50x 17.5 Fee (bps) Loans, including 20.0 Letter of Credit Fee Swingline Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "83.3",
+   "normalised": "83.3 bps",
+   "ts_page": 15,
+   "context": "Fee (bps) Loans, including 20.0 Letter of Credit Fee Swingline Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "30.0",
+   "normalised": "30 bps",
+   "ts_page": 15,
+   "context": "(bps) Loans, including 20.0 Letter of Credit Fee Swingline Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "125.0",
+   "normalised": "125 bps",
+   "ts_page": 15,
+   "context": "Loans, including 20.0 Letter of Credit Fee Swingline Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4, 35"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100.0",
+   "normalised": "100 bps",
+   "ts_page": 15,
+   "context": ", including 20.0 Letter of Credit Fee Swingline Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4, 5"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.00x",
+   "normalised": "2.00x",
+   "ts_page": 15,
+   "context": "0 Letter of Credit Fee Swingline Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicabl",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "35.0",
+   "normalised": "35 bps",
+   "ts_page": 15,
+   "context": "er of Credit Fee Swingline Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pric",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "150.0",
+   "normalised": "150 bps",
+   "ts_page": 15,
+   "context": "Credit Fee Swingline Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pricing f",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "105.0",
+   "normalised": "105 bps",
+   "ts_page": 15,
+   "context": "t Fee Swingline Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pricing for the",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "25.0",
+   "normalised": "25 bps",
+   "ts_page": 15,
+   "context": "Swingline Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pricing for the Senio",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "162.5",
+   "normalised": "162.5 bps",
+   "ts_page": 15,
+   "context": "line Loans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pricing for the Senior Cre",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "120.0",
+   "normalised": "120 bps",
+   "ts_page": 15,
+   "context": "oans 2 ≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pricing for the Senior Credit Fa",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50.0",
+   "normalised": "50 bps",
+   "ts_page": 15,
+   "context": "≥1.50x 25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pricing for the Senior Credit Facility",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4, 5"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.50x",
+   "normalised": "2.50x",
+   "ts_page": 15,
+   "context": "25.0 (bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pricing for the Senior Credit Facility in effe",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "175.0",
+   "normalised": "175 bps",
+   "ts_page": 15,
+   "context": "bps) 83.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pricing for the Senior Credit Facility in effect fro",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "135.0",
+   "normalised": "135 bps",
+   "ts_page": 15,
+   "context": "3.3 30.0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pricing for the Senior Credit Facility in effect from the",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "62.5",
+   "normalised": "62.5 bps",
+   "ts_page": 15,
+   "context": ".0 125.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pricing for the Senior Credit Facility in effect from the Closin",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4, 35"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "200.0",
+   "normalised": "200 bps",
+   "ts_page": 15,
+   "context": "5.0 100.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pricing for the Senior Credit Facility in effect from the Closing Dat",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4, 9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "75.0",
+   "normalised": "75 bps",
+   "ts_page": 15,
+   "context": "0.0 (bps) 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pricing for the Senior Credit Facility in effect from the Closing Date thro",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.25x",
+   "normalised": "3.25x",
+   "ts_page": 15,
+   "context": ") 3 ≥2.00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pricing for the Senior Credit Facility in effect from the Closing Date through the",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100.0",
+   "normalised": "100 bps",
+   "ts_page": 15,
+   "context": ".00x 35.0 150.0 105.0 25.0 162.5 120.0 50.0 4 ≥2.50x 175.0 135.0 62.5 200.0 75.0 5 ≥3.25x 100.0 The applicable pricing for the Senior Credit Facility in effect from the Closing Date through the first",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4, 5"
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 15,
+   "context": "e a compliance certificate calculating the Leverage Ratio as of the fiscal quarter ending March 31, 2026 is delivered to the Administrative Agent shall be determined based upon Pricing Level 4. CALCUL",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "4"
+  }
+ ],
+ "document_notes": "",
+ "quote_check": {
+  "ts_checked": 14,
+  "ca_checked": 13,
+  "ts_found": 12,
+  "ca_found": 11
+ },
+ "generated_at": "2026-11-12T14:40:35+00:00",
+ "engine": "rules",
+ "deal": "Granite Construction 2025",
+ "ts_file": "Granite Construction 2025 TS.pdf",
+ "ca_file": "Granite Construction 2025 CA.pdf"
+}

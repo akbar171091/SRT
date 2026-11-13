@@ -1,0 +1,1407 @@
+{
+ "rows": [
+  {
+   "id": "A01",
+   "attribute": "Facility type(s) and structure (revolver / term loan / tranches; new vs amendment)",
+   "ts_value": "New 364-day unsecured multi-currency revolving credit facility for Honeywell International Inc., single tranche, with a Term Loan Conversion Option (term-out) at the 364-Day Commitment Termination Date. It replaces the Existing 364-Day Agreement dated March 17, 2025, whose commitments terminate as a CP to closing.",
+   "ts_quote": "364-day unsecured multi-currency revolving credit facility (the \"364-Day Facility\").",
+   "ts_location": "PDF p.1, 'Type of Facility'; p.4, 'Conditions Precedent to Closing' item (6)",
+   "ca_value": "New stand-alone 364-Day Credit Agreement dated as of March 6, 2026. Single revolving tranche: borrow, prepay and reborrow from the Effective Date to the Termination Date (s.2.01). Term Loan Election to convert outstanding Advances into a term loan (s.2.07). CP that the March 17, 2025 364-Day Credit Agreement is repaid and its commitments terminated (s.3.01(g)). Not an amendment.",
+   "ca_quote": "Each Lender severally agrees, on the terms and conditions hereinafter set forth, to make Advances to the Company from time to time on any Business Day during the period from the Effective Date until the Termination Date",
+   "ca_location": "Cover, PDF p.1; s.2.01, PDF p.27; s.2.07, PDF p.32; s.3.01(g), PDF p.46",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "Both documents describe a new single-tranche 364-day multi-currency revolver for Honeywell with a term-out option, replacing the 2025 364-day facility. The structure matches.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    27
+   ]
+  },
+  {
+   "id": "A02",
+   "attribute": "Facility amount(s) and total commitments",
+   "ts_value": "Facility Amount $3,000,000,000. On the Spin Off, aggregate commitments are automatically and permanently reduced, pro rata, to $2,000,000,000, and Advances above the reduced commitments must be repaid.",
+   "ts_quote": "Facility Amount: $3,000,000,000.",
+   "ts_location": "PDF p.1, 'Facility Amount'; p.2, 'Commitment Reduction' (Spin Off step-down)",
+   "ca_value": "U.S. $3,000,000,000 on the cover. Commitments are set out on Schedule I, which is not included in the CA file. s.2.06(e): on the Spin-Off Date each Lender's Commitment is reduced pro rata so that aggregate Commitments equal $2,000,000,000; Advances are reallocated, and any per-Lender excess is repaid with accrued interest and breakage.",
+   "ca_quote": "364 Day Revolver CUSIP: U.S. $3,000,000,000 364-DAY CREDIT AGREEMENT",
+   "ca_location": "Cover, PDF p.1; s.2.06(e), PDF p.31; Schedule I referenced in the table of contents (PDF p.6) but not in the file",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The $3bn headline and the $2bn post-Spin-Off step-down match. The CA adds reallocation and per-Lender repayment mechanics consistent with the TS. Schedule I is missing from the file, so the lender-by-lender allocation adding up to $3bn could not be verified.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "A03",
+   "attribute": "Currencies available",
+   "ts_value": "U.S. Dollars and Euros. Base Rate and Term SOFR for USD only; EURIBOR for EUR only.",
+   "ts_quote": "Advances under the 364-Day Facility may be made in U.S. Dollars and Euros.",
+   "ts_location": "PDF p.1, 'Advances'; p.2-3, 'Interest Rates and Interest Periods'",
+   "ca_value": "Dollars and Alternative Currency, defined as Euros plus any other currency approved under s.1.07. Adding a currency requires a request at least 20 Business Days ahead and the approval of the Administrative Agent and ALL Lenders.",
+   "ca_quote": "\"Alternative Currency\" means Euros, together with each other currency (other than Dollars) approved as an Alternative Currency pursuant to Section 1.07.",
+   "ca_location": "s.1.01 'Alternative Currency', PDF p.7; s.1.07, PDF p.26-27",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The currencies available at closing (USD, EUR) match. The CA adds a procedure for further currencies, but it needs unanimous Lender and Agent consent, so no lender takes on currency exposure it has not agreed to.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    7
+   ]
+  },
+  {
+   "id": "A04",
+   "attribute": "Maturity / tenor",
+   "ts_value": "364-Day Commitment Termination Date = 364 days after the Closing Date (effectiveness of the loan documents). Final Maturity Date = that date, or, if the term-out is elected, a date chosen by the Company no later than the first anniversary of the Commitment Termination Date.",
+   "ts_quote": "364 days after the date of effectiveness of the Loan Documentation",
+   "ts_location": "PDF p.1, '364-Day Commitment Termination Date' and 'Final Maturity Date'; p.3, 'Repayment'",
+   "ca_value": "Termination Date = the earlier of March 5, 2027 and the date the Commitments are terminated in whole (s.2.06 or 6.01), moved to the preceding Business Day if needed. Maturity Date (term-out) = the earlier of the first anniversary of the Termination Date and termination in whole. Term loan repayable in full on the Maturity Date (s.2.07).",
+   "ca_quote": "\"Termination Date\" means the earlier of (a) March 5, 2027 and (b) the date of termination in whole of the Commitments",
+   "ca_location": "s.1.01 'Termination Date', PDF p.24; 'Maturity Date', PDF p.19; s.2.07, PDF p.32",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "March 5, 2027 is exactly 364 days after the March 6, 2026 agreement date, which fits the TS formula if the Effective Date fell on the signing date (the CA does not record it). The CA fixes the term-out maturity at the first anniversary instead of a date the Company selects. The Company can prepay at any time (s.2.10), so the economics are the same.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    24
+   ]
+  },
+  {
+   "id": "A05",
+   "attribute": "Extension options / term-out option",
+   "ts_value": "No extension option. Term Loan Conversion Option: if there is no default or event of default, the Company may, on the Commitment Termination Date and with notice to the Lenders, convert outstanding Advances into a term loan maturing no later than the first anniversary. Upfront fee 75 bps on converted Advances. TS 'Conditions Precedent to all Advances' provides that the MAC, litigation, ERISA and environmental reps are made only on the Closing Date.",
+   "ts_quote": "Provided there is no default or event of default, the Company will have the option, on the 364-Day Commitment Termination Date (as defined below), with notice to the Lenders, to convert outstanding Advances under the 364-Day Facility into a term loan",
+   "ts_location": "PDF p.1, 'Type of Facility' and 'Final Maturity Date'; p.4, 'Conditions Precedent to all Advances' (1)",
+   "ca_value": "No extension option; extending a Lender's commitment needs that Lender's consent (s.9.01(c)). Term Loan Election (s.2.07): at least 15 days' notice to the Administrative Agent; converts ALL Advances outstanding on the Termination Date; fee 0.75%. The s.3.03 conditions must be met: all s.4.01 reps correct in all material respects, including the no-MAC-since-Dec 31, 2024 rep (last sentence of 4.01(e)), the litigation rep (4.01(f)), the ERISA reps (4.01(h)-(l)) and the environmental rep (4.01(n)), because the carve-out for those reps applies only to a Borrowing; no Default on the notice date or the conversion date; and any other approvals, opinions or documents a Lender reasonably requests. No reborrowing once term loans are prepaid.",
+   "ca_quote": "The Company may, upon not less than 15 days' notice to the Administrative Agent, elect (the \"Term Loan Election\") to convert all of the Advances outstanding on the Termination Date in effect at such time into a term loan",
+   "ca_location": "s.2.07, PDF p.32; s.3.03, PDF p.46-47; s.4.01(e)-(f), PDF p.48; s.4.01(h)-(l) and (n), PDF p.49; s.9.01, PDF p.65",
+   "status": "differs",
+   "materiality": "material",
+   "direction": "lender_favourable",
+   "explanation": "The TS sets only a no-default condition and an unspecified notice, and its CPs to all Advances say the MAC, litigation, ERISA and environmental reps are made only on the Closing Date. The CA adds a 15-day notice period, an all-Advances conversion (the TS fee wording 'any Advances so converted' implies partial conversion was possible), and a bring-down at term-out of every rep, including MAC since Dec 31, 2024, litigation, ERISA and environmental, which are excluded for ordinary Borrowings. This could block the term-out in the stress scenario it is meant for. The TS's 'substantially similar to the Existing 364-Day Agreement' wording may explain it, but the term-out language itself sets no such condition.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    32
+   ]
+  },
+  {
+   "id": "A06",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "No accordion. The consent of each affected Lender is required to increase the size of the facility.",
+   "ts_quote": "The consent of each affected Lender will be required to increase the size of the 364-Day Facility",
+   "ts_location": "PDF p.7, 'Other' item (3)",
+   "ca_value": "No accordion or incremental facility. An increase in a Lender's Commitment needs that Lender's written consent (s.9.01(a)). s.2.18(b): no Commitment is increased by the Defaulting Lender provisions.",
+   "ca_quote": "signed by each of the Lenders affected thereby, do any of the following: (a) increase the Commitments of such Lender",
+   "ca_location": "s.9.01, PDF p.65",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "Neither document gives an accordion. Both require the affected Lender's consent to any increase.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    7
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    65
+   ]
+  },
+  {
+   "id": "A07",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "Not stated in TS (no letter of credit facility).",
+   "ts_quote": "",
+   "ts_location": "Not stated in TS",
+   "ca_value": "No letter of credit facility or sublimit. The only references are stray: Bank of America signs as 'Initial Swing Line Bank, Issuing Bank', and the 'Applicable Time' definition mentions an 'applicable Issuing Bank'. Neither term is defined or used anywhere else.",
+   "ca_quote": "BANK OF AMERICA, N.A., as an Initial Swing Line Bank, Issuing Bank and an Initial Lender",
+   "ca_location": "Signature pages, PDF p.81-82; s.1.01 'Applicable Time', PDF p.9",
+   "status": "not_applicable",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Neither document provides for letters of credit. The 'Issuing Bank' references in the CA appear to be leftovers from another precedent and grant no rights. Worth flagging as a drafting clean-up point only.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    81
+   ]
+  },
+  {
+   "id": "A08",
+   "attribute": "Swingline sublimit",
+   "ts_value": "Not stated in TS (no swingline).",
+   "ts_quote": "",
+   "ts_location": "Not stated in TS",
+   "ca_value": "No swingline facility or sublimit. Only a stray signature-block capacity: 'Initial Swing Line Bank' for Bank of America. The term is not defined or used in the operative provisions.",
+   "ca_quote": "BANK OF AMERICA, N.A., as an Initial Swing Line Bank, Issuing Bank and an Initial Lender",
+   "ca_location": "Signature pages, PDF p.81-82",
+   "status": "not_applicable",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Neither document provides a swingline. The signature-block reference is a drafting leftover with no operative effect.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    81
+   ]
+  },
+  {
+   "id": "A09",
+   "attribute": "Borrower sublimits or other sublimits",
+   "ts_value": "Not stated in TS. Single borrower (the Company); no Euro or other sublimit.",
+   "ts_quote": "",
+   "ts_location": "Not stated in TS",
+   "ca_value": "Not found in CA. Single borrower; no currency or other sublimit. Euro Advances count toward Commitments at their Dollar Equivalent.",
+   "ca_quote": "",
+   "ca_location": "Not found in CA (see s.2.01, PDF p.27, for Dollar-Equivalent usage)",
+   "status": "not_applicable",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Neither document sets a sublimit. The only currency control is the 103% Dollar-Equivalent test covered in A17.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "A10",
+   "attribute": "Benchmark rates, floors and credit spread adjustment",
+   "ts_value": "Base Rate = highest of (i) Bank of America prime, (ii) Fed funds + 1/2 of 1%, and (iii) one-month Term SOFR or successor rate (floored at zero) + 1.00%; USD only. Term SOFR = forward-looking term rate for the interest period based on SOFR administered by the Federal Reserve Bank of New York (no term-rate administrator such as CME is named), floor zero; USD only. EURIBOR from the applicable Bloomberg screen two business days before the period, floor zero; EUR only. No credit spread adjustment.",
+   "ts_quote": "(ii) a rate equal to 1/2 of 1% per annum above the Federal funds rate and (iii) one month Term SOFR or successor rate (but not less than zero) plus 1.00%.",
+   "ts_location": "PDF p.2-3, 'Interest Rates and Interest Periods' (a)-(c)",
+   "ca_value": "Base Rate = highest of (a) Federal Funds Rate + 1/2 of 1%, (b) Bank of America prime rate and (c) Term SOFR + 1.00%, using one-month Term SOFR for Base Rate purposes. Term SOFR (CME-administered Term SOFR Screen Rate) is set two U.S. Government Securities Business Days before the period, floor zero. EURIBOR (Alternative Currency Term Rate) is from the Bloomberg screen two TARGET Days before the period, floor zero. The CA adds a zero floor on the Federal Funds Rate, and removes the Term SOFR leg from the Base Rate when it is used as the fallback under s.2.19. No credit spread adjustment.",
+   "ca_quote": "equal to the highest of (a) the Federal Funds Rate plus 1/2 of 1%, (b) the rate of interest in effect for such day as publicly announced from time to time by Bank of America as its \"prime rate\" and (c) Term SOFR plus 1.00%.",
+   "ca_location": "s.1.01 'Base Rate', PDF p.10; 'Term SOFR', PDF p.23; 'Term SOFR Screen Rate', PDF p.24; 'Alternative Currency Term Rate', PDF p.8; 'Federal Funds Rate', PDF p.16; s.2.08(a), PDF p.32",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "Benchmarks, zero floors and the absence of a CSA match. The CA's added Fed Funds floor, its TARGET Day and U.S. Government Securities Business Day fixing conventions, its naming of CME as Term SOFR administrator, and its fallback Base Rate wording are customary mechanics and change no economics.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    10
+   ]
+  },
+  {
+   "id": "A11",
+   "attribute": "Applicable margin / pricing grid (check EVERY tier and EVERY column)",
+   "ts_value": "Term SOFR and EURIBOR margin by level: I (>=AA-/Aa3) 0.50%; II (>=A+/A1) 0.625%; III (>=A/A2) 0.75%; IV (>=A-/A3) 0.875%; V (>=BBB+/Baa1) 1.00%; VI (<Level V) 1.125%. Base Rate margin = Term SOFR margin less 100 bps, floored at 0.00%. Commitment fee column: 0.02/0.03/0.04/0.05/0.075/0.09%.",
+   "ts_quote": "Applicable 0.50% 0.625% 0.75% 0.875% 1.00% 1.125%",
+   "ts_location": "PDF p.10, '364-Day Pricing Grid'; p.3, 'Applicable Margin'",
+   "ca_value": "Term Rate Advances: Level 1 (AA- or Aa3 or above) 0.50%; Level 2 (at least A+ or A1) 0.625%; Level 3 (at least A or A2) 0.75%; Level 4 (at least A- or A3) 0.875%; Level 5 (at least BBB+ or Baa1) 1.00%; Level 6 (lower than Level 5) 1.125%. Base Rate Advances: 100 bps lower, never below 0.00%. Applicable Percentage (commitment fee) column: 0.020/0.030/0.040/0.050/0.075/0.090%.",
+   "ca_quote": "Level 1 0.50% AA- or Aa3 or above 0.625% Level 2 0.75% Lower than Level 1 but at least A+ or A1 Level 3 0.875% Lower than Level 2 but at least A or A2 1.00% Level 4 1.125%",
+   "ca_location": "s.1.01 'Applicable Margin', PDF p.8-9 (grid on p.9); 'Applicable Percentage', PDF p.9",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "All six levels and both columns (margin and fee), including the rating thresholds, are identical. The CA grid is garbled in the layout text, so the quote is the verbatim garbled fragment. Level-to-value alignment was confirmed by a raw-mode re-extraction of CA PDF page 9.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    10
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    9
+   ]
+  },
+  {
+   "id": "A12",
+   "attribute": "Pricing basis (ratings / leverage / flat) and initial pricing level",
+   "ts_value": "Ratings-based: the Company's long-term senior unsecured non-credit-enhanced debt ratings from S&P or Moody's. The grid's 'S&P or Moody's' wording means the better rating sets the level. No split-rating or no-rating rule, and no initial pricing level stated.",
+   "ts_quote": "based on the Company's long-term senior unsecured non-credit enhanced debt ratings.",
+   "ts_location": "PDF p.3, 'Applicable Margin' (ii); p.2, 'Commitment Fee'; p.10, pricing grid",
+   "ca_value": "Public Debt Rating: the highest rating announced by S&P or Moody's for non-credit-enhanced long-term senior unsecured debt. If only one rating exists, that one applies. If there is no rating, Level 6. On a split, the higher rating applies, unless the ratings are more than one level apart, in which case pricing is one level above the lower rating. Rating changes take effect when announced. No initial level stated.",
+   "ca_quote": "if the lower of such ratings is more than one level below the higher of such ratings, the Applicable Percentage and the Applicable Margin, for Term Rate Advances, shall be determined by reference to the level that is one level above such lower rating",
+   "ca_location": "s.1.01 'Public Debt Rating', PDF p.20-21",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "lender_favourable",
+   "explanation": "The basis (ratings, S&P/Moody's) matches. The CA adds a two-level split rule and a no-rating default to Level 6, neither in the TS. If the ratings are two or more levels apart, these give worse pricing than the TS's 'better of' grid. Minor because it is market standard and has no effect while the two agencies rate at the same level. Neither document states the initial pricing level.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    21
+   ]
+  },
+  {
+   "id": "A13",
+   "attribute": "Commitment / facility / unused fee",
+   "ts_value": "Commitment Fee per the grid: 0.02% / 0.03% / 0.04% / 0.05% / 0.075% / 0.09% (Levels I-VI), on each Lender's unused commitment. Payable quarterly in arrears on the last day of March, June, September and December and on the Commitment Termination Date. Actual/365-366.",
+   "ts_quote": "Commitment Fee 0.02% 0.03% 0.04% 0.05% 0.075% 0.09%",
+   "ts_location": "PDF p.2, 'Commitment Fee'; p.10, pricing grid and footnote (1)",
+   "ca_value": "Commitment fee at the Applicable Percentage: Level 1 0.020%, Level 2 0.030%, Level 3 0.040%, Level 4 0.050%, Level 5 0.075%, Level 6 0.090%. Charged on each Lender's Unused Commitment from the date of the agreement (Initial Lenders) until the Termination Date. Payable quarterly in arrears on the last day of March, June, September and December, starting June 30, 2026, and on the Termination Date. 365/366-day basis (s.2.13(b)). No fee to a Defaulting Lender.",
+   "ca_quote": "Level 1 0.020% AA- or Aa3 or above Level 2 0.030% Lower than Level 1 but at least A+ or A1 Level 3 0.040% Lower than Level 2 but at least A or A2 Level 4 0.050% Lower than Level 3 but at least A- or A3 Level 5 0.075% Lower than Level 4 but at least BBB+ or Baa1 Level 6 0.090%",
+   "ca_location": "s.1.01 'Applicable Percentage', PDF p.9; s.2.05(a), PDF p.29; s.2.13(b), PDF p.37",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "Rates at every level, the unused-commitment base, the payment dates and the day count all match. The Defaulting Lender exclusion fits the TS's 'customary Defaulting Lender provisions'. The CA fee accrues 'from the date hereof' (March 6, 2026) for Initial Lenders; the TS is silent on the accrual start, and there is no difference if the Effective Date was the signing date.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    10
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    9
+   ]
+  },
+  {
+   "id": "A14",
+   "attribute": "Letter of credit participation fee and fronting fee",
+   "ts_value": "Not stated in TS (no LC facility).",
+   "ts_quote": "",
+   "ts_location": "Not stated in TS",
+   "ca_value": "Not found in CA (no LC facility; no LC or fronting fees).",
+   "ca_quote": "",
+   "ca_location": "Not found in CA",
+   "status": "not_applicable",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Neither document has a letter of credit facility or related fees.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "A15",
+   "attribute": "Upfront, ticking, term-out, extension or other fees stated in the TS",
+   "ts_value": "Term-out upfront fee of 75 bps on Advances converted under the Term Loan Conversion Option. $3,500 administrative fee per assignment, paid by the assignment parties other than the Company. $3,500 fee paid by the Company when a replaced Lender's replacement is not an existing Lender. No closing upfront or ticking fee stated.",
+   "ts_quote": "upon payment of an upfront fee of 75 basis points on any Advances so converted",
+   "ts_location": "PDF p.1, 'Type of Facility'; p.8, 'Assignments and Participations'; p.9, 'Defaulting Lenders'",
+   "ca_value": "Term Loan Election fee of 0.75% of the principal of Advances converted (s.2.07(a)). $3,500 processing and recordation fee per assignment, payable by the parties to the assignment and waivable by the Agent in its sole discretion (s.9.06(b)(iv)); when the Company replaces a Lender with a non-Lender, the fee may be paid by the assignee or the Company (s.2.06(b)(iv), s.2.11(c)(iv), s.2.14(g)(iv)). Agent's fees as separately agreed (s.2.05(b)). No upfront or ticking fee; no fee letter referenced.",
+   "ca_quote": "a fee equal to 0.75% of the aggregate principal amount of the Advances so converted",
+   "ca_location": "s.2.07, PDF p.32; s.2.05(b), PDF p.29; s.2.06(b)(iv), PDF p.30; s.2.11(c)(iv), PDF p.36; s.2.14(g)(iv), PDF p.41; s.9.06(b)(iv), PDF p.70",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "The 75 bps term-out fee matches 0.75%, and the $3,500 amount matches. Two small mechanics differ in the Company's favour: on a replacement with a non-Lender the CA lets the assignee pay the $3,500 fee (the TS puts it on the Company), and the Agent may waive the fee. The CA's separately agreed Agent fees are a side-letter item the TS does not cover; any closing upfront fees are presumably in fee letters outside both documents.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    32
+   ]
+  },
+  {
+   "id": "A16",
+   "attribute": "Default interest",
+   "ts_value": "During any payment event of default, the margin on unpaid principal of each Advance rises by 100 bps p.a. Non-Base Rate Advances convert to Base Rate at the end of their interest period, with Euro Advances exchanged into USD.",
+   "ts_quote": "Upon the occurrence and during the continuance of any payment event of default, the Applicable Margin on the unpaid principal amount of each Advance will increase by 100 basis points per annum",
+   "ts_location": "PDF p.3, 'Applicable Margin' (final paragraph)",
+   "ca_value": "During an Event of Default under s.6.01(a) (payment default): (i) unpaid principal of each Advance bears 1% p.a. above the normal rate; and (ii) to the extent the law allows, any interest, fee or other amount not paid when due also bears 1% above the Advance rate, payable on demand. s.2.09(d): Term Rate Advances convert to Base Rate at the end of their Interest Period, with Alternative Currency Advances exchanged into Dollars, and the Lenders' obligation to make Term Rate Advances is suspended.",
+   "ca_quote": "(ii) to the fullest extent permitted by law, the amount of any interest, fee or other amount payable hereunder by the Company that is not paid when due",
+   "ca_location": "s.2.08(b), PDF p.32; s.2.09(d), PDF p.33; s.6.01(a), PDF p.56",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "lender_favourable",
+   "explanation": "The trigger (payment default only), the +100 bps rate and the forced conversion to Base Rate match. The CA goes further than the TS by charging default interest on overdue interest, fees and other amounts, not just principal, and by suspending new Term Rate Advances while the default continues.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    32
+   ]
+  },
+  {
+   "id": "A17",
+   "attribute": "Amortization and mandatory prepayments",
+   "ts_value": "No amortization: repay at the Commitment Termination Date, or at the Final Maturity Date if termed out. Mandatory prepayment if the dollar-equivalent of all Advances exceeds 103% of the Facility Amount, back down to 100%. On the Spin Off, Advances above the reduced $2bn commitments must be repaid.",
+   "ts_quote": "If at any time the dollar equivalent value of all Advances exceeds 103% of the Facility Amount, the Company shall promptly make a mandatory prepayment to reduce the dollar equivalent value of all Advances to 100% of the Facility Amount.",
+   "ts_location": "PDF p.3, 'Repayment'; p.4, 'Dollar Equivalent Value Limitation for All Advances'; p.2, 'Commitment Reduction'",
+   "ca_value": "No amortization: bullet repayment on the Termination Date, or on the Maturity Date if termed out (s.2.07). s.2.10(b): if USD Advances plus the Dollar Equivalent of Alternative Currency Advances (measured 3 Business Days earlier) exceed 103% of aggregate Commitments, prepay promptly to 100%, with breakage. s.2.06(e): repayment of per-Lender excess on the Spin-Off Date. A lender's Change of Control termination does not accelerate Advances.",
+   "ca_quote": "of the aggregate principal amount of all Advances denominated in Alternative Currencies then outstanding exceeds 103% of the aggregate Commitments of the Lenders on such date, the Company shall thereupon promptly prepay",
+   "ca_location": "s.2.07, PDF p.32; s.2.10(b), PDF p.34; s.2.06(e), PDF p.31",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The 103%/100% thresholds, the bullet repayment and the Spin-Off excess repayment match. The CA measures against aggregate Commitments, which fall after reductions, instead of the fixed $3bn 'Facility Amount'. That reflects the TS's intent, since Advances cannot exceed Commitments, and is a conforming change.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    4
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    34
+   ]
+  },
+  {
+   "id": "A18",
+   "attribute": "Optional prepayments, commitment reductions, minimum borrowing amounts",
+   "ts_value": "Prepay without penalty on notice by 11:00 A.M. same day (Base Rate) or two business days before (Term SOFR/EURIBOR); minimum $10,000,000 in $1,000,000 increments; Company pays breakage. Optional reduction of the unused commitments, in whole or part, on at least 3 business days' notice; partial reductions at least $10,000,000 or whole multiples of $1,000,000 above that; no reinstatement. Borrowings at least $10,000,000 in $1,000,000 multiples.",
+   "ts_quote": "Term SOFR Advances or EURIBOR Advances, in each case, in minimum amounts of $10,000,000 and increments of $1,000,000 in excess thereof.",
+   "ts_location": "PDF p.4, 'Optional Prepayment'; p.2, 'Commitment Reduction'; p.3, 'Borrowings'; p.7, 'Other' item (4)",
+   "ca_value": "s.2.10(a): prepayment notice by 11:00 A.M. (NYC) on the second Business Day before (Term Rate) or on the same day (Base Rate); partial prepayments at least $10,000,000 or integral multiples of $1,000,000 above that; breakage under s.9.04(c). s.2.06(a): ratable termination or reduction of Unused Commitments on 3 Business Days' notice; partial at least $10,000,000 or $1,000,000 multiples above that; no reinstatement. s.2.01: Borrowings at least $10,000,000 or $1,000,000 multiples above that. ADDED in s.2.06(c): when no Rating Condition exists (Rating Condition = both S&P and Moody's below BBB-/Baa3), the Company may terminate a single Lender's Commitment in full on 10 Business Days' notice, capped per calendar year at the greater of three Lenders' Commitments and $240,000,000.",
+   "ca_quote": "given not later than 11:00 A.M. (New York City time) on the second Business Day prior to the date of such proposed prepayment, in the case of Term Rate Advances, and not later than 11:00 A.M. (New York City time) on the day of such proposed prepayment, in the case of Base Rate Advances",
+   "ca_location": "s.2.10(a), PDF p.34; s.2.06(a), PDF p.29; s.2.01, PDF p.27; s.2.06(b)-(c), PDF p.29-31",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "Optional prepayment, ratable reduction, notice periods and all minimum amounts match exactly. The difference is the non-ratable commitment termination right in CA s.2.06(c), which the TS does not grant. The TS ('Other' item (4)) attaches the 'no Rating Condition' proviso and the 3-Lenders-per-year cap to lender replacement; the CA instead puts the Rating Condition on the s.2.06(c) reduction right and leaves the s.2.06(b) replacement right subject only to no Event of Default and the 3-Lender cap. Both features look carried over from the Existing 364-Day Agreement; the replacement-right mismatch should be picked up in the lender-replacement row of another group.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    4
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    34
+   ]
+  },
+  {
+   "id": "A19",
+   "attribute": "Interest periods, notice periods and day count",
+   "ts_value": "Term SOFR and EURIBOR interest periods of 1, 3 or 6 months. Interest paid at the end of each period and at least quarterly. Day count: 365/366 for Base Rate and the Commitment Fee; 360 for Term SOFR and EURIBOR. Borrowing notice: same day for Base Rate; 3 business days for Term SOFR and EURIBOR.",
+   "ts_quote": "Borrowings will be available on same day notice for Base Rate Advances and 3 business days notice for Term SOFR Advances and EURIBOR Advances.",
+   "ts_location": "PDF p.3, 'Interest Rates and Interest Periods', 'Interest Payments' and 'Borrowings'; p.2, 'Commitment Fee'",
+   "ca_value": "Interest Periods of one, three or six months, selected by 11:00 A.M. on the third Business Day before the period starts; none may end after the scheduled Termination Date unless the loans are termed out. Borrowing notice: 10:00 A.M. three Business Days before for EURIBOR Advances; 11:00 A.M. TWO Business Days before for Term SOFR Advances; 9:00 A.M. same day for Base Rate. Base Rate interest paid quarterly on the last Business Day of March, June, September and December; Term Rate interest at the end of each Interest Period and every three months within longer periods. Day count: 365/366 for Base Rate and commitment fees; 360 for Term SOFR, EURIBOR and Fed Funds (s.2.13(b)).",
+   "ca_quote": "(y) 11:00 A.M. (New York City time) on the second Business Day prior to the date of the proposed Borrowing in the case of a Borrowing consisting of Term SOFR Advances",
+   "ca_location": "s.1.01 'Interest Period', PDF p.17-18; s.2.02(a), PDF p.27; s.2.08(a), PDF p.32; s.2.13(b), PDF p.37",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "Interest periods, payment frequency and day counts match. The CA cuts the Term SOFR borrowing notice to 2 Business Days from the TS's 3 (EURIBOR stays at 3, Base Rate same day). The CA is also internally inconsistent: its 'Interest Period' definition still requires selection by the third Business Day before the period starts, and its clause (i) cross-refers to a term loan conversion 'pursuant to Section 2.06' when the Term Loan Election is in s.2.07.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    27
+   ]
+  },
+  {
+   "id": "B01",
+   "attribute": "Borrower(s)",
+   "ts_value": "Honeywell International Inc. (the \"Company\") is the sole Borrower.",
+   "ts_quote": "Borrower: Honeywell International Inc. (the \"Company\").",
+   "ts_location": "PDF page 1, 'Borrower'",
+   "ca_value": "Honeywell International Inc., a Delaware corporation (the \"Company\"), is the sole borrower. The Company may not assign its rights without the prior written consent of each Lender (s.9.05).",
+   "ca_quote": "HONEYWELL INTERNATIONAL INC., a Delaware corporation (the \"Company\"), the banks, financial institutions and",
+   "ca_location": "Preamble, PDF page 7 (also cover, PDF page 1); Section 9.05, PDF page 69",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Same single borrower entity in both documents. The CA's added detail (Delaware corporation; no assignment without all-Lender consent) is customary and does not change the substance.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    7
+   ]
+  },
+  {
+   "id": "B02",
+   "attribute": "Guarantor(s)",
+   "ts_value": "Not stated in TS. Only a Borrower is named and the facility is described as unsecured. No guarantor is contemplated.",
+   "ts_quote": "",
+   "ts_location": "PDF page 1 (Borrower / Type of Facility); no guarantor heading",
+   "ca_value": "No guarantor. 'Loan Document' covers only the Agreement, the Notes and the Assignments and Assumptions; there is no guaranty. The 'Transactions' definition mentions limited Company guarantees of Honeywell Aerospace Inc. debt, but those relate to the Spin-Off, not to this facility.",
+   "ca_quote": "\"Loan Document\" means, collectively, this Agreement, each Note and each Assignment and Assumption.",
+   "ca_location": "Section 1.01 'Loan Document', PDF page 18; 'Transactions', PDF page 24",
+   "status": "not_applicable",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Neither document provides for a guarantor. The facility is a single-borrower obligation of Honeywell International Inc. in both.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    18
+   ]
+  },
+  {
+   "id": "B03",
+   "attribute": "Administrative agent and other agent roles (collateral agent, issuing banks, swingline lender)",
+   "ts_value": "Administrative Agent: Bank of America, N.A. No collateral agent, issuing bank or swingline lender (no LC or swingline facility).",
+   "ts_quote": "Bank of America, N.A. (\"Bank of America\" and, in such capacity, the \"Agent\").",
+   "ts_location": "PDF page 1, 'Administrative Agent'",
+   "ca_value": "Bank of America, N.A. is Administrative Agent (Art. VIII; resignation on 30 days' notice and removal in s.8.07). There is no collateral agent. Sections 2.03 and 2.04 are [Reserved] and the CA has no LC or swingline provisions. However, BofA's lender signature block on PDF pages 81-82 reads 'as an Initial Swing Line Bank, Issuing Bank and an Initial Lender', and the 'Applicable Time' definition (PDF page 9) refers to 'the applicable Issuing Bank'.",
+   "ca_quote": "(\"Bank of America\"), as administrative agent (the \"Administrative Agent\") for the Lenders (as hereinafter defined),",
+   "ca_location": "Preamble, PDF page 7; 'Applicable Time', PDF page 9; Article VIII, PDF pages 59-65; signature pages PDF pages 81-82",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The Administrative Agent matches. BofA's signature block describes it as Swing Line Bank and Issuing Bank, and one definition refers to an 'Issuing Bank', but neither document has an LC or swingline facility, so the wording has no operative effect. These are leftover drafting errors that should be cleaned up.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    7
+   ]
+  },
+  {
+   "id": "B04",
+   "attribute": "Lead arrangers / bookrunners / titled agents",
+   "ts_value": "Joint Lead Arrangers and Joint Bookrunners: BofA Securities, Inc., GS, MS 'and other financial institutions' (open). Syndication Agents (stated definitively): Goldman Sachs Bank USA and Morgan Stanley Senior Funding, Inc. No documentation agents mentioned.",
+   "ts_quote": "Goldman Sachs Bank USA (\"GS\") and Morgan Stanley Senior Funding, Inc.",
+   "ts_location": "PDF page 1, 'Syndication Agents' and 'Joint Lead Arrangers and Joint Bookrunners'",
+   "ca_value": "JLAs/JBRs (\"Arrangers\"): BofA Securities, Goldman Sachs Bank USA, Morgan Stanley Senior Funding, MUFG Bank, Citibank, Deutsche Bank AG NY Branch, JPMorgan Chase Bank, Mizuho Bank, Sumitomo Mitsui Banking Corporation and Wells Fargo Bank. Syndication Agents: Goldman Sachs Bank USA, Morgan Stanley Senior Funding and MUFG Bank, Ltd. Documentation Agents: BBVA NY, Santander NY, Barclays, BNP Paribas, Credit Agricole CIB, Societe Generale, Standard Chartered, TD NY, U.S. Bank and UniCredit NY. Titled agents have no liability except as Lenders (s.8.09).",
+   "ca_quote": "MORGAN STANLEY SENIOR FUNDING, INC. and MUFG BANK, LTD., as Syndication Agents",
+   "ca_location": "Cover pages, PDF pages 1-2; Section 1.01 'Arrangers', PDF page 10; Section 8.09, PDF page 63",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The TS left the JLA/bookrunner group open ('and other financial institutions'), so the seven extra Arrangers fill an open term. But the TS named the Syndication Agents definitively as GS and MS only; the CA adds MUFG Bank, Ltd. as a third Syndication Agent and appoints ten Documentation Agents the TS does not mention. Title-only changes with no economic effect (s.8.09).",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "B05",
+   "attribute": "Purpose / use of proceeds",
+   "ts_value": "General corporate purposes.",
+   "ts_quote": "General corporate purposes.",
+   "ts_location": "PDF page 1, 'Purpose'",
+   "ca_value": "Proceeds are for general corporate purposes of the Company and its Subsidiaries, subject to anti-corruption and sanctions use-of-proceeds restrictions (s.2.16).",
+   "ca_quote": "for general corporate purposes of the Company and its Subsidiaries.",
+   "ca_location": "Section 2.16, PDF pages 41-42",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The purpose is the same. The sanctions and anti-corruption limits match the TS covenant (12) and are reconciled in X06.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    41
+   ]
+  },
+  {
+   "id": "B06",
+   "attribute": "Security / collateral, including any fall-away or springback",
+   "ts_value": "Unsecured facility. The only security concept is the negative pledge covenant limiting liens and secured debt.",
+   "ts_quote": "364-day unsecured multi-currency revolving credit facility (the \"364-Day",
+   "ts_location": "PDF page 1, 'Type of Facility'",
+   "ca_value": "No collateral and no security documents. Loan Documents are limited to the Agreement, Notes and Assignments and Assumptions. Under s.5.02(a), the Company must secure the Lenders equally and ratably if it secures Covenant Debt on Restricted Property outside the permitted exceptions. That is the only springing security. There is no fall-away or springback mechanism.",
+   "ca_quote": "without effectively providing that its obligations to the Lenders under this Agreement and any of the Notes shall be secured equally and ratably with such Covenant Debt",
+   "ca_location": "Section 5.02(a), PDF page 54; Section 1.01 'Loan Document', PDF page 18",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Both documents make the facility unsecured. The equal-and-ratable negative pledge matches TS covenant (8). Neither has a fall-away or springback.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    54
+   ]
+  },
+  {
+   "id": "B07",
+   "attribute": "Financial covenants (type, level, step-ups, testing, cure rights)",
+   "ts_value": "None. The TS covenant list (items 1-12) has no financial maintenance covenant.",
+   "ts_quote": "",
+   "ts_location": "PDF pages 5-6, 'Covenants'",
+   "ca_value": "None. Article V has only affirmative covenants (s.5.01) and negative covenants on liens and mergers (s.5.02). There is no leverage, interest cover or net worth test, and so no testing or cure mechanics.",
+   "ca_quote": "",
+   "ca_location": "Article V, Sections 5.01-5.02, PDF pages 50-55",
+   "status": "not_applicable",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Neither document has a financial covenant. A search of the CA for leverage, EBITDA, interest coverage, net worth and 'ratio of' found no such covenant. The two documents are consistent.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "B08",
+   "attribute": "Key negative covenants and basket amounts (liens, debt, restricted payments, investments, asset sales)",
+   "ts_value": "Negative pledge and limits on liens and secured debt for borrowed money, with exceptions consistent with the Existing 364-Day Agreement. Certain restrictions on consolidations, mergers and asset sales. No basket amounts stated. No debt, restricted payments or investments covenants.",
+   "ts_quote": "(8) Negative pledge and limitations on liens and secured debt for borrowed money with certain exceptions consistent with the Existing 364-Day Agreement;",
+   "ts_location": "PDF page 6, 'Covenants' items (8)-(9)",
+   "ca_value": "s.5.02(a) Liens: no Covenant Debt (borrowed money) secured on Restricted Property (principal US manufacturing property, or shares/Debt of Subsidiaries owning it) without equal and ratable security. Exceptions (i)-(vi): existing liens, acquisition liens within 24 months, improvement liens, intercompany liens, government/IRB liens and refinancings. General basket of 10% of Net Tangible Assets. s.5.02(b) Mergers: no merger, consolidation or disposal of all or substantially all assets, except a merger where the Company survives and no Default exists. The last paragraph of s.5.02 says the Transactions (Spin-Off, Reorganization, Aerospace financings with limited Company guarantees, debt-for-debt exchange) cannot be restricted, give rise to any Default or use any basket. No debt, restricted payment, investment or general asset-sale covenant.",
+   "ca_quote": "time such Liens are incurred, exceed 10% of the Net Tangible Assets of the Company and its Consolidated Subsidiaries;",
+   "ca_location": "Section 5.02(a)-(b) and final paragraph, PDF pages 54-55; 'Restricted Property', PDF page 21",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "The liens and mergers covenants match the TS in substance. The TS gives no basket levels and defers to the Existing Agreement, which was not provided, so the 10% NTA basket and the exceptions cannot be checked against it. The CA adds a Transactions safe harbour not stated in the TS. It favours the borrower but fits the Spin-Off the TS contemplates.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    6
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    55
+   ]
+  },
+  {
+   "id": "B09",
+   "attribute": "Representations and warranties",
+   "ts_value": "Similar to and no less favourable than the Existing Agreement: (1) corporate status/authority; (2) no violation of law or agreements; (3) no governmental approvals; (4) no litigation likely to materially affect the ability to pay debts, or affecting validity (no disclosure exception); (5) no MAC since Dec 31, 2024 except as disclosed to the Lenders before the Closing Date; (6) accuracy of information and financial statements; (7) material compliance with laws incl. ERISA/environmental; (8) enforceability; (9) not an investment company; (10) anti-corruption and sanctions.",
+   "ts_quote": "since December 31, 2024 for the Company and its Consolidated Subsidiaries (as defined in the Existing 364-Day Agreement) taken as a whole except as otherwise disclosed to the Lenders prior to the Closing Date;",
+   "ts_location": "PDF page 5, 'Representations and Warranties' items (1)-(10)",
+   "ca_value": "s.4.01(a)-(p): organization; authority and no contravention (law and agreement prongs MAE-qualified); no approvals from any Governmental Authority or any other third party; enforceability; FY2024 financial statements; no MAC since Dec 31, 2024 'except as otherwise publicly disclosed prior to the date hereof'; litigation (reasonably likely MAE, other than as disclosed in public filings, plus no adverse change in publicly disclosed matters); margin stock; ERISA (h)-(l); investment company; environmental (knowledge-qualified); anti-corruption; sanctions. No general accuracy-of-information rep and no general compliance-with-laws rep.",
+   "ca_quote": "No Material Adverse Change has occurred since December 31, 2024, except as otherwise publicly disclosed prior to the date hereof.",
+   "ca_location": "Section 4.01(a)-(p), PDF pages 47-50; MAC sentence at 4.01(e), PDF page 48",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "Most reps match, including the Dec 31, 2024 MAC date and MAC definition. Borrower-favourable: no standalone accuracy-of-information rep, no general compliance-with-laws rep, MAE-qualified no-contravention rep, and a public-filings exception added to the litigation rep (the TS litigation rep has none). Lender-favourable: the MAC exception covers only matters publicly disclosed before signing, not anything disclosed to Lenders before Closing, and 4.01(c) extends to third-party consents. Net slightly borrower-favourable.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    5
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    48
+   ]
+  },
+  {
+   "id": "B10",
+   "attribute": "Conditions precedent to closing / effectiveness",
+   "ts_value": "Similar to the Existing Agreement, including (1) notes if requested; (2) board resolutions; (3) incumbency certificate; (4) favourable opinion of Company counsel (in-house allowed); (5) accuracy of reps; (6) payment of accrued amounts under, and termination of commitments under, the Existing 364-Day Agreement.",
+   "ts_quote": "(6) Payment of accrued amounts and termination of commitments under the Existing 364-Day Agreement.",
+   "ts_location": "PDF page 4, 'Conditions Precedent to Closing' items (1)-(6)",
+   "ca_value": "s.3.01: (a) no MAC since Dec 31, 2024 except as publicly disclosed; (b) no material litigation; (c) accrued fees and expenses of the Agent and Lenders paid; (d) officer's certificate that the reps are correct and no Default exists; (e) Notes if requested, certified board resolutions, secretary's incumbency certificate, opinion of the VP and General Counsel, and other documents any Lender reasonably requests; (f) executed counterparts; (g) the 364-Day Credit Agreement dated March 17, 2025 repaid and its commitments terminated, with lenders waiving advance notice. Lenders are deemed to consent unless they object (s.3.04).",
+   "ca_quote": "(g) The Company shall have repaid or prepaid all of the accrued obligations under, and terminated in full the commitments of the lenders under the 364-Day Credit Agreement dated as of March 17, 2025",
+   "ca_location": "Section 3.01(a)-(g), PDF pages 45-46; Section 3.04, PDF page 47",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "lender_favourable",
+   "explanation": "All six TS conditions appear in the CA, and the existing-agreement date (March 17, 2025) matches. The extra conditions (no MAC, no litigation, fees paid, officer's certificate, counterparts, other documents reasonably requested) are customary and allowed by the TS's 'including, but not limited to' wording. Mildly lender-favourable.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    4
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    46
+   ]
+  },
+  {
+   "id": "B11",
+   "attribute": "Conditions to each borrowing",
+   "ts_value": "Similar to the Existing Agreement: (1) all reps true and correct at each Borrowing, except the MAC, litigation, ERISA and environmental reps, which are made only on the Closing Date; (2) no Default. Separately, the Term Loan Conversion Option requires only that there is no default or event of default.",
+   "ts_quote": "provided that the representations as to no material adverse change, no litigation, ERISA and environmental matters shall be made only on the Closing Date.",
+   "ts_location": "PDF pages 4-5, 'Conditions Precedent to all Advances' items (1)-(2); PDF page 1, 'Type of Facility' (Term Loan Conversion Option)",
+   "ca_value": "s.3.03 applies to each Borrowing and to the Term Loan Election. (a)(i) The s.4.01 reps must be correct in all material respects (in all respects if materiality-qualified); for Borrowings only, the MAC sentence of 4.01(e), litigation (f), ERISA (h)-(l) and environmental (n) reps are excluded. (ii) No Default. (b) Any other approvals, opinions or documents a Lender reasonably requests. s.2.07(b) makes the Term Loan Election subject to s.3.03.",
+   "ca_quote": "(except, in the case of a Borrowing, the representations set forth in the last sentence of subsection (e) thereof and in subsections (f), (h)-(l) and (n) thereof) are correct in all material respects",
+   "ca_location": "Section 3.03, PDF pages 46-47; Section 2.07, PDF page 32",
+   "status": "differs",
+   "materiality": "material",
+   "direction": "lender_favourable",
+   "explanation": "For ordinary borrowings the CA matches the TS carve-outs. It adds an 'in all material respects' qualifier (borrower-favourable) and an 'other documents' condition (lender-favourable). The material point: because the carve-out applies only 'in the case of a Borrowing', converting to a term loan needs a full bring-down of the reps, including no MAC since Dec 31, 2024. The TS requires only no default. Flag to the Group A term-out reviewer.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    4
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    47
+   ]
+  },
+  {
+   "id": "B12",
+   "attribute": "Events of default and thresholds (cross-default, judgment, grace periods)",
+   "ts_value": "(1) Principal when due; interest or Commitment Fee within 3 business days; other amounts within 30 days. (2) Reps materially incorrect. (3) Covenant breach, with notice and cure periods as applicable. (4) Cross-default: payment default on Debt aggregating $500,000,000, or a default that accelerates or permits acceleration; excludes Debt owed to deposit-holding banks; carve-out for China/India/CIS/Turkey subsidiaries (government action, no guarantee, assets of $500m individually and $650m in aggregate). (5) Unsatisfied judgment over $500,000,000 individually or in aggregate, with a similar carve-out. (6) Bankruptcy. (7) ERISA liability over $500,000,000.",
+   "ts_quote": "(5) Unsatisfied judgment or order in excess of $500,000,000 individually or in the aggregate.",
+   "ts_location": "PDF pages 6-7, 'Events of Default' items (1)-(7)",
+   "ca_value": "s.6.01: (a) principal when due; interest/commitment fees within 3 Business Days; other amounts within 30 days (amounts contested in good faith and placed in Escrow excluded). (b) Reps incorrect in any material respect. (c) Default-notice covenant (5.01(h)(v)): no grace; liens covenant: 30 days after Lender notice; other covenants: 30 days after the earlier of Lender notice or knowledge of a specified financial officer. (d) Cross-default for the Company or Material Subsidiaries on principal, premium or interest of Debt of at least $500,000,000 in aggregate, plus acceleration events; excludes intercompany, deposit-backed and legally barred payments and Spin-Off or refinancing prepayments; Exempt Countries carve-out at $500m/$650m. (e) Insolvency, 30 days for involuntary proceedings, with the carve-out. (f) Money judgment over $500,000,000 (per judgment), enforcement started and unstayed for 10 consecutive days, with the carve-out. (g) Non-monetary MAE judgment unstayed 60 days. (h) Loss of licences. (i) ERISA: $500m; withdrawal liability over 6% of NTA; contribution increase over $500m. Acceleration by Majority Lenders; automatic on Company bankruptcy.",
+   "ca_quote": "(f) Any judgment or order for the payment of money in excess of $500,000,000 shall be rendered against the Company or",
+   "ca_location": "Section 6.01(a)-(i) and remedies paragraph, PDF pages 56-59; 'Material Subsidiary', PDF page 19",
+   "status": "differs",
+   "materiality": "material",
+   "direction": "borrower_favourable",
+   "explanation": "Payment grace periods and the $500m/$650m thresholds match. The judgment EoD is materially narrower: the TS aggregates judgments ('individually or in the aggregate'), while s.6.01(f) tests each judgment alone and also needs enforcement plus 10 days unstayed. Spin-Off/refinancing prepayments are carved out of cross-default and the carve-out extends to insolvency (borrower-favourable). Lender-favourable additions: premium/interest in cross-default, cure from notice or knowledge, non-monetary judgment and licence EoDs. The TS does not define subsidiary scope.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    6
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    58
+   ]
+  },
+  {
+   "id": "B13",
+   "attribute": "Change of control",
+   "ts_value": "On a Change of Control, each Lender may, on at least 10 days' notice, terminate its commitment 60 days after the CoC. A CoC occurs if (i) a person (other than the Company, its subsidiaries or employee plans) holding less than 50% acquires 50% or more of the Voting Stock, or (ii) the board majority changes during any 12-month period, unless the replacements were elected, or nominated or approved, by a majority of the remaining board.",
+   "ts_quote": "If a Change of Control occurs each Lender may upon at least 10 days notice terminate its commitment on the date that is 60 days after such Change of Control.",
+   "ts_location": "PDF page 2, under 'Commitment Reduction' (caption displaced in extraction)",
+   "ca_value": "s.2.06(d): a Lender must give notice within 50 calendar days after the CoC. Termination takes effect on the later of 60 calendar days after the CoC and the end of the Interest Period of any Term Rate Advance outstanding at the CoC (or made during the suspension). For 60 days after a CoC, Borrowings are suspended except Base Rate Advances and Term Rate Advances with Interest Periods ending within 90 days. No acceleration. The CoC definition covers any Person or group of Persons (Exchange Act s.13/14) acquiring 50% or more of voting power, or a board-majority change in a 12-month period 'commencing at the Effective Date'. s.5.01(k): CoC notice within 10 calendar days.",
+   "ca_quote": "the Company's right to make a Borrowing under this Agreement shall be suspended for a period of 60 calendar days, except for Base Rate Advances and Term Rate Advances having an Interest Period ending not later than 90 calendar days after such Change of Control.",
+   "ca_location": "Section 2.06(d), PDF page 31; 'Change of Control', PDF page 11; Section 5.01(k), PDF page 54",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The termination right and 60-day timing match (notice within 50 days equals at least 10 days' notice). Lender-favourable additions: a 60-day borrowing suspension after a CoC, and the ownership limb covers groups of Persons, not just one person. Borrower-favourable: termination is deferred to the end of Term Rate Interest Periods outstanding at the CoC (up to 6 months), and the board test is anchored to periods commencing at the Effective Date. Net mixed.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    31
+   ]
+  },
+  {
+   "id": "B14",
+   "attribute": "Required lenders, voting and sacred rights",
+   "ts_value": "Majority Lenders hold more than 50% of outstanding Advances or, if none, of Commitments. Each affected Lender must consent to increasing the facility size, extending maturity, or reducing principal, interest rates or fees.",
+   "ts_quote": "(3) Majority Lenders defined as those holding more than 50% of outstanding Advances or, if none, Commitments. The consent of each affected Lender will be required to increase the size of the 364-Day Facility, to extend the maturity or to decrease principal, interest rates or fees.",
+   "ts_location": "PDF page 7, 'Other' item (3)",
+   "ca_value": "Majority Lenders hold more than 50% of outstanding Advances (Dollar Equivalent) or, if none, of Commitments, excluding Defaulting Lenders' Commitments. s.9.01 needs each affected Lender's consent to: (a) increase its Commitment; (b) reduce principal, interest or fees; (c) postpone payment dates or extend its Commitment termination date; (e) change voting percentages or the number of Lenders; (f) amend s.9.01. Changes to Agent rights need Agent consent. Technical amendments need no Lender consent. New currencies need all Lenders (s.1.07).",
+   "ca_quote": "no amendment, waiver or consent shall, unless in writing and signed by each of the Lenders affected thereby, do any of the following: (a) increase the Commitments of such Lender, (b) reduce the principal of, or rate of interest on, the Advances or any fees or other amounts payable",
+   "ca_location": "Section 1.01 'Majority Lenders', PDF page 19; Section 9.01, PDF page 65; Section 1.07, PDF pages 26-27",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The voting threshold and the three TS sacred rights match. The CA adds customary protections (voting-percentage and s.9.01 changes, Defaulting Lender exclusion, Agent consent, technical amendments). No change in substance.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    7
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    65
+   ]
+  },
+  {
+   "id": "B15",
+   "attribute": "Assignments and participations",
+   "ts_value": "Lenders may assign to Eligible Assignees with Agent consent and, unless a default or EoD is continuing, Company consent; the Company is deemed to consent after 10 business days. Minimum $10m, then $1m increments. The non-Company parties pay a $3,500 fee. Customary disqualified-lender provisions. No consent needed for pledges (incl. to a Federal Reserve Bank) or, with notice, for assignments to the Lender's own affiliates. Participations carry customary voting limits and must be notified to the Company within 30 days.",
+   "ts_quote": "of the Agent and, so long as no default or event of default is continuing, the Company, provided that the Company shall be deemed to have consented to an assignment unless they shall have objected within 10 business days after having notice thereof.",
+   "ts_location": "PDF page 8, 'Assignments and Participations'",
+   "ca_value": "s.9.06: the Company must be notified before any proposal to a potential assignee. Minimum $10m plus $1m multiples, but no minimum for whole-position assignments or assignments to a Lender or Lender Affiliate; the minimum can be varied with Agent and Company consent (Company consent not needed while a Default continues). Company consent is needed unless a payment or insolvency EoD under s.6.01(a)/(e) is continuing, or the assignee is a Lender or a Lender's Affiliate (with notice); deemed consent after 10 Business Days. Agent consent only for assignees that are not a Lender or the Lender's Affiliate. $3,500 fee, which the Agent may waive. No assignments to the Company or its Affiliates, Defaulting Lenders, Disqualified Institutions or natural persons. Federal Reserve pledges allowed. Participant voting limited to economic terms; notice to the Company within 30 days.",
+   "ca_quote": "the consent of the Company (such consent not to be unreasonably withheld or delayed) shall be required unless (x) an Event of Default under Section 6.01(a) or 6.01(e) has occurred and is continuing at the time of such assignment, or (y) such assignment is to a Lender or an Affiliate of a Lender",
+   "ca_location": "Section 9.06(a)-(g), PDF pages 69-74 (consents at 9.06(b)(iii), PDF page 70)",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "Minimum amounts, fee, deemed consent, pledges and participation terms match. Company consent falls away only on a payment or bankruptcy EoD, not on any default (borrower-favourable). Lender-favourable, low impact: consent-free transfers extend from the Lender's own affiliates to any Lender or Lender Affiliate, no minimum for whole-position or intra-syndicate assignments, and no Agent consent for assignments to existing Lenders. Net borrower-favourable.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    8
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    70
+   ]
+  },
+  {
+   "id": "B16",
+   "attribute": "Defaulting lender, yield protection, taxes, lender replacement",
+   "ts_value": "Customary yield protection, including Dodd-Frank and Basel III. Tax gross-up excluding income and franchise taxes of the Lender's home and lending-office jurisdictions, US net income taxes and FATCA. Customary Defaulting Lender provisions. Lenders claiming these costs, or Defaulting Lenders, can be replaced if there is no EoD or unmatured payment/bankruptcy default, obligations are paid, the Agent accepts the replacement and a $3,500 fee is paid. General replacement right if no Rating Condition, at most 3 non-defaulting Lenders a year.",
+   "ts_quote": "replace any Lender through assignment or the addition of a new Lender provided that no Rating Condition (as defined in the Existing 364-Day Agreement) has occurred and is continuing and no more than 3 non-defaulting Lenders in any calendar year may be replaced.",
+   "ts_location": "PDF page 7, 'Other' item (4); PDF page 8, 'Yield Protection, Taxes, and Other Deductions'; PDF page 9, 'Defaulting Lenders'",
+   "ca_value": "s.2.11 increased costs and capital/liquidity (incl. Dodd-Frank and Basel III), with a 90-day lookback and a general-policy condition; s.2.12 illegality; s.9.04(c) breakage; s.2.14 tax gross-up with matching exclusions incl. FATCA; s.9.09 mitigation; s.2.18 Defaulting Lenders. Lenders claiming costs can be replaced if there is no Default (s.2.11(c), s.2.14(g)). Any Lender can be replaced by assignment if there is no Event of Default, capped at 3 Non-Defaulting Lenders a year (s.2.06(b)). The Rating Condition applies only to s.2.06(c).",
+   "ca_quote": "the Company shall have no right to replace more than three Non-Defaulting Lenders in any calendar year pursuant to this Section 2.06(b)",
+   "ca_location": "Sections 2.06(b)-(c) PDF pages 29-31; 2.11 PDF pages 34-36; 2.14 PDF pages 38-41; 2.18 PDF pages 42-43; 9.09 PDF page 75",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "Yield protection, tax gross-up and Defaulting Lender terms match, and the CA adds borrower-friendly limits. The TS 'no Rating Condition' limit does not apply to replacement by assignment under s.2.06(b), which favours the borrower. The cost-claim replacement routes need 'no Default', which is stricter than the TS, but s.2.06(b) remains available with only a no-EoD test.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    7
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    30
+   ]
+  },
+  {
+   "id": "B17",
+   "attribute": "Governing law and jurisdiction",
+   "ts_value": "State of New York law. Jurisdiction not stated.",
+   "ts_quote": "State of New York.",
+   "ts_location": "PDF page 9, 'Governing Law'",
+   "ca_value": "New York law, including for tort and other claims (s.9.10). Actions against the Agent or Lenders may be brought only in New York County state courts or the S.D.N.Y., and venue and forum non conveniens objections are waived (s.9.12). Jury trial waiver (s.9.21).",
+   "ca_quote": "shall be governed by, and construed in accordance with, the law of the State of New York.",
+   "ca_location": "Section 9.10, PDF page 75; Section 9.12, PDF pages 76-77; Section 9.21, PDF page 79",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "New York governing law matches. The CA's New York forum clause and jury waiver are customary additions on points the TS does not address.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    9
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    75
+   ]
+  },
+  {
+   "id": "X01",
+   "attribute": "Change of Control lender commitment termination right (extra TS term under 'Commitment Reduction')",
+   "ts_value": "On a Change of Control, each Lender may, on at least 10 days' notice, terminate its commitment on the date 60 days after the Change of Control. Change of Control = a 50%+ voting stock acquisition by any person, or a board majority change within any 12-month period, subject to the usual carve-out for continuing directors.",
+   "ts_quote": "If a Change of Control occurs each Lender may upon at least 10 days notice terminate its commitment on the date that is 60 days after such Change of Control.",
+   "ts_location": "PDF p.2, 'Commitment Reduction'",
+   "ca_value": "s.2.06(d): a Lender may terminate by notice given no later than 50 calendar days after the Change of Control. Termination takes effect on the later of 60 calendar days after the Change of Control and the end of the Interest Period of any outstanding Term Rate Advance. It does not accelerate outstanding Advances. ADDED: for 60 calendar days after a Change of Control, Borrowings are suspended, except Base Rate Advances and Term Rate Advances whose Interest Period ends within 90 days. The acquisition limb covers a 'Person or group of Persons'; the board-change limb applies to 12-month periods 'commencing at the Effective Date'.",
+   "ca_quote": "the Company's right to make a Borrowing under this Agreement shall be suspended for a period of 60 calendar days, except for Base Rate Advances and Term Rate Advances having an Interest Period ending not later than 90 calendar days after such Change of Control",
+   "ca_location": "s.2.06(d), PDF p.31; s.1.01 'Change of Control', PDF p.11",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "lender_favourable",
+   "explanation": "The core right (termination effective 60 days after the Change of Control, notice at least 10 days before) matches. The CA adds a 60-day borrowing suspension not in the TS, which favours lenders, and extends the acquisition limb to groups of Persons. It also pushes the effective date to the end of any running Interest Period, states expressly that there is no acceleration, and anchors the board-change limb at the Effective Date, which favour the borrower. Minor, because Base Rate and short-dated borrowings remain available.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    31
+   ]
+  },
+  {
+   "id": "X01",
+   "attribute": "Lenders (syndicate composition)",
+   "ts_value": "Bank of America, GS, MS and other financial institutions.",
+   "ts_quote": "Bank of America, GS, MS and other financial institutions.",
+   "ts_location": "PDF page 1, 'Lenders'",
+   "ca_value": "32 Initial Lenders sign the CA, including BofA, Goldman Sachs Bank USA, Morgan Stanley Bank, N.A., MUFG, Citibank, Deutsche Bank, JPMorgan, Mizuho, SMBC, Wells Fargo, BBVA, Santander, Barclays, BNP Paribas, Credit Agricole, Societe Generale, Standard Chartered, TD, U.S. Bank, UniCredit, DBS, HSBC, NatWest, RBC, Scotiabank, Northern Trust, Truist, ANZ, CIBC, Commerzbank, Lloyds and OCBC. Individual Commitments are on Schedule I, which is not in the extracted text.",
+   "ca_quote": "the banks, financial institutions and other institutional lenders (the \"Initial Lenders\") listed on the signature pages hereof",
+   "ca_location": "Preamble, PDF page 7; signature pages, PDF pages 81-113",
+   "status": "ts_open_filled_in_ca",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The TS left the syndicate open and the CA fills it. Morgan Stanley lends through Morgan Stanley Bank, N.A., which the TS allows ('and/or its affiliates'). Per-lender amounts could not be checked because Schedule I is missing.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    7
+   ]
+  },
+  {
+   "id": "X02",
+   "attribute": "Voluntary commitment reduction / termination",
+   "ts_value": "On at least 3 business days' notice, the Company may terminate or cancel unused commitments in whole or in part. Partial reductions are at least $10,000,000 plus whole multiples of $1,000,000. No reinstatement.",
+   "ts_quote": "The Company will have the right, upon at least three business days' notice, to terminate or cancel, in whole or in part, the unused portion of the commitments",
+   "ts_location": "PDF page 2, 'Commitment Reduction'",
+   "ca_value": "s.2.06(a): on at least 3 Business Days' notice, the Company may terminate in whole or reduce ratably in part the Unused Commitments; partial reductions are at least $10,000,000 plus $1,000,000 multiples; no reinstatement. s.2.06(c) adds a non-ratable right: outside a Rating Condition, the Company may terminate an individual Lender's Commitment on 10 Business Days' notice, capped each year at the greater of three Lenders' Commitments and $240,000,000.",
+   "ca_quote": "upon at least three Business Days' notice to the Administrative Agent, to terminate in whole or permanently reduce ratably in part the Unused Commitments of the Lenders, provided that each partial reduction shall be in an aggregate amount not less than $10,000,000",
+   "ca_location": "Section 2.06(a), PDF page 29; Section 2.06(c), PDF pages 30-31",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "The ratable reduction matches exactly. The non-ratable lender-by-lender termination right in s.2.06(c) is not stated in the TS and favours the borrower. It is subject to the Rating Condition and the annual cap.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    29
+   ]
+  },
+  {
+   "id": "X03",
+   "attribute": "Spin-Off automatic commitment reduction",
+   "ts_value": "When the Spin Off is consummated, aggregate commitments reduce automatically and permanently to $2,000,000,000, pro rata across Lenders, and any excess Advances are repaid.",
+   "ts_quote": "Upon the consummation of the Spin Off, the aggregate commitments under the 364-Day Facility shall be automatically and permanently reduced to $2,000,000,000",
+   "ts_location": "PDF page 2, under 'Commitment Reduction'",
+   "ca_value": "s.2.06(e): on the Spin-Off Date, Commitments reduce pro rata to $2,000,000,000 in aggregate. The Agent reallocates Advances pro rata, and the Company repays each Lender's excess with interest and breakage. 'Spin-Off' is the distribution described in the Form 10 that Honeywell Aerospace Inc. filed on March 3, 2026. Related: notice of consummation (s.5.01(h)(xiii)), the Transactions safe harbour (s.5.02) and the Spin-Off prepayment carve-out from cross-default (s.6.01(d)).",
+   "ca_quote": "such that, immediately following such reduction, the aggregate Commitments of all Lenders shall equal $2,000,000,000",
+   "ca_location": "Section 2.06(e), PDF page 31; 'Spin-Off'/'Form 10' definitions, PDF pages 17 and 22",
+   "status": "match_minor_drafting",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The reduced amount and pro rata mechanics match. The CA adds reallocation and breakage mechanics and ties the Spin-Off to the Form 10. The safe harbour is assessed in B08. This term may overlap with Group A (facility amount).",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    31
+   ]
+  },
+  {
+   "id": "X04",
+   "attribute": "Documentation principles",
+   "ts_value": "Documentation must be mutually acceptable and substantially similar to the existing 364-Day Credit Agreement dated March 17, 2025. The 364-Day and 5-Year Facilities may be documented together or separately.",
+   "ts_quote": "The 364-Day Facility and the 5-Year Facility may be documented in the same credit agreement or as separate credit agreements.",
+   "ts_location": "PDF page 4, 'Loan Documentation'",
+   "ca_value": "A standalone 364-Day Credit Agreement dated as of March 6, 2026 (Execution Version) covering only the 364-day facility. The March 17, 2025 agreement appears only as the facility being refinanced (s.3.01(g)).",
+   "ca_quote": "Dated as of March 6, 2026",
+   "ca_location": "Cover page, PDF page 1; Section 3.01(g), PDF page 46",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Separate documentation is allowed by the TS. Whether the CA is 'substantially similar' to the Existing Agreement cannot be checked because that agreement was not provided.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    4
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "X05",
+   "attribute": "Affirmative covenants (incl. reporting, change of control and Spin Off notices)",
+   "ts_value": "Similar to and no less favourable than the Existing Agreement: corporate existence; material compliance with laws incl. ERISA and environmental; taxes; visitation; books; properties; insurance; financial and ERISA reporting; notice of change of control and of the Spin Off.",
+   "ts_quote": "(11) Notice of change of control and consummation of the Spin Off; and",
+   "ts_location": "PDF pages 5-6, 'Covenants' items (1)-(7), (10)-(11)",
+   "ca_value": "s.5.01: compliance with laws where failure would cause a MAE, plus anti-corruption and sanctions policies; taxes; insurance; existence; visitation at most once a year unless an EoD; books; properties; reporting (quarterly in 60 days, annual in 120 days, SEC filings, Default notice in 3 Business Days, ERISA events of $500m or more, Spin-Off notice on the Spin-Off Date); authorizations; environmental; CoC notice in 10 days.",
+   "ca_quote": "(xiii) On the Spin-Off Date, notice of the consummation of the Spin-Off in form and substance reasonably satisfactory to the Administrative Agent.",
+   "ca_location": "Section 5.01(a)-(k), PDF pages 50-54",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "Every TS affirmative covenant is in the CA. The compliance covenant uses a MAE test rather than 'material compliance', and visitation is limited to once a year. Both favour the borrower slightly and fit the TS 'no less favorable' standard.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    6
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    53
+   ]
+  },
+  {
+   "id": "X06",
+   "attribute": "Sanctions and anti-corruption covenants",
+   "ts_value": "Certain covenants on anti-corruption laws and sanctions. The rep is covered in B09.",
+   "ts_quote": "(12) Certain covenants related to anti-corruption laws and sanctions.",
+   "ts_location": "PDF page 6, 'Covenants' item (12)",
+   "ca_value": "s.2.16: no borrowing or use of proceeds for corrupt payments (Bribery Act, FCPA, other Anti-Corruption Laws), for funding Sanctioned Persons or Sanctioned Countries, or in breach of Sanctions. A commercially reasonable efforts standard applies to personnel. s.5.01(a): compliance policies must be maintained. Sanctions regimes covered: US, UN, Canada, EU and UK.",
+   "ca_quote": "(ii) for the purpose of funding or financing any activities, business or transaction of or with any Sanctioned Person, or in any Sanctioned Country",
+   "ca_location": "Section 2.16, PDF pages 41-42; Section 5.01(a), PDF page 50; Sanctions definitions, PDF page 22",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS calls for anti-corruption and sanctions covenants, and the CA provides customary use-of-proceeds and policy covenants.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    6
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    42
+   ]
+  },
+  {
+   "id": "X07",
+   "attribute": "Definition of \"Debt\" (used in cross-default and liens covenant)",
+   "ts_value": "Debt covers: (i) recourse borrowed money; (ii) deferred purchase price of 90 days or more, excluding ordinary trade payables; (iii) debt secured by liens; (iv) drawn and unreimbursed LCs, excluding performance LCs, with commercial LCs counted after 3 Business Days; (v) capital leases under the Existing Agreement's GAAP principles; (vi) guarantees.",
+   "ts_quote": "\"Debt\" means, with respect to any Person: (i) indebtedness of such Person, which is not limited as to recourse to such Person, for borrowed money (whether by loan or the issuance and sale of debt securities) (ii)",
+   "ts_location": "PDF page 7, 'Events of Default' (Debt definition)",
+   "ca_value": "Clauses (i)-(vi) are identical, except that clause (v) refers to the GAAP principles 'in Section 1.03 hereof'.",
+   "ca_quote": "\"Debt\" means, with respect to any Person: (i) indebtedness of such Person, which is not limited as to recourse to such Person, for borrowed money (whether by loan or the issuance and sale of debt securities); (ii)",
+   "ca_location": "Section 1.01 'Debt', PDF pages 12-13",
+   "status": "match_minor_drafting",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The wording is the same apart from the GAAP cross-reference (now s.1.03) and punctuation.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    7
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    12
+   ]
+  },
+  {
+   "id": "X08",
+   "attribute": "Indemnification",
+   "ts_value": "The Agent, the Lenders and their affiliates, officers, directors, employees, agents and advisors are indemnified for any liabilities and expenses arising from the facility or the use of proceeds.",
+   "ts_quote": "(1) Indemnification of Agent and Lenders and their respective affiliates, officers, directors, employees, agents and advisors for any liabilities and expenses arising out of the 364-Day Facility or the use of proceeds.",
+   "ts_location": "PDF page 7, 'Other' item (1)",
+   "ca_value": "s.9.04(b): the Company indemnifies the Agent, each Lender and their Related Parties for claims, losses, liabilities and expenses arising out of any investigation, litigation or proceeding relating to the Notes, the Agreement, the transactions or the use of proceeds, whether or not consummated. Gross negligence and wilful misconduct (finally determined) are excluded. The Company waives claims for consequential damages. Lenders indemnify the Agent separately (s.8.05).",
+   "ca_quote": "The Company agrees to indemnify and hold harmless the Administrative Agent and each Lender and each of their Related Parties (each, an \"Indemnified Party\")",
+   "ca_location": "Section 9.04(b), PDF page 68; 'Related Parties', PDF page 21; Section 8.05, PDF pages 61-62",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "The indemnified parties match. The CA scope is narrower than the TS's 'any liabilities and expenses arising out of the 364-Day Facility': it covers only losses arising out of investigations, litigation or proceedings, and it excludes gross negligence and wilful misconduct. Customary, and within the TS 'no less favorable to the Company' standard.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    7
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    68
+   ]
+  },
+  {
+   "id": "X09",
+   "attribute": "Agency provisions",
+   "ts_value": "Normal agency language.",
+   "ts_quote": "(2) Normal agency language.",
+   "ts_location": "PDF page 7, 'Other' item (2)",
+   "ca_value": "Article VIII: appointment of the Agent, exculpation, reliance, Lender indemnity, sub-agents, resignation on 30 days' notice and removal, non-reliance, other agents, Lender ERISA and erroneous payments.",
+   "ca_quote": "SECTION 8.01. Authorization and Authority. Each Lender hereby irrevocably appoints Bank of America to act on its",
+   "ca_location": "Article VIII, Sections 8.01-8.11, PDF pages 59-65",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The CA contains customary agency provisions as the TS contemplates.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    7
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    59
+   ]
+  },
+  {
+   "id": "X10",
+   "attribute": "Lender ERISA representations",
+   "ts_value": "Customary Lender ERISA representations.",
+   "ts_quote": "(5) Customary Lender ERISA representations.",
+   "ts_location": "PDF page 7, 'Other' item (5)",
+   "ca_value": "s.8.10: each Lender represents to the Agent and the Arrangers that it uses no plan assets, relies on a PTE, is a QPAM fund, or has another agreed representation. The Agent is not a fiduciary.",
+   "ca_quote": "SECTION 8.10. Lender ERISA Matters. (a) Each Lender (x) represents and warrants, as of the date such Person became",
+   "ca_location": "Section 8.10, PDF pages 64-65",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Standard Lender ERISA representations are included as required.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    7
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    64
+   ]
+  },
+  {
+   "id": "X11",
+   "attribute": "Replacement benchmark (successor rate) provisions",
+   "ts_value": "Replacement benchmark provisions.",
+   "ts_quote": "(6) Replacement benchmark provisions.",
+   "ts_location": "PDF page 8, 'Other' item (6)",
+   "ca_value": "s.2.19: when a benchmark is unavailable or will cease, the Agent and Company may adopt a Successor Rate with an adjustment. It takes effect 5 Business Days after posting unless the Majority Lenders object. The rate has a zero floor and the Agent may make Conforming Changes.",
+   "ca_quote": "SECTION 2.19. Replacement of Relevant Rate or Successor Rate.",
+   "ca_location": "Section 2.19, PDF pages 44-45",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The provision is included, but has drafting errors: it refers to 'this Section 3.03' and to 'Section 2.19(a)(i), (ii) or (iii)', and there is no subsection (a). These should be corrected. May overlap with Group A (benchmarks).",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    8
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    44
+   ]
+  },
+  {
+   "id": "X12",
+   "attribute": "Erroneous payment provisions",
+   "ts_value": "Erroneous payment provisions.",
+   "ts_quote": "(7) Erroneous payment provisions.",
+   "ts_location": "PDF page 8, 'Other' item (7)",
+   "ca_value": "s.8.11 and s.2.13(e): Lenders repay any Rescindable Amount on demand with interest and waive any 'discharge for value' defence.",
+   "ca_quote": "SECTION 8.11. Recovery of Erroneous Payments.",
+   "ca_location": "Section 8.11, PDF page 65; Section 2.13(e), PDF page 38",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "An erroneous payment clause is included as contemplated. It is a short form, but the TS sets no particular form.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    8
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    65
+   ]
+  },
+  {
+   "id": "X13",
+   "attribute": "Disqualified lenders",
+   "ts_value": "Customary disqualified-lender provisions.",
+   "ts_quote": "The loan documents will contain customary disqualified Lenders provisions.",
+   "ts_location": "PDF page 8, 'Assignments and Participations'",
+   "ca_value": "Disqualified Institutions are: entities designated before signing, Competitors designated later (not retroactively), and their named Affiliates other than debt funds. They may not take assignments or participations. If a transfer breaches this, the Company may terminate the commitment or force an assignment at the lower of par and purchase price. DQs get no information access and their votes are deemed cast with the other Lenders. The DQ list may be posted.",
+   "ca_quote": "\"Disqualified Institution\" means, on any date, (a) any Person designated by the Company as a \"Disqualified Institution\" by written notice delivered to the Administrative Agent not less than two Business Days prior to the date hereof",
+   "ca_location": "Section 1.01 'Disqualified Institution'/'Competitor', PDF pages 12 and 14; Section 9.06(g), PDF pages 73-74",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The CA includes a full, customary disqualified-lender regime as the TS requires.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    8
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    14
+   ]
+  },
+  {
+   "id": "X14",
+   "attribute": "EU and UK bail-in",
+   "ts_value": "Customary EU and UK bail-in provisions.",
+   "ts_quote": "will include customary EU and UK bail-in provisions.",
+   "ts_location": "PDF page 9, 'Defaulting Lenders'",
+   "ca_value": "s.9.20: bail-in acknowledgement covering both EEA and UK Financial Institutions. A Bail-In Action is also a Lender Insolvency Event.",
+   "ca_quote": "SECTION 9.20. Acknowledgement and Consent to Bail-In of Affected Financial Institutions.",
+   "ca_location": "Section 9.20, PDF pages 78-79; 'Affected Financial Institution', PDF page 7",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Both EU and UK bail-in are covered as required.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    9
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    78
+   ]
+  },
+  {
+   "id": "X15",
+   "attribute": "Counsel to the Agent",
+   "ts_value": "Davis Polk & Wardwell LLP.",
+   "ts_quote": "Davis Polk & Wardwell LLP.",
+   "ts_location": "PDF page 9, 'Counsel to the Agent'",
+   "ca_value": "Not found in CA; Agent's counsel is not named. s.9.04(a) covers the reasonable fees of the Agent's counsel.",
+   "ca_quote": "",
+   "ca_location": "Not found; see Section 9.04(a), PDF page 68",
+   "status": "not_in_ca",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Credit agreements usually do not name counsel, so this is a TS deal-team item. There is nothing to reconcile.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    9
+   ],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "X16",
+   "attribute": "Expenses",
+   "ts_value": "The Company reimburses the JLAs and the Agent for reasonable, documented, invoiced and agreed expenses of negotiation, syndication and execution, even if the deal does not close.",
+   "ts_quote": "The Company shall reimburse the Joint Lead Arrangers and the Agent for all reasonable, documented, invoiced and agreed out-of-pocket expenses incurred by them in the negotiation, syndication and execution of the 364-Day Facility.",
+   "ts_location": "PDF page 9, 'Expenses'",
+   "ca_value": "s.9.04(a): the Company pays on demand the Agent's reasonable, documented and invoiced costs of administration, modification and amendment (including due diligence, syndication and Agent's counsel), plus the enforcement costs of the Agent and Lenders. s.3.01(c) requires accrued fees and expenses of the Agent and Lenders to be paid at closing. The Arrangers are not covered, pre-closing negotiation and execution costs are not expressly covered, and there is no 'agreed' qualifier.",
+   "ca_quote": "The Company agrees to pay on demand all reasonable, documented and invoiced costs and expenses of the Administrative Agent in connection with the administration, modification and amendment of this Agreement",
+   "ca_location": "Section 9.04(a), PDF page 68; Section 3.01(c), PDF page 45",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "Mixed. Borrower-favourable: the CA does not cover the Arrangers' expenses (presumably in the fee letter) and does not expressly cover negotiation and execution costs. Lender-favourable: it drops the TS 'agreed' qualifier, is payable on demand, and adds ongoing amendment costs and the Agent's and Lenders' enforcement costs. Customary terms.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    9
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    68
+   ]
+  },
+  {
+   "id": "X17",
+   "attribute": "Available currencies and several funding obligation",
+   "ts_value": "At the Company's option, Advances in U.S. Dollars and Euros; each Lender severally obligated to make its pro rata share of any Advance.",
+   "ts_quote": "At the Company's option, Advances under the 364-Day Facility may be made in U.S. Dollars and Euros.",
+   "ts_location": "PDF page 1, 'Advances'",
+   "ca_value": "Advances in Dollars or an Alternative Currency; 'Alternative Currency' means Euros plus any other currency approved by the Agent and all Lenders under s.1.07. Lenders severally agree to make Advances (s.2.01), each Borrowing made ratably by Commitment, with Euro usage measured at the Dollar Equivalent.",
+   "ca_quote": "\"Alternative Currency\" means Euros, together with each other currency (other than Dollars) approved as an Alternative Currency pursuant to Section 1.07.",
+   "ca_location": "Section 1.01 'Alternative Currency', PDF page 7; Section 1.07, PDF pages 26-27; Section 2.01, PDF page 27",
+   "status": "match_minor_drafting",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "USD and EUR availability and the several, pro rata funding obligation match. The CA adds a mechanism for further currencies, but only with Agent and all-Lender approval, so the agreed position is unchanged.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    7
+   ]
+  },
+  {
+   "id": "X18",
+   "attribute": "Borrowing mechanics (minimum amounts and notice periods)",
+   "ts_value": "Borrowings of at least $10,000,000 plus $1,000,000 multiples, made ratably; same-day notice for Base Rate Advances; 3 business days' notice for Term SOFR and EURIBOR Advances.",
+   "ts_quote": "Borrowings will be available on same day notice for Base Rate Advances and 3 business days notice for Term SOFR Advances and EURIBOR Advances.",
+   "ts_location": "PDF page 3, 'Borrowings'",
+   "ca_value": "s.2.01: Borrowings of at least $10,000,000 (or Euro Equivalent) plus $1,000,000 multiples, ratable by Commitment. s.2.02(a): notice by 9:00 a.m. same day for Base Rate; by 11:00 a.m. on the second Business Day before for Term SOFR Advances; by 10:00 a.m. on the third Business Day before for Alternative Currency (EURIBOR) Term Rate Advances.",
+   "ca_quote": "(y) 11:00 A.M. (New York City time) on the second Business Day prior to the date of the proposed Borrowing in the case of a Borrowing consisting of Term SOFR Advances",
+   "ca_location": "Section 2.01, PDF page 27; Section 2.02(a), PDF pages 27-28",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "Minimum amounts, ratable funding, same-day Base Rate notice and 3-Business-Day EURIBOR notice match. Term SOFR notice is 2 Business Days in the CA against 3 business days in the TS, giving the Company quicker access to Term SOFR funding. Operational only.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    27
+   ]
+  },
+  {
+   "id": "X19",
+   "attribute": "Interest payment dates and day count",
+   "ts_value": "Interest payable at the end of each interest period, but no less often than quarterly; 365/366-day basis for Base Rate Advances and 360-day basis for Term SOFR and EURIBOR Advances.",
+   "ts_quote": "At the end of each interest period for each Advance, but no less frequently than quarterly.",
+   "ts_location": "PDF page 3, 'Interest Payments'",
+   "ca_value": "s.2.08(a): Base Rate interest quarterly in arrears on the last Business Day of March, June, September and December and on conversion or repayment; Term Rate interest on the last day of each Interest Period and every three months within Interest Periods longer than three months. s.2.13(b): Base Rate interest and commitment fees on 365/366 days; Term SOFR, Alternative Currency Term Rate and Federal Funds Rate on 360 days.",
+   "ca_quote": "payable in arrears on the last day of such Interest Period and, if such Interest Period has a duration of more than three months, on each day that occurs during such Interest Period every three months",
+   "ca_location": "Section 2.08(a), PDF page 32; Section 2.13(b), PDF page 37",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Payment frequency and day-count conventions match. May overlap with Group A (benchmarks/interest).",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    32
+   ]
+  }
+ ],
+ "document_notes": "TS: \"Honeywell International Inc. Summary of Terms and Conditions - $3,000,000,000 364-Day Multi-Currency Revolving Credit Facility\". It is an indicative, undated 10-page term sheet (footer \"2026 Honeywell Term Sheet\"), and page 10 is the 364-Day Pricing Grid. The TS says documentation will be \"substantially similar\" to the Existing 364-Day Credit Agreement dated March 17, 2025. In the layout extraction of TS pages 2-9 the left-column headings are out of line with the body text (for example \"Commitment Fee:\" and \"Interest Rates and\" sit inside the Commitment Reduction paragraph). Each paragraph was mapped to its heading by order, and quotes were taken only from clean text runs. CA: a new, stand-alone agreement, not an amendment. It is the 364-DAY CREDIT AGREEMENT dated as of March 6, 2026 (Exhibit 10.1, Execution Version) among Honeywell International Inc. as Company, the Initial Lenders, and Bank of America, N.A. as Administrative Agent, with Goldman Sachs Bank USA, Morgan Stanley Senior Funding and MUFG as Syndication Agents (the TS names only GS and MS; a party point for another group). The file has 113 PDF pages, ending with the signature pages (PDF p.81-113). The table of contents section numbering in the text extraction is misaligned (for example it shows s.2.13 as [Reserved]); section references here follow the body text. Limitations: (1) Schedule I (Commitments), Schedule 9.02 and Exhibits A-D appear in the table of contents but are NOT in the CA file. Per-lender and total commitments could therefore not be tied to Schedule I; the $3,000,000,000 total is taken from the cover page. (2) The CA Applicable Margin grid (PDF page 9) is garbled in the layout text, but level-by-level values were re-confirmed in review against the layout fragments and the TS grid: margins 0.50/0.625/0.75/0.875/1.00/1.125% and commitment fees 0.020/0.030/0.040/0.050/0.075/0.090%, with identical rating thresholds (AA-/Aa3, A+/A1, A/A2, A-/A3, BBB+/Baa1, below). (3) The CA does not record the actual Effective Date. The March 5, 2027 Termination Date matches the TS formula (364 days after closing) only if the Effective Date was March 6, 2026. (4) An extra row, X01 (Change of Control lender termination right), was added because it appears under the TS \"Commitment Reduction\" heading and the CA adds mechanics to it. Main findings: the economics (amount, currencies, margin and fee grids, term-out fee, day counts, minimum amounts, 103% currency test, Spin-Off step-down to $2bn) reconcile. The differences: the CA term-out requires a full rep bring-down, including MAC, litigation, ERISA and environmental reps that the TS limits to the Closing Date, plus 15 days' notice and conversion of all Advances (material, lender-favourable); a split-rating rule and no-rating default to Level 6; default interest extended to overdue interest and fees; a shorter Term SOFR borrowing notice (2 Business Days against 3 in the TS); an added non-ratable commitment reduction right (s.2.06(c)), with the Rating Condition attached to it rather than to lender replacement as in the TS; small borrower-favourable mechanics on the $3,500 replacement/assignment fee (assignee may pay; Agent may waive); and a 60-day borrowing suspension after a Change of Control. Review corrections: A05 rep scope and page reference, A10 TS Term SOFR description (CME is named only in the CA), A15 status changed from match to match_minor_drafting, and clarifying explanations on A13, A18, A19 and X01. All quotes were checked verbatim against the text files.\n\nTS: a 10-page \"Summary of Terms and Conditions\" (indicative term sheet) for Honeywell International Inc.'s $3,000,000,000 364-Day Multi-Currency Revolving Credit Facility. It is undated; the footer reads \"2026 Honeywell Term Sheet\" and the 364-Day Pricing Grid is on PDF page 10. On TS PDF pages 2-9 the two-column layout came out garbled: the left-hand captions do not line up with their text, so section headings were inferred from caption order. For example, the Change of Control and Spin Off text sits under \"Commitment Reduction\" on page 2. Every TS quote was checked mechanically against the text file (whitespace collapsed) and avoids lines with misplaced captions.\n\nCA: an executed new standalone agreement, not an amendment: the 364-DAY CREDIT AGREEMENT dated as of March 6, 2026 (Execution Version, filed as Exhibit 10.1). The parties are Honeywell International Inc. (Company), 32 Initial Lenders and Bank of America, N.A. as Administrative Agent. It refinances and terminates the 364-Day Credit Agreement dated March 17, 2025 (s.3.01(g)). The CA table of contents (PDF pages 3-5) is garbled in extraction (section numbers do not line up with titles); section references here are taken from the body headings, e.g. s.9.06 is Assignments and Participations and s.9.10 is Governing Law.\n\nLimitations:\n(1) The CA text (113 PDF pages) ends at the signature pages. Schedule I (Commitments), Schedule 9.02 and Exhibits A-D (form of Note, Notice of Borrowing, Assignment and Assumption, General Counsel opinion) are listed in the table of contents but not included, so individual lender commitments and the form of opinion could not be reconciled.\n(2) The TS ties most legal terms (reps, covenants, events of default, defaulting lenders, taxes, Eligible Assignee, Rating Condition) to the Existing 364-Day Agreement dated March 17, 2025, using \"similar to\" or \"no less favorable to the Company than\". That agreement was not provided, so the CA could only be checked against what the TS itself says. Borrower-favourable differences flagged here, including the B12 judgment-default aggregation point, may simply carry over from the existing agreement.\n(3) Benchmark replacement (X11), the Spin-Off commitment reduction (X03), and the added rows for currencies (X17), borrowing notice mechanics (X18) and interest payment dates/day count (X19) may overlap with Group A. They are included for completeness. X18 records a real difference: Term SOFR borrowing notice is 2 Business Days in the CA against 3 business days in the TS.\n(4) Cross-group point for the Group A term-out reviewer (B11): CA s.2.07/3.03 makes the Term Loan Election subject to a full bring-down of the reps, including no MAC since Dec 31, 2024, whereas the TS conditions it only on no default or event of default. CA s.2.07 also needs at least 15 days' notice of the election.\n(5) Review results: all 62 original quotes were confirmed verbatim. Status changes: B04 (to differs), X08 (to match_minor_drafting). Materiality change: B12 (to material: the judgment EoD no longer aggregates). Direction changes: B13 and X16 (to neutral). Wording or substance corrections: B03, B09 and B15.",
+ "corrections": [
+  {
+   "id": "A05",
+   "field": "ca_location",
+   "was": "s.2.07, PDF p.32; s.3.03, PDF p.46-47; s.4.01(e)-(f), PDF p.47; s.9.01, PDF p.65",
+   "now": "s.2.07, PDF p.32; s.3.03, PDF p.46-47; s.4.01(e)-(f), PDF p.48; s.4.01(h)-(l) and (n), PDF p.49; s.9.01, PDF p.65",
+   "evidence": "s.4.01 begins on PDF p.47, but (e) (including the MAC sentence 'No Material Adverse Change has occurred since December 31, 2024') and (f) (litigation) fall under the [PDF PAGE 48] marker. (h)-(n) are on p.49."
+  },
+  {
+   "id": "A05",
+   "field": "ca_value / explanation",
+   "was": "Term-out bring-down described as covering the MAC rep (4.01(e)) and the litigation rep (4.01(f))",
+   "now": "Term-out bring-down also covers the ERISA reps (4.01(h)-(l)) and the environmental rep (4.01(n)); the TS 'Conditions Precedent to all Advances' says MAC, litigation, ERISA and environmental reps are made only on the Closing Date",
+   "evidence": "CA s.3.03(a)(i): 'except, in the case of a Borrowing, the representations set forth in the last sentence of subsection (e) thereof and in subsections (f), (h)-(l) and (n) thereof'. The carve-out applies only to a Borrowing, so every excluded rep is brought down at the Term Loan Election. TS p.4: 'the representations as to no material adverse change, no litigation, ERISA and environmental matters shall be made only on the Closing Date.'"
+  },
+  {
+   "id": "A10",
+   "field": "ts_value",
+   "was": "Term SOFR (CME forward-looking), floor zero; USD only",
+   "now": "Term SOFR = forward-looking term rate based on SOFR administered by the Federal Reserve Bank of New York (no term-rate administrator such as CME is named), floor zero; USD only",
+   "evidence": "TS p.2-3: 'the forward-looking term rate for a period equal to the relevant interest period based on the secured overnight financing rate administered by the Federal Reserve Bank of New York.' CME appears only in the CA ('Term SOFR Screen Rate' means the forward-looking SOFR term rate administered by CME, PDF p.24)."
+  },
+  {
+   "id": "A15",
+   "field": "status / materiality / direction",
+   "was": "match / none / neutral",
+   "now": "match_minor_drafting / minor / borrower_favourable",
+   "evidence": "TS p.9: 'the Company will have paid the Agent a $3,500 administrative fee if such replacement Lender is not an existing Lender'. CA s.2.06(b)(iv), 2.11(c)(iv), 2.14(g)(iv): 'such assignee or the Company shall have paid the processing and recordation fee'. CA s.9.06(b)(iv): 'the Administrative Agent may, in its sole discretion, elect to waive such processing and recordation fee'. Amount matches; payer and waiver mechanics differ slightly in the Company's favour."
+  },
+  {
+   "id": "A15",
+   "field": "ca_location",
+   "was": "s.2.07, PDF p.32; s.2.05(b), PDF p.29; s.9.06(b), PDF p.70",
+   "now": "s.2.07, PDF p.32; s.2.05(b), PDF p.29; s.2.06(b)(iv), PDF p.30; s.2.11(c)(iv), PDF p.36; s.2.14(g)(iv), PDF p.41; s.9.06(b)(iv), PDF p.70",
+   "evidence": "The ca_value cited s.2.06(b)(iv), 2.11(c)(iv) and 2.14(g)(iv) without locations. Verified at the [PDF PAGE 30], [PDF PAGE 36] and [PDF PAGE 41] markers. The $3,500 fee is in 9.06(b)(iv) on p.70."
+  },
+  {
+   "id": "A18",
+   "field": "explanation / ca_value",
+   "was": "'The TS only refers to replacing Lenders \"provided that no Rating Condition (as defined in the Existing 364-Day Agreement)\" applies, which suggests it was carried over from the existing agreement.'",
+   "now": "Clarified that the TS ties the Rating Condition and the 3-Lender annual cap to lender replacement, while the CA ties the Rating Condition to the s.2.06(c) non-ratable reduction and leaves the s.2.06(b) replacement right conditioned only on no Event of Default plus the 3-Lender cap. Added the Rating Condition definition (both S&P and Moody's below BBB-/Baa3) and TS location p.7 'Other' item (4).",
+   "evidence": "TS p.7 item (4): 'replace any Lender through assignment or the addition of a new Lender provided that no Rating Condition ... has occurred and is continuing and no more than 3 non-defaulting Lenders in any calendar year may be replaced.' CA s.2.06(b) (p.29-30): conditions are no Event of Default and 'no right to replace more than three Non-Defaulting Lenders in any calendar year'. CA s.2.06(c)(i)-(ii) (p.30): 'at any time other than during any Rating Condition'; Rating Condition when S&P and Moody's 'rate the senior public Debt of the Company lower than BBB- and Baa3'."
+  },
+  {
+   "id": "A13",
+   "field": "ca_value / explanation",
+   "was": "Charged on each Lender's Unused Commitment from the agreement date until the Termination Date (no comment on accrual start)",
+   "now": "Added that the fee accrues 'from the date hereof' (March 6, 2026) for Initial Lenders, not from the Effective Date; the TS is silent and there is no difference if the Effective Date was the signing date. Status unchanged (match).",
+   "evidence": "CA s.2.05(a), PDF p.29: 'a commitment fee on the aggregate amount of such Lender's Unused Commitment from the date hereof in the case of each Initial Lender'."
+  },
+  {
+   "id": "A19",
+   "field": "explanation",
+   "was": "Noted the Interest Period definition's third-Business-Day selection inconsistency only",
+   "now": "Also noted that clause (i) of the 'Interest Period' definition cross-refers to a term loan conversion 'pursuant to Section 2.06' instead of s.2.07",
+   "evidence": "CA PDF p.18: 'if the Advances have been converted to a term loan pursuant to Section 2.06 prior to such selection'. The Term Loan Election is in s.2.07 (PDF p.32)."
+  },
+  {
+   "id": "X01",
+   "field": "ca_value / explanation",
+   "was": "No mention of the acquisition-limb wording",
+   "now": "Added that the CA acquisition limb covers 'any Person or group of Persons' (TS: 'any person'), a minor lender-favourable widening, alongside the existing borrower-favourable points",
+   "evidence": "CA 'Change of Control', PDF p.11: '(i) any Person or group of Persons (within the meaning of Section 13 or 14 of the Securities Exchange Act of 1934 ...)'. TS p.2: '(i) any person (other than the Company, any subsidiary ...'."
+  },
+  {
+   "id": "B04",
+   "field": "status / direction / ts_quote / ca_quote / explanation",
+   "was": "ts_open_filled_in_ca, neutral; quotes on the JLA group and 'Arrangers' definition",
+   "now": "differs (minor, neutral); quotes now show the Syndication Agents in each document",
+   "evidence": "Only the JLA list was open in the TS ('and other financial institutions'). The Syndication Agents were named definitively (TS p.1: 'Goldman Sachs Bank USA (\"GS\") and Morgan Stanley Senior Funding, Inc.'), but the CA cover (p.1) reads 'MORGAN STANLEY SENIOR FUNDING, INC. and MUFG BANK, LTD., as Syndication Agents'. Adding a named titled agent is a difference, not filling an open term."
+  },
+  {
+   "id": "B09",
+   "field": "explanation / ts_value / ca_value",
+   "was": "Said the MAC and litigation exceptions 'cover only public disclosure before signing, not any disclosure to Lenders before Closing', and treated this as part of a net borrower-favourable result",
+   "now": "The TS litigation rep has no disclosure exception, so the CA's public-filings exception is a borrower-favourable addition. The narrower MAC exception and the third-party no-consents rep are lender-favourable. Net still slightly borrower-favourable.",
+   "evidence": "TS p.5 item (4) has no disclosure carve-out. CA 4.01(f) (p.48): '(other than as disclosed in public filings prior to the date hereof)'. CA 4.01(e): 'except as otherwise publicly disclosed prior to the date hereof', against TS 'disclosed to the Lenders prior to the Closing Date'. CA 4.01(c): 'or any other third party'."
+  },
+  {
+   "id": "B12",
+   "field": "materiality / ca_value / explanation",
+   "was": "minor. 6.01(c) described as 'other covenants: 30 days after notice'. Material Subsidiary scope treated as a narrowing of the TS.",
+   "now": "material (borrower-favourable). The judgment EoD drops the TS aggregation test. The 6.01(c)(iii) cure runs from the earlier of Lender notice or officer knowledge. Cross-default also covers premium/interest. The Material Subsidiary scope is not a verifiable difference because the TS is silent on it.",
+   "evidence": "TS p.6: 'Unsatisfied judgment or order in excess of $500,000,000 individually or in the aggregate'. CA 6.01(f) (p.58): 'Any judgment or order for the payment of money in excess of $500,000,000', tested per judgment, with enforcement commenced and 10 consecutive days unstayed. CA 6.01(c)(iii) (p.56): '30 days after any Lender shall have given notice thereof to the Company or any of the principal financial officer... first has knowledge'. CA 6.01(d)(i): 'principal of or premium or interest on any Debt'."
+  },
+  {
+   "id": "B13",
+   "field": "direction / explanation / ca_value",
+   "was": "lender_favourable; Exchange Act group coverage listed as a borrower 'offset'",
+   "now": "neutral (mixed). Group coverage and the borrowing suspension are lender-favourable. Deferring termination to the end of outstanding Interest Periods (up to 6 months) and anchoring the board test at the Effective Date are borrower-favourable.",
+   "evidence": "CA 'Change of Control' (p.11): 'any Person or group of Persons (within the meaning of Section 13 or 14 of the Securities Exchange Act...)' against TS 'any person'. CA 2.06(d) (p.31): termination 'effective as of the later of (i) the date that is 60 calendar days after such Change of Control or (ii) the end of the Interest Period for any Term Rate Advance outstanding'."
+  },
+  {
+   "id": "B15",
+   "field": "ca_value / explanation",
+   "was": "'Minimum $10m, then $1m multiples, unless the Agent and Company consent'; Agent consent described as needed 'for other assignees'",
+   "now": "Adds the no-minimum exception for whole-position and Lender/Affiliate assignments, the no-Company-consent-during-Default rule for varying minimums, Agent consent only for non-Lender/non-Affiliate assignees, and the bar on assignments to the Company's Affiliates. Status unchanged.",
+   "evidence": "CA 9.06(b)(i)(A) (p.69): 'in the case of an assignment to a Lender or an Affiliate of a Lender, no minimum amount need be assigned'. 9.06(b)(i)(B) (p.70): '(unless a Default has occurred and is continuing...)'. 9.06(b)(iii)(B): Agent consent 'for any assignment to a Person that is not a Lender or an Affiliate of such Lender'."
+  },
+  {
+   "id": "X08",
+   "field": "status / materiality / direction / ca_value / explanation",
+   "was": "match / none / n/a",
+   "now": "match_minor_drafting / minor / borrower_favourable",
+   "evidence": "TS p.7 indemnifies 'any liabilities and expenses arising out of the 364-Day Facility or the use of proceeds'. CA 9.04(b) (p.68) is limited to losses 'arising out of... any investigation, litigation or proceeding arising out of, related to or in connection with the Notes, this Agreement' and excludes losses 'resulted from such Indemnified Party's gross negligence or willful misconduct'."
+  },
+  {
+   "id": "X16",
+   "field": "direction / ca_value / explanation",
+   "was": "lender_favourable",
+   "now": "neutral (mixed)",
+   "evidence": "CA 9.04(a) (p.68) covers only 'costs and expenses of the Administrative Agent in connection with the administration, modification and amendment'. Arrangers are omitted and negotiation/execution costs are not expressly covered (borrower-favourable), against the TS reimbursing 'the Joint Lead Arrangers and the Agent' for 'negotiation, syndication and execution'. The CA's enforcement costs and lack of an 'agreed' qualifier are lender-favourable, so the net effect is mixed."
+  },
+  {
+   "id": "B03",
+   "field": "ca_value / ca_location",
+   "was": "Stray LC/swingline wording noted only in the signature blocks (PDF pp.81-82)",
+   "now": "Also notes the stray 'applicable Issuing Bank' reference in the 'Applicable Time' definition (PDF p.9). Status unchanged.",
+   "evidence": "CA line under 'Applicable Time' (p.9): 'as may be determined by the Administrative Agent or the applicable Issuing Bank'."
+  }
+ ],
+ "confidence": "group A: re-checked by verifier, confidence high; group B: re-checked by verifier, confidence high",
+ "source": "Claude Code multi-agent workflow: independent reconciler + adversarial verifier per attribute group",
+ "generated_at": "2026-11-12T15:55:36+00:00",
+ "engine": "verified",
+ "deal": "Honeywell 364day 2026",
+ "ts_file": "Honeywell 364day 2026 TS.pdf",
+ "ca_file": "Honeywell 364day 2026 CA.pdf",
+ "quote_check": {
+  "ts_checked": 50,
+  "ca_checked": 52,
+  "ts_found": 50,
+  "ca_found": 52
+ }
+}

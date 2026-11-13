@@ -1,0 +1,680 @@
+{
+ "rows": [
+  {
+   "id": "R01",
+   "attribute": "Facility amount / commitments",
+   "ts_value": "$500m",
+   "ts_quote": "$500 million Senior Secured Revolving Credit Facility agreed) as a condition to the borrowing of any Revolving Loan or the issuance of any Letter of Credit which results in the Total Revolving Credit Exposure under the Credit Agreement exceeding $450 million",
+   "ts_location": "p. 1 (label \"Facility\")",
+   "ca_value": "provision located, no figures",
+   "ca_quote": "Exhibit 10.1 Execution Version AMENDMENT NUMBER FOUR TO SYNDICATED FACILITY AGREEMENT THIS AMENDMENT NUMBER FOUR TO SYNDICATED FACILITY AGREEMENT (this “Amendment”), dated as of March 31, 2026, is entered into by and among Fluence Energy, Inc., a Delaware corporation (“Parent”), Fluence Energy, LLC,",
+   "ca_location": "p. 1 (cover page)",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Found elsewhere in CA (check context): $500m (p. 50, 69, 161). Other figures in the TS entry (not compared): $450m.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R02",
+   "attribute": "Maturity date",
+   "ts_value": "stated in words (no figures)",
+   "ts_quote": "Guarantors, a perfected first-priority lien on substantially all tangible terms and conditions satisfactory to Administrative Agent and subject to release conditions to be mutually Maturity: and intangible assets, and in the case of non-U.S.",
+   "ts_location": "p. 1 (keyword \"maturity\")",
+   "ca_value": "2027-11-22",
+   "ca_quote": "“Maturity Date” means November 22, 2027. ",
+   "ca_location": "p. 72 (definition \"Maturity Date\")",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet addresses this in words only; compare the quoted text manually.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    72
+   ]
+  },
+  {
+   "id": "R03",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "$150m",
+   "ts_quote": "Full amount of the Facility shall be available for the issuance of LCs ŁCash draw sublimit of $150 million Same as existing",
+   "ts_location": "p. 1 (label \"LC Sublimit\")",
+   "ca_value": "$500m, $750m, $450m, $250m",
+   "ca_quote": "“LC Sublimit” means the lesser of (a) $500,000,000 and (b) the aggregate unused amount of the Commitments then in effect; provided that no Issuing Bank shall be required to issue Letters of Credit in an aggregate amount outstanding at any time in excess of the LC Commitment of such Issuing Bank. 34 ",
+   "ca_location": "p. 31, 35, 69, 72, 98, 132… (definition \"LC Sublimit\")",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Found elsewhere in CA (check context): $150m (p. 66, 85, 177, 178…).",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    69
+   ]
+  },
+  {
+   "id": "R04",
+   "attribute": "Swingline sublimit",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "not located in CA",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_applicable",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Neither document provides for this.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R05",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "$150m, $100m",
+   "ts_quote": "Permits up to $150 million in incremental debt Reduce increm ental capacity to $100 million prior to the Trigger Date",
+   "ts_location": "p. 1 (label \"Incremental\")",
+   "ca_value": "$100m, $150m, $5m, $1m",
+   "ca_quote": "(b) from and after the Trigger Date, $150,000,000. 31 “Indebtedness” of any Person at any date means, without duplication,",
+   "ca_location": "p. 66 (definition \"Incremental Amount\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $150m, $100m.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R06",
+   "attribute": "Extension option / term-out",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "no extension / term-out provision found",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_applicable",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Neither document has an extension or term-out option.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R07",
+   "attribute": "Applicable margin / pricing grid",
+   "ts_value": "300 bps, 50 bps",
+   "ts_quote": "Undrawn: 50 bps Same as existing LC: 3.00%",
+   "ts_location": "p. 1 (label \"Pricing\")",
+   "ca_value": "300 bps, 200 bps, 50 bps, 4000 bps, 5000 bps, 6000 bps, 7000 bps, 8000 bps",
+   "ca_quote": "(a) in the case of any Term Benchmark Loan or RFR Loan, 3.00% per annum, and",
+   "ca_location": "p. 38 (definition \"Applicable Rate\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 300 bps, 50 bps.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    38
+   ]
+  },
+  {
+   "id": "R08",
+   "attribute": "Commitment / facility fee",
+   "ts_value": "300 bps, 0 bps, 50 bps, 10 bps",
+   "ts_quote": "as existing US Dollars and such other currencies as the Borrower and the lenders may agree Drawn: S + 300 bps Undrawn: 50 bps LC: 3.00% 0.00% 10 bps WZ/s/> ' \u0018\u0003\u0004E\u0018\u0003\u0012KE&/\u0018 Ed/\u0004>\u0003Ξ\u0003&ůƵĞŶĐĞ\u0003 ŶĞƌŐǇ͕\u0003/ŶĐ͕͘\u0003\u0004ůů\u0003ƌŝŐŚƚƐ\u0003ƌĞƐĞƌǀĞĚͮ͘ ϳ WƌŽƉŽƐĞĚ\u0003dĞƌŵƐ\u0003ĨŽƌ\u0003^ĞĐƵƌĞĚ\u0003ZĞǀŽůǀŝŶ",
+   "ts_location": "p. 1 (keyword \"undrawn\")",
+   "ca_value": "50 bps, 300 bps, 4000 bps, 5000 bps, 6000 bps, 7000 bps, 8000 bps",
+   "ca_quote": "(a) in the case of any Term Benchmark Loan or RFR Loan, 3.00% per annum, and",
+   "ca_location": "p. 38 (pricing table)",
+   "status": "differs",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 300 bps, 50 bps. NOT found anywhere in CA: 10 bps.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    38
+   ]
+  },
+  {
+   "id": "R09",
+   "attribute": "Financial covenants",
+   "ts_value": "3.50x, $100m",
+   "ts_quote": "2026: ŁMinimum Liquidity(1) of $100 million and ŁMinimum Liquidity(1) of $100 million and ŁMaximum Consolidated Leverage Ratio of 3.5x ŁMaximum Consolidated Leverage Ratio of 3.5x\u0003ôWZ/s/> ' \u0018\u0003\u0004E\u0018\u0003\u0012KE&/\u0018 Ed/\u0004>\u0003Ξ\u0003&\u0001o\u0001µ\u0001˚\u0001v\u0001\u0010\u0001˚\u0003 ŶĞ\u0001„ŐǇ͕\u0003/\u0001v\u0001\u0010\u0003X͕\u0003\u0004ůů\u0003\u0001„\u0001]\u0001P\u0001Z\u0001ı\u0001’\u0003",
+   "ts_location": "p. 2 (label \"Financial Covenant\")",
+   "ca_value": "3.50x, $150m, $100m",
+   "ca_quote": "(ii) the Consolidated Leverage Ratio as of the last day of any Measurement Period to exceed 3.50:1.00",
+   "ca_location": "p. 185 (section \"Section 6.10 Financial Covenants.\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 3.50x, $100m.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    185
+   ]
+  },
+  {
+   "id": "R10",
+   "attribute": "Administrative agent",
+   "ts_value": "Guarantors, a perfected first-priority lien on substantially all tangible terms and conditions satisfactory to Administrative Agent and subject to release conditions to be mutually Maturity: and intangible assets, and in",
+   "ts_quote": "Guarantors, a perfected first-priority lien on substantially all tangible terms and conditions satisfactory to Administrative Agent and subject to release conditions to be mutually Maturity: and intangible assets, and in the case of non-U.S.",
+   "ts_location": "p. 1 (keyword \"administrative agent\")",
+   "ca_value": "CITIBANK, N.A. (“Citi”), in its capacity",
+   "ca_quote": "CITIBANK, N.A. (“Citi”), in its capacity",
+   "ca_location": "cover page",
+   "status": "differs",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names CITIBANK, N.A. (“Citi”), in its capacity, which do not appear in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R11",
+   "attribute": "Borrower(s)",
+   "ts_value": "Fluence Energy, LLC Fluence Energy Global Production Operation, LLC Same as existing Each of the Borrower™s existing and future, direct and indirect, material, wholly-owned, domestic",
+   "ts_quote": "Fluence Energy, LLC Fluence Energy Global Production Operation, LLC Same as existing Each of the Borrower™s existing and future, direct and indirect, material, wholly-owned, domestic",
+   "ts_location": "p. 1 (label \"Borrower\")",
+   "ca_value": "FLUENCE ENERGY, LLC; FLUENCE ENERGY GLOBAL PRODUCTION OPERATION, LLC",
+   "ca_quote": "FLUENCE ENERGY, LLC; FLUENCE ENERGY GLOBAL PRODUCTION OPERATION, LLC",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names FLUENCE ENERGY, LLC; FLUENCE ENERGY GLOBAL PRODUCTION OPERATION, LLC; each appears in the TS entry.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R12",
+   "attribute": "Governing law",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "New York",
+   "ca_quote": "governed by the laws of the Netherlands that creates or purports to create a Lien to secure the Parallel Debts or the Obligations, in each case delivered by any Loan Party in favor of the Administrative Agent. “EEA Financial Institution” means (a) any credit i",
+   "ca_location": "p. 56, 64, 68 (governing-law clause)",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Not stated in the term sheet.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    56
+   ]
+  },
+  {
+   "id": "R13",
+   "attribute": "Security (secured vs unsecured)",
+   "ts_value": "secured",
+   "ts_quote": "subsidiaries, any foreign subsidiaries of the Parent to the extent there are no material adverse tax Same as existing consequences, and the Parent (in each case subject to customary exceptions) In the case of the Borrower and U.S. Guarantors, a perfected first-priority lien on substantially all tang",
+   "ts_location": "p. 1 (label \"Guarantors\")",
+   "ca_value": "secured (definition \"Security Documents\")",
+   "ca_quote": "“Security Documents” means the collective reference to the U.S. Security Agreement, the Foreign Security Agreements, the Control Agreements, any Mortgages and all other security documents hereafter delivered to the Administrative Agent by a Loan Party granting or perfecting a Lien on any property or",
+   "ca_location": "p. 72, 86 (definition \"Security Documents\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS: secured; CA: secured.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    86
+   ]
+  },
+  {
+   "id": "R14",
+   "attribute": "Benchmark rates",
+   "ts_value": "none stated",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "Term SOFR, Daily Simple SOFR, SONIA, EURIBOR",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet does not name any.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R15",
+   "attribute": "Currencies",
+   "ts_value": "none stated",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "EUR, GBP, JPY, AUD",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet does not name any.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  }
+ ],
+ "trace": [
+  {
+   "type": "Amount",
+   "ts_text": "$50 million",
+   "normalised": "$50m",
+   "ts_page": 1,
+   "context": "Same, except that Borrower will be required to post cash collateral in an amount equal to $50 million (on Incremental: In the case of the Borrower and U.S. Guarantors, a perfected first-priority lien",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "72, 167"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$450 million",
+   "normalised": "$450m",
+   "ts_page": 1,
+   "context": "on or results in the Total Revolving Credit Exposure under the Credit Agreement exceeding $450 million Pricing: the exercise of remedies, payments and proceeds of collateral shall be applied first to",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "88, 105, 152, 165, 166"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$500 million",
+   "normalised": "$500m",
+   "ts_page": 1,
+   "context": "llateral shall be applied first to the Facility Same as existing SOFR Floor: Consent Fee: $500 million Senior Secured Revolving Credit Facility Reduce incremental capacity to $100 million prior to the",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "50, 69, 161"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100 million",
+   "normalised": "$100m",
+   "ts_page": 1,
+   "context": "Fee: $500 million Senior Secured Revolving Credit Facility Reduce incremental capacity to $100 million prior to the Trigger Date Full amount of the Facility shall be available for the issuance of LCs",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "47, 66, 168, 185"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$150 million",
+   "normalised": "$150m",
+   "ts_page": 1,
+   "context": "ility shall be available for the issuance of LCs Same as existing • Cash draw sublimit of $150 million Same as existing Permits up to $150 million in incremental debt Same as existing November 22, 202",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "66, 85, 177, 178, 180, 181, 185"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$150 million",
+   "normalised": "$150m",
+   "ts_page": 1,
+   "context": "LCs Same as existing • Cash draw sublimit of $150 million Same as existing Permits up to $150 million in incremental debt Same as existing November 22, 2027 Same as existing US Dollars and such other",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "66, 85, 177, 178, 180, 181, 185"
+  },
+  {
+   "type": "Date",
+   "ts_text": "November 22, 2027",
+   "normalised": "2027-11-22",
+   "ts_page": 1,
+   "context": "million Same as existing Permits up to $150 million in incremental debt Same as existing November 22, 2027 Same as existing US Dollars and such other currencies as the Borrower and the lenders may ag",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "72"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "300 bps",
+   "normalised": "300 bps",
+   "ts_page": 1,
+   "context": "US Dollars and such other currencies as the Borrower and the lenders may agree Drawn: S + 300 bps Undrawn: 50 bps LC: 3.00% 0.00% 10 bps WZ/s/> ' \u0018\u0003\u0004E\u0018\u0003\u0012KE&/\u0018 Ed/\u0004>\u0003Ξ\u0003&ůƵĞŶĐĞ\u0003 ŶĞƌŐǇ͕\u0003/ŶĐ͕͘\u0003\u0004ůů\u0003ƌŝŐŚƚƐ\u0003",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "38, 167, 183, 184"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50 bps",
+   "normalised": "50 bps",
+   "ts_page": 1,
+   "context": "ch other currencies as the Borrower and the lenders may agree Drawn: S + 300 bps Undrawn: 50 bps LC: 3.00% 0.00% 10 bps WZ/s/> ' \u0018\u0003\u0004E\u0018\u0003\u0012KE&/\u0018 Ed/\u0004>\u0003Ξ\u0003&ůƵĞŶĐĞ\u0003 ŶĞƌŐǇ͕\u0003/ŶĐ͕͘\u0003\u0004ůů\u0003ƌŝŐŚƚƐ\u0003ƌĞƐĞƌǀĞĚͮ͘ ϳ WƌŽƉ",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "38"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "3.00%",
+   "normalised": "300 bps",
+   "ts_page": 1,
+   "context": "rrencies as the Borrower and the lenders may agree Drawn: S + 300 bps Undrawn: 50 bps LC: 3.00% 0.00% 10 bps WZ/s/> ' \u0018\u0003\u0004E\u0018\u0003\u0012KE&/\u0018 Ed/\u0004>\u0003Ξ\u0003&ůƵĞŶĐĞ\u0003 ŶĞƌŐǇ͕\u0003/ŶĐ͕͘\u0003\u0004ůů\u0003ƌŝŐŚƚƐ\u0003ƌĞƐĞƌǀĞĚͮ͘ ϳ WƌŽƉŽƐĞĚ\u0003dĞƌŵƐ\u0003",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "38, 167, 183, 184"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.00%",
+   "normalised": "0 bps",
+   "ts_page": 1,
+   "context": "es as the Borrower and the lenders may agree Drawn: S + 300 bps Undrawn: 50 bps LC: 3.00% 0.00% 10 bps WZ/s/> ' \u0018\u0003\u0004E\u0018\u0003\u0012KE&/\u0018 Ed/\u0004>\u0003Ξ\u0003&ůƵĞŶĐĞ\u0003 ŶĞƌŐǇ͕\u0003/ŶĐ͕͘\u0003\u0004ůů\u0003ƌŝŐŚƚƐ\u0003ƌĞƐĞƌǀĞĚͮ͘ ϳ WƌŽƉŽƐĞĚ\u0003dĞƌŵƐ\u0003ĨŽƌ\u0003^Ğ",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "52, 63"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10 bps",
+   "normalised": "10 bps",
+   "ts_page": 1,
+   "context": "the Borrower and the lenders may agree Drawn: S + 300 bps Undrawn: 50 bps LC: 3.00% 0.00% 10 bps WZ/s/> ' \u0018\u0003\u0004E\u0018\u0003\u0012KE&/\u0018 Ed/\u0004>\u0003Ξ\u0003&ůƵĞŶĐĞ\u0003 ŶĞƌŐǇ͕\u0003/ŶĐ͕͘\u0003\u0004ůů\u0003ƌŝŐŚƚƐ\u0003ƌĞƐĞƌǀĞĚͮ͘ ϳ WƌŽƉŽƐĞĚ\u0003dĞƌŵƐ\u0003ĨŽƌ\u0003^ĞĐƵƌĞĚ\u0003",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$150 million",
+   "normalised": "$150m",
+   "ts_page": 2,
+   "context": "Payment Capacity: • Unlimited RP capacity prior to the Trigger Date subject to no EOD and $150 million PF Total Liquidity • Eliminate access to RP basket in Section 6.05(a)(ix)(A) prior to the Trigger",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "66, 85, 177, 178, 180, 181, 185"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$150 million",
+   "normalised": "$150m",
+   "ts_page": 2,
+   "context": "n-Cash • Unlimited junior debt repayments prior to the Trigger Date subject to no EOD and $150 million PF Total Consideration: Liquidity (Section 6.05(b)(iv)) Parent Convertible Notes) prior to the Tr",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "66, 85, 177, 178, 180, 181, 185"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$195 million",
+   "normalised": "$195m",
+   "ts_page": 2,
+   "context": "non-cash consideration for asset dispositions in Section 6.09(k) to greater of Greater of $195 million and 11.25% of Total Assets (Section 6.01(e)) $25 million and the corresponding percentage of Tota",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "167, 171"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "11.25%",
+   "normalised": "1125 bps",
+   "ts_page": 2,
+   "context": "ation for asset dispositions in Section 6.09(k) to greater of Greater of $195 million and 11.25% of Total Assets (Section 6.01(e)) $25 million and the corresponding percentage of Total Assets prior to",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "167, 171"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$25 million",
+   "normalised": "$25m",
+   "ts_page": 2,
+   "context": ".09(k) to greater of Greater of $195 million and 11.25% of Total Assets (Section 6.01(e)) $25 million and the corresponding percentage of Total Assets prior to the Trigger Date Basket for designated n",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "72, 179, 184, 190"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$40 million",
+   "normalised": "$40m",
+   "ts_page": 2,
+   "context": "igger Date Basket for designated non-cash consideration for asset dispositions greater of $40 million and 3% of Total Retain existing baskets for Investments under Sections 6.04(d), 6.04(e) and 6.04(j",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "3%",
+   "normalised": "300 bps",
+   "ts_page": 2,
+   "context": "t for designated non-cash consideration for asset dispositions greater of $40 million and 3% of Total Retain existing baskets for Investments under Sections 6.04(d), 6.04(e) and 6.04(j) (currently tot",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "38, 167, 183, 184"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$150 million",
+   "normalised": "$150m",
+   "ts_page": 2,
+   "context": "totaling $205 Assets (Section 6.09(k)) million) and implement an additional shared cap of $150 million in the aggregate prior to the Trigger Date • Basket for Investments by Loan Parties in Excluded S",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "66, 85, 177, 178, 180, 181, 185"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$85 million",
+   "normalised": "$85m",
+   "ts_page": 2,
+   "context": "igger Date • Basket for Investments by Loan Parties in Excluded Subsidiaries - greater of $85 million and 5% of Total Assets (Section 6.04(d)) • Basket for Investments (other than in Excluded Subsidia",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "174"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "5%",
+   "normalised": "500 bps",
+   "ts_page": 2,
+   "context": "ket for Investments by Loan Parties in Excluded Subsidiaries - greater of $85 million and 5% of Total Assets (Section 6.04(d)) • Basket for Investments (other than in Excluded Subsidiaries or JVs) - g",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "66, 174"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$45 million",
+   "normalised": "$45m",
+   "ts_page": 2,
+   "context": "04(d)) • Basket for Investments (other than in Excluded Subsidiaries or JVs) - greater of $45 million and 2.5% of Total Assets (Section 6.04(e)) • Basket for Investments in JVs (made after the Amendme",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "174, 183, 184"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "2.5%",
+   "normalised": "250 bps",
+   "ts_page": 2,
+   "context": "for Investments (other than in Excluded Subsidiaries or JVs) - greater of $45 million and 2.5% of Total Assets (Section 6.04(e)) • Basket for Investments in JVs (made after the Amendment No. 3 Effecti",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "174"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$75 million",
+   "normalised": "$75m",
+   "ts_page": 2,
+   "context": "asket for Investments in JVs (made after the Amendment No. 3 Effective Date) – greater of $75 million and 4% of Total Assets (Section 6.04(j)) Additional Amendments: N/A • Add $5 million basket to Sec",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "72, 175"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "4%",
+   "normalised": "400 bps",
+   "ts_page": 2,
+   "context": "ments in JVs (made after the Amendment No. 3 Effective Date) – greater of $75 million and 4% of Total Assets (Section 6.04(j)) Additional Amendments: N/A • Add $5 million basket to Section 6.02 to per",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "167, 175"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$5 million",
+   "normalised": "$5m",
+   "ts_page": 2,
+   "context": "of $75 million and 4% of Total Assets (Section 6.04(j)) Additional Amendments: N/A • Add $5 million basket to Section 6.02 to permit cash collateral to secure ordinary course bank product indebtednes",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "111, 131, 160, 172, 226"
+  },
+  {
+   "type": "Date",
+   "ts_text": "December 31, 2025",
+   "normalised": "2025-12-31",
+   "ts_page": 2,
+   "context": "ccounts in Taiwan and other jurisdictions TBD Financial Covenant: From Closing Date until December 31, 2025: From Closing Date until December 31, 2026: • Minimum Liquidity(1) of $150 million • Minimum",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "December 31, 2026",
+   "normalised": "2026-12-31",
+   "ts_page": 2,
+   "context": "BD Financial Covenant: From Closing Date until December 31, 2025: From Closing Date until December 31, 2026: • Minimum Liquidity(1) of $150 million • Minimum Liquidity(1) of $150 million Post-December",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$150 million",
+   "normalised": "$150m",
+   "ts_page": 2,
+   "context": "l December 31, 2025: From Closing Date until December 31, 2026: • Minimum Liquidity(1) of $150 million • Minimum Liquidity(1) of $150 million Post-December 31, 2025: Post-December 31, 2026: • Minimum",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "66, 85, 177, 178, 180, 181, 185"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$150 million",
+   "normalised": "$150m",
+   "ts_page": 2,
+   "context": "until December 31, 2026: • Minimum Liquidity(1) of $150 million • Minimum Liquidity(1) of $150 million Post-December 31, 2025: Post-December 31, 2026: • Minimum Liquidity(1) of $100 million and • Mini",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "66, 85, 177, 178, 180, 181, 185"
+  },
+  {
+   "type": "Date",
+   "ts_text": "December 31, 2025",
+   "normalised": "2025-12-31",
+   "ts_page": 2,
+   "context": "2026: • Minimum Liquidity(1) of $150 million • Minimum Liquidity(1) of $150 million Post-December 31, 2025: Post-December 31, 2026: • Minimum Liquidity(1) of $100 million and • Minimum Liquidity(1) o",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "December 31, 2026",
+   "normalised": "2026-12-31",
+   "ts_page": 2,
+   "context": "ty(1) of $150 million • Minimum Liquidity(1) of $150 million Post-December 31, 2025: Post-December 31, 2026: • Minimum Liquidity(1) of $100 million and • Minimum Liquidity(1) of $100 million and • Max",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100 million",
+   "normalised": "$100m",
+   "ts_page": 2,
+   "context": "of $150 million Post-December 31, 2025: Post-December 31, 2026: • Minimum Liquidity(1) of $100 million and • Minimum Liquidity(1) of $100 million and • Maximum Consolidated Leverage Ratio of 3.5x • Ma",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "47, 66, 168, 185"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$100 million",
+   "normalised": "$100m",
+   "ts_page": 2,
+   "context": "t-December 31, 2026: • Minimum Liquidity(1) of $100 million and • Minimum Liquidity(1) of $100 million and • Maximum Consolidated Leverage Ratio of 3.5x • Maximum Consolidated Leverage Ratio of 3.5x W",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "47, 66, 168, 185"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.5x",
+   "normalised": "3.50x",
+   "ts_page": 2,
+   "context": "n and • Minimum Liquidity(1) of $100 million and • Maximum Consolidated Leverage Ratio of 3.5x • Maximum Consolidated Leverage Ratio of 3.5x WZ/s/> ' \u0018\u0003\u0004E\u0018\u0003\u0012KE&/\u0018 Ed/\u0004>\u0003Ξ\u0003&ůƵĞŶĐĞ\u0003 ŶĞƌŐǇ͕\u0003/ŶĐ͕͘\u0003\u0004ůů\u0003ƌŝŐ",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "185"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.5x",
+   "normalised": "3.50x",
+   "ts_page": 2,
+   "context": "nd • Maximum Consolidated Leverage Ratio of 3.5x • Maximum Consolidated Leverage Ratio of 3.5x WZ/s/> ' \u0018\u0003\u0004E\u0018\u0003\u0012KE&/\u0018 Ed/\u0004>\u0003Ξ\u0003&ůƵĞŶĐĞ\u0003 ŶĞƌŐǇ͕\u0003/ŶĐ͕͘\u0003\u0004ůů\u0003ƌŝŐŚƚƐ\u0003ƌĞƐĞƌǀĞĚͮ͘ ϴ 1. Liquidity defined as, at a",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "185"
+  }
+ ],
+ "document_notes": "",
+ "quote_check": {
+  "ts_checked": 10,
+  "ca_checked": 11,
+  "ts_found": 3,
+  "ca_found": 10
+ },
+ "generated_at": "2026-11-12T14:40:31+00:00",
+ "engine": "rules",
+ "deal": "Fluence 2026",
+ "ts_file": "Fluence 2026 TS.pdf",
+ "ca_file": "Fluence 2026 CA.pdf"
+}

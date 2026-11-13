@@ -1,0 +1,1183 @@
+{
+ "rows": [
+  {
+   "id": "A01",
+   "attribute": "Facility type(s) and structure (revolver / term loan / tranches; new vs amendment)",
+   "ts_value": "Existing $500 million Senior Secured Revolving Credit Facility. The Proposed Terms column says \"Same, except\" for a new cash-collateral condition, so the deal is an amendment of the existing revolver. There is no term loan or tranching. Borrowers are Fluence Energy, LLC and Fluence Energy Global Production Operation, LLC (same as existing).",
+   "ts_quote": "$500 million Senior Secured Revolving Credit Facility",
+   "ts_location": "PDF p1, 'Facility' and 'Borrower' rows (Existing Terms / Proposed Terms table)",
+   "ca_value": "Amendment Number Four, dated March 31, 2026, to the Syndicated Facility Agreement dated November 22, 2023 (as amended by Amendments 1-3). Operative terms are in the Exhibit A conformed copy. It is a single secured revolving facility of Revolving Loans in Dollars or Alternative Currencies plus Letters of Credit, with agent Protective Advances. The two Borrowers are jointly and severally liable. No term loan or tranches.",
+   "ca_quote": "THIS AMENDMENT NUMBER FOUR TO SYNDICATED FACILITY AGREEMENT (this \"Amendment\"), dated as of March 31, 2026",
+   "ca_location": "Amendment No. 4 preamble, PDF p1; Exhibit A Section 2.01 (Commitments), PDF p105",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "Both documents describe an amendment to the existing secured revolving facility with the same two Borrowers. The structure is the same.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "A02",
+   "attribute": "Facility amount(s) and total commitments",
+   "ts_value": "$500 million. The proposed terms leave it unchanged (\"Same\"), except for the $50 million cash-collateral condition on usage above $450 million (see X01).",
+   "ts_quote": "$500 million Senior Secured Revolving Credit Facility",
+   "ts_location": "PDF p1, 'Facility' row",
+   "ca_value": "Aggregate Commitments of $500,000,000, stated as of the Amendment No. 3 Effective Date and not changed by Amendment No. 4. Per-lender amounts are in Schedule 2.01, which is not attached.",
+   "ca_quote": "The initial aggregate amount of the Lenders' Commitments as of the Amendment No. 3 Effective Date is $500,000,000.",
+   "ca_location": "Exhibit A Section 1.01, definition of \"Commitment\", PDF p50",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "Total commitments match at $500 million. The lender-by-lender split cannot be checked because Schedule 2.01 is not in the CA file.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    50
+   ]
+  },
+  {
+   "id": "A03",
+   "attribute": "Currencies available",
+   "ts_value": "US Dollars and such other currencies as the Borrower and the lenders may agree (same as existing).",
+   "ts_quote": "US Dollars and such other currencies as the Borrower and the lenders may agree",
+   "ts_location": "PDF p1, 'Currencies' row",
+   "ca_value": "Agreed Currencies are Dollars plus these Alternative Currencies: Euros; Australian Dollars (Letters of Credit and the Total Liquidity cash calculation only); Pounds Sterling; and any additional currency agreed after the Amendment No. 3 Effective Date by the Borrowers, Lenders, Issuing Banks and Administrative Agent. ABR Loans are Dollars only.",
+   "ca_quote": "\"Alternative Currency\" means (a) Euros, (b) for purposes of Letters of Credit and cash and Cash Equivalents included in the determination of Total Liquidity only, Australian Dollars, (c) Pounds Sterling",
+   "ca_location": "Exhibit A Section 1.01, definitions of \"Agreed Currency\" (PDF p37) and \"Alternative Currency\" (PDF p38)",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The TS gives a generic summary. The CA names EUR, GBP and AUD (LCs only) as currencies already agreed under the existing facility. It also requires Issuing Bank and Agent consent, not just Borrower and lenders, to add a currency. This is consistent with the TS's \"Same as existing\".",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    38
+   ]
+  },
+  {
+   "id": "A04",
+   "attribute": "Maturity / tenor",
+   "ts_value": "November 22, 2027 (same as existing).",
+   "ts_quote": "November 22, 2027",
+   "ts_location": "PDF p1, 'Maturity' row",
+   "ca_value": "Maturity Date is November 22, 2027.",
+   "ca_quote": "\"Maturity Date\" means November 22, 2027.",
+   "ca_location": "Exhibit A Section 1.01, definition of \"Maturity Date\", PDF p72",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The maturity date is the same in both documents.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    72
+   ]
+  },
+  {
+   "id": "A05",
+   "attribute": "Extension options / term-out option",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not addressed (PDF pp1-2)",
+   "ca_value": "No extension or term-out option found. Commitments terminate on the Maturity Date.",
+   "ca_quote": "(a) Unless previously terminated, the Commitments shall terminate on the Maturity Date.",
+   "ca_location": "Exhibit A Section 2.06(a), PDF p111",
+   "status": "not_applicable",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Neither document provides for a maturity extension or term-out. Searches of the CA for extension and term-out language found no such provision.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    111
+   ]
+  },
+  {
+   "id": "A06",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "Existing: up to $150 million of incremental debt. Proposed: reduce incremental capacity to $100 million prior to the Trigger Date, which implies $150 million from and after the Trigger Date. The TS does not define the Trigger Date or say it changes.",
+   "ts_quote": "Reduce incremental capacity to $100 million prior to the Trigger Date",
+   "ts_location": "PDF p1, 'Incremental' row (Existing: \"Permits up to $150 million in incremental debt\")",
+   "ca_value": "Incremental Amount is $100,000,000 before the Trigger Date and $150,000,000 from and after it. Increases are in Dollars, at least $5,000,000 each (in $1,000,000 multiples), subject to the Section 4.02 conditions, pro forma Section 6.10 compliance and pricing identical to existing loans (Section 2.18). Amendment No. 4 also changed the Trigger Date to the delivery of financial statements for the period ending December 31, 2026 (previously 2025), provided pro forma compliance with Section 6.10.",
+   "ca_quote": "\"Incremental Amount\" means at any time (a) prior to the Trigger Date, $100,000,000 and (b) from and after the Trigger Date, $150,000,000.",
+   "ca_location": "Exhibit A Section 1.01 \"Incremental Amount\", PDF p66; \"Trigger Date\" (\"December 31, 20252026\"), PDF p93; Section 2.18(a), PDF p131",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "lender_favourable",
+   "explanation": "The $100m before / $150m after amounts match the TS exactly. The CA also moves the Trigger Date out one year to FY2026 financial statements. The TS does not state this, though it fits the TS's one-year roll of the financial covenant step-down. The move keeps the $100m cap, and the other pre-Trigger Date restrictions, in place longer, so confirm it was agreed.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    66
+   ]
+  },
+  {
+   "id": "A07",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "The full amount of the Facility is available for LCs (same as existing).",
+   "ts_quote": "Full amount of the Facility shall be available for the issuance of LCs",
+   "ts_location": "PDF p1, 'LC Sublimit' row",
+   "ca_value": "LC Sublimit is the lesser of $500,000,000 and the aggregate unused Commitments. No Issuing Bank must issue above its LC Commitment, which is set in Schedule 2.01 (not attached).",
+   "ca_quote": "\"LC Sublimit\" means the lesser of (a) $500,000,000 and (b) the aggregate unused amount of the Commitments then in effect",
+   "ca_location": "Exhibit A Section 1.01, definition of \"LC Sublimit\", PDF p69; Section 2.19(b), PDF p133",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The LC sublimit equals the full $500m facility, as the TS states. Per-Issuing Bank LC Commitments cannot be checked because Schedule 2.01 is missing.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    69
+   ]
+  },
+  {
+   "id": "A08",
+   "attribute": "Swingline sublimit",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not addressed (PDF pp1-2)",
+   "ca_value": "No swingline facility. The only agent-funded advances are discretionary Protective Advances under Section 2.02(e).",
+   "ca_quote": "",
+   "ca_location": "No swingline provision found in Exhibit A (searched 'swingline' / 'swing line')",
+   "status": "not_applicable",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Neither document provides for a swingline.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "A09",
+   "attribute": "Borrower sublimits or other sublimits",
+   "ts_value": "Cash draw sublimit of $150 million (same as existing).",
+   "ts_quote": "Cash draw sublimit of $150 million",
+   "ts_location": "PDF p1, 'LC Sublimit' row, bullet",
+   "ca_value": "Revolving Loan Cap is the lesser of $150,000,000 and the aggregate unused Commitments. Revolving Loans above the cap must be prepaid (Section 2.08(c)). The CA also has a per-lender Borrowing Sublimit set in Schedule 2.01 (not attached). There is no sublimit for either individual Borrower.",
+   "ca_quote": "\"Revolving Loan Cap\" means the lesser of (a) $150,000,000 and (b) the aggregate unused amount of the Commitments then in effect.",
+   "ca_location": "Exhibit A Section 1.01, definition of \"Revolving Loan Cap\", PDF p85; Section 2.01(c)-(d), PDF p105; Section 2.08(c), PDF p112",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The $150m cash-draw sublimit matches. The CA's per-lender Borrowing Sublimit (Schedule 2.01) is not mentioned in the TS and cannot be checked. The new $450m threshold, which requires cash collateral, is covered in X01.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    85
+   ]
+  },
+  {
+   "id": "A10",
+   "attribute": "Benchmark rates, floors and credit spread adjustment",
+   "ts_value": "Drawn pricing is on SOFR (\"S + 300 bps\") with a 0.00% SOFR floor (same as existing). No credit spread adjustment is mentioned.",
+   "ts_quote": "0.00%",
+   "ts_location": "PDF p1, 'SOFR Floor' row (Existing: 0.00%; Proposed: Same as existing) and 'Pricing' row",
+   "ca_value": "The benchmarks are Term SOFR for Dollars, Adjusted EURIBOR for Euros and Daily Simple RFR (SONIA) for Sterling. Term SOFR and EURIBOR are floored at the 0.00% \"Floor\", and SONIA is floored at 0.00%. The Alternate Base Rate is floored at 1.00%. There is no credit spread adjustment, and spread adjustments appear only in the benchmark replacement mechanics.",
+   "ca_quote": "\"Floor\" means a rate of interest equal to 0.00%.",
+   "ca_location": "Exhibit A Section 1.01 \"Floor\", PDF p63; \"Term SOFR Rate\", PDF p92; \"Daily Simple RFR\", PDF p52; \"Alternate Base Rate\", PDF p37",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The SOFR floor of 0.00% and the absence of a CSA match. The TS does not mention the CA's other benchmarks (EURIBOR, SONIA) or the 1.00% ABR floor, but they are customary mechanics consistent with the existing facility.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    63
+   ]
+  },
+  {
+   "id": "A11",
+   "attribute": "Applicable margin / pricing grid (check EVERY tier and EVERY column)",
+   "ts_value": "Drawn margin S + 300 bps (flat, one tier), same as existing. No ABR margin is stated.",
+   "ts_quote": "Drawn: S + 300 bps",
+   "ts_location": "PDF p1, 'Pricing' row",
+   "ca_value": "Applicable Rate is 3.00% p.a. for Term Benchmark Loans (Term SOFR / EURIBOR) and RFR Loans, and 2.00% p.a. for ABR Loans. There is one flat rate and no grid.",
+   "ca_quote": "\"Applicable Rate\" means, for any day, (a) in the case of any Term Benchmark Loan or RFR Loan, 3.00% per annum, and (b) in the case of ABR Loan, 2.00% per annum.",
+   "ca_location": "Exhibit A Section 1.01, definition of \"Applicable Rate\", PDF p38",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The 300 bps SOFR margin equals the CA's 3.00% Term Benchmark/RFR rate. The CA's 2.00% ABR margin is not in the TS but is the customary 100 bps step-down.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    38
+   ]
+  },
+  {
+   "id": "A12",
+   "attribute": "Pricing basis (ratings / leverage / flat) and initial pricing level",
+   "ts_value": "Flat pricing with single drawn, undrawn and LC rates and no grid (same as existing).",
+   "ts_quote": "Drawn: S + 300 bps",
+   "ts_location": "PDF p1, 'Pricing' row",
+   "ca_value": "Flat: the Applicable Rate and the Applicable Commitment Fee Rate are fixed \"for any day\", with no ratings or leverage grid.",
+   "ca_quote": "\"Applicable Commitment Fee Rate\" means, for any day, 0.50% per annum.",
+   "ca_location": "Exhibit A Section 1.01, definitions of \"Applicable Commitment Fee Rate\" and \"Applicable Rate\", PDF p38",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "Both documents use flat pricing, with no ratings- or leverage-based grid.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    38
+   ]
+  },
+  {
+   "id": "A13",
+   "attribute": "Commitment / facility / unused fee",
+   "ts_value": "Undrawn fee of 50 bps (same as existing).",
+   "ts_quote": "Undrawn: 50 bps",
+   "ts_location": "PDF p1, 'Pricing' row",
+   "ca_value": "Commitment Fee accrues at 0.50% p.a. on each non-Defaulting Lender's average daily unused Commitment. It is paid quarterly in arrears (last day of March, June, September and December) and on termination, on an actual/360 basis.",
+   "ca_quote": "\"Applicable Commitment Fee Rate\" means, for any day, 0.50% per annum.",
+   "ca_location": "Exhibit A Section 1.01, PDF p38; Section 2.09(a), PDF p113",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The 50 bps undrawn fee equals the CA's 0.50% commitment fee on unused commitments.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    38
+   ]
+  },
+  {
+   "id": "A14",
+   "attribute": "Letter of credit participation fee and fronting fee",
+   "ts_value": "LC fee of 3.00% (same as existing). No fronting fee is stated.",
+   "ts_quote": "LC: 3.00%",
+   "ts_location": "PDF p1, 'Pricing' row",
+   "ca_value": "The LC participation fee accrues at the Applicable LC Fee Rate, which equals the Term SOFR Applicable Rate (3.00%) plus 2% while an Event of Default continues. The fronting fee is as agreed with each Issuing Bank, capped at 0.20% p.a., plus the issuer's standard charges. Both are paid quarterly on an actual/360 basis.",
+   "ca_quote": "\"Applicable LC Fee Rate\" means, for any day, a rate equal to the Applicable Rate then used to determine the interest rate on Term SOFR Loans",
+   "ca_location": "Exhibit A Section 1.01, definition of \"Applicable LC Fee Rate\", PDF p38; Section 2.09(b), PDF p113",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The 3.00% LC fee matches. The TS does not mention the fronting fee (capped at 0.20% p.a.); this is a customary CA mechanic. The +2% default step-up is covered in A16.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    38
+   ]
+  },
+  {
+   "id": "A15",
+   "attribute": "Upfront, ticking, term-out, extension or other fees stated in the TS",
+   "ts_value": "Consent Fee of 10 bps for the amendment. The TS does not state the base (e.g. consenting lenders' commitments).",
+   "ts_quote": "10 bps",
+   "ts_location": "PDF p1, 'Consent Fee' row",
+   "ca_value": "The amount is not stated in the CA. Amendment No. 4 Section 3(c) only makes payment of all fees due on the Amendment No. 4 Effective Date a condition precedent. \"Fee Letters\" still means only the Administrative Agent Fee Letter and the Lender Fee Letter, the latter dated the Amendment No. 3 Effective Date.",
+   "ca_quote": "The Lenders and the Agent shall have received, on or before the Amendment No. 4 Effective Date, all fees required to be paid by the Borrowers on the Amendment No. 4 Effective Date",
+   "ca_location": "Amendment No. 4 Section 3(c), PDF p2; Exhibit A Section 1.01 \"Fee Letters\", PDF p63",
+   "status": "not_in_ca",
+   "materiality": "minor",
+   "direction": "n/a",
+   "explanation": "The 10 bps consent fee (about $0.5m if charged on $500m of commitments) appears in neither the amendment nor the conformed agreement; it would normally sit in a separate fee letter. Its amount and base cannot be verified from the CA, so obtain the consent fee letter or funds flow.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    2
+   ]
+  },
+  {
+   "id": "A16",
+   "attribute": "Default interest",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not addressed (PDF pp1-2)",
+   "ca_value": "While an Event of Default under Section 7.01(a) or (b) (payment defaults) continues, overdue amounts bear interest at 2% above the applicable loan rate, or 2% above the ABR rate for other overdue amounts, payable on demand. The LC fee also steps up by 2% while any Event of Default continues.",
+   "ca_quote": "all overdue amounts outstanding hereunder shall bear interest, after as well as before judgment, at a rate per annum equal to (i) in the case of overdue principal of or interest on any Loan, 2% plus the rate otherwise applicable to such Loan",
+   "ca_location": "Exhibit A Section 2.10(d), PDF p114; \"Applicable LC Fee Rate\", PDF p38",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The TS is silent. The CA contains a customary 2% default rate on overdue amounts, and the LC fee step-up applies on any Event of Default. Amendment No. 4 does not change these terms.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    114
+   ]
+  },
+  {
+   "id": "A17",
+   "attribute": "Amortization and mandatory prepayments",
+   "ts_value": "Not stated in TS (revolver; no amortization mentioned).",
+   "ts_quote": "",
+   "ts_location": "Not addressed (PDF pp1-2)",
+   "ca_value": "No amortization: all loans are repaid in a bullet on the Maturity Date. Loans must be prepaid, or LC Exposure cash collateralized, immediately if exposure exceeds the Commitments or the Revolving Loan Cap, or if any Borrowing Limit is exceeded. This now includes new limit (e): exposure above $450,000,000 without compliance with Section 5.15.",
+   "ca_quote": "The Borrowers hereby unconditionally promise to pay to the Administrative Agent for the account of each Lender the then unpaid principal amount of each Loan on the Maturity Date.",
+   "ca_location": "Exhibit A Section 2.07(a), PDF p111; Section 2.08(c)-(d), PDF p112; Section 2.01(e), PDF p105",
+   "status": "not_in_ts",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The TS is silent and the bullet maturity is standard. Because Amendment No. 4 adds Borrowing Limit (e), exceeding $450m without the cash collateral also triggers mandatory prepayment. That goes beyond the TS's 'condition to borrowing' wording (see X01).",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    111
+   ]
+  },
+  {
+   "id": "A18",
+   "attribute": "Optional prepayments, commitment reductions, minimum borrowing amounts",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not addressed (PDF pp1-2)",
+   "ca_value": "Voluntary prepayment is allowed at any time without premium or penalty, subject to Section 2.13 breakage. Notice periods are 3 Business Days for SOFR and EUR loans, 5 Business Days for SONIA and 1 Business Day for ABR. Commitment reductions must be at least $5,000,000 in $1,000,000 multiples, on 3 Business Days' notice, and are permanent. Minimum borrowing is $1,000,000 in $1,000,000 multiples, with no more than 15 Term Benchmark/RFR Borrowings outstanding.",
+   "ca_quote": "The Borrowers shall have the right at any time and from time to time to prepay any Borrowing in whole or in part, without premium or penalty (subject to the requirements of Section 2.13)",
+   "ca_location": "Exhibit A Section 2.08(a)-(b), PDF p112; Section 2.06(b)-(c), PDF p111; Section 2.02(c), PDF p106",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The TS is silent. The CA has customary prepayment, reduction and minimum-amount mechanics, which Amendment No. 4 does not change.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    112
+   ]
+  },
+  {
+   "id": "A19",
+   "attribute": "Interest periods, notice periods and day count",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not addressed (PDF pp1-2)",
+   "ca_value": "Interest Periods are 1, 3 or 6 months (12 months or less than 1 month with every Lender's consent). Borrowing notice is 3 U.S. Government Securities Business Days for Term SOFR, 5 Business Days for SONIA, 3 Business Days for other Term Benchmark loans, and same day by 12:00 noon for ABR. Interest is actual/360 for Term SOFR and EURIBOR, and 365/366 for SONIA and Prime-based ABR. Fees are actual/360.",
+   "ca_quote": "ending on the numerically corresponding day in the calendar month that is one, three or six months (or, with the consent of each Lender, twelve months or less than one month) thereafter",
+   "ca_location": "Exhibit A Section 1.01 \"Interest Period\", PDF p68; Section 2.03, PDF p107; Section 2.10(f)-(g), PDF pp114-115",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The TS is silent. The CA has customary interest-period, notice and day-count mechanics.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    68
+   ]
+  },
+  {
+   "id": "B01",
+   "attribute": "Borrower(s)",
+   "ts_value": "Fluence Energy, LLC and Fluence Energy Global Production Operation, LLC (existing). Proposed: Same as existing.",
+   "ts_quote": "Borrower: Fluence Energy, LLC Same as existing Guarantors: Fluence Energy Global Production Operation, LLC",
+   "ts_location": "PDF page 1 (slide 7), 'Borrower' row",
+   "ca_value": "Borrowers: Fluence Energy, LLC (Parent Borrower) and Fluence Energy Global Production Operation, LLC, jointly and severally liable (Section 2.23). Fluence Energy, Inc. is the Parent and a Guarantor.",
+   "ca_quote": "FLUENCE ENERGY, LLC and FLUENCE ENERGY GLOBAL PRODUCTION OPERATION, LLC each as a Borrower",
+   "ca_location": "Exhibit A conformed agreement cover page, PDF page 30; Amendment No. 4 preamble, PDF page 1",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Both documents name the same two Borrowers. The TS text layout puts the second Borrower next to the 'Guarantors:' label, but the order of the value column (11 values for 11 labels, with the guarantor description following both entity names) shows both entities belong to the Borrower row.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    30
+   ]
+  },
+  {
+   "id": "B02",
+   "attribute": "Guarantor(s)",
+   "ts_value": "Guarantors are each of the Borrower's existing and future, direct and indirect, material, wholly-owned domestic subsidiaries, plus any foreign subsidiaries of the Parent where there are no material adverse tax consequences, plus the Parent (in each case subject to customary exceptions). Proposed: Same as existing.",
+   "ts_quote": "subsidiaries, any foreign subsidiaries of the Parent to the extent there are no material adverse tax",
+   "ts_location": "PDF page 1 (slide 7), 'Guarantors' row",
+   "ca_value": "'Guarantor' covers: (i) any non-Excluded Subsidiary that is a party or joins under 5.11/9.07; (ii) the Parent; (iii) each Dutch Guarantor; and (iv) each Borrower (cross-guarantee). 'Excluded Subsidiary' carves out non-wholly-owned subsidiaries, Immaterial Subsidiaries (5%/10% asset and revenue tests) and CFCs/CFC Holdcos. That carve-out does not apply to Covered Jurisdiction subsidiaries (US, Australia, Canada, Germany, Netherlands, Ireland, Philippines, Singapore, Switzerland, Taiwan, England and Wales), Foreign Guarantors or Material Foreign Subsidiaries. A Guarantor Coverage Test also applies: Loan Parties must hold at least 75% of Total Assets and 75% of Total Revenues (5.11(a), 6.10(c)). All of this is subject to the Agreed Security Principles.",
+   "ca_quote": "means (i) any Subsidiary (not including any Borrower or any Excluded Subsidiary) of the Parent Borrower party hereto as a Guarantor or that has executed a guaranty supplement pursuant to Section 5.11 or Section 9.07, (ii) the Parent, (iii) each Dutch Guarantor and (iv)",
+   "ca_location": "'Guarantor' and 'Guarantor Coverage Test' definitions, PDF page 65; 'Excluded Subsidiary' PDF page 61; 'Covered Jurisdiction' PDF page 52; Section 5.11(a), PDF page 158; Article 9, PDF page 209",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "lender_favourable",
+   "explanation": "The core guarantor group matches: material, wholly-owned domestic subsidiaries, the Parent, and foreign subsidiaries subject to a tax carve-out. The CA's existing terms (not changed by Amendment No. 4) also require guarantors from named Covered Jurisdictions and a 75% asset and revenue coverage test, which the TS summary leaves out.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    65
+   ]
+  },
+  {
+   "id": "B03",
+   "attribute": "Administrative agent and other agent roles (collateral agent, issuing banks, swingline lender)",
+   "ts_value": "not stated in TS. The TS only refers generically to the 'Administrative Agent' in the cash collateral proposal.",
+   "ts_quote": "",
+   "ts_location": "N/A (TS silent)",
+   "ca_value": "Citibank, N.A. is Administrative Agent and also holds the collateral role; Amendment No. 4 changes several 'Collateral Agent' references to 'Administrative Agent'. Issuing Banks are the Lenders identified on Schedule 2.01 or appointed later. There is an Australian Security Trustee role (8.13). There is no swingline facility or swingline lender.",
+   "ca_quote": "Citibank, N.A. is hereby appointed Administrative Agent hereunder and under the other Loan Documents",
+   "ca_location": "Section 8.01, PDF page 194; 'Issuing Bank' definition, PDF page 69; Amendment No. 4 preamble, PDF page 1",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The slides do not name the agents. The CA names Citibank, N.A. as Administrative Agent, with Issuing Banks as listed on Schedule 2.01.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    194
+   ]
+  },
+  {
+   "id": "B04",
+   "attribute": "Lead arrangers / bookrunners / titled agents",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "N/A (TS silent)",
+   "ca_value": "Citigroup Global Markets Inc., Barclays Bank PLC and JPMorgan Chase Bank N.A. are Joint Lead Arrangers and Joint Bookrunners. The Arrangers have no obligations in that capacity (8.01).",
+   "ca_quote": "means each of Citigroup Global Markets Inc., Barclays Bank PLC and JPMorgan Chase Bank N.A., in their respective capacities as lead arrangers and bookrunners",
+   "ca_location": "Cover page, PDF page 30; 'Arrangers' definition, PDF page 39",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Arranger titles appear only in the CA.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    39
+   ]
+  },
+  {
+   "id": "B05",
+   "attribute": "Purpose / use of proceeds",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "N/A (TS silent)",
+   "ca_value": "Proceeds may be used for capital expenditures, transaction fees and expenses, working capital and general corporate purposes, including stock repurchases and acquisitions not otherwise prohibited. Margin stock uses are prohibited. Section 6.08 adds sanctions and anti-corruption restrictions on use of proceeds.",
+   "ca_quote": "The proceeds of the Revolving Loans and Letters of Credit will be used only for capital expenditures, to pay transaction fees and expenses, and for working capital and general corporate purposes",
+   "ca_location": "Section 5.10, PDF page 158; Section 6.08, PDF page 183",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The slides do not address purpose, and Amendment No. 4 does not change it.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    158
+   ]
+  },
+  {
+   "id": "B06",
+   "attribute": "Security / collateral, including any fall-away or springback",
+   "ts_value": "Borrower and U.S. Guarantors: perfected first-priority lien on substantially all tangible and intangible assets. Non-U.S. Guarantors: perfected first-priority security interest in certain assets 'to be agreed' (customary exceptions). Proposed: Same as existing. No fall-away or springback is mentioned.",
+   "ts_quote": "In the case of the Borrower and U.S. Guarantors, a perfected first-priority lien on substantially all tangible",
+   "ts_location": "PDF page 1 (slide 7), 'Security' row",
+   "ca_value": "Each Loan Party grants a perfected first-priority Lien on all assets, excluding real property covered by 5.11(c) and Excluded Property, and pledges 100% of the Equity Interests of each Borrower and Subsidiary Guarantor. Foreign collateral is subject to the Agreed Security Principles (Exhibit G) and local-law Security Documents. No other debt may be secured on Collateral senior to or pari passu with the Obligations (6.01 and 6.02 final paragraphs; Super-Priority Covenant). No fall-away or springback provision was found. Amendment No. 4 §14 reaffirms the Liens.",
+   "ca_quote": "sufficient to cause the Obligations to be secured by a perfected first-priority Lien on all of the assets",
+   "ca_location": "Section 5.11(a)(ii)-(iii), PDF page 159; 'Collateral' PDF page 50; 'Excluded Property' PDF page 60; 'Security Documents' PDF page 86; Section 6.01 final paragraph, PDF page 169; Amendment No. 4 §14, PDF page 5",
+   "status": "ts_open_filled_in_ca",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The U.S. all-asset first lien matches. The TS's 'certain assets to be agreed' for non-U.S. Guarantors is filled in by the CA: all-asset security subject to the Agreed Security Principles and local Security Documents.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    159
+   ]
+  },
+  {
+   "id": "B07",
+   "attribute": "Financial covenants (type, level, step-ups, testing, cure rights)",
+   "ts_value": "Proposed: from Closing Date until December 31, 2026, Minimum Liquidity of $150MM. After December 31, 2026, Minimum Liquidity of $100MM and Maximum Consolidated Leverage Ratio of 3.5x. Existing terms had the same levels with 2025 dates. The TS does not state testing frequency or cure rights.",
+   "ts_quote": "From Closing Date until December 31, 2026:",
+   "ts_location": "PDF page 2 (slide 8), 'Financial Covenant' row, Proposed Terms column",
+   "ca_value": "6.10(a): from the Amendment No. 3 Effective Date through December 31, 2026 (2025 struck, 2026 inserted), Total Liquidity must be at least $150,000,000 at all times. 6.10(b): from January 1, 2027 (2026 struck, 2027 inserted), Total Liquidity must be at least $100,000,000 at all times, and the Consolidated Leverage Ratio must not exceed 3.50:1.00 on the last day of any Measurement Period. 6.10(c): Guarantor Coverage Test at each test date. 7.02 equity cure applies to the leverage covenant only: cash must be received by the 15th Business Day after the compliance certificate is due; at least 2 of any 4 consecutive quarters must be cure-free; at most 4 cures over the life of the facility.",
+   "ca_quote": "December 31, 20252026, Total Liquidity at any time to be less than $150,000,000; (b) from and after January 1, 20262027, (i) Total Liquidity at any time to be less than $100,000,000 or (ii) the Consolidated Leverage Ratio as of the last day of any Measurement Period to exceed 3.50:1.00",
+   "ca_location": "Section 6.10(a)-(c), PDF page 185; Section 7.02, PDF pages 192-193; 'Guarantor Coverage Test' PDF page 65",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "Levels and the one-year shift of the step-down to January 1, 2027 match exactly. The CA starts the period at the Amendment No. 3 Effective Date rather than 'Closing Date'. The CA also contains the existing Guarantor Coverage Test covenant and a leverage-only equity cure that the TS does not mention. The narrower CA Liquidity definition is covered in X10.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    185
+   ]
+  },
+  {
+   "id": "B08",
+   "attribute": "Key negative covenants and basket amounts (liens, debt, restricted payments, investments, asset sales)",
+   "ts_value": "Proposed changes, each applying prior to the Trigger Date:\n- remove the 6.05(a)(ix)(A) RP basket;\n- remove the 6.05(b)(iv) RDP basket;\n- no Available Equity Amount RPs/RDPs, except RDPs on Parent Convertible Notes;\n- 6.01(e) general debt basket ($195MM / 11.25%) must be unsecured;\n- 6.09(k) designated non-cash consideration (DNCC) basket reduced to the greater of $25MM and the corresponding percentage of Total Assets;\n- 6.04(d), (e) and (j) investment baskets ($85MM/5%, $45MM/2.5%, $75MM/4%) kept, with a new $150MM shared cap.\nAlso adds a new $5MM 6.02 cash-collateral lien basket.",
+   "ts_quote": "Eliminate access to RP basket in Section 6.05(a)(ix)(A) prior to the Trigger Date",
+   "ts_location": "PDF page 2 (slide 8), rows 'Restricted Payment / Restricted Debt Payment Capacity', 'General Debt Basket', 'Designated Non-Cash Consideration', 'Investment Capacity', 'Additional Amendments'",
+   "ca_value": "Restated 6.05(a)(ix): unlimited RPs are allowed only if (A) there is no Default or Event of Default, (B) the RP is made on or after the Trigger Date, (C) the Loan Parties are in pro forma compliance with 6.10, and (D) pro forma Consolidated Leverage Ratio is at most 2.50:1.00. The pre-Trigger Date '$150,000,000 Total Liquidity' prong is struck. Every other proposed change is implemented (see X02-X08). Existing baskets confirmed: 6.01(e) $195,000,000/11.25%; 6.04(d) $85,000,000/5.0%; 6.04(e) $45,000,000/2.5%; 6.04(j) $75,000,000/4%. However, the existing post-Trigger DNCC basket in 6.09(k) is $45,000,000/3.0% (TS: $40MM/3%), and the pre-Trigger DNCC percentage left open in the TS is set at 1.101%.",
+   "ca_quote": "(B) such Restricted Payment is greater than or equal to $150,000,000, or (B) if made on or after the Trigger Date, (C) the Loan Parties would be in compliance with Section 6.10",
+   "ca_location": "Section 6.05(a)(ix), PDF page 178. See also 6.01 (PDF page 167), 6.02 (page 172), 6.04 (pages 174-177), 6.05 (pages 178-181), 6.09(k) (page 184).",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The quoted text merges deleted and inserted words. Read with the redline, 'greater than or equal to $150,000,000, or (B) if' is deleted and 'made' is inserted, so the RP basket is unavailable before the Trigger Date, as the TS proposes. All proposed negative covenant changes are implemented. This summary row cannot be a clean 'match' because two detail rows depart from the TS: the TS misstates the existing post-Trigger DNCC floor ($40MM against the CA's $45MM, X06), and the DNCC percentage the TS left open is filled in at an unusual 1.101% (X05).",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    178
+   ]
+  },
+  {
+   "id": "B09",
+   "attribute": "Representations and warranties",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "N/A (TS silent)",
+   "ca_value": "Article 3 (3.01-3.19) covers organization, authorization, no conflicts, financials/no MAC, properties, litigation/environmental, compliance, Investment Company Act, margin stock, taxes, ERISA/Canadian pensions, disclosure, subsidiaries, solvency, anti-terrorism, anti-corruption/sanctions, security documents, and Australian and Irish reps. Amendment No. 4 §6 adds amendment reps: organization, authority/enforceability, no conflicts, compliance/no default, and reps true in all material respects.",
+   "ca_quote": "Each of the Parent and its Subsidiaries is duly organized, incorporated or formed, validly existing and in good standing",
+   "ca_location": "Article 3, Section 3.01 at PDF page 142 onward; Amendment No. 4 §6, PDF pages 3-4",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The slides are silent on reps. The CA has a full reps package, and the amendment repeats the reps at effectiveness.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    142
+   ]
+  },
+  {
+   "id": "B10",
+   "attribute": "Conditions precedent to closing / effectiveness",
+   "ts_value": "not stated in TS (beyond the 10 bps Consent Fee line; see X01)",
+   "ts_quote": "",
+   "ts_location": "N/A (TS silent)",
+   "ca_value": "Amendment No. 4 §3 conditions:\n(a) counterparts signed by the Loan Parties, the Agent and the Required Lenders;\n(b) officer's certificate on 3(d)-(e) and a CFO solvency certificate;\n(c) payment of fees due on the effective date and of expenses invoiced at least 1 Business Day before;\n(d) reps true in all material respects;\n(e) no Default or Event of Default.\nSection 4.01 (original closing conditions) is [Reserved] in the conformed copy.",
+   "ca_quote": "The Agent (or its counsel) shall have received a duly executed counterpart of this Amendment, duly executed by the Loan Parties, the Agent and the Required Lenders",
+   "ca_location": "Amendment No. 4 Section 3(a)-(e), PDF pages 1-2; Exhibit A Section 4.01, PDF page 152",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The slides do not set out effectiveness conditions. The CA sets standard amendment conditions, approved at Required Lender level.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "B11",
+   "attribute": "Conditions to each borrowing",
+   "ts_value": "Borrower must post $50MM cash collateral as a condition to any Revolving Loan or LC issuance that takes Total Revolving Credit Exposure above $450MM. Terms must satisfy the Administrative Agent, and release conditions are 'to be mutually agreed'. Other borrowing conditions are not stated.",
+   "ts_quote": "Same, except that Borrower will be required to post cash collateral in an amount equal to $50 million (on",
+   "ts_location": "PDF page 1 (slide 7), 'Facility' row, Proposed Terms column",
+   "ca_value": "4.02(c): at each Borrowing or LC issuance, pro forma compliance with 6.10(a) (pre-existing). Amendment No. 4 inserts: if Total Revolving Extensions of Credit would exceed $450,000,000, compliance with 5.15, with the Specified Cash Collateral deposited first. 2.01(e) adds a matching Borrowing Limit.\n5.15(a): if exposure exceeds $450MM at any time, Cash Collateral of at least the Minimum Collateral Amount ($50,000,000 for 5.15) must be held in a Citibank, N.A. account under Agent control, with no interest. 5.15(b): top-up on Agent demand if below the Minimum Collateral Amount.\n5.15(c): release within 2 Business Days of request after a Release Trigger Event (no Default and exposure below $450MM for 3 consecutive Business Days). The requirement re-applies if exposure later exceeds $450MM.\n5.15(d): account and control agreement due by the earlier of 45 days after the Amendment No. 4 Effective Date and a borrowing request above $450MM.\n4.02(a)-(b): reps true; no Default.\n5.15 is not listed in 7.01(d), so a breach of the maintenance requirement is an Event of Default only under 7.01(e) (30 days after notice).",
+   "ca_quote": "if after giving effect on a Pro Forma Basis to such Borrowing or the issuance of such Letter of Credit the Total Revolving Extensions of Credit would exceed $450,000,000, Section 5.15",
+   "ca_location": "Section 4.02, PDF page 152; Section 2.01(e), PDF page 105; Section 5.15, PDF pages 165-166; 'Minimum Collateral Amount' PDF page 72; 'Specified Cash Collateral Release Trigger Event' PDF page 88; Section 7.01(d)-(e), PDF pages 188-189",
+   "status": "ts_open_filled_in_ca",
+   "materiality": "material",
+   "direction": "lender_favourable",
+   "explanation": "The $50MM amount and the $450MM trigger match ('Total Revolving Extensions of Credit' is the CA's Dollar-Equivalent version of the TS's 'Total Revolving Credit Exposure'). The TS's open release conditions are filled in: no Default and exposure below $450MM for 3 Business Days. The CA goes further than the TS, in the lenders' favour: it is an 'at any time' maintenance requirement that can also be triggered by FX revaluation, it adds a 45-day account deadline, and the collateral is excluded from Total Liquidity. Breach of 5.15 itself carries a 30-day-after-notice grace period under 7.01(e).",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    152
+   ]
+  },
+  {
+   "id": "B12",
+   "attribute": "Events of default and thresholds (cross-default, judgment, grace periods)",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "N/A (TS silent)",
+   "ca_value": "7.01 events of default:\n(a) principal / LC reimbursement: no grace;\n(b) interest and fees: 5 Business Days;\n(d) breach of 5.02(a), 5.03 (existence), 5.10, 5.16 or Article 6: immediate;\n(e) other covenants: 30 days after notice;\n(f)/(g) cross-payment-default and cross-acceleration to Material Indebtedness above $25,000,000, after grace periods;\n(h) involuntary insolvency: 60 days;\n(l) judgments above $25,000,000 that remain undischarged and unstayed for 30 consecutive days;\n(n) Change in Control;\n(o)-(p) guarantee, Loan Document or Lien invalidity.",
+   "ca_quote": "one or more judgments for the payment of money in excess of $25,000,000 in the aggregate shall be rendered against any Loan Party",
+   "ca_location": "Section 7.01, PDF pages 188-191; 'Material Indebtedness' PDF page 72",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The slides do not address events of default, and Amendment No. 4 does not change them.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    190
+   ]
+  },
+  {
+   "id": "B13",
+   "attribute": "Change of control",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "N/A (TS silent)",
+   "ca_value": "A Change in Control occurs if:\n- a person or group, other than the Permitted Holders (AES and Siemens), acquires more than 40% of voting power in the Parent and Parent Borrower and more than the Permitted Holders hold;\n- the Parent stops being sole managing member of the Parent Borrower; or\n- the Parent Borrower stops owning 100% of the other Borrower and the Subsidiary Guarantors.\nIt is an Event of Default under 7.01(n).",
+   "ca_quote": "(other than the Permitted Holders), of Equity Interests in each of the Parent and the Parent Borrower (i) representing more than 40% of the aggregate ordinary voting power",
+   "ca_location": "'Change in Control' definition, PDF page 49; Section 7.01(n), PDF page 190",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Change of control appears only in the CA and is unchanged by Amendment No. 4.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    49
+   ]
+  },
+  {
+   "id": "B14",
+   "attribute": "Required lenders, voting and sacred rights",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "N/A (TS silent)",
+   "ca_value": "Required Lenders: more than 50% of exposure plus unused Commitments, with Defaulting Lenders disregarded. Supermajority Lenders (more than 66 2/3%) are needed to amend the Super-Priority Covenant.\n- Each affected Lender must consent to: reductions in principal, rate or fees; postponements; extending or increasing its Commitment; amending 7.03 or Alternative Currency.\n- Each Lender must consent to changes in: Applicable Percentage; the Revolving Loan Cap definition; pro rata sharing; release of all or substantially all Guarantors or Collateral; voting percentages; subordination.\nAmendment No. 4 was approved by the Required Lenders.",
+   "ca_quote": "Lenders (a) having Revolving Credit Exposure and unused Commitments representing more than 50% of the sum of the Total Revolving Extensions of Credit and unused Commitments of all Lenders at such time",
+   "ca_location": "'Required Lenders' PDF page 84; 'Supermajority Lenders' PDF page 90; Section 10.02(b), PDF page 222",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The slides are silent on voting. The CA voting provisions are standard and were not amended.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    84
+   ]
+  },
+  {
+   "id": "B15",
+   "attribute": "Assignments and participations",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "N/A (TS silent)",
+   "ca_value": "Assignments (not to Loan Parties or their Affiliates) need consent, not to be unreasonably withheld or delayed, from:\n- the Parent Borrower: not needed for assignments to a Lender, an Affiliate of a Lender or an Approved Fund, or during an Event of Default; deemed given unless it objects within 10 Business Days;\n- the Agent: not needed for assignment of a Commitment to an existing Lender with a Commitment, an Affiliate of a Lender or an Approved Fund;\n- each Issuing Bank.\nMinimum assignment is $5,000,000, except assignments to a Lender or Lender Affiliate or of the entire remaining amount. Participations are permitted under 10.04(c).",
+   "ca_quote": "any Lender may assign to one or more assignees (but not to any Loan Party or an Affiliate thereof) all or a portion of its rights and obligations under this Agreement",
+   "ca_location": "Section 10.04(b), PDF pages 226-227",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Assignments appear only in the CA and are unchanged by Amendment No. 4.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    226
+   ]
+  },
+  {
+   "id": "B16",
+   "attribute": "Defaulting lender, yield protection, taxes, lender replacement",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "N/A (TS silent)",
+   "ca_value": "Standard provisions:\n- Increased costs (2.12);\n- Taxes (2.14);\n- Mitigation and replacement of Lenders, including Defaulting and Non-Consenting Lenders (2.16(b));\n- Defaulting Lender provisions (2.17), including reallocation and cash collateral;\n- EU/UK bail-in acknowledgment (10.19).",
+   "ca_quote": "any Lender is a Defaulting Lender or a Non-Consenting Lender, then the Borrowers may, at their sole expense and effort, upon notice by the Borrowers to such Lender and the Administrative Agent",
+   "ca_location": "Sections 2.12 (PDF page 118), 2.14 (page 121), 2.16 (page 127), 2.17 (pages 128-131); 'Defaulting Lender' (page 53); Section 10.19 (page 239)",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Boilerplate lender protections appear only in the CA.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    127
+   ]
+  },
+  {
+   "id": "B17",
+   "attribute": "Governing law and jurisdiction",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "N/A (TS silent)",
+   "ca_value": "New York law, subject to 8.13 (Australian security trust). Exclusive jurisdiction of the federal and state courts in New York County, Manhattan. Jury trial waiver in 10.10. Amendment No. 4 §8 incorporates 10.09 and 10.10.",
+   "ca_quote": "Subject to Section 8.13, this Agreement shall be construed in accordance with and governed by the law of the State of New York.",
+   "ca_location": "Section 10.09(a)-(b), PDF pages 232-233; Section 10.10, PDF page 233; Amendment No. 4 §8, PDF page 4",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Governing law appears only in the CA.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    232
+   ]
+  },
+  {
+   "id": "X01",
+   "attribute": "Specified cash collateral condition for usage above $450 million (proposed 'Facility' change)",
+   "ts_value": "The Borrower must post $50 million of cash collateral as a condition to any Revolving Loan or LC issuance that takes Total Revolving Credit Exposure above $450 million. Terms and conditions are to be satisfactory to the Administrative Agent, and release conditions are \"to be mutually agreed\".",
+   "ts_quote": "Same, except that Borrower will be required to post cash collateral in an amount equal to $50 million (on",
+   "ts_location": "PDF p1, 'Facility' row, Proposed Terms column (continues: \"...results in the Total Revolving Credit Exposure under the Credit Agreement exceeding $450 million\")",
+   "ca_value": "Under new Section 5.15, if Total Revolving Extensions of Credit exceed $450,000,000 at any time, the Borrowers must deposit and maintain USD Cash Collateral of at least the Minimum Collateral Amount ($50,000,000 for Section 5.15). It is held in a segregated account at Citibank, N.A. under Agent control and earns no interest. The Borrowers must top up any shortfall promptly on the Agent's demand (Section 5.15(b)). The deposit is also a condition precedent to any credit event that takes exposure above $450m (Section 4.02(c)) and a Borrowing Limit (Section 2.01(e)). Release: on request, within 2 Business Days, once there is no Default or Event of Default and exposure has been below $450m for 3 consecutive Business Days. The account and control agreement must be in place by the earlier of 45 days after the Amendment No. 4 Effective Date (or a later date the Agent agrees) and any Borrowing Request above $450m. The definition of Total Liquidity expressly excludes Specified Cash Collateral, so the posted $50m does not count toward the minimum liquidity covenant.",
+   "ca_quote": "exceed $450,000,000, the Borrowers shall deposit and maintain Cash Collateral in United States Dollars in an amount not less than the applicable Minimum Collateral Amount",
+   "ca_location": "Exhibit A Section 5.15(a)-(d), PDF pp165-166; \"Minimum Collateral Amount\", PDF p72; \"Specified Cash Collateral Release Trigger Event\", PDF p88; \"Total Liquidity\", PDF p93; Section 4.02(c), PDF p152; Section 2.01(e), PDF p105",
+   "status": "ts_open_filled_in_ca",
+   "materiality": "minor",
+   "direction": "lender_favourable",
+   "explanation": "The $50m amount and $450m threshold match. The CA fills in the release conditions the TS left open, as well as mechanics the TS left to the Agent's satisfaction. The CA terms are somewhat broader than a pure borrowing condition: the collateral must be maintained whenever exposure exceeds $450m (including through FX revaluation), with a top-up on demand; breach triggers mandatory prepayment through Borrowing Limit (e); the account must be set up within 45 days regardless of usage; and the collateral earns no interest. The CA also excludes the posted collateral from Total Liquidity. This fits the TS footnote, which counts only unrestricted cash as Liquidity, but it means posting the $50m reduces covenant liquidity. The TS's 'Total Revolving Credit Exposure' is called 'Total Revolving Extensions of Credit' in the CA.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    165
+   ]
+  },
+  {
+   "id": "X01",
+   "attribute": "Consent fee",
+   "ts_value": "Consent Fee of 10 bps for the amendment.",
+   "ts_quote": "10 bps",
+   "ts_location": "PDF page 1 (slide 7), 'Consent Fee' row",
+   "ca_value": "No consent fee amount is stated. Amendment No. 4 §3(c) only makes effectiveness conditional on payment of all fees due on the Amendment No. 4 Effective Date (presumably under a separate fee letter); §7 covers expenses.",
+   "ca_quote": "all fees required to be paid by the Borrowers on the Amendment No. 4 Effective Date",
+   "ca_location": "Amendment No. 4 Section 3(c), PDF page 2; Section 7, PDF page 4",
+   "status": "not_in_ca",
+   "materiality": "minor",
+   "direction": "n/a",
+   "explanation": "The 10 bps consent fee cannot be verified from the CA, which refers only generically to fees payable at effectiveness. It should be confirmed against the fee letter or funds flow.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    2
+   ]
+  },
+  {
+   "id": "X02",
+   "attribute": "Restricted debt payment basket 6.05(b)(iv) (B08 detail)",
+   "ts_value": "Remove access to the 6.05(b)(iv) RDP basket before the Trigger Date. Existing term: unlimited junior debt repayments before the Trigger Date, subject to no EOD and $150MM pro forma Total Liquidity.",
+   "ts_quote": "Eliminate access to RDP basket in Section 6.05(b)(iv) prior to the Trigger Date",
+   "ts_location": "PDF page 2 (slide 8), 'Restricted Payment / Restricted Debt Payment Capacity' row",
+   "ca_value": "Restated 6.05(b)(iv): Junior Debt RDPs are allowed only if (A) no Default or Event of Default, (B) made on or after the Trigger Date, (C) pro forma 6.10 compliance, and (D) pro forma Consolidated Leverage Ratio at most 2.50:1.00. The pre-Trigger Date prong ($150,000,000 Total Liquidity) is struck.",
+   "ca_quote": "(B) (x) if prior to the Trigger Date, Total Liquidity immediately after giving Pro Forma Effect to such Restricted Debt Payment is greater than or equal to $150,000,000, or (y) ifmade on or after the Trigger Date",
+   "ca_location": "Section 6.05(b)(iv), PDF page 181",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "PDF strike lines confirm that the quoted pre-Trigger Date prong is deleted (except 'such Restricted Debt Payment is') and that 'made' is inserted. The operative effect matches the TS.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    181
+   ]
+  },
+  {
+   "id": "X03",
+   "attribute": "Available Equity Amount RPs/RDPs (B08 detail)",
+   "ts_value": "No RPs or RDPs from the Available Equity Amount before the Trigger Date, except RDP capacity to prepay or refinance Parent Convertible Notes. Existing baskets: 6.05(a)(viii), 6.05(a)(xi) and 6.05(b)(ix).",
+   "ts_quote": "Eliminate use of Available Equity Amount to make RPs and RDPs (other than RDP capacity to prepay/refi",
+   "ts_location": "PDF page 2 (slide 8), 'Restricted Payment / Restricted Debt Payment Capacity' row",
+   "ca_value": "Inserted conditions limit Available Equity Amount RPs (6.05(a)(viii)), AEA-funded RPs (6.05(a)(xi)(B)) and AEA RDPs (6.05(b)(ix)) to payments made on or after the Trigger Date. Inserted 6.05(b)(viii)(A) lets the Parent make RDPs on Parent Convertible Notes up to the Available Equity Amount, subject only to no Default or Event of Default. 6.05(b)(vii) permits refinancing of the Parent Convertible Notes.",
+   "ca_quote": "in an amount equal to the Available Equity Amount at the time such Restricted Payments are made, in each case, so long as such Restricted Payment is made on or after the Trigger Date;",
+   "ca_location": "Section 6.05(a)(viii), PDF page 178; 6.05(a)(xi), PDF page 180; 6.05(b)(vii)-(ix), PDF page 181",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "All three AEA baskets are blocked before the Trigger Date, and Parent Convertible Notes prepayment and refinancing capacity is kept, exactly as proposed.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    178
+   ]
+  },
+  {
+   "id": "X04",
+   "attribute": "General debt basket 6.01(e) unsecured pre-Trigger Date (B08 detail)",
+   "ts_value": "General debt basket is the greater of $195MM and 11.25% of Total Assets (6.01(e)). Proposed: debt under it must be unsecured before the Trigger Date.",
+   "ts_quote": "Debt under general debt basket to be unsecured prior to the Trigger Date",
+   "ts_location": "PDF page 2 (slide 8), 'General Debt Basket' row",
+   "ca_value": "6.01(e): greater of $195,000,000 and 11.25% of Total Assets. Inserted proviso: (A) before the Trigger Date the debt must be unsecured; (B) after that, if incurred or guaranteed only by Loan Parties, it may be unsecured or secured by a 6.02(o) Lien.",
+   "ca_quote": "$195,000,000 and (ii) 11.25% of the Total Assets at such time; provided that (A) prior to the Trigger Date such Indebtedness is unsecured and (B) from and after the Trigger Date, such Indebtedness is, if incurred or guaranteed only by Loan Parties, either unsecured or secured by a Lien",
+   "ca_location": "Section 6.01(e), PDF page 167",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The basket size and the pre-Trigger Date unsecured requirement match. The proviso is inserted by Amendment No. 4 (underline confirmed).",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    167
+   ]
+  },
+  {
+   "id": "X05",
+   "attribute": "Designated non-cash consideration basket 6.09(k), pre-Trigger Date (B08 detail)",
+   "ts_value": "Reduce the 6.09(k) DNCC basket to the greater of $25MM and 'the corresponding percentage' of Total Assets before the Trigger Date. The TS does not state the percentage.",
+   "ts_quote": "$25 million and the corresponding percentage of Total Assets prior to the Trigger Date",
+   "ts_location": "PDF page 2 (slide 8), 'Designated Non-Cash Consideration' row, Proposed Terms column",
+   "ca_value": "6.09(k)(iii)(C), inserted: before the Trigger Date, the greater of $25,000,000 and 1.101% of Total Assets.",
+   "ca_quote": "(x) prior to the Trigger Date, the greater of (i) $25,000,000 and (ii) 1.101% of Total Assets at such time",
+   "ca_location": "Section 6.09(k), PDF page 184",
+   "status": "ts_open_filled_in_ca",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The $25MM floor matches. The TS left the percentage open, and the CA fills it in as '1.101%', a single unstruck run in the PDF. That is an unusual figure worth confirming, and it is tighter than a pro rata scaling of the existing 3% (about 1.7-1.9%).",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    184
+   ]
+  },
+  {
+   "id": "X06",
+   "attribute": "Designated non-cash consideration basket 6.09(k), existing / post-Trigger Date level (B08 detail)",
+   "ts_value": "Existing DNCC basket is the greater of $40MM and 3% of Total Assets. The proposal leaves it unchanged after the Trigger Date.",
+   "ts_quote": "Basket for designated non-cash consideration for asset dispositions greater of $40 million and 3% of Total",
+   "ts_location": "PDF page 2 (slide 8), 'Designated Non-Cash Consideration' row, Existing Terms column",
+   "ca_value": "From the Trigger Date: the greater of $45,000,000 and 3.0% of Total Assets. This text has no redline markup, so it is pre-existing and was not changed by Amendment No. 4.",
+   "ca_quote": "(y) from and after the Trigger Date, the greater of (i) $45,000,000 and (ii) 3.0% of the Total Assets at such time",
+   "ca_location": "Section 6.09(k), PDF page 184",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "The dollar floor differs: $45MM in the CA against $40MM in the TS. Because the CA text is unmarked, the TS appears to misstate the existing basket rather than reflect a renegotiation. The effect is limited to the period after the Trigger Date.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    184
+   ]
+  },
+  {
+   "id": "X07",
+   "attribute": "Investment baskets shared cap (B08 detail)",
+   "ts_value": "Keep the 6.04(d), 6.04(e) and 6.04(j) investment baskets (currently $205MM in total) and add a $150MM shared aggregate cap before the Trigger Date.",
+   "ts_quote": "million) and implement an additional shared cap of $150 million in the aggregate prior to the Trigger Date",
+   "ts_location": "PDF page 2 (slide 8), 'Investment Capacity' row",
+   "ca_value": "New final paragraph of 6.04: Investments under 6.04(d), (e) and (j) made before the Trigger Date may not exceed $150,000,000 in total. The underlying baskets are unchanged: (d) $85MM/5.0%, (e) $45MM/2.5%, (j) $75MM/4%.",
+   "ca_quote": "the aggregate amount of Investments made by the Loan Parties and their Subsidiaries pursuant to Sections 6.04(d), 6.04(e) and 6.04(j) prior to the Trigger Date shall not exceed $150,000,000.",
+   "ca_location": "Section 6.04 final paragraph, PDF page 177; 6.04(d)-(e) PDF page 174; 6.04(j) PDF page 175",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The $150MM pre-Trigger Date shared cap is implemented as proposed (inserted text), and the existing basket amounts are confirmed.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    177
+   ]
+  },
+  {
+   "id": "X08",
+   "attribute": "$5MM cash collateral lien basket for bank product debt (B08 detail)",
+   "ts_value": "Add a $5MM basket to 6.02 permitting cash collateral to secure ordinary course bank product debt permitted under 6.01(i), similar to the stand-alone LC cash collateral basket.",
+   "ts_quote": "Add $5 million basket to Section 6.02 to permit cash collateral to secure ordinary course bank product",
+   "ts_location": "PDF page 2 (slide 8), 'Additional Amendments' row",
+   "ca_value": "New 6.02(aa): Liens on cash collateral of up to $5,000,000 securing Indebtedness permitted under 6.01(i) (ordinary course cash management and bank services). This parallels 6.02(v) for stand-alone LCs.",
+   "ca_quote": "Liens on cash collateral in an aggregate amount not to exceed $5,000,000 securing Indebtedness permitted under Section 6.01(i).",
+   "ca_location": "Section 6.02(aa), PDF page 172; Section 6.01(i), PDF page 167",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The new basket matches in amount and scope (inserted by Amendment No. 4).",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    172
+   ]
+  },
+  {
+   "id": "X09",
+   "attribute": "Foreign bank account security acknowledgments (Taiwan and other jurisdictions)",
+   "ts_value": "Amendments to the requirements for receipt of bank account security acknowledgments for non-US bank accounts in Taiwan and other jurisdictions, marked TBD.",
+   "ts_quote": "Amendments relating to requirements for receipt of bank account security acknowledgments for non- US bank accounts in Taiwan and other jurisdictions TBD",
+   "ts_location": "PDF page 2 (slide 8), 'Additional Amendments' row",
+   "ca_value": "Amendment No. 4 §4 authorises the Agent to agree further revisions to three security documents:\n- Omnibus Security Agreement: security supplements semi-annually or on request, instead of within 60 days;\n- Dutch Omnibus Pledge §8.1: 'commercially reasonable efforts' standard for Schedule 5 updates;\n- Taiwan Accounts Pledge §5.2: remittance and withdrawal notices only on Agent request, at most once a quarter absent an Event of Default.\n§5 extends the Schedule I post-closing perfection deadlines to 120 days after the effective date, with no retroactive default. Schedule I includes Taiwan control agreements and pledge acknowledgements, and Australia, UK, Philippines and Netherlands items. §5 also waives the German moveable-asset transfer requirement.",
+   "ca_quote": "(iii) amend Section 5.2 of that certain Accounts Pledge Agreement, dated as of February 24, 2025, by and between Fluence Energy Taiwan Ltd. and the Agent, to delete the obligation to send notices to the Agent upon any remittance and/or withdrawal from the pledged accounts",
+   "ca_location": "Amendment No. 4 §4 (PDF page 2), §5 (PDF page 3); Schedule I (PDF pages 27-28)",
+   "status": "ts_open_filled_in_ca",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "The TS marked this TBD. The CA documents specific relief, broader than the TS describes. The final security document amendments are still 'to be reasonably agreed' between the Loan Parties and the Agent.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    2
+   ]
+  },
+  {
+   "id": "X10",
+   "attribute": "Liquidity definition used in the financial covenant",
+   "ts_value": "Liquidity is, at any time, the sum of all unrestricted cash and cash equivalents plus the unutilized commitments then available to be drawn under the Facility.",
+   "ts_quote": "Liquidity defined as, at any time, the sum of all unrestricted cash and cash equivalents and the unutilized portion of the commitments which are",
+   "ts_location": "PDF page 2 (slide 8), footnote 1 to 'Financial Covenant' row",
+   "ca_value": "'Total Liquidity' is (a) plus (b), subject to the 6.01(k) supplier-finance reduction:\n(a) Cash and Cash Equivalents, excluding Specified Cash Collateral (exclusion inserted by Amendment No. 4) and Restricted Cash, held in Agreed Currencies in Controlled Accounts subject to a first-priority perfected Lien and a Control Agreement (with a 90-day grace period and the Agreed Security Principles for foreign accounts). Non-USD cash, Foreign Loan Party cash and cash in non-US accounts may make up no more than 45% of this cash.\n(b) The Revolving Loan Cap then in effect and available (the lesser of $150,000,000 and unused Commitments).",
+   "ca_quote": "the sum of (a) all cash and Cash Equivalents (other than any Specified Cash Collateral or any Restricted Cash) in Agreed Currencies of (i) the U.S. Loan Parties to the extent that such cash and Cash Equivalents are held in Controlled Accounts",
+   "ca_location": "'Total Liquidity' definition, PDF page 93; 'Revolving Loan Cap' PDF page 85; Section 2.01(c), PDF page 105",
+   "status": "differs",
+   "materiality": "material",
+   "direction": "lender_favourable",
+   "explanation": "The cash limb of the CA definition is much narrower than the TS footnote. Only cash in controlled, pledged accounts counts, a 45% cap applies to non-USD, foreign-entity and non-US-account cash, and Amendment No. 4 newly excludes the $50MM Specified Cash Collateral. The availability limb is broadly consistent: the $150MM Revolving Loan Cap is the facility's existing $150MM cash draw sublimit (2.01(c)), so it matches the TS's 'available to be drawn' wording. The cash-limb restrictions directly affect compliance with the $150MM and $100MM liquidity covenants.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    93
+   ]
+  },
+  {
+   "id": "X11",
+   "attribute": "Trigger Date definition",
+   "ts_value": "The TS uses 'Trigger Date' throughout, in both the existing and proposed columns, but does not define it or propose changing it.",
+   "ts_quote": "Unlimited RP capacity prior to the Trigger Date subject to no EOD and $150 million PF Total Liquidity",
+   "ts_location": "PDF page 2 (slide 8), 'Restricted Payment / Restricted Debt Payment Capacity' row, Existing Terms column",
+   "ca_value": "The 'Trigger Date' is when financial statements are delivered (or due) under 5.01(a) for the period ending December 31, 2026 (2025 struck, 2026 inserted), provided the Loan Parties are in pro forma compliance with 6.10.",
+   "ca_quote": "means the date that financial statements are delivered (or required to be delivered) for the period ending as of December 31, 20252026, pursuant to Section 5.01(a), so long as the Loan Parties are in compliance with Section 6.10 on a Pro Forma Basis as of such date.",
+   "ca_location": "'Trigger Date' definition, PDF page 93",
+   "status": "not_in_ts",
+   "materiality": "material",
+   "direction": "lender_favourable",
+   "explanation": "Amendment No. 4 pushes the Trigger Date back by one year. That extends every pre-Trigger Date restriction on the slides: the RP/RDP/AEA blocks, unsecured general debt, the $25MM DNCC basket, the $150MM investment cap and the reduced incremental. The slides do not state this change, though it is consistent with the one-year shift of the covenant step-down.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    93
+   ]
+  },
+  {
+   "id": "X12",
+   "attribute": "Application of proceeds / payment waterfall",
+   "ts_value": "On acceleration or exercise of remedies, payments and collateral proceeds are applied first to the Facility. Proposed: Same as existing.",
+   "ts_quote": "the exercise of remedies, payments and proceeds of collateral shall be applied first to the Facility",
+   "ts_location": "PDF page 1 (slide 7), 'Security' row",
+   "ca_value": "7.03 waterfall (after an Event of Default, at the Agent's election or the Required Lenders' direction):\n(1) Agent and Issuing Bank fees, indemnities and expenses;\n(2) Lender fees and expenses;\n(3)-(4) Protective Advances, interest then principal;\n(5) interest on Loans and LC Disbursements;\n(6) ratably: principal, LC Disbursements, LC cash cover (103%/105%), and Specified Cash Management and Swap obligations owed to Lenders or their Affiliates;\n(7) other Approved Counterparty swaps;\n(8) other Obligations;\n(9) any remainder to the Loan Party.",
+   "ca_quote": "be applied, as follows: (1) ratably first, to pay any fees, indemnities, or expense reimbursements then owing to the Administrative Agent and any Issuing Bank",
+   "ca_location": "Section 7.03, PDF page 193",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "Facility obligations are paid first, consistent with the TS. The CA's detailed waterfall also lets Lender-affiliated cash management and swap obligations share tier six pari passu, which the TS summary does not mention.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    193
+   ]
+  },
+  {
+   "id": "X13",
+   "attribute": "Currencies",
+   "ts_value": "US Dollars and such other currencies as the Borrower and the lenders may agree. Proposed: Same as existing.",
+   "ts_quote": "US Dollars and such other currencies as the Borrower and the lenders may agree",
+   "ts_location": "PDF page 1 (slide 7), 'Currencies' row",
+   "ca_value": "Revolving Loans are available in Dollars or Alternative Currencies (2.01). 'Alternative Currency' means (a) Euros, (b) Australian Dollars, but only for Letters of Credit and for cash counted in Total Liquidity, (c) Pounds Sterling, and (d) any additional currencies agreed after the Amendment No. 3 Effective Date by the Borrowers, Lenders, Issuing Banks and Administrative Agent, if freely available, transferable and convertible into Dollars. Changing the definition needs the consent of the Agent and each adversely affected Lender (10.02(b)(ix)).",
+   "ca_quote": "means (a) Euros, (b) for purposes of Letters of Credit and cash and Cash Equivalents included in the determination of Total Liquidity only, Australian Dollars, (c) Pounds Sterling, and (d) any additional currencies determined after the Amendment No. 3 Effective",
+   "ca_location": "'Alternative Currency' definition, PDF page 38; Section 2.01, PDF page 105; Section 10.02(b)(ix), PDF page 222",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The substance matches: Dollars plus currencies agreed with the lenders. The CA already names the agreed currencies (EUR and GBP, and AUD for LCs only), and any further currency also needs the Issuing Banks and the Agent to agree, not just the Borrower and the lenders. Amendment No. 4 does not change this, consistent with 'Same as existing'.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    38
+   ]
+  }
+ ],
+ "document_notes": "TS: not a formal term sheet. It is two undated slides (deck pages 7-8) from a Fluence Energy, Inc. presentation titled \"Proposed Terms for Secured Revolving Credit Facility\" (footer \"PRIVILEGED AND CONFIDENTIAL © Fluence Energy, Inc.\"). Each slide compares \"Existing Terms\" with \"Proposed Terms\", so it is an amendment proposal. PDF p1 covers the commercial terms: Borrower, Guarantors, Security, Facility, LC Sublimit, Incremental, Maturity, Currencies, Pricing, SOFR Floor and Consent Fee. PDF p2 covers RP/RDP, debt and investment baskets, other amendments and the financial covenant; these belong to the covenant groups, not group A. The pdftotext extraction interleaves the two-column table, so the label-to-value mapping was rebuilt from the order of the rows. The quotes are the clean contiguous fragments in the text file. The PDF could not be rendered in this review because pdftoppm is not installed, so the slide image was not re-checked. CA: Amendment Number Four to Syndicated Facility Agreement, dated March 31, 2026 (PDF pp1-26), among Fluence Energy, LLC and Fluence Energy Global Production Operation, LLC (Borrowers), Fluence Energy, Inc. (Parent), the Guarantors, the Lenders and Citibank, N.A. (Agent). It is followed by Schedule I (post-closing perfection, PDF pp27-28) and Exhibit A (PDF p29 onward). Exhibit A is a conformed copy of the Syndicated Facility Agreement dated November 22, 2023, as amended by Amendments 1-4. The reconciliation is against the agreement as amended. In the conformed copy, deleted and added text run together in the extraction (e.g. \"December 31, 20252026\", \"Section 5.15 [Reserved]Specified Cash Collateral Requirement\"). Where this happens, the later (double-underlined) text was treated as operative. Limitations: (1) The CA schedules and exhibits are not attached. Schedule 2.01 is missing, so per-lender Commitments, LC Commitments and Borrowing Sublimits cannot be checked; only the $500,000,000 aggregate is stated in the body. (2) The fee letters are not included: the Administrative Agent Fee Letter, the Lender Fee Letter, and any Amendment No. 4 consent fee letter. The 10 bps consent fee therefore cannot be verified. (3) Execution observation: the lender signature pages at PDF pp18-26 (Barclays, Morgan Stanley, RBC, JPMorgan, Wells Fargo, BNP Paribas, HSBC, Mizuho, Goldman Sachs) are captioned \"[Signature page to Amendment Number Three to Syndicated Facility Agreement]\". The Loan Party, Citibank (Agent and Lender) and Citicorp North America pages (PDF pp6-17) are captioned Amendment Number Four. This should be checked with counsel because Section 3(a) requires Required Lender signatures. (4) Amendment No. 4 also moves the defined \"Trigger Date\" from the annual (Section 5.01(a)) financial statements for the period ending December 31, 2025 to those for December 31, 2026. It also rolls the Section 6.10 covenant step-down dates by one year (December 31, 2026 and January 1, 2027), in line with the TS. The TS does not state the Trigger Date move expressly; see row A06. (5) Review result: every row's quotes were checked mechanically and appear verbatim in the source files, and all page references were confirmed against the [PDF PAGE] markers. The only change was to make row X01 more complete: it now notes that Specified Cash Collateral is excluded from Total Liquidity, adds the top-up obligation and notes that the Agent can extend the 45-day account deadline. No economic TS term in group A was left unreconciled.\n\nTERM SHEET: this is not a formal term sheet. It is two Fluence Energy lender-presentation slides (deck pages 7-8, \"Proposed Terms for Secured Revolving Credit Facility\" and \"(cont'd)\", marked PRIVILEGED AND CONFIDENTIAL). The slides are undated and show \"Existing Terms\" against \"Proposed Terms\" for an amendment to the $500MM senior secured revolver. In the pdftotext layout the row labels and the two value columns are interleaved, so the TS text file is garbled. The TS PDF could not be rendered in this environment (pdftoppm is not installed). The row mapping was therefore inferred from the order of the value columns. Slide 7 has 11 labels (Borrower, Guarantors, Security, Facility, LC Sublimit, Incremental, Maturity, Currencies, Pricing, SOFR Floor, Consent Fee) and 11 existing-term values in that order, with Borrower taking two entity lines. The Proposed column has 10 entries in order, Consent Fee having none. So the $50MM cash collateral proposal sits in the Facility row, and 'Reduce incremental capacity to $100 million' sits in the Incremental row. TS quotes are the cleanest contiguous fragments.\n\nCREDIT AGREEMENT: Amendment Number Four to Syndicated Facility Agreement, dated March 31, 2026 (SEC Exhibit 10.1, Execution Version). It is among Fluence Energy, Inc. (Parent), Fluence Energy, LLC (Parent Borrower), Fluence Energy Global Production Operation, LLC, the foreign Guarantors, the Lenders and Citibank, N.A. as Agent. It comes with Schedule I (post-closing perfection actions, PDF pages 27-28) and Exhibit A (from PDF page 29), a conformed redline of the Syndicated Facility Agreement dated November 22, 2023 as amended by Amendments 1-4 (stricken and double-underlined text). The reconciliation is against the agreement as amended by Amendment No. 4.\n\nLIMITATIONS:\n(1) The text extraction merges stricken and inserted words, for example \"20252026\", \"20262027\", \"andplus\", \"CollateralAdministrative\" and \"ifmade\". CA pages could not be rendered. Redline status was read from strike and underline line segments in the PDF content streams, using a read-only helper script in the session scratchpad (tools\\redline.py). This review spot-checked the 6.01(e) proviso (underline confirms the inserted '(A) prior to the Trigger Date such Indebtedness is unsecured and (B) from and after the Trigger Date,') and the 6.09(k) run containing '1.101%'. Some CA quotes contain merged deleted and inserted text exactly as it appears in the file; the explanations give the operative reading.\n(2) The CA does not set out the 10 bps consent fee (probably in a separate fee letter). Schedules such as Schedule 2.01 (Commitments/Issuing Banks) were not reconciled.\n(3) Group A items on the slides were left to the other analyst: facility amount, LC sublimit/cash draw sublimit, incremental reduction to $100MM, maturity, pricing and SOFR floor. Currencies is not on the Group A topic list and is reconciled here as X13.\n(4) All ts_quote and ca_quote values were checked mechanically (whitespace collapsed) against the text files, and all were found.",
+ "corrections": [
+  {
+   "id": "X01",
+   "field": "ca_value / ca_location / explanation",
+   "was": "No mention of the Section 5.15(b) top-up obligation, the Agent's discretion to extend the 45-day set-up deadline, or the exclusion of Specified Cash Collateral from Total Liquidity; ca_location did not cite the \"Total Liquidity\" definition.",
+   "now": "Added the 5.15(b) top-up on demand, the 'or such later date as the Administrative Agent may agree' extension of the 45-day deadline, and the exclusion of Specified Cash Collateral from Total Liquidity (so the $50m does not count toward the minimum liquidity covenant). Added the \"Total Liquidity\" definition (PDF p93) to ca_location. Status, materiality and direction are unchanged.",
+   "evidence": "CA line ~3027 (PDF p93): \"Total Liquidity\" means ... the sum of (a) all cash and Cash Equivalents (other than any Specified Cash Collateral or any Restricted Cash)...; Section 5.15(b) (PDF p165): '...the Borrowers will, promptly upon demand by the Administrative Agent, deposit additional Specified Cash Collateral...'; Section 5.15(d) (PDF p166): '45 days after the Amendment No. 4 Effective Date (or such later date as the Administrative Agent may agree in its sole discretion)'."
+  },
+  {
+   "id": "B08",
+   "field": "status / materiality / direction / ca_value / explanation",
+   "was": "match / none / n/a; explanation said all changes implemented and the only discrepancy was X06",
+   "now": "match_minor_drafting / minor / neutral; ca_value and explanation now flag the $45MM vs $40MM existing DNCC floor (X06) and the 1.101% fill-in (X05)",
+   "evidence": "CA 6.09(k), PDF page 184: '(x) prior to the Trigger Date, the greater of (i) $25,000,000 and (ii) 1.101% of Total Assets at such time and (y) from and after the Trigger Date, the greater of (i) $45,000,000 and (ii) 3.0%'. TS slide 8 states the existing basket as 'greater of $40 million and 3% of Total Assets'. A summary row that covers a detail row marked 'differs' cannot be a clean match."
+  },
+  {
+   "id": "B11",
+   "field": "ca_value / ca_location / explanation",
+   "was": "'4.02(c) (inserted): at each Borrowing or LC issuance, pro forma compliance with 6.10(a); and if ... $450,000,000, compliance with 5.15'",
+   "now": "The 6.10(a) pro forma condition in 4.02(c) is pre-existing; only the $450MM / 5.15 limb is inserted. Added the 5.15(b) top-up on demand, the FX revaluation trigger, and that a breach of 5.15 is not in 7.01(d), so the 7.01(e) 30-day-after-notice grace applies. Added 7.01 to ca_location.",
+   "evidence": "CA 4.02(c), PDF page 152: 'shall be in compliance with Section 6.10(a). and, if after giving effect...' (period struck, 'and,' inserted). CA 7.01(d), PDF page 188, lists only 'Section 5.02(a), Section 5.03 ..., Section 5.10, Section 5.16 or in Article 6'. 7.01(e), PDF page 189: '30 days after notice'."
+  },
+  {
+   "id": "B15",
+   "field": "ca_value",
+   "was": "Consent from the Parent Borrower (with exceptions), the Agent and each Issuing Bank; minimum $5,000,000",
+   "now": "Added that consent is not to be unreasonably withheld, the Agent consent exception (assignment of a Commitment to an existing Lender, a Lender Affiliate or an Approved Fund), the 10-Business-Day objection mechanic, and the exceptions to the $5MM minimum",
+   "evidence": "CA 10.04(b)(i)(B), PDF page 226: 'no consent of the Administrative Agent shall be required for an assignment of any Commitment to an assignee that is a Lender with a Commitment ..., an Affiliate of a Lender, or an Approved Fund'. 10.04(b)(ii)(A): 'except in the case of an assignment to a Lender or an Affiliate of a Lender or an assignment of the entire remaining amount'."
+  },
+  {
+   "id": "X10",
+   "field": "explanation / ca_location",
+   "was": "Listed 'Undrawn availability is capped at $150MM instead of all unused commitments' as a difference",
+   "now": "The availability limb is broadly consistent with the TS: the Revolving Loan Cap ($150MM) is the existing cash draw sublimit, so it matches 'available to be drawn'. The difference rests on the cash limb (controlled and pledged accounts, the 45% cap, the Specified Cash Collateral exclusion). Status and materiality kept.",
+   "evidence": "CA 2.01(c), PDF page 105: Revolving Loans may not result in 'the outstanding principal amount of Revolving Loans exceeding the Revolving Loan Cap'. 'Revolving Loan Cap' means 'the lesser of (a) $150,000,000 and (b) the aggregate unused amount of the Commitments' (PDF page 85). TS slide 7: 'Cash draw sublimit of $150 million'."
+  },
+  {
+   "id": "B01",
+   "field": "explanation",
+   "was": "'the rendered slide shows both entities in the Borrower row'",
+   "now": "Reasoning now rests on the order of the value column (11 values for 11 labels), not on a rendered slide",
+   "evidence": "The TS PDF cannot be rendered in this environment ('pdftoppm is not installed'), so the earlier claim that the slide was viewed cannot be verified. The layout order of values in the TS text (lines 7-35) supports the same conclusion."
+  },
+  {
+   "id": "document_notes",
+   "field": "document_notes",
+   "was": "Said every TS value was checked against the TS PDF 'viewed in full', and listed currencies as a Group A item",
+   "now": "States that TS row/column mapping was inferred from layout order because the PDF could not be rendered, and that Currencies is now X13 in this group (it is not on the Group A topic list)",
+   "evidence": "Read tool on the TS PDF returned 'pdftoppm is not installed'. The Group A topic list in the task covers facility size, maturity, extensions, accordion, sublimits, benchmarks, margins, fees, default interest, amortization, prepayments and interest periods, and does not include currencies."
+  }
+ ],
+ "confidence": "group A: re-checked by verifier, confidence high; group B: re-checked by verifier, confidence medium",
+ "source": "Claude Code multi-agent workflow: independent reconciler + adversarial verifier per attribute group",
+ "generated_at": "2026-11-12T15:55:36+00:00",
+ "engine": "verified",
+ "deal": "Fluence 2026",
+ "ts_file": "Fluence 2026 TS.pdf",
+ "ca_file": "Fluence 2026 CA.pdf",
+ "quote_check": {
+  "ts_checked": 33,
+  "ca_checked": 49,
+  "ts_found": 33,
+  "ca_found": 49
+ }
+}

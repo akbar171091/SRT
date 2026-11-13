@@ -1,0 +1,644 @@
+{
+ "rows": [
+  {
+   "id": "R01",
+   "attribute": "Facility amount / commitments",
+   "ts_value": "$10bn",
+   "ts_quote": "$10.0 billion senior unsecured revolving credit facility Borrower Operative Maximum A) Duke Energy Corporation $2,525 MM $5,575 MM",
+   "ts_location": "p. 1 (label \"Facility\")",
+   "ca_value": "$1bn",
+   "ca_quote": "Exhibit 10.1 Execution Version AMENDMENT NO. 2 and Consent, dated as of March 14, 2025 (this “Agreement”), among DUKE ENERGY CORPORATION (the “Company”), DUKE ENERGY CAROLINAS, LLC (“Duke Energy Carolinas”), DUKE ENERGY OHIO, INC. (“Duke Energy Ohio”), DUKE ENERGY INDIANA, LLC (“Duke Energy Indiana”",
+   "ca_location": "p. 1 (cover page)",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Found elsewhere in CA (check context): $10bn (p. 35, 109). Other figures in the TS entry (not compared): $2.525bn, $5.575bn.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R02",
+   "attribute": "Maturity date",
+   "ts_value": "2030-03-16",
+   "ts_quote": "March 16, 2030",
+   "ts_location": "p. 1 (label \"Maturity Date\")",
+   "ca_value": "2030-03-16, 2028-03-17",
+   "ca_quote": "“Commitment Termination Date” means, for each Lender, March 1716, 20282030, as such date may be extended from time to time with respect to such Lender pursuant to Section 2.01(b) or, i",
+   "ca_location": "p. 46 (definition \"Commitment Termination Date\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 2030-03-16.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    46
+   ]
+  },
+  {
+   "id": "R03",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "$800m",
+   "ts_quote": "$800 million",
+   "ts_location": "p. 1 (label \"LC Sublimit\")",
+   "ca_value": "$800m, $350m",
+   "ca_quote": "(ii) the aggregate amount of the Letter of Credit Liabilities shall not exceed $800,000,000.",
+   "ca_location": "p. 67 (section \"Section 2.15 Letters of Credit.\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $800m.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    67
+   ]
+  },
+  {
+   "id": "R04",
+   "attribute": "Swingline sublimit",
+   "ts_value": "$350m",
+   "ts_quote": "$350 million",
+   "ts_location": "p. 1 (label \"Swingline Sublimit\")",
+   "ca_value": "$350m, $1m, $800m",
+   "ca_quote": "(ii) the aggregate outstanding principal amount of all Swingline Loans does not exceed $350,000,000.",
+   "ca_location": "p. 72 (section \"Section 2.18 Swingline Loans.\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $350m.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    72
+   ]
+  },
+  {
+   "id": "R05",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "$2bn",
+   "ts_quote": "$2.0 billion",
+   "ts_location": "p. 1 (label \"Accordion\")",
+   "ca_value": "$2bn",
+   "ca_quote": "y provide a copy of such notice to the Lenders), propose to increase the aggregate amount of the Commitments inby an aggregate amount of up to $2,000,000,000 (the amount of any such increase, the “",
+   "ca_location": "p. 71 (cap clause)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $2bn.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    71
+   ]
+  },
+  {
+   "id": "R06",
+   "attribute": "Extension option / term-out",
+   "ts_value": "Two 1-year extension options (refresh)",
+   "ts_quote": "Two 1-year extension options (refresh)",
+   "ts_location": "p. 1 (label \"Extension Options\")",
+   "ca_value": "no extension / term-out provision found",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_in_ca",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS mentions an extension / term-out but no matching CA provision was found.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R07",
+   "attribute": "Applicable margin / pricing grid",
+   "ts_value": "10 bps, 4 bps, 62.5 bps, 6 bps, 75 bps, 7.5 bps, 87.5 bps, 100 bps, 12.5 bps, 112.5 bps, 17.5 bps, 125 bps (+6 more)",
+   "ts_quote": "ree interest periods (\"CSA\") Sustainability-Linked Option Removed Unsecured Ratings Facility Fee All-In Drawn Borrower> AA/Aa2/AA 4.0 bps S + CSA + 62.5 bps AA-/Aa3/AA- 6.0 bps S + CSA + 75.0 bps A+/A1/A+ 7.5 bps S + CSA + 87.5 bps A/A2/A 10.0 bps S + CSA + 10",
+   "ts_location": "p. 1 (label \"Credit Spread Adjustment\")",
+   "ca_value": "provision located, no figures",
+   "ca_quote": "(b) 4.00 basis points in the Applicable Margin (including any resulting letter of credit fee) and such adjustments shall not be cumulative year-over-year.",
+   "ca_location": "p. 76 (operative text)",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 4 bps, 100 bps. Found elsewhere in CA (check context): 10 bps (p. 57). NOT found anywhere in CA: 62.5 bps, 6 bps, 75 bps, 7.5 bps, 87.5 bps, 12.5 bps, 112.5 bps, 17.5 bps, 125 bps, 22.5 bps, 150 bps, 27.5 bps (+1 more). Most term-sheet rates were not found; the CA pricing grid may not be machine-readable, so check it manually.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    76
+   ]
+  },
+  {
+   "id": "R08",
+   "attribute": "Commitment / facility fee",
+   "ts_value": "6500 bps, 7000 bps, 10 bps, 62.5 bps, 4 bps, 75 bps, 87.5 bps, 6 bps, 100 bps, 112.5 bps, 7.5 bps, 125 bps (+6 more)",
+   "ts_quote": "est periods (\"CSA\") | Financial Covenants Unsecured Ratings Facility Fee All-In Drawn Borrower | S + CSA + 62.5 bps | > AA/Aa2/AA 4.0 bps S + CSA + 75.0 bps C | S + CSA + 87.5 bps B,D,E,F | AA-/Aa3/AA- 6.0 bps S + CSA + 100.0 bps | S + CSA + 112.5 bps G,H | A+",
+   "ts_location": "p. 1 (pricing table)",
+   "ca_value": "provision located, no figures",
+   "ca_quote": "(b) 4.00 basis points in the Applicable Margin (including any resulting letter of credit fee) and such adjustments shall not be cumulative year-over-year.",
+   "ca_location": "p. 76 (operative text)",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 4 bps. Found elsewhere in CA (check context): 10 bps (p. 57); 100 bps (p. 42, 50, 63, 64…). NOT found anywhere in CA: 62.5 bps, 75 bps, 87.5 bps, 6 bps, 112.5 bps, 7.5 bps, 125 bps, 150 bps, 175 bps, 12.5 bps, 17.5 bps, 22.5 bps (+1 more). Most term-sheet rates were not found; the CA pricing grid may not be machine-readable, so check it manually.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    76
+   ]
+  },
+  {
+   "id": "R09",
+   "attribute": "Financial covenants",
+   "ts_value": "6500 bps, 7000 bps",
+   "ts_quote": "Consolidated Debt / Capitalization: 65.0% | Max.",
+   "ts_location": "p. 1 (label \"Financial Covenants\")",
+   "ca_value": "6500 bps, 7000 bps",
+   "ca_quote": "The ratio of Consolidated Indebtedness of such Borrower to Consolidated Capitalization of such Borrower as atof the end of any fiscal quarter of such Borrower will not exceed 65%",
+   "ca_location": "p. 85 (section \"Section 5.10 Indebtedness/Capitalization Ratio.\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 6500 bps, 7000 bps.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    85
+   ]
+  },
+  {
+   "id": "R10",
+   "attribute": "Administrative agent",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "Wells Fargo Bank, National Association",
+   "ca_quote": "Wells Fargo Bank, National Association",
+   "ca_location": "cover page",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Not found in the term sheet.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R11",
+   "attribute": "Borrower(s)",
+   "ts_value": "(\"DEI\"); Duke Energy Kentucky, Inc. (\"DEK\"); Duke Energy Progress, LLC (\"DEP\"); Duke Energy Florida, LLC (\"DEF\"); and Piedmont Natural Gas Company, Inc. (\"Piedmont\")",
+   "ts_quote": "(\"DEI\"); Duke Energy Kentucky, Inc. (\"DEK\"); Duke Energy Progress, LLC (\"DEP\"); Duke Energy Florida, LLC (\"DEF\"); and Piedmont Natural Gas Company, Inc. (\"Piedmont\")",
+   "ts_location": "p. 1 (label \"Borrowers\")",
+   "ca_value": "Piedmont Natural Gas Company, Inc.",
+   "ca_quote": "Piedmont Natural Gas Company, Inc.",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names Piedmont Natural Gas Company, Inc.; each appears in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R12",
+   "attribute": "Governing law",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "New York",
+   "ca_quote": "GOVERNED BY THE LAW OF THE STATE OF NEW YORK. EACH BORROWER AND EACH LENDER PARTY HEREBY SUBMITS TO THE EXCLUSIVE JURISDICTION OF THE UNITED STATES DISTRICT COURT FOR THE SOUTHERN DISTRICT OF NEW YORK AND OF ANY NEW YORK STATE COURT SITTING IN NEW YORK COUNTY",
+   "ca_location": "p. 3, 105, 108 (governing-law clause)",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Not stated in the term sheet.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    3
+   ]
+  },
+  {
+   "id": "R13",
+   "attribute": "Security (secured vs unsecured)",
+   "ts_value": "unsecured",
+   "ts_quote": "$10.0 billion senior unsecured revolving credit facility Borrower Operative Maximum A) Duke Energy Corporation $2,525 MM $5,575 MM B) Duke Energy Carolinas 1,300 MM 2,225 MM C) Duke Energy Progress 1,675 MM 1,775 MM Borrower Sublimits D) Duke Energy Florida 1,425 MM 1,650 MM E) Duke Energy Indiana 9",
+   "ts_location": "p. 1 (label \"Facility\")",
+   "ca_value": "unsecured (no security documents defined)",
+   "ca_quote": "",
+   "ca_location": "definitions searched",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS: unsecured; CA: unsecured.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R14",
+   "attribute": "Benchmark rates",
+   "ts_value": "none stated",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "Term SOFR",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet does not name any.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R15",
+   "attribute": "Currencies",
+   "ts_value": "none stated",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "none found",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet does not name any.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  }
+ ],
+ "trace": [
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000,000",
+   "normalised": "$1bn",
+   "ts_page": 1,
+   "context": "Ltd. (together, the “Active Arrangers”) to arrange and syndicate a one-year extension and $1,000,000,000 upsize of the Company’s existing $9,000,000,000 Senior Unsecured Master Credit Facility (the “F",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "1"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$9,000,000,000",
+   "normalised": "$9bn",
+   "ts_page": 1,
+   "context": "ge and syndicate a one-year extension and $1,000,000,000 upsize of the Company’s existing $9,000,000,000 Senior Unsecured Master Credit Facility (the “Facility”) that’s currently scheduled to mature o",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "35"
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 16, 2029",
+   "normalised": "2029-03-16",
+   "ts_page": 1,
+   "context": "Unsecured Master Credit Facility (the “Facility”) that’s currently scheduled to mature on March 16, 2029. The proposed $10,000,000,000 Facility will also include amendments to certain terms as outline",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$10,000,000,000",
+   "normalised": "$10bn",
+   "ts_page": 1,
+   "context": "ity (the “Facility”) that’s currently scheduled to mature on March 16, 2029. The proposed $10,000,000,000 Facility will also include amendments to certain terms as outlined below and continue to be us",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "35, 109"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$10.0 billion",
+   "normalised": "$10bn",
+   "ts_page": 1,
+   "context": "Energy Florida, LLC (\"DEF\"); and Piedmont Natural Gas Company, Inc. (\"Piedmont\") Facility $10.0 billion senior unsecured revolving credit facility Borrower Sublimits Maturity Date Borrower Operative M",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "35, 109"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$2,525 MM",
+   "normalised": "$2.525bn",
+   "ts_page": 1,
+   "context": "ty Borrower Sublimits Maturity Date Borrower Operative Maximum A) Duke Energy Corporation $2,525 MM $5,575 MM B) Duke Energy Carolinas C) Duke Energy Progress 1,300 MM 2,225 MM D) Duke Energy Florida",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "51"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$5,575 MM",
+   "normalised": "$5.575bn",
+   "ts_page": 1,
+   "context": "r Sublimits Maturity Date Borrower Operative Maximum A) Duke Energy Corporation $2,525 MM $5,575 MM B) Duke Energy Carolinas C) Duke Energy Progress 1,300 MM 2,225 MM D) Duke Energy Florida 1,675 MM 1",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "54"
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 16, 2030",
+   "normalised": "2030-03-16",
+   "ts_page": 1,
+   "context": "Energy Ohio 950 MM 1,200 MM H) Duke Energy Kentucky 1,050 MM 950 MM 825 MM 400 MM 250 MM March 16, 2030 Extension Options Two 1-year extension options (refresh) Accordion $2.0 billion LC Sublimit $80",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "46, 1"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$2.0 billion",
+   "normalised": "$2bn",
+   "ts_page": 1,
+   "context": "250 MM March 16, 2030 Extension Options Two 1-year extension options (refresh) Accordion $2.0 billion LC Sublimit $800 million Swingline Sublimit $350 million Reference Rate 1, 3, or 6-month SOFR (\"S",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "71"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$800 million",
+   "normalised": "$800m",
+   "ts_page": 1,
+   "context": "tension Options Two 1-year extension options (refresh) Accordion $2.0 billion LC Sublimit $800 million Swingline Sublimit $350 million Reference Rate 1, 3, or 6-month SOFR (\"S\") Credit Spread Adjustme",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "51, 67, 78"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$350 million",
+   "normalised": "$350m",
+   "ts_page": 1,
+   "context": "sion options (refresh) Accordion $2.0 billion LC Sublimit $800 million Swingline Sublimit $350 million Reference Rate 1, 3, or 6-month SOFR (\"S\") Credit Spread Adjustment 10.0 bps across all three int",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "72, 78"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10.0 bps",
+   "normalised": "10 bps",
+   "ts_page": 1,
+   "context": "Sublimit $350 million Reference Rate 1, 3, or 6-month SOFR (\"S\") Credit Spread Adjustment 10.0 bps across all three interest periods (\"CSA\") Sustainability-Linked Option Removed Pricing Grid Financial",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "57"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "62.5 bps",
+   "normalised": "62.5 bps",
+   "ts_page": 1,
+   "context": "g Grid Financial Covenants Unsecured Ratings Facility Fee All-In Drawn Borrower S + CSA + 62.5 bps > AA/Aa2/AA 4.0 bps S + CSA + 75.0 bps C S + CSA + 87.5 bps B,D,E,F AA-/Aa3/AA- 6.0 bps S + CSA + 100",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "4.0 bps",
+   "normalised": "4 bps",
+   "ts_page": 1,
+   "context": "nants Unsecured Ratings Facility Fee All-In Drawn Borrower S + CSA + 62.5 bps > AA/Aa2/AA 4.0 bps S + CSA + 75.0 bps C S + CSA + 87.5 bps B,D,E,F AA-/Aa3/AA- 6.0 bps S + CSA + 100.0 bps S + CSA + 112.",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "76"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "75.0 bps",
+   "normalised": "75 bps",
+   "ts_page": 1,
+   "context": "tings Facility Fee All-In Drawn Borrower S + CSA + 62.5 bps > AA/Aa2/AA 4.0 bps S + CSA + 75.0 bps C S + CSA + 87.5 bps B,D,E,F AA-/Aa3/AA- 6.0 bps S + CSA + 100.0 bps S + CSA + 112.5 bps G,H A+/A1/A+",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "87.5 bps",
+   "normalised": "87.5 bps",
+   "ts_page": 1,
+   "context": "l-In Drawn Borrower S + CSA + 62.5 bps > AA/Aa2/AA 4.0 bps S + CSA + 75.0 bps C S + CSA + 87.5 bps B,D,E,F AA-/Aa3/AA- 6.0 bps S + CSA + 100.0 bps S + CSA + 112.5 bps G,H A+/A1/A+ 7.5 bps S + CSA + 12",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "6.0 bps",
+   "normalised": "6 bps",
+   "ts_page": 1,
+   "context": "62.5 bps > AA/Aa2/AA 4.0 bps S + CSA + 75.0 bps C S + CSA + 87.5 bps B,D,E,F AA-/Aa3/AA- 6.0 bps S + CSA + 100.0 bps S + CSA + 112.5 bps G,H A+/A1/A+ 7.5 bps S + CSA + 125.0 bps A S + CSA + 150.0 bps",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100.0 bps",
+   "normalised": "100 bps",
+   "ts_page": 1,
+   "context": "/AA 4.0 bps S + CSA + 75.0 bps C S + CSA + 87.5 bps B,D,E,F AA-/Aa3/AA- 6.0 bps S + CSA + 100.0 bps S + CSA + 112.5 bps G,H A+/A1/A+ 7.5 bps S + CSA + 125.0 bps A S + CSA + 150.0 bps A/A2/A 10.0 bps S",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "42, 50, 63, 64, 69, 72"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "112.5 bps",
+   "normalised": "112.5 bps",
+   "ts_page": 1,
+   "context": "+ 75.0 bps C S + CSA + 87.5 bps B,D,E,F AA-/Aa3/AA- 6.0 bps S + CSA + 100.0 bps S + CSA + 112.5 bps G,H A+/A1/A+ 7.5 bps S + CSA + 125.0 bps A S + CSA + 150.0 bps A/A2/A 10.0 bps S + CSA + 175.0 bps A",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "7.5 bps",
+   "normalised": "7.5 bps",
+   "ts_page": 1,
+   "context": "87.5 bps B,D,E,F AA-/Aa3/AA- 6.0 bps S + CSA + 100.0 bps S + CSA + 112.5 bps G,H A+/A1/A+ 7.5 bps S + CSA + 125.0 bps A S + CSA + 150.0 bps A/A2/A 10.0 bps S + CSA + 175.0 bps A-/A3/A- 12.5 bps BBB+/B",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "125.0 bps",
+   "normalised": "125 bps",
+   "ts_page": 1,
+   "context": "A-/Aa3/AA- 6.0 bps S + CSA + 100.0 bps S + CSA + 112.5 bps G,H A+/A1/A+ 7.5 bps S + CSA + 125.0 bps A S + CSA + 150.0 bps A/A2/A 10.0 bps S + CSA + 175.0 bps A-/A3/A- 12.5 bps BBB+/Baa1/BBB+ 17.5 bps",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "150.0 bps",
+   "normalised": "150 bps",
+   "ts_page": 1,
+   "context": "CSA + 100.0 bps S + CSA + 112.5 bps G,H A+/A1/A+ 7.5 bps S + CSA + 125.0 bps A S + CSA + 150.0 bps A/A2/A 10.0 bps S + CSA + 175.0 bps A-/A3/A- 12.5 bps BBB+/Baa1/BBB+ 17.5 bps BBB/Baa2/BBB 22.5 bps",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10.0 bps",
+   "normalised": "10 bps",
+   "ts_page": 1,
+   "context": "S + CSA + 112.5 bps G,H A+/A1/A+ 7.5 bps S + CSA + 125.0 bps A S + CSA + 150.0 bps A/A2/A 10.0 bps S + CSA + 175.0 bps A-/A3/A- 12.5 bps BBB+/Baa1/BBB+ 17.5 bps BBB/Baa2/BBB 22.5 bps < BBB/Baa2/BBB 27",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "57"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "175.0 bps",
+   "normalised": "175 bps",
+   "ts_page": 1,
+   "context": "G,H A+/A1/A+ 7.5 bps S + CSA + 125.0 bps A S + CSA + 150.0 bps A/A2/A 10.0 bps S + CSA + 175.0 bps A-/A3/A- 12.5 bps BBB+/Baa1/BBB+ 17.5 bps BBB/Baa2/BBB 22.5 bps < BBB/Baa2/BBB 27.5 bps Highlighted",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "12.5 bps",
+   "normalised": "12.5 bps",
+   "ts_page": 1,
+   "context": "ps S + CSA + 125.0 bps A S + CSA + 150.0 bps A/A2/A 10.0 bps S + CSA + 175.0 bps A-/A3/A- 12.5 bps BBB+/Baa1/BBB+ 17.5 bps BBB/Baa2/BBB 22.5 bps < BBB/Baa2/BBB 27.5 bps Highlighted pricing tiers based",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "17.5 bps",
+   "normalised": "17.5 bps",
+   "ts_page": 1,
+   "context": "S + CSA + 150.0 bps A/A2/A 10.0 bps S + CSA + 175.0 bps A-/A3/A- 12.5 bps BBB+/Baa1/BBB+ 17.5 bps BBB/Baa2/BBB 22.5 bps < BBB/Baa2/BBB 27.5 bps Highlighted pricing tiers based on current ratings Max.",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "22.5 bps",
+   "normalised": "22.5 bps",
+   "ts_page": 1,
+   "context": "/A2/A 10.0 bps S + CSA + 175.0 bps A-/A3/A- 12.5 bps BBB+/Baa1/BBB+ 17.5 bps BBB/Baa2/BBB 22.5 bps < BBB/Baa2/BBB 27.5 bps Highlighted pricing tiers based on current ratings Max. Consolidated Debt / C",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "27.5 bps",
+   "normalised": "27.5 bps",
+   "ts_page": 1,
+   "context": "175.0 bps A-/A3/A- 12.5 bps BBB+/Baa1/BBB+ 17.5 bps BBB/Baa2/BBB 22.5 bps < BBB/Baa2/BBB 27.5 bps Highlighted pricing tiers based on current ratings Max. Consolidated Debt / Capitalization: 65.0% | M",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "65.0%",
+   "normalised": "6500 bps",
+   "ts_page": 1,
+   "context": "ghlighted pricing tiers based on current ratings Max. Consolidated Debt / Capitalization: 65.0% | Max. Consolidated Debt / Capitalization: 70.0% (DUK & Piedmont only) Upfront Fees Old Money: 6.0 bps |",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "85"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "70.0%",
+   "normalised": "7000 bps",
+   "ts_page": 1,
+   "context": "Max. Consolidated Debt / Capitalization: 65.0% | Max. Consolidated Debt / Capitalization: 70.0% (DUK & Piedmont only) Upfront Fees Old Money: 6.0 bps | New Money: 17.5 bps Bolding denotes new or chang",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "85"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "6.0 bps",
+   "normalised": "6 bps",
+   "ts_page": 1,
+   "context": ". Consolidated Debt / Capitalization: 70.0% (DUK & Piedmont only) Upfront Fees Old Money: 6.0 bps | New Money: 17.5 bps Bolding denotes new or changing terms. Please refer to the Summary of Terms post",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "17.5 bps",
+   "normalised": "17.5 bps",
+   "ts_page": 1,
+   "context": "Capitalization: 70.0% (DUK & Piedmont only) Upfront Fees Old Money: 6.0 bps | New Money: 17.5 bps Bolding denotes new or changing terms. Please refer to the Summary of Terms posted separately to the",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  }
+ ],
+ "document_notes": "",
+ "quote_check": {
+  "ts_checked": 11,
+  "ca_checked": 11,
+  "ts_found": 7,
+  "ca_found": 11
+ },
+ "generated_at": "2026-11-12T14:40:24+00:00",
+ "engine": "rules",
+ "deal": "Duke Energy 2025",
+ "ts_file": "Duke Energy 2025 TS.pdf",
+ "ca_file": "Duke Energy 2025 CA.pdf"
+}

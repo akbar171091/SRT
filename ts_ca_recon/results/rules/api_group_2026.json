@@ -1,0 +1,2242 @@
+{
+ "rows": [
+  {
+   "id": "R01",
+   "attribute": "Facility amount / commitments",
+   "ts_value": "$1bn",
+   "ts_quote": "(the “Lead Arranger”) Ladies and Gentlemen: We refer to the proposed amendment and upsize of the $1,000 million Revolving Credit Facility (the \"Facility\") for APi Group Corporation (the \"Company\") that you are arranging at our",
+   "ts_location": "p. 2 (keyword \"facility\")",
+   "ca_value": "$1bn, $250m",
+   "ca_quote": "The aggregate amount of Total Revolving Credit Commitment on the Amendment No. 9 Effective Date is $1,000,000,000.",
+   "ca_location": "p. 112 (definition \"Total Revolving Credit Commitment\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $1bn.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    112
+   ]
+  },
+  {
+   "id": "R02",
+   "attribute": "Maturity date",
+   "ts_value": "5 yr",
+   "ts_quote": "better reflect the Company’s scale and further bolster its liquidity profile – Maturity of the R CF will be extended to May 2031 (5 years from closing) – The RCF will also be upsized from $750 million to $1,000 million • RCF Lenders are being offered 4 bps for",
+   "ts_location": "p. 10, 11 (keyword \"maturity\")",
+   "ca_value": "fifth anniversary",
+   "ca_quote": "(i) the fifth anniversary of the Amendment No. 9 Effective Dateprovided that the Initial Revolving Credit Maturity Date shall be 91 days p",
+   "ca_location": "p. 79 (definition \"Initial Revolving Credit Maturity Date\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Both documents state the tenor as 5 yr.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    10
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    79
+   ]
+  },
+  {
+   "id": "R03",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "$300m, $60m",
+   "ca_quote": "“Letter of Credit Sublimit” means, as the context may indicate, (x) for the L/C Issuers, collectively, an amount equal to $300,000,000 and (y) for any L/C Issuer, individually, the amount set forth on Schedule I to Amendment No. 9 across from such L/C Issuer’s name. The Letter of Credit Sublimit is ",
+   "ca_location": "p. 83, 117, 124, 214 (definition \"Letter of Credit Sublimit\")",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "The credit agreement has this provision; the term sheet does not address it.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    83
+   ]
+  },
+  {
+   "id": "R04",
+   "attribute": "Swingline sublimit",
+   "ts_value": "$1bn, $75m",
+   "ts_quote": "Facility: $1,000 million Senior Secured Revolving Credit Facility and $75 million Swingline Facility Guarantors: Limited to parties formed in North America, the United Kingdom, Hong Kong, and the Neth",
+   "ts_location": "p. 11 (keyword \"swingline\")",
+   "ca_value": "$75m, $25m, $2m, $1m",
+   "ca_quote": "“Swingline Sublimit” means $75,000,000.",
+   "ca_location": "p. 110 (definition \"Swingline Sublimit\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $75m, $1bn.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    11
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    110
+   ]
+  },
+  {
+   "id": "R05",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "$1.1bn, $5m",
+   "ca_quote": "2.14 Incremental Facilities. (a) The Borrowers or any Guarantor organized in the United States or Canada (any such Guarantor, for so long as loans or commitments remain outstanding under the applicable Incremental Facility, an “Additional Borrower”) may, by written notice to the Administrative Agent",
+   "ca_location": "p. 144 (section \"2.14 Incremental Facilities.\")",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "The credit agreement has this provision; the term sheet does not address it.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    144
+   ]
+  },
+  {
+   "id": "R06",
+   "attribute": "Extension option / term-out",
+   "ts_value": "Operating Statistics Cash to Balance Sheet for General Corporate Purposes $470 LTM Adjusted EBITDA $1,083 $1,083",
+   "ts_quote": "Operating Statistics Cash to Balance Sheet for General Corporate Purposes $470 LTM Adjusted EBITDA $1,083 $1,083",
+   "ts_location": "p. 12 (label \"Amend & Extend Existing Term Loan B $2,157\")",
+   "ca_value": "“Extension Date” has the meaning specified in Section 2.16(c). ",
+   "ca_quote": "“Extension Date” has the meaning specified in Section 2.16(c). ",
+   "ca_location": "p. 72, 73 (definition \"Extension Date\")",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Both documents contain a provision; compare the mechanics (number, notice, consent, fee) in the quotes.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    73
+   ]
+  },
+  {
+   "id": "R07",
+   "attribute": "Applicable margin / pricing grid",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "225 bps, 125 bps, 275 bps, 175 bps, 75 bps, 150 bps, 50 bps, 200 bps, 100 bps, 25 bps",
+   "ca_quote": "“Applicable Rate” means (a) (i) with respect to any Initial Term Loan that is (A) a Term SOFR Loan, 2.25% per annum and (B) a Base Rate Loan, 1.25% per annum, (ii) with respect to any 2020 Incremental Term Loan that is (A) a Term SOFR Loan, 2.75% per annum and (B) a Base Rate Loan, 1.75% per annum, ",
+   "ca_location": "p. 44 (definition \"Applicable Rate\")",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "The credit agreement has this provision; the term sheet does not address it.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    44
+   ]
+  },
+  {
+   "id": "R08",
+   "attribute": "Commitment / facility fee",
+   "ts_value": "0 bps, 200 bps, 175 bps, 150 bps, 125 bps, 37.5 bps, 12.5 bps",
+   "ts_quote": "a 91-day springing maturity ahead of the maturity of the Term Loan B Indicative Pricing: Net First Lien Leverage Pricing ≥3.50x S+200 bps <3.50x & ≥2.50x S+175 bps <2.50x & ≥1.50x S+150 bps S+125 bps <1.50x Undrawn Fee: 37.5 bps with a 12.5 bps stepdown at Fir",
+   "ts_location": "p. 11 (keyword \"undrawn fee\")",
+   "ca_value": "225 bps, 275 bps, 175 bps, 150 bps, 50 bps, 200 bps, 100 bps, 75 bps, 125 bps, 25 bps",
+   "ca_quote": "Ratio 2.00% 1.00% | 2. 1.75% 0.75% | 3. 3.50 to 1.00 1.50% 0.50% | 4. < Less than 3.50 to 1.00 and > 1.25% 0.25% | < Less than 2.50 to 1.00 and > | < Less than 1.50 to 1.00",
+   "ca_location": "p. 44 (pricing table)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 200 bps, 175 bps, 150 bps, 125 bps. Found elsewhere in CA (check context): 37.5 bps (p. 45); 12.5 bps (p. 133).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    11
+   ],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R09",
+   "attribute": "Financial covenants",
+   "ts_value": "4 bps, 20 bps",
+   "ts_quote": "Upfront Fees: 4 bps for extension of existing commitments; 20 bps for new commitments",
+   "ts_location": "p. 11, 17 (label \"Financial Covenant\")",
+   "ca_value": "3.75x, 4.50x, 4.00x, 3000 bps, $60m",
+   "ca_quote": "8.10 Financial Covenant. (a) Solely in respect of the Revolving Credit Facility, permit the First Lien Net Leverage Ratio as of the last day of any such fiscal quarter of Holdings to exceed 3.75 to 1.00; provided that during any Acquisition Step-Up Period, the First Lien Net Leverage Ratio may be gr",
+   "ca_location": "p. 214 (section \"8.10 Financial Covenant.\")",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "No comparable figures in the term sheet text for this attribute; compare the quoted text manually.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    214
+   ]
+  },
+  {
+   "id": "R10",
+   "attribute": "Administrative agent",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "CITIBANK, N.A.",
+   "ca_quote": "CITIBANK, N.A.",
+   "ca_location": "cover page",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Not found in the term sheet.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R11",
+   "attribute": "Borrower(s)",
+   "ts_value": "Office:(612) 259- 9711",
+   "ts_quote": "Office:(612) 259- 9711",
+   "ts_location": "p. 34 (label \"Borrower Counsel Name / Title Contact Details Arleen Nand\")",
+   "ca_value": "APi Group DE, Inc.",
+   "ca_quote": "APi Group DE, Inc.",
+   "ca_location": "cover page",
+   "status": "differs",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names APi Group DE, Inc., which do not appear in the TS entry.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R12",
+   "attribute": "Governing law",
+   "ts_value": "New York",
+   "ts_quote": "e shall be governed by and construed in accordance with the law of the State of New York, without regard to principles of conflicts of law (except S",
+   "ts_location": "p. 4 (keyword \"governed by\")",
+   "ca_value": "New York",
+   "ca_quote": "SHALL BE GOVERNED BY, AND CONSTRUED AND INTERPRETED IN ACCORDANCE WITH, THE LAWS OF THE STATE OF NEW YORK WITHOUT REGARD TO CONFLICTS OF LAW RULES THAT WOULD RESULT IN THE APPLICATION OF A DIFFERENT GOVERNING LAW (OTHER THAN ANY MANDATORY PROVISIONS OF THE UCC",
+   "ca_location": "p. 8, 92, 249 (governing-law clause)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Same governing law.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    4
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    8
+   ]
+  },
+  {
+   "id": "R13",
+   "attribute": "Security (secured vs unsecured)",
+   "ts_value": "secured",
+   "ts_quote": "",
+   "ts_location": "whole document",
+   "ca_value": "secured (definition \"Collateral Documents\")",
+   "ca_quote": "“Collateral Documents” means, collectively, the Pledge and Security Agreement, the Canadian Pledge and Security Agreements, the BVI Debenture, the Mortgages, the Intellectual Property Security Agreements, the Canadian IP Security Agreements, or other similar agreements delivered to the Collateral Ag",
+   "ca_location": "p. 53, 85, 98 (definition \"Collateral Documents\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS: secured; CA: secured.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    53
+   ]
+  },
+  {
+   "id": "R14",
+   "attribute": "Benchmark rates",
+   "ts_value": "none stated",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "Term SOFR, Daily Simple SOFR, SONIA, EURIBOR",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet does not name any.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R15",
+   "attribute": "Currencies",
+   "ts_value": "none stated",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "EUR, GBP",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_in_ts",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Term sheet does not name any.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  }
+ ],
+ "trace": [
+  {
+   "type": "Date",
+   "ts_text": "April 30, 2026",
+   "normalised": "2026-04-30",
+   "ts_page": 2,
+   "context": "PLICABLE LAW, INCLUDING FEDERAL AND STATE SECURITIES LAWS. 1 Company Authorization Letter April 30, 2026 Citibank N.A. (the “Lead Arranger”) Ladies and Gentlemen: We refer to the proposed amendment an",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000 million",
+   "normalised": "$1bn",
+   "ts_page": 2,
+   "context": "ead Arranger”) Ladies and Gentlemen: We refer to the proposed amendment and upsize of the $1,000 million Revolving Credit Facility (the \"Facility\") for APi Group Corporation (the \"Company\") that you a",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "29, 78, 112"
+  },
+  {
+   "type": "Date",
+   "ts_text": "December 31, 2025",
+   "normalised": "2025-12-31",
+   "ts_page": 6,
+   "context": "including those discussed in the Company's Annual Report on Form 10-K for the year ended December 31, 2025 under the heading \"Risk Factors.\" Given these risks and uncertainties, investors are caution",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "June 30, 2025",
+   "normalised": "2025-06-30",
+   "ts_page": 9,
+   "context": "asures (cont.) Additional Information Following the three-for-two stock split executed on June 30, 2025, all references to the number of shares outstanding, issued shares, and per share amounts of the",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$750 million",
+   "normalised": "$750m",
+   "ts_page": 10,
+   "context": "F will be extended to May 2031 (5 years from closing) – The RCF will also be upsized from $750 million to $1,000 million • RCF Lenders are being offered 4 bps for extending their existing commitments",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "78, 100"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000 million",
+   "normalised": "$1bn",
+   "ts_page": 10,
+   "context": "ed to May 2031 (5 years from closing) – The RCF will also be upsized from $750 million to $1,000 million • RCF Lenders are being offered 4 bps for extending their existing commitments and 20 bps for n",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "29, 78, 112"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "4 bps",
+   "normalised": "4 bps",
+   "ts_page": 10,
+   "context": "will also be upsized from $750 million to $1,000 million • RCF Lenders are being offered 4 bps for extending their existing commitments and 20 bps for new commitments • RCF commitments are requested",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "20 bps",
+   "normalised": "20 bps",
+   "ts_page": 10,
+   "context": "illion • RCF Lenders are being offered 4 bps for extending their existing commitments and 20 bps for new commitments • RCF commitments are requested by 5:00 PM ET on Thursday, May 7th • APi will look",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$2,157 million",
+   "normalised": "$2.157bn",
+   "ts_page": 10,
+   "context": "ested by 5:00 PM ET on Thursday, May 7th • APi will look to amend and extend its existing $2,157 million Term Loan B to a new 7-year tenor alongside a $500 million new Senior Unsecured Debt issuance f",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$500 million",
+   "normalised": "$500m",
+   "ts_page": 10,
+   "context": "mend and extend its existing $2,157 million Term Loan B to a new 7-year tenor alongside a $500 million new Senior Unsecured Debt issuance for general corporate purposes, including bolt-on acquisitions",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "79"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.0x",
+   "normalised": "1.00x",
+   "ts_page": 10,
+   "context": "th • Pro Forma for the transactions, First Lien Net and Total Net Leverage Ratios will be 1.0x and 2.0x(1), respectively, based on LTM Adjusted EBITDA of $1,083 million for the period ending 03/31/202",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.0x",
+   "normalised": "2.00x",
+   "ts_page": 10,
+   "context": "Forma for the transactions, First Lien Net and Total Net Leverage Ratios will be 1.0x and 2.0x(1), respectively, based on LTM Adjusted EBITDA of $1,083 million for the period ending 03/31/2026 (1) App",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "145, 203, 205"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,083 million",
+   "normalised": "$1.083bn",
+   "ts_page": 10,
+   "context": "t Leverage Ratios will be 1.0x and 2.0x(1), respectively, based on LTM Adjusted EBITDA of $1,083 million for the period ending 03/31/2026 (1) Approximately 1.8x Total Net Leverage as calculated pursua",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "03/31/2026",
+   "normalised": "2026-03-31",
+   "ts_page": 10,
+   "context": "0x(1), respectively, based on LTM Adjusted EBITDA of $1,083 million for the period ending 03/31/2026 (1) Approximately 1.8x Total Net Leverage as calculated pursuant to the terms of the existing debt",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.8x",
+   "normalised": "1.80x",
+   "ts_page": 10,
+   "context": "LTM Adjusted EBITDA of $1,083 million for the period ending 03/31/2026 (1) Approximately 1.8x Total Net Leverage as calculated pursuant to the terms of the existing debt agreements. 10 Summary of Ind",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000 million",
+   "normalised": "$1bn",
+   "ts_page": 11,
+   "context": "ng debt agreements. 10 Summary of Indicative Terms Borrower: APi Group DE, Inc. Facility: $1,000 million Senior Secured Revolving Credit Facility and $75 million Swingline Facility Guarantors: Limited",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "29, 78, 112"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$75 million",
+   "normalised": "$75m",
+   "ts_page": 11,
+   "context": "APi Group DE, Inc. Facility: $1,000 million Senior Secured Revolving Credit Facility and $75 million Swingline Facility Guarantors: Limited to parties formed in North America, the United Kingdom, Hon",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "29, 85, 95, 110, 136, 199, 209"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "80%",
+   "normalised": "8000 bps",
+   "ts_page": 11,
+   "context": "ormed in North America, the United Kingdom, Hong Kong, and the Netherlands, constituting >80% of revenue, EBITDA, and assets with certain other modifications Security: Limited to collateral located in",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "193"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "80%",
+   "normalised": "8000 bps",
+   "ts_page": 11,
+   "context": "cated in North America, the United Kingdom, Hong Kong, and the Netherlands, constituting >80% of revenue, EBITDA, and assets with certain other modifications Tenor: 5 years from closing date, subject",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "193"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50x",
+   "normalised": "3.50x",
+   "ts_page": 11,
+   "context": "d of the maturity of the Term Loan B Indicative Pricing: Net First Lien Leverage Pricing ≥3.50x S+200 bps <3.50x & ≥2.50x S+175 bps <2.50x & ≥1.50x S+150 bps S+125 bps <1.50x Undrawn Fee: 37.5 bps wit",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "44"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "200 bps",
+   "normalised": "200 bps",
+   "ts_page": 11,
+   "context": "maturity of the Term Loan B Indicative Pricing: Net First Lien Leverage Pricing ≥3.50x S+200 bps <3.50x & ≥2.50x S+175 bps <2.50x & ≥1.50x S+150 bps S+125 bps <1.50x Undrawn Fee: 37.5 bps with a 12.5",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "44, 61"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.50x",
+   "normalised": "3.50x",
+   "ts_page": 11,
+   "context": "of the Term Loan B Indicative Pricing: Net First Lien Leverage Pricing ≥3.50x S+200 bps <3.50x & ≥2.50x S+175 bps <2.50x & ≥1.50x S+150 bps S+125 bps <1.50x Undrawn Fee: 37.5 bps with a 12.5 bps step",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "44"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.50x",
+   "normalised": "2.50x",
+   "ts_page": 11,
+   "context": "erm Loan B Indicative Pricing: Net First Lien Leverage Pricing ≥3.50x S+200 bps <3.50x & ≥2.50x S+175 bps <2.50x & ≥1.50x S+150 bps S+125 bps <1.50x Undrawn Fee: 37.5 bps with a 12.5 bps stepdown at F",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "44, 211"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "175 bps",
+   "normalised": "175 bps",
+   "ts_page": 11,
+   "context": "B Indicative Pricing: Net First Lien Leverage Pricing ≥3.50x S+200 bps <3.50x & ≥2.50x S+175 bps <2.50x & ≥1.50x S+150 bps S+125 bps <1.50x Undrawn Fee: 37.5 bps with a 12.5 bps stepdown at First Lie",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "44"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.50x",
+   "normalised": "2.50x",
+   "ts_page": 11,
+   "context": "tive Pricing: Net First Lien Leverage Pricing ≥3.50x S+200 bps <3.50x & ≥2.50x S+175 bps <2.50x & ≥1.50x S+150 bps S+125 bps <1.50x Undrawn Fee: 37.5 bps with a 12.5 bps stepdown at First Lien Net Lev",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "44, 211"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.50x",
+   "normalised": "1.50x",
+   "ts_page": 11,
+   "context": "ing: Net First Lien Leverage Pricing ≥3.50x S+200 bps <3.50x & ≥2.50x S+175 bps <2.50x & ≥1.50x S+150 bps S+125 bps <1.50x Undrawn Fee: 37.5 bps with a 12.5 bps stepdown at First Lien Net Leverage les",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "44"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "150 bps",
+   "normalised": "150 bps",
+   "ts_page": 11,
+   "context": "First Lien Leverage Pricing ≥3.50x S+200 bps <3.50x & ≥2.50x S+175 bps <2.50x & ≥1.50x S+150 bps S+125 bps <1.50x Undrawn Fee: 37.5 bps with a 12.5 bps stepdown at First Lien Net Leverage less than o",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "44"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "125 bps",
+   "normalised": "125 bps",
+   "ts_page": 11,
+   "context": "n Leverage Pricing ≥3.50x S+200 bps <3.50x & ≥2.50x S+175 bps <2.50x & ≥1.50x S+150 bps S+125 bps <1.50x Undrawn Fee: 37.5 bps with a 12.5 bps stepdown at First Lien Net Leverage less than or equal to",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "44"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.50x",
+   "normalised": "1.50x",
+   "ts_page": 11,
+   "context": "e Pricing ≥3.50x S+200 bps <3.50x & ≥2.50x S+175 bps <2.50x & ≥1.50x S+150 bps S+125 bps <1.50x Undrawn Fee: 37.5 bps with a 12.5 bps stepdown at First Lien Net Leverage less than or equal to 2.75x SO",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "44"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "37.5 bps",
+   "normalised": "37.5 bps",
+   "ts_page": 11,
+   "context": "200 bps <3.50x & ≥2.50x S+175 bps <2.50x & ≥1.50x S+150 bps S+125 bps <1.50x Undrawn Fee: 37.5 bps with a 12.5 bps stepdown at First Lien Net Leverage less than or equal to 2.75x SOFR Floor: 0.00% (sa",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "45"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "12.5 bps",
+   "normalised": "12.5 bps",
+   "ts_page": 11,
+   "context": "≥2.50x S+175 bps <2.50x & ≥1.50x S+150 bps S+125 bps <1.50x Undrawn Fee: 37.5 bps with a 12.5 bps stepdown at First Lien Net Leverage less than or equal to 2.75x SOFR Floor: 0.00% (same as existing R",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "133"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.75x",
+   "normalised": "2.75x",
+   "ts_page": 11,
+   "context": "n Fee: 37.5 bps with a 12.5 bps stepdown at First Lien Net Leverage less than or equal to 2.75x SOFR Floor: 0.00% (same as existing Revolving Credit Facility) Amortization: None (same as existing Revo",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "45, 103"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.00%",
+   "normalised": "0 bps",
+   "ts_page": 11,
+   "context": "th a 12.5 bps stepdown at First Lien Net Leverage less than or equal to 2.75x SOFR Floor: 0.00% (same as existing Revolving Credit Facility) Amortization: None (same as existing Revolving Credit Facil",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "42, 48, 74, 103, 164"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.75x",
+   "normalised": "3.75x",
+   "ts_page": 11,
+   "context": "in other modifications Financial Covenant: Upfront Fees: Net First Lien Leverage Ratio of 3.75x, only to be tested quarterly when 30% of facility is drawn. Following a qualified acquisition, steps up",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "100, 145, 201, 210, 214"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "30%",
+   "normalised": "3000 bps",
+   "ts_page": 11,
+   "context": "t: Upfront Fees: Net First Lien Leverage Ratio of 3.75x, only to be tested quarterly when 30% of facility is drawn. Following a qualified acquisition, steps up to 4.50x and then steps back down to 4.0",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "175, 214"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.50x",
+   "normalised": "4.50x",
+   "ts_page": 11,
+   "context": "d quarterly when 30% of facility is drawn. Following a qualified acquisition, steps up to 4.50x and then steps back down to 4.00x 1 year after the quarter in which the acquisition was made (same as ex",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "214"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "4.00x",
+   "normalised": "4.00x",
+   "ts_page": 11,
+   "context": "s drawn. Following a qualified acquisition, steps up to 4.50x and then steps back down to 4.00x 1 year after the quarter in which the acquisition was made (same as existing Revolving Credit Facility)",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "145, 198, 214"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "4 bps",
+   "normalised": "4 bps",
+   "ts_page": 11,
+   "context": "he quarter in which the acquisition was made (same as existing Revolving Credit Facility) 4 bps for extension of existing commitments; 20 bps for new commitments 11 Transaction Overview Pro Forma Capi",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "20 bps",
+   "normalised": "20 bps",
+   "ts_page": 11,
+   "context": "(same as existing Revolving Credit Facility) 4 bps for extension of existing commitments; 20 bps for new commitments 11 Transaction Overview Pro Forma Capitalization Sources & Uses Amount ($ in millio",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$750mm",
+   "normalised": "$750m",
+   "ts_page": 12,
+   "context": "Equivalents $645 $470 $1,120 ($ in millions) Existing Revolving Credit Facility due 2030 ($750mm) -- -- Sources $2,157 New Revolving Credit Facility due 2031 ($1,000mm) -- (2,157) -- New Revolving Cre",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "78, 100"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000mm",
+   "normalised": "$1bn",
+   "ts_page": 12,
+   "context": "t Facility due 2030 ($750mm) -- -- Sources $2,157 New Revolving Credit Facility due 2031 ($1,000mm) -- (2,157) -- New Revolving Credit Facility (upsized to $1,000mm) $500 USD Term Loan B due 2029 2,15",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "29, 78, 112"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000mm",
+   "normalised": "$1bn",
+   "ts_page": 12,
+   "context": "edit Facility due 2031 ($1,000mm) -- (2,157) -- New Revolving Credit Facility (upsized to $1,000mm) $500 USD Term Loan B due 2029 2,157 2,157 -- Amend & Extend Existing Term Loan B $2,657 New 7-year U",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "29, 78, 112"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.0x",
+   "normalised": "2.00x",
+   "ts_page": 12,
+   "context": "ion $21,048 $24,332 $2,657 $23,832 $1,083 Operating Statistics $1,083 LTM Adjusted EBITDA 2.0x 1.0x (1) Current capital structure shown as LTM 03/31/2026 Credit Statistics 2.0x 3.0x (2) Current market",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "145, 203, 205"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.0x",
+   "normalised": "1.00x",
+   "ts_page": 12,
+   "context": "21,048 $24,332 $2,657 $23,832 $1,083 Operating Statistics $1,083 LTM Adjusted EBITDA 2.0x 1.0x (1) Current capital structure shown as LTM 03/31/2026 Credit Statistics 2.0x 3.0x (2) Current market capi",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "03/31/2026",
+   "normalised": "2026-03-31",
+   "ts_page": 12,
+   "context": "tatistics $1,083 LTM Adjusted EBITDA 2.0x 1.0x (1) Current capital structure shown as LTM 03/31/2026 Credit Statistics 2.0x 3.0x (2) Current market capitalization shown as of April 29, 2026. First Lie",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.0x",
+   "normalised": "2.00x",
+   "ts_page": 12,
+   "context": "EBITDA 2.0x 1.0x (1) Current capital structure shown as LTM 03/31/2026 Credit Statistics 2.0x 3.0x (2) Current market capitalization shown as of April 29, 2026. First Lien Debt / Adjusted EBITDA 1.4x",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "145, 203, 205"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.0x",
+   "normalised": "3.00x",
+   "ts_page": 12,
+   "context": "DA 2.0x 1.0x (1) Current capital structure shown as LTM 03/31/2026 Credit Statistics 2.0x 3.0x (2) Current market capitalization shown as of April 29, 2026. First Lien Debt / Adjusted EBITDA 1.4x 2.0x",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "211"
+  },
+  {
+   "type": "Date",
+   "ts_text": "April 29, 2026",
+   "normalised": "2026-04-29",
+   "ts_page": 12,
+   "context": "LTM 03/31/2026 Credit Statistics 2.0x 3.0x (2) Current market capitalization shown as of April 29, 2026. First Lien Debt / Adjusted EBITDA 1.4x 2.0x(3) (3) Approximately 1.8x Total Net Leverage as ca",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.4x",
+   "normalised": "1.40x",
+   "ts_page": 12,
+   "context": "rrent market capitalization shown as of April 29, 2026. First Lien Debt / Adjusted EBITDA 1.4x 2.0x(3) (3) Approximately 1.8x Total Net Leverage as calculated pursuant to the terms of the Net First Li",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.0x",
+   "normalised": "2.00x",
+   "ts_page": 12,
+   "context": "market capitalization shown as of April 29, 2026. First Lien Debt / Adjusted EBITDA 1.4x 2.0x(3) (3) Approximately 1.8x Total Net Leverage as calculated pursuant to the terms of the Net First Lien De",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "145, 203, 205"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.8x",
+   "normalised": "1.80x",
+   "ts_page": 12,
+   "context": "wn as of April 29, 2026. First Lien Debt / Adjusted EBITDA 1.4x 2.0x(3) (3) Approximately 1.8x Total Net Leverage as calculated pursuant to the terms of the Net First Lien Debt / Adjusted EBITDA 2.6x",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.6x",
+   "normalised": "2.60x",
+   "ts_page": 12,
+   "context": "Leverage as calculated pursuant to the terms of the Net First Lien Debt / Adjusted EBITDA 2.6x 13.5% Total Debt / Adjusted EBITDA 2.0x $2,115 existing debt agreements. Net Debt / Adjusted EBITDA 11.7%",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "13.5%",
+   "normalised": "1350 bps",
+   "ts_page": 12,
+   "context": "age as calculated pursuant to the terms of the Net First Lien Debt / Adjusted EBITDA 2.6x 13.5% Total Debt / Adjusted EBITDA 2.0x $2,115 existing debt agreements. Net Debt / Adjusted EBITDA 11.7% Debt",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.0x",
+   "normalised": "2.00x",
+   "ts_page": 12,
+   "context": "erms of the Net First Lien Debt / Adjusted EBITDA 2.6x 13.5% Total Debt / Adjusted EBITDA 2.0x $2,115 existing debt agreements. Net Debt / Adjusted EBITDA 11.7% Debt / Capitalization $1,395 12 Liquidi",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "145, 203, 205"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "11.7%",
+   "normalised": "1170 bps",
+   "ts_page": 12,
+   "context": "l Debt / Adjusted EBITDA 2.0x $2,115 existing debt agreements. Net Debt / Adjusted EBITDA 11.7% Debt / Capitalization $1,395 12 Liquidity Transaction Timeline May-2026 SMTWT F S April-2026 SMTWT F S 1",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$2.0 billion",
+   "normalised": "$2bn",
+   "ts_page": 15,
+   "context": "e 1Q’26 Update 14 First Quarter 2026 Performance Highlights First quarter net revenues of $2.0 billion, an increase of 15.3% vs. Q1 2025, 10.4% on an organic basis First quarter adjusted EBITDA of $23",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "15.3%",
+   "normalised": "1530 bps",
+   "ts_page": 15,
+   "context": "er 2026 Performance Highlights First quarter net revenues of $2.0 billion, an increase of 15.3% vs. Q1 2025, 10.4% on an organic basis First quarter adjusted EBITDA of $235 million, up 21.8% vs. Q1 20",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10.4%",
+   "normalised": "1040 bps",
+   "ts_page": 15,
+   "context": "Highlights First quarter net revenues of $2.0 billion, an increase of 15.3% vs. Q1 2025, 10.4% on an organic basis First quarter adjusted EBITDA of $235 million, up 21.8% vs. Q1 2025, and adjusted EB",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$235 million",
+   "normalised": "$235m",
+   "ts_page": 15,
+   "context": "increase of 15.3% vs. Q1 2025, 10.4% on an organic basis First quarter adjusted EBITDA of $235 million, up 21.8% vs. Q1 2025, and adjusted EBITDA margin increase of 70 basis points vs. Q1 2025 to 11.9",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "21.8%",
+   "normalised": "2180 bps",
+   "ts_page": 15,
+   "context": "vs. Q1 2025, 10.4% on an organic basis First quarter adjusted EBITDA of $235 million, up 21.8% vs. Q1 2025, and adjusted EBITDA margin increase of 70 basis points vs. Q1 2025 to 11.9% Adjusted dilute",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "70 basis points",
+   "normalised": "70 bps",
+   "ts_page": 15,
+   "context": "sted EBITDA of $235 million, up 21.8% vs. Q1 2025, and adjusted EBITDA margin increase of 70 basis points vs. Q1 2025 to 11.9% Adjusted diluted earnings per share in the first quarter of $0.32, up 28.",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "11.9%",
+   "normalised": "1190 bps",
+   "ts_page": 15,
+   "context": "21.8% vs. Q1 2025, and adjusted EBITDA margin increase of 70 basis points vs. Q1 2025 to 11.9% Adjusted diluted earnings per share in the first quarter of $0.32, up 28.0% vs. Q1 2025 Year-to-date adj",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "28.0%",
+   "normalised": "2800 bps",
+   "ts_page": 15,
+   "context": "s. Q1 2025 to 11.9% Adjusted diluted earnings per share in the first quarter of $0.32, up 28.0% vs. Q1 2025 Year-to-date adjusted free cash flow of $125 million, up $39 million vs. Q1 2025, representi",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$125 million",
+   "normalised": "$125m",
+   "ts_page": 15,
+   "context": "the first quarter of $0.32, up 28.0% vs. Q1 2025 Year-to-date adjusted free cash flow of $125 million, up $39 million vs. Q1 2025, representing 88.0% conversion as a percentage of adjusted net income",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$39 million",
+   "normalised": "$39m",
+   "ts_page": 15,
+   "context": "r of $0.32, up 28.0% vs. Q1 2025 Year-to-date adjusted free cash flow of $125 million, up $39 million vs. Q1 2025, representing 88.0% conversion as a percentage of adjusted net income Note: Refer to A",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "88.0%",
+   "normalised": "8800 bps",
+   "ts_page": 15,
+   "context": "to-date adjusted free cash flow of $125 million, up $39 million vs. Q1 2025, representing 88.0% conversion as a percentage of adjusted net income Note: Refer to Appendix for a reconciliation of non-GA",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 16,
+   "context": "easures. 15 First Quarter 2026 Financial Results Overview Net Revenues Three Months Ended March 31, 2026 Adjusted EBITDA $1,982 million Adjusted Gross Profit $235 million $620 million Safety Services",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,982 million",
+   "normalised": "$1.982bn",
+   "ts_page": 16,
+   "context": "Financial Results Overview Net Revenues Three Months Ended March 31, 2026 Adjusted EBITDA $1,982 million Adjusted Gross Profit $235 million $620 million Safety Services Specialty Services Notes: Refer",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$235 million",
+   "normalised": "$235m",
+   "ts_page": 16,
+   "context": "es Three Months Ended March 31, 2026 Adjusted EBITDA $1,982 million Adjusted Gross Profit $235 million $620 million Safety Services Specialty Services Notes: Refer to Appendix for a reconciliation of",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$620 million",
+   "normalised": "$620m",
+   "ts_page": 16,
+   "context": "hs Ended March 31, 2026 Adjusted EBITDA $1,982 million Adjusted Gross Profit $235 million $620 million Safety Services Specialty Services Notes: Refer to Appendix for a reconciliation of non-GAAP meas",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "1.8x",
+   "normalised": "1.80x",
+   "ts_page": 17,
+   "context": "ighlights As of the end of the first quarter, our net leverage ratio(1) was approximately 1.8x, well below our target of 2.5x - 3.0x Our strong balance sheet and low net leverage gives us the flexibil",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "2.5x",
+   "normalised": "2.50x",
+   "ts_page": 17,
+   "context": "first quarter, our net leverage ratio(1) was approximately 1.8x, well below our target of 2.5x - 3.0x Our strong balance sheet and low net leverage gives us the flexibility to pursue a range of attrac",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "44, 211"
+  },
+  {
+   "type": "Ratio",
+   "ts_text": "3.0x",
+   "normalised": "3.00x",
+   "ts_page": 17,
+   "context": "uarter, our net leverage ratio(1) was approximately 1.8x, well below our target of 2.5x - 3.0x Our strong balance sheet and low net leverage gives us the flexibility to pursue a range of attractive ca",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "211"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "15.3 %",
+   "normalised": "1530 bps",
+   "ts_page": 18,
+   "context": "rics Three Months Ended March 31, ($ in millions, except per share figures) 2026 2025 Y/Y 15.3 % Net revenues $1,982 $1,719 10.4 % Organic net revenue growth (a) 13.8 % $620 $545 Adjusted gross profit",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10.4 %",
+   "normalised": "1040 bps",
+   "ts_page": 18,
+   "context": "($ in millions, except per share figures) 2026 2025 Y/Y 15.3 % Net revenues $1,982 $1,719 10.4 % Organic net revenue growth (a) 13.8 % $620 $545 Adjusted gross profit 31.3 % 31.7 % (40) bps Adjusted g",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "13.8 %",
+   "normalised": "1380 bps",
+   "ts_page": 18,
+   "context": "es) 2026 2025 Y/Y 15.3 % Net revenues $1,982 $1,719 10.4 % Organic net revenue growth (a) 13.8 % $620 $545 Adjusted gross profit 31.3 % 31.7 % (40) bps Adjusted gross margin 21.8 % $235 $193 Adjusted",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "31.3 %",
+   "normalised": "3130 bps",
+   "ts_page": 18,
+   "context": "1,982 $1,719 10.4 % Organic net revenue growth (a) 13.8 % $620 $545 Adjusted gross profit 31.3 % 31.7 % (40) bps Adjusted gross margin 21.8 % $235 $193 Adjusted EBITDA 11.9 % 11.2 % +70 bps Adjusted E",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "31.7 %",
+   "normalised": "3170 bps",
+   "ts_page": 18,
+   "context": "1,719 10.4 % Organic net revenue growth (a) 13.8 % $620 $545 Adjusted gross profit 31.3 % 31.7 % (40) bps Adjusted gross margin 21.8 % $235 $193 Adjusted EBITDA 11.9 % 11.2 % +70 bps Adjusted EBITDA m",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "21.8 %",
+   "normalised": "2180 bps",
+   "ts_page": 18,
+   "context": "h (a) 13.8 % $620 $545 Adjusted gross profit 31.3 % 31.7 % (40) bps Adjusted gross margin 21.8 % $235 $193 Adjusted EBITDA 11.9 % 11.2 % +70 bps Adjusted EBITDA margin 36.5 % $142 $104 28.0 % Adjusted",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "11.9 %",
+   "normalised": "1190 bps",
+   "ts_page": 18,
+   "context": "ross profit 31.3 % 31.7 % (40) bps Adjusted gross margin 21.8 % $235 $193 Adjusted EBITDA 11.9 % 11.2 % +70 bps Adjusted EBITDA margin 36.5 % $142 $104 28.0 % Adjusted net income $0.32 $0.25 37.1 % Ad",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "11.2 %",
+   "normalised": "1120 bps",
+   "ts_page": 18,
+   "context": "ofit 31.3 % 31.7 % (40) bps Adjusted gross margin 21.8 % $235 $193 Adjusted EBITDA 11.9 % 11.2 % +70 bps Adjusted EBITDA margin 36.5 % $142 $104 28.0 % Adjusted net income $0.32 $0.25 37.1 % Adjusted",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "70 bps",
+   "normalised": "70 bps",
+   "ts_page": 18,
+   "context": "3 % 31.7 % (40) bps Adjusted gross margin 21.8 % $235 $193 Adjusted EBITDA 11.9 % 11.2 % +70 bps Adjusted EBITDA margin 36.5 % $142 $104 28.0 % Adjusted net income $0.32 $0.25 37.1 % Adjusted diluted",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "36.5 %",
+   "normalised": "3650 bps",
+   "ts_page": 18,
+   "context": "ross margin 21.8 % $235 $193 Adjusted EBITDA 11.9 % 11.2 % +70 bps Adjusted EBITDA margin 36.5 % $142 $104 28.0 % Adjusted net income $0.32 $0.25 37.1 % Adjusted diluted EPS (b) 45.3 % Operating cash",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "28.0 %",
+   "normalised": "2800 bps",
+   "ts_page": 18,
+   "context": "% $235 $193 Adjusted EBITDA 11.9 % 11.2 % +70 bps Adjusted EBITDA margin 36.5 % $142 $104 28.0 % Adjusted net income $0.32 $0.25 37.1 % Adjusted diluted EPS (b) 45.3 % Operating cash flow $85 $62 Adju",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "37.1 %",
+   "normalised": "3710 bps",
+   "ts_page": 18,
+   "context": "% +70 bps Adjusted EBITDA margin 36.5 % $142 $104 28.0 % Adjusted net income $0.32 $0.25 37.1 % Adjusted diluted EPS (b) 45.3 % Operating cash flow $85 $62 Adjusted free cash flow $125 $86 +530 bps 8",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "45.3 %",
+   "normalised": "4530 bps",
+   "ts_page": 18,
+   "context": "n 36.5 % $142 $104 28.0 % Adjusted net income $0.32 $0.25 37.1 % Adjusted diluted EPS (b) 45.3 % Operating cash flow $85 $62 Adjusted free cash flow $125 $86 +530 bps 88.0 % 82.7 % Adjusted free cash",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "530 bps",
+   "normalised": "530 bps",
+   "ts_page": 18,
+   "context": "sted diluted EPS (b) 45.3 % Operating cash flow $85 $62 Adjusted free cash flow $125 $86 +530 bps 88.0 % 82.7 % Adjusted free cash flow as a % of adjusted net income Notes: Amounts in millions, except",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "88.0 %",
+   "normalised": "8800 bps",
+   "ts_page": 18,
+   "context": "uted EPS (b) 45.3 % Operating cash flow $85 $62 Adjusted free cash flow $125 $86 +530 bps 88.0 % 82.7 % Adjusted free cash flow as a % of adjusted net income Notes: Amounts in millions, except per sha",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "82.7 %",
+   "normalised": "8270 bps",
+   "ts_page": 18,
+   "context": "S (b) 45.3 % Operating cash flow $85 $62 Adjusted free cash flow $125 $86 +530 bps 88.0 % 82.7 % Adjusted free cash flow as a % of adjusted net income Notes: Amounts in millions, except per share data",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "June 30, 2025",
+   "normalised": "2025-06-30",
+   "ts_page": 18,
+   "context": "on. b. Per share data has been adjusted to reflect the three-for-two stock split executed June 30, 2025. 18 Key Segment Financial and Operating Metrics Three Months Ended March 31, ($ in millions) 202",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "11.7 %",
+   "normalised": "1170 bps",
+   "ts_page": 19,
+   "context": "arch 31, ($ in millions) 2026 Safety Services Y/Y 2026 Specialty Services Y/Y $1,415 2025 11.7 % $569 2025 25.6 % Net revenues $1,267 $453 24.8 % Organic net revenue growth (a) 5.4 % $93 22.4 % $527 $",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "25.6 %",
+   "normalised": "2560 bps",
+   "ts_page": 19,
+   "context": "llions) 2026 Safety Services Y/Y 2026 Specialty Services Y/Y $1,415 2025 11.7 % $569 2025 25.6 % Net revenues $1,267 $453 24.8 % Organic net revenue growth (a) 5.4 % $93 22.4 % $527 $469 12.4 % 16.3 %",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "24.8 %",
+   "normalised": "2480 bps",
+   "ts_page": 19,
+   "context": "2026 Specialty Services Y/Y $1,415 2025 11.7 % $569 2025 25.6 % Net revenues $1,267 $453 24.8 % Organic net revenue growth (a) 5.4 % $93 22.4 % $527 $469 12.4 % 16.3 % $76 (50) bps Adjusted gross pro",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "5.4 %",
+   "normalised": "540 bps",
+   "ts_page": 19,
+   "context": "25 11.7 % $569 2025 25.6 % Net revenues $1,267 $453 24.8 % Organic net revenue growth (a) 5.4 % $93 22.4 % $527 $469 12.4 % 16.3 % $76 (50) bps Adjusted gross profit 37.2 % 37.0 % +20 bps 16.8 % 34.5",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "22.4 %",
+   "normalised": "2240 bps",
+   "ts_page": 19,
+   "context": "$569 2025 25.6 % Net revenues $1,267 $453 24.8 % Organic net revenue growth (a) 5.4 % $93 22.4 % $527 $469 12.4 % 16.3 % $76 (50) bps Adjusted gross profit 37.2 % 37.0 % +20 bps 16.8 % 34.5 % Adjusted",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "12.4 %",
+   "normalised": "1240 bps",
+   "ts_page": 19,
+   "context": "Net revenues $1,267 $453 24.8 % Organic net revenue growth (a) 5.4 % $93 22.4 % $527 $469 12.4 % 16.3 % $76 (50) bps Adjusted gross profit 37.2 % 37.0 % +20 bps 16.8 % 34.5 % Adjusted gross margin $23",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "16.3 %",
+   "normalised": "1630 bps",
+   "ts_page": 19,
+   "context": "enues $1,267 $453 24.8 % Organic net revenue growth (a) 5.4 % $93 22.4 % $527 $469 12.4 % 16.3 % $76 (50) bps Adjusted gross profit 37.2 % 37.0 % +20 bps 16.8 % 34.5 % Adjusted gross margin $230 $199",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "37.2 %",
+   "normalised": "3720 bps",
+   "ts_page": 19,
+   "context": "ue growth (a) 5.4 % $93 22.4 % $527 $469 12.4 % 16.3 % $76 (50) bps Adjusted gross profit 37.2 % 37.0 % +20 bps 16.8 % 34.5 % Adjusted gross margin $230 $199 15.6 % $39 +50 bps 16.3 % 15.7 % +60 bps 6",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "37.0 %",
+   "normalised": "3700 bps",
+   "ts_page": 19,
+   "context": "th (a) 5.4 % $93 22.4 % $527 $469 12.4 % 16.3 % $76 (50) bps Adjusted gross profit 37.2 % 37.0 % +20 bps 16.8 % 34.5 % Adjusted gross margin $230 $199 15.6 % $39 +50 bps 16.3 % 15.7 % +60 bps 6.9 % $2",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "20 bps",
+   "normalised": "20 bps",
+   "ts_page": 19,
+   "context": ".4 % $93 22.4 % $527 $469 12.4 % 16.3 % $76 (50) bps Adjusted gross profit 37.2 % 37.0 % +20 bps 16.8 % 34.5 % Adjusted gross margin $230 $199 15.6 % $39 +50 bps 16.3 % 15.7 % +60 bps 6.9 % $29 Segmen",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "16.8 %",
+   "normalised": "1680 bps",
+   "ts_page": 19,
+   "context": "3 22.4 % $527 $469 12.4 % 16.3 % $76 (50) bps Adjusted gross profit 37.2 % 37.0 % +20 bps 16.8 % 34.5 % Adjusted gross margin $230 $199 15.6 % $39 +50 bps 16.3 % 15.7 % +60 bps 6.9 % $29 Segment earni",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "34.5 %",
+   "normalised": "3450 bps",
+   "ts_page": 19,
+   "context": "% $527 $469 12.4 % 16.3 % $76 (50) bps Adjusted gross profit 37.2 % 37.0 % +20 bps 16.8 % 34.5 % Adjusted gross margin $230 $199 15.6 % $39 +50 bps 16.3 % 15.7 % +60 bps 6.9 % $29 Segment earnings 6.4",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "15.6 %",
+   "normalised": "1560 bps",
+   "ts_page": 19,
+   "context": "Adjusted gross profit 37.2 % 37.0 % +20 bps 16.8 % 34.5 % Adjusted gross margin $230 $199 15.6 % $39 +50 bps 16.3 % 15.7 % +60 bps 6.9 % $29 Segment earnings 6.4 % Segment earnings margin Notes: Amoun",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50 bps",
+   "normalised": "50 bps",
+   "ts_page": 19,
+   "context": "ss profit 37.2 % 37.0 % +20 bps 16.8 % 34.5 % Adjusted gross margin $230 $199 15.6 % $39 +50 bps 16.3 % 15.7 % +60 bps 6.9 % $29 Segment earnings 6.4 % Segment earnings margin Notes: Amounts in millio",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "44, 45, 148"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "16.3 %",
+   "normalised": "1630 bps",
+   "ts_page": 19,
+   "context": "it 37.2 % 37.0 % +20 bps 16.8 % 34.5 % Adjusted gross margin $230 $199 15.6 % $39 +50 bps 16.3 % 15.7 % +60 bps 6.9 % $29 Segment earnings 6.4 % Segment earnings margin Notes: Amounts in millions. Ref",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "15.7 %",
+   "normalised": "1570 bps",
+   "ts_page": 19,
+   "context": "% 37.0 % +20 bps 16.8 % 34.5 % Adjusted gross margin $230 $199 15.6 % $39 +50 bps 16.3 % 15.7 % +60 bps 6.9 % $29 Segment earnings 6.4 % Segment earnings margin Notes: Amounts in millions. Refer to n",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "60 bps",
+   "normalised": "60 bps",
+   "ts_page": 19,
+   "context": "% +20 bps 16.8 % 34.5 % Adjusted gross margin $230 $199 15.6 % $39 +50 bps 16.3 % 15.7 % +60 bps 6.9 % $29 Segment earnings 6.4 % Segment earnings margin Notes: Amounts in millions. Refer to non-GAAP",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "6.9 %",
+   "normalised": "690 bps",
+   "ts_page": 19,
+   "context": "ps 16.8 % 34.5 % Adjusted gross margin $230 $199 15.6 % $39 +50 bps 16.3 % 15.7 % +60 bps 6.9 % $29 Segment earnings 6.4 % Segment earnings margin Notes: Amounts in millions. Refer to non-GAAP reconci",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "6.4 %",
+   "normalised": "640 bps",
+   "ts_page": 19,
+   "context": "ross margin $230 $199 15.6 % $39 +50 bps 16.3 % 15.7 % +60 bps 6.9 % $29 Segment earnings 6.4 % Segment earnings margin Notes: Amounts in millions. Refer to non-GAAP reconciliations to the most compar",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "13.7%",
+   "normalised": "1370 bps",
+   "ts_page": 20,
+   "context": "mber 31, ($ in millions) 2025 Safety Services Y/Y 2025 Specialty Services Y/Y $5,456 2024 13.7% $2,460 2024 10.4% Net revenues $4,797 6.7% $2,229 10.4% Organic net revenue growth (a) $2,036 16.5% $466",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10.4%",
+   "normalised": "1040 bps",
+   "ts_page": 20,
+   "context": "lions) 2025 Safety Services Y/Y 2025 Specialty Services Y/Y $5,456 2024 13.7% $2,460 2024 10.4% Net revenues $4,797 6.7% $2,229 10.4% Organic net revenue growth (a) $2,036 16.5% $466 6.2% 37.3% $1,747",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "6.7%",
+   "normalised": "670 bps",
+   "ts_page": 20,
+   "context": "s Y/Y 2025 Specialty Services Y/Y $5,456 2024 13.7% $2,460 2024 10.4% Net revenues $4,797 6.7% $2,229 10.4% Organic net revenue growth (a) $2,036 16.5% $466 6.2% 37.3% $1,747 +90 bps 18.9% $439 (80) b",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10.4%",
+   "normalised": "1040 bps",
+   "ts_page": 20,
+   "context": "pecialty Services Y/Y $5,456 2024 13.7% $2,460 2024 10.4% Net revenues $4,797 6.7% $2,229 10.4% Organic net revenue growth (a) $2,036 16.5% $466 6.2% 37.3% $1,747 +90 bps 18.9% $439 (80) bps Adjusted",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "16.5%",
+   "normalised": "1650 bps",
+   "ts_page": 20,
+   "context": "60 2024 10.4% Net revenues $4,797 6.7% $2,229 10.4% Organic net revenue growth (a) $2,036 16.5% $466 6.2% 37.3% $1,747 +90 bps 18.9% $439 (80) bps Adjusted gross profit $916 36.4% 19.7% $264 19.7% 4.3",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "6.2%",
+   "normalised": "620 bps",
+   "ts_page": 20,
+   "context": "4% Net revenues $4,797 6.7% $2,229 10.4% Organic net revenue growth (a) $2,036 16.5% $466 6.2% 37.3% $1,747 +90 bps 18.9% $439 (80) bps Adjusted gross profit $916 36.4% 19.7% $264 19.7% 4.3% Adjusted",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "37.3%",
+   "normalised": "3730 bps",
+   "ts_page": 20,
+   "context": "t revenues $4,797 6.7% $2,229 10.4% Organic net revenue growth (a) $2,036 16.5% $466 6.2% 37.3% $1,747 +90 bps 18.9% $439 (80) bps Adjusted gross profit $916 36.4% 19.7% $264 19.7% 4.3% Adjusted gross",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "90 bps",
+   "normalised": "90 bps",
+   "ts_page": 20,
+   "context": "797 6.7% $2,229 10.4% Organic net revenue growth (a) $2,036 16.5% $466 6.2% 37.3% $1,747 +90 bps 18.9% $439 (80) bps Adjusted gross profit $916 36.4% 19.7% $264 19.7% 4.3% Adjusted gross margin 16.8%",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "18.9%",
+   "normalised": "1890 bps",
+   "ts_page": 20,
+   "context": "% $2,229 10.4% Organic net revenue growth (a) $2,036 16.5% $466 6.2% 37.3% $1,747 +90 bps 18.9% $439 (80) bps Adjusted gross profit $916 36.4% 19.7% $264 19.7% 4.3% Adjusted gross margin 16.8% $765 +9",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "36.4%",
+   "normalised": "3640 bps",
+   "ts_page": 20,
+   "context": "2,036 16.5% $466 6.2% 37.3% $1,747 +90 bps 18.9% $439 (80) bps Adjusted gross profit $916 36.4% 19.7% $264 19.7% 4.3% Adjusted gross margin 16.8% $765 +90 bps 10.7% $253 (70) bps 15.9% 11.4% Segment e",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "19.7%",
+   "normalised": "1970 bps",
+   "ts_page": 20,
+   "context": "16.5% $466 6.2% 37.3% $1,747 +90 bps 18.9% $439 (80) bps Adjusted gross profit $916 36.4% 19.7% $264 19.7% 4.3% Adjusted gross margin 16.8% $765 +90 bps 10.7% $253 (70) bps 15.9% 11.4% Segment earning",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "19.7%",
+   "normalised": "1970 bps",
+   "ts_page": 20,
+   "context": "6.2% 37.3% $1,747 +90 bps 18.9% $439 (80) bps Adjusted gross profit $916 36.4% 19.7% $264 19.7% 4.3% Adjusted gross margin 16.8% $765 +90 bps 10.7% $253 (70) bps 15.9% 11.4% Segment earnings Segment e",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "4.3%",
+   "normalised": "430 bps",
+   "ts_page": 20,
+   "context": "7.3% $1,747 +90 bps 18.9% $439 (80) bps Adjusted gross profit $916 36.4% 19.7% $264 19.7% 4.3% Adjusted gross margin 16.8% $765 +90 bps 10.7% $253 (70) bps 15.9% 11.4% Segment earnings Segment earning",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "16.8%",
+   "normalised": "1680 bps",
+   "ts_page": 20,
+   "context": "439 (80) bps Adjusted gross profit $916 36.4% 19.7% $264 19.7% 4.3% Adjusted gross margin 16.8% $765 +90 bps 10.7% $253 (70) bps 15.9% 11.4% Segment earnings Segment earnings margin Notes: Amounts in",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "90 bps",
+   "normalised": "90 bps",
+   "ts_page": 20,
+   "context": "Adjusted gross profit $916 36.4% 19.7% $264 19.7% 4.3% Adjusted gross margin 16.8% $765 +90 bps 10.7% $253 (70) bps 15.9% 11.4% Segment earnings Segment earnings margin Notes: Amounts in millions. Re",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10.7%",
+   "normalised": "1070 bps",
+   "ts_page": 20,
+   "context": "ed gross profit $916 36.4% 19.7% $264 19.7% 4.3% Adjusted gross margin 16.8% $765 +90 bps 10.7% $253 (70) bps 15.9% 11.4% Segment earnings Segment earnings margin Notes: Amounts in millions. Refer to",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "15.9%",
+   "normalised": "1590 bps",
+   "ts_page": 20,
+   "context": "36.4% 19.7% $264 19.7% 4.3% Adjusted gross margin 16.8% $765 +90 bps 10.7% $253 (70) bps 15.9% 11.4% Segment earnings Segment earnings margin Notes: Amounts in millions. Refer to non-GAAP reconciliat",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "11.4%",
+   "normalised": "1140 bps",
+   "ts_page": 20,
+   "context": "19.7% $264 19.7% 4.3% Adjusted gross margin 16.8% $765 +90 bps 10.7% $253 (70) bps 15.9% 11.4% Segment earnings Segment earnings margin Notes: Amounts in millions. Refer to non-GAAP reconciliations t",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 22,
+   "context": "easures Organic Change in Net Revenues (non-GAAP) Net revenues Foreign Three Months Ended March 31, 2026 Acquisitions and Organic change currency divestitures, net (c) change in translation (a) Net re",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "5.4 %",
+   "normalised": "540 bps",
+   "ts_page": 22,
+   "context": "net (c) change in translation (a) Net revenues net revenues (d) (as reported) change 4.4 5.4 % (fixed currency) (b) 3.3 24.8 % Safety Services 11.7 % % 7.3 % 1.9 % Specialty Services 10.4 % 25.6 % —%",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "24.8 %",
+   "normalised": "2480 bps",
+   "ts_page": 22,
+   "context": "(a) Net revenues net revenues (d) (as reported) change 4.4 5.4 % (fixed currency) (b) 3.3 24.8 % Safety Services 11.7 % % 7.3 % 1.9 % Specialty Services 10.4 % 25.6 % —% 25.6 % 0.8 % Consolidated 15.3",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "11.7 %",
+   "normalised": "1170 bps",
+   "ts_page": 22,
+   "context": "venues (d) (as reported) change 4.4 5.4 % (fixed currency) (b) 3.3 24.8 % Safety Services 11.7 % % 7.3 % 1.9 % Specialty Services 10.4 % 25.6 % —% 25.6 % 0.8 % Consolidated 15.3 % % 12.0 % 1.6 % a. Re",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "7.3 %",
+   "normalised": "730 bps",
+   "ts_page": 22,
+   "context": ") (as reported) change 4.4 5.4 % (fixed currency) (b) 3.3 24.8 % Safety Services 11.7 % % 7.3 % 1.9 % Specialty Services 10.4 % 25.6 % —% 25.6 % 0.8 % Consolidated 15.3 % % 12.0 % 1.6 % a. Represents",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.9 %",
+   "normalised": "190 bps",
+   "ts_page": 22,
+   "context": "reported) change 4.4 5.4 % (fixed currency) (b) 3.3 24.8 % Safety Services 11.7 % % 7.3 % 1.9 % Specialty Services 10.4 % 25.6 % —% 25.6 % 0.8 % Consolidated 15.3 % % 12.0 % 1.6 % a. Represents the ef",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "10.4 %",
+   "normalised": "1040 bps",
+   "ts_page": 22,
+   "context": "% (fixed currency) (b) 3.3 24.8 % Safety Services 11.7 % % 7.3 % 1.9 % Specialty Services 10.4 % 25.6 % —% 25.6 % 0.8 % Consolidated 15.3 % % 12.0 % 1.6 % a. Represents the effect of foreign currency",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "25.6 %",
+   "normalised": "2560 bps",
+   "ts_page": 22,
+   "context": "d currency) (b) 3.3 24.8 % Safety Services 11.7 % % 7.3 % 1.9 % Specialty Services 10.4 % 25.6 % —% 25.6 % 0.8 % Consolidated 15.3 % % 12.0 % 1.6 % a. Represents the effect of foreign currency on repo",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "25.6 %",
+   "normalised": "2560 bps",
+   "ts_page": 22,
+   "context": ") (b) 3.3 24.8 % Safety Services 11.7 % % 7.3 % 1.9 % Specialty Services 10.4 % 25.6 % —% 25.6 % 0.8 % Consolidated 15.3 % % 12.0 % 1.6 % a. Represents the effect of foreign currency on reported net r",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.8 %",
+   "normalised": "80 bps",
+   "ts_page": 22,
+   "context": ".3 24.8 % Safety Services 11.7 % % 7.3 % 1.9 % Specialty Services 10.4 % 25.6 % —% 25.6 % 0.8 % Consolidated 15.3 % % 12.0 % 1.6 % a. Represents the effect of foreign currency on reported net revenues",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "15.3 %",
+   "normalised": "1530 bps",
+   "ts_page": 22,
+   "context": "rvices 11.7 % % 7.3 % 1.9 % Specialty Services 10.4 % 25.6 % —% 25.6 % 0.8 % Consolidated 15.3 % % 12.0 % 1.6 % a. Represents the effect of foreign currency on reported net revenues, calculated as the",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "12.0 %",
+   "normalised": "1200 bps",
+   "ts_page": 22,
+   "context": ".7 % % 7.3 % 1.9 % Specialty Services 10.4 % 25.6 % —% 25.6 % 0.8 % Consolidated 15.3 % % 12.0 % 1.6 % a. Represents the effect of foreign currency on reported net revenues, calculated as the differen",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.6 %",
+   "normalised": "160 bps",
+   "ts_page": 22,
+   "context": "7.3 % 1.9 % Specialty Services 10.4 % 25.6 % —% 25.6 % 0.8 % Consolidated 15.3 % % 12.0 % 1.6 % a. Represents the effect of foreign currency on reported net revenues, calculated as the difference betw",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 22,
+   "context": "and net revenues from material divestitures for all periods for businesses divested as of March 31, 2026. d. Organic change in net revenues provides a consistent basis for a year-over-year comparison",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 23,
+   "context": "iation of Non-GAAP Financial Measures Adjusted Gross Profit (non-GAAP) Three Months Ended March 31, 2026 2025 542 Gross profit (as reported) $ 620 $ Adjustments to reconcile gross profit to adjusted g",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "31.3 %",
+   "normalised": "3130 bps",
+   "ts_page": 23,
+   "context": ") — 3 Backlog amortization $ Adjusted gross profit 620 $ 545 Net revenues $ 1,982 $ 1,719 31.3 % 31.7 % Adjusted gross margin a. Adjustment to reflect the elimination of amortization expense related t",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "31.7 %",
+   "normalised": "3170 bps",
+   "ts_page": 23,
+   "context": "acklog amortization $ Adjusted gross profit 620 $ 545 Net revenues $ 1,982 $ 1,719 31.3 % 31.7 % Adjusted gross margin a. Adjustment to reflect the elimination of amortization expense related to backl",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 24,
+   "context": "Reconciliation of Non-GAAP Financial Measures Adjusted SG&A (non-GAAP) Three Months Ended March 31, 2026 2025 Selling, general, and administrative expenses (\"SG&A\") (as reported) $ 517 $ 458 Adjustmen",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "20.6 %",
+   "normalised": "2060 bps",
+   "ts_page": 24,
+   "context": "s — (3) 1 (2) 409 $ 376 Net revenues $ 1,982 $ 1,719 Adjusted SG&A as a % of net revenues 20.6 % 21.9 % b. Adjustment to reflect the elimination of amortization expense. c. Adjustment to reflect the e",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "21.9 %",
+   "normalised": "2190 bps",
+   "ts_page": 24,
+   "context": "1 (2) 409 $ 376 Net revenues $ 1,982 $ 1,719 Adjusted SG&A as a % of net revenues 20.6 % 21.9 % b. Adjustment to reflect the elimination of amortization expense. c. Adjustment to reflect the eliminat",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 25,
+   "context": "conciliation of Non-GAAP Financial Measures Adjusted EBITDA (non-GAAP) Three Months Ended March 31, 2026 2025 Net income (as reported) $ 57 $ 35 Adjustments to reconcile net income to EBITDA: $ 30 38",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "11.9 %",
+   "normalised": "1190 bps",
+   "ts_page": 25,
+   "context": "usted EBITDA 19 3 — 3 (1) 2 235 $ 193 Net revenues $ 1,982 $ 1,719 Adjusted EBITDA margin 11.9 % 11.2 % a. Adjustment to reflect the elimination of the expense attributable to one-time deferred consid",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "11.2 %",
+   "normalised": "1120 bps",
+   "ts_page": 25,
+   "context": "BITDA 19 3 — 3 (1) 2 235 $ 193 Net revenues $ 1,982 $ 1,719 Adjusted EBITDA margin 11.9 % 11.2 % a. Adjustment to reflect the elimination of the expense attributable to one-time deferred consideration",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 26,
+   "context": "ures Adjusted Income Before Income Tax, Net Income, and EPS (non-GAAP) Three Months Ended March 31, 2026 2025 Income before income tax provision (as reported) $ 71 $ 46 Adjustments to reconcile income",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "23%",
+   "normalised": "2300 bps",
+   "ts_page": 26,
+   "context": "ous capital market activities. i. Adjustment to reflect an adjusted effective tax rate of 23%, which reflects the Company's estimated expectations for taxes to be paid on its adjusted non-GAAP earning",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 27,
+   "context": "P Financial Measures Adjusted Segment Financial Information (non-GAAP) Three Months Ended March 31, 2026 (a) 2025 (a) Safety Services $ 1,415 $ 1,267 Net revenues Adjusted gross profit 527 469 Segment",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "37.2%",
+   "normalised": "3720 bps",
+   "ts_page": 27,
+   "context": "Net revenues Adjusted gross profit 527 469 Segment earnings 230 199 Adjusted gross margin 37.2% 37.0% Segment earnings margin 16.3% 15.7% Specialty Services $ 569 $ 453 Net revenues Adjusted gross pro",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "37.0%",
+   "normalised": "3700 bps",
+   "ts_page": 27,
+   "context": "venues Adjusted gross profit 527 469 Segment earnings 230 199 Adjusted gross margin 37.2% 37.0% Segment earnings margin 16.3% 15.7% Specialty Services $ 569 $ 453 Net revenues Adjusted gross profit 93",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "16.3%",
+   "normalised": "1630 bps",
+   "ts_page": 27,
+   "context": "27 469 Segment earnings 230 199 Adjusted gross margin 37.2% 37.0% Segment earnings margin 16.3% 15.7% Specialty Services $ 569 $ 453 Net revenues Adjusted gross profit 93 76 Segment earnings 39 29 Adj",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "15.7%",
+   "normalised": "1570 bps",
+   "ts_page": 27,
+   "context": "Segment earnings 230 199 Adjusted gross margin 37.2% 37.0% Segment earnings margin 16.3% 15.7% Specialty Services $ 569 $ 453 Net revenues Adjusted gross profit 93 76 Segment earnings 39 29 Adjusted",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "16.3%",
+   "normalised": "1630 bps",
+   "ts_page": 27,
+   "context": "453 Net revenues Adjusted gross profit 93 76 Segment earnings 39 29 Adjusted gross margin 16.3% 16.8% Segment earnings margin 6.9% 6.4% Total net revenues before corporate and eliminations (b) $ 1,984",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "16.8%",
+   "normalised": "1680 bps",
+   "ts_page": 27,
+   "context": "t revenues Adjusted gross profit 93 76 Segment earnings 39 29 Adjusted gross margin 16.3% 16.8% Segment earnings margin 6.9% 6.4% Total net revenues before corporate and eliminations (b) $ 1,984 $ 1,7",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "6.9%",
+   "normalised": "690 bps",
+   "ts_page": 27,
+   "context": "it 93 76 Segment earnings 39 29 Adjusted gross margin 16.3% 16.8% Segment earnings margin 6.9% 6.4% Total net revenues before corporate and eliminations (b) $ 1,984 $ 1,720 Total segment earnings befo",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "6.4%",
+   "normalised": "640 bps",
+   "ts_page": 27,
+   "context": "76 Segment earnings 39 29 Adjusted gross margin 16.3% 16.8% Segment earnings margin 6.9% 6.4% Total net revenues before corporate and eliminations (b) $ 1,984 $ 1,720 Total segment earnings before co",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "13.3%",
+   "normalised": "1330 bps",
+   "ts_page": 27,
+   "context": "nd eliminations (b) 228 Segment earnings margin before corporate and eliminations (b) 269 13.3% 13.6% Corporate and Eliminations $ (2) $ (1) Net revenues Adjusted EBITDA (34) (35) Total Consolidated $",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "13.6%",
+   "normalised": "1360 bps",
+   "ts_page": 27,
+   "context": "minations (b) 228 Segment earnings margin before corporate and eliminations (b) 269 13.3% 13.6% Corporate and Eliminations $ (2) $ (1) Net revenues Adjusted EBITDA (34) (35) Total Consolidated $ 1,982",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "31.3%",
+   "normalised": "3130 bps",
+   "ts_page": 27,
+   "context": "Net revenues Adjusted gross profit 620 545 Adjusted EBITDA 235 193 Adjusted gross margin 31.3% 31.7% Adjusted EBITDA margin 11.9% 11.2% a. Information derived from non-GAAP reconciliations included e",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "31.7%",
+   "normalised": "3170 bps",
+   "ts_page": 27,
+   "context": "evenues Adjusted gross profit 620 545 Adjusted EBITDA 235 193 Adjusted gross margin 31.3% 31.7% Adjusted EBITDA margin 11.9% 11.2% a. Information derived from non-GAAP reconciliations included elsewhe",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "11.9%",
+   "normalised": "1190 bps",
+   "ts_page": 27,
+   "context": "620 545 Adjusted EBITDA 235 193 Adjusted gross margin 31.3% 31.7% Adjusted EBITDA margin 11.9% 11.2% a. Information derived from non-GAAP reconciliations included elsewhere in this document. b. Calcu",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "11.2%",
+   "normalised": "1120 bps",
+   "ts_page": 27,
+   "context": "45 Adjusted EBITDA 235 193 Adjusted gross margin 31.3% 31.7% Adjusted EBITDA margin 11.9% 11.2% a. Information derived from non-GAAP reconciliations included elsewhere in this document. b. Calculated",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 28,
+   "context": "Measures Adjusted Segment Financial Information (non-GAAP) As Reported Three Months Ended March 31, 2026 As Adjusted As Reported Three Months Ended March 31, 2025 As Adjusted Adjustments Adjustments S",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2025",
+   "normalised": "2025-03-31",
+   "ts_page": 28,
+   "context": "As Reported Three Months Ended March 31, 2026 As Adjusted As Reported Three Months Ended March 31, 2025 As Adjusted Adjustments Adjustments Safety Services $ 1,415 $ — $ 1,415 $ 1,267 $ — $ 1,267 Net",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "37.2%",
+   "normalised": "3720 bps",
+   "ts_page": 28,
+   "context": "Net revenues 888 798 Cost of revenues 888 — 801 (3) (a) 527 469 Gross profit $ 527 $ — $ 37.2% $ 466 $ 3 $ 37.0% Gross margin 37.2% 36.8% Specialty Services $ 569 $ — $ 569 $ 453 $ — $ 453 Net revenu",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "37.0%",
+   "normalised": "3700 bps",
+   "ts_page": 28,
+   "context": "798 Cost of revenues 888 — 801 (3) (a) 527 469 Gross profit $ 527 $ — $ 37.2% $ 466 $ 3 $ 37.0% Gross margin 37.2% 36.8% Specialty Services $ 569 $ — $ 569 $ 453 $ — $ 453 Net revenues 476 377 Cost of",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "37.2%",
+   "normalised": "3720 bps",
+   "ts_page": 28,
+   "context": "s 888 — 801 (3) (a) 527 469 Gross profit $ 527 $ — $ 37.2% $ 466 $ 3 $ 37.0% Gross margin 37.2% 36.8% Specialty Services $ 569 $ — $ 569 $ 453 $ — $ 453 Net revenues 476 377 Cost of revenues 476 — 377",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "36.8%",
+   "normalised": "3680 bps",
+   "ts_page": 28,
+   "context": "— 801 (3) (a) 527 469 Gross profit $ 527 $ — $ 37.2% $ 466 $ 3 $ 37.0% Gross margin 37.2% 36.8% Specialty Services $ 569 $ — $ 569 $ 453 $ — $ 453 Net revenues 476 377 Cost of revenues 476 — 377 — 93",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "16.3%",
+   "normalised": "1630 bps",
+   "ts_page": 28,
+   "context": "$ — $ 453 Net revenues 476 377 Cost of revenues 476 — 377 — 93 76 Gross profit $ 93 $ — $ 16.3% $ 76 $ — $ 16.8% Gross margin 16.3% 16.8% Corporate and Eliminations $ (2) $ — $ (2) $ (1) $ — $ (1) Net",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "16.8%",
+   "normalised": "1680 bps",
+   "ts_page": 28,
+   "context": "enues 476 377 Cost of revenues 476 — 377 — 93 76 Gross profit $ 93 $ — $ 16.3% $ 76 $ — $ 16.8% Gross margin 16.3% 16.8% Corporate and Eliminations $ (2) $ — $ (2) $ (1) $ — $ (1) Net revenues Cost of",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "16.3%",
+   "normalised": "1630 bps",
+   "ts_page": 28,
+   "context": "of revenues 476 — 377 — 93 76 Gross profit $ 93 $ — $ 16.3% $ 76 $ — $ 16.8% Gross margin 16.3% 16.8% Corporate and Eliminations $ (2) $ — $ (2) $ (1) $ — $ (1) Net revenues Cost of revenues (2) — (2)",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "16.8%",
+   "normalised": "1680 bps",
+   "ts_page": 28,
+   "context": "enues 476 — 377 — 93 76 Gross profit $ 93 $ — $ 16.3% $ 76 $ — $ 16.8% Gross margin 16.3% 16.8% Corporate and Eliminations $ (2) $ — $ (2) $ (1) $ — $ (1) Net revenues Cost of revenues (2) — (2) (1) —",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "31.3%",
+   "normalised": "3130 bps",
+   "ts_page": 28,
+   "context": "enues 1,362 1,174 Cost of revenues 1,362 — 1,177 (3) (a) 620 545 Gross profit $ 620 $ — $ 31.3% $ 542 $ 3 $ 31.7% Gross margin 31.3% 31.5% a. Adjustment to reflect the elimination of amortization expe",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "31.7%",
+   "normalised": "3170 bps",
+   "ts_page": 28,
+   "context": "Cost of revenues 1,362 — 1,177 (3) (a) 620 545 Gross profit $ 620 $ — $ 31.3% $ 542 $ 3 $ 31.7% Gross margin 31.3% 31.5% a. Adjustment to reflect the elimination of amortization expense related to bac",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "31.3%",
+   "normalised": "3130 bps",
+   "ts_page": 28,
+   "context": "362 — 1,177 (3) (a) 620 545 Gross profit $ 620 $ — $ 31.3% $ 542 $ 3 $ 31.7% Gross margin 31.3% 31.5% a. Adjustment to reflect the elimination of amortization expense related to backlog intangible ass",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "31.5%",
+   "normalised": "3150 bps",
+   "ts_page": 28,
+   "context": "1,177 (3) (a) 620 545 Gross profit $ 620 $ — $ 31.3% $ 542 $ 3 $ 31.7% Gross margin 31.3% 31.5% a. Adjustment to reflect the elimination of amortization expense related to backlog intangible assets. 2",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 31, 2026",
+   "normalised": "2026-03-31",
+   "ts_page": 30,
+   "context": "n of Non-GAAP Financial Measures Change in Segment Earnings (non-GAAP) Three Months Ended March 31, 2026 Change in Foreign Change in Segment earnings currency Segment earnings translation (a) (fixed c",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "15.6%",
+   "normalised": "1560 bps",
+   "ts_page": 30,
+   "context": "rency Segment earnings translation (a) (fixed currency) (b) (as reported) Safety Services 15.6% 3.9% 11.7% Specialty Services 34.5% —% 34.5% Consolidated 21.8% 3.7% 18.1% a. Represents the effect of f",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "3.9%",
+   "normalised": "390 bps",
+   "ts_page": 30,
+   "context": "Segment earnings translation (a) (fixed currency) (b) (as reported) Safety Services 15.6% 3.9% 11.7% Specialty Services 34.5% —% 34.5% Consolidated 21.8% 3.7% 18.1% a. Represents the effect of foreign",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "11.7%",
+   "normalised": "1170 bps",
+   "ts_page": 30,
+   "context": "nt earnings translation (a) (fixed currency) (b) (as reported) Safety Services 15.6% 3.9% 11.7% Specialty Services 34.5% —% 34.5% Consolidated 21.8% 3.7% 18.1% a. Represents the effect of foreign curr",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "34.5%",
+   "normalised": "3450 bps",
+   "ts_page": 30,
+   "context": "a) (fixed currency) (b) (as reported) Safety Services 15.6% 3.9% 11.7% Specialty Services 34.5% —% 34.5% Consolidated 21.8% 3.7% 18.1% a. Represents the effect of foreign currency on reported segment",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "34.5%",
+   "normalised": "3450 bps",
+   "ts_page": 30,
+   "context": "currency) (b) (as reported) Safety Services 15.6% 3.9% 11.7% Specialty Services 34.5% —% 34.5% Consolidated 21.8% 3.7% 18.1% a. Represents the effect of foreign currency on reported segment earnings,",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "21.8%",
+   "normalised": "2180 bps",
+   "ts_page": 30,
+   "context": "reported) Safety Services 15.6% 3.9% 11.7% Specialty Services 34.5% —% 34.5% Consolidated 21.8% 3.7% 18.1% a. Represents the effect of foreign currency on reported segment earnings, calculated as the",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "3.7%",
+   "normalised": "370 bps",
+   "ts_page": 30,
+   "context": "ed) Safety Services 15.6% 3.9% 11.7% Specialty Services 34.5% —% 34.5% Consolidated 21.8% 3.7% 18.1% a. Represents the effect of foreign currency on reported segment earnings, calculated as the differ",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "18.1%",
+   "normalised": "1810 bps",
+   "ts_page": 30,
+   "context": "afety Services 15.6% 3.9% 11.7% Specialty Services 34.5% —% 34.5% Consolidated 21.8% 3.7% 18.1% a. Represents the effect of foreign currency on reported segment earnings, calculated as the difference",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "88.0 %",
+   "normalised": "8800 bps",
+   "ts_page": 31,
+   "context": "86 Adjusted net income $ 142 $ 104 Adjusted free cash flow as a % of adjusted net income 88.0 % 82.7 % a. Adjustment to reflect the elimination of expense attributable to one-time deferred considerat",
+   "credit_term_context": false,
+   "found_in_ca": false,
+   "ca_pages": ""
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "82.7 %",
+   "normalised": "8270 bps",
+   "ts_page": 31,
+   "context": "usted net income $ 142 $ 104 Adjusted free cash flow as a % of adjusted net income 88.0 % 82.7 % a. Adjustment to reflect the elimination of expense attributable to one-time deferred consideration to",
+   "credit_term_context": true,
+   "found_in_ca": false,
+   "ca_pages": ""
+  }
+ ],
+ "document_notes": "The term sheet file looks like a lender presentation or slides rather than a formal term sheet; expect more 'review' flags.",
+ "quote_check": {
+  "ts_checked": 8,
+  "ca_checked": 13,
+  "ts_found": 5,
+  "ca_found": 12
+ },
+ "generated_at": "2026-11-12T14:40:11+00:00",
+ "engine": "rules",
+ "deal": "APi Group 2026",
+ "ts_file": "APi Group 2026 TS.pdf",
+ "ca_file": "APi Group 2026 CA.pdf"
+}

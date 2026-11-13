@@ -1,0 +1,960 @@
+{
+ "rows": [
+  {
+   "id": "A01",
+   "attribute": "Facility type(s) and structure (revolver / term loan / tranches; new vs amendment)",
+   "ts_value": "$10.0 billion senior unsecured revolving credit facility. The deal is a one-year extension and $1.0bn upsize of the existing $9.0bn Senior Unsecured Master Credit Facility (an amendment, not a new facility), for eight Borrowers (DUK, DEC, DEO, DEI, DEK, DEP, DEF, Piedmont).",
+   "ts_quote": "$10.0 billion senior unsecured revolving credit facility",
+   "ts_location": "PDF p.1, Transaction Summary narrative and 'Facility' row",
+   "ca_value": "Amendment No. 2 and Consent dated March 14, 2025 to the Amended and Restated Credit Agreement dated March 18, 2022 (as amended by Amendment No. 1, March 17, 2023). It is a single multi-borrower revolving credit facility with Revolving Credit Loans (Section 2.01(a)), a Swingline sub-facility (Section 2.18) and Letters of Credit (Section 2.15), for the same eight Borrowers. No term loan or tranches.",
+   "ca_quote": "Reference is made to the Amended and Restated Credit Agreement dated as of March 18, 2022",
+   "ca_location": "Amendment No. 2 Recital A, PDF p.1; Exhibit A conformed cover, PDF p.35; Section 2.01(a), PDF p.61",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "Both documents describe an amendment, extension and upsize of the existing multi-borrower revolving facility rather than a new facility. The structure is the same: a single revolver with swingline and LC sub-facilities, and the same eight Borrowers.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "A02",
+   "attribute": "Facility amount(s) and total commitments",
+   "ts_value": "$10,000,000,000 total, i.e. the existing $9,000,000,000 plus a $1,000,000,000 upsize.",
+   "ts_quote": "The proposed $10,000,000,000 Facility will also include amendments to certain terms",
+   "ts_location": "PDF p.1, Transaction Summary narrative; 'Facility' row",
+   "ca_value": "Aggregate Commitments of $10,000,000,000 under the amended Schedule 1.01(a) Commitment Schedule, across 27 Lenders: 12 at $458,333,333.33/.34, 9 at $370,000,000 and 6 at $195,000,000. The conformed cover changes $9,000,000,000 to $10,000,000,000, and Recital B records a $1,000,000,000 increase.",
+   "ca_quote": "TOTAL $ 10,000,000,000",
+   "ca_location": "Amendment Exhibit B (Schedule 1.01(a) Commitment Schedule), PDF p.109; Recital B, PDF p.1; conformed cover, PDF p.35",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The total commitments are $10.0bn in both documents, and the $1.0bn increase is confirmed by the amendment recital. The individual lender commitments in the Commitment Schedule add up to exactly $10,000,000,000.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    109
+   ]
+  },
+  {
+   "id": "A03",
+   "attribute": "Currencies available",
+   "ts_value": "Not stated in TS. All amounts are shown in US$ only.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "US Dollars only. Revolving Credit Loans and Swingline Loans are made in Dollars, and Letters of Credit must be denominated in Dollars (Section 2.15(b)). There is no alternative currency option.",
+   "ca_quote": "to make Revolving Credit Loans in Dollars to each Borrower pursuant to this subsection",
+   "ca_location": "Section 2.01(a), PDF p.61; Section 2.15(b), PDF p.68; Section 2.18(a), PDF p.72",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS does not mention currencies. The CA allows USD only, which is consistent with the TS showing only US$ amounts.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    61
+   ]
+  },
+  {
+   "id": "A04",
+   "attribute": "Maturity / tenor",
+   "ts_value": "Maturity Date March 16, 2030, extended one year from the existing maturity of March 16, 2029.",
+   "ts_quote": "March 16, 2030",
+   "ts_location": "PDF p.1, 'Maturity Date' row (and narrative: 'currently scheduled to mature on March 16, 2029')",
+   "ca_value": "Commitment Termination Date is March 16, 2030 (blackline changes March 17, 2028 to March 16, 2030; Recital B describes it as a one-year extension to March 16, 2030). If that day is not a Domestic Business Day, the date becomes the immediately preceding Domestic Business Day; the amendment changed this from 'next'. March 16, 2030 is a Saturday, so commitments actually terminate on Friday, March 15, 2030. Under Section 2.05, loans to Borrowers other than the Company also mature on their 'Borrower Maturity Date' (first anniversary of the borrowing) unless the borrowing is designated long-term.",
+   "ca_quote": "for each Lender, March 1716, 20282030, as such date may be extended from time to time with respect to such Lender pursuant to Section 2.01(b) or, if such day is not a Domestic Business Day, the nextimmediately preceding Domestic Business Day",
+   "ca_location": "Section 1.01 'Commitment Termination Date', PDF p.46; Recital B, PDF p.1; Section 2.05 and 'Borrower Maturity Date', PDF pp.45, 63",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "lender_favourable",
+   "explanation": "The stated date, March 16, 2030, is the same in both documents. However, it falls on a Saturday, and the CA's newly inserted 'immediately preceding Domestic Business Day' convention moves actual termination to Friday, March 15, 2030. That is one day earlier than the TS date (under the old 'next' convention it would have been Monday, March 18). The TS does not mention the 364-day Borrower Maturity Date for subsidiary-borrower loans. The blackline base date is March 17, 2028, not the March 16, 2029 existing maturity in the TS. This is consistent rather than a conflict: the 2029 date came from a per-Lender extension under Section 2.01(b), which does not change the definition text, and Recital B confirms a one-year extension to March 16, 2030.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    46
+   ]
+  },
+  {
+   "id": "A05",
+   "attribute": "Extension options / term-out option",
+   "ts_value": "Two 1-year extension options, refreshed (shown in bold as a new/changed term). No term-out option.",
+   "ts_quote": "Two 1-year extension options (refresh)",
+   "ts_location": "PDF p.1, 'Extension Options' row",
+   "ca_value": "Section 2.01(b): any time after the Second Amendment Effective Date (changed from 'First'), the Company may request up to two one-year extensions. Each Lender decides in its sole discretion. Lenders holding at least 51% of Commitments must agree; non-extending Lenders keep their original date and may be replaced. After an extension the maturity may be no later than five years from that extension's effective date. No term-out option.",
+   "ca_quote": "propose to extend the Existing Commitment Termination Date for an additional one year period measured from the Existing Commitment Termination Date; provided that in no event may the Company request more than two extensions",
+   "ca_location": "Section 2.01(b)(i)-(ii), PDF p.61",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "Two one-year extensions are available in both documents. The 'refresh' comes from restarting the request window at the Second Amendment Effective Date. The cap on two extensions does not expressly exclude the extension used in 2024, but the natural reading is that it counts only requests made in the new window. The 51% consent threshold, per-lender election and five-year cap appear only in the CA.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    61
+   ]
+  },
+  {
+   "id": "A06",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "$2.0 billion accordion.",
+   "ts_quote": "Accordion $2.0 billion",
+   "ts_location": "PDF p.1, 'Accordion' row",
+   "ca_value": "Section 2.17: after the Second Amendment Effective Date, the Company may propose increasing aggregate Commitments by up to $2,000,000,000. Conditions: no Default, reps true, at least 30 days' notice, and no Lender obliged to participate. Each Issuing Lender with outstanding LCs must consent. Maximum Sublimits rise ratably with any increase.",
+   "ca_quote": "propose to increase the aggregate amount of the Commitments inby an aggregate amount of up to $2,000,000,000",
+   "ca_location": "Section 2.17(a)-(c), PDF pp.71-72",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The accordion is $2.0bn in both documents; the blackline only changes 'in' to 'by'. The conditions to using it are standard and appear only in the CA.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    71
+   ]
+  },
+  {
+   "id": "A07",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "LC Sublimit of $800 million.",
+   "ts_quote": "LC Sublimit $800 million",
+   "ts_location": "PDF p.1, 'LC Sublimit' row",
+   "ca_value": "Aggregate Letter of Credit Liabilities may not exceed $800,000,000. Separately, each named Issuing Lender's fronting cap falls from $40,000,000 to $33,333,333, unless modified by agreement between the Company and that Issuing Lender.",
+   "ca_quote": "the aggregate amount of the Letter of Credit Liabilities shall not exceed $800,000,000",
+   "ca_location": "Section 2.15(a), PDF p.67 (repeated in Section 3.02(b), PDF p.78); 'Issuing Lender' definition, PDF p.52",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The $800m LC sublimit is the same in both documents. The TS does not mention the CA's per-Issuing Lender cap, which this amendment cut from $40m to $33,333,333. The 12 named Issuing Lenders that remain Lenders are therefore committed to front only about $400m in total, below the $800m sublimit. Usage above that requires Issuing Lenders to agree higher caps or other Lenders to agree to issue. This is a practical limit, not a change to the sublimit itself.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    67
+   ]
+  },
+  {
+   "id": "A08",
+   "attribute": "Swingline sublimit",
+   "ts_value": "Swingline Sublimit of $350 million.",
+   "ts_quote": "Swingline Sublimit $350 million",
+   "ts_location": "PDF p.1, 'Swingline Sublimit' row",
+   "ca_value": "Aggregate outstanding Swingline Loans may not exceed $350,000,000. Wells Fargo is Swingline Lender. Swingline Loans have a $1,000,000 minimum and mature within 10 Domestic Business Days.",
+   "ca_quote": "the aggregate outstanding principal amount of all Swingline Loans does not exceed $350,000,000",
+   "ca_location": "Section 2.18(a), PDF p.72",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The $350m swingline sublimit is the same in both documents.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    72
+   ]
+  },
+  {
+   "id": "A09",
+   "attribute": "Borrower sublimits or other sublimits",
+   "ts_value": "Operative / Maximum sublimits: DUK $2,525MM/$5,575MM; DEC $1,300MM/$2,225MM; DEP $1,675MM/$1,775MM; DEF $1,425MM/$1,650MM; DEI $950MM/$1,225MM; Piedmont $1,050MM/$1,200MM; DEO $825MM/$950MM; DEK $250MM/$400MM. Operative sublimits total $10,000MM.",
+   "ts_quote": "A) Duke Energy Corporation $2,525 MM $5,575 MM",
+   "ts_location": "PDF p.1, 'Borrower Sublimits' table (misaligned in the -layout text; row alignment confirmed with pdftotext -table/-raw)",
+   "ca_value": "Initial Sublimits: Company $2,525,000,000; DEC $1,300,000,000; DEP $1,675,000,000; DEF $1,425,000,000; DEI $950,000,000; Piedmont $1,050,000,000; DEO $825,000,000; DEK $250,000,000. Maximum Sublimits: $5,575,000,000; $2,225,000,000; $1,775,000,000; $1,650,000,000; $1,225,000,000; $1,200,000,000; $950,000,000; $400,000,000. The Company may reallocate in $5m multiples up to each Maximum Sublimit (Section 2.08).",
+   "ca_quote": "Company $3,300,000,0002,525,000,000 Duke Energy Carolinas $1,225,000,0001,300,000,000 Duke Energy Progress $1,400,000,0001,675,000,000 Duke Energy Florida $900,000,0001,425,000,000",
+   "ca_location": "Section 1.01 'Initial Sublimit', PDF p.51; 'Maximum Sublimit', PDF p.54; Section 2.08, PDF p.65",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "All 16 figures (8 operative and 8 maximum sublimits) match exactly, reading the new (second) value of each blackline pair; the new Initial Sublimits total $10,000,000,000. The -layout text of the TS table is misaligned, so the row alignment was confirmed with pdftotext -table and -raw output.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    51
+   ]
+  },
+  {
+   "id": "A10",
+   "attribute": "Benchmark rates, floors and credit spread adjustment",
+   "ts_value": "Reference rate of 1, 3 or 6-month (Term) SOFR, plus a credit spread adjustment of 10.0 bps for all three interest periods. Floors not stated.",
+   "ts_quote": "Credit Spread Adjustment 10.0 bps across all three interest periods",
+   "ts_location": "PDF p.1, 'Reference Rate' and 'Credit Spread Adjustment' rows",
+   "ca_value": "Adjusted Term SOFR is Term SOFR plus a SOFR Adjustment of 0.10% per annum, for 1, 3 or 6-month Interest Periods. Adjusted Term SOFR has a 0% Floor. The alternate rate is the Base Rate: the highest of Prime, Fed Funds + 0.50%, and 1-month Adjusted Term SOFR + 1%. Amendment No. 2 raised the Base Rate floor from 0% to 1% (blackline 'than 01%').",
+   "ca_quote": "means a percentage equal to 0.10% per annum",
+   "ca_location": "Section 1.01 'SOFR Adjustment', PDF p.57; 'Adjusted Term SOFR', PDF p.40; 'Floor', PDF p.50; 'Base Rate', PDF p.42",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "lender_favourable",
+   "explanation": "The SOFR benchmark and the flat 10 bps CSA match. The CA also contains floors the TS does not mention: 0% on Adjusted Term SOFR, and a Base Rate floor raised from 0% to 1% by this amendment. The TS does not show the floor increase as a changed term. Its practical effect is very small, because the Base Rate's SOFR + 1% limb already floors it at 1% whenever SOFR is available.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    57
+   ]
+  },
+  {
+   "id": "A11",
+   "attribute": "Applicable margin / pricing grid (check EVERY tier and EVERY column)",
+   "ts_value": "Ratings grid, showing Facility Fee and All-In Drawn (S + CSA + bps) for each tier: >=AA/Aa2/AA 4.0 / 62.5; AA-/Aa3/AA- 6.0 / 75.0; A+/A1/A+ 7.5 / 87.5; A/A2/A 10.0 / 100.0; A-/A3/A- 12.5 / 112.5; BBB+/Baa1/BBB+ 17.5 / 125.0; BBB/Baa2/BBB 22.5 / 150.0; <BBB/Baa2/BBB 27.5 / 175.0. The implied Applicable Margin (all-in minus facility fee) runs from 58.5 to 147.5 bps.",
+   "ts_quote": "Unsecured Ratings Facility Fee All-In Drawn Borrower",
+   "ts_location": "PDF p.1, 'Pricing Grid' table (misaligned in the -layout text; confirmed with pdftotext -table/-raw)",
+   "ca_value": "Not found in CA. The Applicable Margin for SOFR, Swingline and Base Rate Loans is set per Borrower 'in accordance with the Pricing Schedule' (Schedule 1.01(b)). That schedule is not included in the filed conformed copy, and Amendment No. 2 replaced only Schedule 1.01(a).",
+   "ca_quote": "means, with respect to SOFR Loans, Swingline Loans or Base Rate Loans to any Borrower, the applicable rate per annum for such Borrower determined in accordance with the Pricing Schedule",
+   "ca_location": "Section 1.01 'Applicable Margin', PDF p.41; 'Pricing Schedule', PDF p.56; Schedule 1.01(b) not attached",
+   "status": "not_in_ca",
+   "materiality": "material",
+   "direction": "n/a",
+   "explanation": "None of the 8 tiers or 2 columns can be checked, because the Pricing Schedule is missing from the CA provided. A grep of the CA finds no bps grid, rating-tier table or Fitch reference. The amendment did not replace Schedule 1.01(b), which suggests the existing grid continues, but this must be confirmed against the original Schedule 1.01(b).",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    41
+   ]
+  },
+  {
+   "id": "A12",
+   "attribute": "Pricing basis (ratings / leverage / flat) and initial pricing level",
+   "ts_value": "Pricing is based on each Borrower's senior unsecured ratings (three agencies). Current tiers highlighted: DEP at A/A2/A (10.0 bps FF / S+CSA+100.0); DEC, DEF, DEI and Piedmont at A-/A3/A- (12.5 / 112.5); DEO and DEK at BBB+/Baa1/BBB+ (17.5 / 125.0); DUK at BBB/Baa2/BBB (22.5 / 150.0).",
+   "ts_quote": "Highlighted pricing tiers based on current ratings",
+   "ts_location": "PDF p.1, 'Pricing Grid' table and footnote",
+   "ca_value": "The CA confirms pricing is set per Borrower by ratings through the Pricing Schedule: each Borrower must notify any change in its ratings 'referred to in the Pricing Schedule'. The schedule itself is not attached. The CA body defines only S&P and Moody's and does not mention Fitch. Initial levels are not stated.",
+   "ca_quote": "promptly, notice of any change in the ratings of such Borrower referred to in the Pricing Schedule",
+   "ca_location": "Section 5.01(g), PDF p.82; Section 1.01 'Pricing Schedule', PDF p.56; 'Applicable Margin'/'Facility Fee Rate', PDF pp.41, 50",
+   "status": "not_in_ca",
+   "materiality": "material",
+   "direction": "n/a",
+   "explanation": "The CA supports a ratings-based, borrower-specific pricing basis. However, the initial level for each Borrower, and whether three agencies or two apply, cannot be confirmed without Schedule 1.01(b). The TS borrower-to-tier mapping (C at A; B,D,E,F at A-; G,H at BBB+; A at BBB) was confirmed with pdftotext -table/-raw output.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    82
+   ]
+  },
+  {
+   "id": "A13",
+   "attribute": "Commitment / facility / unused fee",
+   "ts_value": "Ratings-based facility fee: 4.0 / 6.0 / 7.5 / 10.0 / 12.5 / 17.5 / 22.5 / 27.5 bps from the top tier (>=AA/Aa2/AA) to the bottom tier (<BBB/Baa2/BBB).",
+   "ts_quote": "> AA/Aa2/AA 4.0 bps",
+   "ts_location": "PDF p.1, 'Pricing Grid' Facility Fee column (misaligned in the -layout text; confirmed with pdftotext -table/-raw)",
+   "ca_value": "Each Borrower pays a facility fee at the Facility Fee Rate set by the Pricing Schedule. It accrues daily on the Borrower's Borrower Exposures, i.e. the Lender's Percentage of the Borrower's full Sublimit, used or unused. It is payable quarterly in arrears on Quarterly Payment Dates. The rates are not in the CA because Schedule 1.01(b) is not attached.",
+   "ca_quote": "a facility fee calculated for each day at the Facility Fee Rate for such day (determined in accordance with the Pricing Schedule)",
+   "ca_location": "Section 2.07(a), PDF p.64; 'Facility Fee Rate', PDF p.50; Section 2.07(d), PDF p.64",
+   "status": "not_in_ca",
+   "materiality": "material",
+   "direction": "n/a",
+   "explanation": "Both documents use a facility fee (charged on the whole sublimit) rather than an unused fee. However, the 8 fee rates in the TS cannot be checked against the CA because the Pricing Schedule is missing.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    64
+   ]
+  },
+  {
+   "id": "A14",
+   "attribute": "Letter of credit participation fee and fronting fee",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "LC participation fee equals the Applicable Margin for SOFR Loans, on the available amount of each LC. Fronting fee is 0.20% per annum to each Issuing Lender, or another rate the Borrower and that Issuing Lender agree. The Borrower also pays customary issuance, amendment, drawing and documentation charges.",
+   "ca_quote": "for the account of each Issuing Lender a letter of credit fronting fee accruing daily on the aggregate amount then available for drawing under all Letters of Credit issued by such Issuing Lender for its account at a rate per annum of 0.20%",
+   "ca_location": "Section 2.07(b), PDF p.64; Section 2.15(b), PDF p.68",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS does not mention LC fees, so there is nothing to compare. The CA ties the LC fee to the drawn margin and sets a 20 bps fronting fee.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    64
+   ]
+  },
+  {
+   "id": "A15",
+   "attribute": "Upfront, ticking, term-out, extension or other fees stated in the TS",
+   "ts_value": "Upfront fees: 6.0 bps on old money and 17.5 bps on new money (shown in bold as new terms). No ticking, term-out or extension fee stated.",
+   "ts_quote": "Old Money: 6.0 bps | New Money: 17.5 bps",
+   "ts_location": "PDF p.1, 'Upfront Fees' row",
+   "ca_value": "Not found in CA. No upfront fee amounts are stated. Amendment Section 4(e) makes payment of fees under the fee letters dated February 20, 2025 a condition to effectiveness, and 'Fee Letters' is redefined to those February 20, 2025 letters.",
+   "ca_quote": "fees and expenses required to be paid or delivered by the Company on the Effective Date pursuant to the certain fee letters, each dated as of February 20, 2025",
+   "ca_location": "Amendment No. 2 Section 4(e), PDF p.3; Section 1.01 'Fee Letters', PDF p.50",
+   "status": "not_in_ca",
+   "materiality": "minor",
+   "direction": "n/a",
+   "explanation": "The upfront fee levels cannot be checked from the CA, which is normal because they are documented in the fee letters (not provided). The CA does confirm that fees under the Feb 20, 2025 fee letters had to be paid at the Effective Date.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    3
+   ]
+  },
+  {
+   "id": "A16",
+   "attribute": "Default interest",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "Overdue amounts only, payable on demand. Base Rate Loans: Base Rate + Applicable Margin + 1%. SOFR Loans: 1% plus the higher of (Applicable Margin + Adjusted Term SOFR) and the Base Rate Loan rate. Unreimbursed LC drawings: Base Rate, plus 1% if unpaid for more than 2 Domestic Business Days. Swingline: Base Rate + 1%.",
+   "ca_quote": "shall bear interest, payable on demand, for each day until paid at a rate per annum equal to the sum of 1% plus the Applicable Margin for such day plus the Base Rate for such day",
+   "ca_location": "Section 2.06(a), PDF p.63; Section 2.06(c), PDF p.64; Section 2.15(d), PDF p.69; Section 2.18(c), PDF p.72",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS does not mention default interest. The CA applies a 1% surcharge to overdue amounts only.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    63
+   ]
+  },
+  {
+   "id": "A17",
+   "attribute": "Amortization and mandatory prepayments",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "No amortization. Revolving loans are repaid at the earlier of the Commitment Termination Date and the Borrower Maturity Date (first anniversary of borrowing for non-Company Borrowers unless designated long-term). Swingline Loans mature in 10 Domestic Business Days and are prepaid from any revolving borrowing. Required prepayments and LC cash collateral apply on lender non-extension and accordion reallocation. Long-dated LCs must be cash collateralized at 101% by 90 days before maturity.",
+   "ca_quote": "shall mature, and the principal amount thereof shall be due and payable together with accrued interest thereon, on the earlier of the Commitment Termination Date of such Lender and the applicable Borrower Maturity Date (if any)",
+   "ca_location": "Section 2.05, PDF p.63; 'Borrower Maturity Date', PDF p.45; Section 2.18(d), PDF p.73; Section 2.01(b)(ii), PDF p.61; Section 2.17, PDF p.72; Section 2.15(i), PDF p.71",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS is silent, which is consistent with a revolver that has no amortization. The 364-day Borrower Maturity Date for subsidiary-borrower loans is a structural feature the TS does not mention.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    63
+   ]
+  },
+  {
+   "id": "A18",
+   "attribute": "Optional prepayments, commitment reductions, minimum borrowing amounts",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "Optional prepayment of Base Rate Loans with same-day notice by 11:00 a.m., and of SOFR Loans with 3 U.S. Government Securities Business Days' notice. Minimum $5,000,000, then $1,000,000 multiples, plus Section 2.13 breakage. Minimum borrowing $10,000,000, then $1,000,000 multiples. Swingline minimum $1,000,000. Non-Company Borrowers may reduce their Sublimits by $10,000,000 or more in $5,000,000 multiples (or to zero), and total Commitments fall by the same amount.",
+   "ca_quote": "in each case in whole at any time, or from time to time in part in amounts aggregating $5,000,000 or any larger multiple of $1,000,000",
+   "ca_location": "Section 2.11(a), PDF p.65; Section 2.01(a), PDF p.61; Section 2.08(b), PDF p.65; Section 2.18(a),(e), PDF pp.72-73",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS does not cover prepayment, reduction or minimum-amount mechanics. These are standard CA-only provisions.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    66
+   ]
+  },
+  {
+   "id": "A19",
+   "attribute": "Interest periods, notice periods and day count",
+   "ts_value": "Interest periods of 1, 3 or 6 months (SOFR). Notice periods and day count not stated.",
+   "ts_quote": "1, 3, or 6-month SOFR",
+   "ts_location": "PDF p.1, 'Reference Rate' row",
+   "ca_value": "Interest Periods of one, three or six months, subject to availability. Notice of Borrowing by 11:00 a.m. ET: same day for Base Rate, 3 U.S. Government Securities Business Days ahead for SOFR. SOFR interest is paid at the end of each Interest Period and every 3 months for longer periods. Day count is actual/360, except Prime-based Base Rate interest at actual/365 (366 in leap years).",
+   "ca_quote": "ending on the date one, three or six months thereafter, in each case as selected by the Borrower in its Notice of Borrowing or Notice of Conversion/Continuation and subject to availability",
+   "ca_location": "Section 1.01 'Interest Period', PDF p.52; Section 2.02, PDF p.62; Section 2.06(b), PDF p.63; Section 2.09(a), PDF p.65; Section 2.14, PDF p.67",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The 1, 3 and 6-month interest periods match. Notice periods and day count appear only in the CA and are market standard.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    52
+   ]
+  },
+  {
+   "id": "B01",
+   "attribute": "Borrower(s)",
+   "ts_value": "Eight Borrowers: Duke Energy Corporation (DUK), Duke Energy Carolinas, LLC (DEC), Duke Energy Ohio, Inc. (DEO), Duke Energy Indiana, LLC (DEI), Duke Energy Kentucky, Inc. (DEK), Duke Energy Progress, LLC (DEP), Duke Energy Florida, LLC (DEF) and Piedmont Natural Gas Company, Inc. (Piedmont).",
+   "ts_quote": "Duke Energy Corporation (\"DUK\"); Duke Energy Carolinas, LLC (\"DEC\"); Duke Energy Ohio, Inc. (\"DEO\"); Duke Energy Indiana, LLC",
+   "ts_location": "PDF p.1 (deck p.14), 'Borrowers' row",
+   "ca_value": "The same eight Borrowers: Duke Energy Corporation (the Company), Duke Energy Carolinas, LLC, Duke Energy Ohio, Inc., Duke Energy Indiana, LLC, Duke Energy Kentucky, Inc., Duke Energy Progress, LLC (f/k/a Progress Energy Carolinas), Duke Energy Florida, LLC (f/k/a Progress Energy Florida) and Piedmont Natural Gas Company, Inc. Each Borrower has its own Sublimit and is liable severally, not jointly. Under 9.05(b) the Company may remove a Borrower.",
+   "ca_quote": "among the Company, Duke Energy Carolinas, Duke Energy Ohio, Duke Energy Indiana, Duke Energy Kentucky, Duke Energy Progress, Duke Energy Florida and Piedmont (the \"Borrowers\")",
+   "ca_location": "Amendment No. 2 preamble and Recital A, PDF p.1; conformed CA cover PDF p.35 and preamble PDF p.40",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The same eight legal entities are named in both documents. The CA adds that liability is several and that a Borrower can be removed. The TS does not contradict either point.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "B02",
+   "attribute": "Guarantor(s)",
+   "ts_value": "Not stated in TS. No guarantor is named; only Borrowers are listed and the facility is described as senior unsecured.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "No guarantors and no guarantee. Each Borrower gives reps and covenants severally, not jointly. The Company does not guarantee the subsidiary Borrowers' obligations.",
+   "ca_quote": "Each Borrower, severally but not jointly, represents and warrants that:",
+   "ca_location": "Article 4 lead-in, PDF p.79 (same formulation in Article 5 lead-in, PDF p.81)",
+   "status": "not_applicable",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Neither document provides for a guarantor. The CA's several-not-joint liability is consistent with the TS listing Borrowers only.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    79
+   ]
+  },
+  {
+   "id": "B03",
+   "attribute": "Administrative agent and other agent roles (collateral agent, issuing banks, swingline lender)",
+   "ts_value": "Not stated in TS. Only the Active Arrangers are named; no administrative agent, issuing bank or swingline lender is identified.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "Wells Fargo Bank, N.A. is Administrative Agent and Swingline Lender. The Issuing Lenders are Wells Fargo, Bank of America, JPMorgan, Mizuho, Bank of China NY Branch, Barclays, Citibank, MUFG, PNC, Royal Bank of Canada, Truist Bank and U.S. Bank. Amendment No. 2 deleted Credit Suisse AG NY Branch and added U.S. Bank. Each named issuer's LC cap is $33,333,333, reduced from $40,000,000. There is no collateral agent because the facility is unsecured.",
+   "ca_quote": "\"Administrative Agent\" means Wells Fargo in its capacity as administrative agent for the Lenders hereunder, and its successors in such capacity.",
+   "ca_location": "Section 1.01 'Administrative Agent' PDF p.40; 'Issuing Lender' PDF p.52; 'Swingline Lender' PDF p.57; Amendment No. 2 preamble PDF p.1",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS names no agents. The CA appoints Wells Fargo as Administrative Agent and Swingline Lender and names 12 Issuing Lenders. Per-issuer caps are LC mechanics, covered by Group A.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    40
+   ]
+  },
+  {
+   "id": "B04",
+   "attribute": "Lead arrangers / bookrunners / titled agents",
+   "ts_value": "The Company engaged Wells Fargo Securities, LLC, BofA Securities, Inc., JPMorgan Chase Bank, N.A. and Mizuho Bank, Ltd. (the 'Active Arrangers') to arrange and syndicate the transaction. No other titles are stated.",
+   "ts_quote": "Wells Fargo Securities, LLC, BofA Securities, Inc., JPMorgan Chase Bank, N.A., and Mizuho Bank, Ltd. (together, the \"Active Arrangers\")",
+   "ts_location": "PDF p.1, Transaction Summary paragraph",
+   "ca_value": "Wells Fargo Securities, LLC is Joint Lead Arranger and Joint Bookrunner; its 'Sustainability Structuring Agent' title is struck. The Joint Lead Arrangers and Joint Bookrunners are BofA Securities, JPMorgan Chase Bank, Mizuho Bank, Bank of China NY, Barclays, Citibank, MUFG, PNC Capital Markets, RBC Capital Markets, Truist Securities and U.S. Bank; Credit Suisse Securities (USA) LLC is struck. The Co-Syndication Agents are Bank of America, N.A., JPMorgan Chase Bank, N.A. and Mizuho Bank, Ltd. The Co-Documentation Agents are Bank of China NY, Barclays, Citibank, MUFG, PNC, RBC, Truist Bank and U.S. Bank; Credit Suisse AG is struck. The fee letters dated February 20, 2025 are with WF/WFS and with the Co-Syndication Agents. Titled agents have no duties (7.11).",
+   "ca_quote": "Wells Fargo Securities, LLC, as Joint Lead Arranger, and Joint Bookrunner and Sustainability Structuring Agent,",
+   "ca_location": "Conformed CA cover, PDF pp.35-36; 'Co-Syndication Agents' and 'Co-Documentation Agents' definitions PDF pp.45, 47; 'Fee Letters' PDF p.50; Section 7.11 PDF p.90",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "All four TS Active Arrangers hold Joint Lead Arranger / Joint Bookrunner titles in the CA, with WFS as left lead. The CA also gives arranger and documentation-agent titles to further banks the TS does not list, and does not use the term 'Active Arranger'. In the quoted cover text, the comma after 'Arranger' and the words 'and Sustainability Structuring Agent' are struck in the PDF, so WFS's title reads 'Joint Lead Arranger and Joint Bookrunner'.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    35
+   ]
+  },
+  {
+   "id": "B05",
+   "attribute": "Purpose / use of proceeds",
+   "ts_value": "The amended facility will continue to be used for general corporate purposes.",
+   "ts_quote": "continue to be used for general corporate purposes",
+   "ts_location": "PDF p.1, Transaction Summary paragraph",
+   "ca_value": "Loans and Letters of Credit are to be used by each Borrower for its general corporate purposes. The CA adds restrictions on margin stock (Regulation U), on funding Sanctioned Persons or sanctioned territories, and on uses that would breach Anti-Corruption Laws.",
+   "ca_quote": "The proceeds of the Loans and Letters of Credit made under this Agreement will be used by such Borrower for its general corporate purposes.",
+   "ca_location": "Section 5.09, PDF p.85",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "Both documents say general corporate purposes. The CA's margin stock, sanctions and anti-corruption limits are standard and do not conflict with the TS.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    85
+   ]
+  },
+  {
+   "id": "B06",
+   "attribute": "Security / collateral, including any fall-away or springback",
+   "ts_value": "Senior unsecured revolving credit facility ('Senior Unsecured Master Credit Facility'). No collateral, fall-away or springback.",
+   "ts_quote": "$10.0 billion senior unsecured revolving credit facility",
+   "ts_location": "PDF p.1, 'Facility' row (also Transaction Summary paragraph)",
+   "ca_value": "No security, collateral documents, guarantees, fall-away or springback. The only 'Collateral' section (9.07) is a Lender representation that it is not relying on margin stock as collateral. Borrowers give a negative pledge (5.07). Cash collateral is limited to LC and swingline exposure: LCs after an Event of Default (6.03, at 101%), Defaulting Lender exposure (2.19), and LCs of a Borrower being removed (9.05(b)). There is no express seniority or pari passu clause.",
+   "ca_quote": "Each of the Lenders represents to the Administrative Agent and each of the other Lenders that it in good faith is not relying upon any \"margin stock\" (as defined in Regulation U) as collateral",
+   "ca_location": "Section 9.07, PDF p.104; Section 5.07, PDF pp.83-84; Section 6.03, PDF p.87; Section 2.19, PDF pp.74-75; Section 9.05(b), PDF p.102",
+   "status": "match_minor_drafting",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The CA grants no security and is unsecured, as the TS states. The TS word 'senior' has no matching ranking clause in the CA (no pari passu or ranking language anywhere in the CA), which is a drafting point only.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    104
+   ]
+  },
+  {
+   "id": "B07",
+   "attribute": "Financial covenants (type, level, step-ups, testing, cure rights)",
+   "ts_value": "Maximum Consolidated Debt / Capitalization of 65.0%, or 70.0% for DUK and Piedmont only. 'DUK' is bolded, marking it as a new or changed term. No testing frequency, definitions, step-ups or cure rights are stated.",
+   "ts_quote": "Max. Consolidated Debt / Capitalization: 65.0% | Max. Consolidated Debt / Capitalization: 70.0% (DUK & Piedmont only)",
+   "ts_location": "PDF p.1, 'Financial Covenants' row",
+   "ca_value": "Section 5.10 as amended: each Borrower's Consolidated Indebtedness to Consolidated Capitalization at the end of any fiscal quarter must not exceed 65%, except (a) Piedmont and (b) the Company (added by Amendment No. 2), which must not exceed 70%. The ratio is tested quarterly, with a compliance certificate under 5.01(c). Consolidated Indebtedness excludes Equity Preferred Securities up to 15% of Consolidated Capitalization. A breach is an immediate Event of Default for that Borrower (6.01(b)). There are no step-ups and no cure right.",
+   "ca_quote": "Capitalization of the Company, each as of the end of any fiscal quarter of Piedmont or the Company, as applicable, will not exceed 70%.",
+   "ca_location": "Section 5.10, PDF p.85; Section 5.01(c), PDF p.81; definitions of Consolidated Capitalization / Consolidated Indebtedness, PDF p.46",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "Levels match: 65% generally and 70% for the Company and Piedmont. The PDF blackline confirms 'as at' is struck and that '(a) ... and (b) the ratio ... of the Company ... as applicable' is new text extending the 70% level to DUK, as the TS bolding indicates. The TS is silent on testing and cure; the CA has quarterly testing and no cure.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    85
+   ]
+  },
+  {
+   "id": "B08",
+   "attribute": "Key negative covenants and basket amounts (liens, debt, restricted payments, investments, asset sales)",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1; TS refers to a separate Summary of Terms)",
+   "ca_value": "The only negative covenants are a negative pledge (5.07) and a mergers / asset-sales covenant (5.08). There is no debt, restricted payments or investments covenant. Permitted lien baskets: (1) existing liens securing up to $100m; (2) Mortgage Indenture liens; (3) liens on merged or acquired assets; (4) purchase-money liens attaching within 180 days; (5) refinancing liens; (6) statutory and ordinary-course liens; (7) non-debt liens capped at $100m while the Borrower lacks Investment Grade Status; (8) hedging liens in favour of Lenders; (9) a general basket of 15% of Consolidated Net Assets; (10) fuel liens of the Progress Borrowers; (11) regulatory-asset liens. Under 5.08 a Borrower may not merge unless it is the survivor and no Default exists, and may not transfer Substantial Assets (25% or more of consolidated assets) except to its own Subsidiaries.",
+   "ca_quote": "(o) Liens not otherwise permitted by the foregoing clauses of this Section on assets of such Borrower securing obligations in an aggregate principal or face amount at any date not to exceed 15% of the Consolidated Net Assets of such Borrower;",
+   "ca_location": "Section 5.07(a)-(q), PDF pp.83-84; Section 5.08, PDF p.85; 'Substantial Assets' definition, PDF p.57",
+   "status": "not_in_ts",
+   "materiality": "minor",
+   "direction": "n/a",
+   "explanation": "The TS slide gives no negative covenants, so the CA baskets cannot be checked against it. Amendment No. 2 did not change 5.07 or 5.08 (no strike-through on PDF pp.83-85 for these sections).",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    84
+   ]
+  },
+  {
+   "id": "B09",
+   "attribute": "Representations and warranties",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "Article 4 reps, given severally: organization and power; authorization and no contravention; binding effect; financial information (FY2021 audited statements, and no material adverse change since December 31, 2021 except as publicly disclosed); Regulation U; litigation; compliance with laws and ERISA plan assets; taxes; anti-corruption, sanctions and beneficial ownership. Amendment No. 2 Section 3 repeats the Article 4 reps and a no-Default rep as of March 14, 2025. The MAC and litigation reps are excluded from the bring-down at each borrowing.",
+   "ca_quote": "Since December 31, 2021, there has been no material adverse change in the business, financial position or results of operations of such Borrower",
+   "ca_location": "Article 4, Sections 4.01-4.09, PDF pp.79-80; Amendment No. 2 Section 3, PDF p.2",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS has no reps. Note that Amendment No. 2 did not update the financial-statement and MAC reference date in 4.04, which remains December 31, 2021.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    79
+   ]
+  },
+  {
+   "id": "B10",
+   "attribute": "Conditions precedent to closing / effectiveness",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "Amendment No. 2 Section 4 conditions: (a) signed counterparts from the Borrowers and Lenders; (b) an officer's certificate that reps are true and no Default exists; (c) existence and authority documents; (d) legal opinions with reliance for permitted assigns; (e) fees under the fee letters dated February 20, 2025 and invoiced expenses; (f) KYC, AML and Beneficial Ownership information at least 3 Domestic Business Days before effectiveness, if requested in writing at least 10 Domestic Business Days before. The Second Amendment Effective Date is March 14, 2025. The original 2022 closing CPs remain in 3.01 (with a 5 Domestic Business Day KYC window).",
+   "ca_quote": "The Amendments in Section 2 shall become effective as of the date (the \"Effective Date\") on which each of the following conditions precedent shall have been satisfied:",
+   "ca_location": "Amendment No. 2 Section 4, PDF pp.2-3; 'Second Amendment Effective Date' definition PDF p.57; Section 3.01 PDF pp.77-78",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS slide states no CPs. The CA conditions are customary for an amend-and-extend.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    2
+   ]
+  },
+  {
+   "id": "B11",
+   "attribute": "Conditions to each borrowing",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "Section 3.02 conditions for each Loan or LC: (a) notice of borrowing or issuance; (b) after funding, Utilization Limits are not exceeded, LC Liabilities are no more than $800m and Swingline Loans no more than $350m; (c) no Default for that Borrower; (d) reps are true, except the MAC rep (4.04(c)) and the litigation rep (4.06). Each borrowing is a deemed rep.",
+   "ca_quote": "(except the representations and warranties set forth in Sections 4.04(c) and 4.06) shall be true on and as of the date of such Borrowing",
+   "ca_location": "Section 3.02, PDF p.78",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS states no borrowing conditions. The $800m LC and $350m swingline caps in 3.02(b) are consistent with the TS sublimits, which Group A reconciles.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    78
+   ]
+  },
+  {
+   "id": "B12",
+   "attribute": "Events of default and thresholds (cross-default, judgment, grace periods)",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "Section 6.01 Events of Default, applied Borrower by Borrower: (a) principal or reimbursement not paid when due; interest or fees not paid within 5 days. (b) Immediate default for breach of 5.01(d), 5.04, 5.07, 5.08, 5.10 or the 2nd/3rd sentences of 5.09. (c) Other covenants: 30 days after notice. (d) Material misrepresentation. (e) Payment default on Material Debt (more than $150m, excluding Non-Recourse Indebtedness) of the Borrower or its Material Subsidiaries after any grace period. (f) Cross-acceleration of Material Debt, with carve-outs for convertible debt and hedge terminations. (g)/(h) Insolvency; involuntary cases have 90 days to be dismissed. (i) ERISA liabilities over $150m. (j) Judgments over $150m not vacated or stayed for 45 days. (k) Change of control. Remedies need Lenders holding more than 66-2/3%; insolvency triggers automatic acceleration. The 'Material Subsidiary' definition names Duke Energy Progress, Duke Energy Carolinas and Duke Energy Florida as Material Subsidiaries of the Company, so a qualifying Material Debt default, cross-acceleration, insolvency or judgment at those Borrowers is also an Event of Default for the Company.",
+   "ca_quote": "\"Material Debt\" means, with respect to any Borrower, Indebtedness of such Borrower or any of its Material Subsidiaries (other than any Non-Recourse Indebtedness) in an aggregate principal amount exceeding $150,000,000.",
+   "ca_location": "Section 6.01(a)-(k) and remedies, PDF pp.85-87; 'Material Debt' and 'Material Subsidiary' definitions Section 1.01, PDF p.54",
+   "status": "not_in_ts",
+   "materiality": "minor",
+   "direction": "n/a",
+   "explanation": "The TS gives no default triggers or thresholds, so the CA's $150m cross-default, judgment and ERISA thresholds and its grace periods cannot be checked against it. Events of Default are tested Borrower by Borrower, but they are not fully ring-fenced: DEC, DEP and DEF are Material Subsidiaries of the Company by definition, which creates a one-way upstream cross-default to DUK. Other Borrowers are linked only where one meets the 15%-of-total-assets Material Subsidiary test for another.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    54
+   ]
+  },
+  {
+   "id": "B13",
+   "attribute": "Change of control",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "Event of Default under 6.01(k) if any of these happens: (i) a person or group, other than employee benefit plan trustees or participants, acquires beneficial ownership of 50% or more of the Company's common stock; (ii) over any 12 consecutive months, continuing or approved directors cease to be a majority of the Company's board; (iii) any Borrower other than the Company ceases to be a Subsidiary of the Company.",
+   "ca_quote": "beneficial ownership (within the meaning of Rule 13d-3 promulgated by the Securities and Exchange Commission under the Exchange Act) of 50% or more of the outstanding shares of common stock of the Company",
+   "ca_location": "Section 6.01(k), PDF p.86",
+   "status": "not_in_ts",
+   "materiality": "minor",
+   "direction": "n/a",
+   "explanation": "The TS is silent on change of control. The CA treats it as an Event of Default with a 50% ownership trigger, a board-continuity test and a subsidiary-Borrower ownership test.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    86
+   ]
+  },
+  {
+   "id": "B14",
+   "attribute": "Required lenders, voting and sacred rights",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "Required Lenders: 51% or more of Aggregate Exposures, excluding Defaulting Lenders. Consent of each adversely affected Lender is needed to increase a Commitment or Maximum Sublimit, reduce principal, rate or fees, or postpone payment or commitment termination. All Lenders must consent to change the Required Lenders definition or 9.05, the pro rata sharing provisions, or any Borrower assignment (9.06(a)). Agent, Swingline Lender and Issuing Lender consent is needed where their rights are affected; the Sustainability Structuring Agent consent right is struck. The Agent and Borrowers can make benchmark-replacement amendments without Lender consent. Termination or acceleration needs more than 66-2/3%. Under 9.05(b) the Company may remove a Borrower.",
+   "ca_quote": "\"Required Lenders\" means, at any time, Lenders having at least 51% in aggregate amount of the Aggregate Exposures at such time (exclusive in each case of the Aggregate Exposure(s) of any Defaulting Lender(s)).",
+   "ca_location": "'Required Lenders' definition, PDF p.56; Section 9.05, PDF p.102; Section 6.01 remedies, PDF p.87; Section 9.06(a), PDF p.103",
+   "status": "not_in_ts",
+   "materiality": "minor",
+   "direction": "n/a",
+   "explanation": "The TS states no voting thresholds. The CA uses 51% for Required Lenders and more than 66-2/3% for remedies; neither can be checked against the TS.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    56
+   ]
+  },
+  {
+   "id": "B15",
+   "attribute": "Assignments and participations",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "Borrowers may not assign without consent of all Lenders. Participations need Company consent (not unreasonably withheld) unless an Event of Default exists, except participations to a Lender, Approved Fund or Affiliate; a participant register must be kept. Assignments may go to banks and financial institutions, but not to Borrowers or their affiliates, Defaulting Lenders or natural persons. Minimum assignment is $10m and an assigning Lender must keep at least $10m. Assignments need consent of the Swingline Lender, Issuing Lenders, Administrative Agent and, absent an Event of Default, the Company. There is a transfer fee of up to $3,500. Pledges to a Federal Reserve Bank are permitted.",
+   "ca_quote": "a natural person), all, or a proportionate part (equivalent to an initial Commitment of not less than $10,000,000 (unless the Company and the Administrative Agent shall otherwise agree))",
+   "ca_location": "Section 9.06(a)-(e), PDF pp.103-104",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS says nothing on transfers. The CA terms are customary for an investment-grade utility revolver.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    104
+   ]
+  },
+  {
+   "id": "B16",
+   "attribute": "Defaulting lender, yield protection, taxes, lender replacement",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "Defaulting Lender is defined by: a funding failure of 2 Domestic Business Days; notice of intent not to fund; failure to certify within 3 Domestic Business Days; or a Bankruptcy Event or Bail-In Action. Under 2.19 its facility fees stop, it is excluded from Required Lenders, its LC and swingline exposure is reallocated or cash collateralized within 2 Domestic Business Days, and a payment waterfall applies. Increased costs (8.03(a)): payable within 15 days after demand, with a 90-day lookback before the Lender's notice. Capital and liquidity costs (8.03(b)): payable within 15 days after demand, but with no lookback; only periods starting at least 30 days after the Lender's notice can be claimed. Taxes are grossed up (8.04), with exclusions including FATCA. Under 8.06(a) the Company may replace a Lender that suspends SOFR lending, claims compensation, declines to extend, becomes a Defaulting Lender, loses Investment Grade Status, or is a Non-Consenting Lender. Under 8.06(b), while the Borrowers have Investment Grade Status, it may instead terminate such a Lender (other than for Non-Consenting Lender status) on at least 3 U.S. Government Securities Business Days' notice.",
+   "ca_quote": "(iv) any Lender becomes a Defaulting Lender, (v) Investment Grade Status ceases to exist as to any Lender or,",
+   "ca_location": "'Defaulting Lender' definition, PDF p.47; Section 2.19, PDF pp.74-76; Section 8.03, PDF p.95; Section 8.04, PDF pp.96-98; Section 8.06, PDF p.99",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS is silent and the CA provisions are customary, with a borrower-friendly variation: capital-adequacy claims cannot cover periods before 30 days after the Lender's notice. Drafting observation: Article 8 has no 'Section 8.02' heading in the body (the TOC lists one), and its internal cross-references appear misnumbered (8.03 refers to 'this Section 8.02(a)'; 8.04 refers to 'this Section 8.03').",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    99
+   ]
+  },
+  {
+   "id": "B17",
+   "attribute": "Governing law and jurisdiction",
+   "ts_value": "Not stated in TS.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF p.1)",
+   "ca_value": "New York law, relying on GOL 5-1401/5-1402. Exclusive jurisdiction of the S.D.N.Y. and New York State courts sitting in New York County, with forum objections waived and jury trial waived (9.11). Amendment No. 2 has matching New York law, exclusive jurisdiction and jury-waiver clauses (Sections 10-11).",
+   "ca_quote": "This Agreement and each Note (if any) shall be construed in accordance with and governed by the law of the State of New York",
+   "ca_location": "Section 9.09, PDF p.105; Section 9.11, PDF p.106; Amendment No. 2 Sections 10-11, PDF pp.3-4",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS is silent. The CA chooses New York law and New York courts, which is standard for this facility.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    105
+   ]
+  },
+  {
+   "id": "X01",
+   "attribute": "Sustainability-linked pricing option (extra TS term)",
+   "ts_value": "Sustainability-Linked Option: Removed (shown in bold as a changed term).",
+   "ts_quote": "Sustainability-Linked Option Removed",
+   "ts_location": "PDF p.1, 'Sustainability-Linked Option' row",
+   "ca_value": "Deleted. Section 2.20 (ESG Amendment) was the provision allowing ESG/KPI pricing adjustments of up to +/-1.00 bp on the facility fee and +/-4.00 bps on the margin. It is struck through in full in the conformed copy. Also struck: the Sustainability Structuring Agent paragraph, the 'ESG', 'ESG Amendment', 'ESG Pricing Provisions', 'ESG Ratings', 'KPIs' and 'Sustainability Structuring Agent' definitions, and the Sustainability Structuring Agent references in Sections 7.05-7.06 and 9.03. The conformed table of contents now ends Article 2 at Section 2.19 (Defaulting Lenders).",
+   "ca_quote": "ESG Amendment. After the Effective Date, the Company, in consultation with the Sustainability Structuring Agent, shall be entitled to either",
+   "ca_location": "Former Section 2.20, PDF pp.76-77 (struck); Section 1.01 definitions, PDF pp.49, 53, 57 (struck); Table of Contents, PDF p.37; Sections 7.05-7.06, PDF p.88; Section 9.03, PDF p.101",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The text file still shows the deleted ESG wording as ordinary text. The first pass reports that strike-through line objects in the PDF content stream confirm the deletion. Other evidence in the text agrees: the TOC no longer lists a Section 2.20, and 'theirits' edits in Section 7.05 show plural agent references cut to the Administrative Agent alone. The deletion matches the TS 'Removed'.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    76
+   ]
+  },
+  {
+   "id": "X01",
+   "attribute": "Transaction structure: amend-and-extend of existing facility (one-year extension, $1bn upsize, amendments to certain terms)",
+   "ts_value": "The Active Arrangers will arrange and syndicate a one-year extension and $1.0bn upsize of the existing $9.0bn Senior Unsecured Master Credit Facility, which currently matures on March 16, 2029. The proposed $10.0bn facility will also include amendments to certain terms. 'Bolding denotes new or changing terms.'",
+   "ts_quote": "a one-year extension and $1,000,000,000 upsize of the Company's existing $9,000,000,000 Senior Unsecured",
+   "ts_location": "PDF p.1, Transaction Summary paragraph",
+   "ca_value": "Structured as Amendment No. 2 and Consent dated March 14, 2025 to the Amended and Restated Credit Agreement dated March 18, 2022 (as amended by Amendment No. 1, March 17, 2023). It is not a new agreement. Recital B: extend the Commitment Termination Date by one year to March 16, 2030 and increase Commitments by $1,000,000,000. Amendments are made through the conformed blackline in Exhibit A, and Schedule 1.01(a) (the Commitment Schedule) is replaced by Exhibit B. Unchanged terms are ratified (Section 5).",
+   "ca_quote": "including extending the Commitment Termination Date by one year to March 16, 2030, and increasing the aggregate amount of the Commitments in an aggregate amount of $1,000,000,000",
+   "ca_location": "Amendment No. 2 Recitals A-C and Sections 2 and 5, PDF pp.1-3; conformed CA cover PDF p.35; Exhibit B PDF p.109",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The CA is an amend-and-extend with the same one-year extension and $1bn upsize the TS describes. Observation: the struck prior date in the 'Commitment Termination Date' definition is March 17, 2028, not the March 16, 2029 the TS gives as the current maturity. This is presumably an intervening extension under Section 2.01(b) that is not in these documents. Maturity itself is reconciled under Group A.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "X02",
+   "attribute": "Sustainability-linked (ESG) pricing option",
+   "ts_value": "Sustainability-Linked Option: 'Removed', bolded as a changing term.",
+   "ts_quote": "Sustainability-Linked Option Removed",
+   "ts_location": "PDF p.1, 'Sustainability-Linked Option' row",
+   "ca_value": "Amendment No. 2 deletes the ESG framework entirely. The struck items are: the ESG Amendment provision (formerly Section 2.20, allowing KPI or ESG-rating pricing adjustments of +/-1.00 bp facility fee and +/-4.00 bps margin); the Sustainability Structuring Agent paragraph; the definitions 'ESG', 'ESG Amendment', 'ESG Pricing Provisions', 'ESG Ratings', 'KPIs' and 'Sustainability Structuring Agent'; WFS's Sustainability Structuring Agent title; and every Sustainability Structuring Agent reference in 7.05, 7.06, 9.03 and 9.05(a). These sections are also gone from the table of contents.",
+   "ca_quote": "ESG Amendment. After the Effective Date, the Company, in consultation with the Sustainability Structuring Agent, shall be entitled to either",
+   "ca_location": "Former Section 2.20 / Sustainability Structuring Agent paragraph, PDF pp.76-77 (struck); definitions PDF pp.49, 53, 57 (struck); cover PDF p.35; Sections 7.05-7.06 PDF p.88; 9.03 PDF p.101; 9.05(a) PDF p.102",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The CA removes the sustainability-linked option, as the TS says. The quoted text appears as live text in the extraction but is struck through in the PDF; I confirmed this from the strike lines drawn over every line of the ESG paragraphs on PDF pp.76-77. Reviewers should check the PDF, not the text file, for this point.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    76
+   ]
+  }
+ ],
+ "document_notes": "TS: a one-page lender presentation slide, not a formal term sheet. It is the \"Executive Summary - Transaction Summary\" page (deck page 14, PDF page 1). It describes a one-year extension and $1.0bn upsize of Duke Energy's existing $9.0bn Senior Unsecured Master Credit Facility to $10.0bn, with the existing maturity given as March 16, 2029. It carries no date and points to a separate \"Summary of Terms\", which was not provided. Both slide tables (Borrower Sublimits and Pricing Grid) are misaligned in the -layout text extraction. PDF page rendering is not available here (pdftoppm not installed), so their values were confirmed with xpdf pdftotext -table and -raw output (printed to stdout, no files written). Every sublimit, fee, all-in margin and borrower-tier mapping matched the first pass. Text quotes for these tables are the cleanest contiguous fragments in the -layout file. TS terms outside group A are not reconciled here: Arrangers, use of proceeds (general corporate purposes), and the financial covenant (Max Consolidated Debt/Capitalization 65.0%, or 70.0% for DUK and Piedmont), which belongs to the covenant group. CA: Amendment No. 2 and Consent dated March 14, 2025 (SEC Exhibit 10.1) to the Amended and Restated Credit Agreement dated March 18, 2022, which was previously amended by Amendment No. 1 dated March 17, 2023. Wells Fargo is Administrative Agent and Swingline Lender. Exhibit A is a conformed blackline, and its operative terms were reconciled as amended. Exhibit B replaces Schedule 1.01(a), the Commitment Schedule (27 Lenders totalling $10,000,000,000). LIMITATIONS: (1) The text file shows deleted (struck) and inserted (double-underlined) text side by side, old value first, e.g. \"March 1716, 20282030\" = March 16, 2030. The new Initial Sublimits total exactly $10.0bn and the cover changes $9bn to $10bn, which confirms the old-then-new order. The first pass reports confirming struck text from strike-through line objects in the PDF content stream: Base Rate floor 0% -> 1%; maturity March 17, 2028 -> March 16, 2030; per-Issuing Lender cap $40,000,000 -> $33,333,333; all ESG/Sustainability provisions deleted. This review could not repeat that check. Indirect evidence supports the ESG deletion: the TOC has no Section 2.20, and Section 7.05 has 'theirits' edits. (2) The blackline base maturity (March 17, 2028) differs from the TS existing maturity (March 16, 2029). This is consistent: the 2029 date came from a per-Lender extension under Section 2.01(b), and Recital B confirms the one-year extension to March 16, 2030. (3) The conformed copy leaves out the signature pages, Schedule 1.01(b) (Pricing Schedule), Schedule 1.01(c) and the Exhibits. The Applicable Margin, Facility Fee Rate and initial ratings-based pricing levels therefore cannot be checked against the CA. (4) Upfront fees sit in the fee letters dated February 20, 2025, which were not provided. Corrections made in this review: two page references (Section 3.02 is p.78; Section 2.11(a) is p.65), removal of an unsupported 'standby' LC description, an added note that the named Issuing Lenders' combined fronting caps (about $400m) sit below the $800m LC sublimit, and corrected TS table-source notes.\n\nTS: a single, undated slide headed 'Executive Summary / Transaction Summary' (deck page 14, marked CONFIDENTIAL; 1 PDF page). It comes from a lender or syndication presentation by the Active Arrangers and is not a full term sheet. It covers the transaction description, Borrowers, facility, Borrower sublimits, maturity, extensions, accordion, LC and swingline sublimits, SOFR and CSA, removal of the sustainability-linked option, the pricing grid, financial covenants and upfront fees. It says 'Please refer to the Summary of Terms posted separately to the deal site for additional details.' That Summary of Terms was not provided, so most Group B legal terms (reps, CPs, events of default, voting, assignments, yield protection, governing law) are not_in_ts and could not be checked against a term sheet.\n\nThe TS text layer garbles the sublimit and pricing tables. I decoded the PDF content stream (read-only, stdlib Python) and it confirms the sublimit pairs (Operative / Maximum): DUK $2,525/$5,575 MM, DEC 1,300/2,225, DEP 1,675/1,775, DEF 1,425/1,650, DEI 950/1,225, Piedmont 1,050/1,200, DEO 825/950, DEK 250/400. These are for Group A. The same decode confirms that 'DUK' in the covenant row and 'Removed' in the Sustainability-Linked Option row are in the bold font used for the 'Bolding denotes new or changing terms' legend.\n\nCA: Amendment No. 2 and Consent dated March 14, 2025 (Exhibit 10.1, Execution Version; PDF pp.1-33 including signature pages). It amends the Amended and Restated Credit Agreement dated March 18, 2022, as amended by Amendment No. 1 dated March 17, 2023. Exhibit A (PDF pp.34-108) is a conformed blackline of the amended agreement. Exhibit B (PDF p.109) is the replacement Commitment Schedule. The Pricing Schedule, other schedules, exhibit forms and signature pages of the conformed copy are not attached. All terms were reconciled against the agreement as amended.\n\nMain limitation: the pdftotext extraction merges deleted and inserted blackline text (for example 'as atof', 'theirits', '$9,000,000,00010,000,000,000'), and struck passages such as the whole ESG Amendment section read as live text. In the PDF content streams, strike-through lines sit about 2pt above the text baseline and underlines about 1.5pt below it. On review I independently re-checked these lines and confirmed the following are struck: the cover-page Credit Suisse titles and WFS's Sustainability Structuring Agent title; the ESG / Sustainability Structuring Agent paragraphs (PDF pp.76-77); the ESG, KPI and SSA definitions; the SSA references in 7.05/7.06 (p.88), 9.03 (p.101) and 9.05(a) (p.102); and 'as at' in 5.10 (p.85), where the Company's 70% limit is underlined as new text.\n\nNo strike-through appears in Articles 4, 6 or 9.06, or in 5.07-5.09, so those Group B terms were not changed by Amendment No. 2. Some CA quotes contain words that are struck in the PDF, and each such case is flagged in its row. Underlines alone cannot prove an insertion, because the document also underlines cross-references.\n\nReview corrections: B12 (upstream cross-default via the Material Subsidiary definition), B16 (capital claims have a 30-day forward-only window, not a 90-day lookback; 8.06 nuances), B10 (KYC request window in Domestic Business Days) and B06 (wording on cash collateral). All ts_quote and ca_quote strings were checked mechanically and appear verbatim in the text files, and all page references were confirmed against the PDF PAGE markers. No further TS terms outside the Group A topics were found, so no rows were added.",
+ "corrections": [
+  {
+   "id": "A07",
+   "field": "ca_location",
+   "was": "Section 2.15(a), PDF p.67 (repeated in Section 3.02, PDF p.79); 'Issuing Lender' definition, PDF p.52",
+   "now": "Section 2.15(a), PDF p.67 (repeated in Section 3.02(b), PDF p.78); 'Issuing Lender' definition, PDF p.52",
+   "evidence": "Section 3.02 text ('in the case of an issuance of a Letter of Credit the aggregate amount of the Letter of Credit Liabilities shall not exceed $800,000,000') is at CA txt line 2346, between the [PDF PAGE 78] marker (line 2320) and the [PDF PAGE 79] marker (line 2360)."
+  },
+  {
+   "id": "A07",
+   "field": "explanation",
+   "was": "The $800m LC sublimit is the same in both documents. The TS does not mention the CA's per-Issuing Lender cap, which this amendment cut from $40m to $33,333,333.",
+   "now": "Same text, plus: the 12 named Issuing Lenders that remain Lenders are committed to front only about $400m in total (12 x $33,333,333), below the $800m sublimit, unless caps are raised by agreement.",
+   "evidence": "'Issuing Lender' definition (CA line 1231-1236, PDF p.52) names WF, BofA, JPM, Mizuho, Bank of China, Barclays, Citi, [Credit Suisse, not on the new Commitment Schedule], MUFG, PNC, RBC, Truist and U.S. Bank, with the cap '$40,000,00033,333,333'."
+  },
+  {
+   "id": "A18",
+   "field": "ca_location",
+   "was": "Section 2.11(a), PDF p.66; ...",
+   "now": "Section 2.11(a), PDF p.65; ...",
+   "evidence": "Section 2.11 Optional Prepayments starts at CA txt line 1834, inside [PDF PAGE 65] (lines 1767-1811 marker range, page 66 marker at line 1812)."
+  },
+  {
+   "id": "A01",
+   "field": "ca_value",
+   "was": "... a Swingline sub-facility (Section 2.18) and standby Letters of Credit (Section 2.15) ...",
+   "now": "... a Swingline sub-facility (Section 2.18) and Letters of Credit (Section 2.15) ...",
+   "evidence": "Grep for 'standby' in the CA text returns no hits; the CA does not describe the LCs as standby."
+  },
+  {
+   "id": "A04",
+   "field": "explanation",
+   "was": "(did not address the difference between the TS existing maturity of March 16, 2029 and the blackline base date of March 17, 2028)",
+   "now": "Added: the base date March 17, 2028 reflects the definition text, and the 2029 date came from a Section 2.01(b) per-Lender extension; Recital B confirms a one-year extension to March 16, 2030. Consistent, not a conflict.",
+   "evidence": "TS line 10: 'currently scheduled to mature on March 16, 2029'; CA line 937: 'March 1716, 20282030'; CA Recital B line 21-22: 'extending the Commitment Termination Date by one year to March 16, 2030'."
+  },
+  {
+   "id": "X01",
+   "field": "ca_location / ca_value",
+   "was": "Section 1.01 definitions, PDF pp.49, 57 (struck)",
+   "now": "Section 1.01 definitions, PDF pp.49, 53, 57 (struck); Table of Contents, PDF p.37; 'KPIs' definition added to the struck list",
+   "evidence": "'\"KPIs\" has the meaning set forth in Section 2.20.' is at CA line 1245 ([PDF PAGE 53]); the TOC section titles (lines 549-567) end at 'Defaulting Lenders' with no Section 2.20 entry."
+  },
+  {
+   "id": "A09/A11/A12/A13",
+   "field": "ts_location / explanation",
+   "was": "'garbled in text; read from PDF image'",
+   "now": "'misaligned in the -layout text; confirmed with pdftotext -table/-raw'",
+   "evidence": "PDF page rendering is unavailable in this environment (pdftoppm not installed), so no image could be read. The xpdf pdftotext -table and -raw modes, printed to stdout, give the clean rows, e.g. 'A/A2/A 10.0 bps S + CSA + 100.0 bps C', 'A-/A3/A- 12.5 bps S + CSA + 112.5 bps B,D,E,F', 'BBB+/Baa1/BBB+ 17.5 bps S + CSA + 125.0 bps G,H', 'BBB/Baa2/BBB 22.5 bps S + CSA + 150.0 bps A', 'E) Duke Energy Indiana 950 MM 1,225 MM'. All of the first pass's table values were confirmed."
+  },
+  {
+   "id": "B12",
+   "field": "ca_value / explanation / ca_location",
+   "was": "Events of Default are Borrower-specific, with no cross-default between Borrowers.",
+   "now": "Events of Default are tested Borrower by Borrower, but DEC, DEP and DEF are Material Subsidiaries of the Company by definition. That creates a one-way upstream cross-default to DUK: their Material Debt payment default, cross-acceleration, insolvency or a judgment over $150m is also a Company Event of Default. Other Borrowers are linked only where one meets the 15% total-assets Material Subsidiary test for another. Added the 'Material Subsidiary' definition (PDF p.54) to ca_location.",
+   "evidence": "CA PDF p.54: \"\"Material Subsidiary\" means at any time, (i) with respect to the Company, Duke Energy Progress, Duke Energy Carolinas and Duke Energy Florida\". Sections 6.01(e)-(h) and (j), PDF pp.85-86, each reach 'such Borrower or any of its Material Subsidiaries'."
+  },
+  {
+   "id": "B16",
+   "field": "ca_value",
+   "was": "Increased costs and capital: payable 15 days after demand, with a 90-day lookback. ... Under 8.06 the Company may replace or terminate a Lender that suspends SOFR lending, claims compensation, declines to extend, becomes a Defaulting Lender, loses Investment Grade Status, or is a Non-Consenting Lender.",
+   "now": "The 90-day lookback applies only to increased costs under 8.03(a). Capital and liquidity claims under 8.03(b) have no lookback: only periods starting at least 30 days after the Lender's notice can be claimed. The Non-Consenting Lender trigger in 8.06 supports replacement only (8.06(a)). The termination option (8.06(b)) applies only while the Borrowers have Investment Grade Status and needs 3 U.S. Government Securities Business Days' notice.",
+   "evidence": "CA PDF p.95, 8.03(a): \"no such amount shall be payable with respect to any period commencing more than 90 days prior to the date such Lender first notifies the Borrowers\"; 8.03(b): \"no such amount shall be payable with respect to any period commencing less than 30 days after the date such Lender first notifies the Borrowers\". PDF p.99, 8.06: \"(vi) for purposes of (a) below only, any Lender becomes a Non-Consenting Lender\" and \"(b) if at the time Investment Grade Status exists as to the Borrowers, the Company may elect to terminate this Agreement as to such Lender\"."
+  },
+  {
+   "id": "B10",
+   "field": "ca_value",
+   "was": "(f) KYC, AML and Beneficial Ownership information at least 3 Domestic Business Days before effectiveness, if requested at least 10 days before.",
+   "now": "(f) ... if requested in writing at least 10 Domestic Business Days before. Also noted that the opinions must permit reliance by permitted assigns, and that the original 3.01 KYC window was 5 Domestic Business Days.",
+   "evidence": "Amendment No. 2 Section 4(f), PDF p.3: \"requested by the Administrative Agent in writing at least 10 Domestic Business Days prior to the Effective Date\"; Section 3.01(h), PDF p.78: \"at least five Domestic Business Days prior to the Effective Date\"."
+  },
+  {
+   "id": "B06",
+   "field": "ca_value / ca_location",
+   "was": "Cash collateral applies only to LCs after an Event of Default (6.03, at 101%) and to Defaulting Lender exposure (2.19).",
+   "now": "Cash collateral is limited to LC and swingline exposure: LCs after an Event of Default (6.03, 101%), Defaulting Lender exposure (2.19), and LCs of a Borrower being removed (9.05(b)). Added 2.19 and 9.05(b) page references. Status unchanged.",
+   "evidence": "CA PDF p.102, 9.05(b)(iii): \"Cash Collateralization of all amounts available for drawing under Letters of Credit issued for the account of such Borrower\". A grep for 'pari passu', 'rank' and 'subordinat' finds no ranking clause."
+  }
+ ],
+ "confidence": "group A: re-checked by verifier, confidence medium; group B: re-checked by verifier, confidence high",
+ "source": "Claude Code multi-agent workflow: independent reconciler + adversarial verifier per attribute group",
+ "generated_at": "2026-11-12T15:55:36+00:00",
+ "engine": "verified",
+ "deal": "Duke Energy 2025",
+ "ts_file": "Duke Energy 2025 TS.pdf",
+ "ca_file": "Duke Energy 2025 CA.pdf",
+ "quote_check": {
+  "ts_checked": 22,
+  "ca_checked": 39,
+  "ts_found": 22,
+  "ca_found": 39
+ }
+}

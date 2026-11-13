@@ -1,0 +1,1295 @@
+{
+ "rows": [
+  {
+   "id": "A01",
+   "attribute": "Facility type(s) and structure (revolver / term loan / tranches; new vs amendment)",
+   "ts_value": "A single senior secured revolving credit facility of up to $1,000,000,000 (Revolving Credit Loans), with uncommitted Incremental Facilities (revolver increases and/or incremental term loans). It is to be documented as an amendment to the Existing Credit Agreement (the A&R Credit Agreement dated February 4, 2025) (TS p.6).",
+   "ts_quote": "A senior secured revolving credit facility (the \"Revolving Credit Facility\") in an amount up to $1,000,000,000",
+   "ts_location": "PDF p.3 (II. Revolving Credit Facility - Revolving Facility); PDF p.6 (Revolving Credit Facility Documentation)",
+   "ca_value": "Amendment No. 1 dated June 24, 2026 to the A&R Credit Agreement dated February 4, 2025. It is a Refinancing Amendment under Section 2.27 that replaces the Existing Revolving Commitments and Loans with 2026 Revolving Commitments and Loans. The Initial USD and Euro Term Loan facilities are deleted (Sections 2.01(b) and (c) are now [Reserved]). The security is confirmed in Section 7. The revolver keeps its LC and swingline subfacilities, and the Section 2.20 incremental option remains.",
+   "ca_quote": "the Company has requested that the Existing Revolving Commitments and Existing Revolving Loans be replaced with Replacement Revolving Credit Commitments (the \"2026 Revolving Commitments\") and Replacement Revolving Loans",
+   "ca_location": "Amendment No. 1 recitals and Sections 2(b), 6(c), 7, PDF pp.1-3, 6; Exhibit A Section 2.01, PDF p.97",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Both documents provide a single senior secured revolver, put in place by amending the February 4, 2025 A&R Credit Agreement. The CA does this as a Refinancing Amendment that replaces the old revolving commitments, and it removes the Initial Term Loan facilities. That fits a revolver-only TS.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "A02",
+   "attribute": "Facility amount(s) and total commitments",
+   "ts_value": "$1,000,000,000 in total revolving commitments.",
+   "ts_quote": "$1,000 MILLION REVOLVING CREDIT FACILITY",
+   "ts_location": "PDF p.1 (cover); PDF p.3 (Revolving Facility)",
+   "ca_value": "The Aggregate Revolving Commitment as of the Amendment No. 1 Effective Date is $1,000,000,000; the old figure of $1,500,000,000 is struck in the blackline. Each lender's 2026 Revolving Commitment is set out in Annex I to the Amendment, which replaces Schedule 2.01(a).",
+   "ca_quote": "Amendment No. 1 Effective Date, the Aggregate Revolving Commitment is $1,500,000,0001,000,000,000.",
+   "ca_location": "Exhibit A Section 1.01 'Aggregate Revolving Commitment', PDF p.33; Amendment Section 2(b)(i), PDF p.2",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The totals agree at $1.0bn. The extracted text runs the deleted and new amounts together because Exhibit A is a blackline; the strike lines in the PDF show $1,500,000,000 deleted and $1,000,000,000 inserted. Annex I (each lender's commitment) is not in the CA PDF, so the individual allocations could not be checked.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    33
+   ]
+  },
+  {
+   "id": "A03",
+   "attribute": "Currencies available",
+   "ts_value": "U.S. Dollars, Euro, Canadian Dollars, Pounds Sterling, Japanese Yen and Swiss Francs. Any other currency is allowed if it is lawful, readily available, freely transferable, not restricted, convertible into USD, and reasonably acceptable to the Administrative Agent and each Lender.",
+   "ts_quote": "Revolving Lenders in U.S. Dollars, Euro, Canadian Dollars, Pounds Sterling, Japanese Yen, Swiss Francs and any other currency that is",
+   "ts_location": "PDF p.3 (Revolving Facility)",
+   "ca_value": "\"Agreed Currencies\": Dollars, euro, Pounds Sterling, Japanese Yen, Canadian Dollars and Swiss Francs. Any other currency is allowed on the same test, which must be acceptable to the Administrative Agent and each of the Revolving Lenders. The text is unchanged by the amendment. Canadian Dollar loans and LCs are limited to Canadian Borrowers.",
+   "ca_quote": "\"Agreed Currencies\" means (i) Dollars, (ii) euro, (iii) Pounds Sterling, (iv) Japanese Yen, (v) Canadian Dollars, (vi) Swiss Francs and (vii) any other currency (x) that is a lawful currency (other than Dollars) that is readily",
+   "ca_location": "Exhibit A Section 1.01 'Agreed Currencies', PDF p.33; Sections 2.02(b), 2.06(a), PDF pp.97, 101",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The six named currencies and the test for adding others are the same. The CA says 'each of the Revolving Lenders' where the TS says 'each of the Lenders'. This makes no difference because every lender is now a revolving lender.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    33
+   ]
+  },
+  {
+   "id": "A04",
+   "attribute": "Maturity / tenor",
+   "ts_value": "Revolving availability runs from the Closing Date to the fifth anniversary of the Closing Date (the Revolving Credit Termination Date), a 5-year tenor.",
+   "ts_quote": "ending on the fifth anniversary thereof (the \"Revolving Credit Termination Date\")",
+   "ts_location": "PDF p.3 (Availability and Maturity)",
+   "ca_value": "Revolving Maturity Date = June 24, 2031 (July 1, 2027 is struck). If that day is not a Business Day, the preceding Business Day applies, and the date can be extended under Section 2.26. The Amendment No. 1 Effective Date is defined as June 24, 2026. The Revolving Availability Period runs from and including that date to but excluding the earlier of the Maturity Date and termination of the commitments.",
+   "ca_quote": "\"Revolving Maturity Date\" means July 1June 24, 20272031, or, if such date is not a Business Day, the Business",
+   "ca_location": "Exhibit A Section 1.01 'Revolving Maturity Date', PDF p.80; 'Amendment No. 1 Effective Date', PDF p.34; 'Revolving Availability Period', PDF p.79",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The Closing Date is June 24, 2026, so its fifth anniversary is June 24, 2031, which is the new CA maturity date; the PDF strike lines confirm July 1 and 2027 are deleted. Two small mechanical differences: the CA availability period runs 'to but excluding' the Maturity Date, while the TS has it 'ending on' the fifth anniversary (one day less availability), and the CA moves a non-Business-Day maturity to the preceding Business Day. June 24, 2031 is a Tuesday, so the second point has no effect today.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    80
+   ]
+  },
+  {
+   "id": "A05",
+   "attribute": "Extension options / term-out option",
+   "ts_value": "'Amend and extend' provisions consistent with the Existing Credit Agreement. On MK's request, individual Lenders may extend the maturity of their revolving commitments without other Lenders' consent. No Lender is obliged to extend, and every Revolving Lender must be offered the same terms. There is no term-out option.",
+   "ts_quote": "The Credit Documentation shall include \"amend and extend\" provisions consistent with those in the Existing Credit Agreement pursuant to which individual Lenders may agree to extend",
+   "ts_location": "PDF p.4 (Amend and Extend Feature)",
+   "ca_value": "Section 2.26 is kept from the Existing CA; only the term-loan references change. The Company may ask every Lender of a Class for a one-year extension, 60 to 30 days before each anniversary of the Effective Date (February 4, 2025). Each Lender decides in its sole discretion, and Non-Extending Lenders may be replaced. No more than two extensions are allowed. Conditions: no Default, representations true, and an officer's certificate. There is no term-out option.",
+   "ca_quote": "The Company may, by notice to the Administrative Agent (who shall promptly notify the applicable Class of Lenders) not earlier than 60 days and not later than 30 days prior to each anniversary of the Effective Date (each such date, an \"Extension Date\"), request that each Lender extend such",
+   "ca_location": "Exhibit A Section 2.26(a)(i)-(vii), PDF pp.136-138",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The CA keeps the Existing Credit Agreement's extension mechanism, which the TS adopts by reference. Lender-by-lender consent, no obligation to extend and an equal offer to all lenders all match. The two-extension cap and the anniversary timing come from the Existing CA. Neither document has a term-out option.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    4
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    136
+   ]
+  },
+  {
+   "id": "A06",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "MK may add revolver increases and/or incremental term loans, secured pari passu, without consent from non-participating Lenders. Cap: the greater of $400,000,000 and 100% of LTM Consolidated EBITDA, shared with Permitted Equivalent Indebtedness incurred after the Closing Date. On top of that, unlimited amounts if the Secured Net Leverage Ratio is 3.00x or less (Net Leverage 4.00x or less for unsecured Permitted Equivalent Indebtedness). Additional Lenders need the Agent's consent (not to be unreasonably withheld). 'SunGard' (certain-funds) conditions are allowed for acquisitions, and covenants may not be more onerous than market terms.",
+   "ts_quote": "does not exceed the sum of (x) an amount equal to the greater of (i) $400,000,000 and (ii) 100% of Consolidated EBITDA of Capri and its Subsidiaries for the most recently ended four fiscal quarter period, plus (y) additional amounts",
+   "ts_location": "PDF pp.3-4 (Expansion Feature)",
+   "ca_value": "Incremental Amount: (a) the greater of $400,000,000 and 100% of Consolidated EBITDA for the most recent Test Period ($750,000,000 is struck), less incremental facilities and Permitted Equivalent Indebtedness incurred after the Amendment No. 1 Effective Date under clause (a); plus (b) the Ratio Incremental Amount (Secured Net Leverage 3.00x or less for secured debt, Net Leverage 4.00x or less for unsecured, assuming incremental revolving commitments are fully drawn). Section 2.20 adds: $10,000,000 minimum increments; Augmenting Lenders approved by the Company and the Agent (not unreasonably withheld) and by each Swiss Borrower if the lender is not a Swiss Qualifying Bank; no consent needed from non-participating lenders; pro forma compliance with the Section 6.08 covenant; certain-funds conditions for Limited Condition Acquisitions; incremental term loans may not mature before the latest Maturity Date; their covenants may be no more onerous than market terms; and any financial maintenance covenant they carry also applies to the revolver. Permitted Equivalent Indebtedness also needs no Default, no guarantees from non-Loan Parties, and no maturity or scheduled amortization before 91 days after the latest Maturity Date.",
+   "ca_quote": "(a) the excess (if any) of (i) $750,000,000 an amount equal to the greater of (x) $400,000,000 and (y) 100% of the Consolidated EBITDA of Capri Holdings and its Subsidiaries for the most recent Test Period",
+   "ca_location": "Exhibit A Section 1.01 'Incremental Amount', PDF p.59; 'Ratio Incremental Amount', PDF p.75; 'Permitted Equivalent Indebtedness', PDF p.71; Section 2.20, PDF pp.130-131",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The fixed ($400m / 100% EBITDA) amount, the leverage tests (3.00x secured, 4.00x unsecured), the sharing with Permitted Equivalent Indebtedness and the post-closing reset all match; '$750,000,000' is struck in the PDF. The CA spells out conditions the TS leaves to 'customary conditions' and the Existing CA: the $10m minimum, Swiss Borrower approval, pro forma covenant compliance, the full-draw assumption, and the no-default and 91-day maturity limits on Permitted Equivalent Indebtedness. These are mostly lender-protective, but they are carried over from the Existing CA.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    59
+   ]
+  },
+  {
+   "id": "A07",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "Same as under the Existing Credit Agreement; the TS gives no figure.",
+   "ts_quote": "Letters of Credit: Same as under the Existing Credit Agreement.",
+   "ts_location": "PDF p.3 (Letters of Credit)",
+   "ca_value": "Total LC Exposure capped at $125,000,000. Each Issuing Bank's exposure is capped at its Letter of Credit Commitment (Schedule 2.02), and total Revolving Credit Exposures may not exceed the Aggregate Revolving Commitment. The Issuing Banks are JPMorgan Chase Bank, N.A. and Barclays Bank PLC; Barclays need not issue Commercial Letters of Credit. The blackline makes no change to this text.",
+   "ca_quote": "(i) subject to Section 2.04, the Dollar Amount of the LC Exposure shall not exceed $125,000,000",
+   "ca_location": "Exhibit A Section 2.06(b), PDF p.102; 'Issuing Bank' and 'Letter of Credit Commitment', PDF pp.63-64",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS adopts the Existing CA's LC terms. The $125m LC sublimit has no strike-through or insertion, so it carries over unchanged, as the TS intends, even though total commitments fall from $1.5bn to $1.0bn. Each Issuing Bank's LC commitment is in Schedule 2.02, which is not in the PDF.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    102
+   ]
+  },
+  {
+   "id": "A08",
+   "attribute": "Swingline sublimit",
+   "ts_value": "Same as under the Existing Credit Agreement; the TS gives no figure.",
+   "ts_quote": "Swing Line Loans: Same as under the Existing Credit Agreement.",
+   "ts_location": "PDF p.3 (Swing Line Loans)",
+   "ca_value": "Outstanding Swingline Loans capped at $100,000,000. Swingline loans in USD go to the Company; swingline loans in other Agreed Currencies (except CAD) go to Capri Holdings and MK Switzerland. JPMCB is the Swingline Lender, and lending is at its sole discretion. The text is unchanged by the amendment.",
+   "ca_quote": "(i) the aggregate principal Dollar Amount of outstanding Swingline Loans exceeding $100,000,000",
+   "ca_location": "Exhibit A Section 2.05(a), PDF pp.99-100; 'Swingline Lender', PDF p.84",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The $100m swingline cap is unchanged in the blackline, which matches the TS's 'same as Existing Credit Agreement'.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    100
+   ]
+  },
+  {
+   "id": "A09",
+   "attribute": "Borrower sublimits or other sublimits",
+   "ts_value": "Not stated in TS. No borrower-level or foreign-currency sublimits are set.",
+   "ts_quote": "",
+   "ts_location": "Not stated (PDF pp.1-3 list Borrowers and currencies only)",
+   "ca_value": "No borrower or foreign-currency sublimits beyond the LC ($125m) and swingline ($100m) sublimits. The CA does have unchanged eligibility rules: CAD loans only to Canadian Borrowers, and swinglines only to the Company, Capri Holdings and MK Switzerland.",
+   "ca_quote": "",
+   "ca_location": "Not found in CA (searched for 'sublimit' and dollar caps; see Sections 2.02(b), 2.05(a), PDF pp.97, 99-100)",
+   "status": "not_applicable",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "Neither document sets borrower-level or other monetary sublimits beyond the LC and swingline sublimits covered in A07 and A08. The CA's rules on which borrower may borrow which currency are not sublimits, and the TS adopts them through the Existing CA.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "A10",
+   "attribute": "Benchmark rates, floors and credit spread adjustment",
+   "ts_value": "USD loans bear interest at ABR or the Term SOFR Rate, plus the Applicable Rate. ABR is the greatest of Prime, NYFRB + 0.5%, and 1-month Term SOFR + 1%, with a 1% floor. The Term SOFR floor is 0%. No credit spread adjustment is mentioned. Foreign-currency loans use the benchmark set out in the Credit Documentation. Swing Line Loans bear interest as described in the Existing Credit Agreement.",
+   "ts_quote": "the initial Floor for the Term SOFR Rate shall be 0%.",
+   "ts_location": "PDF pp.11-12 (Annex I - Interest Rate Options, 'Alternate Base Rate', 'Floor', 'Term SOFR Rate')",
+   "ca_value": "ABR is the greatest of Prime, NYFRB + 1/2 of 1%, and 1-month Term SOFR + 1%, with a 1% floor. Term Benchmark loans use Term SOFR (USD), Adjusted EURIBOR (EUR), Adjusted TIBOR (JPY) and Term CORRA (CAD). RFR loans use SONIA (GBP), SARON (CHF), Daily Simple SOFR as a fallback, and Daily Simple CORRA. Every benchmark has a 0% floor. The 0.10% SOFR CSA and the 0.29547%/0.32138% CORRA CSAs are deleted: the definitions of Adjusted Term SOFR Rate, Adjusted Daily Simple RFR and Adjusted Term CORRA Rate are struck, and Section 2.13(b)-(c) now refer to the unadjusted rates. Swingline interest (Section 2.13(a), unchanged): USD swinglines at ABR or the Swingline Overnight Rate plus the Applicable Rate; foreign swinglines at the Overnight Foreign Currency Rate, Daily Simple ESTR (EUR) or Daily Simple TONAR (JPY).",
+   "ca_quote": "the initial Floor for each of Adjusted Term SOFR Rate, Adjusted EURIBOR Rate, Adjusted TIBOR Rate, Adjusted Term CORRA Rate, each Adjusted Daily Simple RFR, the Japanese Prime Rate or the Central Bank Rate shall be 0%.",
+   "ca_location": "Exhibit A Section 1.01 'Floor', PDF p.57; 'Alternate Base Rate', PDF pp.33-34; 'Term SOFR Rate', PDF p.87; deleted 'Adjusted Term SOFR Rate', PDF p.32; Section 2.13(a)-(c), PDF pp.114-115",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The USD benchmark, the ABR components, the 1% ABR floor and the 0% Term SOFR floor all match. The quoted Floor text still reads 'Adjusted' because the extraction keeps deleted words; the PDF strike lines show those words and the CSA definitions deleted, so no CSA applies, which matches the TS. Foreign-currency benchmarks and swingline interest are left by the TS to the Credit Documentation / Existing CA, and Section 2.13(a) is unchanged.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    12
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    57
+   ]
+  },
+  {
+   "id": "A11",
+   "attribute": "Applicable margin / pricing grid (check EVERY tier and EVERY column)",
+   "ts_value": "Annex I-A, based on Net Leverage (Term Benchmark / ABR / Commitment Fee): Level 1 (1.00x or less): 112.5 / 12.5 / 10.0 bps. Level 2 (2.50x or less): 125.0 / 25.0 / 15.0 bps. Level 3 (3.50x or less): 137.5 / 37.5 / 16.25 bps. Level 4 (above 3.50x): 150.0 / 50.0 / 20.0 bps.",
+   "ts_quote": "4 > 3.50:1.00 150.0 bps 50.0 bps 20.0 bps",
+   "ts_location": "PDF p.14 (Annex I-A, Applicable Rate for the Revolving Credit Loans)",
+   "ca_value": "Schedule 1.01 as amended, based on Net Leverage (Term Benchmark/RFR / ABR / Commercial LC Rate / Commitment Fee): Level 1 (1.00:1.00 or less): 112.5 / 12.5 / 56.25 / 10.00 bps. Level 2 (2.50:1.00 or less): 125.0 / 25.0 / 62.50 / 15.00 bps. Level 3 (3.50:1.00 or less): 137.5 / 37.5 / 68.75 / 16.25 bps. Level 4 (above 3.50:1.00): 150.0 / 50.0 / 75 / 20.00 bps. The old ratings-based Levels 1-2 (A-/A3 and BBB+/Baa1), the Public Debt Ratings column and the Initial Term Loan grid are struck.",
+   "ca_quote": "42 BBB-> 0.75:1.00 but 125.0 bps 25.0 bps 62.50 bps 15.015.00 bps",
+   "ca_location": "Exhibit A Schedule 1.01 (Pricing Grid), PDF pp.201-202",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "All four tiers agree exactly on the leverage thresholds, the Term Benchmark spread, the ABR spread and the commitment fee; the PDF strike lines confirm the operative CA values (the quoted row mixes struck '4', 'BBB-', '> 0.75:1.00 but', '15.0' with inserted '2', '15.00'). The CA also has an RFR spread equal to the Term Benchmark spread and a Commercial LC rate of half that spread, which the TS covers through 'same as Existing'. Neither pdftotext -layout nor -raw extracts the TS 'less than or equal to' symbols (raw output shows '1  1.00:1.00'); the TS thresholds are read as upper bounds because Level 4 is '> 3.50:1.00'.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    14
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    201
+   ]
+  },
+  {
+   "id": "A12",
+   "attribute": "Pricing basis (ratings / leverage / flat) and initial pricing level",
+   "ts_value": "Pricing is based on Net Leverage. Initial pricing is Term Benchmark 1.25%, ABR 0.25% and commitment fee 0.15%, which is grid Level 2. The Annex I-A grid takes over once the compliance certificate for the first full fiscal quarter ending after the Closing Date is delivered.",
+   "ts_quote": "\"Applicable Rate\" means, initially (i) with respect to Term Benchmark Loans, 1.25% and (ii) with respect to ABR Loans, 0.25%; provided that from and after the delivery of the compliance certificate for the first full fiscal quarter ending after the Closing Date",
+   "ts_location": "PDF p.11 (Annex I, 'Applicable Rate'); PDF p.13 (Commitment Fees); PDF p.14 (Annex I-A)",
+   "ca_value": "The grid is now leverage-only; the ratings levels and column are struck. Until the first Adjustment Date after the Amendment No. 1 Effective Date, Revolving Loans and Commitment Fees are priced at 'Pricing Level 2' (125 / 25 / 15 bps). But Exhibit A strikes the whole Schedule 1.01 paragraph that defined 'Adjustment Date' and 'Pricing Level' and set the late-financials fallback. Section 1.01 still says 'Adjustment Date' and 'Pricing Level' have the meanings given in Schedule 1.01, and the Applicable Rate is still 'determined on each Adjustment Date'. The unstruck 'Public Debt Rating' definition still contains ratings-based rules for setting the Pricing Level.",
+   "ca_quote": "the Applicable Rate in respect of the Revolving Loans and Commitment Fees will be determined pursuant to \"Pricing Level 4\" of the Pricing Grid and the Applicable Rate in respect of the Initial Term Loans will be determined pursuant to \"Pricing Level 12\" of the Pricing Grid.",
+   "ca_location": "Exhibit A Section 1.01 'Applicable Rate', PDF pp.34-35; 'Adjustment Date', PDF p.33; 'Pricing Level' and 'Public Debt Rating', PDF pp.73-74; Schedule 1.01 (deleted paragraph), PDF p.202",
+   "status": "differs",
+   "materiality": "material",
+   "direction": "neutral",
+   "explanation": "The leverage pricing basis and the initial Level 2 (125/25/15 bps) match; the PDF strike runs from '4\" of the Pricing Grid' to 'Pricing Level 1', leaving 'Pricing Level 2'. But the conformed CA deletes the only definition of 'Adjustment Date', so it does not say when grid pricing replaces the initial level. The TS ties that switch to the first compliance certificate, and even the deleted CA text used Section 5.01 financial statements instead. A leftover ratings-based mechanic in 'Public Debt Rating' also remains. Confirm with counsel; who it favours depends on Capri's leverage.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    11
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    35
+   ]
+  },
+  {
+   "id": "A13",
+   "attribute": "Commitment / facility / unused fee",
+   "ts_value": "Same as the Existing Credit Agreement. The initial commitment fee is 0.15% p.a., and after the first compliance certificate it follows the Annex I-A grid (10.0 / 15.0 / 16.25 / 20.0 bps). It is calculated on a 360-day basis.",
+   "ts_quote": "provided that the initial commitment fee rate shall be 0.15% per annum",
+   "ts_location": "PDF p.13 (Commitment Fees; Rate and Fee Basis)",
+   "ca_value": "Section 2.12(a): a Commitment Fee at the Applicable Rate on each lender's daily Available Revolving Commitment (unused amount, with swingline exposure ignored). It is paid quarterly in arrears and at termination and calculated on a 360-day basis. It starts at Pricing Level 2 = 15.00 bps, and the grid runs 10.00 / 15.00 / 16.25 / 20.00 bps. The text is unchanged by the amendment.",
+   "ca_quote": "Revolving Lender a non-refundable commitment fee (the \"Commitment Fee\"), which shall accrue at the Applicable Rate on the daily Available Revolving Commitment of such Revolving Lender",
+   "ca_location": "Exhibit A Section 2.12(a), PDF p.113; 'Available Revolving Commitment', PDF p.35; Schedule 1.01, PDF pp.201-202",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The initial 15 bps rate, the grid tiers, the unused-commitment basis, quarterly payment and 360-day basis all match the TS. The timing of the grid reset depends on the 'Adjustment Date' gap noted in A12.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    13
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    113
+   ]
+  },
+  {
+   "id": "A14",
+   "attribute": "Letter of credit participation fee and fronting fee",
+   "ts_value": "LC fees are the same as the Existing Credit Agreement. The fronting fee is a rate agreed separately by MK and each Issuing Lender, charged on the face amount of each LC and paid quarterly in arrears. Customary administrative, issuance, amendment, payment and negotiation charges also apply.",
+   "ts_quote": "A fronting fee equal to a rate per annum separately agreed upon by MK and each Issuing Lender on the face amount of each Letter of Credit shall be payable quarterly in arrears to such Issuing Lender for its own account.",
+   "ts_location": "PDF p.13 (Letter of Credit Fees)",
+   "ca_value": "Section 2.12(b), unchanged by the amendment: (i) the Standby LC participation fee is the Term Benchmark Applicable Rate; (ii) the Commercial LC participation fee is the Commercial LC Rate (56.25 / 62.50 / 68.75 / 75 bps); (iii) the fronting fee is a rate agreed separately by the Company and each Issuing Bank, charged on the average daily LC Exposure of its LCs (excluding unreimbursed LC Disbursements), plus the Issuing Bank's standard fees. Fees are paid on the 3rd Business Day after each quarter-end and calculated on a 360-day basis.",
+   "ca_quote": "relevant Issuing Bank for its own account a fronting fee, which shall accrue at a rate per annum separately agreed upon by the Company and such Issuing Bank on the average daily Dollar Amount of the LC Exposure",
+   "ca_location": "Exhibit A Section 2.12(b), PDF pp.113-114; Schedule 1.01, PDF p.201",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "The separately agreed fronting rate and the customary charges match, and the participation fees are unchanged from the Existing CA, as the TS requires. The CA charges the fronting fee on average daily undrawn LC Exposure, not the 'face amount', so the base is the same or lower once an LC is drawn or reduced. It is also paid on the third Business Day after quarter-end rather than simply 'quarterly in arrears'. Both points slightly favour the borrower.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    13
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    114
+   ]
+  },
+  {
+   "id": "A15",
+   "attribute": "Upfront, ticking, term-out, extension or other fees stated in the TS",
+   "ts_value": "Not stated in TS. Annex I contains no upfront, ticking, term-out or extension fees.",
+   "ts_quote": "",
+   "ts_location": "Not stated (Annex I, PDF pp.11-13 covers interest, commitment and LC fees only)",
+   "ca_value": "No upfront, ticking, term-out or extension fee amounts. Section 2.12(c) (unchanged) requires Loan Parties to pay Agent and Lead Arranger fees as agreed separately. Amendment Section 3(a)(iii) makes payment of fees due on the effective date a condition, and Section 11 refers to an Engagement Letter and Fee Letter.",
+   "ca_quote": "Each Loan Party agrees to pay to each of the Administrative Agent and the Lead Arrangers, for its own account, fees payable in the amounts and at the times separately agreed upon between such Loan Party and the Administrative Agent and",
+   "ca_location": "Exhibit A Section 2.12(c), PDF p.114; Amendment Sections 3(a)(iii) and 11, PDF pp.3, 7",
+   "status": "not_in_ts",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "Neither document sets out fee amounts beyond those in Annex I. The CA only refers to separately agreed agency and arranger fees in a fee letter, which these documents cannot reconcile.",
+   "stage": "verified",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    114
+   ]
+  },
+  {
+   "id": "A16",
+   "attribute": "Default interest",
+   "ts_value": "Same as the Existing Credit Agreement. Overdue principal bears 2% above the applicable rate. Overdue interest, fees and other amounts bear 2% above the ABR Loan rate.",
+   "ts_quote": "is in default in the payment of any amount of principal due under the Revolving Credit Facility, such amount shall bear interest at 2% above the rate otherwise applicable thereto. Overdue interest, fees and other amounts shall bear interest at 2% above the rate applicable to ABR Loans.",
+   "ts_location": "PDF p.13 (Default Rate)",
+   "ca_value": "Section 2.13(d), unchanged: overdue principal bears 2% plus the applicable loan rate; any other overdue amount bears 2% plus the ABR Loan rate. It applies after as well as before judgment and is payable on demand (Section 2.13(e)).",
+   "ca_quote": "(i) in the case of overdue principal of any Loan (to the extent permitted by applicable law), 2% plus the rate otherwise applicable to such Loan as provided in the preceding paragraphs of this Section or (ii) in the case of any other amount, 2% plus the rate applicable to ABR Loans",
+   "ca_location": "Exhibit A Section 2.13(d)-(e), PDF p.115",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The rate (+2%), the base for principal and for other amounts, and the trigger (non-payment only) are the same.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    13
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    115
+   ]
+  },
+  {
+   "id": "A17",
+   "attribute": "Amortization and mandatory prepayments",
+   "ts_value": "No amortization (revolver). Loans must be prepaid if revolving exposure exceeds commitments. If the excess is caused by FX movements, prepayment is required only above 105%, tested on: (a) the last business day of each quarter; (b) any business day at the Agent's discretion while an Event of Default continues; (c) each borrowing request, interest election request and LC issuance, amendment, renewal or extension request.",
+   "ts_quote": "if such excess is caused by fluctuations in foreign currency exchange rates, (i) no such prepayment will be required to the extent the aggregate revolving credit exposure under the Revolving Credit Facility is not more than 105% of the aggregate commitments thereunder",
+   "ts_location": "PDF p.5 (Mandatory Prepayments)",
+   "ca_value": "Section 2.10: revolving loans are repaid at the Revolving Maturity Date. Swingline loans are repaid at the earlier of maturity and the 15th or last day of a month falling at least 2 Business Days after the loan is made. Section 2.11(b)(i): loans must be repaid or LC Exposure cash-collateralised if exposures exceed 100% of commitments (non-FX) or 105% (FX only), measured at the most recent Revaluation Date. Revaluation Dates are: borrowing, conversion and continuation dates; monthly for RFR loans; LC issuance and amendments that increase face amount; the first Business Day of each month for LCs; the last Business Day of each quarter; and any date the Agent picks while an Event of Default exists. The term-loan sweeps are struck (Section 2.11(b)(ii) is [Reserved]).",
+   "ca_quote": "(B) solely as a result of fluctuations in currency exchange rates, the sum of the aggregate principal Dollar Amount of all of the Revolving Credit Exposures (so calculated) exceeds 105% of the Aggregate Revolving",
+   "ca_location": "Exhibit A Sections 2.10(a), 2.11(b)(i)-(ii), PDF pp.109, 111-112; 'Revaluation Date', PDF p.79",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The 100%/105% test and the absence of amortization match. The CA's Revaluation Dates add monthly LC and RFR revaluations, but they do not include LC renewal or extension requests, or LC amendments that do not increase the face amount, which the TS lists. The CA also allows cash collateral as an alternative, and deleting the term-loan sweeps fits a revolver-only TS.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    5
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    111
+   ]
+  },
+  {
+   "id": "A18",
+   "attribute": "Optional prepayments, commitment reductions, minimum borrowing amounts",
+   "ts_value": "Loans may be prepaid without premium or penalty, subject to breakage under the Existing CA. MK may reduce commitments in the minimum amounts set by the Existing Credit Agreement. Minimum borrowing amounts are not stated.",
+   "ts_quote": "and commitments may be reduced by MK in minimum amounts as set forth in the Existing Credit Agreement.",
+   "ts_location": "PDF p.5 (Optional Prepayments and Commitment Reductions)",
+   "ca_value": "Section 2.11(a): voluntary prepayment at any time with notice (Term Benchmark 3 Business Days, or 4 for foreign currency; RFR 4-5 RFR Business Days; ABR 1 Business Day; swingline same day), with no premium but subject to Section 2.16 breakage. Section 2.09(b)-(c): commitment reductions in $1,000,000 multiples with a $5,000,000 minimum, on 3 Business Days' notice. Section 2.02(c) minimum borrowings: Term Benchmark $1,000,000 ($100,000 multiples); ABR $500,000 ($100,000 multiples); swingline $500,000. All unchanged by the amendment.",
+   "ca_quote": "each reduction of the Revolving Commitments shall be in an amount that is an integral multiple of $1,000,000 and not less than $5,000,000",
+   "ca_location": "Exhibit A Sections 2.02(c), 2.09(b)-(c), 2.11(a), 2.16, PDF pp.98, 109, 111, 121",
+   "status": "match",
+   "materiality": "none",
+   "direction": "n/a",
+   "explanation": "The TS adopts the Existing CA terms. The CA keeps them unchanged: prepayment without premium subject to breakage, $5m minimum reductions in $1m multiples, and the existing minimum borrowing amounts.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    5
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    109
+   ]
+  },
+  {
+   "id": "A19",
+   "attribute": "Interest periods, notice periods and day count",
+   "ts_value": "Interest Periods: 1 month; 3 months only for Canadian dollar borrowings; 6 months for all currencies except CAD. Interest Payment Dates: ABR quarterly in arrears and at termination; Term Benchmark at the end of each Interest Period and every 3 months for periods longer than 3 months; swingline monthly. Day count: 360 days for all rates except Prime-based ABR (365/366), counting actual days, first day included and last day excluded. Notice periods are not stated.",
+   "ts_quote": "\"Interest Period\" means, with respect to any Term Benchmark Borrowing, a period of one, (with respect only to borrowings denominated in Canadian dollars) three or (other than with respect to borrowings denominated in Canadian dollars) six months thereafter.",
+   "ts_location": "PDF p.12 (Annex I, 'Interest Period'); PDF p.13 (Interest Payment Dates; Rate and Fee Basis)",
+   "ca_value": "Interest Periods: 1, 3 or 6 months, with 6 months unavailable for CAD; 3 months is available in every currency. Interest Payment Dates match the TS (RFR loans pay monthly). Day count (Section 2.13(f)): 360 days for Term SOFR / Daily Simple SOFR, EURIBOR, SARON and non-Prime ABR. 365/366 days for SONIA (GBP), TIBOR (JPY), Term CORRA and Daily Simple CORRA (CAD; 'the Term CORRA Rate' is struck from the 360-day list), and Prime-based ABR. Borrowing notices (Section 2.03): Term Benchmark 3 Business Days (JPY 4); RFR 5 Business Days; ABR same day by 1:00 p.m.",
+   "ca_quote": "ending on the numerically corresponding day in the calendar month that is one, three or (other than with respect to Borrowings denominated in Canadian Dollars) six months thereafter",
+   "ca_location": "Exhibit A Section 1.01 'Interest Period' and 'Interest Payment Date', PDF p.62; Section 2.03, PDF p.98; Section 2.13(f), PDF p.115",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "There are two differences. (1) The CA allows 3-month Interest Periods in every currency, while the TS literally limits 3-month periods to CAD borrowings. (2) The CA uses a 365/366-day basis for GBP, JPY and CAD, while the TS states a 360-day basis for everything except Prime-based ABR. Both favour the borrower (more tenor choice, and less interest on a 365-day basis) and follow market convention. Interest Payment Dates match. The TS does not address notice periods.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    12
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    62
+   ]
+  },
+  {
+   "id": "B01",
+   "attribute": "Borrower(s)",
+   "ts_value": "Borrowers: Michael Kors (USA), Inc. (MK), Capri Holdings Limited (Capri), Michael Kors (Europe) B.V., Michael Kors (Canada) Holdings Ltd. and Michael Kors (Switzerland) GmbH. Other foreign subsidiaries of Capri can be added at MK's request if they are (a) organised in the BVI, Canada, the Netherlands or Switzerland, or (b) otherwise approved by the Administrative Agent and the Revolving Lenders in their reasonable discretion.",
+   "ts_quote": "Michael Kors (USA), Inc. (\"MK\"), Capri Holdings Limited (\"Capri\"), Michael Kors (Europe) B.V., Michael Kors (Canada)",
+   "ts_location": "PDF p.1 - I. Parties, Borrowers",
+   "ca_value": "As amended, \"Borrower\" means the Company (MK), Capri Holdings, MK Switzerland or any Foreign Subsidiary Borrower. The blackline strikes '(i) with respect to the Revolving Facility' and the term-loan limb (ii), and inserts 'MK Switzerland'. The text extraction still shows the struck words. The Initial Foreign Subsidiary Borrowers are MK Canada Holdings and MK Switzerland. Section 2.22 obliges Capri Holdings to designate MKE as a Foreign Subsidiary Borrower, and MKE signed Amendment No. 1 \"as MKE, a Borrower and a Guarantor\". Further borrowers can be added by designating an Eligible Foreign Subsidiary: one organised in the BVI, Canada, the Netherlands or Switzerland, or any other Foreign Subsidiary approved by the Administrative Agent and each of the Lenders in their reasonable discretion (Sections 2.22 and 4.03).",
+   "ca_quote": "\"Borrower\" means (i) with respect to the Revolving Facility, the Company, Capri Holdings, MK Switzerland or any Foreign Subsidiary Borrower",
+   "ca_location": "s.1.01 'Borrower' (PDF p.39), 'Eligible Foreign Subsidiary' (PDF p.51), 'Foreign Subsidiary Borrower' (PDF p.57); s.2.22 (PDF p.132); Amendment No. 1 signature page (PDF p.8)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The same five borrowers are parties, and the jurisdictions and approval test for adding borrowers are the same. The CA says 'each of the Lenders' where the TS says 'the Revolving Lenders'. These are the same group because Amendment No. 1 deletes the Initial Term Loan facilities: they are struck in the 'Borrower', 'Class' and 'Term Loan' definitions on PDF pp.39, 43 and 87. Only Revolving Lenders remain unless incremental term loans are added later. Note that the CA quote includes words the blackline strikes.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    39
+   ]
+  },
+  {
+   "id": "B02",
+   "attribute": "Guarantor(s)",
+   "ts_value": "Guarantors are:\n- the Borrowers and the existing guarantors;\n- future material subsidiaries organised in Eligible Jurisdictions (the jurisdictions of existing Guarantors), with materiality thresholds consistent with the Existing CA;\n- any subsidiary Capri elects to make a guarantor.\n\nExceptions are to be agreed and include legal prohibition or required consents, non-wholly-owned subsidiaries barred by their organisational documents, and non-ECP subsidiaries for swaps. A CFC or CFC Holding Company, other than an IP Subsidiary, does not guarantee domestic obligations. The Administrative Agent can exclude a subsidiary on cost-benefit grounds.\n\nThe guarantee covers the RCF, hedging with Lenders (those who were Lenders on the Closing Date for existing swaps, or when a new swap is entered into), Supply Chain Financings that are not excluded, Bilateral Letters of Credit and existing Working Capital Facilities.",
+   "ts_quote": "The Borrowers, the guarantors under the Existing Credit Agreement and other future subsidiaries of Capri organized in Eligible Jurisdictions (as defined below) that are material subsidiaries (with materiality thresholds to be consistent with those set forth in the Existing Credit Agreement)",
+   "ts_location": "PDF pp.1-2 - I. Parties, Guarantors (and 'Eligible Jurisdictions')",
+   "ca_value": "\"Guarantor\" means Capri Holdings and each Material Subsidiary that is a party to the Guaranty. Material Subsidiary means:\n- each Borrower;\n- each subsidiary listed in Schedule 1.01(d);\n- any subsidiary in an Eligible Jurisdiction that contributes more than 5% of Consolidated EBITDA (the blackline strikes 'EBITDAR' and inserts 'EBITDA'; the text extraction shows 'EBITDAREBITDA') or more than 5% of Consolidated Total Assets.\n\nEligible Jurisdiction means the jurisdiction of any existing Guarantor. As of the Effective Date: US, BVI, Canada, England and Wales, Hong Kong, the Netherlands and Switzerland. 'Italy' is struck from this list. Subsidiaries the Company elects to add join under s.5.09(a)(iv).\n\nExclusions under s.5.09(b): a CFC or CFC Holding Company (other than a Grantor) for Domestic Subsidiary obligations; legal prohibition; non-wholly-owned subsidiaries; captive insurance companies; and the Administrative Agent's cost-benefit test. The ECP point is handled through Excluded Swap Obligations.\n\nGuaranteed Obligations include Swap Counterparty obligations (the counterparty must be a Lender on the Amendment No. 1 Effective Date, or at entry for new swaps), Banking Services, non-excluded Supply Chain Financings, Bilateral Letters of Credit and Working Capital Facilities existing on the Effective Date. The Guarantors ratified their guarantee in s.5 of Amendment No. 1.",
+   "ca_quote": "greater than five percent (5%) of Consolidated EBITDAREBITDA for such Test Period",
+   "ca_location": "s.1.01 'Guarantor' (PDF p.58), 'Material Subsidiary' (PDF p.66), 'Consolidated EBITDA' (PDF p.44), 'Eligible Jurisdiction' (PDF p.51), 'Obligations' (PDF pp.67-68), 'Swap Counterparty' (PDF pp.83-84), 'Working Capital Facilities' (PDF p.91); s.5.09(a)-(b) (PDF pp.151-152); Amendment No. 1 s.5 (PDF p.5)",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The guarantor structure, the exclusions and the guaranteed hedging, supply chain, bilateral LC and working capital obligations match the TS. The strike and underline lines in the PDF content stream (p.66) confirm that the 5% Material Subsidiary test changed from Consolidated EBITDAR to Consolidated EBITDA, which is EBITDAR without the lease-expense add-back. The TS said materiality thresholds would stay as in the Existing CA. This is a share-of-earnings test, so whether it brings in more or fewer guarantors depends on each subsidiary's rent intensity. The direction is therefore indeterminate, which corrects the earlier 'pulls in more guarantors'. Italy is struck from the Effective Date list of Eligible Jurisdictions. That is consistent with the TS's definition, which tracks the jurisdictions of existing Guarantors. The CA also guarantees Banking Services Obligations, which the TS does not list. It adds a captive-insurance exclusion, which falls within the TS's 'exceptions to be agreed'.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    66
+   ]
+  },
+  {
+   "id": "B03",
+   "attribute": "Administrative agent and other agent roles (collateral agent, issuing banks, swingline lender)",
+   "ts_value": "Administrative Agent: JPMCB. The TS does not name the Issuing Banks or the Swingline Lender: Letters of Credit and Swing Line Loans are 'Same as under the Existing Credit Agreement'. The Assignments section refers to 'each Issuing Bank and the Swingline Lender'. No separate collateral agent is named; security is granted to the Administrative Agent.",
+   "ts_quote": "Administrative Agent: JPMCB (in such capacity, the \"Administrative Agent\").",
+   "ts_location": "PDF p.2 - Administrative Agent; PDF p.3 - Letters of Credit / Swing Line Loans; PDF p.6 - Collateral",
+   "ca_value": "Administrative Agent: JPMorgan Chase Bank, N.A. (including its branches and affiliates).\nIssuing Banks: JPMCB, Barclays Bank PLC and any other designated Lender (Barclays is not required to issue Commercial Letters of Credit).\nSwingline Lender: JPMCB.\nLiens run to the Administrative Agent for the Secured Parties. JPMCB signed Amendment No. 1 as Administrative Agent, Swingline Lender and Issuing Bank, and Barclays signed as an Issuing Bank.",
+   "ca_quote": "\"Administrative Agent\" means JPMorgan Chase Bank, N.A. (including its branches and affiliates), in its capacity as administrative agent for the Lenders hereunder.",
+   "ca_location": "s.1.01 'Administrative Agent' (PDF p.33), 'Issuing Bank' (PDF p.63), 'Swingline Lender' (PDF p.84); s.5.09(c) (PDF p.152); Amendment No. 1 signature pages (PDF pp.11-12)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The Administrative Agent is the same. The issuing bank and swingline roles are carried over, consistent with the TS's 'same as Existing Credit Agreement'. Drafting point: s.5.09(e) refers to a 'Collateral Agent', but no collateral agent is appointed and the liens are held by the Administrative Agent.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    33
+   ]
+  },
+  {
+   "id": "B04",
+   "attribute": "Lead arrangers / bookrunners / titled agents",
+   "ts_value": "Joint Lead Arrangers: JPMCB and [ ] (blank).\nSyndication Agent: [ ] (blank).\nCo-Documentation Agents: To be agreed.\nSr. Managing Agents: To be agreed.\nBookrunners: not stated.",
+   "ts_quote": "Joint Lead Arrangers: JPMorgan Chase Bank, N.A. (\"JPMCB\") and [ ]",
+   "ts_location": "PDF p.2 - Joint Lead Arrangers; Syndication Agent; Co-Documentation Agents; Sr. Managing Agents",
+   "ca_value": "For Amendment No. 1:\n- Joint Bookrunners: JPMCB and Barclays Bank PLC.\n- Joint Lead Arrangers: JPMCB, Barclays, MUFG Bank, Standard Chartered Bank, Truist Bank, ING Bank N.V. Dublin Branch and Citibank, N.A.\n- Co-Documentation Agents: MUFG, Standard Chartered, Truist Bank, ING Bank N.V. Dublin Branch and Citibank, N.A.\n- Senior Managing Agents: Santander Bank, N.A., U.S. Bank N.A. and Wells Fargo Bank, N.A.\n- Syndication Agent: the definition remains Barclays Bank PLC.",
+   "ca_quote": "(b) with respect to Amendment No. 1, JPMorgan Chase Bank, N.A., Barclays Bank PLC, MUFG Bank, Ltd., Standard Chartered Bank, Truist Bank, ING Bank N.V. Dublin Branch and Citibank, N.A.",
+   "ca_location": "Amendment No. 1 recitals (PDF pp.1-2); s.1.01 'Lead Arrangers' (PDF p.64), 'Co-Documentation Agents' (PDF p.43), 'Syndication Agent' (PDF p.86)",
+   "status": "ts_open_filled_in_ca",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The TS left the second arranger and the syndication agent blank and the other titles to be agreed. The CA fills them in, with JPMCB still the lead. The Exhibit A cover page still shows the 2025 titles, but the amended definitions and the recitals give the 2026 roles.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    64
+   ]
+  },
+  {
+   "id": "B05",
+   "attribute": "Purpose / use of proceeds",
+   "ts_value": "Proceeds will be used:\n(i) on the Closing Date, to repay in part the revolving loans outstanding under the Existing Credit Agreement;\n(ii) to pay costs and expenses of the amendment, the RCF and the use of proceeds;\n(iii) for general corporate purposes of the Loan Parties and their Subsidiaries.",
+   "ts_quote": "The proceeds of the Revolving Credit Loans will be used (i) on the Closing Date to repay, in part, revolving loans outstanding under the Existing Credit Agreement",
+   "ts_location": "PDF p.3 - Purpose",
+   "ca_value": "Revolving Loan proceeds may be used only:\n(i) on the Amendment No. 1 Effective Date, to repay the Existing Revolving Loans (blackline replaces 'Term' with 'Revolving');\n(ii) to pay fees, costs and expenses of Capri Holdings and its Subsidiaries in connection with Amendment No. 1;\n(iii) for working capital, capex, Permitted Acquisitions, permitted Investments, Restricted Payments 'permitted under Section 6.06', and other general corporate purposes of Capri Holdings and its Subsidiaries.\n\nThe usual margin stock and sanctions/anti-corruption restrictions also apply.",
+   "ca_quote": "(i) on the Amendment No. 1 Effective Date, to repay the Existing TermRevolving Loans, (ii) to pay Transaction Costs fees, costs and expenses incurred or payable by Capri Holdings or any of its Subsidiaries in connection with Amendment No. 1",
+   "ca_location": "s.5.08(a), (c), (d) (PDF pp.150-151)",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The three permitted uses are the same in substance. The CA does not repeat the TS's 'in part', and it lists the general corporate purposes in more detail. Drafting point: the Restricted Payments cross-reference points to Section 6.06 (Transactions with Affiliates) instead of Section 6.07.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    150
+   ]
+  },
+  {
+   "id": "B06",
+   "attribute": "Security / collateral, including any fall-away or springback",
+   "ts_value": "Security: a first-priority perfected security interest in all property of each US-incorporated Loan Party, plus the IP of IP Subsidiaries registered in Italy, Switzerland, the US and the UK. Exclusions are consistent with the Existing CA, under the February 4, 2025 Pledge and Security Agreement. It secures the RCF, Lender hedging, Supply Chain Financings and Bilateral Letters of Credit.\n\nFall-away: release on written notice once (a) Capri has an investment-grade corporate family/corporate credit rating (Baa3/BBB-/BBB- or higher) from 2 of Moody's, S&P and Fitch, and (b) no other debt secured on the Collateral is outstanding apart from the RCF and Incremental Facilities.\n\nSpringback: automatic reinstatement if the 2-of-3 investment-grade rating is lost, or if Loan Parties guarantee debt secured by a majority of the domestic Collateral or of the foreign IP Collateral.",
+   "ts_quote": "From and after the date that (a) Capri and its Subsidiaries on a consolidated basis have obtained a corporate family/corporate credit rating that is a rating equal to or higher than Baa3",
+   "ts_location": "PDF pp.6-7 - Collateral (heading misaligned in extraction)",
+   "ca_value": "Grantors are the Company, Capri Holdings, each Domestic Subsidiary Guarantor and each IP Subsidiary. As amended, IP Subsidiary covers only the US, Switzerland and the UK ('Italy' is struck; see X11). Collateral is the owned property of Capri Holdings and the Domestic Subsidiary Loan Parties, plus the Intellectual Property Collateral of foreign IP Subsidiaries. IP filings cover IP registered in the EU, Switzerland, the US and the UK ('Italy' is struck). The security is granted under the U.S. Security Agreement and IP Collateral Documents, with Excluded Assets carved out. Secured Obligations are all Obligations except Working Capital Facilities Obligations, so Banking Services are also secured.\n\nFall-away (new s.5.09(d)) requires a 'Collateral Termination Event':\n(a) Investment Grade Ratings from at least 2 of S&P, Moody's and Fitch. This is a new definition: Public Debt Ratings on Capri Holdings' non-credit-enhanced senior unsecured long-term debt of BBB-/Baa3/BBB- with a stable outlook or better.\n(b) No Indebtedness on which any Loan Party is an obligor and secured on the Collateral is outstanding, other than the Revolving Facility, any outstanding Term Loans and debt released at the same time.\n(c) No Event of Default continuing.\nRelease is automatic once the Administrative Agent receives a Financial Officer certificate.\n\nSpringback (new s.5.09(e)): if the 2-of-3 Investment Grade Ratings are not maintained, or if any Loan Party is an obligor on debt secured by a majority of the domestic Collateral or of the foreign IP Collateral, the liens are reinstated and must be regranted within 60 days. Under s.5.09(f), no Default arises from non-compliance during the Collateral Termination Period.",
+   "ca_quote": "and (c) no Event of Default has occurred and is continuing (the satisfaction of the conditions set forth in clauses (a), (b) and (c), a \"Collateral Termination Event\")",
+   "ca_location": "s.5.09(c)-(g) (PDF pp.152-154); s.1.01 'Investment Grade Rating' and 'IP Subsidiary' (PDF p.63), 'Public Debt Rating' (PDF p.73), 'Secured Obligations' (PDF p.81), 'U.S. Security Agreement' (PDF p.90)",
+   "status": "differs",
+   "materiality": "material",
+   "direction": "lender_favourable",
+   "explanation": "The springback mechanics match, and the collateral package broadly matches apart from the Italy deletion, which is reconciled separately in X11. The fall-away is harder to reach than the TS describes. The CA adds a no-Event-of-Default condition. It also tests senior unsecured Public Debt Ratings with a stable outlook or better, instead of the corporate family/corporate credit rating with no outlook requirement. Smaller lender-favourable points: the fall-away blocker and the springback trigger use 'obligor' where the TS says 'guaranteed'/'guarantee', and Banking Services Obligations are secured. The earlier point about Capri Holdings' own property is dropped. The TS names Capri as a party to the February 4, 2025 Pledge and Security Agreement, so that is not a departure.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    6
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    153
+   ]
+  },
+  {
+   "id": "B07",
+   "attribute": "Financial covenants (type, level, step-ups, testing, cure rights)",
+   "ts_value": "Covenant: maximum Net Leverage Ratio of 4.00x, tested at each fiscal quarter-end on a trailing four-quarter basis. Numerator: Consolidated Total Indebtedness plus capitalised Operating Lease Obligations, minus unrestricted cash up to $200m. Denominator: Consolidated EBITDAR.\n\nStep-up: on a Transition Period Election after a Material Acquisition, the maximum is 4.50x 'for the four quarters following the Material Acquisition'. No more than two elections, with at least two full fiscal quarters between Transition Periods.\n\nEBITDAR add-backs: extraordinary, non-recurring, unusual or exceptional items (with a matching deduction for such gains), and run-rate savings with an 18-month look-forward (12 months for cost synergies), capped at 15%.\n\nNo equity cure.",
+   "ts_quote": "the Net Leverage Ratio shall not be more than 4.50 to 1.00 for the four quarters following the Material Acquisition",
+   "ts_location": "PDF pp.7-8 - Financial Covenant (including Consolidated EBITDAR)",
+   "ca_value": "Section 6.08: Net Leverage Ratio no greater than 4.00x at the end of each fiscal quarter. On a Transition Period Election for a Material Acquisition (consideration over $20m), the maximum is 4.50x during the Transition Period. Only two elections may be made, with two full consecutive quarters between Transition Periods.\n\nThe Transition Period runs from the first day of the fiscal quarter in which the acquisition closes to the last day of the fourth fiscal quarter after closing.\n\nThe Net Leverage Ratio definition matches the TS (cash netting cap $200m; Consolidated EBITDAR denominator). EBITDAR clause (a)(ix) adds back extraordinary items and (b)(v) deducts extraordinary gains. Clause (a)(x) allows run-rate savings over 18 months (12 months for synergies), capped at 15% of Consolidated EBITDAR.\n\nNo equity cure provision was found.",
+   "ca_quote": "the period commencing on (and including) the first day of the fiscal quarter during which Capri Holdings or any Subsidiary consummated such Material Acquisition and ending on (and including) the last day of the fourth fiscal quarter following such date of consummation",
+   "ca_location": "s.6.08 (PDF p.168); s.1.01 'Net Leverage Ratio' (PDF p.66), 'Consolidated EBITDAR' (PDF pp.44-46), 'Material Acquisition' (PDF p.65), 'Transition Period' (PDF p.88)",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "The levels, the election limits, the ratio definition and the EBITDAR add-backs all match the TS. The Transition Period is longer than the TS's 'four quarters following': it includes the quarter in which the acquisition closes plus the next four, so 4.50x applies at five quarter-end tests.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    7
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    88
+   ]
+  },
+  {
+   "id": "B08",
+   "attribute": "Key negative covenants and basket amounts (liens, debt, restricted payments, investments, asset sales)",
+   "ts_value": "Negative covenants substantially as in the Existing CA: indebtedness; liens; fundamental changes and asset sales; investments, loans, advances, guarantees and acquisitions; swap agreements; transactions with affiliates; restricted payments; and Outbound Investment Rule restrictions. Two additions: (i) a general asset-sale basket, amount 'to be agreed', per fiscal year with unused amounts carried forward to the next fiscal year; (ii) subject to exceptions, an EBITDA 'grower' added to each dollar basket.",
+   "ts_quote": "a general basket to be agreed per fiscal year will be added to the asset sale covenant, with any unused amount in respect of a fiscal year permitted to be carried forward to the immediately subsequent fiscal year",
+   "ts_location": "PDF p.8 - Negative Covenants",
+   "ca_value": "Article VI covers all the listed covenants: 6.01 Indebtedness, 6.02 Liens, 6.03 Fundamental Changes and Asset Sales, 6.04 Investments, 6.05 Swap Agreements, 6.06 Transactions with Affiliates, 6.07 Restricted Payments, 6.09 Outbound Investment Rules.\n\nNew general asset-sale basket (6.03(b)(xix)): the greater of $50m and 15.0% of Consolidated EBITDA per fiscal year, with unused amounts carried forward to the next fiscal year.\n\nEBITDA growers added to the dollar baskets:\n- JV guarantees: $100m / 30%\n- JV debt: $100m / 30%\n- Subordinated debt: $75m / 22.5%\n- General unsecured debt: $50m / 15%\n- Supply chain financing: $150m / 45%\n- Bilateral LCs: $100m / 30%\n- General liens: $20m / 6%\n- JV investments: $100m / 30%\n- General investments: $500m / 150%\n- General Restricted Payments: $25m / 7.5% per fiscal year\n- Designated non-cash consideration: $75m / 22.5%\n- 75%-cash threshold on asset sales: $10m / 3%\n\nException: the Priority Indebtedness basket is the greater of $255.8m and 10% of Consolidated Net Worth, with no EBITDA grower. Ratio debt, ratio Investments and ratio Restricted Payments are permitted at Net Leverage Ratio of 4.00x or less.",
+   "ca_quote": "(xix) Dispositions in an aggregate amount in any fiscal year not to exceed at the time of the consummation of the applicable Disposition the greater of (x) $50,000,000 and (y) 15.0% of Consolidated EBITDA for the most recent Test Period",
+   "ca_location": "Article VI ss.6.01-6.09 (PDF pp.155-168); s.6.03(b)(xix) (PDF p.164); s.6.02(t) (PDF pp.159-160); s.6.04(s) (PDF p.165); s.6.07(e) (PDF p.167); s.1.01 'Bilateral Letter of Credit' (PDF p.39)",
+   "status": "ts_open_filled_in_ca",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The TS left the asset-sale basket amount 'to be agreed'. The CA sets it at the greater of $50m and 15% of EBITDA per fiscal year, with the one-year carry-forward the TS describes. EBITDA growers have been added across the dollar baskets. The Priority Indebtedness basket stays on a net-worth grower, consistent with the TS's 'subject to certain exceptions'. Drafting point: the unamended 'Bilateral Letter of Credit' definition still caps all Bilateral Letters of Credit at $100,000,000. The new 30% grower on the s.6.01(x) Bilateral LC basket therefore cannot be used above $100m.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    8
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    164
+   ]
+  },
+  {
+   "id": "B09",
+   "attribute": "Representations and warranties",
+   "ts_value": "Substantially as in the Existing CA and to include: organization and powers; subsidiaries; authorization; enforceability; governmental approvals; no conflicts; financial condition; no material adverse change; properties; litigation; investment company status; taxes; ERISA; disclosure; Federal Reserve regulations; no default; anti-corruption laws and sanctions; compliance with the Swiss Twenty Non-Bank Rule; fiscal unity for Dutch tax purposes; security interest in collateral; and Outbound Investment Rule.",
+   "ts_quote": "no default; anti-corruption laws and sanctions; compliance with the Swiss Twenty Non-Bank Rule; fiscal unity for Dutch tax purposes; security interest in collateral; and Outbound Investment Rule.",
+   "ts_location": "PDF p.7 - Representations and Warranties",
+   "ca_value": "Article III, ss.3.01-3.16: Organization, Powers and Subsidiaries; Authorization and Enforceability; Governmental Approvals and No Conflicts; Financial Condition and No MAC; Properties; Litigation; Investment Company Status; Taxes; ERISA; Disclosure; Federal Reserve Regulations; No Default; Anti-Corruption Laws, Sanctions and Outbound Investment Rules; Swiss Twenty Non-Bank Rule; Dutch fiscal unity; Security Interests in Collateral. The no-MAC representation (3.04(b)) is given 'As of the Amendment No. 1 Effective Date', measured from March 28, 2026 (per the blackline). Amendment No. 1 s.4 adds representations on authority, enforceability, bring-down, no Event of Default and no conflicts.",
+   "ca_quote": "SECTION 3.13. Anti-Corruption Laws and Sanctions; Outbound Investment Rules.",
+   "ca_location": "Article III ss.3.01-3.16 (PDF pp.140-143); Amendment No. 1 s.4 (PDF pp.4-5)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "Every representation listed in the TS has a matching section in Article III. How the MAC representation applies to later borrowings is covered in B11.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    7
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    142
+   ]
+  },
+  {
+   "id": "B10",
+   "attribute": "Conditions precedent to closing / effectiveness",
+   "ts_value": "The facility is available once 'customary conditions precedent' are satisfied. The Closing Date is the date they are satisfied. No specific list is given.",
+   "ts_quote": "The availability of the Revolving Credit Facility shall be conditioned upon satisfaction of customary conditions precedent",
+   "ts_location": "PDF p.5 - IV. Certain Conditions, Initial Conditions",
+   "ca_value": "Effectiveness conditions in Amendment No. 1 s.3(a). The Amendment No. 1 Effective Date is defined as June 24, 2026.\n(i) Counterparts signed by the Loan Parties, Administrative Agent, each Amendment No. 1 Revolving Lender, the Swingline Lender and each Issuing Bank.\n(ii) Beneficial ownership certification and KYC/PATRIOT Act information, if requested 10 Business Days in advance.\n(iii) Fees and expenses paid, including Simpson Thacher fees if invoiced 3 Business Days in advance.\n(iv) Accrued fees and interest on the existing revolving facility paid.\n(v) Legal opinions from Paul Weiss, Conyers (BVI), Baker McKenzie (England, Switzerland, Netherlands), Stewart McKelvey (Nova Scotia) and Paul Weiss (Hong Kong).\n(vi) Officer's certificate on the representations and on no Default or Event of Default.\n(vii) Corporate documents, a Borrowing Request and a CFO solvency certificate.",
+   "ca_quote": "The effectiveness of this Agreement is subject to the satisfaction or waiver of each of the following conditions",
+   "ca_location": "Amendment No. 1 s.3(a)(i)-(vii) (PDF pp.3-4); s.1.01 'Amendment No. 1 Effective Date' (PDF p.34)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The TS only requires customary conditions precedent. The CA's list is a customary refinancing-amendment set (signatures, KYC, fees, opinions, officer's and solvency certificates), with nothing unusual.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    5
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    3
+   ]
+  },
+  {
+   "id": "B11",
+   "attribute": "Conditions to each borrowing",
+   "ts_value": "Each extension of credit requires (a) all representations to be accurate in all material respects (in all respects where qualified by materiality), expressly including the material adverse change and litigation representations, with specific-date representations tested at that date; and (b) no default or event of default before or after the extension of credit.",
+   "ts_quote": "(including, without limitation, the material adverse change and litigation representations)",
+   "ts_location": "PDF p.5 - IV. Certain Conditions, On-Going Conditions",
+   "ca_value": "Section 4.02 requires (a) the Borrowers' representations to be true in all material respects (in all respects if qualified), with specific-date representations tested at that date; and (b) no Default or Event of Default at the time of and immediately after the borrowing or LC issuance. For any Revolving Borrowing or LC issuance, amendment, renewal or extension, the no-MAC representation in Section 3.04(b) is excluded. The litigation representation is not excluded. Revolving loans funding a Limited Condition Acquisition increase may have limited conditions.",
+   "ca_quote": "The representations and warranties of the Borrowers set forth in this Agreement (except, in the case of any Revolving Borrowing or issuance, amendment, renewal or extension of any Letter of Credit, the representation set forth in Section 3.04(b))",
+   "ca_location": "s.4.02 (PDF p.146); s.3.04(b) (PDF p.141)",
+   "status": "differs",
+   "materiality": "material",
+   "direction": "borrower_favourable",
+   "explanation": "The TS expressly requires the material adverse change representation to be repeated at each extension of credit. The CA leaves the no-MAC representation (3.04(b)) out of the conditions for every revolving borrowing and LC event, so lenders lose a MAC-based condition to funding after closing. The s.4.02 carve-out has no blackline, so it was carried over from the Existing Credit Agreement rather than changed to match the TS. In addition, 3.04(b) is now made only 'As of the Amendment No. 1 Effective Date'.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    5
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    146
+   ]
+  },
+  {
+   "id": "B12",
+   "attribute": "Events of default and thresholds (cross-default, judgment, grace periods)",
+   "ts_value": "Substantially as in the Existing CA and to include:\n- non-payment of principal when due;\n- non-payment of interest, fees or other amounts after a 5 business day grace period;\n- material misrepresentation;\n- covenant breach (with grace periods for certain affirmative covenants);\n- documents ceasing to be in effect;\n- cross-default;\n- bankruptcy;\n- material judgments;\n- ERISA events;\n- change of control;\n- material provisions becoming invalid;\n- foreign-law events.\nNo dollar thresholds are stated.",
+   "ts_quote": "nonpayment of interest, fees or other amounts after a grace period of five business days",
+   "ts_location": "PDF p.8 - Events of Default",
+   "ca_value": "Article VII:\n(a) principal or LC reimbursement when due;\n(b) interest, fees or other amounts, with a 5 Business Day grace period;\n(c) misrepresentation in any material respect;\n(d) immediate default for breach of 5.02(a), 5.03 (existence), 5.08, 5.09 or Article VI;\n(e) other covenants, 30 days after notice;\n(f)-(g) payment default on, or acceleration of, Material Indebtedness above $50m;\n(h)-(j) insolvency, with involuntary cases undismissed for 60 days;\n(k) judgments above $50m (not paid or insured) undischarged for 60 consecutive days, or attachment;\n(l) ERISA events causing a MAE;\n(m) Change in Control;\n(n) Loan Document invalidity;\n(o)-(q) BVI, Swiss and UK insolvency events;\n(r) loss of perfection over a material portion of the Collateral.",
+   "ca_quote": "and such failure shall continue unremedied for a period of five (5) Business Days",
+   "ca_location": "Article VII (a)-(r) (PDF pp.168-170); s.1.01 'Material Indebtedness' (PDF p.66)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "Every TS event of default is in the CA, and the 5 Business Day interest grace period matches. The $50m cross-default and judgment thresholds and the 30-day covenant cure period are not stated in the TS, which defers to the Existing CA.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    8
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    168
+   ]
+  },
+  {
+   "id": "B13",
+   "attribute": "Change of control",
+   "ts_value": "Change of control is an event of default, as defined in the Existing Credit Agreement. The TS gives no definition of its own.",
+   "ts_quote": "a change of control (as defined in the Existing Credit Agreement)",
+   "ts_location": "PDF p.8 - Events of Default",
+   "ca_value": "Change in Control means any of:\n(a) a person or group acquiring more than 35% of the voting power of Capri Holdings;\n(b) a majority of Capri Holdings' board made up of non-continuing directors;\n(c) Capri Holdings ceasing to own and Control 100% of any other Borrower (excluding directors' qualifying shares and nominal shares for foreign nationals).\nIt is an Event of Default under Article VII(m).",
+   "ca_quote": "more than 35% of the aggregate ordinary voting power represented by the issued and outstanding Equity Interests of Capri Holdings",
+   "ca_location": "s.1.01 'Change in Control' (PDF pp.42-43); Article VII(m) (PDF p.170)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The CA keeps a Change in Control event of default with no blackline changes visible in the definition, consistent with the TS's reference to the Existing CA definition. The Existing CA was not provided, so the definition could not be compared with it.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    8
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    43
+   ]
+  },
+  {
+   "id": "B14",
+   "attribute": "Required lenders, voting and sacred rights",
+   "ts_value": "Required Lenders: more than 50% of revolving exposures, term loans and unused commitments.\n\nConsent of each directly affected Lender needed for: increasing a commitment; reducing principal, interest or fees; postponing payments or commitment expiry; changing pro rata sharing; and subordinating liens or payment, unless each adversely affected Lender is offered the chance to provide the senior debt (excluding subordination already permitted, DIP financing and other customary exceptions).\n\n100% consent needed for: changing voting percentages; releasing Capri, MK, or all or substantially all other Guarantors; releasing all or substantially all Collateral.",
+   "ts_quote": "Amendments and waivers with respect to the Credit Documentation shall require the approval of Lenders holding greater than 50% of revolving credit exposures",
+   "ts_location": "PDF pp.8-9 - Voting",
+   "ca_value": "Required Lenders: more than 50% of Revolving Credit Exposures, Term Loans and unused Commitments, excluding Defaulting Lenders.\n\nSection 9.02(b) requires the consent of each affected Lender for commitment increases, reductions in principal, interest or fees, and postponements. Each Lender must consent to changes to pro rata sharing, voting percentages, and releases of Capri Holdings, the Company, or all or substantially all Guarantors. Carve-outs: changes to the Public Debt Rating definition, and default-interest waivers by Majority Facility Lenders.\n\nSection 9.20 (Special Amendment Provisions): releasing all or substantially all Collateral needs each affected Lender, except as provided in s.9.14 or the Collateral Documents. Subordination of liens or payment is allowed only if each adversely affected Lender is offered a pro rata share on the same terms (offer open at least 10 Business Days). Subordination already permitted and DIP financing are excluded.\n\nSection 9.02(d) allows replacement of Non-Consenting Lenders.",
+   "ca_quote": "release all or substantially all of the Collateral without the written consent of each affected Lender",
+   "ca_location": "s.1.01 'Required Lenders' (PDF p.78); s.9.02(b) (PDF p.181); s.9.20 Special Amendment Provisions (PDF pp.199-200)",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The Required Lenders threshold and the sacred rights match in substance. Small drafting differences: release of all or substantially all Collateral needs 'each affected Lender' rather than '100% of Lenders' (in practice the same here, with the s.9.14 collateral fall-away excepted); the Public Debt Rating and default-interest carve-outs are added; and the anti-subordination offer must stay open for 10 Business Days.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    8
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    199
+   ]
+  },
+  {
+   "id": "B15",
+   "attribute": "Assignments and participations",
+   "ts_value": "Assignments to eligible assignees need consent (not to be unreasonably withheld) of:\n- MK, which is deemed to consent after 10 business days, and whose consent is not needed for assignments to Lenders, affiliates or approved funds, or during a payment or bankruptcy event of default;\n- the Administrative Agent;\n- each Issuing Bank and the Swingline Lender.\n\nMinimum assignment: $5,000,000 unless MK and the Administrative Agent agree otherwise. Participations are as in the Existing CA, with no greater yield-protection payments and votes limited to matters needing each affected Lender. Pledges are permitted without release of the Lender.",
+   "ts_quote": "the minimum assignment amount shall be $5,000,000, unless otherwise agreed by MK and the Administrative Agent.",
+   "ts_location": "PDF p.9 - Assignments and Participations",
+   "ca_value": "Section 9.04(b): assignment (not to an Ineligible Institution) needs consent, not unreasonably withheld or delayed, of the Company (deemed after 10 Business Days; not needed for a Lender, Affiliate or Approved Fund, or during an Event of Default under VII(a), (b), (h) or (i)), the Administrative Agent, each Issuing Bank and the Swingline Lender.\n\nMinimums: $5,000,000 for the Revolving Facility unless the Company and the Administrative Agent consent, and the Company's consent is not needed during any Event of Default. Other terms: $3,500 recordation fee; Dutch Non-Public Lender requirement; Swiss Borrower consent for assignees that are not Swiss Qualifying Banks.\n\nSection 9.04(c): participants vote only on matters in the first proviso of 9.02(b), get no greater payment except for a Change in Law after the participation, and must meet the Swiss Qualifying Bank / Swiss Borrower consent requirement. Section 9.04(d) permits pledges.",
+   "ca_quote": "shall not be less than (a) $5,000,000 with respect to the Revolving Facility and (b) $1,000,000 with respect to the Term Loan Facilities, unless each of the Company and the Administrative Agent otherwise consent",
+   "ca_location": "s.9.04(b)-(d) (PDF pp.185-189)",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The consent parties, the deemed-consent period, the payment/bankruptcy event of default carve-out and the $5m minimum all match. Small additions: the minimum can be waived without the Company during any Event of Default; participants can recover greater amounts arising from a later Change in Law; and Swiss and Dutch lender-eligibility limits apply. These favour different sides and are typical carry-overs from the existing agreement.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    9
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    186
+   ]
+  },
+  {
+   "id": "B16",
+   "attribute": "Defaulting lender, yield protection, taxes, lender replacement",
+   "ts_value": "Defaulting Lender provisions are to be consistent with the Existing CA. Lenders can be replaced (a) as non-consenting Lenders where Required Lenders have approved an all-lender or affected-lender matter, and (b) in other customary circumstances, substantially as in the Existing CA. Participants get customary yield protection with no greater payment. Taxes are not separately stated.",
+   "ts_quote": "replacing non-consenting Lenders in connection with amendments and waivers requiring the consent of all Lenders or of all Lenders directly affected thereby so long as the Required Lenders shall have consented thereto",
+   "ts_location": "PDF p.9 - Replacement of Lenders; PDF p.10 - Defaulting Lenders",
+   "ca_value": "s.2.23 Defaulting Lenders: commitment fees stop accruing, the lender is disenfranchised from voting, and LC and swingline exposure is reallocated. s.2.15 Increased Costs. The 'Change in Law' definition in s.1.01 deems Dodd-Frank and Basel III to be a Change in Law. s.2.16 break funding. s.2.17 Taxes, including gross-up. s.2.19(b): the Company may replace a Lender that requests compensation under 2.13(g) or 2.15, is owed Indemnified Taxes or additional amounts under 2.17, or becomes a Defaulting Lender. s.9.02(d): replacement of Non-Consenting Lenders once Required Lenders consent.",
+   "ca_quote": "(iii) any Lender becomes a Defaulting Lender, then the Company may, at its sole expense and effort, upon notice to such Lender and the Administrative Agent, require such Lender to assign and delegate",
+   "ca_location": "s.1.01 'Change in Law' (PDF p.43); s.2.15 (PDF p.120); s.2.17 (PDF p.122); s.2.19 (PDF pp.129-130); s.2.23 (PDF pp.132-133); s.9.02(d) (PDF p.182)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The CA has customary defaulting-lender, yield-protection, tax and replacement provisions. These include replacement of non-consenting lenders conditioned on Required Lender consent, as the TS requires. Correction: the Dodd-Frank/Basel III deeming is in the 'Change in Law' definition, not in s.2.15.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    9
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    129
+   ]
+  },
+  {
+   "id": "B17",
+   "attribute": "Governing law and jurisdiction",
+   "ts_value": "Governing law: State of New York. Forum: the US District Court for the Southern District of New York in Manhattan, or if it lacks subject matter jurisdiction, the New York Supreme Court in Manhattan, plus appellate courts.",
+   "ts_quote": "United States District Court for the Southern District of New York sitting in the Borough of Manhattan (or if such court lacks subject matter jurisdiction, the Supreme Court of the State of New York sitting in the Borough of Manhattan)",
+   "ts_location": "PDF p.10 - Governing Law; Forum",
+   "ca_value": "Section 9.09(a): the CA and the Loan Documents are governed by New York law. Section 9.09(c): exclusive jurisdiction of SDNY (Manhattan), or the New York Supreme Court in Manhattan if SDNY lacks subject matter jurisdiction, and appellate courts. Foreign Kors Persons appoint the Company as process agent. Section 9.10 waives jury trial. Amendment No. 1 s.10 is governed by New York law and incorporates ss.9.09 and 9.10.",
+   "ca_quote": "This Agreement and the other Loan Documents shall be construed in accordance with and governed by the law of the State of New York.",
+   "ca_location": "s.9.09(a), (c), (d) (PDF pp.191-192); s.9.10 (PDF p.193); Amendment No. 1 s.10 (PDF p.7)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The governing law and the forum match exactly.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    10
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    191
+   ]
+  },
+  {
+   "id": "X01",
+   "attribute": "Refinancing facilities (replacement revolving facilities)",
+   "ts_value": "Consistent with the Existing Credit Agreement, Capri may refinance the Revolving Credit Facility from time to time, in whole or in part, with one or more new revolving credit facilities ('Refinancing Revolving Facility'). This needs the consent of Capri, the Administrative Agent and the institutions providing the facility, subject to the customary exceptions and limitations in the Existing CA.",
+   "ts_quote": "Documentation will permit Capri to refinance the Revolving Credit Facility from time to time, in whole or part, with one or more new",
+   "ts_location": "PDF pp.4-5 (Refinancing Facilities)",
+   "ca_value": "Section 2.27, unchanged except for term-loan references elsewhere: the Company (MK) may, by at least 5 Business Days' written notice to the Agent, set up Replacement Revolving Facilities that replace the Revolving Commitments. Conditions: no Default (clause (i) refers to the 'applicable Extension Date', a drafting carry-over); representations true; maturity no earlier than the replaced facility, with no commitment reductions or amortization; amount no more than the replaced commitments plus fees and expenses; pari passu, with the same Guarantors and secured only by the Collateral; and treated no more favourably than the replaced facility, though it may be priced differently. Providers are existing Lenders or institutions approved by the Agent (and, for a revolver, each Issuing Bank and the Swingline Lender), and each may decline. The facility is documented by a Refinancing Amendment executed by the Borrowers and the providing Lenders. Amendment No. 1 is itself such a Refinancing Amendment.",
+   "ca_quote": "the Company may by written notice to the Administrative Agent establish (i) one or more additional revolving facilities under this Agreement (such loans, \"Replacement Revolving Facilities\"), providing for revolving commitments (\"Replacement Revolving Credit Commitments\"), which replace the Revolving Commitments under this Agreement",
+   "ca_location": "Exhibit A Section 2.27(a)-(c), PDF pp.138-140; Amendment recitals and Section 6(c), PDF pp.1, 6",
+   "status": "match_minor_drafting",
+   "materiality": "minor",
+   "direction": "neutral",
+   "explanation": "The CA keeps the Existing CA refinancing mechanism, which the TS adopts by reference. The TS names Capri as the refinancing party where the CA names the Company (MK); this does not matter because all Borrowers execute the Refinancing Amendment. The Agent's consent in the CA works through its approval of new providers rather than a general consent, and the no-Default condition wrongly cross-refers to an 'Extension Date', which is a drafting point only.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    4
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    138
+   ]
+  },
+  {
+   "id": "X01",
+   "attribute": "Documentation principles (amendment to the Existing Credit Agreement; same terms unless stated)",
+   "ts_value": "The RCF will have the same terms as the Existing Credit Agreement (A&R CA dated February 4, 2025) unless the TS says otherwise. It will be documented by an amendment to that agreement reflecting the TS and any other agreed modifications.",
+   "ts_quote": "Unless otherwise set forth herein, the Revolving Credit Facility (as defined below) will have the same terms and conditions as set forth in the Existing Credit Agreement.",
+   "ts_location": "PDF p.1 - preamble; PDF p.6 - Revolving Credit Facility Documentation",
+   "ca_value": "Amendment No. 1 (June 24, 2026) amends the A&R CA dated February 4, 2025 through blackline pages (Exhibit A) and constitutes a Refinancing Amendment under s.2.27. The 2026 Revolving Commitments replace the Existing Revolving Commitments, existing loans and LC/swingline participations are reallocated, and the amendment states it is not a novation.",
+   "ca_quote": "WHEREAS, for purposes of Section 2.27 of the Credit Agreement, this Agreement shall constitute a Refinancing Amendment;",
+   "ca_location": "Amendment No. 1 recitals (PDF p.1); ss.2(a)-(b) (PDF pp.2-3); s.6 (PDF pp.5-6)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The facility is documented as an amendment to the February 4, 2025 Existing Credit Agreement, as the TS contemplated.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "X02",
+   "attribute": "Lenders / syndicate",
+   "ts_value": "A syndicate of banks, financial institutions and other entities selected by the Lead Arrangers and reasonably acceptable to MK. No lenders are named.",
+   "ts_quote": "A syndicate of banks, financial institutions and other entities selected by the Lead Arrangers and reasonably acceptable to MK",
+   "ts_location": "PDF p.2 - Lenders",
+   "ca_value": "The Amendment No. 1 Revolving Lenders are listed on Annex I. Signature pages show Barclays, MUFG, Standard Chartered, Truist, ING Bank N.V. Dublin Branch, Citibank, Santander, U.S. Bank, Wells Fargo, Bank of China New York Branch, Huntington National Bank, City National Bank and Goldman Sachs Bank USA as Amendment No. 1 Revolving Lenders. JPMCB signed as Administrative Agent, Swingline Lender and Issuing Bank.",
+   "ca_quote": "agrees to provide 2026 Revolving Commitments in the amount set forth opposite such Person's name on Annex I",
+   "ca_location": "Amendment No. 1 recitals (PDF p.1); s.2(b) (PDF p.2); signature pages (PDF pp.11-24)",
+   "status": "ts_open_filled_in_ca",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The TS describes the syndicate only in general terms, and the CA names the lenders. Annex I (commitments by lender) is not in the extracted text, so each lender's allocation could not be checked; facility size belongs to Group A.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "X03",
+   "attribute": "Permitted Equivalent Indebtedness (incremental-equivalent debt terms)",
+   "ts_value": "MK or other Loan Parties may use Incremental Facility capacity to issue unsecured debt, or debt secured on the Collateral on a pari passu or junior basis under an intercreditor agreement. If secured, it may be secured only by the Collateral. Unsecured debt is tested at Net Leverage Ratio of 4.00x or less instead of the Secured Net Leverage Ratio. Its covenants may be no more onerous than market terms. The shared cap is a Group A accordion item.",
+   "ts_quote": "in lieu of a Secured Net Leverage Ratio condition, unsecured indebtedness may be incurred subject to the Net Leverage Ratio (as defined below) being less than or equal to 4.00 to 1.00",
+   "ts_location": "PDF p.4 - Expansion Feature (Permitted Equivalent Indebtedness)",
+   "ca_value": "Permitted Equivalent Indebtedness is secured or unsecured debt of Capri Holdings or a Loan Party, subject to:\n(i) no Default or Event of Default before or after incurrence;\n(ii) no guarantee by a subsidiary that is not a Loan Party;\n(iii) if secured, only on the Collateral, pari passu or junior, under an intercreditor agreement in the form of Exhibit K-1 or K-2;\n(iv) covenants no more restrictive than market terms, as determined in good faith by Capri Holdings;\n(v) no maturity or scheduled amortization before 91 days after the latest Maturity Date.\nThe Ratio Incremental Amount allows unsecured debt at Net Leverage Ratio of 4.00x or less and secured debt at Secured Net Leverage Ratio of 3.00x or less. The Secured Net Leverage Ratio is amended to use Consolidated EBITDA instead of Consolidated EBITDAR as its denominator. Permitted under s.6.01(u), with liens under s.6.02(s).",
+   "ca_quote": "(i) prior to and after giving effect to such incurrence, no Default or Event of Default shall have occurred and be continuing, (ii) such Permitted Equivalent Indebtedness is not guaranteed by any Subsidiary of Capri Holdings that is not a Loan Party",
+   "ca_location": "s.1.01 'Permitted Equivalent Indebtedness' (PDF p.71), 'Ratio Incremental Amount' (PDF p.75), 'Secured Net Leverage Ratio' (PDF p.81); s.6.01(u) (PDF p.157); s.6.02(s) (PDF p.159)",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "lender_favourable",
+   "explanation": "The TS's three limbs (Collateral-only security, the 4.00x unsecured test and market-based covenants) are all reflected in the CA. The CA adds protective conditions the TS does not mention: no Default, no guarantees from non-Loan Parties, and maturity at least 91 days after the latest Maturity Date. Also, the TS says the Secured Net Leverage Ratio is to be defined as in the Existing CA. The blackline (PDF p.81) instead changes its denominator from Consolidated EBITDAR to Consolidated EBITDA, which tightens the 3.00x secured-debt test. This also affects the Group A accordion.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    4
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    71
+   ]
+  },
+  {
+   "id": "X04",
+   "attribute": "Refinancing Facilities",
+   "ts_value": "Consistent with the Existing CA, Capri may refinance the RCF in whole or in part from time to time with Refinancing Revolving Facilities. This needs the consent of Capri, the Administrative Agent and the new providers, subject to the customary exceptions and limitations in the Existing CA.",
+   "ts_quote": "Consistent with the Existing Credit Agreement, the Credit Documentation will permit Capri to refinance the Revolving Credit Facility from time to time, in whole or part",
+   "ts_location": "PDF pp.4-5 - Refinancing Facilities",
+   "ca_value": "Section 2.27: the Company may, by written notice of at least 5 Business Days, establish Replacement Revolving Facilities or Replacement Term Facilities. Conditions:\n- no Default or Event of Default;\n- representations true;\n- maturity no earlier than the replaced facility and no amortization;\n- amount capped at the replaced amount plus fees and costs;\n- pari passu, with the same Guarantors, secured only by the Collateral;\n- terms no more favourable than the replaced facility.\nUnder s.9.02(c)(iii), the Company and the Administrative Agent may amend the agreement to implement it. Amendment No. 1 was itself done under s.2.27.",
+   "ca_quote": "the Company may by written notice to the Administrative Agent establish (i) one or more additional revolving facilities under this Agreement",
+   "ca_location": "s.2.27 (PDF pp.138-139); s.9.02(c)(iii) (PDF p.182)",
+   "status": "match_minor_drafting",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The refinancing mechanism matches the TS. The TS names Capri as the party that refinances, while the CA uses the Company (MK); the conditions are the customary limits the TS refers to.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    4
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    138
+   ]
+  },
+  {
+   "id": "X05",
+   "attribute": "Affirmative covenants",
+   "ts_value": "Substantially as in the Existing CA and to include: financial statements and other information; notices of material events; existence; conduct of business; payment of obligations; maintenance of properties and insurance; books and records; inspection rights; compliance with laws and material contractual obligations; use of proceeds and letters of credit; guarantors; collateral; centre of main interests and establishment; Swiss Twenty Non-Bank Rule; beneficial ownership regulation; and Dutch fiscal unity.",
+   "ts_quote": "financial statements and other information; notices of material events; existence; conduct of business; payment of obligations",
+   "ts_location": "PDF p.7 - Affirmative Covenants",
+   "ca_value": "Article V, ss.5.01-5.13: Financial Statements and Other Information; Notices of Material Events; Existence and Conduct of Business; Payment of Obligations; Maintenance of Properties and Insurance; Books and Records and Inspection Rights; Compliance with Laws and Material Contractual Obligations; Use of Proceeds and Letters of Credit; Guarantors and Collateral; Centre of Main Interests and Establishment; Swiss Twenty Non-Bank Rule; Beneficial Ownership Regulation; Dutch Fiscal Unity.",
+   "ca_quote": "SECTION 5.11. Compliance with the Swiss Twenty Non-Bank Rule.",
+   "ca_location": "Article V ss.5.01-5.13 (PDF pp.147-155)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "Every affirmative covenant listed in the TS has a matching section in Article V.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    7
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    154
+   ]
+  },
+  {
+   "id": "X06",
+   "attribute": "EU/UK bail-in and FinCEN (beneficial ownership)",
+   "ts_value": "Bail-in and FinCEN provisions: usual and customary, substantially as in the Existing CA.",
+   "ts_quote": "Usual and customary and to be substantially the same as the Existing",
+   "ts_location": "PDF p.10 - Bail-In and FinCEN",
+   "ca_value": "s.9.18: acknowledgement and consent to Bail-In of Affected Financial Institutions (EEA and UK). Beneficial Ownership Regulation (31 C.F.R. 1010.230) provisions: s.5.12 covenant, s.9.13 PATRIOT Act / anti-money laundering, and Amendment No. 1 s.3(a)(ii) closing deliverable.",
+   "ca_quote": "SECTION 9.18. Acknowledgement and Consent to Bail-In of Affected Financial Institutions.",
+   "ca_location": "s.9.18 (PDF p.198); s.5.12 (PDF p.154); s.9.13 (PDF p.194); Amendment No. 1 s.3(a)(ii) (PDF p.3)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The CA has customary bail-in, beneficial ownership and KYC provisions, as the TS requires.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    10
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    198
+   ]
+  },
+  {
+   "id": "X07",
+   "attribute": "Expenses and indemnification",
+   "ts_value": "Usual and customary for facilities of this type, substantially as in the Existing CA.",
+   "ts_quote": "Usual and customary for facilities and transactions of this type and to be substantially the same as the Existing Credit Agreement.",
+   "ts_location": "PDF p.10 - Expenses and Indemnification",
+   "ca_value": "Section 9.03 covers expenses, indemnity, limitation of liability and damage waiver. Expenses are limited to reasonable, documented out-of-pocket costs, with one primary counsel plus local counsel and conflict counsel. Amendment No. 1 s.8: the Company pays the Administrative Agent's reasonable, documented costs of the amendment, including one counsel firm plus local counsel, under s.9.03.",
+   "ca_quote": "SECTION 9.03. Expenses; Indemnity; Limitation of Liability; Damage Waiver. (a) The Loan Parties shall pay (i) all reasonable and documented out-of-pocket expenses incurred by the",
+   "ca_location": "s.9.03 (PDF pp.182-183); Amendment No. 1 s.8 (PDF p.6)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The CA's expenses and indemnity provisions are customary, as the TS requires.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    10
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    182
+   ]
+  },
+  {
+   "id": "X08",
+   "attribute": "QFC stay regulations",
+   "ts_value": "Customary Qualified Financial Contract provisions consistent with the Existing CA.",
+   "ts_quote": "The Credit Documentation shall contain customary provisions related to Qualified Financial Contracts consistent with those set",
+   "ts_location": "PDF p.10 - QFC Stay Regulations",
+   "ca_value": "Section 9.19 acknowledges the U.S. Special Resolution Regimes (FDIA and Dodd-Frank Title II) for Supported QFCs and QFC Credit Support.",
+   "ca_quote": "SECTION 9.19. Acknowledgement Regarding Any Supported QFCs.",
+   "ca_location": "s.9.19 (PDF p.198)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The CA includes the customary QFC stay acknowledgement.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    10
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    198
+   ]
+  },
+  {
+   "id": "X09",
+   "attribute": "Erroneous payments",
+   "ts_value": "Customary erroneous-payment provisions consistent with the Existing CA.",
+   "ts_quote": "The Credit Documentation shall contain customary provisions regarding erroneous payments consistent with those set forth in the Existing Credit Agreement.",
+   "ts_location": "PDF p.10 - Erroneous Payments",
+   "ca_value": "Article VIII: Lenders and Issuing Banks must return erroneous Payments within one Business Day of demand, with interest, and waive discharge-for-value defences. The Administrative Agent is subrogated, and an erroneous Payment does not discharge Obligations except to the extent it came from Borrower funds. These obligations survive.",
+   "ca_quote": "Each Lender and Issuing Bank hereby agrees that (x) if the Administrative Agent notifies such Lender or Issuing Bank that the Administrative Agent has determined in its sole discretion that any funds received by such Lender or",
+   "ca_location": "Article VIII, erroneous payment paragraphs (PDF pp.177-178)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The CA includes the customary erroneous-payment provisions, including the borrower-funds carve-out from subrogation.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    10
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    177
+   ]
+  },
+  {
+   "id": "X10",
+   "attribute": "Counsel to the Lead Arrangers and the Administrative Agent",
+   "ts_value": "Simpson Thacher & Bartlett LLP.",
+   "ts_quote": "Simpson Thacher & Bartlett LLP.",
+   "ts_location": "PDF p.10 - Counsel to the Lead Arrangers and the Administrative Agent",
+   "ca_value": "Simpson Thacher & Bartlett LLP acted as counsel to the Administrative Agent. Payment of its fees, if invoiced at least 3 Business Days in advance, is a condition to effectiveness.",
+   "ca_quote": "Simpson Thacher & Bartlett LLP, as counsel to the Administrative Agent",
+   "ca_location": "Amendment No. 1 s.3(a)(iii) (PDF p.3)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The same counsel is named.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    10
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    3
+   ]
+  },
+  {
+   "id": "X11",
+   "attribute": "IP Jurisdictions / IP Subsidiary (scope of foreign IP collateral)",
+   "ts_value": "'IP Jurisdictions' means Italy, Switzerland, the United States and the United Kingdom. 'IP Subsidiary' means any Loan Party incorporated in an IP Jurisdiction that owns registered intellectual property. The Collateral includes the intellectual property of the IP Subsidiaries registered in the IP Jurisdictions.",
+   "ts_quote": "\"IP Jurisdictions\" means Italy, Switzerland, the United States and the United Kingdom.",
+   "ts_location": "PDF p.6 - Collateral ('IP Jurisdictions', 'IP Subsidiary')",
+   "ca_value": "As amended, 'IP Subsidiary' means any Loan Party incorporated in the US, Switzerland or the UK that owns registered Intellectual Property. 'Italy, ' is struck in the blackline, though the text extraction still shows it. In s.5.09(c), the IP Collateral Documents cover IP registered in the EU, Switzerland, the US and the UK, with 'Italy,' struck. Italy is also struck from the Effective Date list of Eligible Jurisdictions. Amendment No. 1 also deletes the Italian-law definitions, the Italian insolvency wording in Article VII(j) and former s.9.20 (Italian Transparency Rules), and renumbers Special Amendment Provisions as s.9.20. No Italian entity signed Amendment No. 1.",
+   "ca_quote": "\"IP Subsidiary\" means any Loan Party incorporated in the United States, Italy, Switzerland or the United Kingdom that owns registered Intellectual Property.",
+   "ca_location": "s.1.01 'IP Subsidiary' (PDF p.63), 'Eligible Jurisdiction' (PDF p.51); s.5.09(c) (PDF p.152); Article VII(j) (PDF p.170); former s.9.20 (PDF p.199); Amendment No. 1 signature pages (PDF pp.8-10)",
+   "status": "differs",
+   "materiality": "minor",
+   "direction": "borrower_favourable",
+   "explanation": "The TS lists Italy as an IP Jurisdiction, but Amendment No. 1 deletes Italy from the IP Subsidiary definition and from the IP filing list. The strike-through lines in the PDF content stream confirm this. As a result, the IP of any Italian Loan Party is no longer Collateral. The practical effect looks limited. Italy is also removed from the Eligible Jurisdictions, all Italian-law provisions are deleted, and no Italian entity signed Amendment No. 1, which suggests no Italian Loan Party remains. EU-registered IP of the US, Swiss and UK IP Subsidiaries stays covered. The CA quote shows the pre-amendment wording because the extraction does not mark the strike-through.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    6
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    63
+   ]
+  },
+  {
+   "id": "X12",
+   "attribute": "Agreed Currencies",
+   "ts_value": "Revolving Credit Loans are available from all Revolving Lenders in US Dollars, Euro, Canadian Dollars, Pounds Sterling, Japanese Yen and Swiss Francs. Any other currency can be added if it is lawful, readily available, freely transferable, not restricted, convertible into US Dollars, and reasonably acceptable to the Administrative Agent and each of the Lenders.",
+   "ts_quote": "Revolving Credit Loans shall be made available by all of the Revolving Lenders in U.S. Dollars, Euro, Canadian Dollars, Pounds Sterling, Japanese Yen, Swiss Francs",
+   "ts_location": "PDF p.3 - Revolving Facility (Agreed Currencies)",
+   "ca_value": "'Agreed Currencies' are Dollars, euro, Pounds Sterling, Japanese Yen, Canadian Dollars and Swiss Francs. Any other lawful currency (other than Dollars) qualifies if it is readily available, freely transferable, not restricted, convertible into Dollars, and reasonably acceptable to the Administrative Agent and each of the Revolving Lenders. The definition has no blackline changes.",
+   "ca_quote": "\"Agreed Currencies\" means (i) Dollars, (ii) euro, (iii) Pounds Sterling, (iv) Japanese Yen, (v) Canadian Dollars, (vi) Swiss Francs",
+   "ca_location": "s.1.01 'Agreed Currencies' (PDF p.33)",
+   "status": "match",
+   "materiality": "none",
+   "direction": "neutral",
+   "explanation": "The six currencies and the test for adding others are the same. The CA's 'each of the Revolving Lenders' matches the TS's 'each of the Lenders', because all Lenders are now Revolving Lenders.",
+   "stage": "verified",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    33
+   ]
+  }
+ ],
+ "document_notes": "TS: 'Summary of Terms and Conditions' (a term sheet) for a $1,000 million Revolving Credit Facility for Michael Kors (USA), Inc., Capri Holdings Limited, Michael Kors (Europe) B.V., Michael Kors (Canada) Holdings Ltd. and Michael Kors (Switzerland) GmbH. It is marked 'Posting Version 6/5/2026' and runs 14 PDF pages, including Annex I (Interest and Certain Fees) and Annex I-A (pricing grid). Many TS terms simply refer back to the Existing Credit Agreement (the A&R Credit Agreement dated February 4, 2025).\n\nCA: Amendment No. 1 dated June 24, 2026 (filed as Exhibit 10.1), a Refinancing Amendment under Section 2.27 that replaces the $1.5bn of existing revolving commitments with $1.0bn of 2026 Revolving Commitments (PDF pp.1-24). It attaches Exhibit A, a blackline of the A&R Credit Agreement 'Conformed through Amendment No. 1' (PDF pp.26-202). The reconciliation is against the agreement as amended.\n\nLimitations:\n(1) Exhibit A is a blackline, and the pdftotext output runs deleted and inserted text together (for example '$1,500,000,0001,000,000,000', 'July 1June 24, 20272031', 'Pricing Level 12' and the grid rows). Struck text was identified from the strike-through lines drawn in the PDF, using the read-only helper the first analyst left in the scratchpad (tools\\pdfmark.py). In this review it was only re-run, printing to stdout; no files were created or changed. Some CA quotes therefore contain struck text, and each affected row explains this.\n(2) Annex I (each lender's 2026 Revolving Commitment), Schedule 2.01(a), Schedule 2.02 (each Issuing Bank's LC commitment) and every schedule other than Schedule 1.01 are missing from the CA PDF. Lender allocations and LC commitments could not be checked.\n(3) Where the TS says 'Same as the Existing Credit Agreement', CA provisions with no blackline changes were treated as matching. The Existing Credit Agreement itself was not provided separately.\n(4) PDF page rendering was not available (pdftoppm is not installed). Neither pdftotext -layout nor -raw extracts the 'less than or equal to' symbols in the TS Annex I-A grid. The TS thresholds were read as upper bounds from the grid structure (Level 4 is '> 3.50:1.00'), and the CA grid's ≤ symbols were confirmed by the PDF strike parse.\n\nKey findings:\n(a) A12: the amendment deletes the Schedule 1.01 paragraph that defined 'Adjustment Date' and 'Pricing Level'. Section 1.01 still cross-refers to it, so the conformed CA does not say when grid pricing takes over from the initial Level 2 pricing. The TS ties the switch to the first compliance certificate. The unstruck 'Public Debt Rating' definition (PDF pp.73-74) also still contains ratings-based Pricing Level rules, although the grid no longer has a ratings column.\n(b) A19: the CA allows 3-month Interest Periods in every currency and uses 365/366-day counts for GBP, JPY and CAD; the TS wording differs on both. Both differences are minor and favour the borrower.\n(c) Minor mechanical differences in A04 (availability ends 'to but excluding' the maturity date), A14 (fronting fee base and timing) and A17 (LC revaluation dates).\n(d) X01 was added for the TS 'Refinancing Facilities' term (CA Section 2.27).\n\nTS: 'Summary of Terms and Conditions' for a $1,000 million revolving credit facility for Michael Kors (USA), Inc., Capri Holdings Limited, Michael Kors (Europe) B.V., Michael Kors (Canada) Holdings Ltd. and Michael Kors (Switzerland) GmbH. It is marked 'Posting Version 6/5/2026', runs to 14 PDF pages and includes Annex I (interest and fees) and Annex I-A (pricing grid). For most terms it says they will be 'substantially the same as' the Existing Credit Agreement, the Amended and Restated Credit Agreement dated February 4, 2025. Its side headings do not line up with the paragraphs in the text extraction, especially on pages 4 and 6-10, so each paragraph was matched to its heading by order on the page.\n\nCA: Amendment No. 1 dated June 24, 2026. It is a Refinancing Amendment under Section 2.27 of the A&R Credit Agreement dated February 4, 2025, with JPMorgan Chase Bank, N.A. as Administrative Agent. Annex I replaces the existing revolving commitments with 2026 Revolving Commitments. The operative terms are in Exhibit A, a blackline 'Conformed through Amendment No. 1' that starts at PDF page 26. Each row was reconciled against the agreement as amended, meaning the Amendment No. 1 body plus Exhibit A.\n\nLimitations and method:\n\n(1) Exhibit A is a blackline. In the text extraction, deleted and inserted words run together, for example '$1,500,000,0001,000,000,000', 'March 3028, 20242026' and 'EBITDAREBITDA'. Deleted words that stand alone, such as 'Italy, ', are not marked at all. The page images could not be rendered because pdftoppm is not installed. Instead, the strike-through lines (about 2.4pt above the baseline) and underlines (about 1.8pt below it) were decoded from the vector drawing operators in the PDF content streams for the key pages: 33, 39, 42-46, 51, 58, 63-68, 73, 81, 83-84, 86-88, 141, 146, 150-154, 157, 160, 164-165, 167-168, 170, 181-182 and 199-200. Underlining also marks defined terms and words like 'provided', so not every underline is an insertion.\n\nThis decoding confirmed that deleted text comes before inserted text. It also found deletions the text does not show:\n- Material Subsidiary and Secured Net Leverage Ratio now use Consolidated EBITDA instead of EBITDAR.\n- Italy is deleted from 'IP Subsidiary', 'Eligible Jurisdiction' and the s.5.09(c) IP filing list, together with all Italian-law definitions and the Italian wording in Article VII(j).\n- Former s.9.20 (Italian Transparency Rules) is deleted, and Special Amendment Provisions is renumbered from 9.21 to 9.20.\n- The Initial USD and Euro Term Loan facilities are deleted throughout, so the Lenders are now only Revolving Lenders unless incremental term loans are added.\n- The collateral fall-away and springback (s.5.09(d)-(g)) and the 'Investment Grade Rating' definition are new insertions.\n\n(2) Annex I (each lender's commitment) and most schedules (1.01(b)-(d), 3.01, 3.06, 6.01, 6.02 and 6.04) are not in the extracted text. Only the pricing grid schedule is.\n\n(3) The Existing Credit Agreement was not provided. Where the TS only says 'same as' or 'consistent with' it, the check confirms that the CA has a matching provision and, using the blackline, whether Amendment No. 1 changed it. It cannot confirm the original Existing CA wording.\n\n(4) The cover page of Exhibit A still lists the 2025 titled agents. The 2026 roles are in the Amendment No. 1 recitals and the amended 'Lead Arrangers' and 'Co-Documentation Agents' definitions.\n\n(5) Page references use the PDF page markers. The printed page numbers in the CA are different.\n\n(6) All ts_quote and ca_quote values were checked mechanically against the text files, with whitespace collapsed. Some CA quotes (B01, B02, B05, X11) contain blackline-merged or struck words exactly as they appear in the extraction; the ca_value fields describe the text as amended.",
+ "corrections": [
+  {
+   "id": "A04",
+   "field": "status / materiality / direction / explanation",
+   "was": "match / none / n/a",
+   "now": "match_minor_drafting / minor / neutral",
+   "evidence": "CA p.79 'Revolving Availability Period' runs 'from and including the Amendment No. 1 Effective Date to but excluding the earlier of the Maturity Date...', while TS p.3 availability is 'ending on the fifth anniversary'. CA p.80 also moves a non-Business-Day maturity to the preceding Business Day. These are small mechanical date differences, so the row is not an exact match. June 24, 2031 is a Tuesday."
+  },
+  {
+   "id": "A11",
+   "field": "explanation",
+   "was": "The TS text file dropped the 'less than or equal to' symbols, but pdftotext -raw of TS p.14 shows them.",
+   "now": "Neither pdftotext -layout nor -raw extracts the TS 'less than or equal to' symbols; the thresholds are read as upper bounds because Level 4 is '> 3.50:1.00'.",
+   "evidence": "`pdftotext -raw -f 14 -l 14` on the TS PDF outputs '1  1.00:1.00 112.5 bps 12.5 bps 10.0 bps' (od -c shows two spaces and no symbol). The CA grid's ≤ symbols were confirmed by the PDF strike parse of CA p.201."
+  },
+  {
+   "id": "A12",
+   "field": "ca_value / ca_location / explanation",
+   "was": "Mentioned only the deleted Adjustment Date / Pricing Level paragraph",
+   "now": "Adds that the unstruck 'Public Debt Rating' definition still contains ratings-based Pricing Level rules although the grid's ratings column is struck, and that even the deleted paragraph used Section 5.01 financial statements, not the compliance certificate, as the trigger",
+   "evidence": "CA PDF pp.73-74: the 'Public Debt Rating' definition clauses (a)-(f) refer to 'the Pricing Level in the Pricing Grid', and the PDF strike parse shows only 'be included' changed there. CA p.202: the deleted paragraph reads 'date (the \"Adjustment Date\") on which financial statements have been delivered pursuant to Section 5.01'."
+  },
+  {
+   "id": "A14",
+   "field": "direction / explanation",
+   "was": "neutral",
+   "now": "borrower_favourable",
+   "evidence": "TS p.13: fronting fee 'on the face amount of each Letter of Credit ... payable quarterly in arrears'. CA 2.12(b) p.114: fee 'on the average daily Dollar Amount of the LC Exposure (excluding any portion thereof attributable to unreimbursed LC Disbursements)', payable 'on the third (3rd) Business Day following such last day'. The CA fee base is the same or smaller and payment comes later."
+  },
+  {
+   "id": "A17",
+   "field": "explanation",
+   "was": "For LC amendments the CA revalues only when the face amount increases",
+   "now": "Also notes that LC renewal and extension requests, which TS clause (c) lists, are not Revaluation Dates in the CA",
+   "evidence": "CA p.79 'Revaluation Date' (b): LC dates are only '(i) the date on which such Letter of Credit is issued, (ii) the first Business Day of each calendar month and (iii) the date of any amendment ... increasing the face amount'. TS p.5 lists 'each request for the issuance, amendment, renewal or extension of any Letter of Credit'."
+  },
+  {
+   "id": "A06",
+   "field": "ca_value / explanation",
+   "was": "Omitted the Permitted Equivalent Indebtedness conditions, the full-draw assumption and the incremental term loan terms",
+   "now": "Adds: PEI requires no Default, no guarantees from non-Loan Parties, and no maturity or amortization before 91 days after the latest Maturity Date; the Ratio Incremental Amount assumes incremental revolving commitments are fully drawn; incremental term loans may not mature before the latest Maturity Date and any financial maintenance covenant they carry extends to the revolver",
+   "evidence": "CA p.71 'Permitted Equivalent Indebtedness' clauses (i), (ii), (v); CA p.75 'Ratio Incremental Amount' ('assuming, in the case of any Incremental Revolving Commitments, a full drawing'); CA p.131 Section 2.20 clauses (c)-(e) and the financial maintenance covenant proviso."
+  },
+  {
+   "id": "A10",
+   "field": "ts_value / ca_value / ca_location",
+   "was": "Swingline interest not reconciled",
+   "now": "Adds the TS statement that swingline loans bear interest 'as described in the Existing Credit Agreement' and CA Section 2.13(a), unchanged (USD swinglines at ABR or the Swingline Overnight Rate + Applicable Rate; foreign swinglines at the Overnight Foreign Currency Rate, Daily Simple ESTR or Daily Simple TONAR)",
+   "evidence": "TS p.11: 'Swing Line Loans shall bear interest as described in the Existing Credit Agreement.' CA p.114 Section 2.13(a); the PDF strike parse shows no changes to 2.13(a)."
+  },
+  {
+   "id": "A07",
+   "field": "ca_value / explanation",
+   "was": "LC Commitment 'set out in a schedule'",
+   "now": "Names Schedule 2.02 and notes that Barclays need not issue Commercial LCs",
+   "evidence": "CA p.64 'Letter of Credit Commitment': 'The initial amount of each Issuing Bank's Letter of Credit Commitment is set forth on Schedule 2.02'. CA p.63 'Issuing Bank': 'neither Barclays Bank PLC nor any of its branches or Affiliates shall be required to issue any Commercial Letter of Credit'."
+  },
+  {
+   "id": "X01",
+   "field": "new row",
+   "was": "TS 'Refinancing Facilities' term (PDF pp.4-5) not reconciled",
+   "now": "Added X01 reconciling it to CA Section 2.27",
+   "evidence": "TS p.4: 'the Credit Documentation will permit Capri to refinance the Revolving Credit Facility ... with one or more new revolving credit facilities'. CA Section 2.27, PDF pp.138-140."
+  },
+  {
+   "id": "document_notes",
+   "field": "limitation (4)",
+   "was": "The TS grid was checked with pdftotext -raw, which shows the 'less than or equal to' symbols missing from the text file.",
+   "now": "pdftotext -raw does not extract the TS ≤ symbols either; the thresholds were inferred from the grid structure.",
+   "evidence": "pdftotext -raw output for TS p.14 shows no symbol (two spaces)."
+  },
+  {
+   "id": "B01",
+   "field": "ca_value",
+   "was": "For the Revolving Facility, \"Borrower\" means the Company (MK), Capri Holdings, MK Switzerland or any Foreign Subsidiary Borrower.",
+   "now": "As amended, \"Borrower\" means the Company, Capri Holdings, MK Switzerland or any Foreign Subsidiary Borrower. '(i) with respect to the Revolving Facility' and the term-loan limb are struck, and 'MK Switzerland' is inserted.",
+   "evidence": "The strike and underline vector lines in the PDF content stream for CA PDF p.39 mark these changes. The text extraction shows the struck words without marking them."
+  },
+  {
+   "id": "B01",
+   "field": "explanation",
+   "was": "These are the same group, because the term loan facilities are now reserved.",
+   "now": "These are the same group because Amendment No. 1 deletes the Initial Term Loan facilities, leaving only Revolving Lenders unless incremental term loans are added later.",
+   "evidence": "The Initial Term Loan limbs are struck in 'Borrower' (PDF p.39), 'Class' (PDF p.43), 'Maturity Date' (PDF p.66) and 'Term Loan Commitment/Facilities/Lenders/Loans' (PDF p.87)."
+  },
+  {
+   "id": "B02",
+   "field": "ca_value",
+   "was": "Eligible Jurisdictions as of the Effective Date: US, BVI, Canada, England and Wales, Hong Kong, Italy, the Netherlands and Switzerland.",
+   "now": "Eligible Jurisdictions as of the Effective Date: US, BVI, Canada, England and Wales, Hong Kong, the Netherlands and Switzerland ('Italy' is struck).",
+   "evidence": "In the CA PDF p.51 content stream, a strike line runs through 'Italy, ' in the 'Eligible Jurisdiction' definition."
+  },
+  {
+   "id": "B02",
+   "field": "direction",
+   "was": "lender_favourable",
+   "now": "neutral",
+   "evidence": "'Consolidated EBITDA' (PDF p.44) is Consolidated EBITDAR without the lease-expense add-back. The Material Subsidiary test is a 5% share-of-earnings test, so whether more or fewer subsidiaries qualify depends on each subsidiary's rent intensity. The earlier claim that it 'pulls in more guarantors' is not supported."
+  },
+  {
+   "id": "B02",
+   "field": "explanation",
+   "was": "Read with deleted text before inserted text ... this could not be checked against the PDF image.",
+   "now": "The PDF content stream confirms the change: a strike line through 'EBITDAR' and an underline under 'EBITDA' in the Material Subsidiary definition.",
+   "evidence": "In the CA PDF p.66 content stream, the stroke at y=29.25 over x=156-197 ('EBITDAR') is a strike line and the stroke at y=25.10 over x=197-232 ('EBITDA') is an underline, against a text baseline of 26.88."
+  },
+  {
+   "id": "B06",
+   "field": "ca_value",
+   "was": "Grantors are the Company, Capri Holdings, each Domestic Subsidiary Guarantor and each IP Subsidiary (US, Italy, Switzerland, UK) ... filings for IP registered in the EU, Italy, Switzerland, the US and the UK.",
+   "now": "IP Subsidiary covers only the US, Switzerland and the UK, and IP filings cover only the EU, Switzerland, the US and the UK ('Italy' is struck in both). Investment Grade Rating is a newly inserted definition, and s.5.09(f) is added.",
+   "evidence": "Strike lines run through 'Italy, ' in 'IP Subsidiary' (PDF p.63) and 'Italy,' in s.5.09(c) (PDF p.152). The 'Investment Grade Rating' definition and s.5.09(d)-(g) are fully underlined as insertions (PDF pp.63, 153-154)."
+  },
+  {
+   "id": "B06",
+   "field": "explanation",
+   "was": "Smaller lender-favourable points: ... the IP filings extend to the EU, and Capri Holdings' (BVI) own property and Banking Services Obligations are within the security.",
+   "now": "The Capri Holdings property point is dropped because the TS names Capri as a party to the Pledge and Security Agreement. The Italy deletion (borrower-favourable) is moved to new row X11. 'Obligor' is noted in both the fall-away blocker and the springback trigger.",
+   "evidence": "TS PDF p.6: 'Pledge and Security Agreement, dated as of February 4, 2025, by MK, Capri, the other domestic subsidiaries'. CA s.5.09(d)(b) and (e)(y) (PDF p.153)."
+  },
+  {
+   "id": "B08",
+   "field": "explanation",
+   "was": "(no drafting point on the Bilateral LC grower)",
+   "now": "Added: the unamended 'Bilateral Letter of Credit' definition still caps all Bilateral LCs at $100,000,000, so the new 30% grower on the s.6.01(x) basket cannot be used above $100m. The $10m/3% grower on the 75%-cash threshold in s.6.03(b)(xviii)(C) is also listed.",
+   "evidence": "The CA PDF p.39 definition reads 'in an aggregate principal amount not to exceed $100,000,000 at any time outstanding for all Bilateral Letters of Credit' and has no blackline. s.6.01(x) is on PDF p.157 and s.6.03(b)(xviii) on PDF p.163."
+  },
+  {
+   "id": "B11",
+   "field": "explanation",
+   "was": "(silent on origin of the carve-out)",
+   "now": "Added: the s.4.02(a) MAC carve-out has no blackline, so it was carried over from the Existing CA rather than changed to match the TS. s.3.04(b) is also now dated 'As of the Amendment No. 1 Effective Date'.",
+   "evidence": "In the CA PDF p.146 content stream, the 4.02(a) text has no strike or underline lines. On PDF p.141, '{+Amendment No. 1+} Effective Date' is inserted in 3.04(b)."
+  },
+  {
+   "id": "B16",
+   "field": "ca_value",
+   "was": "s.2.15 Increased Costs, which deems Dodd-Frank and Basel III to be a Change in Law.",
+   "now": "s.2.15 Increased Costs. The 'Change in Law' definition in s.1.01 deems Dodd-Frank and Basel III to be a Change in Law. The 2.19(b) triggers are also described more precisely, and 'Change in Law' (PDF p.43) is added to ca_location.",
+   "evidence": "CA line 1480 (PDF p.43) is the 'Change in Law' definition proviso. s.2.19(b) (PDF p.129) reads: 'any Lender requests compensation under Sections 2.13(g) or 2.15'."
+  },
+  {
+   "id": "X03",
+   "field": "explanation",
+   "was": "(silent on the Secured Net Leverage Ratio definition)",
+   "now": "Added: the TS says the Secured Net Leverage Ratio is to be defined as in the Existing CA, but the blackline changes its denominator from Consolidated EBITDAR to Consolidated EBITDA. This tightens the 3.00x secured test for Permitted Equivalent Indebtedness and the accordion.",
+   "evidence": "In the CA PDF p.81 content stream, 'EBITDAR' is struck and 'EBITDA' underlined in the 'Secured Net Leverage Ratio' definition. TS PDF p.4: 'Secured Net Leverage Ratio (to be defined as set forth in the Existing Credit Agreement)'."
+  },
+  {
+   "id": "document_notes",
+   "field": "limitation (1)",
+   "was": "strike-through and underlining could not be checked by eye",
+   "now": "Blackline marks were decoded from vector strike and underline lines in the PDF content streams for the key pages. The decoding confirmed the deleted-before-inserted order and found deletions that the text extraction does not show.",
+   "evidence": "The CA PDF was produced by xhtml2pdf. Its page content streams (ASCII85 and Flate encoded) draw strike lines about 2.4pt above the baseline and underlines about 1.8pt below it."
+  }
+ ],
+ "confidence": "group A: re-checked by verifier, confidence medium; group B: re-checked by verifier, confidence medium",
+ "source": "Claude Code multi-agent workflow: independent reconciler + adversarial verifier per attribute group",
+ "generated_at": "2026-11-12T15:55:36+00:00",
+ "engine": "verified",
+ "deal": "Capri 2026",
+ "ts_file": "Capri 2026 TS.pdf",
+ "ca_file": "Capri 2026 CA.pdf",
+ "quote_check": {
+  "ts_checked": 47,
+  "ca_checked": 48,
+  "ts_found": 47,
+  "ca_found": 48
+ }
+}

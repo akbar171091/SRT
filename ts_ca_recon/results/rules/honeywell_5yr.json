@@ -1,0 +1,822 @@
+{
+ "rows": [
+  {
+   "id": "R01",
+   "attribute": "Facility amount / commitments",
+   "ts_value": "$4bn",
+   "ts_quote": "$4,000,000,000, with a sublimit of $700,000,000 for the issuance of multi-currency letters of credit, including performance and financial letters of credit and a sublimit of $500,000,000 for swing line advances in U.S Dollars or Euros.",
+   "ts_location": "p. 1 (label \"Facility Amount\")",
+   "ca_value": "$4bn",
+   "ca_quote": "it 10.2 Execution Version BORROWER NAME: HONEYWELL INTL INC - SYNDICATED LNS Deal CUSIP : 43852TCM5 43852TCN3 5yr Revolver CUSIP: U.S. $4,000,000,000 FIVE YEAR CREDIT AGREEMENT Dated as of March 6, 2026 Among HONEYWELL INTERNATIONAL INC., as Borrower, and THE",
+   "ca_location": "p. 1 (cover page)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $4bn. Other figures in the TS entry (not compared): $700m, $500m.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R02",
+   "attribute": "Maturity date",
+   "ts_value": "5 yr",
+   "ts_quote": "Fifth anniversary of the date of effectiveness of the Loan Documentation (the“Closing Date”), subject to the Extension of Commitments Section below.",
+   "ts_location": "p. 1 (label \"Termination Date\")",
+   "ca_value": "2031-03-06 (1826 days after 2026-03-06)",
+   "ca_quote": "“Termination Date” means the earlier of (a) March 6, 2031, subject to the extension thereof pursuant to Section 2.19 and (b) the date of termination in whole of the Commitments pursuant to Section 2.06 or Section 6.01 or, if all Lenders elect to terminate their Commitments as provided therein, Secti",
+   "ca_location": "p. 29 (definition \"Termination Date\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS tenor 5 yr = CA maturity 2031-03-06 measured from 2026-03-06 (agreement date).",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    29
+   ]
+  },
+  {
+   "id": "R03",
+   "attribute": "Letter of credit sublimit",
+   "ts_value": "$4bn, $700m, $500m",
+   "ts_quote": "$4,000,000,000, with a sublimit of $700,000,000 for the issuance of multi-currency letters of credit, including performance and financial letters of credit and a sublimit of $500,000,000 for swing line advances in U.S Dollars or Euros.",
+   "ts_location": "p. 1 (clause in \"Facility Amount\")",
+   "ca_value": "provision located, no figures",
+   "ca_quote": "(b) $700,000,000 and",
+   "ca_location": "p. 22 (operative text)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $700m. Found elsewhere in CA (check context): $4bn (p. 1); $500m (p. 71, 74, 75, 79…).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    22
+   ]
+  },
+  {
+   "id": "R04",
+   "attribute": "Swingline sublimit",
+   "ts_value": "$4bn, $700m, $500m",
+   "ts_quote": "$4,000,000,000, with a sublimit of $700,000,000 for the issuance of multi-currency letters of credit, including performance and financial letters of credit and a sublimit of $500,000,000 for swing line advances in U.S Dollars or Euros.",
+   "ts_location": "p. 1 (clause in \"Facility Amount\")",
+   "ca_value": "provision located, no figures",
+   "ca_quote": "ed States, or an Affiliate of any such bank with an office in the United States having a combined capital and surplus of at least $500,000,000, and the Swing Line Banks shall have the right, in consultation with the Company, to appoint a successor Swing Line A",
+   "ca_location": "p. 88 (operative text)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $500m. Found elsewhere in CA (check context): $4bn (p. 1); $700m (p. 22).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    88
+   ]
+  },
+  {
+   "id": "R05",
+   "attribute": "Accordion / incremental capacity",
+   "ts_value": "$25m, $4.5bn, $3.5bn",
+   "ts_quote": "y will have the right, no more than once a year, to increase the Facility Amount of the 5-Year Facility, in minimum increments of $25,000,000, up to a maximum Facility Amount of $4,500,000,000 (or following the consummation of the Spin Off, $3,500,000,000) pro",
+   "ts_location": "p. 1 (label \"Commitment Increase\")",
+   "ca_value": "not located in CA",
+   "ca_quote": "e to the Administrative Agent, request that the aggregate amount of the Revolving Credit Commitments be increased by an amount of $25,000,000 or an integral multiple thereof (each a “Commitment Increase”) to be effective as of a date that is at least 90 days p",
+   "ca_location": "p. 58 (operative text)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: $25m, $4.5bn, $3.5bn.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    58
+   ]
+  },
+  {
+   "id": "R06",
+   "attribute": "Extension option / term-out",
+   "ts_value": "The Company may request that the Lenders’ commitments under the 5-Year Facility be extended for additional 1 year periods by providing notice of such request to the Agent no earlier than 60 days but no later than 30 days",
+   "ts_quote": "The Company may request that the Lenders’ commitments under the 5-Year Facility be extended for additional 1 year periods by providing notice of such request to the Agent no earlier than 60 days but no later than 30 days prior to any anniversary of the Closing Date. If a Lender agrees, in its indivi",
+   "ts_location": "p. 2 (label \"Extension of Commitments\")",
+   "ca_value": "“Extension Date” has the meaning specified in Section 2.19(b). 12 ",
+   "ca_quote": "“Extension Date” has the meaning specified in Section 2.19(b). 12 ",
+   "ca_location": "p. 18, 60 (definition \"Extension Date\")",
+   "status": "review",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Both documents contain a provision; compare the mechanics (number, notice, consent, fee) in the quotes.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    2
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    18
+   ]
+  },
+  {
+   "id": "R07",
+   "attribute": "Applicable margin / pricing grid",
+   "ts_value": "0 bps, 100 bps, 75 bps, 87.5 bps, 112.5 bps, 4 bps, 5 bps, 6.5 bps, 8 bps, 10 bps, 11 bps, 50 bps (+1 more)",
+   "ts_quote": "The Applicable Margin with respect to the 5-Year Facility means:(i) for Base Rate Advances, a rate per annum that is 100 basis points lower than the rate determined in accordance with clause",
+   "ts_location": "p. 4 (label \"Applicable Margin\")",
+   "ca_value": "0 bps, 50 bps, 62.5 bps, 75 bps, 87.5 bps, 100 bps, 112.5 bps, 4 bps, 5 bps, 6.5 bps, 8 bps, 10 bps (+1 more)",
+   "ca_quote": "Aa3 or above 0.625% Level 2 0.75% Lower than Level 1 but at least A+ or A1 Level 3 0.875% Lower than Level 2 but at least A or A2 1.00% Level 4 1.125% Lower than Level 3 but at least A- or A3 Level 5 Lower than Level 4 but at least BBB+ or Baa1 Level 6 Lower t",
+   "ca_location": "p. 9 (definition \"Applicable Margin\")",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 100 bps, 75 bps, 87.5 bps, 112.5 bps, 4 bps, 5 bps, 6.5 bps, 8 bps, 10 bps, 11 bps, 50 bps, 62.5 bps.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    10
+   ]
+  },
+  {
+   "id": "R08",
+   "attribute": "Commitment / facility fee",
+   "ts_value": "6.5 bps, 8 bps, 10 bps, 11 bps, 4 bps, 5 bps, 50 bps, 62.5 bps, 75 bps, 87.5 bps, 100 bps, 112.5 bps",
+   "ts_quote": "0.065%0.08%0.10% 0.11%",
+   "ts_location": "p. 12 (label \"Commitment Fee\")",
+   "ca_value": "50 bps, 62.5 bps, 87.5 bps, 100 bps, 4 bps, 5 bps, 6.5 bps, 8 bps, 10 bps, 11 bps",
+   "ca_quote": "Level 1 0.50% | AA- or Aa3 or above 0.625% | Level 3 0.875% | Lower than Level 2 but at least A or A2 1.00% | Level 1 0.040% | Level 2 0.050% | Level 3 0.065% | Level 4 0.080% | Level 5 0.10% | Level 6 0.110%",
+   "ca_location": "p. 10 (pricing table)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Confirmed in CA provision: 6.5 bps, 8 bps, 10 bps, 11 bps, 4 bps, 5 bps, 50 bps, 62.5 bps, 87.5 bps, 100 bps. Found elsewhere in CA (check context): 75 bps (p. 10); 112.5 bps (p. 10).",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    12
+   ],
+   "ca_quote_found": false,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R09",
+   "attribute": "Financial covenants",
+   "ts_value": "not stated in TS",
+   "ts_quote": "",
+   "ts_location": "",
+   "ca_value": "not located in CA",
+   "ca_quote": "",
+   "ca_location": "",
+   "status": "not_applicable",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Neither document provides for this.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R10",
+   "attribute": "Administrative agent",
+   "ts_value": "Bank of America, N.A. (“Bank of America” and, in such capacity, the “Agent”).",
+   "ts_quote": "Bank of America, N.A. (“Bank of America” and, in such capacity, the “Agent”).",
+   "ts_location": "p. 1 (label \"Agent\")",
+   "ca_value": "BANK OF AMERICA, N.A.",
+   "ca_quote": "BANK OF AMERICA, N.A.",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names BANK OF AMERICA, N.A.; each appears in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R11",
+   "attribute": "Borrower(s)",
+   "ts_value": "Honeywell International Inc. (the “Company”) and any Designated Subsidiaries(together with the Company, the “Borrowers”), fully and unconditionally guaranteed by the Company.",
+   "ts_quote": "Honeywell International Inc. (the “Company”) and any Designated Subsidiaries(together with the Company, the “Borrowers”), fully and unconditionally guaranteed by the Company.",
+   "ts_location": "p. 1 (label \"Borrowers\")",
+   "ca_value": "HONEYWELL INTERNATIONAL INC.",
+   "ca_quote": "HONEYWELL INTERNATIONAL INC.",
+   "ca_location": "cover page",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "CA cover names HONEYWELL INTERNATIONAL INC.; each appears in the TS entry.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    1
+   ]
+  },
+  {
+   "id": "R12",
+   "attribute": "Governing law",
+   "ts_value": "New York",
+   "ts_quote": "State of New York. Counsel to the Agent Davis Polk & Wardwell LLP.",
+   "ts_location": "p. 11 (label \"Governing Law: State of New York. Counsel to the Agent\")",
+   "ca_value": "New York",
+   "ca_quote": "shall be governed by, and construed in accordance with, the law of the State of New York. SECTION 9.11. Execution in Counterparts; Electronic Signatures. This Agreement may be executed in any number of counterparts and by different parties hereto in separate c",
+   "ca_location": "p. 104 (governing-law clause)",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Same governing law.",
+   "ts_quote_found": false,
+   "ts_quote_pages": [],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    104
+   ]
+  },
+  {
+   "id": "R13",
+   "attribute": "Security (secured vs unsecured)",
+   "ts_value": "unsecured",
+   "ts_quote": "",
+   "ts_location": "whole document",
+   "ca_value": "unsecured (no security documents defined)",
+   "ca_quote": "",
+   "ca_location": "definitions searched",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "TS: unsecured; CA: unsecured.",
+   "ts_quote_found": null,
+   "ts_quote_pages": [],
+   "ca_quote_found": null,
+   "ca_quote_pages": []
+  },
+  {
+   "id": "R14",
+   "attribute": "Benchmark rates",
+   "ts_value": "Term SOFR, SONIA, EURIBOR, CORRA, TIBOR",
+   "ts_quote": "per annum above the Federal funds rate and (iii) one month Term SOFR or successor rate (but not less than zero) plus 1.00%. The Base Rate is available only for Advances denominated in U.S. Dollars. b) Term SOFR: a periodic fixed rate equal to Term SOFR (but n",
+   "ts_location": "p. 3",
+   "ca_value": "Term SOFR, Daily Simple SOFR, SONIA, EURIBOR, CORRA, TIBOR, €STR",
+   "ca_quote": "rative Agent or the SOFR Administrator, (b) with respect to Term SOFR, CME or any successor administrator of the Term SOFR Screen Rate or a Governmental Authority having jurisdiction over the Administrative Agent or such administrator with respect to its publi",
+   "ca_location": "p. 9",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Every item named in the TS appears in the CA. CA also has: Daily Simple SOFR, €STR.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    3
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    9
+   ]
+  },
+  {
+   "id": "R15",
+   "attribute": "Currencies",
+   "ts_value": "EUR, GBP, JPY, CAD",
+   "ts_quote": "t of $500,000,000 for swing line advances in U.S Dollars or Euros. Type of Facility: 5-year unsecured multi-currency revolving credit facility (the “5-Year Facility”). Purpose: General corporate purposes. Administrative Bank of America, N.A. (“Bank of America”",
+   "ts_location": "p. 1",
+   "ca_value": "EUR, GBP, JPY, CAD",
+   "ca_quote": "Currency pursuant to Section 1.08: Sterling, Japanese Yen, Euros and Canadian Dollars. “Alternative Currency Advance” means an Alternative Currency Daily Rate Advance or an Alternative Currency Term Rate Advance, as applicable. “Alternative Currency Daily Rat",
+   "ca_location": "p. 8",
+   "status": "match",
+   "materiality": "n/a",
+   "direction": "n/a",
+   "explanation": "Every item named in the TS appears in the CA.",
+   "ts_quote_found": true,
+   "ts_quote_pages": [
+    1
+   ],
+   "ca_quote_found": true,
+   "ca_quote_pages": [
+    8
+   ]
+  }
+ ],
+ "trace": [
+  {
+   "type": "Amount",
+   "ts_text": "$4,000,000,000",
+   "normalised": "$4bn",
+   "ts_page": 1,
+   "context": "Honeywell International Inc. Summary of Terms and Conditions $4,000,000,000 5-Year Multi-Currency Revolving Credit Facility Set forth below is a summary of the principal t",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "1"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$4,000,000,000",
+   "normalised": "$4bn",
+   "ts_page": 1,
+   "context": ", the “Borrowers”), fully and unconditionally guaranteed by the Company. Facility Amount: $4,000,000,000, with a sublimit of $700,000,000 for the issuance of multi-currency letters of credit, includin",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "1"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$700,000,000",
+   "normalised": "$700m",
+   "ts_page": 1,
+   "context": "ditionally guaranteed by the Company. Facility Amount: $4,000,000,000, with a sublimit of $700,000,000 for the issuance of multi-currency letters of credit, including performance and financial letters",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "22"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$500,000,000",
+   "normalised": "$500m",
+   "ts_page": 1,
+   "context": "etters of credit, including performance and financial letters of credit and a sublimit of $500,000,000 for swing line advances in U.S Dollars or Euros. Type of Facility: 5-year unsecured multi-currenc",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "71, 74, 75, 79, 80, 81, 88"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$25,000,000",
+   "normalised": "$25m",
+   "ts_page": 1,
+   "context": "a year, to increase the Facility Amount of the 5-Year Facility, in minimum increments of $25,000,000, up to a maximum Facility Amount of $4,500,000,000 (or following the consummation of the Spin Off,",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "58, 59, 61"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$4,500,000,000",
+   "normalised": "$4.5bn",
+   "ts_page": 1,
+   "context": "5-Year Facility, in minimum increments of $25,000,000, up to a maximum Facility Amount of $4,500,000,000 (or following the consummation of the Spin Off, $3,500,000,000) provided that no default or eve",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "58"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$3,500,000,000",
+   "normalised": "$3.5bn",
+   "ts_page": 1,
+   "context": "maximum Facility Amount of $4,500,000,000 (or following the consummation of the Spin Off, $3,500,000,000) provided that no default or event of default has 2026 Honeywell Term Sheet 1 Extension of Comm",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "58"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$25,000,000",
+   "normalised": "$25m",
+   "ts_page": 2,
+   "context": "e lender, provided that the minimum commitment of each such institution equals or exceeds $25,000,000. The Company may request that the Lenders’ commitments under the 5-Year Facility be extended for a",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "58, 59, 61"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 2,
+   "context": "1 year from the then existing 5-Year Commitment Termination Date, provided that more than 50% of the Facility Amount under the 5-Year Facility is extended or otherwise committed to by Extending Lender",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "13, 22, 26, 27, 62"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$10,000,000",
+   "normalised": "$10m",
+   "ts_page": 2,
+   "context": "the 5-Year Facility, provided that each partial reduction shall be in a minimum amount of $10,000,000 or any whole multiple of $1,000,000 in excess thereof. Once terminated, a commitment may not be re",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "33, 41, 49, 97"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000",
+   "normalised": "$1m",
+   "ts_page": 2,
+   "context": "ch partial reduction shall be in a minimum amount of $10,000,000 or any whole multiple of $1,000,000 in excess thereof. Once terminated, a commitment may not be reinstated. Upon the consummation of th",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "33, 34, 41, 49, 97"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$3,000,000,000",
+   "normalised": "$3bn",
+   "ts_page": 2,
+   "context": "commitments under the 5- Year Facility shall be automatically and permanently reduced to $3,000,000,000 (and shall reduce the commitments of each individual Lender under the 5-Year Facility on a pro",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "43"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$3,500,000,000",
+   "normalised": "$3.5bn",
+   "ts_page": 2,
+   "context": "uch reduction, the Company may thereafter increase the Facility Amount up to a maximum of $3,500,000,000 in accordance with the “Commitment Increase” provisions above. Any amount of outstanding Advanc",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "58"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 2,
+   "context": "f employees of the Company or its subsidiaries) holding beneficial ownership of less than 50% of the Voting Stock of the Company thereafter acquires 2026 Honeywell Term Sheet 2 Commitment Fee: benefic",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "13, 22, 26, 27, 62"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 3,
+   "context": "y thereafter acquires 2026 Honeywell Term Sheet 2 Commitment Fee: beneficial ownership of 50% or more of the Voting Stock of the Company or (ii) during any 12 month period, there is a change in the ma",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "13, 22, 26, 27, 62"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1/2 of 1%",
+   "normalised": "50 bps",
+   "ts_page": 3,
+   "context": "hest of (i) Bank of America, N.A.’s publicly announced “prime” rate, (ii) a rate equal to 1/2 of 1% per annum above the Federal funds rate and (iii) one month Term SOFR or successor rate (but not less",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10, 11"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.00%",
+   "normalised": "100 bps",
+   "ts_page": 3,
+   "context": "funds rate and (iii) one month Term SOFR or successor rate (but not less than zero) plus 1.00%. The Base Rate is available only for Advances denominated in U.S. Dollars. b) Term SOFR: a periodic fixe",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10, 11, 41, 47, 9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100 basis points",
+   "normalised": "100 bps",
+   "ts_page": 4,
+   "context": "cility means: Letter of Credit Fees: (i) for Base Rate Advances, a rate per annum that is 100 basis points lower Interest Payments: than the rate determined in accordance with clause (ii) below with r",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10, 11, 41, 47, 9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.00%",
+   "normalised": "0 bps",
+   "ts_page": 4,
+   "context": "with clause (ii) below with respect Borrowings: to Term SOFR Advances (but not less than 0.00%); and (ii) for Term SOFR Advances, EURIBOR Advances, SONIA Advances, TIBOR Advances and Term CORRA Advan",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100 basis points",
+   "normalised": "100 bps",
+   "ts_page": 4,
+   "context": "lt, the Applicable Margin on the unpaid principal amount of each Advance will increase by 100 basis points per annum, and if such Advance is not a Base Rate Advance, it will convert to a Base Rate Adv",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10, 11, 41, 47, 9"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$10,000,000",
+   "normalised": "$10m",
+   "ts_page": 4,
+   "context": "BOR Advances and Term CORRA Advances. Borrowings shall be in minimum principal amounts of $10,000,000 and integral multiples of $1,000,000 in excess thereof. All Advances under the 5-Year Facility sha",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "33, 41, 49, 97"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000",
+   "normalised": "$1m",
+   "ts_page": 4,
+   "context": "Borrowings shall be in minimum principal amounts of $10,000,000 and integral multiples of $1,000,000 in excess thereof. All Advances under the 5-Year Facility shall be made by the Lenders ratably in p",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "33, 34, 41, 49, 97"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$10,000,000",
+   "normalised": "$10m",
+   "ts_page": 5,
+   "context": "ONIA Advances, TIBOR Advances or Term CORRA Advances, in each case, in minimum amounts of $10,000,000 and increments of $1,000,000 in excess thereof. The Borrowers will bear all costs related to the p",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "33, 41, 49, 97"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000",
+   "normalised": "$1m",
+   "ts_page": 5,
+   "context": "or Term CORRA Advances, in each case, in minimum amounts of $10,000,000 and increments of $1,000,000 in excess thereof. The Borrowers will bear all costs related to the prepayment of a Term SOFR Advan",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "33, 34, 41, 49, 97"
+  },
+  {
+   "type": "Date",
+   "ts_text": "March 18, 2024",
+   "normalised": "2024-03-18",
+   "ts_page": 5,
+   "context": "lar to the Company’s existing Amended and Restated Five Year Credit Agreement dated as of March 18, 2024 (the “Existing 5-Year Agreement”), including, but not limited to, those noted below and substan",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "67"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "103%",
+   "normalised": "10300 bps",
+   "ts_page": 5,
+   "context": "ate credit agreements. If at any time the dollar equivalent value of all Advances exceeds 103% of the Facility Amount, the Borrowers shall promptly make a mandatory prepayment to reduce the dollar equ",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "49"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "100%",
+   "normalised": "10000 bps",
+   "ts_page": 5,
+   "context": "ptly make a mandatory prepayment to reduce the dollar equivalent value of all Advances to 100% of the Facility Amount. Similar to the Existing 5-Year Agreement, including, but not limited to: (1) Prom",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "49, 63"
+  },
+  {
+   "type": "Date",
+   "ts_text": "December 31, 2024",
+   "normalised": "2024-12-31",
+   "ts_page": 7,
+   "context": "nts; (5) No material adverse change in financial condition or results of operations since December 31, 2024 for the Company and its Consolidated Subsidiaries (as defined in the Existing 5-Year Agreeme",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "66, 70"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$500,000,000",
+   "normalised": "$500m",
+   "ts_page": 8,
+   "context": "); (4) Cross-default to payment defaults on principal Debt (as defined below) aggregating $500,000,000, excluding defaults on Debt to any institution to the extent the Company or a Subsidiary has depo",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "71, 74, 75, 79, 80, 81, 88"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$500,000,000",
+   "normalised": "$500m",
+   "ts_page": 8,
+   "context": "urther each subsidiary to which this exception applies shall not have assets of more than $500,000,000 individually nor collectively $650,000,000 measured as of the most recent calendar quarter end; (",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "71, 74, 75, 79, 80, 81, 88"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$650,000,000",
+   "normalised": "$650m",
+   "ts_page": 8,
+   "context": "ion applies shall not have assets of more than $500,000,000 individually nor collectively $650,000,000 measured as of the most recent calendar quarter end; (5) Unsatisfied judgment or order in excess",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "79, 80"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$500,000,000",
+   "normalised": "$500m",
+   "ts_page": 8,
+   "context": "s of the most recent calendar quarter end; (5) Unsatisfied judgment or order in excess of $500,000,000 individually or in the aggregate. A carve-out will be provided similar to that contained in the s",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "71, 74, 75, 79, 80, 81, 88"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$500,000,000",
+   "normalised": "$500m",
+   "ts_page": 8,
+   "context": "ediately above; (6) Bankruptcy/insolvency; (7) ERISA events with a liability in excess of $500,000,000 and otherwise similar to the Existing 5-Year Agreement. “Debt” means, with respect to any Person:",
+   "credit_term_context": false,
+   "found_in_ca": true,
+   "ca_pages": "71, 74, 75, 79, 80, 81, 88"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "50%",
+   "normalised": "5000 bps",
+   "ts_page": 9,
+   "context": "eeds. (2) Normal agency language. (3) Majority Lenders defined as those holding more than 50% of outstanding Advances or, if none, Commitments. The consent of each affected Lender will be required to",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "13, 22, 26, 27, 62"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$10,000,000",
+   "normalised": "$10m",
+   "ts_page": 10,
+   "context": "ithin 10 business days after having notice thereof. Minimum aggregate assignment level of $10,000,000 and increments of $1,000,000 in excess thereof. The parties to the assignment (other than the Comp",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "33, 41, 49, 97"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$1,000,000",
+   "normalised": "$1m",
+   "ts_page": 10,
+   "context": "aving notice thereof. Minimum aggregate assignment level of $10,000,000 and increments of $1,000,000 in excess thereof. The parties to the assignment (other than the Company) shall pay to the Agent an",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "33, 34, 41, 49, 97"
+  },
+  {
+   "type": "Amount",
+   "ts_text": "$4,000,000,000",
+   "normalised": "$4bn",
+   "ts_page": 12,
+   "context": "n documents are signed. 2026 Honeywell Term Sheet 11 Honeywell International Incorporated $4,000,000,000 5-Year Revolving Credit Facility 5-Year Pricing Grid LEVEL I LEVEL II LEVEL III LEVEL IV LEVEL",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "1"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.04%",
+   "normalised": "4 bps",
+   "ts_page": 12,
+   "context": "by S&P or A2 BBB+ by S&P Moody’s by Moody’s by Moody’s or Baa1 by Moody’s Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable 0.50% 0.625% 0.75% 0.875% 1.00% 1.125% Margin (1) Paid qua",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.05%",
+   "normalised": "5 bps",
+   "ts_page": 12,
+   "context": "P or A2 BBB+ by S&P Moody’s by Moody’s by Moody’s or Baa1 by Moody’s Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable 0.50% 0.625% 0.75% 0.875% 1.00% 1.125% Margin (1) Paid quarterly",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.065%",
+   "normalised": "6.5 bps",
+   "ts_page": 12,
+   "context": "2 BBB+ by S&P Moody’s by Moody’s by Moody’s or Baa1 by Moody’s Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable 0.50% 0.625% 0.75% 0.875% 1.00% 1.125% Margin (1) Paid quarterly in ar",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.08%",
+   "normalised": "8 bps",
+   "ts_page": 12,
+   "context": "by S&P Moody’s by Moody’s by Moody’s or Baa1 by Moody’s Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable 0.50% 0.625% 0.75% 0.875% 1.00% 1.125% Margin (1) Paid quarterly in arrears o",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.10%",
+   "normalised": "10 bps",
+   "ts_page": 12,
+   "context": "Moody’s by Moody’s by Moody’s or Baa1 by Moody’s Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable 0.50% 0.625% 0.75% 0.875% 1.00% 1.125% Margin (1) Paid quarterly in arrears on each",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.11%",
+   "normalised": "11 bps",
+   "ts_page": 12,
+   "context": "’s by Moody’s by Moody’s or Baa1 by Moody’s Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable 0.50% 0.625% 0.75% 0.875% 1.00% 1.125% Margin (1) Paid quarterly in arrears on each bank’",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.50%",
+   "normalised": "50 bps",
+   "ts_page": 12,
+   "context": "y’s or Baa1 by Moody’s Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable 0.50% 0.625% 0.75% 0.875% 1.00% 1.125% Margin (1) Paid quarterly in arrears on each bank’s unused commitment.",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10, 11"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.625%",
+   "normalised": "62.5 bps",
+   "ts_page": 12,
+   "context": "Baa1 by Moody’s Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable 0.50% 0.625% 0.75% 0.875% 1.00% 1.125% Margin (1) Paid quarterly in arrears on each bank’s unused commitment. 2026 H",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.75%",
+   "normalised": "75 bps",
+   "ts_page": 12,
+   "context": "y Moody’s Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable 0.50% 0.625% 0.75% 0.875% 1.00% 1.125% Margin (1) Paid quarterly in arrears on each bank’s unused commitment. 2026 Honeywel",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "0.875%",
+   "normalised": "87.5 bps",
+   "ts_page": 12,
+   "context": "y’s Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable 0.50% 0.625% 0.75% 0.875% 1.00% 1.125% Margin (1) Paid quarterly in arrears on each bank’s unused commitment. 2026 Honeywell Term",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.00%",
+   "normalised": "100 bps",
+   "ts_page": 12,
+   "context": "mitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable 0.50% 0.625% 0.75% 0.875% 1.00% 1.125% Margin (1) Paid quarterly in arrears on each bank’s unused commitment. 2026 Honeywell Term Sheet",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10, 11, 41, 47, 9"
+  },
+  {
+   "type": "Rate (bps)",
+   "ts_text": "1.125%",
+   "normalised": "112.5 bps",
+   "ts_page": 12,
+   "context": "t Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable 0.50% 0.625% 0.75% 0.875% 1.00% 1.125% Margin (1) Paid quarterly in arrears on each bank’s unused commitment. 2026 Honeywell Term Sheet 12",
+   "credit_term_context": true,
+   "found_in_ca": true,
+   "ca_pages": "10"
+  }
+ ],
+ "document_notes": "",
+ "quote_check": {
+  "ts_checked": 13,
+  "ca_checked": 13,
+  "ts_found": 10,
+  "ca_found": 12
+ },
+ "generated_at": "2026-11-12T14:40:41+00:00",
+ "engine": "rules",
+ "deal": "Honeywell 5yr",
+ "ts_file": "Honeywell 5yr TS.pdf",
+ "ca_file": "Honeywell 5yr CA.pdf"
+}
