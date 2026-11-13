@@ -1,0 +1,1060 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Term sheet benchmark</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #77756f;
+  --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,.10); --wash: rgba(11,11,11,.04);
+  --s1: #2a78d6; --s1-low: #86b6ef; --s1-high: #1c5cab; --s1-track: #cde2fb; --s1-soft: #9ec5f4;
+  --s2: #eb6834; --deemph: #c3c2b7; --deemph-soft: #e1e0d9;
+  --good-text: #006300; --critical: #d03b3b; --focus: #2a78d6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #9a988f;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,.10); --wash: rgba(255,255,255,.05);
+    --s1: #3987e5; --s1-low: #256abf; --s1-high: #9ec5f4; --s1-track: #104281; --s1-soft: #184f95;
+    --s2: #d95926; --deemph: #6b6a65; --deemph-soft: #454542;
+    --good-text: #0ca30c; --critical: #e66767; --focus: #6da7ec;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #9a988f;
+  --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,.10); --wash: rgba(255,255,255,.05);
+  --s1: #3987e5; --s1-low: #256abf; --s1-high: #9ec5f4; --s1-track: #104281; --s1-soft: #184f95;
+  --s2: #d95926; --deemph: #6b6a65; --deemph-soft: #454542;
+  --good-text: #0ca30c; --critical: #e66767; --focus: #6da7ec;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--page); color: var(--ink); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+a { color: var(--s1); text-underline-offset: 2px; }
+button, select, input { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.wrap { max-width: 1320px; margin: 0 auto; padding: 0 20px 56px; }
+header.top { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px 24px; padding: 22px 0 14px; }
+header.top h1 { font-size: 22px; line-height: 1.2; margin: 0; font-weight: 650; letter-spacing: -.01em; }
+header.top .sub { color: var(--ink-2); font-size: 13px; margin-top: 3px; overflow-wrap: anywhere; }
+header.top .actions { margin-left: auto; display: flex; gap: 8px; align-items: center; position: relative; }
+.btn { border: 1px solid var(--border); background: var(--surface); border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+.btn:hover { background: var(--wash); }
+.btn[disabled] { opacity: .55; cursor: default; }
+.menu { position: relative; display: inline-block; vertical-align: middle; }
+.menu > summary { list-style: none; display: inline-block; }
+.menu > summary::-webkit-details-marker { display: none; }
+.menu .pop { position: absolute; right: 0; top: calc(100% + 6px); z-index: 20; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 10px; padding: 6px; min-width: 250px; box-shadow: 0 8px 28px rgba(0,0,0,.14); }
+.menu .pop a, .menu .pop label { display: block; padding: 7px 10px; border-radius: 6px; color: var(--ink); text-decoration: none; }
+.menu .pop a:hover, .menu .pop label:hover { background: var(--wash); }
+.menu .pop .hint { color: var(--muted); font-size: 12px; padding: 6px 10px 2px; }
+.menu .pop .row { display: flex; gap: 8px; padding: 6px 10px 4px; }
+/* the button that applies a long list of choices stays in view while the list scrolls */
+.menu .pop .row.stick { position: sticky; bottom: -6px; background: var(--surface); padding-bottom: 8px; border-top: 1px solid var(--border); margin-top: 4px; }
+.menu .pop label.off { color: var(--muted); }
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; padding: 10px 0 14px; border-top: 1px solid var(--border); }
+.filters .lab { color: var(--ink-2); font-size: 13px; margin-right: 6px; }
+.seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.seg button { border: 0; background: none; padding: 6px 12px; cursor: pointer; border-right: 1px solid var(--border); }
+.seg button:last-child { border-right: 0; }
+.seg button:hover { background: var(--wash); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+select.sel { border: 1px solid var(--border); background: var(--surface); border-radius: 8px; padding: 6px 28px 6px 10px; max-width: 280px; }
+nav.tabs { display: flex; gap: 2px; border-bottom: 1px solid var(--border); margin-bottom: 18px; overflow-x: auto; }
+nav.tabs button { border: 0; background: none; padding: 10px 14px; cursor: pointer; color: var(--ink-2); border-bottom: 2px solid transparent; white-space: nowrap; }
+nav.tabs button:hover { color: var(--ink); }
+nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); font-weight: 600; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; margin-bottom: 16px; }
+.card > h2 { font-size: 15px; margin: 0 0 2px; font-weight: 650; }
+.card > .desc { color: var(--ink-2); font-size: 13px; margin: 0 0 12px; max-width: 95ch; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 16px; }
+.grid2 > .card { margin-bottom: 0; min-width: 0; }
+.grid2 { margin-bottom: 16px; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.kpi { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+.kpi .l { color: var(--ink-2); font-size: 13px; }
+.kpi .v { font-size: 28px; line-height: 1.15; font-weight: 600; margin-top: 4px; letter-spacing: -.01em; white-space: nowrap; }
+.kpi .n { color: var(--muted); font-size: 12px; margin-top: 3px; }
+.scroll { overflow-x: auto; }
+table.data { border-collapse: collapse; width: 100%; font-size: 13px; }
+table.data th, table.data td { padding: 7px 9px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--grid); }
+table.data thead th { color: var(--ink-2); font-weight: 600; white-space: nowrap; border-bottom: 1px solid var(--axis); position: sticky; top: 0; background: var(--surface); }
+table.data th.sortable { cursor: pointer; user-select: none; }
+table.data th.sortable:hover { color: var(--ink); }
+table.data th button.sort { all: unset; cursor: pointer; }
+table.data th button.sort:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 3px; }
+table.data tbody tr.click:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
+table.data th .dir { color: var(--muted); font-size: 11px; margin-left: 3px; }
+table.data td.num, table.data th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+table.data tbody tr.click { cursor: pointer; }
+table.data tbody tr.click:hover { background: var(--wash); }
+table.data tbody tr.subject { background: var(--wash); box-shadow: inset 3px 0 0 var(--s1); }
+table.data tbody tr.subject td:first-child { font-weight: 650; }
+table.data tfoot td { border-top: 1px solid var(--axis); border-bottom: 0; color: var(--ink-2); font-weight: 600; }
+table.data .small, .small { font-size: 12px; color: var(--ink-2); }
+.muted { color: var(--muted); }
+.nowrap { white-space: nowrap; }
+.clip { max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tag { display: inline-block; border: 1px solid var(--border); border-radius: 999px; padding: 0 8px; font-size: 12px; line-height: 20px; color: var(--ink-2); white-space: nowrap; }
+.tag.solid { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.tag.warn { border-color: var(--s2); color: var(--ink); font-weight: 400; }
+.mark { margin-left: 6px; font-size: 12px; }
+.ok { color: var(--good-text); font-weight: 650; }
+.bad { color: var(--critical); font-weight: 650; }
+.empty { color: var(--muted); padding: 18px 4px; margin: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; color: var(--ink-2); font-size: 12.5px; margin: 2px 0 6px; align-items: center; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.chart { width: 100%; min-height: 60px; overflow-x: auto; }
+.chart svg { display: block; overflow: visible; }
+.chart text { font-size: 12px; fill: var(--ink-2); }
+.chart text.name { fill: var(--ink); }
+.chart text.subname { fill: var(--muted); font-size: 11px; }
+.chart text.tick, .chart text.ref { fill: var(--muted); font-variant-numeric: tabular-nums; }
+.chart text.val { fill: var(--ink); font-variant-numeric: tabular-nums; }
+/* a surface-coloured halo keeps labels readable where a reference line passes behind them */
+.chart text.val, .chart text.ref { paint-order: stroke; stroke: var(--surface); stroke-width: 5px; stroke-linejoin: round; }
+.chart .gridline { stroke: var(--grid); stroke-width: 1; }
+.chart .baseline { stroke: var(--axis); stroke-width: 1; }
+.chart .refline { stroke: var(--ink-2); stroke-width: 1; }
+.chart .hit { fill: transparent; }
+.chart g.row { cursor: pointer; outline: none; }
+.chart g.row:hover .hit, .chart g.row:focus-visible .hit { fill: var(--wash); }
+.chart g.row:focus-visible .hit { stroke: var(--focus); stroke-width: 2; }
+.chart .track { fill: var(--s1-track); }
+.chart .dot { stroke: var(--surface); stroke-width: 2; }
+.chart .dot.low { fill: var(--s1-low); }
+.chart .dot.high { fill: var(--s1-high); }
+.chart .open { fill: var(--s2); stroke: var(--surface); stroke-width: 2; }
+.chart .bar { fill: var(--s1); }
+.chart .ext { fill: var(--s1-soft); }
+.chart g.row.dim .track { fill: var(--deemph-soft); }
+.chart g.row.dim .dot.low, .chart g.row.dim .dot.high, .chart g.row.dim .open, .chart g.row.dim .bar { fill: var(--deemph); }
+.chart g.row.dim .ext { fill: var(--deemph-soft); }
+.chart g.row.subject text.name { font-weight: 700; }
+.strip .band { fill: var(--s1-track); }
+.strip .peer { fill: var(--deemph); stroke: var(--surface); stroke-width: 1; }
+.strip .me { fill: var(--s1); stroke: var(--surface); stroke-width: 2; }
+.strip .med { stroke: var(--ink-2); stroke-width: 1.5; }
+.strip .axisline { stroke: var(--axis); stroke-width: 1; }
+.tip { position: fixed; z-index: 50; pointer-events: none; background: var(--surface); color: var(--ink); border: 1px solid var(--border);
+  border-radius: 10px; padding: 9px 11px; box-shadow: 0 8px 28px rgba(0,0,0,.16); font-size: 12.5px; max-width: 340px; }
+.tip .t { font-weight: 650; margin-bottom: 2px; }
+.tip .s { color: var(--ink-2); margin-bottom: 5px; }
+.tip .r { display: flex; align-items: center; gap: 7px; }
+.tip .r b { font-variant-numeric: tabular-nums; }
+.tip .r .k { width: 12px; height: 0; border-top: 2px solid var(--muted); flex: none; }
+.tip .r .k.low { border-color: var(--s1-low); } .tip .r .k.high { border-color: var(--s1-high); } .tip .r .k.open { border-color: var(--s2); }
+.tip .r .k.bar { border-color: var(--s1); } .tip .r .k.ext { border-color: var(--s1-soft); }
+.tip .r span { color: var(--ink-2); }
+.tip .f { color: var(--muted); margin-top: 5px; }
+details.ev { display: inline-block; max-width: 100%; }
+details.ev > summary { cursor: pointer; color: var(--ink-2); white-space: nowrap; list-style: none; }
+details.ev > summary::-webkit-details-marker { display: none; }
+details.ev > summary:hover { color: var(--ink); text-decoration: underline; }
+details.ev[open] { display: block; }
+details.ev blockquote { margin: 6px 0 4px; padding: 6px 10px; border-left: 3px solid var(--axis); background: var(--wash); color: var(--ink);
+  font-size: 12.5px; white-space: normal; min-width: 260px; max-width: 560px; overflow-wrap: anywhere; }
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 18px; margin: 0; }
+.facts dt { color: var(--ink-2); }
+.facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.cov { border-top: 1px solid var(--grid); padding: 12px 0; }
+.cov:first-of-type { border-top: 0; padding-top: 4px; }
+.cov h3 { margin: 0 0 4px; font-size: 14px; font-weight: 650; }
+.cov .lvl { font-size: 20px; font-weight: 600; margin-right: 10px; }
+.note { color: var(--ink-2); font-size: 13px; margin: 6px 0 0; max-width: 110ch; }
+.banner { border: 1px solid var(--border); border-left: 3px solid var(--s2); background: var(--surface); border-radius: 8px; padding: 10px 14px; margin-bottom: 16px; max-width: 130ch; }
+.banner p { margin: 0; }
+.banner p + p { margin-top: 6px; }
+.banner.quiet { border-left-color: var(--axis); color: var(--ink-2); font-size: 13px; }
+h3.sec { font-size: 13px; text-transform: none; color: var(--ink-2); font-weight: 600; margin: 16px 0 6px; }
+ul.plain { margin: 4px 0 0; padding-left: 18px; }
+ul.plain li { margin: 2px 0; }
+@media (max-width: 640px) { .wrap { padding: 0 12px 40px; } .grid2 { grid-template-columns: 1fr; } .facts { grid-template-columns: 1fr; gap: 0 0; } .facts dt { margin-top: 8px; } }
+@media print { nav.tabs, .filters, header.top .actions { display: none; } body { background: #fff; } .card { break-inside: avoid; } }
+</style>
+<!--DATASET-->
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Term sheet benchmark</h1>
+      <div class="sub" id="sub">Loading term sheets…</div>
+    </div>
+    <div class="actions" id="actions"></div>
+  </header>
+  <div class="filters" id="filters"></div>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Views"></nav>
+  <main id="view"><p class="empty">Reading the term sheets. The first run takes a little longer while the PDFs are parsed.</p></main>
+</div>
+<script>
+(() => {
+"use strict";
+
+// ---------------------------------------------------------------- DOM helpers (all text goes in via textContent)
+const SVGNS = "http://www.w3.org/2000/svg";
+function fill(el, attrs, kids, svg) {
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v == null || v === false) continue;
+    if (k === "class") el.setAttribute("class", v);
+    else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+    else if (k === "text") el.textContent = v;
+    else if (!svg && k in el && typeof v === "boolean") el[k] = v;
+    else el.setAttribute(k, v === true ? "" : v);
+  }
+  for (const kid of kids.flat(3)) {
+    if (kid == null || kid === false || kid === "") continue;
+    el.append(kid instanceof Node ? kid : document.createTextNode(String(kid)));
+  }
+  return el;
+}
+const h = (tag, attrs, ...kids) => fill(document.createElement(tag), attrs, kids, false);
+const s = (tag, attrs, ...kids) => fill(document.createElementNS(SVGNS, tag), attrs, kids, true);
+const $ = id => document.getElementById(id);
+
+// ---------------------------------------------------------------- formatting
+const DASH = "–", MINUS = "−";
+const trim = (v, d) => { const t = v.toFixed(d); return t.includes(".") ? t.replace(/\.?0+$/, "") : t; };
+const FMT = {
+  bps: v => trim(v, 2),
+  x: v => v.toFixed(2) + "x",
+  pct: v => trim(v, 1) + "%",
+  // to the nearest million: $1,325mm is "$1.325bn", never rounded to two decimals of a billion
+  usd_mm: v => v >= 1000 ? "$" + trim(Math.round(v) / 1000, 3) + "bn" : "$" + trim(v, 1) + "mm",
+  years: v => trim(v, 1) + (v === 1 ? " yr" : " yrs"),
+  count: v => trim(v, 2),
+};
+const fmt = (v, unit) => v == null ? DASH : (FMT[unit] || FMT.count)(v);
+const fmtU = (v, unit) => v == null ? DASH : fmt(v, unit) + (unit === "bps" ? " bps" : "");
+const rng = (a, b, unit) => a == null ? DASH : a === b || b == null ? fmt(a, unit) : fmt(a, unit) + DASH + fmt(b, unit);
+const signed = (v, unit) => v == null ? DASH : (v > 0 ? "+" : v < 0 ? MINUS : "") + fmt(Math.abs(v), unit) + (unit === "bps" ? " bps" : "");
+const cut = (t, n) => t.length > n ? t.slice(0, n - 1).trimEnd() + "…" : t;
+// Judged from the form of the facility in the term sheet (ratings grid and unsecured, or leverage grid and secured), not from a rating.
+const PROFILE = { investment_grade: "Investment-grade style", leveraged: "Leveraged style", unclear: "Unclear" };
+const SECURITY = { secured: "Secured", unsecured: "Unsecured", unclear: "Unclear" };
+const KIND = { term_sheet: "Term sheet", lender_presentation: "Lender presentation", summary: "Summary of terms", other: "Other" };
+const FEE_NOTE = { commitment_fee: "commitment fee", facility_fee: "facility fee", ticking_fee: "ticking fee", none: "", not_stated: "" };
+const DIR = { max: "≤", min: "≥" };
+// the covenant family behind each covenant metric
+const FAMILY_OF = { leverage: "leverage", leverage_loosest: "leverage", coverage: "coverage", debt_cap: "capitalization", liquidity: "liquidity" };
+
+// ---------------------------------------------------------------- state
+const state = { data: null, tab: "overview", group: "all", bench: null, custom: null, subject: null, measure: "margin", sort: "max" };
+const TABS = [["overview", "Overview"], ["pricing", "Pricing"], ["covenants", "Financial covenants"], ["deal", "Deal detail"], ["qa", "Extraction QA"]];
+const MEASURES = {
+  margin: { label: "Drawn margin", note: "Applicable margin over SOFR, in basis points, before any credit spread adjustment (shown in the CSA column)." },
+  all_in: { label: "All-in drawn", note: "Drawn margin plus facility fee, where the undrawn fee is a facility fee paid on the whole commitment. With a commitment fee it equals the margin. Before any credit spread adjustment (shown in the CSA column)." },
+  undrawn: { label: "Undrawn fee", note: "Commitment fee (on unused commitments) or facility fee (on the whole commitment), in basis points." },
+};
+const own = (obj, key) => key != null && Object.prototype.hasOwnProperty.call(obj, key);
+const deals = () => state.data.deals;
+const byId = id => deals().find(d => d.id === id) || null;
+const peers = () => deals().filter(d => state.bench.peer_ids.includes(d.id));
+const unaudited = d => d.source !== "verified";
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many || one + "s"}`;
+const headline = d => d.derived.headline == null ? null : d.derived.lines[d.derived.headline];
+const M = (d, id) => d.derived.metrics[id];
+const stat = id => (state.bench.metrics[id] || {}).stats || null;
+const place = (id, dealId) => ((state.bench.metrics[id] || {}).deals || {})[dealId] || null;
+const metricInfo = id => state.data.vocab.metrics.find(m => m.id === id);
+
+// ---------------------------------------------------------------- tooltip
+const tip = h("div", { class: "tip", role: "tooltip", hidden: true });
+document.body.append(tip);
+function showTip(nodes, x, y) {
+  tip.replaceChildren(...nodes.filter(Boolean));
+  tip.hidden = false;
+  const r = tip.getBoundingClientRect();
+  tip.style.left = Math.max(8, Math.min(x + 14, innerWidth - r.width - 8)) + "px";
+  tip.style.top = Math.max(8, y + 16 + r.height > innerHeight ? y - r.height - 12 : y + 16) + "px";
+}
+const hideTip = () => { tip.hidden = true; };
+function bindTip(el, build) {
+  el.addEventListener("pointermove", e => showTip(build(), e.clientX, e.clientY));
+  el.addEventListener("pointerleave", hideTip);
+  el.addEventListener("focus", () => { const r = el.getBoundingClientRect(); showTip(build(), r.left + Math.min(r.width, 420) / 2, r.bottom - 8); });
+  el.addEventListener("blur", hideTip);
+}
+const tipRow = (key, label, value) => h("div", { class: "r" }, h("i", { class: "k " + key }), h("b", {}, value), h("span", {}, label));
+addEventListener("scroll", hideTip, true);
+
+// ---------------------------------------------------------------- charts
+function niceTicks(max) {
+  if (!(max > 0)) return [0, 1];
+  const raw = max / 5, mag = Math.pow(10, Math.floor(Math.log10(raw)));
+  const step = [1, 2, 2.5, 5, 10].map(m => m * mag).find(st => st >= raw);
+  const out = [];
+  for (let v = 0; v < max + step * 0.999; v += step) out.push(Math.round(v * 1e6) / 1e6);
+  return out;
+}
+function onWidth(el, draw) {
+  let last = -1;
+  new ResizeObserver(() => {
+    const w = Math.floor(el.clientWidth);
+    if (w && w !== last) { last = w; draw(w); }
+  }).observe(el);
+}
+// A dagger after the name marks a row read by the rules engine alone; the chart caption explains it.
+const chartName = r => cut(r.name, r.flag ? 26 : 28) + (r.flag ? " †" : "");
+const flagNote = rows => rows.some(r => r.flag) ? h("p", { class: "note" }, "† Read by the rules engine alone and not audited: check the figures against the source quotes.") : null;
+// rows are dimmed around the highlighted deal only when that deal is one of them
+function rowGroup(r, opts, label, focus) {
+  const subject = state.subject === r.id;
+  const g = s("g", { class: "row" + (focus && !subject ? " dim" : "") + (subject ? " subject" : ""), tabindex: 0, role: "button",
+    "aria-label": label + (r.flag ? ". Read by the rules engine alone, not audited" : "") });
+  g.addEventListener("click", () => opts.onSelect(r.id));
+  g.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); opts.onSelect(r.id); } });
+  return g;
+}
+function axis(svg, ticks, x, top, bottom, unit) {
+  ticks.forEach((t, i) => {
+    svg.append(s("line", { x1: x(t), x2: x(t), y1: top, y2: bottom, class: i ? "gridline" : "baseline" }));
+    svg.append(s("text", { x: x(t), y: top - 8, class: "tick", "text-anchor": "middle" }, unit === "x" ? trim(t, 2) + "x" : trim(t, 2)));
+  });
+}
+
+// One row per term sheet: a track from the best tier to the worst tier, a diamond at the opening level.
+function rangeChart(rows, opts) {
+  if (!rows.length) return h("p", { class: "empty" }, opts.empty);
+  const wrap = h("div", { class: "chart" }), focus = rows.some(r => r.id === state.subject);
+  onWidth(wrap, width => {
+    const W = Math.max(560, width), left = 196, right = 118, top = 30, rowH = 30, foot = 26;
+    const H = top + rows.length * rowH + foot;
+    const ticks = niceTicks(Math.max(...rows.map(r => r.max)));
+    const x = v => left + (W - left - right) * v / ticks[ticks.length - 1];
+    const svg = s("svg", { width: W, height: H, viewBox: `0 0 ${W} ${H}`, role: "group", "aria-label": opts.title });
+    axis(svg, ticks, x, top, H - foot, opts.unit);
+    const refs = (opts.refs || []).filter(r => r.value != null);
+    refs.forEach((ref, i) => {
+      svg.append(s("line", { x1: x(ref.value), x2: x(ref.value), y1: top, y2: H - foot + 6, class: "refline" }));
+      const end = refs.length > 1 && i === 0;
+      svg.append(s("text", { x: x(ref.value) + (end ? -5 : 5), y: H - 6, class: "ref", "text-anchor": end ? "end" : "start" }, `${ref.label} ${fmt(ref.value, opts.unit)}`));
+    });
+    rows.forEach((r, i) => {
+      const cy = top + i * rowH + rowH / 2;
+      const text = rng(r.min, r.max, opts.unit) + (opts.unit === "bps" ? " bps" : "");
+      const g = rowGroup(r, opts, `${r.name}: ${opts.title.toLowerCase()} ${text}${r.open != null ? ", opening level " + fmtU(r.open, opts.unit) : ""}`, focus);
+      g.append(s("rect", { x: 0, y: cy - rowH / 2, width: W, height: rowH, rx: 6, class: "hit" }));
+      g.append(s("text", { x: left - 12, y: cy + 4, class: "name", "text-anchor": "end" }, chartName(r)));
+      if (r.max > r.min) {
+        g.append(s("rect", { x: x(r.min), y: cy - 3, width: x(r.max) - x(r.min), height: 6, rx: 3, class: "track" }));
+        g.append(s("circle", { cx: x(r.min), cy, r: 5.5, class: "dot low" }));
+      }
+      g.append(s("circle", { cx: x(r.max), cy, r: 5.5, class: "dot high" }));
+      if (r.open != null) {
+        const ox = x(r.open);
+        g.append(s("path", { d: `M${ox},${cy - 7}L${ox + 7},${cy}L${ox},${cy + 7}L${ox - 7},${cy}Z`, class: "open" }));
+      }
+      g.append(s("text", { x: x(r.max) + 13, y: cy + 4, class: "val" }, text));
+      bindTip(g, () => [
+        h("div", { class: "t" }, r.name), h("div", { class: "s" }, r.sub),
+        r.max > r.min ? tipRow("low", "best tier", fmtU(r.min, opts.unit)) : null,
+        tipRow("high", r.max > r.min ? "worst tier" : "flat", fmtU(r.max, opts.unit)),
+        r.open != null ? tipRow("open", "opening level" + (r.openLabel ? ` (${r.openLabel})` : ""), fmtU(r.open, opts.unit)) : null,
+        h("div", { class: "f" }, (r.open == null ? "Opening level not stated in the term sheet. " : "") + (r.note || "")),
+      ]);
+      svg.append(g);
+    });
+    wrap.replaceChildren(svg);
+  });
+  return wrap;
+}
+
+// One bar per term sheet from zero to the covenant level, with a lighter extension to the acquisition step-up.
+function barChart(rows, opts) {
+  if (!rows.length) return h("p", { class: "empty" }, opts.empty);
+  const wrap = h("div", { class: "chart" }), focus = rows.some(r => r.id === state.subject);
+  onWidth(wrap, width => {
+    const W = Math.max(400, width), left = 190, right = 124, top = 30, rowH = 38, foot = 26, bar = 12;
+    const H = top + rows.length * rowH + foot;
+    const ticks = niceTicks(Math.max(...rows.map(r => Math.max(r.value, r.ext || 0))));
+    const x = v => left + (W - left - right) * v / ticks[ticks.length - 1];
+    const svg = s("svg", { width: W, height: H, viewBox: `0 0 ${W} ${H}`, role: "group", "aria-label": opts.title });
+    axis(svg, ticks, x, top, H - foot, opts.unit);
+    if (opts.ref && opts.ref.value != null) {
+      svg.append(s("line", { x1: x(opts.ref.value), x2: x(opts.ref.value), y1: top, y2: H - foot + 6, class: "refline" }));
+      svg.append(s("text", { x: x(opts.ref.value) + 5, y: H - 6, class: "ref" }, `${opts.ref.label} ${fmt(opts.ref.value, opts.unit)}`));
+    }
+    rows.forEach((r, i) => {
+      const cy = top + i * rowH + rowH / 2, x0 = x(0), x1 = x(r.value);
+      const label = fmt(r.value, opts.unit) + (r.ext ? `  → ${fmt(r.ext, opts.unit)}` : "");
+      const g = rowGroup(r, opts, `${r.name}: ${r.sub}, ${fmt(r.value, opts.unit)}${r.ext ? ", acquisition step-up to " + fmt(r.ext, opts.unit) : ""}`, focus);
+      g.append(s("rect", { x: 0, y: cy - rowH / 2, width: W, height: rowH, rx: 6, class: "hit" }));
+      g.append(s("text", { x: left - 12, y: cy - 1, class: "name", "text-anchor": "end" }, chartName(r)));
+      g.append(s("text", { x: left - 12, y: cy + 13, class: "subname", "text-anchor": "end" }, cut(r.sub, 36)));
+      const w = Math.max(2, x1 - x0);
+      g.append(s("path", { class: "bar", d: `M${x0},${cy - bar / 2}h${Math.max(0, w - 4)}a4,4 0 0 1 4,4v${bar - 8}a4,4 0 0 1 -4,4h${-Math.max(0, w - 4)}Z` }));
+      let end = x1;
+      if (r.ext && r.ext > r.value) {
+        end = x(r.ext);
+        const ew = Math.max(2, end - x1 - 2);
+        g.append(s("path", { class: "ext", d: `M${x1 + 2},${cy - bar / 2}h${Math.max(0, ew - 4)}a4,4 0 0 1 4,4v${bar - 8}a4,4 0 0 1 -4,4h${-Math.max(0, ew - 4)}Z` }));
+      }
+      g.append(s("text", { x: end + 8, y: cy + 4, class: "val" }, label));
+      bindTip(g, () => [
+        h("div", { class: "t" }, r.name), h("div", { class: "s" }, r.long),
+        tipRow("bar", r.levelLabel || "level at closing", fmt(r.value, opts.unit)),
+        r.ext ? tipRow("ext", "acquisition step-up", fmt(r.ext, opts.unit)) : null,
+        r.note ? h("div", { class: "f" }, r.note) : null,
+      ]);
+      svg.append(g);
+    });
+    wrap.replaceChildren(svg);
+  });
+  return wrap;
+}
+
+// Where one deal sits among its peers on one metric: peers as grey dots, quartile band, median tick.
+function strip(metric, dealId) {
+  const data = state.bench.metrics[metric], st = data.stats, mine = M(byId(dealId), metric);
+  const W = 190, H = 22, pad = 8;
+  const values = Object.values(data.deals).map(p => p.value).concat(mine == null ? [] : [mine]);
+  const lo = Math.min(...values), hi = Math.max(...values);
+  const x = v => hi === lo ? W / 2 : pad + (W - 2 * pad) * (v - lo) / (hi - lo);
+  const svg = s("svg", { class: "strip", width: W, height: H, viewBox: `0 0 ${W} ${H}`, role: "img",
+    "aria-label": `Peer range ${fmt(lo, metricInfo(metric).unit)} to ${fmt(hi, metricInfo(metric).unit)}, median ${fmt(st.median, metricInfo(metric).unit)}` });
+  svg.append(s("line", { x1: pad, x2: W - pad, y1: H / 2, y2: H / 2, class: "axisline" }));
+  if (st.n >= 4) svg.append(s("rect", { x: x(st.p25), y: H / 2 - 4, width: Math.max(1, x(st.p75) - x(st.p25)), height: 8, rx: 2, class: "band" }));
+  for (const [id, p] of Object.entries(data.deals)) if (id !== dealId) svg.append(s("circle", { cx: x(p.value), cy: H / 2, r: 3, class: "peer" }));
+  svg.append(s("line", { x1: x(st.median), x2: x(st.median), y1: 3, y2: H - 3, class: "med" }));
+  if (mine != null) svg.append(s("circle", { cx: x(mine), cy: H / 2, r: 5.5, class: "me" }));
+  return svg;
+}
+
+// ---------------------------------------------------------------- tables
+function dataTable(cols, rows, opts = {}) {
+  const box = h("div", { class: "scroll" });
+  let sort = opts.sort == null ? -1 : opts.sort, dir = opts.dir || 1;
+  const draw = () => {
+    const ordered = rows.slice();
+    if (sort >= 0 && cols[sort].get) {
+      const get = cols[sort].get;
+      ordered.sort((a, b) => {
+        const va = get(a), vb = get(b);
+        if (va == null || vb == null) return va == null ? (vb == null ? 0 : 1) : -1;
+        return (typeof va === "number" && typeof vb === "number" ? va - vb : String(va).localeCompare(String(vb))) * dir;
+      });
+    }
+    // the heading of a sortable column is a button, so the table can be sorted from the keyboard as well
+    const head = h("tr", {}, cols.map((c, i) => {
+      const arrow = sort === i ? h("span", { class: "dir" }, dir > 0 ? "▲" : "▼") : null;
+      const resort = () => { dir = sort === i ? -dir : 1; sort = i; draw(); const b = box.querySelectorAll("thead th")[i].querySelector("button"); if (b) b.focus(); };
+      return h("th", { class: (c.num ? "num " : "") + (c.get ? "sortable" : ""), title: c.title || null, scope: "col",
+        "aria-sort": sort === i ? (dir > 0 ? "ascending" : "descending") : null, onclick: c.get ? e => { if (!e.target.closest("button")) resort(); } : null },
+        c.get ? h("button", { type: "button", class: "sort", onclick: resort }, c.label, arrow) : c.label);
+    }));
+    const body = ordered.map(r => h("tr", {
+      class: (opts.onRow ? "click " : "") + (opts.isSubject && opts.isSubject(r) ? "subject" : ""),
+      tabindex: opts.onRow ? 0 : null,
+      onclick: opts.onRow ? e => { if (!e.target.closest("a,details,button")) opts.onRow(r); } : null,
+      onkeydown: opts.onRow ? e => { if (e.key === "Enter" && e.target === e.currentTarget) opts.onRow(r); } : null,
+    }, cols.map(c => h("td", { class: c.num ? "num" : null }, c.cell(r)))));
+    const foot = (opts.foot || []).map(f => h("tr", {}, cols.map((c, i) => h("td", { class: c.num ? "num" : null }, i === 0 ? f.label : (c.foot ? c.foot(f) : "")))));
+    box.replaceChildren(h("table", { class: "data" }, h("thead", {}, head), h("tbody", {}, body), foot.length ? h("tfoot", {}, foot) : null));
+  };
+  draw();
+  return box;
+}
+const col = (label, cell, extra = {}) => ({ label, cell, ...extra });
+// A footer statistic names its sample size whenever fewer term sheets state the figure than are in the peer group.
+const few = (...ns) => { const n = Math.min(...ns); return n < state.bench.n ? ` (n=${n})` : ""; };
+const footStat = (metric, unit) => f => { const st = stat(metric); return st ? fmt(st[f.key], unit) + few(st.n) : DASH; };
+const numCol = (label, metric, unit, extra = {}) => ({
+  label, num: true, get: d => M(d, metric), cell: d => fmt(M(d, metric), unit), foot: footStat(metric, unit), ...extra,
+});
+
+// A page reference that opens to show the verbatim quote and whether it was found in the PDF text.
+function evidence(deal, item, page) {
+  const pg = page === undefined ? item.page : page;
+  if (!item || !item.quote) return h("span", { class: "muted" }, pg ? "p. " + pg : DASH);
+  const found = item.quote_ok === true;
+  const url = deal.pdf_url && pg ? `${deal.pdf_url}#page=${pg}` : null;
+  return h("details", { class: "ev" },
+    h("summary", { title: "Show the quote from the term sheet" }, pg ? "p. " + pg + " " : "quote ",
+      h("span", { class: found ? "ok" : "bad", "aria-label": found ? "quote found in the PDF" : "quote not found in the PDF" }, found ? "✓" : "✗")),
+    h("blockquote", {}, "“" + item.quote + "”"),
+    h("div", { class: "small" }, found ? h("span", { class: "ok" }, "✓ Found on this page of the PDF. ") : h("span", { class: "bad" }, "✗ Not found on this page of the PDF text. "),
+      url ? h("a", { href: url, target: "_blank", rel: "noopener" }, "Open the PDF at page " + pg) : null));
+}
+const sourceTag = d => h("span", { class: "tag" + (d.source === "verified" ? " solid" : ""), title: d.source === "verified"
+  ? "Extracted and then independently audited against the document by AI reviewers; quotes re-checked against the PDF. Not signed off by a person."
+  : "Read by the offline rules engine only; not independently audited" },
+  d.source === "verified" ? "✓ AI-audited" : "Rules engine");
+// The compact form used beside a deal name in every table: a tick for an audited record, a tag for a rules-engine read.
+const STALE = "The PDF has changed since it was audited, so the audited record no longer applies. ";
+const sourceMark = d => unaudited(d)
+  ? h("span", { class: "tag warn mark", title: (d.verified_status === "stale" ? STALE : "") + "Read by the offline rules engine alone and not audited: check the figures against the source quotes." }, "rules engine")
+  : h("span", { class: "ok mark", role: "img", "aria-label": "AI-audited record", title: "AI-audited record: extracted and then independently checked against the document by AI reviewers. Not signed off by a person." }, "✓");
+const dealName = d => h("span", { class: "nowrap" }, d.deal, sourceMark(d));
+
+// ---------------------------------------------------------------- views
+function select(id) {
+  state.subject = id;
+  go("deal");
+  const heading = $("view").querySelector("h2");  // move focus with the view, for keyboard and screen-reader users
+  if (heading) { heading.tabIndex = -1; heading.focus({ preventScroll: true }); }
+}
+
+// 364-day facilities price below multi-year ones, so a peer group that mixes the two says so.
+function mixNote(ps) {
+  const short = ps.filter(d => headline(d) && headline(d).facility_type === "revolver_364_day");
+  if (!short.length || short.length === ps.length) return "";
+  return ` This group mixes ${plural(short.length, "364-day facility", "364-day facilities")} (${short.map(d => d.deal).join(", ")}) with longer-dated ones, which price differently`
+    + (state.data.meta.static ? "." : ": use Choose peers to compare like with like.");
+}
+
+// What the reader must know before trusting the figures: unread files, unaudited rows, a highlighted deal outside the group.
+function banners() {
+  const out = [], all = deals();
+  const unread = all.filter(d => !d.readable);
+  if (unread.length) out.push(h("div", { class: "banner", role: "status" },
+    h("p", {}, h("b", {}, `${plural(unread.length, "term sheet")} could not be read and ${unread.length === 1 ? "is" : "are"} left out of every table, chart and statistic: `),
+      unread.map(d => `${d.deal} (${d.pages ? "a scan with no text layer" : "the file could not be opened"})`).join(", "), ". They are listed under Extraction QA.")));
+  const rough = all.filter(d => d.readable && unaudited(d)), read = all.length - unread.length;
+  if (rough.length) out.push(h("div", { class: "banner", role: "status" },
+    h("p", {}, h("b", {}, `${rough.length} of ${read} term sheets ${rough.length === 1 ? "is" : "are"} shown from the rules engine alone and ${rough.length === 1 ? "has" : "have"} not been audited: `),
+      rough.map(d => d.deal + (d.verified_status === "stale" ? " (PDF changed since it was audited)" : "")).join(", "), "."),
+    h("p", {}, "Their figures are a first read by pattern matching and can be wrong. They are marked “rules engine” in the tables and † in the charts, and they are included in the peer statistics: check them against the source quotes on the Deal detail page before relying on a median.")));
+  const subject = byId(state.subject);
+  if (subject && state.tab !== "deal" && state.tab !== "qa" && !state.bench.peer_ids.includes(subject.id)) out.push(h("div", { class: "banner quiet" },
+    `${subject.deal} is highlighted but is not in this peer group, so it does not appear below.`));
+  return out;
+}
+
+function viewOverview() {
+  const ps = peers(), n = ps.length;
+  // a total only counts facilities whose size the term sheet fixes; a floor is shown as "at least"
+  const floors = ps.filter(d => d.derived.size.total_mm == null);
+  const total = ps.reduce((a, d) => a + (d.derived.size.total_mm ?? d.derived.size.partial_mm ?? 0), 0);
+  const withCov = ps.filter(d => d.derived.n_covenants > 0).length;
+  // only an audited record can say a term sheet has no financial covenant; the rules engine can only fail to find one
+  const noneStated = ps.filter(d => !d.derived.n_covenants && !unaudited(d)).length, noneFound = n - withCov - noneStated;
+  const lev = stat("leverage"), lo = stat("margin_min"), hi = stat("margin_max");
+  const quotes = ps.reduce((a, d) => [a[0] + d.evidence.found, a[1] + d.evidence.total], [0, 0]);
+  const kpi = (l, v, note) => h("div", { class: "kpi" }, h("div", { class: "l" }, l), h("div", { class: "v" }, v), h("div", { class: "n" }, note));
+  const round1 = v => v >= 1000 ? "$" + trim(v / 1000, 1) + "bn" : fmt(v, "usd_mm");
+  const sizeCell = d => {
+    const z = d.derived.size;
+    if (z.total_mm != null) return fmt(z.total_mm, "usd_mm");
+    return h("span", { title: z.note }, z.partial_mm != null ? "≥ " + fmt(z.partial_mm, "usd_mm") : DASH, z.note ? h("span", { class: "muted" }, " *") : null);
+  };
+  const tenorCell = d => {
+    const t = d.derived.tenor_range;
+    return t && t[0] !== t[1] ? h("span", { title: "Tranches of different tenors; the longest is used in the statistics" }, `${trim(t[0], 1)}${DASH}${fmt(t[1], "years")}`) : fmt(M(d, "tenor"), "years");
+  };
+  // a second level of the same test (for another group of borrowers, say) is flagged rather than hidden
+  const covCell = (metric, family) => d => (d.derived.primary_alternates[family] || []).length
+    ? h("span", { title: "This term sheet sets more than one level for this test; the first is shown. See Financial covenants." }, fmt(M(d, metric), "x"), h("span", { class: "muted" }, " *"))
+    : fmt(M(d, metric), "x");
+  const cols = [
+    col("Deal and borrower", d => [h("div", {}, dealName(d)), h("div", { class: "small clip", title: d.record.borrower.name }, d.record.borrower.name)], { get: d => d.deal }),
+    col("Profile", d => h("span", { title: d.record.credit_profile.basis }, PROFILE[d.record.credit_profile.value]), { get: d => d.record.credit_profile.value }),
+    col("Security", d => SECURITY[d.record.security.value], { get: d => d.record.security.value }),
+    col("Facility", d => headline(d) ? headline(d).facility_label : DASH, { get: d => headline(d) ? headline(d).facility_label : null }),
+    col("Size", sizeCell, { num: true, get: d => d.derived.size.total_mm ?? d.derived.size.partial_mm, title: "Sum of the facilities covered. ≥ marks a floor: a facility whose size the term sheet does not fix is left out." }),
+    col("Tenor", tenorCell, { num: true, get: d => M(d, "tenor") }),
+    col("Pricing basis", d => state.data.vocab.pricing_basis[d.record.pricing.basis], { get: d => d.record.pricing.basis }),
+    col("Drawn margin (bps)", d => rng(M(d, "margin_min"), M(d, "margin_max"), "bps"), { num: true, get: d => M(d, "margin_max") }),
+    col("Undrawn fee (bps)", d => rng(M(d, "undrawn_min"), M(d, "undrawn_max"), "bps"), { num: true, get: d => M(d, "undrawn_max") }),
+    col("Max leverage", covCell("leverage", "leverage"), { num: true, get: d => M(d, "leverage") }),
+    col("Min interest cover", covCell("coverage", "coverage"), { num: true, get: d => M(d, "coverage"), title: "Interest coverage covenant. Fixed charge coverage is a different ratio and is listed under Financial covenants." }),
+  ];
+  return [
+    h("div", { class: "kpis" },
+      kpi("Term sheets", String(n), `${ps.filter(d => d.record.credit_profile.value === "investment_grade").length} investment-grade style, ${ps.filter(d => d.record.credit_profile.value === "leveraged").length} leveraged style`),
+      // a headline figure: one decimal of a billion, with the exact sum in the note where that differs
+      kpi("Total commitments", (floors.length ? "≥ " : "") + round1(total),
+        (round1(total) === fmt(total, "usd_mm") ? "sum of the facilities covered" : `${fmt(total, "usd_mm")} across the facilities covered`)
+          + (floors.length ? `; a floor, as ${plural(floors.length, "term sheet")} ${floors.length === 1 ? "has" : "have"} a facility whose size is not fixed` : "")),
+      kpi("Median margin, best tier", lo ? fmtU(lo.median, "bps") : DASH, lo ? `range ${rng(lo.min, lo.max, "bps")} bps across ${lo.n}` : ""),
+      kpi("Median margin, worst tier", hi ? fmtU(hi.median, "bps") : DASH, hi ? `range ${rng(hi.min, hi.max, "bps")} bps across ${hi.n}` : ""),
+      kpi("Median max leverage", lev ? fmt(lev.median, "x") : DASH, lev ? `${lev.n} of ${n} have a leverage covenant` : "no leverage covenants"),
+      kpi("With financial covenants", `${withCov} of ${n}`, [noneStated ? `${noneStated} with none stated` : "", noneFound ? `${noneFound} where the rules engine found none` : ""].filter(Boolean).join(", ") || "every term sheet has one"),
+      kpi("Quotes traced to PDF", `${quotes[0]} of ${quotes[1]}`, "checked against the page text on load")),
+    h("section", { class: "card" }, h("h2", {}, "Term sheets in this peer group"),
+      h("p", { class: "desc" }, "One row per term sheet, benchmarked on its headline facility (the revolver where there is one). ✓ marks an AI-audited record. Select a row for the full terms and source quotes."
+        + mixNote(ps)),
+      dataTable(cols, ps, { onRow: d => select(d.id), isSubject: d => d.id === state.subject, sort: 0 })),
+  ];
+}
+
+function pricingRows(measure) {
+  return peers().filter(d => M(d, measure + "_max") != null).map(d => {
+    const line = headline(d);
+    const computed = !line.computed.includes(measure) ? "" : measure === "margin" ? "Computed as all-in drawn less facility fee. " : "Computed as drawn margin plus facility fee. ";
+    const csa = measure !== "undrawn" && d.derived.csa_status === "stated" && M(d, "csa") > 0 ? `A credit spread adjustment of ${fmtU(M(d, "csa"), "bps")} is payable on top. ` : "";
+    return {
+      id: d.id, name: d.deal, min: M(d, measure + "_min"), max: M(d, measure + "_max"), open: M(d, measure + "_open"), flag: unaudited(d),
+      openLabel: line.opening_level && line.tiers > 1 ? "level " + line.opening_level : "",
+      sub: `${line.facility_label} · ${state.data.vocab.pricing_basis[d.record.pricing.basis].toLowerCase()} · ${line.tiers} tier${line.tiers === 1 ? "" : "s"}`,
+      note: computed + csa + (measure !== "margin" && FEE_NOTE[line.undrawn_type] ? `Undrawn fee is a ${FEE_NOTE[line.undrawn_type]}. ` : "")
+        + (unaudited(d) ? "Read by the rules engine alone, not audited." : ""),
+    };
+  });
+}
+
+function viewPricing() {
+  const measure = state.measure, info = MEASURES[measure];
+  const rows = pricingRows(measure);
+  const key = state.sort;
+  rows.sort((a, b) => key === "name" ? a.name.localeCompare(b.name) : (a[key] - b[key]) || (a.max - b.max) || a.name.localeCompare(b.name));
+  const seg = (items, current, set) => h("div", { class: "seg", role: "group" }, items.map(([k, label]) =>
+    h("button", { type: "button", "aria-pressed": String(k === current), onclick: () => { set(k); render(); } }, label)));
+  const chartCard = h("section", { class: "card" },
+    h("h2", {}, `${info.label} by term sheet`),
+    h("p", { class: "desc" }, info.note + " Each row runs from the best to the worst tier of the pricing grid; flat pricing shows as a single point." + mixNote(peers())),
+    h("div", { class: "legend" },
+      h("span", {}, s("svg", { width: 14, height: 14 }, s("circle", { cx: 7, cy: 7, r: 5, fill: "var(--s1-low)" })), "Best tier"),
+      h("span", {}, s("svg", { width: 14, height: 14 }, s("circle", { cx: 7, cy: 7, r: 5, fill: "var(--s1-high)" })), "Worst tier"),
+      h("span", {}, s("svg", { width: 14, height: 14 }, s("path", { d: "M7,1L13,7L7,13L1,7Z", fill: "var(--s2)" })), "Opening level, where the term sheet states it"),
+      h("span", {}, s("svg", { width: 14, height: 14 }, s("line", { x1: 7, x2: 7, y1: 0, y2: 14, stroke: "var(--ink-2)" })), "Peer median")),
+    rangeChart(rows, {
+      unit: "bps", title: info.label, onSelect: select, empty: "No term sheet in this peer group states this figure.",
+      refs: [{ label: "median best", value: (stat(measure + "_min") || {}).median }, { label: "median worst", value: (stat(measure + "_max") || {}).median }],
+    }),
+    flagNote(rows));
+  // best-to-worst tier in one column; sorts on the worst tier
+  const span = (label, key, extra = {}) => col(label, d => rng(M(d, key + "_min"), M(d, key + "_max"), "bps"), {
+    num: true, get: d => M(d, key + "_max"),
+    foot: f => { const a = stat(key + "_min"), b = stat(key + "_max"); return a && b ? rng(a[f.key], b[f.key], "bps") + few(a.n, b.n) : DASH; }, ...extra });
+  const cols = [
+    col("Deal", dealName, { get: d => d.deal }),
+    col("Facility", d => headline(d) ? headline(d).facility_label : DASH, { get: d => headline(d) ? headline(d).facility_label : null }),
+    col("Basis", d => state.data.vocab.pricing_basis[d.record.pricing.basis], { get: d => d.record.pricing.basis }),
+    numCol("Tiers", "tiers", "count"),
+    span("Drawn margin", "margin", { title: "Best tier to worst tier of the pricing grid" }),
+    col("Opening margin", d => { const l = headline(d); return M(d, "margin_open") == null ? h("span", { class: "muted" }, "not stated")
+      : h("span", { title: l.opening_criteria || "" }, fmt(M(d, "margin_open"), "bps"), l.tiers > 1 ? h("span", { class: "small" }, ` level ${l.opening_level}`) : null); },
+      { num: true, get: d => M(d, "margin_open"), title: "Margin at the tier the term sheet says applies at closing", foot: footStat("margin_open", "bps") }),
+    span("All-in drawn", "all_in", { title: MEASURES.all_in.note }),
+    span("Undrawn fee", "undrawn", { title: MEASURES.undrawn.note }),
+    col("Fee type", d => { const l = headline(d); return l && FEE_NOTE[l.undrawn_type] ? FEE_NOTE[l.undrawn_type].replace(" fee", "") : DASH; },
+      { get: d => headline(d) ? headline(d).undrawn_type : null, title: "Commitment fee: paid on unused commitments. Facility fee: paid on the whole commitment, drawn or not." }),
+    col("CSA", d => d.derived.csa_status === "stated" ? fmt(M(d, "csa"), "bps") : d.derived.csa_status === "none" ? "none" : h("span", { class: "muted" }, "not stated"),
+      { num: true, get: d => M(d, "csa"), title: "SOFR credit spread adjustment, bps, payable on top of the margin and not included in the margin or all-in columns. 'None' means the term sheet expressly excludes or removes it.", foot: footStat("csa", "bps") }),
+    numCol("Floor", "floor", "pct"),
+    span("Upfront", "upfront", { title: "Lowest to highest upfront fee stated, in basis points" }),
+    col("Vs median", d => { const p = place("margin_max", d.id); return p ? signed(p.vs_median, "count") : DASH; },
+      { num: true, get: d => (place("margin_max", d.id) || {}).vs_median, title: "Worst-tier drawn margin less the peer median, in basis points" }),
+  ];
+  const ms = state.data.vocab.metrics.filter(m => m.group === "pricing" && stat(m.id));
+  return [
+    h("div", { class: "filters", style: "border-top:0;padding-top:0" },
+      h("span", {}, h("span", { class: "lab" }, "Measure"), seg(Object.entries(MEASURES).map(([k, v]) => [k, v.label]), measure, k => { state.measure = k; })),
+      h("span", {}, h("span", { class: "lab" }, "Order by"), seg([["max", "Worst tier"], ["min", "Best tier"], ["name", "Name"]], key, k => { state.sort = k; }))),
+    chartCard,
+    h("section", { class: "card" }, h("h2", {}, "Pricing comparables"),
+      h("p", { class: "desc" }, "All figures in basis points unless shown otherwise. Select a column heading to sort, or a row for the full pricing grid and source quotes. In the footer, (n=…) is the number of term sheets a statistic rests on where that is fewer than the whole group."),
+      dataTable(cols, peers(), { onRow: d => select(d.id), isSubject: d => d.id === state.subject, sort: 4,
+        foot: [{ label: "Peer median", key: "median" }, { label: "Peer mean", key: "mean" }] })),
+    h("section", { class: "card" }, h("h2", {}, "Peer statistics"),
+      h("p", { class: "desc" }, "Quartiles use linear interpolation (the same method as Excel's PERCENTILE.INC). N is the number of term sheets that state the figure."),
+      statsTable(ms)),
+  ];
+}
+
+function statsTable(metrics) {
+  // quartiles of fewer than four values are interpolation, not information
+  const c = (label, key) => ({ label, num: true, cell: m => (key === "p25" || key === "p75") && stat(m.id).n < 4 ? h("span", { class: "muted", title: "Not shown for fewer than four term sheets" }, DASH)
+    : fmt(stat(m.id)[key], key === "n" ? "count" : m.unit) });
+  return dataTable([col("Figure", m => h("span", { title: m.note }, m.label)), col("Unit", m => ({ bps: "bps", x: "turns", pct: "%", usd_mm: "$", years: "years", count: "" })[m.unit]),
+    c("N", "n"), c("Minimum", "min"), c("25th pct", "p25"), c("Median", "median"), c("Mean", "mean"), c("75th pct", "p75"), c("Maximum", "max")], metrics);
+}
+
+function covText(c, dc) {
+  const bits = [`${DIR[dc.direction]} ${fmt(dc.threshold, dc.unit)}`];
+  if (dc.deferred) bits.push("tested later");
+  if (dc.has_schedule) {
+    // where the level goes: the most permissive point if it is neither the start nor the end, then the level it ends on
+    const path = [];
+    if (dc.loosest != null && dc.loosest !== dc.threshold && dc.loosest !== dc.final) path.push(`${dc.direction === "max" ? "up" : "down"} to ${fmt(dc.loosest, dc.unit)}`);
+    if (dc.final != null && dc.final !== dc.threshold) path.push(`ends at ${fmt(dc.final, dc.unit)}`);
+    bits.push(path.length ? "schedule: " + path.join(", ") : "dated schedule");
+  }
+  if (dc.step_up != null) bits.push(`step-up ${fmt(dc.step_up, dc.unit)}`); else if (dc.has_step_up) bits.push("step-up");
+  if (dc.springing) bits.push("springing");
+  return bits.join(" · ");
+}
+
+function viewCovenants() {
+  const ps = peers();
+  const family = fam => ps.flatMap(d => {
+    const i = d.derived.primary_covenant[fam];
+    if (i == null) return [];
+    const dc = d.derived.covenants[i], c = d.record.financial_covenants[i];
+    const others = (d.derived.primary_alternates[fam] || []).map(j => fmt(d.derived.covenants[j].threshold, d.derived.covenants[j].unit));
+    return [{ id: d.id, name: d.deal, value: dc.threshold, ext: dc.step_up, flag: unaudited(d),
+      levelLabel: dc.deferred ? "first level tested" : "level at closing",
+      sub: dc.label + (dc.springing ? " · springing" : "") + (dc.deferred ? " · tested later" : "") + (others.length ? ` · also ${others.join(", ")}` : ""), long: c.name,
+      note: [dc.springing ? "Springing: " + c.springing.trigger : "", dc.deferred ? `Not tested at closing. Applies: ${dc.starts || "from a later date"}.` : "",
+        dc.has_schedule ? `The level changes over time${dc.final != null && dc.final !== dc.threshold ? " and ends at " + fmt(dc.final, dc.unit) : ""}; the level at closing is shown.` : "",
+        others.length ? `The term sheet sets another level for the same test (${others.join(", ")}), for example for other borrowers; the first listed is charted.` : "",
+        unaudited(d) ? "Read by the rules engine alone, not audited." : ""].filter(Boolean).join(" ") }];
+  }).sort((a, b) => a.value - b.value || a.name.localeCompare(b.name));
+  const lev = family("leverage"), cov = family("coverage");
+  const cell = fam => d => {
+    const items = d.derived.covenants.filter(dc => dc.family === fam);
+    if (!items.length) return h("span", { class: "muted" }, DASH);
+    // the scope is spelled out only where one test appears at two levels (for different borrowers, say)
+    return items.map(dc => h("div", {}, h("div", {}, covText(d.record.financial_covenants[dc.index], dc)),
+      h("div", { class: "small" }, dc.label + (d.record.financial_covenants[dc.index].applies_to && items.filter(o => o.type === dc.type).length > 1
+        ? ": " + cut(d.record.financial_covenants[dc.index].applies_to, 60) : ""))));
+  };
+  const sortBy = fam => d => { const i = d.derived.primary_covenant[fam]; return i == null ? null : d.derived.covenants[i].threshold; };
+  const other = d => d.derived.covenants.filter(dc => !["leverage", "coverage", "capitalization", "liquidity"].includes(dc.family));
+  const cols = [
+    col("Deal", dealName, { get: d => d.deal }),
+    col("Profile", d => h("span", { class: "nowrap" }, PROFILE[d.record.credit_profile.value]), { get: d => d.record.credit_profile.value }),
+    col("Maximum leverage", cell("leverage"), { get: sortBy("leverage") }),
+    col("Minimum interest coverage", cell("coverage"), { get: sortBy("coverage") }),
+    col("Maximum debt / capitalization", cell("capitalization"), { get: sortBy("capitalization") }),
+    col("Minimum liquidity", cell("liquidity"), { get: sortBy("liquidity") }),
+    col("Other", d => other(d).length ? other(d).map(dc => h("div", {}, `${dc.label} ${covText(null, dc)}`)) : h("span", { class: "muted" }, DASH)),
+    col("Tests", d => String(d.derived.n_covenants), { num: true, get: d => d.derived.n_covenants }),
+  ];
+  // an audited record can say there is no financial covenant; the rules engine can only fail to find one
+  const none = ps.filter(d => !d.derived.n_covenants && !unaudited(d)), unfound = ps.filter(d => !d.derived.n_covenants && unaudited(d));
+  const noneText = (none.length ? ` No financial covenant: ${none.map(d => d.deal).join(", ")}.` : "")
+    + (unfound.length ? ` None found by the rules engine, which is not the same as none in the term sheet: ${unfound.map(d => d.deal).join(", ")}.` : "");
+  const ms = state.data.vocab.metrics.filter(m => m.group === "covenants" && stat(m.id) && stat(m.id).n >= 2);
+  return [
+    h("div", { class: "grid2" },
+      h("section", { class: "card" }, h("h2", {}, "Maximum leverage covenant"),
+        h("p", { class: "desc" }, "Level at closing, in turns of EBITDA (the first level tested, where a test only starts later). The lighter extension is the temporary level after a qualifying acquisition. Definitions differ (total, net, secured, first lien): the basis is named under each deal."),
+        h("div", { class: "legend" },
+          h("span", {}, s("svg", { width: 18, height: 12 }, s("rect", { x: 0, y: 2, width: 18, height: 8, rx: 2, fill: "var(--s1)" })), "Level at closing"),
+          h("span", {}, s("svg", { width: 18, height: 12 }, s("rect", { x: 0, y: 2, width: 18, height: 8, rx: 2, fill: "var(--s1-soft)" })), "Acquisition step-up"),
+          h("span", {}, s("svg", { width: 14, height: 14 }, s("line", { x1: 7, x2: 7, y1: 0, y2: 14, stroke: "var(--ink-2)" })), "Peer median")),
+        barChart(lev, { unit: "x", title: "Maximum leverage covenant", onSelect: select, ref: { label: "median", value: (stat("leverage") || {}).median },
+          empty: "No term sheet in this peer group has a leverage covenant." }),
+        flagNote(lev)),
+      h("section", { class: "card" }, h("h2", {}, "Minimum interest coverage covenant"),
+        h("p", { class: "desc" }, "Interest coverage level at closing; a higher minimum is a tighter test. Where the level steps over time, the level it ends on is given in the table below. Fixed charge coverage is a different ratio: it is listed under Other and is not part of this chart or its median."),
+        h("div", { class: "legend" },
+          h("span", {}, s("svg", { width: 18, height: 12 }, s("rect", { x: 0, y: 2, width: 18, height: 8, rx: 2, fill: "var(--s1)" })), "Level at closing"),
+          h("span", {}, s("svg", { width: 14, height: 14 }, s("line", { x1: 7, x2: 7, y1: 0, y2: 14, stroke: "var(--ink-2)" })), "Peer median")),
+        barChart(cov, { unit: "x", title: "Minimum interest coverage covenant", onSelect: select, ref: { label: "median", value: (stat("coverage") || {}).median },
+          empty: "No term sheet in this peer group has an interest coverage covenant." }),
+        flagNote(cov))),
+    h("section", { class: "card" }, h("h2", {}, "Financial covenant package by term sheet"),
+      h("p", { class: "desc" }, "Maintenance covenants only: incurrence tests inside baskets are excluded. ≤ marks a maximum and ≥ a minimum." + noneText),
+      dataTable(cols, ps, { onRow: d => select(d.id), isSubject: d => d.id === state.subject, sort: 0 })),
+    h("section", { class: "card" }, h("h2", {}, "Peer statistics"),
+      h("p", { class: "desc" }, "Leverage figures mix definitions, so read the median alongside the basis named for each deal."),
+      ms.length ? statsTable(ms) : h("p", { class: "empty" }, "No covenant levels in this peer group.")),
+  ];
+}
+
+function viewDeal() {
+  const d = byId(state.subject);
+  if (!d) return [h("section", { class: "card" }, h("h2", {}, "Choose a term sheet"), h("p", { class: "desc" }, "Pick one under Highlight in the bar above, or select a row in any table or chart."))];
+  const r = d.record, p = r.pricing, fac = Object.fromEntries(r.facilities.map(f => [f.id, f]));
+  const inPeers = state.bench.peer_ids.includes(d.id);
+  const facName = ids => (ids && ids.length ? ids : r.facilities.map(f => f.id)).map(i => fac[i] ? fac[i].name : i).join(", ");
+  const head = h("section", { class: "card" },
+    h("h2", {}, d.deal, " ", sourceTag(d)),
+    h("p", { class: "desc" }, r.doc.title || d.file),
+    h("dl", { class: "facts" },
+      h("dt", {}, "Borrower"), h("dd", {}, r.borrower.name, " ", evidence(d, r.borrower)),
+      h("dt", {}, "Document"), h("dd", {}, [KIND[r.doc.kind], r.doc.date ? "dated " + r.doc.date : null, r.doc.is_amendment ? "amendment or extension of an existing facility" : null, `${d.pages} page${d.pages === 1 ? "" : "s"}`].filter(Boolean).join(" · "), " · ",
+        d.pdf_url ? h("a", { href: d.pdf_url, target: "_blank", rel: "noopener" }, d.file) : d.file),
+      h("dt", {}, "Credit profile"), h("dd", {}, PROFILE[r.credit_profile.value], h("div", { class: "small" }, r.credit_profile.basis)),
+      h("dt", {}, "Security"), h("dd", {}, SECURITY[r.security.value], " ", evidence(d, r.security), h("div", { class: "small" }, r.security.detail)),
+      r.doc.notes ? [h("dt", {}, "About the document"), h("dd", { class: "small" }, r.doc.notes)] : null,
+      h("dt", {}, "Data source"), h("dd", {}, d.source === "verified"
+        ? `AI-audited record (${d.verified_on}). ${d.verified_method || ""}`
+        : "Rules engine output. Not independently audited: check the figures against the quoted source text.",
+        h("div", { class: "small" }, `${d.evidence.found} of ${d.evidence.total} quotes found in the PDF text.`),
+        d.verified_notes && d.verified_notes.length ? h("ul", { class: "plain small" }, d.verified_notes.filter(Boolean).map(n => h("li", {}, n))) : null,
+        d.notes.length ? h("ul", { class: "plain small" }, d.notes.map(n => h("li", {}, n))) : null)));
+
+  const facilities = h("section", { class: "card" }, h("h2", {}, "Facilities"),
+    r.facilities.length ? dataTable([
+      col("Facility", f => f.name), col("Type", f => state.data.vocab.facility_types[f.type] || f.type),
+      col("Amount", f => f.amount_mm == null ? h("span", { class: "muted", title: "The term sheet does not fix the size of this facility" }, "not fixed")
+        : (f.currency && f.currency !== "USD" ? f.currency + " " : "") + fmt(f.amount_mm, "usd_mm"), { num: true }),
+      col("Tenor", f => f.tenor_years == null ? DASH : fmt(f.tenor_years, "years"), { num: true }),
+      col("Maturity and tenor as stated", f => h("span", { class: "small" }, f.tenor_text || f.maturity_text || DASH)),
+      col("Source", f => evidence(d, f)),
+    ], r.facilities) : h("p", { class: "empty" }, "No facility was identified."),
+    r.facilities.length ? h("p", { class: "note" }, d.derived.size.total_mm != null ? `Total facility size: ${fmt(d.derived.size.total_mm, "usd_mm")}.`
+      : (d.derived.size.partial_mm != null ? `Total facility size: at least ${fmt(d.derived.size.partial_mm, "usd_mm")}. ` : "No total facility size is shown. ") + d.derived.size.note
+        + " The deal is left out of the facility size statistics.") : null);
+
+  const grids = p.grids.map((g, gi) => {
+    const line = d.derived.lines[gi];
+    const any = k => g.tiers.some(t => t[k] != null) || line.tier_figures.some(f => f[{ drawn_margin_bps: "margin", all_in_drawn_bps: "all_in", undrawn_fee_bps: "undrawn" }[k]] != null);
+    const fig = (t, k) => line.tier_figures[g.tiers.indexOf(t)][k];
+    const star = k => line.computed.includes(k) ? "*" : "";
+    const cols = [
+      col("Level", t => [t.level, t.is_opening ? h("span", { class: "tag", style: "margin-left:6px" }, "opening") : null]),
+      col(g.metric || "Criteria", t => t.criteria || DASH),
+      any("drawn_margin_bps") ? col("Drawn margin" + star("margin"), t => fmt(fig(t, "margin"), "bps"), { num: true }) : null,
+      any("base_rate_margin_bps") ? col("Base rate margin", t => fmt(t.base_rate_margin_bps, "bps"), { num: true }) : null,
+      any("undrawn_fee_bps") ? col(({ facility_fee: "Facility fee", commitment_fee: "Commitment fee", ticking_fee: "Ticking fee" })[g.undrawn_fee_type] || "Undrawn fee", t => fmt(t.undrawn_fee_bps, "bps"), { num: true }) : null,
+      any("all_in_drawn_bps") ? col("All-in drawn" + star("all_in"), t => fmt(fig(t, "all_in"), "bps"), { num: true }) : null,
+      any("lc_fee_bps") ? col("LC fee", t => fmt(t.lc_fee_bps, "bps"), { num: true }) : null,
+      col("Source", t => evidence(d, t, g.page)),
+    ].filter(Boolean);
+    return h("div", {}, h("h3", { class: "sec" }, `${g.name} · ${facName(g.facility_ids)} · basis points`),
+      dataTable(cols, g.tiers),
+      line.computed.length ? h("p", { class: "note" }, "* Computed, not printed in the term sheet: " + (line.computed.includes("margin") ? "drawn margin = all-in drawn less facility fee. " : "") + (line.computed.includes("all_in") ? "All-in drawn = drawn margin plus facility fee." : "")) : null,
+      g.opening_level_note ? h("p", { class: "note" }, "Opening level: " + g.opening_level_note) : null,
+      g.notes ? h("p", { class: "note" }, g.notes) : null);
+  });
+  const csa = p.csa.applies === true ? fmtU(p.csa.bps, "bps") : p.csa.applies === false ? "None" : "Not stated";
+  const pricing = h("section", { class: "card" }, h("h2", {}, "Pricing"),
+    h("dl", { class: "facts" },
+      h("dt", {}, "Benchmark"), h("dd", {}, p.benchmark || DASH),
+      h("dt", {}, "Basis"), h("dd", {}, state.data.vocab.pricing_basis[p.basis], p.basis_detail ? h("div", { class: "small" }, p.basis_detail) : null),
+      h("dt", {}, "Credit spread adjustment"), h("dd", {}, csa, " ", p.csa.quote ? evidence(d, p.csa) : null, p.csa.detail ? h("div", { class: "small" }, p.csa.detail) : null),
+      h("dt", {}, "Benchmark floor"), h("dd", {}, p.floor.pct == null ? "Not stated" : fmt(p.floor.pct, "pct"), " ", p.floor.quote ? evidence(d, p.floor) : null, p.floor.detail ? h("div", { class: "small" }, p.floor.detail) : null)),
+    d.derived.headline_rivals.length ? h("p", { class: "note" }, `This term sheet has ${d.derived.headline_rivals.length + 1} pricing grids for the same type of facility. The benchmark uses “${d.derived.lines[d.derived.headline].name}”, the one with the most tiers; the others are shown below it.`) : null,
+    grids.length ? grids : h("p", { class: "empty" }, "No pricing grid or margin was identified."),
+    h("h3", { class: "sec" }, "Fees"),
+    p.fees.length ? dataTable([
+      col("Fee", f => state.data.vocab.fee_types[f.type] || f.type), col("Description", f => h("span", { class: "small" }, f.description)),
+      col("bps", f => f.bps == null ? h("span", { class: "muted" }, "not stated") : fmt(f.bps, "bps") + (f.bps_low != null && f.bps_high != null && f.bps_low !== f.bps_high ? ` (${rng(f.bps_low, f.bps_high, "bps")})` : ""), { num: true }),
+      col("As stated", f => h("span", { class: "small" }, f.amount_text)), col("Source", f => evidence(d, f)),
+    ], p.fees) : h("p", { class: "empty" }, "No other fees with a stated amount."),
+    p.change_vs_existing ? h("p", { class: "note" }, "Change against existing terms: " + p.change_vs_existing) : null,
+    p.notes ? h("p", { class: "note" }, p.notes) : null);
+
+  const unitWord = { x: "", pct: "", usd_mm: "" };
+  const covs = h("section", { class: "card" }, h("h2", {}, "Financial covenants"),
+    r.financial_covenants.length ? r.financial_covenants.map((c, i) => {
+      const dc = d.derived.covenants[i];
+      return h("div", { class: "cov" },
+        h("h3", {}, dc.label, " ", dc.springing ? h("span", { class: "tag" }, "springing") : null, " ", dc.has_step_up ? h("span", { class: "tag" }, "acquisition step-up") : null, " ",
+          dc.has_schedule ? h("span", { class: "tag" }, "dated schedule") : null, " ", dc.deferred ? h("span", { class: "tag" }, "not tested at closing") : null),
+        h("div", {}, h("span", { class: "lvl" }, `${DIR[dc.direction]} ${fmt(dc.threshold, dc.unit)}${unitWord[dc.unit]}`), h("span", { class: "small" }, c.name), " ", evidence(d, c)),
+        h("dl", { class: "facts", style: "margin-top:8px" },
+          c.schedule.length ? [h("dt", {}, "Schedule"), h("dd", {}, h("ul", { class: "plain" }, c.schedule.map(row => h("li", {}, `${row.period || "Period"}: ${row.threshold == null ? "not tested" : fmt(row.threshold * (dc.unit === "pct" && c.unit === "x" ? 100 : 1), dc.unit)}`))))] : null,
+          c.step_up.present ? [h("dt", {}, "Acquisition step-up"), h("dd", {}, dc.step_up != null ? fmt(dc.step_up, dc.unit) + ". " : "", h("span", { class: "small" }, c.step_up.detail))] : null,
+          dc.springing ? [h("dt", {}, "Springing trigger"), h("dd", { class: "small" }, c.springing.trigger)] : null,
+          c.applies_to ? [h("dt", {}, "Applies to"), h("dd", { class: "small" }, c.applies_to)] : null,
+          c.test_frequency ? [h("dt", {}, "Tested"), h("dd", { class: "small" }, c.test_frequency)] : null,
+          c.definition_notes ? [h("dt", {}, "Definition"), h("dd", { class: "small" }, c.definition_notes)] : null,
+          c.change_vs_existing ? [h("dt", {}, "Change against existing"), h("dd", { class: "small" }, c.change_vs_existing)] : null));
+    }) : h("p", { class: "desc" }, r.no_financial_covenant_note || (unaudited(d)
+      ? "The rules engine found no financial covenant. That is not the same as the term sheet having none: check the document."
+      : "No financial covenant is stated in this term sheet.")));
+
+  // a figure is only worth placing among peers when at least one other peer states it
+  const scored = state.data.vocab.metrics.filter(m => M(d, m.id) != null && stat(m.id) && m.id !== "tiers"
+    && Object.keys(state.bench.metrics[m.id].deals).some(id => id !== d.id));
+  const card = h("section", { class: "card" }, h("h2", {}, `Against the peer group: ${state.bench.label} (${state.bench.n})`),
+    h("p", { class: "desc" }, (inPeers ? "" : "This term sheet is not in the selected peer group, so no rank is shown. ") + "In each strip the grey dots are peers, the band is the middle half of the group, the tick is the median and the blue dot is this deal."),
+    dataTable([
+      col("Figure", m => h("span", { title: m.note }, m.label)),
+      col("This deal", m => {
+        const others = (d.derived.primary_alternates[FAMILY_OF[m.id]] || []).map(j => fmt(d.derived.covenants[j].threshold, d.derived.covenants[j].unit));
+        return [fmtU(M(d, m.id), m.unit), others.length ? h("div", { class: "small", title: "The term sheet sets more than one level for this test; the first listed is benchmarked" }, "also " + others.join(", ")) : null];
+      }, { num: true }),
+      col("Peer median", m => fmtU(stat(m.id).median, m.unit), { num: true }),
+      col("Against median", m => signed(Math.round((M(d, m.id) - stat(m.id).median) * 1e4) / 1e4, m.unit), { num: true }),
+      col("Rank from lowest", m => { const pl = place(m.id, d.id); return pl ? `${pl.rank} of ${pl.of}` : DASH; }, { num: true }),
+      col("Peer range", m => `${fmt(stat(m.id).min, m.unit)} ${DASH} ${fmt(stat(m.id).max, m.unit)}`, { num: true }),
+      col("Position among peers", m => strip(m.id, d.id)),
+    ], scored));
+  return [head, card, facilities, pricing, covs];
+}
+
+function viewQA() {
+  const q = state.data.qa, ds = deals();
+  const cols = [
+    col("Deal", d => d.deal, { get: d => d.deal }), col("Shown from", d => sourceTag(d), { get: d => d.source }),
+    col("Read", d => d.readable ? (d.verified_status === "stale" ? h("span", { title: STALE }, "PDF changed since audit") : "yes")
+      : h("span", { class: "bad", title: d.notes.join(" ") }, d.pages ? "no text layer" : "could not be opened"), { get: d => (d.readable ? "b" : "a") + (d.verified_status || "") }),
+    // nothing to trace is not the same as everything traced
+    col("Quotes found in PDF", d => h("span", { class: !d.evidence.total ? "muted" : d.evidence.found === d.evidence.total ? "ok" : "bad" }, `${d.evidence.found} of ${d.evidence.total}`), { num: true, get: d => d.evidence.total - d.evidence.found }),
+    col("Rules engine: fields matched", d => d.qa ? String(d.qa.summary.match) : DASH, { num: true, get: d => d.qa ? d.qa.summary.match : null }),
+    col("Different", d => d.qa ? String(d.qa.summary.mismatch) : DASH, { num: true, get: d => d.qa ? d.qa.summary.mismatch : null }),
+    col("Missed", d => d.qa ? String(d.qa.summary.missed) : DASH, { num: true, get: d => d.qa ? d.qa.summary.missed : null }),
+    col("Extra", d => d.qa ? String(d.qa.summary.extra) : DASH, { num: true, get: d => d.qa ? d.qa.summary.extra : null }),
+    col("Agreement", d => d.qa && d.qa.summary.agreement != null ? trim(d.qa.summary.agreement * 100, 1) + "%" : DASH, { num: true, get: d => d.qa ? d.qa.summary.agreement : null }),
+  ];
+  const diffs = ds.flatMap(d => (d.qa ? d.qa.checks : []).filter(c => c.status !== "match").map(c => ({ d, c })));
+  const show = v => v == null ? h("span", { class: "muted" }, "nothing") : typeof v === "boolean" ? (v ? "yes" : "no") : String(v);
+  const label = { mismatch: "Different", missed: "Missed by rules", extra: "Rules only" };
+  const missing = ds.flatMap(d => d.evidence.missing.map(m => ({ d, m })));
+  return [
+    h("div", { class: "kpis" },
+      h("div", { class: "kpi" }, h("div", { class: "l" }, "Shown from AI-audited records"), h("div", { class: "v" }, `${state.data.meta.n_verified} of ${state.data.meta.n_deals}`), h("div", { class: "n" }, `${state.data.meta.n_rules} from the rules engine alone`)),
+      h("div", { class: "kpi" }, h("div", { class: "l" }, "Rules engine agreement"), h("div", { class: "v" }, q.agreement == null ? DASH : trim(q.agreement * 100, 1) + "%"), h("div", { class: "n" }, `${q.match} of ${q.match + q.mismatch + q.missed} fields across ${q.documents} documents`)),
+      h("div", { class: "kpi" }, h("div", { class: "l" }, "Quotes not found in PDF"), h("div", { class: "v" }, String(missing.length)), h("div", { class: "n" }, "re-checked against the page text on every load"))),
+    h("section", { class: "card" }, h("h2", {}, "How the figures are sourced"),
+      h("p", { class: "desc" }, "Every term sheet is read by an offline rules engine (pattern matching on the PDF text). Where an AI-audited record exists for exactly the same PDF file, that record is shown and the rules engine output is used only for the comparison below. An audited record was extracted from the full document by one AI reviewer and then checked value by value by a second, independent one; it has not been signed off by a person. A term sheet added to the folder later is shown from the rules engine alone and is labelled as such."),
+      h("p", { class: "desc" }, "Whatever the source, each figure carries the quote and page it was read from, and every quote is looked up in the PDF text each time the folder is read. Agreement is measured on the same documents the rules were developed against, so it overstates how the rules engine will do on a format it has not seen: treat rules-only figures as a first read and check them against the quoted source text."),
+      dataTable(cols, ds, { onRow: d => select(d.id), sort: 0 })),
+    h("section", { class: "card" }, h("h2", {}, `Where the rules engine and the audited record differ (${diffs.length})`),
+      diffs.length ? dataTable([
+        col("Deal", x => x.d.deal, { get: x => x.d.deal }), col("Section", x => x.c.group), col("Field", x => x.c.field),
+        col("Audited record", x => show(x.c.verified)), col("Rules engine", x => show(x.c.rules)), col("Result", x => label[x.c.status], { get: x => x.c.status }),
+      ], diffs) : h("p", { class: "empty" }, "No differences.")),
+    missing.length ? h("section", { class: "card" }, h("h2", {}, "Quotes that could not be found in the PDF text"),
+      dataTable([col("Deal", x => x.d.deal), col("Item", x => x.m.item), col("Cited page", x => x.m.page == null ? DASH : String(x.m.page), { num: true }),
+        col("Found on", x => x.m.found_on.length ? "page " + x.m.found_on.join(", ") : "no page"), col("Quote", x => h("span", { class: "small" }, x.m.quote))], missing)) : null,
+    state.data.meta.problems.length ? h("section", { class: "card" }, h("h2", {}, "Notes"), h("ul", { class: "plain" }, state.data.meta.problems.map(pb => h("li", {}, pb)))) : null,
+  ];
+}
+
+// ---------------------------------------------------------------- chrome
+const VIEWS = { overview: viewOverview, pricing: viewPricing, covenants: viewCovenants, deal: viewDeal, qa: viewQA };
+
+function setGroup(key) {
+  state.group = key;
+  state.bench = key === "custom" ? state.custom : state.data.benchmarks[key];
+}
+async function applyCustom(ids) {
+  const res = await fetch("/api/benchmark?ids=" + encodeURIComponent(ids.join(",")));
+  if (!res.ok) throw new Error("The server could not compute the peer statistics.");
+  state.custom = { label: "Custom selection", ...(await res.json()) };
+  setGroup("custom");
+  render();
+}
+
+// The header buttons. With no dataset yet, or an empty folder, only Re-scan and the theme switch are offered.
+function renderActions() {
+  const data = state.data, live = !(data && data.meta.static), any = data && data.deals.length;
+  // an extract follows the peer group on screen: the same rows, and peer columns measured against the same group
+  const scope = !any ? "" : state.group === "custom" ? "?ids=" + encodeURIComponent(state.bench.peer_ids.join(",")) : "?group=" + encodeURIComponent(state.group);
+  const exportLink = (name, label, query) => h("a", { href: "/export/" + name + query, download: name }, label);
+  $("actions").replaceChildren(...[
+    live ? h("button", { class: "btn", type: "button", title: "Re-scan the folder and re-read any new or changed PDFs", onclick: refresh, id: "refresh" }, "Re-scan folder") : null,
+    live && any ? h("details", { class: "menu" }, h("summary", { class: "btn" }, "Export"), h("div", { class: "pop" },
+      h("div", { class: "hint" }, `CSV for ${state.bench.label.toLowerCase()} (${state.bench.n}), opens in Excel`),
+      exportLink("pricing_benchmark.csv", "Pricing benchmark", scope), exportLink("pricing_grids.csv", "Pricing grids, every tier", scope), exportLink("fees.csv", "Fees", scope),
+      exportLink("financial_covenants.csv", "Financial covenants", scope), exportLink("peer_statistics.csv", "Peer statistics", scope),
+      h("div", { class: "hint" }, "Share: every term sheet, all groups"), exportLink("report.html", "This benchmark as one HTML file", ""))) : null,
+    h("button", { class: "btn", type: "button", title: "Switch between light and dark", onclick: () => {
+      const dark = document.documentElement.dataset.theme ? document.documentElement.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.dataset.theme = dark ? "light" : "dark";
+    } }, "Light / dark")].filter(Boolean));
+}
+
+function renderChrome() {
+  const meta = state.data.meta, audited = meta.n_verified;
+  $("sub").textContent = `${plural(meta.n_deals, "term sheet")} in ${meta.docs_dir} · ${audited === meta.n_deals ? "all" : audited + " of " + meta.n_deals} AI-audited · read ${meta.generated.replace("T", " ")}` + (meta.static ? " · saved copy" : "");
+  renderActions();
+
+  const groups = Object.entries(state.data.benchmarks).map(([k, b]) => [k, `${b.label} (${b.n})`]);
+  if (state.custom) groups.push(["custom", `Custom (${state.custom.n})`]);
+  const picked = new Set(state.bench.peer_ids);
+  const custom = meta.static ? null : h("details", { class: "menu" }, h("summary", { class: "btn" }, "Choose peers…"),
+    h("div", { class: "pop", style: "left:0;right:auto;max-height:60vh;overflow:auto" },
+      h("div", { class: "hint" }, "Benchmark against these term sheets"),
+      deals().map(d => h("label", { class: d.readable ? null : "off" }, h("input", { type: "checkbox", value: d.id, checked: picked.has(d.id), disabled: !d.readable }), " ", d.deal, d.readable ? "" : " (could not be read)")),
+      h("div", { class: "row stick" }, h("button", { class: "btn", type: "button", onclick: e => {
+        const ids = [...e.target.closest(".pop").querySelectorAll("input:checked")].map(i => i.value);
+        if (ids.length < 2) { alert("Choose at least two term sheets."); return; }
+        applyCustom(ids).catch(err => alert(err.message));
+      } }, "Apply"))));
+  $("filters").replaceChildren(
+    h("span", {}, h("span", { class: "lab" }, "Peer group"), h("div", { class: "seg", role: "group" }, groups.map(([k, label]) =>
+      h("button", { type: "button", "aria-pressed": String(k === state.group), onclick: () => { setGroup(k); render(); } }, label))), " ", custom),
+    h("span", {}, h("label", { class: "lab", for: "subject" }, "Highlight"),
+      h("select", { class: "sel", id: "subject", onchange: e => { state.subject = e.target.value || null; render(); } },
+        h("option", { value: "" }, "No deal highlighted"), deals().map(d => h("option", { value: d.id, selected: d.id === state.subject }, d.deal)))));
+  $("tabs").replaceChildren(...TABS.map(([k, label]) => h("button", { type: "button", role: "tab", "aria-selected": String(k === state.tab), onclick: () => go(k) }, label)));
+}
+
+// The address carries the view, the peer group and the highlighted deal, so a link reopens the same screen.
+let lastHash = null;
+function writeHash() {
+  const q = new URLSearchParams({ tab: state.tab, group: state.group });
+  if (state.subject) q.set("deal", state.subject);
+  if (state.tab === "pricing") q.set("measure", state.measure);
+  const next = "#" + q;
+  if (next !== location.hash) {
+    // a change of view or of deal is a step the Back button can undo; anything else replaces the current entry
+    const was = new URLSearchParams(location.hash.slice(1));
+    const step = lastHash !== null && (was.get("tab") !== state.tab || (was.get("deal") || "") !== (state.subject || ""));
+    try { history[step ? "pushState" : "replaceState"](null, "", next); } catch (err) { /* a saved copy opened from disk may refuse; the page works without it */ }
+  }
+  lastHash = next;
+}
+// Only names the page itself defines are accepted: a hand-edited address cannot select anything else.
+function readHash() {
+  const q = new URLSearchParams(location.hash.slice(1)), group = q.get("group");
+  if (own(VIEWS, q.get("tab"))) state.tab = q.get("tab");
+  if (own(MEASURES, q.get("measure"))) state.measure = q.get("measure");
+  state.subject = byId(q.get("deal")) ? q.get("deal") : null;
+  setGroup(group === "custom" && state.custom ? "custom" : own(state.data.benchmarks, group) ? group
+    : state.group === "custom" && state.custom ? "custom" : own(state.data.benchmarks, state.group) ? state.group : "all");
+}
+function onAddressChange() {
+  if (!state.data || !state.data.deals.length || location.hash === lastHash) return;
+  readHash();
+  render();
+}
+addEventListener("hashchange", onAddressChange);
+addEventListener("popstate", onAddressChange);
+
+function render() {
+  hideTip();
+  renderChrome();
+  writeHash();
+  $("view").replaceChildren(...banners(), ...VIEWS[state.tab]().flat().filter(Boolean));
+}
+function go(tab) { state.tab = tab; render(); scrollTo({ top: 0 }); }
+
+// Menus close on Escape and on a press anywhere outside them.
+addEventListener("keydown", e => { if (e.key === "Escape") document.querySelectorAll("details.menu[open]").forEach(m => { m.open = false; m.querySelector("summary").focus(); }); });
+addEventListener("pointerdown", e => document.querySelectorAll("details.menu[open]").forEach(m => { if (!m.contains(e.target)) m.open = false; }));
+
+async function refresh() {
+  const btn = $("refresh");
+  btn.disabled = true; btn.textContent = "Reading…";
+  $("view").style.opacity = ".5";
+  try {
+    const res = await fetch("/api/refresh", { method: "POST" });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || "The folder could not be re-read.");
+    start(data);
+  } catch (err) { alert(err.message); }
+  finally {
+    // start() normally draws a fresh button; this one is put back in case it did not
+    if (btn.isConnected) { btn.disabled = false; btn.textContent = "Re-scan folder"; }
+    $("view").style.opacity = "";
+  }
+}
+
+function start(data) {
+  state.data = data;
+  state.custom = null;
+  if (!data.deals.length) {
+    $("sub").textContent = `No term sheets found in ${data.meta.docs_dir}`;
+    renderActions();
+    $("filters").replaceChildren();
+    $("tabs").replaceChildren();
+    $("view").replaceChildren(h("p", { class: "empty" }, "No term sheet PDFs were found. Term sheets are the PDFs with a standalone “TS” in the file name, for example “Accenture 2026 TS.pdf”."
+      + (data.meta.static ? "" : " Put them in the folder and choose Re-scan folder.")));
+    return;
+  }
+  readHash();
+  render();
+}
+
+(async () => {
+  try {
+    const embedded = document.getElementById("embedded-dataset");
+    if (embedded) { start(JSON.parse(embedded.textContent)); return; }
+    const res = await fetch("/api/dataset");
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || "The term sheets could not be read.");
+    start(data);
+  } catch (err) {
+    $("sub").textContent = "Could not load the benchmark";
+    $("view").replaceChildren(h("p", { class: "empty" }, String(err.message || err)));
+  }
+})();
+})();
+</script>
+</body>
+</html>

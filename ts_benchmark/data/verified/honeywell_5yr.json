@@ -1,0 +1,166 @@
+{
+ "sha1": "7458b363794a97030fee01a9b516abaaa1bc2dc8",
+ "source_file": "Honeywell 5yr TS.pdf",
+ "verified_on": "2026-11-12",
+ "method": "Extracted from the full document by one AI reviewer, then audited value by value against the document text by a second, independent AI reviewer (1,001 values checked across the 14 term sheets; no misread figure was found, and the classification points it raised are listed here where they changed this record). Not signed off by a person. Every quote is re-checked against the PDF each time the tool runs.",
+ "notes": [],
+ "record": {
+  "deal": "Honeywell 5yr",
+  "source_file": "Honeywell 5yr TS.pdf",
+  "doc": {
+   "kind": "term_sheet",
+   "title": "Honeywell International Inc. - Summary of Terms and Conditions - $4,000,000,000 5-Year Multi-Currency Revolving Credit Facility",
+   "date": "2026",
+   "is_amendment": false,
+   "notes": "12-page indicative summary of terms for a new 5-year revolver; no day or month is printed, the year is taken from the page footer '2026 Honeywell Term Sheet'. The facility replaces (rather than amends) the Existing 5-Year Agreement dated as of March 18, 2024: a closing condition is payment of accrued amounts and termination of commitments under that agreement, and documentation is to be substantially similar to it. Sublimits: $700,000,000 multi-currency letters of credit and $500,000,000 swing line (USD or Euros). Commitment increase option up to a maximum Facility Amount of $4,500,000,000 (or $3,500,000,000 following the Spin Off). Upon consummation of the Spin Off the commitments reduce automatically and permanently to $3,000,000,000. A 364-Day Facility is mentioned once (it may be documented in the same credit agreement) but is not covered by this term sheet. Pricing is on the attached 5-Year Pricing Grid (page 12)."
+  },
+  "borrower": {
+   "name": "Honeywell International Inc. (the Company) and any Designated Subsidiaries, guaranteed by the Company",
+   "quote": "Honeywell International Inc. (the “Company”) and any Designated Subsidiaries (together with the Company, the “Borrowers”), fully and unconditionally guaranteed by the Company.",
+   "page": 1
+  },
+  "credit_profile": {
+   "value": "investment_grade",
+   "basis": "Unsecured revolver priced off a six-level grid keyed to the Company's long-term senior unsecured debt ratings by S&P and Moody's (Level I at least AA-/Aa3 down to Level VI below BBB+/Baa1), with commitment fees of 0.04% to 0.11%, a negative pledge and no financial covenant listed."
+  },
+  "security": {
+   "value": "unsecured",
+   "detail": "5-year unsecured multi-currency revolving credit facility; obligations of Designated Subsidiary borrowers are guaranteed by the Company.",
+   "quote": "5-year unsecured multi-currency revolving credit facility (the “5-Year Facility”).",
+   "page": 1
+  },
+  "facilities": [
+   {
+    "id": "F1",
+    "name": "5-Year Multi-Currency Revolving Credit Facility (the 5-Year Facility)",
+    "type": "revolver",
+    "amount_mm": 4000,
+    "currency": "USD",
+    "tenor_text": "5-year; commitments terminate on the fifth anniversary of the Closing Date, with the Company able to request additional 1-year extensions around any anniversary of the Closing Date (effective if more than 50% of the Facility Amount is extended or otherwise committed)",
+    "tenor_years": 5.0,
+    "maturity_text": "5-Year Commitment Termination Date: fifth anniversary of the date of effectiveness of the Loan Documentation (the Closing Date), subject to the Extension of Commitments section",
+    "quote": "$4,000,000,000 5-Year Multi-Currency Revolving Credit Facility",
+    "page": 1
+   }
+  ],
+  "pricing": {
+   "benchmark": "Term SOFR (USD; 1, 3 or 6 month interest periods); also EURIBOR (Euros), SONIA (Pounds Sterling), TIBOR (Japanese Yen) and Term CORRA (Canadian Dollars); Base Rate option for U.S. Dollar Advances",
+   "basis": "ratings_grid",
+   "basis_detail": "Six-level grid (Level I to Level VI) based on the Company's long-term senior unsecured non-credit-enhanced debt ratings by S&P and Moody's. Each level is worded 'at least [rating] by S&P or [rating] by Moody's'; no further split-rating rule is given in the term sheet.",
+   "csa": {
+    "applies": null,
+    "bps": null,
+    "detail": "No credit spread adjustment is stated for Term SOFR Advances: the rate is defined on page 3 as Term SOFR (but not less than zero) plus the Applicable Margin, with no adjustment in the formula. The only express CSA statement in the document concerns Term CORRA (quoted here), which will not include one. The day-count sentence on page 4 refers once to 'Adjusted Term SOFR Advances' without defining any adjustment, so the position for SOFR is recorded as not stated rather than expressly none.",
+    "quote": "Term CORRA will not include a credit spread adjustment.",
+    "page": 4
+   },
+   "floor": {
+    "pct": 0.0,
+    "detail": "Term SOFR is floored at zero ('but not less than zero'). The same zero floor is stated for EURIBOR, SONIA and TIBOR, and for the one-month Term SOFR component of the Base Rate.",
+    "quote": "Term SOFR: a periodic fixed rate equal to Term SOFR (but not less than zero) plus the Applicable Margin.",
+    "page": 3
+   },
+   "grids": [
+    {
+     "name": "5-Year Pricing Grid",
+     "facility_ids": [
+      "F1"
+     ],
+     "metric": "Company's long-term senior unsecured (non-credit-enhanced) debt ratings by S&P / Moody's",
+     "undrawn_fee_type": "commitment_fee",
+     "page": 12,
+     "tiers": [
+      {
+       "level": "Level I",
+       "criteria": "Long-Term Senior Unsecured Debt rated at least AA- by S&P or Aa3 by Moody's",
+       "drawn_margin_bps": 50.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 4.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable Margin 0.50% 0.625% 0.75% 0.875% 1.00% 1.125%"
+      },
+      {
+       "level": "Level II",
+       "criteria": "Long-Term Senior Unsecured Debt rated less than Level I but at least A+ by S&P or A1 by Moody's",
+       "drawn_margin_bps": 62.5,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 5.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable Margin 0.50% 0.625% 0.75% 0.875% 1.00% 1.125%"
+      },
+      {
+       "level": "Level III",
+       "criteria": "Long-Term Senior Unsecured Debt rated less than Level II but at least A by S&P or A2 by Moody's",
+       "drawn_margin_bps": 75.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 6.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable Margin 0.50% 0.625% 0.75% 0.875% 1.00% 1.125%"
+      },
+      {
+       "level": "Level IV",
+       "criteria": "Long-Term Senior Unsecured Debt rated less than Level III but at least A- by S&P or A3 by Moody's",
+       "drawn_margin_bps": 87.5,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 8.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable Margin 0.50% 0.625% 0.75% 0.875% 1.00% 1.125%"
+      },
+      {
+       "level": "Level V",
+       "criteria": "Long-Term Senior Unsecured Debt rated less than Level IV but at least BBB+ by S&P or Baa1 by Moody's",
+       "drawn_margin_bps": 100.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 10.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable Margin 0.50% 0.625% 0.75% 0.875% 1.00% 1.125%"
+      },
+      {
+       "level": "Level VI",
+       "criteria": "Long-Term Senior Unsecured Debt rated lower than Level V",
+       "drawn_margin_bps": 112.5,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 11.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Commitment Fee 0.04% 0.05% 0.065% 0.08% 0.10% 0.11% (1) Applicable Margin 0.50% 0.625% 0.75% 0.875% 1.00% 1.125%"
+      }
+     ],
+     "opening_level_note": "The term sheet does not state the Company's current ratings or which level applies at closing, so no tier is flagged as opening.",
+     "notes": "The grid is transposed: the six levels are columns and there are only two value rows (Commitment Fee, Applicable Margin). A tier therefore has no row of its own; every tier carries the same two-row quote and its values are the Nth figure in each row (Level I = 1st, Level VI = 6th). The Applicable Margin row is the margin for Term SOFR, EURIBOR, SONIA, TIBOR and Term CORRA Advances (page 4). The Base Rate margin is not printed in the grid: page 4 defines it as 100 basis points lower than the Term SOFR margin, but not less than 0.00%, so base_rate_margin_bps is left null rather than computed. Footnote (1): the Commitment Fee is paid quarterly in arrears on each bank's unused commitment. Letter of credit fees equal the Applicable Margin for Term SOFR Advances (page 4) but are not a grid column."
+    }
+   ],
+   "fees": [
+    {
+     "type": "lc_participation_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Letter of Credit Fees: a rate per annum equal to the Applicable Margin for Term SOFR Advances, i.e. it follows the Applicable Margin row of the 5-Year Pricing Grid (0.50% to 1.125%). No number is printed on the fee line itself and the level applying at closing is not stated, so the numeric fields are left null. No separate fronting or issuance fee is stated.",
+     "bps": null,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "Equal to the Applicable Margin for Term SOFR Advances",
+     "quote": "Letter of Credit Fees: A rate per annum equal to the Applicable Margin for Term SOFR Advances.",
+     "page": 4
+    }
+   ],
+   "change_vs_existing": null,
+   "notes": "Base Rate Advances: Applicable Margin is 100 basis points lower than the Term SOFR margin, but not less than 0.00% (page 4). Base Rate is the highest of Bank of America's prime rate, the Federal funds rate plus 1/2 of 1%, and one-month Term SOFR (not less than zero) plus 1.00% (page 3). Default pricing: upon and during a payment event of default the Applicable Margin on unpaid principal increases by 100 basis points per annum and non-Base Rate Advances convert to Base Rate Advances (page 4). Commitment Fee is payable on each Lender's unused commitment quarterly in arrears, calculated on actual days over 365/366 (page 3). Term CORRA will not include a credit spread adjustment (page 4). Optional prepayment is without penalty, subject to breakage costs (page 5). No upfront, extension, utilization, fronting or agency fee amount is stated, and there is no ESG / sustainability pricing adjustment. The only other fee figure in the document is a $3,500 administrative fee per assignment or per replacement Lender (page 10), which is an assignment processing charge and is not recorded as a pricing fee."
+  },
+  "financial_covenants": [],
+  "no_financial_covenant_note": "Silent rather than an express 'none'. The Covenants section (pages 7-8) lists twelve covenants: preservation of corporate existence, compliance with laws, payment of taxes, visitation rights, books and records, maintenance of properties, insurance, negative pledge and limitations on liens and secured debt, restrictions on consolidations / mergers / sale of assets, reporting requirements, notice of change of control and the Spin Off, and anti-corruption / sanctions covenants. None is a financial ratio or amount test, and the words leverage, coverage, capitalization, net worth and EBITDA do not appear anywhere in the document. The list is introduced as 'Similar to ... the Existing 5-Year Agreement ..., including, but not limited to', so it is not stated to be exhaustive.",
+  "format_notes": ""
+ }
+}

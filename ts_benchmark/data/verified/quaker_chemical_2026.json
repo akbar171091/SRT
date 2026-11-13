@@ -1,0 +1,242 @@
+{
+ "sha1": "71c9f05bbb067eb91ccc6306c109846d4e0ea562",
+ "source_file": "Quaker Chemical 2026 TS.pdf",
+ "verified_on": "2026-11-12",
+ "method": "Extracted from the full document by one AI reviewer, then audited value by value against the document text by a second, independent AI reviewer (1,001 values checked across the 14 term sheets; no misread figure was found, and the classification points it raised are listed here where they changed this record). Not signed off by a person. Every quote is re-checked against the PDF each time the tool runs.",
+ "notes": [
+  "Acquisition step-up level for the net leverage covenant recorded as 4.75x, computed from the stated 4.25x maximum plus the stated 0.50x increase (the term sheet prints the increase, not the resulting level)."
+ ],
+ "record": {
+  "deal": "Quaker Chemical 2026",
+  "source_file": "Quaker Chemical 2026 TS.pdf",
+  "doc": {
+   "kind": "term_sheet",
+   "title": "Summary of Principal Terms and Conditions - Quaker Chemical Corporation - $[1.55][1.6] Billion Senior Secured Credit Facilities",
+   "date": "2026-03-25",
+   "is_amendment": true,
+   "notes": "Date taken from the page 1 header 'Posting Version 3/25 /26'. 29-page long-form term sheet (27 pages of terms plus the two-page 'Addendum I to Summary of Terms - PRICING, FEES AND EXPENSES'). The Company intends to amend or amend and restate its Credit Agreement dated as of August 1, 2019 (the 'Existing Credit Agreement', Bank of America, N.A. as agent) to incur a new U.S. dollar term loan, a new euro term loan and a new revolver and to refinance all existing loans and commitments. Existing terms are not shown next to the proposed terms. Sizes are not final: the aggregate is printed as '$[1.55][1.6] billion' and the revolver as '$[750][800] million' (two bracketed alternatives). The opening Applicable Margin and opening commitment fee are bracketed blanks ('[ ]% per annum')."
+  },
+  "borrower": {
+   "name": "Quaker Chemical Corporation (the Company; borrower under the New U.S. Dollar Term Loan Facility and the New Revolving Credit Facility); Quaker Houghton B.V. (the Dutch Borrower; borrower under the New Euro Term Loan Facility and a Foreign Designated Borrower under the New Revolving Credit Facility)",
+   "quote": "Quaker Chemical Corporation, a Pennsylvania corporation (the “Company”).",
+   "page": 1
+  },
+  "credit_profile": {
+   "value": "leveraged",
+   "basis": "Senior secured facilities priced off a Consolidated Net Leverage Ratio grid, with a 4.25x maximum net leverage maintenance covenant and extensive leverage-based baskets. The collateral is released only if net leverage is below 2.00 to 1.00 or two of three agencies rate the Company Baa3 / BBB- / BBB- or better, and is reinstated at Ba1 / BB+ / BB+ or below, which implies a sub-investment-grade profile today. No current ratings are stated. The structure is a pro rata bank deal (five-year amortizing term loans and a revolver sharing one grid), not a Term Loan B."
+  },
+  "security": {
+   "value": "secured",
+   "detail": "First priority liens granted by each domestic Loan Party over the Collateral: equity of subsidiaries (limited to 65% for controlled foreign corporations), intercompany debt and substantially all personal property; real property and other Excluded Assets are carved out. Foreign Guarantors, if any, guarantee on an unsecured basis. Collateral Release if the Consolidated Net Leverage Ratio is less than 2.00 to 1.00 (two most recent quarters and pro forma) or a Ratings Release Trigger Event occurs (two of Moody's Baa3, S&P BBB-, Fitch BBB- or better with stable outlook); Collateral Reinstatement Event if net leverage is at least 2.50 to 1.00 (or 3.00 to 1.00 pro forma) and two of three ratings are Ba1 / BB+ / BB+ or below.",
+   "quote": "Each domestic Loan Party (each a “Grantor     ”) shall grant the Administrative Agent and the Lenders valid and perfected first priority",
+   "page": 14
+  },
+  "facilities": [
+   {
+    "id": "F1",
+    "name": "New U.S. Dollar Term Loan Facility",
+    "type": "term_loan_a",
+    "amount_mm": 550,
+    "currency": "USD",
+    "tenor_text": "five-year; fully drawn by the Company on the Effective Date; quarterly amortization of 0.625% for the first eight payment dates and 1.25% thereafter",
+    "tenor_years": 5.0,
+    "maturity_text": "five years after the Effective Date, subject to customary amend and extend provisions",
+    "quote": "U.S. Dollar Term Loan Facility:  a $550 million five -year U.S. Term Loan Facility (the “New U.S. Dollar  Term Loan Facility”)",
+    "page": 3
+   },
+   {
+    "id": "F2",
+    "name": "New Euro Term Loan Facility (euro-denominated, drawn by the Dutch Borrower; size stated as a $250 million equivalent)",
+    "type": "term_loan_a",
+    "amount_mm": 250,
+    "currency": "USD",
+    "tenor_text": "five-year; fully drawn in Euros by the Dutch Borrower on the Effective Date; quarterly amortization of 0.625% for the first eight payment dates and 1.25% thereafter",
+    "tenor_years": 5.0,
+    "maturity_text": "five years after the Effective Date, subject to customary amend and extend provisions",
+    "quote": "Euro Term Loan  Facility:  a $250 million equivalent five-year Euro Term Loan Facility (the “ New Euro Term Loan Facility”",
+    "page": 3
+   },
+   {
+    "id": "F3",
+    "name": "New Revolving Credit Facility (size printed as $[750][800] million - two bracketed alternatives, not final; multicurrency, $50 million letter of credit sublimit, $80 million swingline sublimit)",
+    "type": "revolver",
+    "amount_mm": null,
+    "currency": "USD",
+    "tenor_text": "five-year; available from the Effective Date until the fifth anniversary of the Effective Date",
+    "tenor_years": 5.0,
+    "maturity_text": "five years after the Effective Date",
+    "quote": "Revolving Credit Facility:  a $[750][800] million five-year Revolving Credit Facility (the “New Revolving Credit Facility”",
+    "page": 3
+   }
+  ],
+  "pricing": {
+   "benchmark": "Term SOFR for U.S. dollar loans; Alternative Currency Daily Rate or Alternative Currency Term Rate for alternative currency loans; Base Rate option for U.S. dollar borrowings",
+   "basis": "leverage_grid",
+   "basis_detail": "Five-tier grid based on the Consolidated Net Leverage Ratio, effective from the date of delivery of financial statements for the first full fiscal quarter after the fiscal quarter in which the Effective Date occurs. Before that date the margin and commitment fee are fixed levels that the term sheet leaves blank ('[ ]% per annum').",
+   "csa": {
+    "applies": null,
+    "bps": null,
+    "detail": "Not mentioned. The interest rate is described as Term SOFR (or the Alternative Currency rate) plus the Applicable Margin with no reference to a credit spread adjustment; the document does not say expressly that there is none.",
+    "quote": "",
+    "page": null
+   },
+   "floor": {
+    "pct": 0.0,
+    "detail": "Term SOFR, the Alternative Currency Daily Rate and the Alternative Currency Term Rate shall not in any event be less than 0%.",
+    "quote": "the Term SOFR, Alternative Currency Daily Rate or Alternative Currency Term Rate (each to be defined in the Facilities Documentation, and which shall not in any event be less than 0%)",
+    "page": 28
+   },
+   "grids": [
+    {
+     "name": "Pricing Grid",
+     "facility_ids": [
+      "F1",
+      "F2",
+      "F3"
+     ],
+     "metric": "Consolidated Net Leverage Ratio",
+     "undrawn_fee_type": "commitment_fee",
+     "page": 29,
+     "tiers": [
+      {
+       "level": "1",
+       "criteria": "> 3.50x",
+       "drawn_margin_bps": 175.0,
+       "base_rate_margin_bps": 75.0,
+       "undrawn_fee_bps": 27.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 175.0,
+       "is_opening": false,
+       "quote": "> 3.50x                       0.750%                1.750%                 0.275%"
+      },
+      {
+       "level": "2",
+       "criteria": "≤ 3.50 to 1.00 but > 2.75 to 1.00",
+       "drawn_margin_bps": 150.0,
+       "base_rate_margin_bps": 50.0,
+       "undrawn_fee_bps": 22.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 150.0,
+       "is_opening": false,
+       "quote": "≤ 3.50 to 1.00 but                 0.500%                1.500%                 0.225% > 2.75 to 1.00"
+      },
+      {
+       "level": "3",
+       "criteria": "≤ 2.75 to 1.00 but > 2.00 to 1.00",
+       "drawn_margin_bps": 125.0,
+       "base_rate_margin_bps": 25.0,
+       "undrawn_fee_bps": 17.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 125.0,
+       "is_opening": false,
+       "quote": "≤ 2.75 to 1.00 but                 0.250%                1.250%                 0.175% > 2.00 to 1.00"
+      },
+      {
+       "level": "4",
+       "criteria": "≤ 2.00 to 1.00 but > 1.25 to 1.00",
+       "drawn_margin_bps": 112.5,
+       "base_rate_margin_bps": 12.5,
+       "undrawn_fee_bps": 15.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 112.5,
+       "is_opening": false,
+       "quote": "≤  2.00 to 1.00 but                0.125%                1.125%                 0.150% > 1.25 to 1.00"
+      },
+      {
+       "level": "5",
+       "criteria": "≤ 1.25 to 1.00",
+       "drawn_margin_bps": 100.0,
+       "base_rate_margin_bps": 0.0,
+       "undrawn_fee_bps": 12.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 100.0,
+       "is_opening": false,
+       "quote": "≤ 1.25 to 1.00                  0.000%                1.000%                 0.125%"
+      }
+     ],
+     "opening_level_note": "No grid tier is designated as the opening level, so every tier is is_opening = false. From the Effective Date until delivery of financial statements for the first full fiscal quarter after the fiscal quarter in which the Effective Date occurs, the Applicable Margin is a bracketed blank ('[ ]% per annum, in the case of Term SOFR loans and Alternative Currency loans, and [ ]% per annum, in the case of Base Rate loans') and the commitment fee is likewise '[ ]% per annum' (page 28). The grid applies thereafter.",
+     "notes": "The tiers are not numbered in the document; levels 1 to 5 follow document order (highest leverage first). Column order in the text is: Consolidated Net Leverage Ratio, Applicable Margin for Base Rate Loans, Applicable Margin for Term SOFR Loans / Alternative Currency Loans / Letter of Credit Fee Rate, Commitment Fee Rate. The Term SOFR margin column doubles as the Letter of Credit Fee Rate, so lc_fee_bps repeats drawn_margin_bps. The margins apply to all New Senior Credit Facilities (both term loans and the revolver); the Commitment Fee Rate (payable on the actual daily unused portion, swingline loans not counted as utilization) and the Letter of Credit Fee Rate apply to the New Revolving Credit Facility only. The top tier is printed '> 3.50x' while the other tiers use 'to 1.00'."
+    }
+   ],
+   "fees": [],
+   "change_vs_existing": "Not stated. The term sheet describes a refinancing of all loans and commitments under the Existing Credit Agreement dated August 1, 2019 but does not print the existing pricing.",
+   "notes": "Opening margin and opening commitment fee are blank ('[ ]% per annum') until the first post-closing financial statements are delivered. Base Rate is the highest of the Federal Funds Rate plus 1/2 of 1%, the Administrative Agent's prime rate and Term SOFR plus 1.00%. Default rate: during the continuance of any default the Applicable Margin increases by 2% per annum (subject, other than for a principal payment default, to the request of the Required Lenders). U.S. dollar Swingline Loans bear interest at the Base Rate plus the Applicable Margin for Base Rate loans under the revolver; Euro Swingline Loans bear a customary rate to be determined. Interest periods of one, three or six months. Letter of Credit fees equal the Applicable Margin for Revolving Credit loans (already captured as the grid's letter of credit fee column); no fronting fee is stated. No upfront, ticking, extension or utilization fee, OID, ESG adjustment or MFN is stated; margins on Incremental Term Loan Facilities are to be set by the Company and the incremental lenders. Prepayment is permitted at any time without premium or penalty, subject to breakage costs. An assignment fee of $3,500 per assignment is charged by the Administrative Agent (page 24); it is an administrative charge and is not recorded as a pricing fee."
+  },
+  "financial_covenants": [
+   {
+    "type": "min_interest_coverage",
+    "name": "Consolidated Interest Coverage Ratio",
+    "direction": "min",
+    "threshold": 2.75,
+    "unit": "x",
+    "threshold_text": "not to be less than 2.75 to 1.00",
+    "schedule": [],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "The Company and its restricted subsidiaries; one of the Financial Covenants for all New Senior Credit Facilities (amendments and waivers of the Financial Covenants require lenders holding more than 50% of aggregate commitments and loans).",
+    "test_frequency": "As of the last day of each fiscal quarter of the Company, on a consolidated basis for each consecutive four fiscal quarter period (page 23).",
+    "definition_notes": "The term sheet does not define the Consolidated Interest Coverage Ratio; capitalized terms not defined take their meaning from the Existing Credit Agreement.",
+    "change_vs_existing": null,
+    "quote": "Consolidated Interest Coverage Ratio not to be less than 2.75 to 1.00.",
+    "page": 22
+   },
+   {
+    "type": "max_net_leverage",
+    "name": "Consolidated Net Leverage Ratio",
+    "direction": "max",
+    "threshold": 4.25,
+    "unit": "x",
+    "threshold_text": "not to be greater than 4.25 to 1.00",
+    "schedule": [],
+    "step_up": {
+     "present": true,
+     "threshold": 4.75,
+     "detail": "Computed: the 4.25x maximum plus the stated 0.50x increase. The maximum Consolidated Net Leverage Ratio may be increased at the Company's option by 0.50:1.00 solely for the first four fiscal quarters ending after an Acquisition with aggregate consideration (including any earnout or other post-closing payment reasonably estimated to be paid) exceeding $75 million, beginning with the fiscal quarter in which the Acquisition is consummated. The term sheet prints the increase, not the resulting level."
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "The Company and its restricted subsidiaries; one of the Financial Covenants for all New Senior Credit Facilities. Applies unless the Company elects the Financial Covenant Adjustment, in which case the Consolidated Secured Net Leverage Ratio test of 3.50 to 1.00 applies instead.",
+    "test_frequency": "As of the last day of each fiscal quarter of the Company, on a consolidated basis for each consecutive four fiscal quarter period (page 23).",
+    "definition_notes": "Consolidated Net Leverage Ratio is the ratio of Consolidated Funded Indebtedness less 100.0% of unrestricted cash held by the Company and its restricted subsidiaries that are Domestic Subsidiaries and Foreign Subsidiaries to Consolidated EBITDA (page 10); the cash netting is uncapped. Consolidated EBITDA includes pro forma run-rate cost savings and synergies expected within 18 months and integration or startup costs, together capped at 30% of Consolidated EBITDA calculated after giving effect to the addbacks (pages 8-9).",
+    "change_vs_existing": null,
+    "quote": "(1) Consolidated Net Leverage Ratio not to be greater than 4.25 to 1.00 or (2) at the Company’s option",
+    "page": 22
+   },
+   {
+    "type": "max_secured_leverage",
+    "name": "Consolidated Secured Net Leverage Ratio (the 'Financial Covenant Adjustment'; net of cash; optional alternative to the Consolidated Net Leverage Ratio test)",
+    "direction": "max",
+    "threshold": 3.5,
+    "unit": "x",
+    "threshold_text": "not to be greater than 3.50 to 1.00",
+    "schedule": [],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": "The acquisition step-up sentence refers only to the maximum Consolidated Net Leverage Ratio; no step-up is stated for the Consolidated Secured Net Leverage Ratio."
+    },
+    "springing": {
+     "is_springing": true,
+     "trigger": "Not in force at closing. Applies only at the Company's option and solely to the extent (x) the Company has consummated a qualified unsecured notes offering on terms to be set forth in the Facilities Documentation, (y) a Collateral Release shall not have occurred and be continuing and (z) the New Senior Credit Facilities are secured by the Collateral. Drafted as alternative clause (2) to the 4.25 to 1.00 Consolidated Net Leverage Ratio test in clause (1)."
+    },
+    "applies_to": "The Company and its restricted subsidiaries; all New Senior Credit Facilities, once the Financial Covenant Adjustment is elected.",
+    "test_frequency": "As of the last day of each fiscal quarter of the Company, on a consolidated basis for each consecutive four fiscal quarter period (page 23).",
+    "definition_notes": "Consolidated Secured Net Leverage Ratio is the ratio of Consolidated Funded Indebtedness that is secured by a lien on any asset or property of the Company or its restricted subsidiaries less 100.0% of unrestricted cash held by the Company and its restricted subsidiaries to Consolidated EBITDA (page 10). After a Financial Covenant Adjustment, the unsecured debt basket is subject to an incurrence test of Consolidated Net Leverage Ratio not exceeding 5.00:1.00 (page 19), and the Collateral Release is unavailable (page 16); those are not maintenance tests.",
+    "change_vs_existing": null,
+    "quote": "Consolidated Secured Net Leverage Ratio not to be greater than 3.50 to 1.00 (this clause (2), the “Financial Covenant Adjustment”).",
+    "page": 22
+   }
+  ],
+  "no_financial_covenant_note": null,
+  "format_notes": ""
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "sha1": "e7d6539ca4891aa54a17d2172cac29eacd67f34e",
+ "source_file": "Accenture  2026 TS.pdf",
+ "verified_on": "2026-11-12",
+ "method": "Extracted from the full document by one AI reviewer, then audited value by value against the document text by a second, independent AI reviewer (1,001 values checked across the 14 term sheets; no misread figure was found, and the classification points it raised are listed here where they changed this record). Not signed off by a person. Every quote is re-checked against the PDF each time the tool runs.",
+ "notes": [
+  "Credit spread adjustment recorded as 'not stated' rather than 'none': the term sheet is silent on a SOFR adjustment (the only adjustment it mentions is for Term CORRA). 'None' is kept for documents that expressly exclude or remove one."
+ ],
+ "record": {
+  "deal": "Accenture 2026",
+  "source_file": "Accenture  2026 TS.pdf",
+  "doc": {
+   "kind": "term_sheet",
+   "title": "Summary of Terms and Conditions - $2,000,000,000 364-Day Revolving Credit Facility (Exhibit B to the Commitment Letter)",
+   "date": "2026-03-26",
+   "is_amendment": false,
+   "notes": "Draft term sheet stamped '[CS&M Draft-03/26/2026]' (the date is the draft stamp, not a signing date); Closing Date expected on or about April [blank], 2026. It is Exhibit B to a commitment letter and covers only the new 364-Day Facility; a companion Five-Year Facility is referred to as being in Exhibit A, which is not part of this document. Pricing sits in 'Addendum I to Exhibit B - Fees and Interest Rates' (pages 9-11). Documentation is to be based on the Existing Credit Agreement dated May 14, 2024, modified to remove the letter of credit subfacility and the extension provisions; the document does not show existing pricing or covenant levels for comparison."
+  },
+  "borrower": {
+   "name": "Accenture Capital Inc., Accenture Global Capital Designated Activity Company and Accenture Finance Limited (guaranteed by Accenture plc)",
+   "quote": "Accenture Capital Inc., a Delaware corporation (“Accenture Capital”),",
+   "page": 1
+  },
+  "credit_profile": {
+   "value": "investment_grade",
+   "basis": "Pricing is set by a ratings grid on the Guarantor's S&P and Moody's ratings running from AA-/Aa3 or better down to A/A2 or lower, with a facility-fee structure (fee on the whole commitment regardless of usage) and a 0.0% base rate margin; the facility is guaranteed but no collateral is mentioned and the obligations must rank at least pari passu with other unsecured indebtedness."
+  },
+  "security": {
+   "value": "unsecured",
+   "detail": "Described as a '364-day senior revolving credit facility' guaranteed by Accenture plc (guarantee of payment). The word 'unsecured' is not applied to the facility itself; unsecured status is taken from the absence of any collateral or security provision and from the covenant that the obligations rank at least pari passu with other unsecured indebtedness.",
+   "quote": "the obligations of each of the Borrowers and the Guarantor under the 364- Day Facility will rank at least pari passu in right of payment and in all other material respects with its other unsecured indebtedness.",
+   "page": 5
+  },
+  "facilities": [
+   {
+    "id": "F1",
+    "name": "364-Day Facility (senior revolving credit facility, multicurrency)",
+    "type": "revolver_364_day",
+    "amount_mm": 2000,
+    "currency": "USD",
+    "tenor_text": "364 days from the Closing Date; Term-Out Option to convert loans outstanding on the Initial Maturity Date into term loans maturing one year after the Initial Maturity Date",
+    "tenor_years": 1.0,
+    "maturity_text": "364 days from the Closing Date (the Initial Maturity Date); Closing Date expected on or about April [blank], 2026",
+    "quote": "$2,000,000,000 364-day senior revolving credit facility (the “364-Day Facility”)",
+    "page": 1
+   }
+  ],
+  "pricing": {
+   "benchmark": "Term SOFR for U.S. dollar loans (interest periods of 1, 3 or 6 months) or Alternate Base Rate; Term CORRA, BBSY, SORA, SONIA, EURIBOR or TIBOR for alternative currency loans",
+   "basis": "ratings_grid",
+   "basis_detail": "Designated Ratings of the Guarantor (Accenture plc): S&P corporate credit rating or issuer rating and Moody's issuer rating. If only one rating is available, that rating applies; if both are available, the higher applies, or, where the split is more than one rating level, the level one below the higher rating.",
+   "csa": {
+    "applies": null,
+    "bps": null,
+    "detail": "The term sheet is silent on a SOFR credit spread adjustment: the rate is Term SOFR plus the Applicable Margin. The only adjustment mentioned is for Term CORRA (0.29547% one month, 0.32138% three month).",
+    "quote": "(i) Term SOFR, Term CORRA (plus credit spread adjustment of 0.29547% per annum in the case of a one month interest period and 0.32138% per annum in the case of a three month interest period), BBSY, SORA, SONIA, EURIBOR or TIBOR, as applicable, plus the Applicable Margin",
+    "page": 9
+   },
+   "floor": {
+    "pct": 0.0,
+    "detail": "0% floor on Term SOFR and on each alternative currency benchmark (Term CORRA, BBSY, SORA, SONIA, EURIBOR, TIBOR); the Alternate Base Rate has a separate floor of 1.0%.",
+    "quote": "Term SOFR, Term CORRA, BBSY, SORA, SONIA, EURIBOR and TIBOR shall in each case be subject to a floor of 0%, and the Alternate Base Rate shall be subject to a floor of 1.0%.",
+    "page": 9
+   },
+   "grids": [
+    {
+     "name": "Performance Pricing grid",
+     "facility_ids": [
+      "F1"
+     ],
+     "metric": "Designated Rating of the Guarantor (S&P / Moody's)",
+     "undrawn_fee_type": "facility_fee",
+     "page": 10,
+     "tiers": [
+      {
+       "level": "1",
+       "criteria": "AA- / Aa3 or better",
+       "drawn_margin_bps": 60.0,
+       "base_rate_margin_bps": 0.0,
+       "undrawn_fee_bps": 2.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "AA- / Aa3 or 0.025% 0.600% 0.600% 0.600% 0.0% better"
+      },
+      {
+       "level": "2",
+       "criteria": "A+ / A1",
+       "drawn_margin_bps": 71.5,
+       "base_rate_margin_bps": 0.0,
+       "undrawn_fee_bps": 3.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "A+ / A1 0.035% 0.715% 0.715% 0.715% 0.0%"
+      },
+      {
+       "level": "3",
+       "criteria": "A / A2 or lower",
+       "drawn_margin_bps": 82.5,
+       "base_rate_margin_bps": 0.0,
+       "undrawn_fee_bps": 5.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "A / A2 or 0.050% 0.825% 0.825% 0.825% 0.0% lower"
+      }
+     ],
+     "opening_level_note": "The document does not state the Guarantor's current ratings or which tier applies at closing, so no tier is flagged as opening.",
+     "notes": "The table prints percentages, converted here to bps (0.025% = 2.5 bps, 0.600% = 60.0 bps). Column order in each row: 364-Day Facility Fee, Applicable Margin for Term SOFR Loans, Applicable Margin for Alternative Currency Term Rate Loans, Applicable Margin for Alternative Currency Daily Rate Loans, Applicable Margin for Alternate Base Rate Loans. The two alternative currency margins equal the Term SOFR margin in every tier. Tier levels are not numbered in the document; 1 to 3 are assigned in table order. The rating label of the first and third rows wraps to a second line ('better', 'lower'). No all-in drawn figure and no letter of credit fee column is printed."
+    }
+   ],
+   "fees": [
+    {
+     "type": "term_out_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Term-out fee payable on or prior to the Initial Maturity Date, for the ratable account of the Lenders, on the aggregate principal amount of loans outstanding on the Initial Maturity Date, as a condition of exercising the Term-Out Option (conversion into term loans maturing one year later).",
+     "bps": 50.0,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "50 basis points of the aggregate principal amount of loans outstanding on the Initial Maturity Date",
+     "quote": "term-out fee of 50 basis points of the aggregate principal amount of the loans under the 364- Day Facility outstanding on the Initial Maturity Date",
+     "page": 2
+    }
+   ],
+   "change_vs_existing": null,
+   "notes": "The 364-Day Facility Fee accrues on each Lender's commitment regardless of usage (or, once the commitment has terminated, including on exercise of the Term-Out Option, on that Lender's outstanding loans) and is payable quarterly in arrears on the 15th day after each quarter end. Alternative Currency Term Rate and Alternative Currency Daily Rate loans carry the same Applicable Margin as Term SOFR loans. Term CORRA loans carry a credit spread adjustment of 0.29547% (one month) or 0.32138% (three month). Alternate Base Rate (U.S. dollar loans only) is the highest of the prime rate, the NYFRB Rate plus 0.50% and one-month Term SOFR plus 1.00%, with a 1.0% floor. Default rate: 1% per annum above the applicable interest rate on all obligations. No ESG or sustainability pricing adjustment, utilization fee, upfront fee or letter of credit fee is stated in this exhibit (the letter of credit subfacility of the Existing Credit Agreement is eliminated; any upfront or arrangement fees would be in a fee letter that is not part of this document). An assignment fee of $3,500 per assignment (page 5) is an administrative transfer charge and is not recorded as a pricing fee."
+  },
+  "financial_covenants": [
+   {
+    "type": "min_interest_coverage",
+    "name": "Consolidated interest coverage ratio",
+    "direction": "min",
+    "threshold": 3.0,
+    "unit": "x",
+    "threshold_text": "3.00 to 1.00",
+    "schedule": [],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "Not specified in the FINANCIAL COVENANT section beyond 'consolidated'; the covenants generally are stated to apply to the Borrowers and the Guarantor (Accenture plc) and, in certain circumstances, their subsidiaries.",
+    "test_frequency": "For any period of four consecutive fiscal quarters for which financial statements have been, or are required to be, delivered",
+    "definition_notes": "The term sheet does not define the components of the ratio; documentation is to be substantially similar to the Existing Credit Agreement dated May 14, 2024. It is the only financial covenant ('Limited to').",
+    "change_vs_existing": null,
+    "quote": "Limited to the maintenance, for any period of four consecutive fiscal quarters for which financial statements have been, or are required to be, delivered, of a minimum consolidated interest coverage ratio of 3.00 to 1.00.",
+    "page": 5
+   }
+  ],
+  "no_financial_covenant_note": null,
+  "format_notes": ""
+ }
+}

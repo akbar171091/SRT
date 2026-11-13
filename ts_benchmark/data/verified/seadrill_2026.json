@@ -1,0 +1,243 @@
+{
+ "sha1": "12a0342ff743f5770d4eb79538fe268c45646b17",
+ "source_file": "Seadrill 2026 TS.pdf",
+ "verified_on": "2026-11-12",
+ "method": "Extracted from the full document by one AI reviewer, then audited value by value against the document text by a second, independent AI reviewer (1,001 values checked across the 14 term sheets; no misread figure was found, and the classification points it raised are listed here where they changed this record). Not signed off by a person. Every quote is re-checked against the PDF each time the tool runs.",
+ "notes": [],
+ "record": {
+  "deal": "Seadrill 2026",
+  "source_file": "Seadrill 2026 TS.pdf",
+  "doc": {
+   "kind": "lender_presentation",
+   "title": "Lender Presentation",
+   "date": "May 2026",
+   "is_amendment": true,
+   "notes": "38-page lender presentation (May 2026) for an amendment that upsizes and extends Seadrill's first lien revolving credit facility, with J.P. Morgan as agent. The terms are on pages 35-36 ('Summary terms and conditions') laid out as Existing vs Proposed columns; the Proposed (go-forward) column is recorded here. Page 37 says a term sheet, financial model and draft Amendment are posted separately to SyndTrak, so this summary may omit detail (base rate margins, LC fees, benchmark floor, covenant test dates and definitions). Rows on page 35 that are neither pricing nor financial covenants and are not recorded as such: L/C sublimit $100mm, Accordion $100mm, Anti cash hoarding $250mm (all 'Same as existing')."
+  },
+  "borrower": {
+   "name": "Seadrill Finance Limited",
+   "quote": "Seadrill Finance Limited (“Borrower”)",
+   "page": 35
+  },
+  "credit_profile": {
+   "value": "leveraged",
+   "basis": "Secured facility (liens on Collateral Rigs, equity in Required Guarantors and other property) priced off a sub-investment-grade ratings grid running from ≥ BB / Ba2 down to ≤ B- / B3, with Net Leverage and Interest Coverage maintenance covenants, Second Lien Notes in the capital structure, and J.P. Morgan Leveraged Finance Origination listed as the contact team."
+  },
+  "security": {
+   "value": "secured",
+   "detail": "Collateral Rigs (including Harsh Environment Rigs prior to the Harsh Environment Subsidiary Release Condition), 100% equity in Required Guarantors and all other property on which a Lien is granted under the Collateral Documents, including cash and cash equivalents. Page 23 calls the facility the 'First Lien RCF'. Proposed changes: no requirement for new DACAs outside the United States, subject to Net Leverage of > 2.50x; West Phoenix, West Aquarius and West Eclipse to be designated Non-Core Rigs and the collateral over them released.",
+   "quote": "Collateral Rigs (including Harsh Environment Rigs prior to the occurrence of the Harsh Environment Subsidiary Release Condition), 100% equity in Required Guarantors, all other",
+   "page": 35
+  },
+  "facilities": [
+   {
+    "id": "F1",
+    "name": "First Lien Revolving Credit Facility (labelled only 'Facility' on the terms slide; 'First Lien RCF' on page 23)",
+    "type": "revolver",
+    "amount_mm": 275,
+    "currency": "USD",
+    "tenor_text": "5 years from closing, subject to a springing maturity on the 91st day prior to the stated maturity date of the Second Lien Notes (existing: July 2028 with the same springing maturity)",
+    "tenor_years": 5.0,
+    "maturity_text": "Earlier of (i) 5 years from closing and (ii) the 91st day prior to the stated maturity date of the Second Lien Notes",
+    "quote": "Facility $225mm Up to $275mm",
+    "page": 35
+   }
+  ],
+  "pricing": {
+   "benchmark": "SOFR (proposed column header 'SOFR margin'; existing header 'Adj. SOFR margin'; the type of SOFR is not specified)",
+   "basis": "ratings_grid",
+   "basis_detail": "Five-tier grid keyed to a 'Ratings' column printed as S&P-style / Moody's-style pairs (≥ BB / Ba2 down to ≤ B- / B3). The slide does not say which ratings are used (corporate or facility) or how a split rating is treated.",
+   "csa": {
+    "applies": false,
+    "bps": null,
+    "detail": "The existing facility applies a 10.0 bps Credit Spread Adjustment to SOFR borrowings across all tenors; the proposed terms remove it, so no CSA applies going forward.",
+    "quote": "Removal of 10.0 bps Credit Spread Adjustment",
+    "page": 35
+   },
+   "floor": {
+    "pct": null,
+    "detail": "Not stated in the presentation.",
+    "quote": "",
+    "page": null
+   },
+   "grids": [
+    {
+     "name": "Pricing (Proposed)",
+     "facility_ids": [
+      "F1"
+     ],
+     "metric": "Ratings",
+     "undrawn_fee_type": "commitment_fee",
+     "page": 35,
+     "tiers": [
+      {
+       "level": "1",
+       "criteria": "≥ BB / Ba2",
+       "drawn_margin_bps": 250.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": null,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "≥ BB / Ba2 2.500% ≥ BB / Ba2 2.500%"
+      },
+      {
+       "level": "2",
+       "criteria": "BB- / Ba3",
+       "drawn_margin_bps": 275.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": null,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "BB- / Ba3 2.750% BB- / Ba3 2.750%"
+      },
+      {
+       "level": "3",
+       "criteria": "B+ / B1",
+       "drawn_margin_bps": 300.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": null,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "B+ / B1 3.000% Below B+ / B1 3.000% Below"
+      },
+      {
+       "level": "4",
+       "criteria": "B / B2",
+       "drawn_margin_bps": 325.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": null,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "B / B2 3.250% B / B2 3.250%"
+      },
+      {
+       "level": "5",
+       "criteria": "≤ B- / B3",
+       "drawn_margin_bps": 350.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": null,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "≤ B- / B3 3.500% ≤ B- / B3 3.500%"
+      }
+     ],
+     "opening_level_note": "The document does not state the Borrower's current ratings or which tier applies at closing, so no tier is flagged as opening.",
+     "notes": "The existing and proposed grids are printed side by side on the same text lines with identical ratings tiers and margins; each tier quote is the full row, existing values on the left and proposed on the right. The tiers have no level labels in the document; levels 1-5 are numbered here in document order. The only header change is 'Adj. SOFR margin' (existing) to 'SOFR margin' (proposed), in line with the removal of the 10.0 bps CSA. The grid's 'Commitment fee' column contains only the word 'Below', pointing to the separate Commitment fee row (0.50% flat under the proposed terms), which is recorded under fees and therefore left null on the tiers. There is no base rate margin column and no LC fee column."
+    }
+   ],
+   "fees": [
+    {
+     "type": "commitment_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Commitment fee, flat 0.50% under the proposed terms. The existing fee steps up over time (0.50% for Years 1-3; 0.75% for Year 4; 1.00% thereafter); the quote shows the existing schedule followed by the proposed 0.50%. The basis of calculation (undrawn commitments) is not spelled out on the slide.",
+     "bps": 50.0,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "0.50%",
+     "quote": "Commitment fee 0.50% for Years 1-3; 0.75% for Year 4; 1.00% thereafter 0.50%",
+     "page": 35
+    },
+    {
+     "type": "upfront_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Upfront fee on Old Money (existing commitments), paid on final allocations.",
+     "bps": 45.0,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "45.0 bps",
+     "quote": "Upfront Fee: Old Money: 45.0 bps, New Money: 75.0 bps paid on final allocations (15.0 bps per annum)",
+     "page": 36
+    },
+    {
+     "type": "upfront_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Upfront fee on New Money (new or increased commitments), paid on final allocations. The slide adds '(15.0 bps per annum)' after this figure without further explanation.",
+     "bps": 75.0,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "75.0 bps",
+     "quote": "Upfront Fee: Old Money: 45.0 bps, New Money: 75.0 bps paid on final allocations (15.0 bps per annum)",
+     "page": 36
+    },
+    {
+     "type": "arrangement_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "JLA Fee: a fixed $150k paid for lender commitments of at least $75 million, payable only if the outstanding Seadrill Ltd 8.375% senior notes are not refinanced or redeemed by December 31, 2026. Stated as a dollar amount, not in bps. 'JLA' is not expanded in the document.",
+     "bps": null,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "$150k",
+     "quote": "JLA Fee: $150k paid for lender commitments ≥ $75 million, payable only in the event that the outstanding Seadrill Ltd 8.375% senior notes are not refinanced or redeemed by December 31, 2026",
+     "page": 36
+    }
+   ],
+   "change_vs_existing": "The margin grid is unchanged tier by tier (2.500% / 2.750% / 3.000% / 3.250% / 3.500% for ≥ BB / Ba2 down to ≤ B- / B3), but the 10.0 bps Credit Spread Adjustment on SOFR borrowings is removed and the margin column is relabelled from 'Adj. SOFR margin' to 'SOFR margin'. The commitment fee becomes a flat 0.50% in place of 0.50% for Years 1-3; 0.75% for Year 4; 1.00% thereafter. The facility goes from $225mm to up to $275mm and the maturity from July 2028 to 5 years from closing (springing maturity 91 days before the Second Lien Notes maturity retained). The upfront fee and JLA fee appear only in the Proposed column.",
+   "notes": "No ESG or sustainability adjustment, default rate, MFN, benchmark floor, base rate margin or letter of credit fee is stated in the presentation. L/C sublimit is $100mm (same as existing). Time-based pricing step-ups exist only in the existing commitment fee (0.75% in Year 4, 1.00% thereafter) and are removed in the proposal."
+  },
+  "financial_covenants": [
+   {
+    "type": "max_net_leverage",
+    "name": "Net Leverage",
+    "direction": "max",
+    "threshold": 3.0,
+    "unit": "x",
+    "threshold_text": "≤ 3.00x",
+    "schedule": [],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "Not stated on the slide (covenant of the revolving facility F1)",
+    "test_frequency": "Not stated",
+    "definition_notes": "Cash netting for the leverage calculation (page 35, same as existing): if any Loans are outstanding or if L/C Obligations > $100mm, then the lesser of (i) Specified Group Cash or (ii) $100mm; otherwise, unlimited. The components of Net Leverage are not otherwise defined on the slide.",
+    "change_vs_existing": "Unchanged: the Proposed column reads 'Same as existing'.",
+    "quote": "Financial covenants • Net Leverage ≤ 3.00x Same as existing",
+    "page": 35
+   },
+   {
+    "type": "min_interest_coverage",
+    "name": "Interest Coverage",
+    "direction": "min",
+    "threshold": 2.5,
+    "unit": "x",
+    "threshold_text": "≥ 2.50x",
+    "schedule": [],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "Not stated on the slide (covenant of the revolving facility F1)",
+    "test_frequency": "Not stated",
+    "definition_notes": "Not defined on the slide.",
+    "change_vs_existing": "Unchanged: the Proposed column reads 'Same as existing' for the Financial covenants row, which holds both bullets.",
+    "quote": "Interest Coverage ≥ 2.50x",
+    "page": 35
+   }
+  ],
+  "no_financial_covenant_note": null,
+  "format_notes": ""
+ }
+}

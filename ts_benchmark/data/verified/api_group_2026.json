@@ -1,0 +1,198 @@
+{
+ "sha1": "a70ca13d2ddb0b4ad5792c7534cee69c849024ea",
+ "source_file": "APi Group 2026 TS.pdf",
+ "verified_on": "2026-11-12",
+ "method": "Extracted from the full document by one AI reviewer, then audited value by value against the document text by a second, independent AI reviewer (1,001 values checked across the 14 term sheets; no misread figure was found, and the classification points it raised are listed here where they changed this record). Not signed off by a person. Every quote is re-checked against the PDF each time the tool runs.",
+ "notes": [
+  "Lower level of the undrawn fee recorded as 25.0 bps, computed from the stated 37.5 bps less the stated 12.5 bps stepdown (the term sheet prints the stepdown, not the resulting rate).",
+  "Borrower name limited to what the term sheet states (an inferred parent relationship was removed)."
+ ],
+ "record": {
+  "deal": "APi Group 2026",
+  "source_file": "APi Group 2026 TS.pdf",
+  "doc": {
+   "kind": "lender_presentation",
+   "title": "Revolving Lender Presentation - Summary of Indicative Terms",
+   "date": "2026-04-30",
+   "is_amendment": true,
+   "notes": "35-page 'Revolving Lender Presentation' (cover dated April 2026; Company Authorization Letter on page 2 dated April 30, 2026; Lead Arranger Citibank, N.A.) for the amendment, extension and upsize of the Revolving Credit Facility from $750 million to $1,000 million. The term sheet itself is the one-page 'Summary of Indicative Terms' on page 11; the Executive Summary on page 10 repeats the upfront fees and the maturity. The concurrent amend-and-extend of the $2,157 million Term Loan B (new 7-year tenor) and the $500 million new Senior Unsecured Debt are described as separate transactions launching later; the document gives no pricing or covenant terms for them, so they are not recorded as facilities. Pages 14, 21 and 32 are divider slides and page 16 is a chart slide of quarterly results; none of them carries loan terms."
+  },
+  "borrower": {
+   "name": "APi Group DE, Inc.",
+   "quote": "Borrower: APi Group DE, Inc.",
+   "page": 11
+  },
+  "credit_profile": {
+   "value": "leveraged",
+   "basis": "Senior secured revolver priced off a Net First Lien Leverage grid with a springing Net First Lien Leverage covenant, sitting alongside a Term Loan B; the arranger contacts are 'Leveraged Finance Origination' (page 33); negative covenants carry 'embedded fall away mechanics if IG rating is obtained', which implies no investment grade rating today. No ratings are named in the document."
+  },
+  "security": {
+   "value": "secured",
+   "detail": "Senior Secured. Security is limited to collateral located in North America, the United Kingdom, Hong Kong and the Netherlands, constituting >80% of revenue, EBITDA and assets, with certain other modifications; guarantors are limited to parties formed in the same jurisdictions.",
+   "quote": "$1,000 million Senior Secured Revolving Credit Facility",
+   "page": 11
+  },
+  "facilities": [
+   {
+    "id": "F1",
+    "name": "Senior Secured Revolving Credit Facility (listed together with a $75 million Swingline Facility)",
+    "type": "revolver",
+    "amount_mm": 1000,
+    "currency": "USD",
+    "tenor_text": "5 years from closing date, subject to a 91-day springing maturity ahead of the maturity of the Term Loan B",
+    "tenor_years": 5.0,
+    "maturity_text": "May 2031 (5 years from closing), per page 10",
+    "quote": "$1,000 million Senior Secured Revolving Credit Facility and $75 million Swingline Facility",
+    "page": 11
+   }
+  ],
+  "pricing": {
+   "benchmark": "SOFR (written 'S' in the grid)",
+   "basis": "leverage_grid",
+   "basis_detail": "Four-tier grid on Net First Lien Leverage with breakpoints at 3.50x, 2.50x and 1.50x. The Undrawn Fee is a separate line that steps on First Lien Net Leverage at a single, different breakpoint of 2.75x.",
+   "csa": {
+    "applies": null,
+    "bps": null,
+    "detail": "Not mentioned. Pricing is shown as 'S+' a margin only; the document neither states a credit spread adjustment nor says there is none.",
+    "quote": "",
+    "page": null
+   },
+   "floor": {
+    "pct": 0.0,
+    "detail": "0.00%, marked same as the existing Revolving Credit Facility.",
+    "quote": "SOFR Floor: 0.00% (same as existing Revolving Credit Facility)",
+    "page": 11
+   },
+   "grids": [
+    {
+     "name": "Indicative Pricing",
+     "facility_ids": [
+      "F1"
+     ],
+     "metric": "Net First Lien Leverage",
+     "undrawn_fee_type": "none",
+     "page": 11,
+     "tiers": [
+      {
+       "level": "1",
+       "criteria": "≥3.50x",
+       "drawn_margin_bps": 200.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": null,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "≥3.50x S+200 bps"
+      },
+      {
+       "level": "2",
+       "criteria": "<3.50x & ≥2.50x",
+       "drawn_margin_bps": 175.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": null,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "<3.50x & ≥2.50x S+175 bps"
+      },
+      {
+       "level": "3",
+       "criteria": "<2.50x & ≥1.50x",
+       "drawn_margin_bps": 150.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": null,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "<2.50x & ≥1.50x S+150 bps"
+      },
+      {
+       "level": "4",
+       "criteria": "<1.50x",
+       "drawn_margin_bps": 125.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": null,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "<1.50x S+125 bps"
+      }
+     ],
+     "opening_level_note": "The document does not say which tier applies at closing, so no tier is flagged. For context only: it shows pro forma Net First Lien Debt / Adjusted EBITDA of 1.0x (pages 10 and 12; 1.4x current), which would sit in the <1.50x tier (S+125 bps), but the document does not state this and notes that leverage under the debt agreements is calculated differently from the reported figures.",
+     "notes": "The grid has only two columns (Net First Lien Leverage, Pricing); tiers are unnumbered and listed from highest leverage to lowest, so the level numbers 1-4 are assigned in document order. There is no base rate margin, undrawn fee or LC fee column. The Undrawn Fee is a separate line with its own 2.75x breakpoint and is recorded in pricing.fees."
+    }
+   ],
+   "fees": [
+    {
+     "type": "commitment_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Undrawn fee of 37.5 bps, with a 12.5 bps stepdown when First Lien Net Leverage is less than or equal to 2.75x. The stepped-down rate of 25.0 bps is computed (37.5 less 12.5); the term sheet does not print it. The term sheet does not say which level applies at closing: 37.5 bps is the headline rate, although pro forma First Lien Net Leverage is shown as 1.0x (page 10), which is below the 2.75x trigger.",
+     "bps": 37.5,
+     "bps_low": 25.0,
+     "bps_high": 37.5,
+     "amount_text": "37.5 bps with a 12.5 bps stepdown at First Lien Net Leverage less than or equal to 2.75x",
+     "quote": "Undrawn Fee: 37.5 bps with a 12.5 bps stepdown at First Lien Net Leverage less than or equal to 2.75x",
+     "page": 11
+    },
+    {
+     "type": "upfront_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Extension of existing commitments (old money)",
+     "bps": 4.0,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "4 bps",
+     "quote": "Upfront Fees: 4 bps for extension of existing commitments; 20 bps for new commitments",
+     "page": 11
+    },
+    {
+     "type": "upfront_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "New commitments (new money)",
+     "bps": 20.0,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "20 bps",
+     "quote": "Upfront Fees: 4 bps for extension of existing commitments; 20 bps for new commitments",
+     "page": 11
+    }
+   ],
+   "change_vs_existing": "The Revolving Credit Facility is upsized from $750 million to $1,000 million and its maturity extended from 2030 to May 2031. The SOFR floor, amortization (none) and call protection (freely prepayable at par) are each marked 'same as existing Revolving Credit Facility'. The Indicative Pricing grid and the Undrawn Fee line carry no such tag and the existing pricing is not shown, so the document does not say whether they changed.",
+   "notes": "Call Protection: Freely prepayable at par (no prepayment premium). No credit spread adjustment, base rate margin, letter of credit fee, swingline pricing, default rate, ESG adjustment or MFN is mentioned. The Sources & Uses table on page 12 shows 'Estimated Fees, OID, and Expenses' of $30 ($ in millions) across the combined Revolving Credit Facility, Term Loan B and Senior Unsecured Debt transactions; this is an aggregate cost, not a fee rate. The Executive Summary on page 10 repeats the upfront fees ('4 bps for extending their existing commitments and 20 bps for new commitments')."
+  },
+  "financial_covenants": [
+   {
+    "type": "max_first_lien_leverage",
+    "name": "Net First Lien Leverage Ratio (net)",
+    "direction": "max",
+    "threshold": 3.75,
+    "unit": "x",
+    "threshold_text": "3.75x",
+    "schedule": [],
+    "step_up": {
+     "present": true,
+     "threshold": 4.5,
+     "detail": "Following a qualified acquisition, steps up to 4.50x and then steps back down to 4.00x 1 year after the quarter in which the acquisition was made. As printed, the step-back level is 4.00x, not the 3.75x base level."
+    },
+    "springing": {
+     "is_springing": true,
+     "trigger": "Only tested when 30% of the facility is drawn"
+    },
+    "applies_to": "Revolving Credit Facility (F1)",
+    "test_frequency": "Quarterly, only when 30% of the facility is drawn",
+    "definition_notes": "The term sheet gives no definition. Page 8 says the Company calculates its net leverage ratio in accordance with its debt agreements, which include EBITDA adjustments (including pro forma adjustments for acquisitions and cost savings) not reflected in reported adjusted EBITDA.",
+    "change_vs_existing": "Marked 'same as existing Revolving Credit Facility'.",
+    "quote": "Net First Lien Leverage Ratio of 3.75x, only to be tested quarterly when 30% of facility is drawn. Following a qualified acquisi tion, steps up to 4.50x and then steps back down to 4.00x 1 year after the quarter in which the acquisition was made (same as existing Revolving Credit Facility)",
+    "page": 11
+   }
+  ],
+  "no_financial_covenant_note": null,
+  "format_notes": ""
+ }
+}

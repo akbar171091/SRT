@@ -1,0 +1,230 @@
+{
+ "sha1": "0ea9d0b3f9a52894e39d65fd104cf3881097ed91",
+ "source_file": "Granite Construction 2025 TS.pdf",
+ "verified_on": "2026-11-12",
+ "method": "Extracted from the full document by one AI reviewer, then audited value by value against the document text by a second, independent AI reviewer (1,001 values checked across the 14 term sheets; no misread figure was found, and the classification points it raised are listed here where they changed this record). Not signed off by a person. Every quote is re-checked against the PDF each time the tool runs.",
+ "notes": [],
+ "record": {
+  "deal": "Granite Construction 2025",
+  "source_file": "Granite Construction 2025 TS.pdf",
+  "doc": {
+   "kind": "term_sheet",
+   "title": "Summary of Terms and Conditions - Granite Construction Incorporated - Up to $1,100,000,000 Senior Secured Credit Facility",
+   "date": null,
+   "is_amendment": true,
+   "notes": "Undated 16-page commitment-letter term sheet (attached to a Commitment Letter): main body on pages 1-13 and 'Addendum I - Pricing, Fees and Expenses' on pages 14-16. The facility refinances the Fourth Amended and Restated Credit Agreement dated June 2, 2022 (the 'Existing Credit Agreement') and adds a $550mm term loan to finance the acquisition 'Project Hub City'; page 13 says the definitive documentation is anticipated to be an amendment and restatement of the Existing Credit Agreement, which is why is_amendment is true. The term sheet states full go-forward terms and does not print the existing pricing or covenant levels. A separate Fee Letter is referenced for the fronting fee; no upfront or arrangement fee appears in this document."
+  },
+  "borrower": {
+   "name": "Granite Construction Incorporated (the Company), with Designated Borrowers Granite Construction Company and GILC Incorporated (joint and several)",
+   "quote": "Granite Construction Incorporated, a Delaware corporation (the “Company”)",
+   "page": 1
+  },
+  "credit_profile": {
+   "value": "leveraged",
+   "basis": "Senior secured facility (first-priority liens on substantially all personal property and subsidiary stock), priced off a Leverage Ratio grid rather than ratings, with a commitment fee (not a facility fee) and leverage plus interest coverage maintenance covenants. No credit ratings are named anywhere in the document."
+  },
+  "security": {
+   "value": "secured",
+   "detail": "First-priority liens (subject to exceptions, real property excluded) on the capital stock of subsidiaries (65% of voting stock of first-tier controlled foreign corporations), intercompany debt, and all personal property of each Borrower and Guarantor; substantially identical to the collateral under the Existing Credit Agreement. Guaranteed by each Material Subsidiary.",
+   "quote": "valid and perfected first priority (subject to certain exceptions to be set forth in the loan documentation, with an exclusion of all real property) liens and security interests",
+   "page": 6
+  },
+  "facilities": [
+   {
+    "id": "F1",
+    "name": "Revolving Credit Facility",
+    "type": "revolver",
+    "amount_mm": 550,
+    "currency": "USD",
+    "tenor_text": "five-year revolving credit facility; $150,000,000 letter of credit sublimit (financial letters of credit capped at $75,000,000) and $20,000,000 swingline sublimit",
+    "tenor_years": 5.0,
+    "maturity_text": "five years after the Closing Date",
+    "quote": "An up to $550,000,000 five-year revolving credit facility (the “Revolving Credit Facility”)",
+    "page": 2
+   },
+   {
+    "id": "F2",
+    "name": "Term Loan Facility",
+    "type": "term_loan_a",
+    "amount_mm": 550,
+    "currency": "USD",
+    "tenor_text": "Matures five years after the Closing Date; fully drawn on the Closing Date; quarterly amortization of 0.000%, then 0.625%, then 1.250% of the original stated amount",
+    "tenor_years": 5.0,
+    "maturity_text": "five years after the Closing Date",
+    "quote": "A $550,000,000 term loan facility (the “Term Loan Facility”), all of which will be drawn on the Closing Date.",
+    "page": 2
+   }
+  ],
+  "pricing": {
+   "benchmark": "Term SOFR (the 'Benchmark Rate'; one, three or six month interest periods)",
+   "basis": "leverage_grid",
+   "basis_detail": "Leverage Ratio (consolidated funded indebtedness to Consolidated EBITDA) determined as of the last day of the immediately preceding fiscal quarter; five pricing levels.",
+   "csa": {
+    "applies": false,
+    "bps": null,
+    "detail": "The SOFR Adjustment that exists in the Existing Credit Agreement is removed; no credit spread adjustment applies going forward.",
+    "quote": "The SOFR Adjustment (as defined and set forth in the Existing Credit Agreement) shall be removed.",
+    "page": 14
+   },
+   "floor": {
+    "pct": 0.0,
+    "detail": "Neither the Benchmark Rate (Term SOFR) nor the Base Rate may be less than zero.",
+    "quote": "in no event shall the Benchmark Rate or the Base Rate be less than zero",
+    "page": 14
+   },
+   "grids": [
+    {
+     "name": "Performance Pricing grid (Addendum I)",
+     "facility_ids": [
+      "F1",
+      "F2"
+     ],
+     "metric": "Leverage Ratio",
+     "undrawn_fee_type": "commitment_fee",
+     "page": 15,
+     "tiers": [
+      {
+       "level": "1",
+       "criteria": "<1.50x",
+       "drawn_margin_bps": 125.0,
+       "base_rate_margin_bps": 25.0,
+       "undrawn_fee_bps": 17.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 125.0,
+       "is_opening": false,
+       "quote": "1 <1.50x 17.5 125.0 83.3 25.0"
+      },
+      {
+       "level": "2",
+       "criteria": "≥1.50x",
+       "drawn_margin_bps": 150.0,
+       "base_rate_margin_bps": 50.0,
+       "undrawn_fee_bps": 20.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 150.0,
+       "is_opening": false,
+       "quote": "2 ≥1.50x 20.0 150.0 100.0 50.0"
+      },
+      {
+       "level": "3",
+       "criteria": "≥2.00x",
+       "drawn_margin_bps": 162.5,
+       "base_rate_margin_bps": 62.5,
+       "undrawn_fee_bps": 25.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 162.5,
+       "is_opening": false,
+       "quote": "3 ≥2.00x 25.0 162.5 105.0 62.5"
+      },
+      {
+       "level": "4",
+       "criteria": "≥2.50x",
+       "drawn_margin_bps": 175.0,
+       "base_rate_margin_bps": 75.0,
+       "undrawn_fee_bps": 30.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 175.0,
+       "is_opening": true,
+       "quote": "4 ≥2.50x 30.0 175.0 120.0 75.0"
+      },
+      {
+       "level": "5",
+       "criteria": "≥3.25x",
+       "drawn_margin_bps": 200.0,
+       "base_rate_margin_bps": 100.0,
+       "undrawn_fee_bps": 35.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 200.0,
+       "is_opening": false,
+       "quote": "5 ≥3.25x 35.0 200.0 135.0 100.0"
+      }
+     ],
+     "opening_level_note": "Page 15 states that pricing from the Closing Date through the first business day after delivery of the compliance certificate for the fiscal quarter ending March 31, 2026 is determined based upon Pricing Level 4.",
+     "notes": "Column order in each row: Pricing Level | Leverage Ratio | Commitment Fee (bps) | Applicable Margin for Term SOFR Loans / Financial Letter of Credit Fee (bps) | Performance Letter of Credit Fee (bps) | Applicable Margin for Base Rate Loans, including Swingline Loans (bps). The table has two letter of credit fee columns: lc_fee_bps holds the FINANCIAL letter of credit fee, which shares the Term SOFR margin column; the separate PERFORMANCE letter of credit fee column (83.3 / 100.0 / 105.0 / 120.0 / 135.0 bps for Levels 1-5) is recorded in pricing.fees. Levels 2-5 print only a lower bound (the upper bound is implied by the next level). The margins apply to both the Revolving Credit Facility and the Term Loan Facility; the commitment fee (on the actual daily unused portion, swingline loans not counted as utilization) and letter of credit fees apply to the Revolving Credit Facility only."
+    }
+   ],
+   "fees": [
+    {
+     "type": "lc_participation_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Performance Letter of Credit fee: per annum on the maximum amount available to be drawn under each performance Letter of Credit, set by its own column of the pricing grid (fifth number in each row). Stepped by Leverage Ratio; Level 4 applies at closing. The financial Letter of Credit fee equals the Term SOFR margin and is in the grid as lc_fee_bps.",
+     "bps": 120.0,
+     "bps_low": 83.3,
+     "bps_high": 135.0,
+     "amount_text": "83.3 / 100.0 / 105.0 / 120.0 / 135.0 bps at Pricing Levels 1 to 5; 120.0 bps at closing (Level 4)",
+     "quote": "1 <1.50x 17.5 125.0 83.3 25.0 2 ≥1.50x 20.0 150.0 100.0 50.0 3 ≥2.00x 25.0 162.5 105.0 62.5 4 ≥2.50x 30.0 175.0 120.0 75.0 5 ≥3.25x 35.0 200.0 135.0 100.0",
+     "page": 15
+    },
+    {
+     "type": "lc_fronting_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Fronting fee payable to the Fronting Bank (Bank of America) for its own account. The amount is not printed in the term sheet.",
+     "bps": null,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "Amount set forth in the Fee Letter (not stated in the term sheet)",
+     "quote": "In addition, a fronting fee shall be payable to the Fronting Bank for its own account, in an amount set forth in the Fee Letter.",
+     "page": 15
+    }
+   ],
+   "change_vs_existing": "The SOFR Adjustment defined in the Existing Credit Agreement is removed. The document does not print the existing pricing grid or fees, so no other pricing change can be read from it.",
+   "notes": "Base Rate is the highest of (a) the Bank of America prime rate, (b) the Federal Funds rate plus 0.50% and (c) the Benchmark Rate plus 1.00%; Swingline Loans bear interest at the Base Rate plus the Applicable Margin for Base Rate loans. Default rate: the Applicable Margin increases by 2% per annum during the continuance of any default (on request of the Required Lenders except for a principal payment default). Loans are prepayable at any time without premium or penalty, subject to compensation for losses. No upfront, arrangement, ticking or agency fee is stated in the term sheet (a Fee Letter is referenced). An assignment fee of $3,500 per assignment is stated on page 11. Incremental Term Facility pricing is to be reasonably acceptable to the Administrative Agent and the relevant Lenders; no MFN and no ESG or sustainability adjustment is mentioned. Interest and fees are calculated on an actual/360 basis (actual/365-366 for Base Rate loans)."
+  },
+  "financial_covenants": [
+   {
+    "type": "min_interest_coverage",
+    "name": "Minimum Interest Coverage Ratio",
+    "direction": "min",
+    "threshold": 3.0,
+    "unit": "x",
+    "threshold_text": "not less than 3.00 to 1.00",
+    "schedule": [],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "The Company (Granite Construction Incorporated) on a consolidated basis; Senior Credit Facility (Revolving Credit Facility and Term Loan Facility)",
+    "test_frequency": "As of the last day of any fiscal quarter",
+    "definition_notes": "Ratio of (i) Consolidated EBITDA to (ii) the interest expense which was deductible in determining consolidated net income or loss. The measurement period and the Consolidated EBITDA definition are not set out in the term sheet.",
+    "change_vs_existing": "Existing level not stated; covenants are described as substantially similar to the Existing Credit Agreement.",
+    "quote": "Minimum Interest Coverage Ratio: The Company shall not permit as of the last day of any fiscal quarter the ratio of (i) Consolidated EBITDA to (ii) the interest expense, which was deductible in determining the consolidated net income or loss, as applicable, to be less than 3.00 to 1.00.",
+    "page": 10
+   },
+   {
+    "type": "max_total_leverage",
+    "name": "Maximum Consolidated Leverage Ratio",
+    "direction": "max",
+    "threshold": 3.75,
+    "unit": "x",
+    "threshold_text": "not to exceed 3.75 to 1.00 (4.25 to 1.00 for four fiscal quarters after a permitted acquisition with consideration above $100,000,000)",
+    "schedule": [],
+    "step_up": {
+     "present": true,
+     "threshold": 4.25,
+     "detail": "For each of the four consecutive fiscal quarters ending after any permitted acquisition with consideration in excess of $100,000,000 occurs, the Leverage Ratio may not exceed 4.25 to 1.00."
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "The Company (Granite Construction Incorporated) on a consolidated basis; Senior Credit Facility (Revolving Credit Facility and Term Loan Facility)",
+    "test_frequency": "As of the last day of any fiscal quarter",
+    "definition_notes": "Ratio of (i) consolidated funded indebtedness to (ii) Consolidated EBITDA, defined as the 'Leverage Ratio' (the same ratio drives the pricing grid). No netting of cash is stated. The term sheet does not say whether the closing-date acquisition (Project Hub City) itself triggers the 4.25x step-up.",
+    "change_vs_existing": "Existing level not stated; covenants are described as substantially similar to the Existing Credit Agreement.",
+    "quote": "to exceed 3.75 to 1.00; provided, however, for each of the four consecutive fiscal quarters ending after any permitted acquisition with consideration in excess of $100,000,000 occurs, the Leverage Ratio as of the last day of such fiscal quarter shall not exceed 4.25 to 1.00.",
+    "page": 10
+   }
+  ],
+  "no_financial_covenant_note": null,
+  "format_notes": ""
+ }
+}

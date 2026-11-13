@@ -1,0 +1,168 @@
+{
+ "sha1": "760384fdebd377f4547928842ce5f3ce62b71aef",
+ "source_file": "Honeywell 364day 2026 TS.pdf",
+ "verified_on": "2026-11-12",
+ "method": "Extracted from the full document by one AI reviewer, then audited value by value against the document text by a second, independent AI reviewer (1,001 values checked across the 14 term sheets; no misread figure was found, and the classification points it raised are listed here where they changed this record). Not signed off by a person. Every quote is re-checked against the PDF each time the tool runs.",
+ "notes": [
+  "Credit spread adjustment recorded as 'not stated' rather than 'none': the term sheet is silent on a SOFR adjustment. 'None' is kept for documents that expressly exclude or remove one."
+ ],
+ "record": {
+  "deal": "Honeywell 364day 2026",
+  "source_file": "Honeywell 364day 2026 TS.pdf",
+  "doc": {
+   "kind": "term_sheet",
+   "title": "Honeywell International Inc. - Summary of Terms and Conditions - $3,000,000,000 364-Day Multi-Currency Revolving Credit Facility",
+   "date": null,
+   "is_amendment": false,
+   "notes": "Ten-page indicative Summary of Terms and Conditions; no date is printed (the page footer reads '2026 Honeywell Term Sheet'). It is a new 364-day facility that replaces the Existing 364-Day Credit Agreement dated as of March 17, 2025 (conditions to closing include payment of accrued amounts and termination of commitments under that agreement), with documentation to be substantially similar to it. Aggregate commitments reduce automatically and permanently to $2,000,000,000 upon consummation of the 'Spin Off' (a term this document does not define). A separate '5-Year Facility' is mentioned once as possibly being documented in the same credit agreement, but its terms are not part of this term sheet. The pricing grid is an attachment on the last page (page 10)."
+  },
+  "borrower": {
+   "name": "Honeywell International Inc.",
+   "quote": "Borrower: Honeywell International Inc. (the “Company”).",
+   "page": 1
+  },
+  "credit_profile": {
+   "value": "investment_grade",
+   "basis": "Unsecured 364-day revolver priced off a grid of the Company's long-term senior unsecured debt ratings by S&P and Moody's, running from at least AA-/Aa3 (Level I) down to below BBB+/Baa1 (Level VI), with commitment fees of 2 to 9 bps and margins of 50 to 112.5 bps, and no financial covenant listed."
+  },
+  "security": {
+   "value": "unsecured",
+   "detail": "Described as a 364-day unsecured multi-currency revolving credit facility; no guarantees or collateral are mentioned.",
+   "quote": "364-day unsecured multi-currency revolving credit facility",
+   "page": 1
+  },
+  "facilities": [
+   {
+    "id": "F1",
+    "name": "364-Day Multi-Currency Revolving Credit Facility (the \"364-Day Facility\")",
+    "type": "revolver_364_day",
+    "amount_mm": 3000,
+    "currency": "USD",
+    "tenor_text": "364-day; Advances available in U.S. Dollars and Euros; Term Loan Conversion Option to convert outstanding Advances on the 364-Day Commitment Termination Date into a term loan maturing no later than the first anniversary of that date",
+    "tenor_years": 1.0,
+    "maturity_text": "364-Day Commitment Termination Date: 364 days after the Closing Date. Final Maturity Date: the 364-Day Commitment Termination Date, or, if the Term Loan Conversion Option is elected, a date selected by the Company not later than the first anniversary of the 364-Day Commitment Termination Date.",
+    "quote": "$3,000,000,000 364-Day Multi-Currency Revolving Credit Facility",
+    "page": 1
+   }
+  ],
+  "pricing": {
+   "benchmark": "Term SOFR (1, 3 or 6 month interest periods) for U.S. Dollar Advances; EURIBOR (1, 3 or 6 month interest periods) for Euro Advances; Base Rate option for U.S. Dollar Advances",
+   "basis": "ratings_grid",
+   "basis_detail": "The Company's long-term senior unsecured non-credit-enhanced debt ratings by S&P and Moody's, in six levels (Level I: at least AA- by S&P or Aa3 by Moody's; Level VI: lower than Level V, i.e. below BBB+ / Baa1). Each level is worded '... by S&P or ... by Moody's'; the term sheet does not spell out split-rating rules.",
+   "csa": {
+    "applies": null,
+    "bps": null,
+    "detail": "The term sheet is silent on a credit spread adjustment: the rate is Term SOFR (but not less than zero) plus the Applicable Margin.",
+    "quote": "Term SOFR: a periodic fixed rate equal to Term SOFR (but not less than zero) plus the Applicable Margin.",
+    "page": 2
+   },
+   "floor": {
+    "pct": 0.0,
+    "detail": "Term SOFR is 'not less than zero'. The same zero floor is stated for EURIBOR (page 3) and for the one month Term SOFR component of the Base Rate (page 2).",
+    "quote": "Term SOFR: a periodic fixed rate equal to Term SOFR (but not less than zero) plus the Applicable Margin.",
+    "page": 2
+   },
+   "grids": [
+    {
+     "name": "364-Day Pricing Grid",
+     "facility_ids": [
+      "F1"
+     ],
+     "metric": "Long-term senior unsecured (non-credit-enhanced) debt ratings of the Company by S&P / Moody's",
+     "undrawn_fee_type": "commitment_fee",
+     "page": 10,
+     "tiers": [
+      {
+       "level": "LEVEL I",
+       "criteria": "Long-Term Senior Unsecured Debt Rated at least AA- by S&P or Aa3 by Moody's",
+       "drawn_margin_bps": 50.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 2.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Commitment Fee 0.02% 0.03% 0.04% 0.05% 0.075% 0.09% (1) Applicable Margin 0.50% 0.625% 0.75% 0.875% 1.00% 1.125%"
+      },
+      {
+       "level": "LEVEL II",
+       "criteria": "Long-Term Senior Unsecured Debt Rated less than Level I but at least A+ by S&P or A1 by Moody's",
+       "drawn_margin_bps": 62.5,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 3.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Commitment Fee 0.02% 0.03% 0.04% 0.05% 0.075% 0.09% (1) Applicable Margin 0.50% 0.625% 0.75% 0.875% 1.00% 1.125%"
+      },
+      {
+       "level": "LEVEL III",
+       "criteria": "Long-Term Senior Unsecured Debt Rated less than Level II but at least A by S&P or A2 by Moody's",
+       "drawn_margin_bps": 75.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 4.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Commitment Fee 0.02% 0.03% 0.04% 0.05% 0.075% 0.09% (1) Applicable Margin 0.50% 0.625% 0.75% 0.875% 1.00% 1.125%"
+      },
+      {
+       "level": "LEVEL IV",
+       "criteria": "Long-Term Senior Unsecured Debt Rated less than Level III but at least A- by S&P or A3 by Moody's",
+       "drawn_margin_bps": 87.5,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 5.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Commitment Fee 0.02% 0.03% 0.04% 0.05% 0.075% 0.09% (1) Applicable Margin 0.50% 0.625% 0.75% 0.875% 1.00% 1.125%"
+      },
+      {
+       "level": "LEVEL V",
+       "criteria": "Long-Term Senior Unsecured Debt Rated less than Level IV but at least BBB+ by S&P or Baa1 by Moody's",
+       "drawn_margin_bps": 100.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 7.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Commitment Fee 0.02% 0.03% 0.04% 0.05% 0.075% 0.09% (1) Applicable Margin 0.50% 0.625% 0.75% 0.875% 1.00% 1.125%"
+      },
+      {
+       "level": "LEVEL VI",
+       "criteria": "Long-Term Senior Unsecured Debt Rated lower than Level V",
+       "drawn_margin_bps": 112.5,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 9.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Commitment Fee 0.02% 0.03% 0.04% 0.05% 0.075% 0.09% (1) Applicable Margin 0.50% 0.625% 0.75% 0.875% 1.00% 1.125%"
+      }
+     ],
+     "opening_level_note": "The term sheet does not state the Company's current ratings or which level applies at closing, so no tier is flagged as opening.",
+     "notes": "The grid is transposed: the six levels (LEVEL I to LEVEL VI) are columns and 'Commitment Fee (1)' and 'Applicable Margin' are the two value rows, so there is no single text row per tier. Every tier therefore carries the same contiguous quote covering both value rows; a tier's figures are the n-th value in each row (Level I = first, Level VI = sixth). The Applicable Margin row applies to Term SOFR Advances and EURIBOR Advances. The Base Rate margin is not printed in the grid: page 3 defines it as 100 basis points lower than the Term SOFR margin, but not less than 0.00%, so base_rate_margin_bps is left null rather than computed. Footnote (1): commitment fee paid quarterly in arrears on each bank's unused commitment. The ratings criteria are wrapped over several lines per column in the extract and were reassembled column by column."
+    }
+   ],
+   "fees": [
+    {
+     "type": "term_out_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Term Loan Conversion Option: fee (called an 'upfront fee' in the document) payable on any Advances converted into a term loan on the 364-Day Commitment Termination Date, the term loan maturing no later than the first anniversary of that date.",
+     "bps": 75.0,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "75 basis points on any Advances so converted",
+     "quote": "to convert outstanding Advances under the 364-Day Facility into a term loan maturing no later than the first anniversary of the 364-Day Commitment Termination Date, upon payment of an upfront fee of 75 basis points on any Advances so converted",
+     "page": 1
+    }
+   ],
+   "change_vs_existing": null,
+   "notes": "Base Rate Advances: Applicable Margin is 100 basis points lower than the Term SOFR margin, but not less than 0.00% (page 3); the Base Rate is the highest of Bank of America's prime rate, the Federal funds rate plus 1/2 of 1%, and one month Term SOFR (not less than zero) plus 1.00%, and is available for U.S. Dollar Advances only. Default rate: upon and during the continuance of any payment event of default the Applicable Margin on the unpaid principal of each Advance increases by 100 basis points per annum, and non-Base Rate Advances convert to Base Rate Advances at the end of the current interest period (page 3). Commitment fee is payable on each Lender's unused commitment quarterly in arrears, calculated on actual days over 365/366 (page 2). Interest is computed on a 365/366-day basis for Base Rate Advances and a 360-day basis for Term SOFR and EURIBOR Advances. Euro Advances bear EURIBOR plus the same Applicable Margin; no alternative currency adjustment is stated. Prepayment is without penalty, subject to breakage costs. The term sheet states no closing upfront fee, arrangement fee, utilization fee, extension fee or letter of credit fee, no ESG / sustainability pricing adjustment and no MFN. An administrative fee of $3,500 per assignment payable to the Agent by the assignment parties other than the Company (page 8), and a $3,500 administrative fee payable by the Company when a replaced Lender's replacement is not an existing Lender (page 9), are processing charges and are not recorded as pricing fees. The term sheet does not print the pricing of the Existing 364-Day Agreement, so no comparison with existing terms is available."
+  },
+  "financial_covenants": [],
+  "no_financial_covenant_note": "The term sheet is silent on financial covenants; it does not expressly say 'none'. The 'Covenants:' section (pages 5-6) lists twelve covenants (corporate existence, compliance with laws, payment of taxes, visitation rights, books and records, properties, insurance, negative pledge and limitations on liens and secured debt, restrictions on consolidations / mergers / sale of assets, reporting, notice of change of control and of the Spin Off, anti-corruption laws and sanctions) and contains no leverage, coverage, capitalization, net worth or liquidity test. The list is introduced as 'including, but not limited to' and the covenants are to be similar to (and no less favorable to the Company than) the Existing 364-Day Agreement, which is not part of this document, so the absence of a financial covenant in the final documentation cannot be confirmed from the term sheet alone.",
+  "format_notes": ""
+ }
+}

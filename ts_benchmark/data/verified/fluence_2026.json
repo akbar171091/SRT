@@ -1,0 +1,178 @@
+{
+ "sha1": "55c53c72c95e8afa91ef819431a9a45866253eb5",
+ "source_file": "Fluence 2026 TS.pdf",
+ "verified_on": "2026-11-12",
+ "method": "Extracted from the full document by one AI reviewer, then audited value by value against the document text by a second, independent AI reviewer (1,001 values checked across the 14 term sheets; no misread figure was found, and the classification points it raised are listed here where they changed this record). Not signed off by a person. Every quote is re-checked against the PDF each time the tool runs.",
+ "notes": [],
+ "record": {
+  "deal": "Fluence 2026",
+  "source_file": "Fluence 2026 TS.pdf",
+  "doc": {
+   "kind": "summary",
+   "title": "Proposed Terms for Secured Revolving Credit Facility",
+   "date": null,
+   "is_amendment": true,
+   "notes": "Two landscape slides (numbered 7 and 8) comparing Existing Terms with Proposed Terms for an amendment of the existing revolver. The pages are rotated 90 degrees and the slide titles use a font with no usable text mapping, so the title text extracts as unreadable glyphs; the body text extracts in reading order with the existing-terms cell followed by the proposed-terms cell."
+  },
+  "borrower": {
+   "name": "Fluence Energy, LLC and Fluence Energy Global Production Operation, LLC",
+   "quote": "Borrower: Fluence Energy, LLC Fluence Energy Global Production Operation, LLC Same as existing",
+   "page": 1
+  },
+  "credit_profile": {
+   "value": "leveraged",
+   "basis": "Senior secured revolver with a first-priority lien on substantially all assets, a flat S + 300 bps drawn margin, a minimum liquidity covenant and no ratings-based pricing."
+  },
+  "security": {
+   "value": "secured",
+   "detail": "Perfected first-priority lien on substantially all tangible and intangible assets of the Borrower and U.S. Guarantors; proposed terms add a $50 million cash collateral requirement for usage above $450 million.",
+   "quote": "a perfected first-priority lien on substantially all tangible",
+   "page": 1
+  },
+  "facilities": [
+   {
+    "id": "F1",
+    "name": "Senior Secured Revolving Credit Facility",
+    "type": "revolver",
+    "amount_mm": 500,
+    "currency": "USD",
+    "tenor_text": "Matures November 22, 2027 (unchanged)",
+    "tenor_years": null,
+    "maturity_text": "November 22, 2027",
+    "quote": "Facility: $500 million Senior Secured Revolving Credit Facility",
+    "page": 1
+   }
+  ],
+  "pricing": {
+   "benchmark": "SOFR",
+   "basis": "flat",
+   "basis_detail": "Flat margins, no grid. Proposed terms are the same as existing.",
+   "csa": {
+    "applies": null,
+    "bps": null,
+    "detail": "Not mentioned.",
+    "quote": "",
+    "page": null
+   },
+   "floor": {
+    "pct": 0.0,
+    "detail": "SOFR floor 0.00%, same as existing.",
+    "quote": "SOFR Floor: 0.00% Same as existing",
+    "page": 1
+   },
+   "grids": [
+    {
+     "name": "Pricing",
+     "facility_ids": [
+      "F1"
+     ],
+     "metric": "Flat",
+     "undrawn_fee_type": "commitment_fee",
+     "page": 1,
+     "tiers": [
+      {
+       "level": "Flat",
+       "criteria": "All periods",
+       "drawn_margin_bps": 300.0,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 50.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 300.0,
+       "is_opening": true,
+       "quote": "Drawn: S + 300 bps Undrawn: 50 bps LC: 3.00%"
+      }
+     ],
+     "opening_level_note": "Flat pricing, so the single tier applies at closing.",
+     "notes": "Proposed terms: 'Same as existing'."
+    }
+   ],
+   "fees": [
+    {
+     "type": "consent_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Consent fee for the amendment (proposed terms)",
+     "bps": 10.0,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "10 bps",
+     "quote": "Consent Fee: 10 bps",
+     "page": 1
+    }
+   ],
+   "change_vs_existing": "Pricing and SOFR floor unchanged. A 10 bps consent fee is payable for the amendment.",
+   "notes": ""
+  },
+  "financial_covenants": [
+   {
+    "type": "min_liquidity",
+    "name": "Minimum Liquidity",
+    "direction": "min",
+    "threshold": 150.0,
+    "unit": "usd_mm",
+    "threshold_text": "$150 million until December 31, 2026; $100 million thereafter",
+    "schedule": [
+     {
+      "period": "From Closing Date until December 31, 2026",
+      "threshold": 150.0
+     },
+     {
+      "period": "Post-December 31, 2026",
+      "threshold": 100.0
+     }
+    ],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "Revolving Credit Facility",
+    "test_frequency": "",
+    "definition_notes": "Liquidity is the sum of all unrestricted cash and cash equivalents plus the unutilized commitments then available to be drawn under the Facility.",
+    "change_vs_existing": "Existing: $150 million until December 31, 2025 and $100 million thereafter. Proposed extends the $150 million period by one year to December 31, 2026.",
+    "quote": "From Closing Date until December 31, 2026: • Minimum Liquidity(1) of $150 million",
+    "page": 2
+   },
+   {
+    "type": "max_total_leverage",
+    "name": "Maximum Consolidated Leverage Ratio",
+    "direction": "max",
+    "threshold": 3.5,
+    "unit": "x",
+    "threshold_text": "3.5x, tested only after December 31, 2026",
+    "schedule": [
+     {
+      "period": "From Closing Date until December 31, 2026 (not tested)",
+      "threshold": null
+     },
+     {
+      "period": "Post-December 31, 2026",
+      "threshold": 3.5
+     }
+    ],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "Revolving Credit Facility",
+    "test_frequency": "",
+    "definition_notes": "The slides do not say whether the Consolidated Leverage Ratio is gross or net of cash.",
+    "change_vs_existing": "Existing: leverage test applied after December 31, 2025. Proposed defers the first test by one year, to after December 31, 2026.",
+    "quote": "Post-December 31, 2026: • Minimum Liquidity(1) of $100 million and • Maximum Consolidated Leverage Ratio of 3.5x",
+    "page": 2
+   }
+  ],
+  "no_financial_covenant_note": null,
+  "format_notes": ""
+ }
+}

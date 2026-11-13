@@ -1,0 +1,282 @@
+{
+ "sha1": "d6c342b4e6587fb7de50ed6a58d13410d0adb6cd",
+ "source_file": "Delta Airlines 2026 TS .pdf",
+ "verified_on": "2026-11-12",
+ "method": "Extracted from the full document by one AI reviewer, then audited value by value against the document text by a second, independent AI reviewer (1,001 values checked across the 14 term sheets; no misread figure was found, and the classification points it raised are listed here where they changed this record). Not signed off by a person. Every quote is re-checked against the PDF each time the tool runs.",
+ "notes": [],
+ "record": {
+  "deal": "Delta Airlines 2026",
+  "source_file": "Delta Airlines 2026 TS .pdf",
+  "doc": {
+   "kind": "term_sheet",
+   "title": "Delta Air Lines, Inc. Revolving Credit Facility - Summary of Principal Terms and Conditions",
+   "date": null,
+   "is_amendment": false,
+   "notes": "12-page 'POSTING VERSION' term sheet for a new $2.65bn senior unsecured Revolving Facility that refinances the Existing Credit Agreement (Amended and Restated Credit Agreement dated as of November 6, 2023). The term sheet itself is undated; it refers to a Commitment Letter dated as of May 6, 2026 between the Borrower and JPMCB. Many provisions are 'Same as set forth in the Existing Credit Agreement' and are not reproduced (Extension Option, Refinancing Revolving Facilities, interest provisions 'summarized in part'). Documentation is to reflect the occurrence of the Collateral Release Date under the Existing Credit Agreement. Incremental Revolving Increases are permitted up to aggregate commitments of $3,650,000,000. The pricing grid is Schedule I on the last page."
+  },
+  "borrower": {
+   "name": "Delta Air Lines, Inc.",
+   "quote": "Borrower: Delta Air Lines, Inc. (the “Borrower”).",
+   "page": 1
+  },
+  "credit_profile": {
+   "value": "investment_grade",
+   "basis": "Senior unsecured revolving facility with no guarantors and no collateral, priced off a Moody's/S&P/Fitch corporate ratings grid whose top four of six levels are investment grade (A3/A-/A- or better down to Baa3/BBB-/BBB-), with low upfront fees (10.5 to 20 bps) and documentation modified to reflect the occurrence of the Collateral Release Date. Crossover features remain: the grid extends two levels into sub-investment grade (Ba1/BB+/BB+ and Ba2/BB/BB), it uses a commitment fee rather than a facility fee, and there are an Asset Coverage Ratio over a negative-pledged pool of assets and a fixed charge coverage covenant. The document does not state the Borrower's current ratings."
+  },
+  "security": {
+   "value": "unsecured",
+   "detail": "Senior unsecured; 'Collateral: None.' and 'Guarantors: None.' (pages 1 and 3). The Pool Assets are not pledged but are subject to a limitation on liens with a double negative pledge and support the Minimum Asset Coverage Ratio.",
+   "quote": "A senior unsecured revolving credit facility of $2,650,000,000.00",
+   "page": 2
+  },
+  "facilities": [
+   {
+    "id": "F1",
+    "name": "3-Year Tranche of the Revolving Facility (includes a $250,000,000 letter of credit sub-facility)",
+    "type": "revolver",
+    "amount_mm": 1325,
+    "currency": "USD",
+    "tenor_text": "Three years after the Closing Date, subject to the Extension Option (same as set forth in the Existing Credit Agreement)",
+    "tenor_years": 3.0,
+    "maturity_text": "The date that is three years after the Closing Date (the 3-Year Tranche Maturity Date)",
+    "quote": "(i) a three- year tranche (the “3- Year Tranche”; the loans thereunder, the “ 3- Year Loans”) in an aggregate amount of $1,325 ,000,000",
+    "page": 2
+   },
+   {
+    "id": "F2",
+    "name": "5-Year Tranche of the Revolving Facility (includes a $250,000,000 letter of credit sub-facility)",
+    "type": "revolver",
+    "amount_mm": 1325,
+    "currency": "USD",
+    "tenor_text": "Five years after the Closing Date, subject to the Extension Option (same as set forth in the Existing Credit Agreement)",
+    "tenor_years": 5.0,
+    "maturity_text": "The date that is five years after the Closing Date (the 5-Year Tranche Maturity Date)",
+    "quote": "(ii) a five -year tranche (the “5- Year Tranche”; the loans thereunder, the “5- Year Loans”) in an aggregate amount of $1,325,000,000",
+    "page": 2
+   },
+   {
+    "id": "F3",
+    "name": "LC Tranche of the Revolving Facility (standby letters of credit only; stated amount is $0)",
+    "type": "lc_facility",
+    "amount_mm": 0,
+    "currency": "USD",
+    "tenor_text": "Three years after the Closing Date, subject to the Extension Option (same as set forth in the Existing Credit Agreement)",
+    "tenor_years": 3.0,
+    "maturity_text": "The date that is three years after the Closing Date (the LC Tranche Maturity Date)",
+    "quote": "A separate tranche under the Revolving Facility in the amount of $0 shall be available solely for the issuance of standby letters of credit (the “LC Tranche”)",
+    "page": 1
+   }
+  ],
+  "pricing": {
+   "benchmark": "Term SOFR (CME Term SOFR Reference Rate; Interest Periods of one, three or six months), or ABR at the Borrower's election",
+   "basis": "ratings_grid",
+   "basis_detail": "Six-level grid (Levels I to VI) keyed to the most recently announced public corporate family rating or corporate rating of the Borrower from Moody's, S&P and Fitch. Split-rating rules: with three ratings, the two that agree apply when the third is lower (higher rating applies) or higher (lower rating applies), and the middle rating applies if all differ; with two ratings the higher applies unless they are more than one level apart, in which case one level below the higher; with one rating, one level lower than that rating; with no rating, Level VI.",
+   "csa": {
+    "applies": null,
+    "bps": null,
+    "detail": "No credit spread adjustment is mentioned. Term Benchmark Loans bear interest at Term SOFR plus the Applicable Margin, and the 'Term SOFR Rate' definition on page 5 contains no adjustment. The term sheet does not expressly say there is none, and the interest provisions are stated to follow the Existing Credit Agreement and to be only 'summarized in part'.",
+    "quote": "",
+    "page": null
+   },
+   "floor": {
+    "pct": 0.0,
+    "detail": "Term SOFR Rate floored at 0.0%. Separately, ABR is not to be less than 1.00% (page 4).",
+    "quote": "provided that if the Term SOFR Rate as so determined would be less than 0.0%, such rate shall be deemed to be equal to 0.0%",
+    "page": 5
+   },
+   "grids": [
+    {
+     "name": "Schedule I - Pricing Grid",
+     "facility_ids": [
+      "F1",
+      "F2",
+      "F3"
+     ],
+     "metric": "Moody’s/S&P/Fitch Rating Equivalent (public corporate family rating or corporate rating of the Borrower)",
+     "undrawn_fee_type": "commitment_fee",
+     "page": 12,
+     "tiers": [
+      {
+       "level": "I",
+       "criteria": "A3/A-/A- or better",
+       "drawn_margin_bps": 100.0,
+       "base_rate_margin_bps": 0.0,
+       "undrawn_fee_bps": 8.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 87.5,
+       "is_opening": false,
+       "quote": "I A3/A-/A- or better 0.08% 1.00% 0% 0.875%"
+      },
+      {
+       "level": "II",
+       "criteria": "Baa1/BBB+/BBB+ or better",
+       "drawn_margin_bps": 112.5,
+       "base_rate_margin_bps": 12.5,
+       "undrawn_fee_bps": 10.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 100.0,
+       "is_opening": false,
+       "quote": "II Baa1/BBB+/BBB+ 1.00% or better 0.10% 1.125% 0.125%"
+      },
+      {
+       "level": "III",
+       "criteria": "Baa2/BBB/BBB",
+       "drawn_margin_bps": 125.0,
+       "base_rate_margin_bps": 25.0,
+       "undrawn_fee_bps": 12.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 112.5,
+       "is_opening": false,
+       "quote": "III Baa2/BBB/BBB 0.125% 1.25% 0.25% 1.125%"
+      },
+      {
+       "level": "IV",
+       "criteria": "Baa3/BBB-/BBB-",
+       "drawn_margin_bps": 137.5,
+       "base_rate_margin_bps": 37.5,
+       "undrawn_fee_bps": 17.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 125.0,
+       "is_opening": false,
+       "quote": "IV Baa3/BBB-/BBB- 0.175% 1.375% 0.375% 1.25%"
+      },
+      {
+       "level": "V",
+       "criteria": "Ba1/BB+/BB+",
+       "drawn_margin_bps": 162.5,
+       "base_rate_margin_bps": 62.5,
+       "undrawn_fee_bps": 22.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 150.0,
+       "is_opening": false,
+       "quote": "V Ba1/BB+/BB+ 0.225% 1.625% 0.625% 1.50%"
+      },
+      {
+       "level": "VI",
+       "criteria": "Ba2/BB/BB",
+       "drawn_margin_bps": 187.5,
+       "base_rate_margin_bps": 87.5,
+       "undrawn_fee_bps": 27.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": 175.0,
+       "is_opening": false,
+       "quote": "VI Ba2/BB/BB 0.275% 1.875% 0.875% 1.75%"
+      }
+     ],
+     "opening_level_note": "The term sheet does not say which Level applies at closing and does not state the Borrower's current ratings, so no tier is flagged as opening.",
+     "notes": "Column order in the table: Level | Moody's/S&P/Fitch Rating Equivalent | Commitment Fee | Applicable Margin Term Benchmark Loans | Applicable Margin ABR Loans | Applicable Margin for Letters of Credit. The Level II row is split over two text lines: the Letters of Credit margin (1.00%) sits on the first line next to the rating, and 'or better' with the Commitment Fee, Term Benchmark and ABR values (0.10%, 1.125%, 0.125%) is on the next line. Level II is printed as 'Baa1/BBB+/BBB+ or better' and Level VI as 'Ba2/BB/BB' with no 'or lower'. The Commitment Fee is payable on each Lender's unused commitment; the Letters of Credit margin is the letter of credit fee payable to the Lenders on undrawn Letters of Credit. Rating changes take effect on the first business day following announcement by the applicable Rating Agency."
+    }
+   ],
+   "fees": [
+    {
+     "type": "upfront_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "3-Year Tranche upfront fee on each Lender's allocated commitment under the 3-Year Tranche on the Closing Date, payable on the Closing Date",
+     "bps": 12.0,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "12 basis points",
+     "quote": "3-Year Tranche: 12 basis points, payable on the Closing Date (if the Closing Date occurs) for the account of each Lender under the 3- Year Tranche",
+     "page": 4
+    },
+    {
+     "type": "upfront_fee",
+     "facility_ids": [
+      "F2"
+     ],
+     "description": "5-Year Tranche upfront fee on existing money: the portion of a Lender's allocated commitment that does not exceed its 5-Year Tranche commitment under the Existing Credit Agreement, payable on the Closing Date",
+     "bps": 10.5,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "10.5 basis points",
+     "quote": "5- Year Tranche: (x) 10.5 basis points for the account of each Lender on the portion of such Lender’s allocated commitment that does not exceed its commitment under the 5- Year T ranche in the Existing Credit Agreement as of the date hereof",
+     "page": 4
+    },
+    {
+     "type": "upfront_fee",
+     "facility_ids": [
+      "F2"
+     ],
+     "description": "5-Year Tranche upfront fee on new money: the portion of a Lender's allocated commitment (if any) that exceeds its 5-Year Tranche commitment under the Existing Credit Agreement, payable on the Closing Date",
+     "bps": 20.0,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "20 basis points",
+     "quote": "(y) 20 basis points for the account of each Lender on the portion of such Lender’s allocated commitment (if any) that exceeds its commitment under the 5- Year T ranche in the Existing Credit Agreement as of the date hereof",
+     "page": 4
+    },
+    {
+     "type": "lc_fronting_fee",
+     "facility_ids": [
+      "F1",
+      "F2",
+      "F3"
+     ],
+     "description": "Fronting fee payable to each Issuing Bank on the undrawn amount of all Letters of Credit it has issued; the rate is not specified",
+     "bps": null,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "a mutually agreed rate per annum",
+     "quote": "(ii) to each Issuing Bank, a fronting fee at a mutually agreed rate per annum on the undrawn amount of all Letters of Credit issued by such Issuing Bank.",
+     "page": 4
+    }
+   ],
+   "change_vs_existing": "The term sheet does not show the pricing of the Existing Credit Agreement, so no pricing change can be read from it. It says only that the interest rate provisions will be as set forth in the Existing Credit Agreement and that the new facility refinances it. The 5-Year Tranche upfront fee distinguishes commitments up to a Lender's existing 5-Year Tranche commitment (10.5 bps) from any excess (20 bps).",
+   "notes": "No ESG or sustainability pricing adjustment and no time-based margin step-up are mentioned. Upfront fee on the LC Tranche: 'None'. Default interest: overdue principal at 2% above the rate otherwise applicable; overdue interest and fees at 2% above the rate applicable for ABR Loans. ABR is the highest of the Prime Rate, the federal funds effective rate plus 0.5% and the one-month Term SOFR Rate plus 1.0%, and is not to be less than 1.00%. The Commitment Fee and letter of credit fees (both grid columns) are calculated on a 360-day basis; the Commitment Fee is payable quarterly in arrears. Optional prepayments and commitment reductions are without premium or penalty (other than breakage costs). The Extension Option is 'Same as set forth in the Existing Credit Agreement' and no extension fee is stated."
+  },
+  "financial_covenants": [
+   {
+    "type": "min_collateral_coverage",
+    "name": "Minimum Asset Coverage Ratio (appraised value of Pool Assets to Revolving Facility Obligations)",
+    "direction": "min",
+    "threshold": 1.25,
+    "unit": "x",
+    "threshold_text": "1.25:1.00",
+    "schedule": [],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "The Borrower (Delta Air Lines, Inc.); measured against exposure under the Revolving Facility (including any Incremental Revolving Increases) and any other Refinancing Revolving Facility",
+    "test_frequency": "At any time. Pool Assets are appraised annually; if an appraisal shows non-compliance the Borrower has sixty days from the date of the appraisal to add Additional Pool Assets or prepay Revolving Loans",
+    "definition_notes": "Ratio of the appraised value of the Pool Assets (to be determined as set forth in the 'Initial Revolving Credit Agreement', a term the term sheet does not define) to the 'Obligations', being the sum of the aggregate outstanding exposure under the Revolving Facility (including Incremental Revolving Increases) and any other Refinancing Revolving Facility, excluding LC exposure that has been cash collateralized. The facility is unsecured: the Pool Assets are not collateral but are subject to a negative pledge, so this is an unencumbered asset coverage test rather than a coverage test over pledged collateral. The events of default give a 60-day cure period for breaches resulting from changes in appraised value, loans must be prepaid to the extent necessary to comply, and removal of a Pool Asset requires compliance after giving effect to the removal.",
+    "change_vs_existing": null,
+    "quote": "(other than LC exposure that has been cash collateralized) (collectively, the “ Obligations”) (the “Asset Coverage Ratio”) at any time to be less than 1.25:1.00",
+    "page": 9
+   },
+   {
+    "type": "min_fixed_charge_coverage",
+    "name": "Minimum Fixed Charge Coverage Ratio (EBITDAR to Interest Expense plus cash aircraft rent)",
+    "direction": "min",
+    "threshold": 1.25,
+    "unit": "x",
+    "threshold_text": "1.25:1.00",
+    "schedule": [],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "The Borrower and its subsidiaries on a consolidated basis",
+    "test_frequency": "At the end of each fiscal quarter",
+    "definition_notes": "Ratio of EBITDAR to the sum of (i) Interest Expense plus (ii) the aggregate cash aircraft rental expense of the Borrower and its subsidiaries on a consolidated basis for the period, payable in cash in respect of aircraft leases (other than capitalized leases), determined in accordance with GAAP. EBITDAR and Interest Expense are to be defined as set forth in the 'Initial Revolving Credit Agreement', a term the term sheet does not define. The length of the measurement period is not stated.",
+    "change_vs_existing": null,
+    "quote": "in respect of any aircraft leases (other than capitalized leases), all as determined in accordance with GAAP to be less than 1.25:1.00, to be tested at the end of each fiscal quarter.",
+    "page": 9
+   }
+  ],
+  "no_financial_covenant_note": null,
+  "format_notes": ""
+ }
+}

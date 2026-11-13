@@ -1,0 +1,184 @@
+{
+ "sha1": "4875fbcb8e03633da342205b9003995cb6a40f6c",
+ "source_file": "Capri 2026 TS.pdf",
+ "verified_on": "2026-11-12",
+ "method": "Extracted from the full document by one AI reviewer, then audited value by value against the document text by a second, independent AI reviewer (1,001 values checked across the 14 term sheets; no misread figure was found, and the classification points it raised are listed here where they changed this record). Not signed off by a person. Every quote is re-checked against the PDF each time the tool runs.",
+ "notes": [
+  "Credit spread adjustment recorded as 'not stated' rather than 'none': the term sheet is silent on a SOFR adjustment. 'None' is kept for documents that expressly exclude or remove one."
+ ],
+ "record": {
+  "deal": "Capri 2026",
+  "source_file": "Capri 2026 TS.pdf",
+  "doc": {
+   "kind": "term_sheet",
+   "title": "Summary of Terms and Conditions - $1,000 Million Revolving Credit Facility",
+   "date": "2026-06-05",
+   "is_amendment": true,
+   "notes": "Full 14-page term sheet headed 'Posting Version 6/ 5/2026' (read as June 5, 2026, US month/day order; no other date is given for the term sheet itself). Main body pages 1-10, Annex I 'Interest and Certain Fees' pages 11-13, Annex I-A pricing grid page 14. The facility is to be documented by an amendment to the Existing Credit Agreement (Amended and Restated Credit Agreement dated February 4, 2025); unless otherwise set forth, terms are the same as the Existing Credit Agreement. Only go-forward terms are printed; existing pricing and covenant levels are not shown. Some arranger names are bracketed blanks."
+  },
+  "borrower": {
+   "name": "Michael Kors (USA), Inc. (\"MK\"), Capri Holdings Limited (\"Capri\"), Michael Kors (Europe) B.V., Michael Kors (Canada) Holdings Ltd., Michael Kors (Switzerland) GmbH and other approved foreign subsidiaries of Capri",
+   "quote": "Michael Kors (USA), Inc. (“MK”), Capri Holdings Limited",
+   "page": 1
+  },
+  "credit_profile": {
+   "value": "leveraged",
+   "basis": "Senior secured revolver priced off a Net Leverage Ratio grid, with a leverage maintenance covenant, leverage-based incremental capacity and EBITDA 'grower' baskets. The collateral is released only once Capri obtains an Investment Grade Rating (Baa3 / BBB- / BBB-) from at least two of Moody's, S&P and Fitch, which implies it is not investment grade at signing. Margins are thin for a leveraged credit (112.5-150.0 bps), consistent with a crossover / pro rata bank facility, but no ratings are stated."
+  },
+  "security": {
+   "value": "secured",
+   "detail": "Senior secured: perfected first-priority security interest in all property of each Loan Party incorporated in the United States plus the registered intellectual property of the IP Subsidiaries in Italy, Switzerland, the United States and the United Kingdom, with exclusions consistent with the Existing Credit Agreement. Collateral is released on request once Capri has an Investment Grade Rating from at least two of Moody's, S&P and Fitch and no other debt guaranteed by a Loan Party and secured on the Collateral is outstanding; it is reinstated if those ratings are lost or Loan Parties guarantee debt secured by a majority of the Collateral.",
+   "quote": "shall be secured by (a) a perfected first -priority security interest in any and all property of each Loan Party incorporated in the United States",
+   "page": 6
+  },
+  "facilities": [
+   {
+    "id": "F1",
+    "name": "Revolving Credit Facility (senior secured, multicurrency)",
+    "type": "revolver",
+    "amount_mm": 1000,
+    "currency": "USD",
+    "tenor_text": "Available from the Closing Date until the fifth anniversary thereof (5 years); amend-and-extend feature consistent with the Existing Credit Agreement",
+    "tenor_years": 5.0,
+    "maturity_text": "Fifth anniversary of the Closing Date (the \"Revolving Credit Termination Date\")",
+    "quote": "A senior secured revolving credit facility (the “Revolving Credit Facility”) in an amount up to $1,000,000,000",
+    "page": 3
+   }
+  ],
+  "pricing": {
+   "benchmark": "Term SOFR Rate (CME Term SOFR) for U.S. Dollar Term Benchmark Loans, or ABR; loans in foreign currencies at the relevant benchmark rate set forth in the Credit Documentation",
+   "basis": "leverage_grid",
+   "basis_detail": "Applicable Rate and commitment fee rate are set by a four-level grid (Annex I-A) keyed to the Net Leverage Ratio. Fixed initial rates (1.25% Term Benchmark, 0.25% ABR, 0.15% commitment fee) apply until delivery of the compliance certificate for the first full fiscal quarter ending after the Closing Date; the grid applies thereafter.",
+   "csa": {
+    "applies": null,
+    "bps": null,
+    "detail": "The term sheet is silent on a credit spread adjustment: the U.S. dollar option is the Term SOFR Rate plus the Applicable Rate, and the Term SOFR Rate definition carries no adjustment.",
+    "quote": "the Term SOFR Rate plus the Applicable Rate",
+    "page": 11
+   },
+   "floor": {
+    "pct": 0.0,
+    "detail": "Initial Floor for the Term SOFR Rate is 0%. Separately, the ABR is deemed to be 1% if it would otherwise be lower.",
+    "quote": "the avoidance of doubt the initial Floor for the Term SOFR Rate shall be 0%.",
+    "page": 12
+   },
+   "grids": [
+    {
+     "name": "Annex I-A - Applicable Rate for the Revolving Credit Loans",
+     "facility_ids": [
+      "F1"
+     ],
+     "metric": "Net Leverage Ratio",
+     "undrawn_fee_type": "commitment_fee",
+     "page": 14,
+     "tiers": [
+      {
+       "level": "1",
+       "criteria": "≤ 1.00:1.00",
+       "drawn_margin_bps": 112.5,
+       "base_rate_margin_bps": 12.5,
+       "undrawn_fee_bps": 10.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "1 ≤ 1.00:1.00 112.5 bps 12.5 bps 10.0 bps"
+      },
+      {
+       "level": "2",
+       "criteria": "≤ 2.50:1.00",
+       "drawn_margin_bps": 125.0,
+       "base_rate_margin_bps": 25.0,
+       "undrawn_fee_bps": 15.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": true,
+       "quote": "2 ≤ 2.50:1.00 125.0 bps 25.0 bps 15.0 bps"
+      },
+      {
+       "level": "3",
+       "criteria": "≤ 3.50:1.00",
+       "drawn_margin_bps": 137.5,
+       "base_rate_margin_bps": 37.5,
+       "undrawn_fee_bps": 16.25,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "3 ≤ 3.50:1.00 137.5 bps 37.5 bps 16.25 bps"
+      },
+      {
+       "level": "4",
+       "criteria": "> 3.50:1.00",
+       "drawn_margin_bps": 150.0,
+       "base_rate_margin_bps": 50.0,
+       "undrawn_fee_bps": 20.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "4 > 3.50:1.00 150.0 bps 50.0 bps 20.0 bps"
+      }
+     ],
+     "opening_level_note": "The document does not name an opening Pricing Level. It states the initial rates in prose: page 11 'initially (i) with respect to Term Benchmark Loans, 1.25% and (ii) with respect to ABR Loans, 0. 25%' and page 13 'the initial commitment fee rate shall be 0.15% per annum'. These three figures are exactly the Level 2 row (125.0 / 25.0 / 15.0 bps), so Level 2 is flagged is_opening. The initial rates hold until delivery of the compliance certificate for the first full fiscal quarter ending after the Closing Date, after which the grid governs.",
+     "notes": "Columns as printed: Pricing Level | Net Leverage Ratio | Spread for Term Benchmark Loans | Spread for ABR Loans | Commitment Fee Rate. The Level 3 commitment fee is printed as 16.25 bps (not 17.5). Levels 2 and 3 are printed only with an upper bound (≤ 2.50:1.00, ≤ 3.50:1.00). The grid has no letter of credit fee column; Letter of Credit Fees are 'Same as the Existing Credit Agreement' (page 13)."
+    }
+   ],
+   "fees": [
+    {
+     "type": "lc_participation_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Letter of credit fees: stated only by reference to the Existing Credit Agreement; no rate is printed in the term sheet.",
+     "bps": null,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "Same as the Existing Credit Agreement (rate not printed)",
+     "quote": "Letter of Credit Fees: Same as the Existing Credit Agreement.",
+     "page": 13
+    },
+    {
+     "type": "lc_fronting_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Fronting fee on the face amount of each Letter of Credit, payable quarterly in arrears to each Issuing Lender; rate separately agreed, not printed.",
+     "bps": null,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "Rate per annum separately agreed upon by MK and each Issuing Lender",
+     "quote": "A fronting fee equal to a rate per annum separately agreed upon by MK and each Issuing Lender on the face amount of each Letter of Credit shall be payable quarterly in arrears to such Issuing Lender for its own account.",
+     "page": 13
+    }
+   ],
+   "change_vs_existing": "The term sheet does not print the existing pricing, so no before/after comparison is possible from this document. Commitment Fees are 'Same as the Existing Credit Agreement' subject to the 0.15% initial rate and the Annex I-A grid; Letter of Credit Fees and the Default Rate are 'Same as the Existing Credit Agreement'.",
+   "notes": "Initial Applicable Rate 1.25% (Term Benchmark) / 0.25% (ABR) and initial commitment fee 0.15% per annum until delivery of the compliance certificate for the first full fiscal quarter ending after the Closing Date, then the Annex I-A grid. Default rate: overdue principal bears interest at 2% above the rate otherwise applicable; overdue interest, fees and other amounts at 2% above the ABR Loan rate. ABR is the greatest of Prime Rate, NYFRB Rate plus 0.5% and one-month Term SOFR plus 1%, with a 1% floor. Loans are prepayable without premium or penalty (customary breakage only). No upfront, arrangement, extension, ticking or utilization fee, no ESG / sustainability adjustment and no MFN is stated in the term sheet."
+  },
+  "financial_covenants": [
+   {
+    "type": "max_net_leverage",
+    "name": "Net Leverage Ratio (lease-adjusted: Consolidated Total Indebtedness plus capitalized Operating Lease Obligations, minus unrestricted cash and Cash Equivalents up to $200,000,000, to Consolidated EBITDAR)",
+    "direction": "max",
+    "threshold": 4.0,
+    "unit": "x",
+    "threshold_text": "not more than 4.00 to 1.00",
+    "schedule": [],
+    "step_up": {
+     "present": true,
+     "threshold": 4.5,
+     "detail": "On Capri's election after a Material Acquisition (a 'Transition Period Election'), the Net Leverage Ratio shall not be more than 4.50 to 1.00 for the four quarters following the Material Acquisition (the 'Transition Period'). No more than two Transition Period Elections, and at least two consecutive full fiscal quarters must end after the first Transition Period before a second one begins."
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "Revolving Credit Facility; calculated for Capri and its Subsidiaries on a consolidated basis",
+    "test_frequency": "As of the last day of each fiscal quarter, for the period of four consecutive fiscal quarters most recently ended",
+    "definition_notes": "Numerator: Consolidated Total Indebtedness as of the last day of each fiscal quarter plus the capitalized amount of all Operating Lease Obligations, minus unrestricted cash and Cash Equivalents not to exceed $200,000,000. Denominator: Consolidated EBITDAR for the trailing four fiscal quarters. Consolidated EBITDAR is as defined in the Existing Credit Agreement, plus (i) an add-back for extraordinary, non-recurring, unusual or exceptional losses, charges and expenses (with a corresponding deduct for gains) and (ii) pro forma run-rate cost savings, operating expense reductions, operating improvements and cost synergies with an 18-month look-forward (12 months for cost synergies), clause (ii) capped at 15% of EBITDAR for the test period (after giving effect to the adjustments). This is the only financial covenant ('Limited to:').",
+    "change_vs_existing": "The existing covenant level is not shown in the term sheet. The document states that Consolidated EBITDAR is defined as in the Existing Credit Agreement 'except that' the two add-backs described in definition_notes are added.",
+    "quote": "to (ii) Consolidated EBITDAR for such period of four consecutive fiscal quarters of Capri most recently ended on or prior to such date, all calculated for Capri and its Subsidiaries on a consolidated basis, of not more than 4.00 to 1.00.",
+    "page": 7
+   }
+  ],
+  "no_financial_covenant_note": null,
+  "format_notes": ""
+ }
+}

@@ -1,0 +1,250 @@
+{
+ "sha1": "37b921b7955746a4d49fbb06cdba459d58b7c6b7",
+ "source_file": "Duke Energy 2025 TS.pdf",
+ "verified_on": "2026-11-12",
+ "method": "Extracted from the full document by one AI reviewer, then audited value by value against the document text by a second, independent AI reviewer (1,001 values checked across the 14 term sheets; no misread figure was found, and the classification points it raised are listed here where they changed this record). Not signed off by a person. Every quote is re-checked against the PDF each time the tool runs.",
+ "notes": [],
+ "record": {
+  "deal": "Duke Energy 2025",
+  "source_file": "Duke Energy 2025 TS.pdf",
+  "doc": {
+   "kind": "summary",
+   "title": "Executive Summary - Transaction Summary",
+   "date": null,
+   "is_amendment": true,
+   "notes": "One-page executive summary (slide 14 of a lender presentation) for a one-year extension and $1.0bn upsize of the existing Master Credit Facility. It refers to a separately posted Summary of Terms for further detail. Bolding (not visible in extracted text) denotes new or changing terms."
+  },
+  "borrower": {
+   "name": "Duke Energy Corporation (with seven subsidiary co-borrowers: Duke Energy Carolinas, Duke Energy Ohio, Duke Energy Indiana, Duke Energy Kentucky, Duke Energy Progress, Duke Energy Florida and Piedmont Natural Gas)",
+   "quote": "Duke Energy Corporation (the “Company”) has engaged Wells Fargo Securities, LLC",
+   "page": 1
+  },
+  "credit_profile": {
+   "value": "investment_grade",
+   "basis": "Senior unsecured facility priced off an unsecured-ratings grid running from >AA/Aa2/AA down to <BBB/Baa2/BBB; current tiers are between A and BBB."
+  },
+  "security": {
+   "value": "unsecured",
+   "detail": "Senior unsecured revolving credit facility.",
+   "quote": "$10.0 billion senior unsecured revolving credit facility",
+   "page": 1
+  },
+  "facilities": [
+   {
+    "id": "F1",
+    "name": "Senior Unsecured Master Credit Facility (revolving)",
+    "type": "revolver",
+    "amount_mm": 10000,
+    "currency": "USD",
+    "tenor_text": "Matures March 16, 2030 (one-year extension of the March 16, 2029 maturity); two further 1-year extension options",
+    "tenor_years": null,
+    "maturity_text": "March 16, 2030",
+    "quote": "$10.0 billion senior unsecured revolving credit facility",
+    "page": 1
+   }
+  ],
+  "pricing": {
+   "benchmark": "1, 3 or 6-month SOFR",
+   "basis": "ratings_grid",
+   "basis_detail": "Unsecured ratings (three agencies, shown as S&P/Moody's/Fitch style triplets) of each borrower; each borrower prices off its own tier.",
+   "csa": {
+    "applies": true,
+    "bps": 10.0,
+    "detail": "10.0 bps across all three interest periods.",
+    "quote": "10.0 bps across all three interest periods",
+    "page": 1
+   },
+   "floor": {
+    "pct": null,
+    "detail": "Not stated in the summary.",
+    "quote": "",
+    "page": null
+   },
+   "grids": [
+    {
+     "name": "Pricing Grid",
+     "facility_ids": [
+      "F1"
+     ],
+     "metric": "Unsecured Ratings",
+     "undrawn_fee_type": "facility_fee",
+     "page": 1,
+     "tiers": [
+      {
+       "level": "1",
+       "criteria": "> AA/Aa2/AA",
+       "drawn_margin_bps": null,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 4.0,
+       "all_in_drawn_bps": 62.5,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "> AA/Aa2/AA 4.0 bps S + CSA + 62.5 bps"
+      },
+      {
+       "level": "2",
+       "criteria": "AA-/Aa3/AA-",
+       "drawn_margin_bps": null,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 6.0,
+       "all_in_drawn_bps": 75.0,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "AA-/Aa3/AA- 6.0 bps S + CSA + 75.0 bps"
+      },
+      {
+       "level": "3",
+       "criteria": "A+/A1/A+",
+       "drawn_margin_bps": null,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 7.5,
+       "all_in_drawn_bps": 87.5,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "A+/A1/A+ 7.5 bps S + CSA + 87.5 bps"
+      },
+      {
+       "level": "4",
+       "criteria": "A/A2/A",
+       "drawn_margin_bps": null,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 10.0,
+       "all_in_drawn_bps": 100.0,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "A/A2/A 10.0 bps S + CSA + 100.0 bps C"
+      },
+      {
+       "level": "5",
+       "criteria": "A-/A3/A-",
+       "drawn_margin_bps": null,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 12.5,
+       "all_in_drawn_bps": 112.5,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "A-/A3/A- 12.5 bps S + CSA + 112.5 bps B,D,E,F"
+      },
+      {
+       "level": "6",
+       "criteria": "BBB+/Baa1/BBB+",
+       "drawn_margin_bps": null,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 17.5,
+       "all_in_drawn_bps": 125.0,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "BBB+/Baa1/BBB+ 17.5 bps S + CSA + 125.0 bps G,H"
+      },
+      {
+       "level": "7",
+       "criteria": "BBB/Baa2/BBB",
+       "drawn_margin_bps": null,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 22.5,
+       "all_in_drawn_bps": 150.0,
+       "lc_fee_bps": null,
+       "is_opening": true,
+       "quote": "BBB/Baa2/BBB 22.5 bps S + CSA + 150.0 bps A"
+      },
+      {
+       "level": "8",
+       "criteria": "< BBB/Baa2/BBB",
+       "drawn_margin_bps": null,
+       "base_rate_margin_bps": null,
+       "undrawn_fee_bps": 27.5,
+       "all_in_drawn_bps": 175.0,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "< BBB/Baa2/BBB 27.5 bps S + CSA + 175.0 bps"
+      }
+     ],
+     "opening_level_note": "The Borrower column marks each borrower's current tier: A (Duke Energy Corporation, the parent) at BBB/Baa2/BBB, which is flagged is_opening; C (Duke Energy Progress) at A/A2/A; B, D, E, F at A-/A3/A-; G, H at BBB+/Baa1/BBB+.",
+     "notes": "The grid states the Facility Fee and the All-In Drawn spread (S + CSA + x); the applicable margin itself is not shown separately."
+    }
+   ],
+   "fees": [
+    {
+     "type": "upfront_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Old money (existing commitments)",
+     "bps": 6.0,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "6.0 bps",
+     "quote": "Old Money: 6.0 bps | New Money: 17.5 bps",
+     "page": 1
+    },
+    {
+     "type": "upfront_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "New money (new or increased commitments)",
+     "bps": 17.5,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "17.5 bps",
+     "quote": "Old Money: 6.0 bps | New Money: 17.5 bps",
+     "page": 1
+    }
+   ],
+   "change_vs_existing": "Facility upsized from $9.0bn to $10.0bn and extended one year; sustainability-linked pricing option removed. The summary does not say whether the grid itself changed.",
+   "notes": "Sustainability-Linked Option: Removed."
+  },
+  "financial_covenants": [
+   {
+    "type": "max_debt_to_capitalization",
+    "name": "Consolidated Debt / Capitalization",
+    "direction": "max",
+    "threshold": 65.0,
+    "unit": "pct",
+    "threshold_text": "65.0%",
+    "schedule": [],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "All borrowers other than Duke Energy Corporation and Piedmont",
+    "test_frequency": "",
+    "definition_notes": "",
+    "change_vs_existing": null,
+    "quote": "Max. Consolidated Debt / Capitalization: 65.0% | Max. Consolidated Debt / Capitalization: 70.0% (DUK & Piedmont only)",
+    "page": 1
+   },
+   {
+    "type": "max_debt_to_capitalization",
+    "name": "Consolidated Debt / Capitalization (DUK & Piedmont)",
+    "direction": "max",
+    "threshold": 70.0,
+    "unit": "pct",
+    "threshold_text": "70.0%",
+    "schedule": [],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "Duke Energy Corporation and Piedmont Natural Gas only",
+    "test_frequency": "",
+    "definition_notes": "",
+    "change_vs_existing": null,
+    "quote": "Max. Consolidated Debt / Capitalization: 65.0% | Max. Consolidated Debt / Capitalization: 70.0% (DUK & Piedmont only)",
+    "page": 1
+   }
+  ],
+  "no_financial_covenant_note": null,
+  "format_notes": ""
+ }
+}

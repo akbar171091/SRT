@@ -1,0 +1,219 @@
+{
+ "sha1": "a9b77406a71107a686e9ce01079c60d321a77f2a",
+ "source_file": "AON 2026 TS.pdf",
+ "verified_on": "2026-11-12",
+ "method": "Extracted from the full document by one AI reviewer, then audited value by value against the document text by a second, independent AI reviewer (1,001 values checked across the 14 term sheets; no misread figure was found, and the classification points it raised are listed here where they changed this record). Not signed off by a person. Every quote is re-checked against the PDF each time the tool runs.",
+ "notes": [],
+ "record": {
+  "deal": "AON 2026",
+  "source_file": "AON 2026 TS.pdf",
+  "doc": {
+   "kind": "term_sheet",
+   "title": "Aon North America, Inc., Aon Corporation, Aon Global Holdings plc, Aon Global Limited and Aon UK Limited - Summary of the Revolving Facility",
+   "date": null,
+   "is_amendment": false,
+   "notes": "Marked 'Posting Version'; the term sheet itself is undated (it refers to a Transaction Agreement dated as of August 30, 2026 and to the Existing Revolving Credit Agreements as in effect on August 30, 2026). It covers a new $3.0bn five-year Revolving Facility that replaces and refinances the 2021 and 2023 Existing Revolving Credit Agreements. A $4.0bn senior unsecured term loan facility financing the acquisition of USI Advantage Corp. is mentioned but has its own Term Loan Facility Term Sheet and is not covered here. Terms are stated to be not final and subject to change. Documentation is to be based on the Existing Revolving Credit Agreements, but no existing pricing or covenant levels are shown. Pricing sits in Schedule I (page 11)."
+  },
+  "borrower": {
+   "name": "Aon North America, Inc. and Aon Corporation (US Borrowers); Aon Global Holdings plc, Aon Global Limited and Aon UK Limited (UK Borrowers); plus any other designated Subsidiary Borrowers. Parent and guarantor: Aon plc.",
+   "quote": "Aon North America, Inc. and Aon Corporation (the “ US Borrowers”), Aon Global Holdings plc, Aon Global Limited and Aon UK Limited (collectively, the “UK Borrowers”)",
+   "page": 2
+  },
+  "credit_profile": {
+   "value": "investment_grade",
+   "basis": "Pricing is a ratings-based grid keyed to the Parent's S&P / Moody's long-term senior unsecured debt ratings, running from >= A/A2 down to <= BBB-/Baa3, with a facility fee paid on the whole commitment (not a commitment fee). No collateral is provided for; support is by guarantees from Parent and the Borrowers. Covenant package is limited and the companion term loan is described as senior unsecured."
+  },
+  "security": {
+   "value": "unsecured",
+   "detail": "Inferred, not stated in so many words: the term sheet has no collateral or security provision (guarantees only, from Parent, each Borrower and any subsidiary delivering a guaranty supplement), pricing is keyed to the Parent's long-term senior unsecured non-credit-enhanced debt ratings, and the companion term loan is described as a senior unsecured term loan facility.",
+   "quote": "based on the Parent ’s long- term senior unsecured non- credit-enhanced debt ratings, payable on each Revolving Lender’s commitment, irrespective of usage",
+   "page": 5
+  },
+  "facilities": [
+   {
+    "id": "F1",
+    "name": "Revolving Facility",
+    "type": "revolver",
+    "amount_mm": 3000,
+    "currency": "USD",
+    "tenor_text": "Five-year; commitments terminate five years after the Revolving Effective Date, extendable for additional one-year periods on request at each anniversary (requires Extending Lenders and new lenders with more than 50% of the Facility Amount)",
+    "tenor_years": 5.0,
+    "maturity_text": "The date that is five years after the Revolving Effective Date (the Commitment Termination Date), subject to the extension provisions",
+    "quote": "the Borrower seeks the $3,000,000,000 five-year revolving loan facility",
+    "page": 1
+   }
+  ],
+  "pricing": {
+   "benchmark": "Term SOFR (US Dollars), EURIBOR (Euros) and SONIA (Sterling); Alternate Base Rate option for US Dollars",
+   "basis": "ratings_grid",
+   "basis_detail": "Debt Ratings of the Parent (Aon plc) from S&P and Moody's (long-term senior unsecured non-credit-enhanced debt), five Pricing Levels. Split rating: the higher of the two applies, or one sub-grade below the higher if the ratings differ by more than one sub-grade. No rating from Moody's or S&P: Level V applies.",
+   "csa": {
+    "applies": false,
+    "bps": null,
+    "detail": "The term sheet states expressly that the interest rates do not include a credit spread adjustment.",
+    "quote": "The interest rates shall not include a credit spread adjustment.",
+    "page": 5
+   },
+   "floor": {
+    "pct": null,
+    "detail": "Not stated. Alternate Base Rate, Term SOFR and EURIBOR take their meanings from the Existing Revolving Credit Agreements, which are not reproduced; no floor figure is printed in the term sheet.",
+    "quote": "",
+    "page": null
+   },
+   "grids": [
+    {
+     "name": "Schedule I - Pricing Grid",
+     "facility_ids": [
+      "F1"
+     ],
+     "metric": "Debt Ratings (S&P / Moody's)",
+     "undrawn_fee_type": "facility_fee",
+     "page": 11,
+     "tiers": [
+      {
+       "level": "Pricing Level I",
+       "criteria": "≥ A/A2",
+       "drawn_margin_bps": 68.5,
+       "base_rate_margin_bps": 0.0,
+       "undrawn_fee_bps": 6.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Pricing Level I: bps 68.5 bps 6.5 bps ≥ A/A2 0"
+      },
+      {
+       "level": "Pricing Level II",
+       "criteria": "A-/A3",
+       "drawn_margin_bps": 80.0,
+       "base_rate_margin_bps": 0.0,
+       "undrawn_fee_bps": 7.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Pricing Level II: 0 bps 80.0 bps 7.5 bps A-/A3"
+      },
+      {
+       "level": "Pricing Level III",
+       "criteria": "BBB+ / Baa1",
+       "drawn_margin_bps": 90.0,
+       "base_rate_margin_bps": 0.0,
+       "undrawn_fee_bps": 10.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Pricing Level III: 0 bps 90.0 bps 10 bps BBB+ / Baa1"
+      },
+      {
+       "level": "Pricing Level IV",
+       "criteria": "BBB/ Baa2",
+       "drawn_margin_bps": 100.0,
+       "base_rate_margin_bps": 0.0,
+       "undrawn_fee_bps": 12.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Pricing Level IV: 0 bps 100.0 bps 12.5 bps BBB/ Baa2"
+      },
+      {
+       "level": "Pricing Level V",
+       "criteria": "≤ BBB- / Baa3",
+       "drawn_margin_bps": 120.0,
+       "base_rate_margin_bps": 20.0,
+       "undrawn_fee_bps": 17.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Pricing Level V: ≤ 20.0 bps 120.0 bps 17.5bps BBB- / Baa3"
+      }
+     ],
+     "opening_level_note": "The document does not state the Parent's current Debt Ratings or which Pricing Level applies at the Revolving Effective Date, so no tier is flagged as opening.",
+     "notes": "Columns in order: Alternate Base Rate Advances margin, Term Rate Advances / SONIA Advances margin, Facility Fee. The drawn margin column applies equally to Term SOFR, EURIBOR and SONIA Advances. The Facility Fee is payable on each Revolving Lender's commitment irrespective of usage, quarterly in arrears, on a 360-day basis. In the extracted text the Level I base rate cell prints as a bare 'bps' on the level line with its '0' dropped to the next line beside '≥ A/A2'; it is read as 0 bps, in line with Levels II to IV. No all-in drawn figure is printed."
+    }
+   ],
+   "fees": [],
+   "change_vs_existing": null,
+   "notes": "Default rate: on notice from the Administrative Agent or the Required Lenders during a payment Event of Default, the Applicable Margin on overdue amounts increases by 200 basis points per annum (page 5). No upfront, arrangement, extension or utilization fee figures are stated; the only fee with a number is the Facility Fee in the grid. Advances may be prepaid without premium or penalty (breakage costs on Term Rate Advances only). No ESG / sustainability adjustment, no margin step-ups over time and no alternative-currency pricing adjustment are stated. No letter of credit or swingline sub-facility is described. The term sheet does not show the pricing of the Existing Revolving Credit Agreements being replaced."
+  },
+  "financial_covenants": [
+   {
+    "type": "min_interest_coverage",
+    "name": "Consolidated Adjusted EBITDA to Consolidated Interest Expense",
+    "direction": "min",
+    "threshold": 4.0,
+    "unit": "x",
+    "threshold_text": "not less than 4.00 to 1.00",
+    "schedule": [],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "Parent (Aon plc), consolidated",
+    "test_frequency": "As of the last day of each fiscal quarter of Parent, commencing with the first full fiscal quarter end date occurring after the Closing Date",
+    "definition_notes": "Related definitions are identical to those in the Existing Revolving Credit Agreements (not reproduced). The start date refers to the 'Closing Date', a term defined in the separate Term Loan Facility Term Sheet, whereas the leverage covenant starts from the Revolving Effective Date.",
+    "change_vs_existing": null,
+    "quote": "Parent will maintain as of the last day of each fiscal quarter of Parent, commencing with the first full fiscal quarter end date occurring after the Closing Date, a ratio of Consolidated Adjusted EBITDA to Consolidated Interest Expense of not less than 4.00 to 1.00.",
+    "page": 6
+   },
+   {
+    "type": "max_net_leverage",
+    "name": "Consolidated Net Leverage Ratio (Consolidated Funded Debt to Consolidated Adjusted EBITDA)",
+    "direction": "max",
+    "threshold": 3.5,
+    "unit": "x",
+    "threshold_text": "not more than 3.50 to 1.00 prior to the Acquisition Closing Date; 4.75 to 1.00 for the fiscal quarter in which the Acquisition Closing Date occurs, stepping down to 3.50 to 1.00 by the eighth full fiscal quarter after it",
+    "schedule": [
+     {
+      "period": "Prior to the date of consummation of the Acquisition (the Acquisition Closing Date)",
+      "threshold": 3.5
+     },
+     {
+      "period": "Last day of the fiscal quarter during which the Acquisition Closing Date occurs",
+      "threshold": 4.75
+     },
+     {
+      "period": "Last day of each of the first and second full consecutive fiscal quarters ending after the Acquisition Closing Date",
+      "threshold": 4.5
+     },
+     {
+      "period": "Last day of the third full consecutive fiscal quarter ending after the Acquisition Closing Date",
+      "threshold": 4.25
+     },
+     {
+      "period": "Last day of the fourth and fifth full consecutive fiscal quarters ending after the Acquisition Closing Date",
+      "threshold": 4.0
+     },
+     {
+      "period": "Last day of the sixth and seventh full consecutive fiscal quarters ending after the Acquisition Closing Date",
+      "threshold": 3.75
+     },
+     {
+      "period": "Last day of the eighth full consecutive fiscal quarter ending after the Acquisition Closing Date and each fiscal quarter ending thereafter",
+      "threshold": 3.5
+     }
+    ],
+    "step_up": {
+     "present": true,
+     "threshold": 4.0,
+     "detail": "Covenant Reset Notice: at any time when the required level is otherwise 3.50 to 1.00, if Parent and/or its Subsidiaries have made acquisitions (other than the Acquisition) with aggregate consideration of $500,000,000 or more during the prior twelve months, the maximum is automatically increased from 3.50 to 1.00 to 4.00 to 1.00 for four fiscal quarters after such acquisition and 3.75 to 1.00 for two more fiscal quarters thereafter (a Covenant Reset Period), commencing with the fiscal quarter in which a subject acquisition is consummated. Parent must then evidence compliance at 3.50 to 1.00 for a full fiscal quarter after the Covenant Reset Period before giving another Covenant Reset Notice."
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "Parent (Aon plc), consolidated",
+    "test_frequency": "As of the last day of each fiscal quarter of Parent, commencing with the first fiscal quarter end date occurring after the Revolving Effective Date",
+    "definition_notes": "Net of cash: Consolidated Funded Debt is to permit netting of an amount not exceeding the sum of (x) 65% of all unrestricted cash and cash equivalents of the Parent and the Subsidiaries as of the last day of each Measurement Period and (y) the proceeds of Securities issued by Parent and its subsidiaries that are intended to be used for the Acquisition and the other Transactions (or to redeem such Securities if the Acquisition does not close). Other definitions are identical to the Existing Revolving Credit Agreements. The text calls the ratio both 'Consolidated Net Leverage Ratio' and 'Consolidated Leverage Ratio', and the reset mechanics refer to 'any Term Lender'.",
+    "change_vs_existing": "Existing covenant levels are not shown. The definitions are stated to be identical to the Existing Revolving Credit Agreements except that Consolidated Funded Debt is to be defined to permit the cash and acquisition-proceeds netting described in the definition notes.",
+    "quote": "a ratio of Consolidated Funded Debt to Consolidated Adjusted EBITDA of not more than (i) prior to the date of consummation of the Acquisition (the “Acquisition Closing Date”), 3.50 to 1.00, (ii) on the last day of the fiscal quarter during which the Acquisition Closing Date occurs, 4.75 to 1.00",
+    "page": 7
+   }
+  ],
+  "no_financial_covenant_note": null,
+  "format_notes": ""
+ }
+}

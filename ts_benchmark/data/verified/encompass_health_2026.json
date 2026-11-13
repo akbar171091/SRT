@@ -1,0 +1,219 @@
+{
+ "sha1": "28340ee6a2c92cd6d750e74e8fd0a3bf2868f54e",
+ "source_file": "Encompass Health 2026 TS.pdf",
+ "verified_on": "2026-11-12",
+ "method": "Extracted from the full document by one AI reviewer, then audited value by value against the document text by a second, independent AI reviewer (1,001 values checked across the 14 term sheets; no misread figure was found, and the classification points it raised are listed here where they changed this record). Not signed off by a person. Every quote is re-checked against the PDF each time the tool runs.",
+ "notes": [
+  "Credit spread adjustment recorded as 'not stated' rather than 'none': the term sheet is silent on a SOFR adjustment. 'None' is kept for documents that expressly exclude or remove one."
+ ],
+ "record": {
+  "deal": "Encompass Health 2026",
+  "source_file": "Encompass Health 2026 TS.pdf",
+  "doc": {
+   "kind": "term_sheet",
+   "title": "Marketing Term Sheet for $1,000,000,000 Senior Secured Revolving Credit Facility",
+   "date": null,
+   "is_amendment": false,
+   "notes": "13-page long-form marketing term sheet (Truist Securities as Left Lead Arranger, Truist Bank as Agent) for a new revolver that refinances the Precedent Credit Agreement (Sixth Amended and Restated Credit Agreement dated October 7, 2022, with Barclays Bank, PLC among its parties). The body (pages 1-9) covers structure and covenants; pricing and fees are in Addendum I (pages 10-13). No date is printed on the term sheet itself. The revolver includes a $260,000,000 letter of credit sublimit and a $40,000,000 swingline sublimit. Most terms are 'substantially the same as the Precedent Credit Agreement' with listed basket increases; the term sheet does not print the existing pricing or existing covenant levels."
+  },
+  "borrower": {
+   "name": "Encompass Health Corporation",
+   "quote": "Encompass Health Corporation (the “Borrower”)",
+   "page": 1
+  },
+  "credit_profile": {
+   "value": "leveraged",
+   "basis": "Senior secured revolver with subsidiary guarantees and a first priority lien on personal property and stock pledges; margin and commitment fee priced off a leverage grid (not ratings); commitment fee (not facility fee) structure; maintenance net leverage covenant of 4.50x; negative covenants reference pari passu debt, a high yield / bridge debt basket and J. Crew / Chewy / Serta protections. No ratings are named."
+  },
+  "security": {
+   "value": "secured",
+   "detail": "First priority security interest in and lien on all personal property of the Borrower and the Guarantors, plus a pledge of 100% of the capital stock of wholly owned domestic subsidiaries and 65% of the voting capital stock of foreign subsidiaries, on substantially the same basis as the Precedent Credit Agreement. Guaranteed by wholly owned domestic subsidiaries subject to exclusions.",
+   "quote": "by a first priority security interest in and lien (subject to customary exclusions and exceptions to be mutually agreed) on all personal property of the",
+   "page": 2
+  },
+  "facilities": [
+   {
+    "id": "F1",
+    "name": "Senior Secured Revolving Credit Facility (the Revolver)",
+    "type": "revolver",
+    "amount_mm": 1000,
+    "currency": "USD",
+    "tenor_text": "Five (5) years after the Closing Date",
+    "tenor_years": 5.0,
+    "maturity_text": "the date that is five (5) years after the Closing Date",
+    "quote": "A $1,000,000,000 senior secured revolving credit facility",
+    "page": 2
+   }
+  ],
+  "pricing": {
+   "benchmark": "Term SOFR (one, three or six month interest periods); alternatively the Index Rate (one-month Term SOFR Index Rate, reset monthly) or the Base Rate",
+   "basis": "leverage_grid",
+   "basis_detail": "Applicable Margin and Commitment Fee are set by a five-level grid based on the Borrower's Consolidated Total Net Leverage Ratio (the defining sentence says 'Consolidated Total Net Leverage Ratio'; the grid's column header reads 'Consolidated Total Leverage Ratio' without 'Net').",
+   "csa": {
+    "applies": null,
+    "bps": null,
+    "detail": "The term sheet is silent on a credit spread adjustment: the rate is Term SOFR plus the Applicable Margin, with no adjustment in the definitions.",
+    "quote": "(i) Term SOFR for interest periods of one, three or six months (in each case, subject to the availability thereof) plus the Applicable Margin (as defined below)",
+    "page": 10
+   },
+   "floor": {
+    "pct": 0.0,
+    "detail": "All indexes, including Term SOFR and the Index Rate, are subject to a floor of 0.00% per annum (the 'Floor'). The Floor is also one of the four limbs of the Base Rate definition.",
+    "quote": "shall be subject to a floor of 0.00% per annum (the “Floor”)",
+    "page": 12
+   },
+   "grids": [
+    {
+     "name": "Applicable Margin pricing grid (Addendum I)",
+     "facility_ids": [
+      "F1"
+     ],
+     "metric": "Consolidated Total Net Leverage Ratio (grid column header reads 'Consolidated Total Leverage Ratio')",
+     "undrawn_fee_type": "commitment_fee",
+     "page": 10,
+     "tiers": [
+      {
+       "level": "I",
+       "criteria": "> 4.50:1.00",
+       "drawn_margin_bps": 200.0,
+       "base_rate_margin_bps": 100.0,
+       "undrawn_fee_bps": 25.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "I > 4.50:1.00 2.00% 1.00% 0.25%"
+      },
+      {
+       "level": "II",
+       "criteria": "≤ 4.50:1.00 but > 3.50:1.00",
+       "drawn_margin_bps": 175.0,
+       "base_rate_margin_bps": 75.0,
+       "undrawn_fee_bps": 25.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "II ≤ 4.50:1.00 but > 1.75% 0.75% 0.25% 3.50:1.00"
+      },
+      {
+       "level": "III",
+       "criteria": "≤ 3.50:1.00 but > 2.50:1.00",
+       "drawn_margin_bps": 150.0,
+       "base_rate_margin_bps": 50.0,
+       "undrawn_fee_bps": 20.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "III ≤ 3.50:1.00 but > 1.50% 0.50% 0.20% 2.50:1.00"
+      },
+      {
+       "level": "IV",
+       "criteria": "≤ 2.50:1.00 but > 1.50:1.00",
+       "drawn_margin_bps": 125.0,
+       "base_rate_margin_bps": 25.0,
+       "undrawn_fee_bps": 20.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "IV ≤ 2.50:1.00 but > 1.25% 0.25% 0.20% 1.50:1.00"
+      },
+      {
+       "level": "V",
+       "criteria": "≤ 1.50:1.00",
+       "drawn_margin_bps": 100.0,
+       "base_rate_margin_bps": 0.0,
+       "undrawn_fee_bps": 20.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "V ≤ 1.50:1.00 1.00% 0.00% 0.20%"
+      }
+     ],
+     "opening_level_note": "The term sheet does not say which level applies at closing or initially, so no tier is flagged as opening.",
+     "notes": "Columns in document order: Level | Consolidated Total Leverage Ratio | SOFR Loans & Index Rate Loans | Base Rate Loans | Commitment Fee. The drawn margin column applies to both SOFR Loans and Index Rate Loans. In the extracted text the ratio band of Levels II, III and IV wraps onto a second line, so the lower bound of the band (3.50:1.00, 2.50:1.00, 1.50:1.00) appears after the three percentages in those tier quotes. There is no letter of credit fee column; the LC participation fee equals the SOFR margin and is recorded under fees. The commitment fee is paid on the average daily unused portion of the Revolver; outstanding Letters of Credit count as usage, Swingline Loans do not."
+    }
+   ],
+   "fees": [
+    {
+     "type": "lc_participation_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Letter of Credit participation fee on all outstanding Letters of Credit, at a per annum rate equal to the Applicable Margin then in effect for SOFR Loans under the Revolver, shared ratably among the Revolver Lenders, payable quarterly in arrears. No separate number is printed; it tracks the SOFR Loans column of the pricing grid.",
+     "bps": null,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "Equal to the Applicable Margin for SOFR Loans (grid column runs 1.00% to 2.00%)",
+     "quote": "The Borrower shall pay a participation fee on all outstanding Letters of Credit at a per annum rate equal to the Applicable Margin then in effect with respect to SOFR Loans under the Revolver",
+     "page": 13
+    },
+    {
+     "type": "lc_fronting_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Fronting fee on the average daily Letter of Credit exposure attributable to Letters of Credit issued by the applicable Issuing Bank, payable quarterly in arrears to that Issuing Bank for its own account. The Issuing Bank's customary and reasonable issuance and administration fee is payable in addition (no number given).",
+     "bps": 12.5,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "0.125% per annum",
+     "quote": "A fronting fee in an amount equal to 0.125% per annum on the average daily amount of the portion of the Letter of Credit exposure attributable to Letters of Credit issued by the applicable Issuing Bank.",
+     "page": 13
+    }
+   ],
+   "change_vs_existing": "Not shown. The term sheet lists basket increases against the Precedent Credit Agreement but does not print the existing margins, commitment fee or other existing pricing, so no pricing comparison can be drawn from the document.",
+   "notes": "Default interest (page 12): applicable interest rate plus 2.00% per annum (other amounts: 2.00% per annum plus the rate applicable to Base Rate Loans), automatic on a bankruptcy event of default or at the Required Lenders' election on a payment event of default. Swingline Loans bear interest at the Base Rate plus the Applicable Margin for Base Rate loans. Base Rate is the highest of (i) Truist Bank's prime rate, (ii) the Federal Funds rate plus 1/2%, (iii) the Index Rate plus 100 basis points and (iv) the Floor. Commitment fee is the grid column, payable quarterly in arrears on the average daily unused portion of the Revolver. Optional prepayments and commitment reductions are without premium or penalty (page 2), subject to breakage costs on SOFR borrowings. No upfront, closing, arrangement, ticking or extension fee is stated in the term sheet or Addendum I. No ESG / sustainability pricing adjustment, MFN or time-based margin step-up is mentioned. An administrative fee of $3,500 is payable by an assigning Lender to the Agent on each assignment (page 8); it is a lender-paid processing fee and is not recorded as a pricing fee. Interest and fees are calculated on an actual/360 basis, except prime-rate-based interest on actual/365-366."
+  },
+  "financial_covenants": [
+   {
+    "type": "max_net_leverage",
+    "name": "Maximum Quarterly Consolidated Total Net Leverage Ratio",
+    "direction": "max",
+    "threshold": 4.5,
+    "unit": "x",
+    "threshold_text": "4.50:1.00",
+    "schedule": [],
+    "step_up": {
+     "present": true,
+     "threshold": 5.0,
+     "detail": "'Covenant holiday' step-up to 5.00:1.00 for the four fiscal quarters following a Significant Acquisition, to be defined as (x) any acquisition for which the aggregate consideration exceeds $100,000,000 or (y) a series of related acquisitions in any 12 month period for which the aggregate consideration exceeds $100,000,000."
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "Borrower on a consolidated basis; Senior Secured Revolving Credit Facility",
+    "test_frequency": "Quarterly",
+    "definition_notes": "To be defined as (i) total indebtedness minus (ii) cash and cash equivalents (other than restricted cash and cash equivalents) divided by Adjusted Consolidated EBITDA. No cap on netted cash is stated. Component definitions (including Adjusted Consolidated EBITDA) to be substantially consistent with the Precedent Credit Agreement; pro forma effect given to certain acquisitions, investments, dispositions, repayment of indebtedness and other specified transactions.",
+    "change_vs_existing": null,
+    "quote": "Consolidated Total Net Leverage Ratio (to be defined in the Financing Documentation as (i) total indebtedness minus (ii) cash and cash equivalents (other than restricted cash and cash equivalents) divided by Adjusted Consolidated EBITDA) of 4.50:1.00, with a “covenant holiday” step-up to 5.00:1.00",
+    "page": 7
+   },
+   {
+    "type": "min_interest_coverage",
+    "name": "Minimum Quarterly Interest Coverage Ratio",
+    "direction": "min",
+    "threshold": 3.0,
+    "unit": "x",
+    "threshold_text": "no less than 3.00:1.000 (printed with three decimals on the right-hand side; read as 3.00:1.00)",
+    "schedule": [],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "Borrower on a consolidated basis; Senior Secured Revolving Credit Facility",
+    "test_frequency": "Quarterly",
+    "definition_notes": "To be defined as (i) Adjusted Consolidated EBITDA for the trailing four fiscal quarter period divided by (ii) the sum of (x) total interest expense plus (y) dividend requirements with respect to disqualified stock and preferred stock paid, accrued or accumulated during such period. Component definitions to be substantially consistent with the Precedent Credit Agreement; pro forma effect given to specified transactions.",
+    "change_vs_existing": null,
+    "quote": "Adjusted Consolidated EBITDA for the trailing four fiscal quarter period divided by (ii) the sum of (x) total interest expense plus (y) dividend requirements with respect to disqualified stock and preferred stock paid, accrued or accumulated during such period) to be no less than 3.00:1.000.",
+    "page": 7
+   }
+  ],
+  "no_financial_covenant_note": null,
+  "format_notes": ""
+ }
+}

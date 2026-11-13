@@ -1,0 +1,228 @@
+{
+ "sha1": "192b49af76f34710a139c7661660cebc7c0d3aa3",
+ "source_file": "Carnival Corp 2025 TS.pdf",
+ "verified_on": "2026-11-12",
+ "method": "Extracted from the full document by one AI reviewer, then audited value by value against the document text by a second, independent AI reviewer (1,001 values checked across the 14 term sheets; no misread figure was found, and the classification points it raised are listed here where they changed this record). Not signed off by a person. Every quote is re-checked against the PDF each time the tool runs.",
+ "notes": [
+  "Credit profile flagged as a crossover credit: the facility has an investment-grade structure, but the guarantee fall-away wording implies investment-grade ratings from two agencies are not held at closing."
+ ],
+ "record": {
+  "deal": "Carnival Corp 2025",
+  "source_file": "Carnival Corp 2025 TS.pdf",
+  "doc": {
+   "kind": "term_sheet",
+   "title": "Carnival Corporation and Carnival plc - Revolving Credit Facility - Summary of Principal Terms and Conditions",
+   "date": null,
+   "is_amendment": false,
+   "notes": "14-page 'Posting Version' term sheet for a new $4 billion five-year senior unsecured multicurrency revolving credit facility; termination of the Existing Revolving Facility (Facilities Agreement for Multicurrency Revolving Facilities dated February 28, 2023, as amended March 28, 2024) is a condition precedent. No document date is printed (it refers to an indenture dated February 28, 2025 and to covenant testing commencing with the fiscal quarter ending August 31, 2025). Body is pages 1-8; Annex I 'Interest and Certain Fees' is pages 9-12; Annex I-B pricing grid is page 13 (Corporate Rating definition runs onto page 14). Sublimits: swingline up to $1.0 billion in euros, letters of credit up to $500.0 million; incremental revolving commitments up to $1.0 billion."
+  },
+  "borrower": {
+   "name": "Carnival Corporation and Carnival plc (together, the Borrowers / the Company)",
+   "quote": "(i) Carnival Corporation, a Panamanian corporation (“Carnival Corporation”), and (ii) Carnival plc , a company incorporated and registered under the laws of England and Wales",
+   "page": 1
+  },
+  "credit_profile": {
+   "value": "investment_grade",
+   "basis": "Crossover credit, grouped with the investment-grade structures on the form of the facility (unsecured, ratings grid, facility fee). Investment-grade style structure: senior unsecured revolver priced off a Corporate Rating grid (Level 1 >=A3/A- down to Level 5 <=Ba1/BB+) with a facility fee paid on total commitments, and debt-to-capitalization and interest coverage maintenance covenants. Caveat: the document does not state the current ratings, and it points to a crossover credit rather than a settled investment-grade one: guarantees are released only on a Guarantee Fall-Away Event (Investment Grade Ratings from at least two agencies after the Closing Date), high-yield style negative covenants (debt incurrence, restricted payments, asset sales) apply until a Covenant Fall-Away Event, and the borrower has secured term loan agreements outstanding."
+  },
+  "security": {
+   "value": "unsecured",
+   "detail": "Senior unsecured. Guaranteed (subject to release on the Guarantee Fall-Away Event) by each Borrower (other than for its own obligations) and each subsidiary of any Borrower that guarantees the Closing Date Term Loan Credit Agreements. Until a Covenant Fall-Away Event there is a double negative pledge over three subject vessels (Carnival Celebration, P&O Arvia and Venezia).",
+   "quote": "The Facility will be unsecured.",
+   "page": 4
+  },
+  "facilities": [
+   {
+    "id": "F1",
+    "name": "Senior Unsecured Revolving Credit Facility (Initial Revolving Commitments; multicurrency: U.S. dollars, euros, pounds sterling)",
+    "type": "revolver",
+    "amount_mm": 4000,
+    "currency": "USD",
+    "tenor_text": "five (5) years after the Closing Date",
+    "tenor_years": 5.0,
+    "maturity_text": "The date that is five (5) years after the Closing Date (the \"Termination Date\"); no amortization",
+    "quote": "A senior unsecured revolving credit facility (the “Facility”) in an Facility: aggregate principal amount of $4 billion, denominated in U.S. dollars, euros, pounds sterling",
+    "page": 2
+   }
+  ],
+  "pricing": {
+   "benchmark": "Term SOFR (U.S. dollars; 1, 3 or 6-month Interest Periods), Adjusted EURIBOR (euro), Adjusted Daily Simple SONIA (pounds sterling); Alternate Base Rate option for U.S. dollar borrowings",
+   "basis": "ratings_grid",
+   "basis_detail": "Corporate Rating as determined by S&P, Moody's and/or Fitch (grid column shows Moody's / S&P-Fitch style pairs, e.g. Baa3 / BBB-). Split-rating rules: two or more agencies in the same Level -> that Level; three different Levels -> the Level next below the highest; only two ratings in different Levels -> the higher, unless two or more Levels apart, then the Level next below the highest; only one rating -> that Level; none -> Level 5.",
+   "csa": {
+    "applies": false,
+    "bps": null,
+    "detail": "No credit spread adjustment is provided for. The 'Adjusted Term SOFR Rate' is defined simply as the Term SOFR Rate subject to the Floor (and the Adjusted Daily Simple SONIA Rate as Daily Simple SONIA subject to the Floor); the only adjustment to EURIBOR is for statutory reserve requirements. The term sheet does not use the words 'credit spread adjustment' at all.",
+    "quote": "“Adjusted Term SOFR Rate” means the Term SOFR Rate; provided that if the Adjusted Term SOFR Rate as so determined would be less than the Floor",
+    "page": 9
+   },
+   "floor": {
+    "pct": 0.0,
+    "detail": "Initial Floor of 0% for each of the Adjusted Term SOFR Rate, Adjusted EURIBOR Rate and Adjusted Daily Simple SONIA Rate. Separately, the Alternate Base Rate is floored at 1.00% (page 9).",
+    "quote": "For the avoidance of doubt the initial Floor for each of Adjusted Term SOFR Rate, Adjusted EURIBOR Rate, or Adjusted Daily Simple SONIA Rate shall be 0%.",
+    "page": 10
+   },
+   "grids": [
+    {
+     "name": "Annex I-B - Revolving Credit Facility Pricing Grid (Applicable Margin)",
+     "facility_ids": [
+      "F1"
+     ],
+     "metric": "Corporate Rating (S&P, Moody's and/or Fitch)",
+     "undrawn_fee_type": "facility_fee",
+     "page": 13,
+     "tiers": [
+      {
+       "level": "Level 1",
+       "criteria": "≥A3 / A-",
+       "drawn_margin_bps": 79.5,
+       "base_rate_margin_bps": 0.0,
+       "undrawn_fee_bps": 8.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Level 1 ≥A3 / A- 0.080% 0.795% 0.000%"
+      },
+      {
+       "level": "Level 2",
+       "criteria": "Baa1 / BBB+",
+       "drawn_margin_bps": 90.0,
+       "base_rate_margin_bps": 0.0,
+       "undrawn_fee_bps": 10.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Level 2 Baa1 / BBB+ 0.100% 0.900% 0.000%"
+      },
+      {
+       "level": "Level 3",
+       "criteria": "Baa2 / BBB",
+       "drawn_margin_bps": 100.0,
+       "base_rate_margin_bps": 0.0,
+       "undrawn_fee_bps": 12.5,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Level 3 Baa2 / BBB 0.125% 1.000% 0.000%"
+      },
+      {
+       "level": "Level 4",
+       "criteria": "Baa3 / BBB-",
+       "drawn_margin_bps": 110.0,
+       "base_rate_margin_bps": 10.0,
+       "undrawn_fee_bps": 15.0,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Level 4 Baa3 / BBB- 0.150% 1.100% 0.100%"
+      },
+      {
+       "level": "Level 5",
+       "criteria": "≤ Ba1 / BB+",
+       "drawn_margin_bps": 132.0,
+       "base_rate_margin_bps": 32.0,
+       "undrawn_fee_bps": 16.7,
+       "all_in_drawn_bps": null,
+       "lc_fee_bps": null,
+       "is_opening": false,
+       "quote": "Level 5 ≤ Ba1 / BB+ 0.167% 1.320% 0.320%"
+      }
+     ],
+     "opening_level_note": "The term sheet does not state the Corporate Ratings at closing or which Level applies initially, so no tier is flagged. (The Guarantee Fall-Away Event, which requires Investment Grade Ratings from at least two agencies after the Closing Date, suggests the opening level is at the lower end of the grid, but the document does not say which Level.)",
+     "notes": "Columns in document order: Level | Corporate Rating | Facility Fee | Applicable Margin for Term Benchmark and RFR Loans | Applicable Margin for ABR/Base Rate Loans. The Facility Fee accrues on the aggregate Initial Revolving Commitments (drawn or undrawn), so the drawn cost is margin plus facility fee; the grid does not print an all-in figure and none is derived here. The same margin column applies to Term SOFR, EURIBOR and SONIA (RFR) loans. No letter of credit fee column: the LC fee equals the Applicable Margin for Term Benchmark Loans (see fees). Rating changes take effect on the first Business Day after announcement."
+    }
+   ],
+   "fees": [
+    {
+     "type": "lc_participation_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Letter of credit fee on the face amount of each Letter of Credit, shared ratably among the Lenders, payable quarterly in arrears (fifteen calendar days after each calendar quarter end). No fixed number: it tracks the Term Benchmark margin column of the Annex I-B grid.",
+     "bps": null,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "Per annum rate equal to the Applicable Margin then in effect for Term Benchmark Loans (Annex I-B grid)",
+     "quote": "The Borrowers shall pay fees on the face amount of each Letter of Credit at a per annum rate equal to the Applicable Margin then in effect with respect to Term Benchmark Loans under the Facility.",
+     "page": 12
+    },
+    {
+     "type": "lc_fronting_fee",
+     "facility_ids": [
+      "F1"
+     ],
+     "description": "Fronting fee on the face amount of each Letter of Credit, payable quarterly in arrears to the applicable Issuing Bank for its own account (or such other amount as agreed between the Issuing Bank and the Borrowers); customary administrative, issuance, amendment, payment and negotiation charges are payable in addition.",
+     "bps": 12.5,
+     "bps_low": null,
+     "bps_high": null,
+     "amount_text": "0.125% per annum",
+     "quote": "Fronting fees in an amount equal to 0.125% per annum (or such other amount as may be agreed by the applicable Issuing Bank and the Borrowers) on the face amount of each Letter of Credit",
+     "page": 12
+    }
+   ],
+   "change_vs_existing": "Not shown. This is a new facility replacing the Existing Revolving Facility (dated February 28, 2023, borrower Carnival Holdings (Bermuda) II Limited); the term sheet does not set out the existing facility's pricing.",
+   "notes": "Facility Fee (grid column) is payable on the aggregate Initial Revolving Commitments, drawn or undrawn, from the Closing Date, quarterly in arrears fifteen calendar days after each calendar quarter end. Default rate: applicable rate plus 2% per annum on overdue amounts; overdue interest, fees and other amounts at 2% above the rate applicable to Base Rate Loans. Alternate Base Rate = highest of Prime Rate, NYFRB Rate plus 0.5% and one-month Adjusted Term SOFR Rate plus 1%, floored at 1.00%. Swingline Loans (up to $1.0 billion in euros) bear interest at a rate to be agreed between the Borrowers and the Swingline Lenders. Daily Simple SONIA uses a 5 RFR Business Day lookback. Voluntary prepayments and commitment reductions are without premium or penalty. The term sheet states no upfront, arrangement, extension, utilization or ticking fee, no ESG / sustainability pricing adjustment and no MFN provision. Incremental Facilities (up to $1.0 billion) are to be on terms consistent with, or not materially more favorable to the incremental lenders than, the existing Revolving Loans."
+  },
+  "financial_covenants": [
+   {
+    "type": "max_debt_to_capitalization",
+    "name": "Debt to Capitalization Ratio",
+    "direction": "max",
+    "threshold": 65.0,
+    "unit": "pct",
+    "threshold_text": "not to exceed 65.0%",
+    "schedule": [],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "The Borrowers (Carnival Corporation and Carnival plc); Facility F1",
+    "test_frequency": "Quarterly, as of the last day of each fiscal quarter of the Borrowers (each a \"Testing Date\"), commencing with the Testing Date for the fiscal quarter ending August 31, 2025",
+    "definition_notes": "Debt to Capitalization Ratio is not defined in the term sheet; it is to be defined in the Credit Documentation in a manner consistent with the Existing Revolving Facility. The term sheet also says the Financial Covenants will commence with the first full fiscal quarter after the Closing Date. Financial covenants are not among the Terminated Covenants that fall away on a Covenant Fall-Away Event.",
+    "change_vs_existing": null,
+    "quote": "commencing with the Testing Date for the fiscal quarter ending August 31, 2025, the Debt to Capitalization Ratio (to be defined in the Credit Documentation in a manner consistent with the Existing Revolving Facility) to exceed 65.0%",
+    "page": 6
+   },
+   {
+    "type": "min_interest_coverage",
+    "name": "Interest Coverage Ratio",
+    "direction": "min",
+    "threshold": 2.5,
+    "unit": "x",
+    "threshold_text": "not less than (i) 2.50 to 1.00 for any Testing Date on or prior to November 30, 2025, and (ii) 3.00 to 1.00 for any Testing Date from February 28, 2026 onward",
+    "schedule": [
+     {
+      "period": "Testing Dates on or prior to November 30, 2025 (commencing with the fiscal quarter ending August 31, 2025)",
+      "threshold": 2.5
+     },
+     {
+      "period": "Testing Dates from February 28, 2026 onward",
+      "threshold": 3.0
+     }
+    ],
+    "step_up": {
+     "present": false,
+     "threshold": null,
+     "detail": ""
+    },
+    "springing": {
+     "is_springing": false,
+     "trigger": ""
+    },
+    "applies_to": "The Borrowers (Carnival Corporation and Carnival plc); Facility F1",
+    "test_frequency": "Quarterly, as of each Testing Date (last day of each fiscal quarter of the Borrowers), commencing with the Testing Date for the fiscal quarter ending August 31, 2025",
+    "definition_notes": "Interest Coverage Ratio is not defined in the term sheet; it is to be defined in the Credit Documentation in a manner consistent with the Existing Revolving Facility. The minimum steps up from 2.50x to 3.00x from the February 28, 2026 Testing Date. The term sheet also says the Financial Covenants will commence with the first full fiscal quarter after the Closing Date. Financial covenants are not among the Terminated Covenants that fall away on a Covenant Fall-Away Event.",
+    "change_vs_existing": null,
+    "quote": "Interest Coverage Ratio (to be defined in the Credit Documentation in a manner consistent with the Existing Revolving Facility) to be less than, (i) 2.50 to 1.00, for any Testing Date on or prior to November 30, 2025, and (ii) 3.00 to 1.00, for any Testing Date from February 28, 2026 onward.",
+    "page": 6
+   }
+  ],
+  "no_financial_covenant_note": null,
+  "format_notes": ""
+ }
+}
